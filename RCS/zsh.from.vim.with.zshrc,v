@@ -1,0 +1,28 @@
+head	1.1;
+access;
+symbols;
+locks
+	rob:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2012.11.15.20.03.12;	author rob;	state Exp;
+branches;
+next	;
+
+
+desc
+@.
+@
+
+
+1.1
+log
+@.
+@
+text
+@# This is used to call zsh from vim and use my .zshrc file.
+source ~/.zshrc
+zsh -f -d
+@

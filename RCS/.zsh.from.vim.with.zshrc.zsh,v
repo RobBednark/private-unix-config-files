@@ -1,0 +1,45 @@
+head	1.2;
+access;
+symbols;
+locks
+	rob:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2012.11.15.20.07.04;	author rob;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.11.15.20.03.57;	author rob;	state Exp;
+branches;
+next	;
+
+
+desc
+@.
+@
+
+
+1.2
+log
+@.
+@
+text
+@#!/usr/bin/env zsh
+# This is used to call zsh from vim and use my .zshrc file.
+# From: http://stackoverflow.com/questions/13402899/why-does-my-vim-command-line-path-differ-from-my-shell-path
+source ~/.zshrc
+zsh -f -d
+@
+
+
+1.1
+log
+@.
+@
+text
+@d1 1
+d3 1
+@

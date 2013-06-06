@@ -1,0 +1,37 @@
+head	1.1;
+access;
+symbols;
+locks
+	sara:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2011.10.13.22.27.28;	author sara;	state Exp;
+branches;
+next	;
+
+
+desc
+@.
+@
+
+
+1.1
+log
+@.
+@
+text
+@:set ic
+:set ai
+:set nows
+:set hls
+:set ts=4
+:set sw=4
+:set textwidth=300
+:syntax on
+" incsearch - incremental search
+:set incsearch
+:set fileformat=unix
+:set expandtab
+@

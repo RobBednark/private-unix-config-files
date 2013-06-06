@@ -1,0 +1,2 @@
+I did "chmod a-rx Pydiction", because I don't really like how it's been working with tab completion.
+I did "chmod a-rx python-mode" because it seemed to be giving me problems.

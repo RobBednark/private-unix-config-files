@@ -1,0 +1,30 @@
+#URxvt*font: xft:DejaVu Sans Mono:pixelsize=40:antialias=true:hinting=true
+# Font sizes and screen width (window max width, 
+# screen 1440x900 on Windows Vista, littlered laptop)
+# Size  Width Height
+# 10    285
+# 13    237   73
+# 14    203   62
+# 15    202   58
+# 17
+# 20    142
+# 25    101   35
+# 30    88    29
+# 40    61
+# 50    51
+# 60    43
+# Use 25 for the quiz
+# Use 20 for others viewing the screen.
+# Use 13 for myself.
+Rxvt*font: 14
+
+Xcursor.size: 60
+#Rxvt*background: #000030
+#Rxvt*foreground: wheat
+#Rxvt*scrollBar_right: true
+Rxvt*saveLines: 2000
+#Rxvt*cursorColor: white
+#Xterm*background: #000030
+#Xterm*foreground: wheat
+#Rxvt.bigfont_key: Right
+#Rxvt.smallfont_key: Left

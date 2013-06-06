@@ -1,0 +1,1381 @@
+head	1.1;
+access;
+symbols;
+locks
+	sara:1.1; strict;
+comment	@# @;
+
+
+1.1
+date	2011.10.13.22.27.28;	author sara;	state Exp;
+branches;
+next	;
+
+
+desc
+@.
+@
+
+
+1.1
+log
+@.
+@
+text
+@# Last updated: Fri 7/12/2002 06:15pm by Rob Bednark
+# AUTHOR: Rob Bednark
+################################################################################
+### .bashrc
+################################################################################
+
+# Set the interactive shell prompt to [username@@machinename directory]
+#export PS1="\u@@\h \w \D{%m/%d} \t$ "
+#
+# e.g.,
+# sara@@LittleRed ~/bin Tue Oct 11 11:34:24$ 
+#
+#export PS1="\u@@\h \w \d \t$ "
+export PS1="$ "
+export DISPLAY='rbednark:0.0'
+export DISPLAY=""
+export SHELL=/bin/bash
+
+################################################################################
+### Exports
+################################################################################
+export MANPATH="$MANPATH:/usr/man"
+export PATH="$PATH:$DirBin"
+export PATH="$PATH:/bin"
+export PATH="$PATH:/usr/local/bin"
+#export PATH="$PATH:/cygdrive/c/Program Files/Java/jdk1.5.0_02/bin"
+#export PATH="$PATH:/home/sara/bin"
+export PATH="$PATH:/cygdrive/c/Program Files/MySQL/MySQL Server 5.5/bin"
+export PERLLIB="$DirBin"
+
+## PYTHONPATH is searched by python for modules to import
+#export PYTHONPATH="/fvt/tests/modules"
+#export PYTHONPATH="~/selenium/selenium-python-client-driver-1.0.1"
+##export PYTHONPATH="C:/cygwin/home/sara/selenium/selenium-python-client-driver-1.0.1"
+
+if echo $OSTYPE | grep -i linux > /dev/null; then
+	## ASSERT: this is Linux
+	export PATH="$PATH:/usr/bin"
+	export PATH="$PATH:/sbin"
+	export PATH="$PATH:/usr/sbin"
+	export PATH="$PATH:/home/sara/bin"
+else
+	:
+fi
+
+
+cd ~
+
+################################################################################
+### Non-exports:
+################################################################################
+elm35="elm17d35.eng.beaverton.ibm.com"
+elm36="elm17d36.eng.beaverton.ibm.com"
+elm37="elm17d37.eng.beaverton.ibm.com"
+elm38="elm17d38.eng.beaverton.ibm.com"
+elm50="elm17d50.eng.beaverton.ibm.com"
+
+### Directories dependent on one another, or used for Dir's down below
+
+CmdDatestamp='date +%Y.%m.%d_%H.%M.%S.%a'
+if hostname | grep 'littlered-ubuntu' > /dev/null; then
+	DirSaraDocs="~/windows.sara.documents"
+else
+	DirSaraDocs="/cygdrive/c/Users/sara/Documents"
+fi
+IBM=false
+DirRob="$DirSaraDocs/Rob"
+# This is what it was on HOME-PC desktop:
+#DirRbednark="/cygdrive/c/cygwin/home/sara"
+DirRbednark="/home/sara"
+DirTopPC="$DirRbednark"
+DirTopUnix="/home/rbednark"
+DirBin="$DirTopPC/bin"
+DirTxt="$DirTopPC/txt"
+DirDoc="~/doc"
+
+
+DirBackup="$DirTopPC/backup"
+DirBednarkCom="$DirTopPC/bednark.com"
+DirC="/cygdrive/c"
+DirCheckin="$DirRbednark/checkin"
+DirDefects="/tankbuilds/sm/defect.details/one.defect.per.file"
+DirDownload="$DirRbednark/download"
+DirDropbox="~/dropbox"
+DirLearn="$DirBin/learn"
+DirOptionTables="$DirRbednark/option.tables"
+DirPicts="$DirRbednark/picts"
+DirPublicHtml="$DirRbednark/public_html"
+DirReadOnly="$DirRbednark/read.only"
+DirSync="$DirRbednark/sync"
+if $IBM; then
+	DirStaf="$DirC/staf"
+	DirTankbuildsPC="$DirReadOnly/tankbuilds"
+	DirTestadm="$DirReadOnly/testadm"
+	DirTestDocs="/gsa/bvrgsa/.projects/p1/newport/test/fvt/docs/"
+fi
+
+FileAbout="$DirBednarkCom/cpp/aboutMe.cpp"
+FileAccomps="$DirDoc/accomplishments.txt"
+FileBackup="$DirBin/backup.laptop.sh"
+FileBlog="$DirDoc/blog.txt"
+FileBlogHtml="$DirBednarkCom/cpp/blog.cpp"
+FileBooknotes="$DirBednarkCom/cpp/bookNotes.cpp"
+FileContactInfo="$DirBednarkCom/cpp/contact.info.cpp"
+FileDoc="$DirDoc/doc.txt"
+FileEmailAddrs="$DirDoc/aliases.text"
+FileEstimates="$DirDoc/estimates.txt"
+FileEmailGroups="$DirBednarkCom/cpp/email.groups.cpp"
+FileFamilyTreeHtml="$DirSync/Html/I1.html"
+FileHuawei="$DirDoc/huawei.notes.txt"
+FileHumor="$DirBednarkCom/cpp/humor.cpp"
+FileIndex="$DirBednarkCom/cpp/index.cpp"
+FileInformixEmployees="$DirPublicHtml/employees.html"
+FileJ="$DirDoc/j.txt"
+FileMyPsychology="$DirDoc/my.psychology.txt"
+if hostname | grep 'littlered-ubuntu' > /dev/null; then
+	DirCygwin="~/windows.cygwin.home.sara"
+	FileRc="$DirCygwin/.bashrc"
+else
+	FileRc="~/.bashrc"
+fi
+FilePeopleHtml="$DirBednarkCom/people.I.know.html"
+FilePeopleTxt="$DirDoc/people.I.know.txt"
+FilePhone="$DirDoc/phone.nums.txt"
+FilePicts="$DirTxt/sent.list.txt"
+FileQuotes="$DirBednarkCom/quotes.html"
+FileRecommendations="$DirBednarkCom/cpp/i.recommend.cpp"
+FileSitemap="$DirBednarkCom/sitemap.xml"
+FileViolinStrings="$DirBednarkCom/cpp/violin.strings.survey.cpp"
+FileSiteMapHtml="$DirBednarkCom/cpp/site.map.cpp"
+FileSiteMapXml="$DirBednarkCom/sitemap.xml"
+FileSoftwareQuotes="$DirBednarkCom/cpp/software.quotes.cpp"
+FileStocks="$DirDoc/sto.txt"
+FileStockNotes="$DirDoc/stock.notes.txt"
+FileStories="$DirBednarkCom/cpp/stories.cpp"
+FileSurfingCpp="$DirBednarkCom/cpp/surfing.cpp"
+FileToday="$DirDoc/today.txt"
+FileTodayNew="$DirBin/todo_db.py"
+FileToDo="$DirDropbox/todo.txt"
+FileVimrc="$DirRbednark/.vimrc"
+FileVocab="$DirBednarkCom/cpp/vocab.cpp"
+
+BinQuote="$DirBin/get.random.quote.pl"
+
+DirScpBin="root@@$MachineDriver:/fvt/rbednark/bin"
+DirDriverSync="root@@$MachineDriver:~rbednark/one.button/cmvc"
+
+################################################################################
+# Huawei
+################################################################################
+hostPortalFut="portal.futurewei.ebento.net"
+hostMtproxy="mtproxy.futurewei.ebento.net"
+hostMtproxy8="mtproxy8.ebento.net"
+hostDouglas="12.133.183.105"
+hostFwMtdata="mtdata.futurewei.ebento.net"
+hostQaMtdata="qaproxy.ebento.net"
+
+Rob="$MachineRob"
+
+################################################################################
+### Aliases
+################################################################################
+#alias acrobat="'/cygdrive/c/Program Files/Adobe/Acrobat 6.0/Reader/AcroRd32.exe'"
+#alias acrobat="'/cygdrive/c/Program Files/Adobe/Acrobat 7.0/Reader/AcroRd32.exe'"
+alias acrobat="'/cygdrive/c/Program Files (x86)/Adobe/Reader 10.0/Reader/AcroRd32.exe'"
+
+alias   browse.family.tree="firefoxfile $FileFamilyTreeHtml"
+
+alias	cdbednarkcom="cd $DirBednarkCom"
+alias	cdbin="title bin; cd $DirBin"
+alias	cdc="cd $DirC; pwd; ls"
+alias	cdcheckin="cd $DirCheckin"
+alias	cddefects="title all defects; cd $DirDefects"
+alias	cddoc="cd $DirDoc"
+alias	cddownload="cd $DirDownload"
+alias   cdfam="cd ~/dropbox/family.tree/test"
+alias	cdlearn="title learn; cd $DirLearn"
+alias	cdmusic="cd /cygdrive/c/Documents\ and\ Settings/All\ Users/Documents/My\ Music/"
+alias 	cdnew="cd $DirCmvcSandboxNew"
+alias	cdoption="cd $DirOptionTables"
+alias	cdpicts="cd $DirPicts"
+alias	cdpublic="cd $DirPublicHtml"
+alias   cdquiz="title quiz; cd $DirLearn/quiz.python"
+alias	cdsel="title ebento.py; cd ~/huawei/selenium"
+#alias	cdstax="cd $DirLearn/stax; pwd; ls"
+alias	cdsync="cd $DirSync"
+alias	cdtank="title tankbuilds; cd $DirTankbuildsPC; ls"
+alias	cdtestadm="cd $DirTestadm; ls"
+alias	cdtxt="cd $DirTxt"
+alias	ci="ci -zLT"
+# I think "cmd" works for the default cygwin window, but not for rxvt
+#alias	cls="cmd /c cls"
+# The following echo sequence works for rxvt.
+alias cls="echo -ne '\033c'" 
+alias	co="co -zLT"
+alias	cp="cp -ip "
+
+alias	diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
+alias	dotrc="source $FileRc"
+
+alias	findex="ls -l | grep '^...x'"
+if hostname | grep 'littlered-ubuntu' > /dev/null; then
+	true
+else
+	alias	firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
+fi
+
+#alias 	gvim=" /cygdrive/c/Program\ Files/Vim/vim63/gvim.exe"
+alias 	gvim="  /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim72/gvim.exe"
+alias 	gvimdiff="c:/WINDOWS/gvimdiff.bat"
+
+
+alias	ls="ls -CF"
+alias   lshead="ls -lt|head -15"
+alias	lsx="ls -l | grep '^-..x'"
+alias	lib="title library; telnet multnomah.lib.or.us"
+
+alias	manoj="telnet $MachineManoj"
+alias	mv="mv -i"
+
+alias 	mounttestadm="sudo mkdir -p /testadm; sudo mount $MachineCurtis:/testadm /testadm"
+
+alias	pgoog="ping google.com"
+alias 	pok="title poughkeepsie sanfs00; telnet 9.12.20.42; ssh rbednark@@9.12.20.42"
+alias	pw3="ping w3.ibm.com"
+DirPyWin="c:/Python27"
+DirPy2="c:/Python27"
+DirPy3="c:/Python32"
+alias	pydocwin="$DirPyWin/python.exe $DirPyWin/Lib/pydoc.py"
+alias	pythonwin="$DirPyWin/python.exe"
+alias   py2="$DirPy2/python.exe"
+alias   py2w="$DirPy2/pythonw.exe"
+alias   py=py2
+alias   py3="$DirPy3/python.exe"
+alias   py3w="$DirPy3/pythonw.exe"
+alias	pywin=pythonwin
+alias   pipwin="$DirPyWin/Scripts/pip.exe"
+
+alias	quote="echo '================================================================================'; $BinQuote --cfg $DirSync/quote.cfg --linelength 160 $FileQuotes; echo '================================================================================'"
+alias	quoteOld="echo '================================================================================'; $BinQuote --old --cfg $DirSync/quote.cfg --linelength 160 $FileQuotes; echo '================================================================================'"
+
+alias	rm="rm -i"
+
+alias	script_date="script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`"
+alias	script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`'
+alias 	sdriver="title fvt4-drv1; ssh -l root $MachineFvt4Driver9"
+#alias   seleniumServerRun="java -jar C:/cygwin/home/sara/selenium/selenium-server-1.0.3/selenium-server.jar"
+alias   seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/selenium-2.0b1/selenium-server-standalone-2.0b1.jar"
+alias	sshmtproxy="echo mtd@@t@@2011; ssh root@@mtproxy.futurewei.ebento.net"
+alias	sshmtproxy8="echo wloe...; ssh rbednark@@mtproxy8.ebento.net"
+alias	sshtest="title douglas; ssh rbednark@@$hostDouglas"
+#alias 	sobs="source /home/rbednark/mysandbox/new/obs.env.bash"
+#alias	srob="ssh -l root $MachineRob"
+#alias 	ssh.svc.driver="ssh root@@9.47.81.137"
+#alias 	sserv1="ssh -l root $MachineFvt1Serv1"
+#alias 	sserv2="ssh -l root $MachineFvt1Serv2"
+#alias 	syncbvtsummary="set -x; cd ~/gsa/review/laptop; scp bvt_summaries.txt root@@$MachineFvt1Driver9:$DirTestDocs; ssh root@@$MachineFvt1Driver9 \"chmod 755 $DirTestDocs/bvt_summaries.txt; ls -ltr $DirTestDocs\"; set +x"
+
+alias	tlab="title svc driver; telnet $MachineSvcDriver"
+alias 	tbvt3="telnet $MachineBvt3Driver9"
+alias	tcurtis="telnet $MachineCurtis"
+alias	telm35="telnet $elm35"
+alias	telm36="telnet $elm36"
+alias	telm37="telnet $elm37"
+alias	telm50="telnet $elm50"
+alias 	sfvt1="title fvt1; ssh $MachineFvt1Driver9"
+alias 	tfvt1="title fvt1; telnet $MachineFvt1Driver9"
+alias 	tfvt8="title fvt8; telnet $MachineFvt8Driver9"
+alias	tritu="telnet $MachineRitu"
+alias	trob="ssh -l root $MachineRob"
+alias	ssvcdriver="title SVC Driver; ssh root@@$MachineSvcDriver"
+alias	tsvcdriver="title SVC Driver; telnet $MachineSvcDriver"
+alias 	tclient1="telnet $MachineFvt1ClientLinux"
+alias	taix="telnet 192.168.40.25"
+
+alias	vaddrs="title vi email addresses; vici $FileEmailAddrs"
+alias	vbackup="vici $FileBackup"
+alias	vconvert="title teamroom.how.to.convert.to.flexsan.html; cd $DirDoc; explorer.exe teamroom.how.to.convert.to.flexsan.html; vici teamroom.how.to.convert.to.flexsan.html"
+alias 	vdefects="vim /tankbuilds/sm/defect.details/all.tank.defects"
+alias	vebento="cdsel; vici ebento.py"
+alias 	vhw="title Huawei; vici $FileToDo $FileHuawei $FileJ $FileDoc"
+alias	vgoserver="title teamroom.design.proposal.eliminating.GoServer.html; cd $DirDoc; explorer.exe teamroom.design.proposal.eliminating.GoServer.html; vici teamroom.design.proposal.eliminating.GoServer.html"
+alias	vgtest="title gtest.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/teamroom.brownbag.gtest.html` &); vici teamroom.brownbag.gtest.html"
+
+alias	vhowtorun="vici $DirDoc/teamroom.how.to.run.html"
+alias	vninja="title ninja.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/ninja.html` &); vici ninja.html"
+alias	vobs="title readme.obs.html; cd $DirDoc; explorer.exe readme.obs.html; vici readme.obs.html"
+alias	vi=vim
+
+alias 	vj="title j; vici $FileJ $FileDoc"
+alias	vlyrics="title lyrics; vici $DirDoc/lyrics.txt"
+alias 	vone="vici $DirDoc/teamroom.one.button.html"
+alias	vphone="title vphone; vici $FilePhone"
+alias 	vpicts="vici $FilePicts"
+# 
+alias	vrc="title .bashrc; vici $FileRc; dotrc"
+alias	vrecipes="vici $DirDoc/fvt.team.recipes.txt"
+alias	vrequirements="vici $DirDoc/teamroom.fvt.requirements.html"
+alias vstocks="vici $FileStocks $FileStockNotes"
+alias	vpsych="vici $FileMyPsychology"
+alias vtoday="title vtoday; vici  $FileAccomps $FileDoc"
+alias vtodo="title ToDo; vici  $FileTodayNew $FileToday"
+alias vlists="title vlists; rm -f /tmp/tmp.todo*; /home/rbednark/bin/todo.py --makeLists; vim  /tmp/tmp.todo*"
+alias	vtips="title tips.html; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/tips.html` &); vici $DirDoc/tips.html"
+alias vvimrc="vici $FileVimrc"
+alias vxd="vici ~/.Xdefaults"
+alias	winmerge="'/cygdrive/c/Program Files/WinMerge/WinMerge.exe'"
+
+################################################################################
+### Functions
+################################################################################
+
+function check.cmd.before.tests() {
+	for oneFile in `\ls -1`; do
+		echo "+ grep $oneFile cmd.before.tests"
+		grep $oneFile cmd.before.tests
+		rc="$?"
+		if [ $rc -eq 0 ]; then
+			echo "YES: $oneFile"
+		else
+			echo "NO : $oneFile"
+		fi
+	done
+}
+
+function cilm () {
+	DirBase=`dirname $1`
+	mkdir -p $DirBase/RCS
+	ci -zLT -t-. -l -m. $*
+}
+function emailaddr () {
+  grep -i $@@ $FileEmailAddrs
+}
+function find.portal () {
+	 find .|xargs grep $@@ /dev/null
+}
+function vifind.portal() {
+	 files=`find .|xargs grep -l $@@ /dev/null`
+	 vim -R $files
+}
+function grepaliases () {
+	grep -i $@@ $FileEmailAddrs
+}
+function ninja.grep.tests () {
+	egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@@ 
+}
+function phone () {
+  grep -i $@@ $FilePhone
+}
+
+function scp.sync() {
+	allFiles=""
+	for oneFile in $@@
+	do
+		allFiles="$allFiles $DirDriverSync/$oneFile"
+	done
+	set -x
+	scp -p $allFiles .
+	set +x
+}
+
+function title {
+	echo -ne "\e]2;$*\a"
+}
+
+function titlessh {
+	ssh $Rob ~/bin/title $@@
+}
+### Note: this function must be defined after the "alias cilm", otherwise cilm is not resolved in this function.
+function vici () {
+	DirBase=`dirname $1`
+	mkdir -p $DirBase/RCS
+
+	rcsdiff $@@
+	echo "==================================================================="
+	cilm $@@
+	vim $@@
+	rcsdiff $@@
+	echo "==================================================================="
+	cilm $@@
+}
+function	vabout() { 
+	title aboutMe
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileAbout` &)
+	vici $FileAbout $FileIndex
+}
+
+function	vblog() { 
+	title blog
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileBlogHtml` &)
+	vici $FileBlogHtml $FileIndex $FileBlog $FileSiteMapXml
+	upload.to.bednark.com $FileBlogHtml $FileIndex
+}
+
+function vbooknotes() { 
+	title bookNotes
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileBooknotes` &)
+	vici $FileBooknotes $FileIndex
+	upload.to.bednark.com $FileBooknotes $FileIndex
+}
+
+function	vemailgroups() { 
+	title email.groups.html
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileEmailGroups` &)
+	vici $FileEmailGroups $FileIndex
+	upload.to.bednark.com $FileEmailGroups $FileIndex
+}
+
+function	vsurfing() { 
+	title surfing
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileSurfingCpp ` &)
+	vici $FileSurfingCpp $FileIndex
+	upload.to.bednark.com $FileSurfing $FileIndex
+}
+
+function	vcontact() { 
+	title bednark.com contact.info.cpp
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileContactInfo` &)
+	vici $FileContactInfo
+	upload.to.bednark.com $FileContactInfo
+}
+function	vindex() { 
+	title bednark.com index.cpp
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileIndex` &)
+	vici $FileIndex
+	upload.to.bednark.com $FileIndex
+}
+
+function	vpeople() { 
+	title people.I.know
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FilePeopleHtml` &)
+	vici $FilePeopleHtml $FileInformixEmployees $FilePeopleTxt $FileIndex
+	upload.to.bednark.com $FilePeopleHtml $FileBlogHtml $FileIndex
+}
+
+function	vhumor() { 
+	title humor
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileHumor` &)
+	vici $FileHumor $FileIndex
+	upload.to.bednark.com $FileHumor $FileIndex
+}
+function	vquotes() { 
+	title quotes
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileQuotes` http://bednark.com/quotes.html &)
+	vici $FileQuotes $FileIndex $FileSitemap
+	upload.to.bednark.com $FileQuotes $FileIndex
+}
+function	vrecommendations() { 
+	title recommendations
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileRecommendations` &)
+	vici $FileRecommendations $FileIndex
+	upload.to.bednark.com $FileRecommendations $FileIndex
+}
+
+function	vsitemap() { 
+	title site.map.cpp
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileSiteMapHtml` &)
+	vici $FileSiteMapHtml 
+	upload.to.bednark.com $FileSiteMapHtml
+}
+function	vsoftwarequotes() { 
+	title software.quotes
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileSoftwareQuotes` &)
+	vici $FileSoftwareQuotes $FileIndex
+	upload.to.bednark.com $FileSoftwareQuotes $FileIndex
+}
+function	vstories() { 
+	title stories
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileStories` &)
+	vici $FileStories $FileIndex
+	upload.to.bednark.com $FileStories $FileIndex
+}
+function	vstrings() { 
+	title violin strings survey
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileViolinStrings` &)
+	vici $FileViolinStrings $FileIndex
+	upload.to.bednark.com $FileViolinStrings $FileIndex
+}
+function	vvocab() { 
+	title vocab
+	cd $DirBednarkCom
+	(firefox file:///`cygpath -m $FileVocab` &)
+	vici $FileVocab $FileIndex
+	upload.to.bednark.com $FileVocab $FileIndex
+}
+
+
+function getbednark.com() {
+	rm -fr /tmp/bednark.com
+	mkdir -p /tmp/bednark.com
+	scp -p 'rob@@bednark.com:/home/rob/bednark.com/docs/*html' /tmp/bednark.com
+}
+function upload.defaults.to.bednark.com() {
+	upload.to.bednark.com $FileIndex $FileSurfing $FileQuotes $FileAbout $FileBooknotes
+}
+function upload.to.bednark.com() {
+	return
+	set -xv
+	cd $DirBednarkCom
+	scp -pr $@@ 'rob@@bednark.com:/home/rob/bednark.com/docs'
+	set +xv
+}
+function test.authors() {
+	if [ $# -gt 0 ]; then
+		dir="$@@"
+	else
+		dir="/fvt/tests/new.tests /fvt/tests/install"
+	fi
+
+	find $dir -name '*\.xml'| xargs grep -i author /dev/null 
+}
+
+################################################################################
+### Set's
+################################################################################
+### Set the command-line editing mode to "vi" (rather than the default of emacs)
+set -o vi
+
+################################################################################
+### CMVC variables and aliases
+################################################################################
+if false; then
+	DirCmvcSandbox="$DirTopUnix/mysandbox"
+	DirCmvcSandboxNew="$DirCmvcSandbox/new"
+	FileCmvcCheckedIn="$DirCmvcSandbox/checked.in"
+	FileCmvcDiffs="$DirCmvcSandbox/diffs"
+	FileCmvcFilelist='/tmp/tmp.cmvc.filelist.all.files.in.release'
+	export CMVC_FAMILY="opensms@@opensms.tucson.ibm.com@@26250"
+	export CMVC_RELEASE_BUILDS="st_sm_tools1.0"
+	export CMVC_RELEASE_BUNDLES="st_bundles2.1"
+	export CMVC_RELEASE_TESTS="st_tests2.1"
+	export CMVC_RELEASE="$CMVC_RELEASE_TESTS"
+	export CMVC_COMPONENT="newport.fvt.tests"
+	export CMVC_AUTH_METHOD="PW"
+	export CMVC_RELATIVE="c:\\temp"
+	export CMVC_EXTRACT_TIMESTAMP="version"  ## Make timestamp on extracted files using "Release -extract" use version timestamp rather than time of extraction
+	DirCmvc="/usr/local/bin/cmvc/bin"
+	alias cmvc.release.extract='Release -extract $CMVC_RELEASE -timestamp version -verbose -node direct -root `pwd` -nokeys -nocrlf'
+	alias cmvc.extract.tests.projectconfig='cmvc.auto.extract st-extract-tests2.1-all-elm8a245.buildconfig'
+	alias	cmvc.file.info="File -long -verbose -view "
+	alias	cmvc.report.all.files.build="Report -g FileView -select pathName -where \"releaseName in ('"$CMVC_RELEASE_BUILDS"')\""
+	alias	cmvc.report.all.files.bundles="Report -g FileView -select pathName -where \"releaseName in ('"$CMVC_RELEASE_BUNDLES"')\""
+	alias	cmvc.report.all.files.long="Report -g FileView -select baseName,releaseName,compName,versionSID,addDate,dropDate,lastUpdate,pathName,nuVersionSID,nuAddDate,nuDropDate,nuPathName,userLogin,fmode,translation,ownerLogin,ownerName,ownerArea,codepage,disttype,scode -where \"releaseName in ('st_tests2.1')\""
+	alias cmvc.report.all.releases='Report -g ReleaseView -select name -where "1=1"'
+	alias cmvc.report.all.releases.long='Report -g ReleaseView -select name,compName,relProcess,userLogin,userName,userArea,addDate,dropDate,lastUpdate,description,track,approve,fix,lvl,test,relType,parentrel,parentlvl,parentstg,developmentMode -where "1=1"'
+	alias	cmvc.set.release.builds='export CMVC_RELEASE=$CMVC_RELEASE_BUILDS'
+	alias	cmvc.set.release.bundles='export CMVC_RELEASE=$CMVC_RELEASE_BUNDLES'
+	alias	cmvc.set.release.tests='export CMVC_RELEASE=$CMVC_RELEASE_TESTS'
+fi
+################################################################################
+### CMVC Functions
+################################################################################
+if false; then
+function cmvc.report.all.files() {
+	#alias cmvc.report.all.files="Report -g FileView -select pathName -where \"releaseName in ('"$CMVC_RELEASE"')\""
+	# TODO: Need to modify this to exclude deleted files
+	#Report -g FileView -select pathName -where  \"releaseName in ('"$CMVC_RELEASE"')\""
+	 Report -g FileView -select pathName -where "\"releaseName in ('"$CMVC_RELEASE"')\""
+
+	# This works from the command-line:
+	# Report -g FileView -select pathName -where "releaseName in ('st_tests2.1')"
+}
+function cmvc.create () {
+	echo 'Note: this assumes that you are in the ./new directory'
+	for oneFile in $*; do
+		FileBase=`basename $oneFile`
+		if echo $oneFile | grep '^fvt\/'; then
+			echo "Good, this path begins with ^fvt/"
+		else
+			echo 
+			echo
+			echo '********************************************************************************'
+			echo '********************************************************************************'
+			echo '!!  WARNING WARNING WARNING WARNING'
+			echo "WARNING: [$oneFile] being created does not begin with '^fvt/' -- are you sure this is correct?"
+			echo '********************************************************************************'
+			echo '********************************************************************************'
+			echo 
+			echo 
+		fi
+		## Make sure to change permissions, because these permissions are what it will be set to in CMVC.
+		chmod 777 $FileBase
+		File -verbose -create $oneFile
+		rc=$?
+		if [ $rc -ne 0 ]; then
+			echo 
+			echo
+			echo '********************************************************************************'
+			echo '********************************************************************************'
+			echo '!!  ERROR ERROR ERROR ERROR ERROR'
+			echo "ERROR: return code from CMVC command is [$rc]"
+			echo '********************************************************************************'
+			echo '********************************************************************************'
+			echo 
+			echo 
+		fi
+		cmvc.file.history $oneFile >> $FileCmvcCheckedIn
+		mkdir -p ../done
+		mv $FileBase ../done
+	done
+}
+function cmvc.checkin () {
+	fileCheckinStdoutLog="$DirCmvcSandbox/checked.in.stdout.log"
+	fileTmpStdout="/tmp/tmp.cmvc.checkin.stdout.$$"
+	cmvc.checkin2 $*
+	return
+
+
+	# This does not work, because it starts a new process, and CMVC is not logged-in in that
+	# new process.
+	(cmvc.checkin2 $*) > $fileTmpStdout 2>&1
+	cat $fileTmpStdout
+	cat $fileTmpStdout >> $fileCheckinStdoutLog
+	rm -f $fileTmpStdout
+}
+function cmvc.checkin2 () {
+	secsTimerStart=`date +%s`
+	dirRelative=$1
+	filename=$2
+	if [ "$dirRelative" = "NOT_RELATIVE" ]; then
+		optRelative=""
+	else
+		optRelative=" -relative $dirRelative"
+	fi
+	File -verbose -checkin $filename $optRelative -remarks - < remarks
+	rc=$?
+	if [ $rc -ne 0 ]; then
+		echo 
+		echo
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo '!!  ERROR ERROR ERROR ERROR ERROR'
+		echo "ERROR: return code from CMVC command is [$rc]"
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo 
+		echo 
+	fi
+	secsTimerEnd=`date +%s`
+	secsTimerElapsed=$((secsTimerEnd - secsTimerStart))
+	echo "Elapsed checkin time: $secsTimerElapsed seconds"
+}
+function cmvc.delete () {
+	for oneFile in $*; do
+		File -verbose -delete $oneFile
+		rc=$?
+		if [ $rc -ne 0 ]; then
+			echo 
+			echo
+			echo '********************************************************************************'
+			echo '********************************************************************************'
+			echo '!!  ERROR ERROR ERROR ERROR ERROR'
+			echo "ERROR: return code from CMVC command is [$rc]"
+			echo '********************************************************************************'
+			echo '********************************************************************************'
+			echo 
+			echo 
+		fi
+		echo "--------------------------------------------------------------------------------" >> $FileCmvcCheckedIn
+		date >> $FileCmvcCheckedIn
+		echo "DELETED file: $oneFile" >> $FileCmvcCheckedIn
+	done
+}
+function cmvc.binary.mycheckin() {
+	echo 'This function will cd to the necessary directory'
+	cd $DirCmvcSandboxNew/..
+	DirCMVC=$1
+	FileLocal=$2
+	echo "FileLocal: $FileLocal"
+	echo "DirCMVC  : $DirCMVC"
+	echo "FullPath : $DirCMVC/$FileLocal"
+	echo "Hit return to continue..."
+	read x
+	set -x
+	vim remarks
+	cmvc.checkout NOT_RELATIVE $DirCMVC/$FileLocal
+	set -x
+	echo "Copying file from new/ to here"
+	pwd
+	rm -f $FileLocal
+	cp new/$FileLocal .
+	ls -l $FileLocal
+	cmvc.checkin NOT_RELATIVE $DirCMVC/$FileLocal
+	cmvc.file.history $DirCMVC/$FileLocal >> $FileCmvcCheckedIn
+	mkdir -p done
+	mv new/$FileLocal done
+	rm -f $FileLocal
+
+	cmvc.file.history $DirCMVC/$FileLocal >> $FileCmvcCheckedIn
+
+	set +x
+}
+function cmvc.unlock() {
+	dirRelative=$1
+	filename=$2
+	if [ "$dirRelative" = "NOT_RELATIVE" ]; then
+		optRelative=""
+	else
+		optRelative=" -relative $dirRelative"
+	fi
+	set -x
+	File -verbose -unlock $filename $optRelative
+	rc=$?
+	set +x
+	if [ $rc -ne 0 ]; then
+		echo 
+		echo
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo '!!  ERROR ERROR ERROR ERROR ERROR'
+		echo "ERROR: return code from checkout is [$rc]"
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo 
+		echo 
+		echo 
+	fi
+}
+function cmvc.checkout() {
+	secsTimerStart=`date +%s`
+	dirRelative=$1
+	filename=$2
+	if [ "$dirRelative" = "NOT_RELATIVE" ]; then
+		optRelative=""
+	else
+		optRelative=" -relative $dirRelative"
+	fi
+	date >> $DirCmvcSandbox/checked.out.log
+	date >> $DirCmvcSandbox/unlock.log
+	echo "File -verbose -nocrlf -checkout $filename $optRelative" >> $DirCmvcSandbox/checked.out.log
+	echo "File -verbose -unlock $filename $optRelative" >> $DirCmvcSandbox/unlock.log
+	File -verbose -nocrlf -checkout $filename $optRelative
+	rc=$?
+	if [ $rc -ne 0 ]; then
+		echo 
+		echo
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo '!!  ERROR ERROR ERROR ERROR ERROR'
+		echo "ERROR: return code from checkout is [$rc]"
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo 
+		echo 
+		echo 
+	fi
+	secsTimerEnd=`date +%s`
+	secsTimerElapsed=$((secsTimerEnd - secsTimerStart))
+	echo "Elapsed checkout time: $secsTimerElapsed seconds"
+}
+function cmvc.extract.version() {
+	version=$1
+	file=$2
+	File -verbose -nokeys -nocrlf -version $version -extract $file
+	rc=$?
+	if [ $rc -ne 0 ]; then
+		echo 
+		echo
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo '!!  ERROR ERROR ERROR ERROR ERROR'
+		echo "ERROR: return code from CMVC command is [$rc]"
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo 
+		echo 
+	fi
+}
+function	cmvc.file.history() {
+	if [ $# -ge 2 ]; then
+		numCheckins="$2"
+	else
+		numCheckins=1
+	fi
+	File -long -verbose -view $1 | filter.cmvc.history.pl -numcheckins $numCheckins
+	rc=$?
+	if [ $rc -ne 0 ]; then
+		echo 
+		echo
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo '!!  ERROR ERROR ERROR ERROR ERROR'
+		echo "ERROR: return code from CMVC command is [$rc]"
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo 
+		echo 
+	fi
+	echo
+	echo
+}
+function	cmvc.filelist.append.checkin() {
+	filename=$1
+	echo "================================================================================"
+	echo "Checked-in file: $filename"
+	echo "================================================================================"
+	date
+	cat remarks
+	echo
+	echo
+}
+function cmvc.find.fullpath {
+		oneFile=$1
+		echo "File: $oneFile"
+		fileCmvc=`egrep "\<$oneFile\>" $FileCmvcFilelist.$CMVC_RELEASE`
+		dir=`dirname $fileCmvc`
+		file=`basename $fileCmvc`
+		fullPath="$dir/$file"
+		echo "fullPath: $fullPath"
+}
+function cmvc.auto.extract {
+		for oneFile in $*; do
+			echo "File: $oneFile"
+			fileCmvc=`egrep "\<$oneFile\>" $FileCmvcFilelist.$CMVC_RELEASE `
+			echo "Found: $fileCmvc"
+			num=1
+			for oneFile in $fileCmvc; do
+				dir=`dirname $oneFile`
+				file=`basename $oneFile`
+				fullPath="$dir/$file"
+				cd $DirCmvcSandboxNew
+				echo "Extracting $fullPath"
+				cmvc.extract $fullPath
+				chmod 777 $file
+				# Make copies of the file, in case there are multiple files with this name
+				if [ -f .$file ]; then
+					chmod 777 .$file
+					# cp .$file .$file.copy.$num
+				fi
+				# cp $file $file.copy.$num
+				((num++))
+			done
+		done
+}
+function cmvc.auto.diff {
+	files="$@@"
+	dirLocal=`pwd`
+	for oneFileLocal in $files
+	do
+		echo ""
+		echo "Local file: $oneFileLocal"
+		fileCmvc=`egrep "\<$oneFileLocal\>" $FileCmvcFilelist.$CMVC_RELEASE `
+		echo "grep returned: $fileCmvc"
+		for oneFileTbuilds in $fileCmvc; do
+			cmd="diff /tankbuilds/tests/$oneFileTbuilds $dirLocal/$oneFileLocal"
+			set -x
+			$cmd
+			set +x
+			echo "Previous diff command: $cmd"
+			echo
+			echo "Hit return to continue..."
+			read x
+		done
+	done
+}
+function cmvc.auto.diff.show.identicals {
+	files="$@@"
+	dirLocal=`pwd`
+	for oneFileLocal in $files
+	do
+		fileCmvc=`egrep "\<$oneFileLocal\>" $FileCmvcFilelist.$CMVC_RELEASE `
+		if [ "zz$fileCmvc" = "zz" ]; then
+			echo "NOT FOUND: $oneFileLocal"
+		fi
+		for oneFileTbuilds in $fileCmvc; do
+			diff /tankbuilds/tests/$oneFileTbuilds $dirLocal/$oneFileLocal > /dev/null 2>&1
+			rc=$?
+			if [ $rc = 0 ]; then
+				# These files are identical
+				echo "IDENTICAL: $oneFileLocal $oneFileTbuilds"
+			else
+				# These files are different
+				echo "different: $oneFileLocal $oneFileTbuilds"
+			fi
+		done
+	done
+}
+function cmvc.auto.mycheckin {
+	cd $DirCmvcSandboxNew
+	for oneFile in *
+	do
+		echo ""
+		echo $oneFile
+		fileCmvc=`egrep "\<$oneFile\>" $FileCmvcFilelist.$CMVC_RELEASE `
+		echo "Found: $fileCmvc"
+		for oneFileFound in $fileCmvc; do
+			dir=`dirname $oneFileFound`
+			basename=`basename $oneFileFound`
+			echo cmvc.mycheckin $dir $basename
+			echo "Continue with this one? (n for no, anything else continues)"
+			read x
+			if [ "$x" == "n" ]; then
+				echo "Skipping $oneFileFound"
+			else
+				cd $DirCmvcSandbox
+				cmvc.mycheckin $dir $basename
+			fi
+		done
+	done
+	cd $DirCmvcSandbox
+	cmvc.report.my.checkouts
+}
+function cmvc.extract() {
+	File -verbose -nokeys -nocrlf -extract $1
+	rc=$?
+	chmod u+w `basename $1`
+	if [ $rc -ne 0 ]; then
+		echo 
+		echo
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo '!!  ERROR ERROR ERROR ERROR ERROR'
+		echo "ERROR: return code from CMVC command is [$rc]"
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo 
+		echo 
+	fi
+}
+function cmvc.show.level() {
+	levels="$@@"
+	for oneLevel in $levels; do
+		set -x
+		Report -general LevelView -select name -where "description like ('%$oneLevel%')"
+		Report -general LevelView -select description -where "name in ('$oneLevel')"
+		set +x
+	done
+}
+function cmvc.mycheckin() {
+	echo 'This function assumes that the file to checkin is in a subdirectory "./new".'
+	DirCMVC=$1
+	FileLocal=$2
+	echo "FileLocal: $FileLocal"
+	echo "DirCMVC  : $DirCMVC"
+	echo "FullPath : $DirCMVC/$FileLocal"
+	echo "Hit return to continue..."
+	read x
+	set -x
+	cmvc.checkout NOT_RELATIVE $DirCMVC/$FileLocal
+	\rm -fr RCS
+	cilm $FileLocal
+	cp new/$FileLocal .
+	cilm $FileLocal
+	rcsdiff -r1.1 $FileLocal > remarks
+	rc="$?"
+	if [ "$rc" -eq 0 ]; then
+		echo '********************************************************************************'
+		echo 'ERROR!  The file being checked-in is identical to the file in CMVC.'
+		echo '********************************************************************************'
+		echo "Unlocking/un-checking-out this file..."
+		cmvc.unlock NOT_RELATIVE $DirCMVC/$FileLocal
+		echo 'Hit return to continue...'
+		read x
+		return
+	fi
+	echo >> $FileCmvcDiffs
+	echo >> $FileCmvcDiffs
+	date >> $FileCmvcDiffs
+	echo "$DirCMVC/$FileLocal" >> $FileCmvcDiffs
+	rcsdiff -r1.1 $FileLocal >> $FileCmvcDiffs 2>&1
+	echo "Hit return to edit remarks..."
+	read x
+	vim remarks
+	echo "Hit return to proceed with checkin..."
+	read x
+	cmvc.checkin NOT_RELATIVE $DirCMVC/$FileLocal
+	cmvc.file.history $DirCMVC/$FileLocal >> $FileCmvcCheckedIn
+	mkdir -p done
+	mv new/$FileLocal done
+	rm -f $FileLocal
+	mkdir -p extract
+	cd extract
+	cmvc.extract $DirCMVC/$FileLocal
+	cd ..
+	diff done/$FileLocal extract/$FileLocal
+	set +x
+}
+function cmvc.filelist.delete() {
+	echo "Usage: cmvc.filelist.mycheckin  <filelist>"
+	filelist=$1
+	echo "filelist    : $filelist"
+	echo "pwd:" `pwd`
+	echo -n "Date started: "; date
+	numFile=0
+	totalFiles=`cat $filelist | wc -l`
+	secsTimerStart2=`date +%s`
+	allFiles=`cat $filelist`
+	for oneFile in $allFiles; do
+		secsTimerStart3=`date +%s`
+		((numFile++))
+		echo -e "\n\n\n\n"
+		echo "================================================================================"
+		echo "File $numFile of $totalFiles"
+		echo "================================================================================"
+		cmvc.delete $oneFile
+		date
+		secsTimerEnd2=`date +%s`
+		secsTimerElapsed2=$((secsTimerEnd2 - secsTimerStart2))
+		secsAvgPerFile=$((secsTimerElapsed2 / numFile))
+
+		secsTimerEnd3=`date +%s`
+		secsTimerElapsed3=$((secsTimerEnd3 - secsTimerStart3))
+		echo "Elapsed time for this file: $secsTimerElapsed3 seconds"
+		echo "Elapsed time all files    : $secsTimerElapsed2 seconds"
+		echo "Num files processed       : $numFile of $totalFiles"
+		echo "Average time per file     : $secsAvgPerFile seconds"
+	done
+	echo
+	echo "Number of files deleted: $numFile"
+	echo -n "Date finished: "; date
+}
+function cmvc.filelist.mycheckin() {
+	echo "Usage: cmvc.filelist.mycheckin  <filelist>  <dirCheckout>  <dirCheckout> <fileRemarks>"
+	filelist=$1
+	dirCheckout=$2
+	dirCheckin=$3
+	fileRemarks=$4
+	echo "filelist    : $filelist"
+	echo "dirCheckout : $dirCheckout"
+	echo "dirCheckin  : $dirCheckin"
+	echo "fileRemarks : $fileRemarks"
+	echo "pwd:" `pwd`
+	echo "Hit return to continue..."
+	read x
+	cp $fileRemarks remarks
+	echo -n "Date started: "; date
+	numFile=0
+	totalFiles=`cat $filelist | wc -l`
+	secsTimerStart2=`date +%s`
+	for oneFile in `cat $filelist`; do
+		secsTimerStart3=`date +%s`
+		((numFile++))
+		echo -e "\n\n\n\n"
+		echo "================================================================================"
+		echo "File $numFile of $totalFiles"
+		echo "================================================================================"
+		set -x
+		cmvc.checkout $dirCheckout $oneFile
+		cmvc.checkin $dirCheckin $oneFile
+		cmvc.filelist.append.checkin $oneFile >> $FileCmvcCheckedIn
+		set +x
+		date
+		# cmvc.file.history $oneFile >> $FileCmvcCheckedIn
+		secsTimerEnd2=`date +%s`
+		secsTimerElapsed2=$((secsTimerEnd2 - secsTimerStart2))
+		secsAvgPerFile=$((secsTimerElapsed2 / numFile))
+
+		secsTimerEnd3=`date +%s`
+		secsTimerElapsed3=$((secsTimerEnd3 - secsTimerStart3))
+		echo "Elapsed time for this file: $secsTimerElapsed3 seconds"
+		echo "Elapsed time all files    : $secsTimerElapsed2 seconds"
+		echo "Num files processed       : $numFile of $totalFiles"
+		echo "Average time per file     : $secsAvgPerFile seconds"
+	done
+	echo
+	echo "Number of files checked-in: $numFile"
+	echo -n "Date finished: "; date
+	set +x
+}
+function cmvc.refresh.filelist () {
+	echo "To get files for build (tests extract projectconfig), use any argument (e.g., cmvc.refresh.filelist foo)"
+	set -xv
+	if [ $# -ge 1 ]; then
+		cmvc.report.all.files.build > $FileCmvcFilelist.$CMVC_RELEASE
+	else
+		cmvc.report.all.files > $FileCmvcFilelist.$CMVC_RELEASE
+	fi
+	ls -l $FileCmvcFilelist.$CMVC_RELEASE
+	wc -l $FileCmvcFilelist.$CMVC_RELEASE
+	set +xv
+}
+function cmvc.rename () {
+	## 
+	echo 'Usage: cmvc.rename <old_name> <new_name>'
+	echo 'This assumes you are in the ~/mysandbox directory, because it will append to $DirCmvcSandbox/checked.in'
+	OldName=$1
+	NewName=$2
+	File -verbose -rename $OldName -path $NewName
+	rc=$?
+	if [ $rc -ne 0 ]; then
+		echo 
+		echo
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo '!!  ERROR ERROR ERROR ERROR ERROR'
+		echo "ERROR: return code from CMVC command is [$rc]"
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo 
+		echo 
+	fi
+	echo "--------------------------------------------------------------------------------" >> $FileCmvcCheckedIn
+	date >> $FileCmvcCheckedIn
+	echo "Renamed file:" >> $FileCmvcCheckedIn
+	echo "    $OldName" >> $FileCmvcCheckedIn
+	echo "to:" >> $FileCmvcCheckedIn
+	echo "    $NewName" >> $FileCmvcCheckedIn
+	echo "" >> $FileCmvcCheckedIn
+}
+function cmvc.report.all.defects() {
+	Report \
+		-g DefectView \
+		-select 'prefix,name,compName,releaseName,ownerLogin,state,answer,severity,abstract,age,envName,levelName,duplicate,lastUpdate,addDate,assignDate,responseDate,endDate,ownerName,ownerArea,reference,originLogin,originName,originArea,remoteName,remoteFamily,defectarea,symptom,phaseFound,priority,target,testcase,estcompdate,relateddefects,codereviewer,status,activity,trigger,impact,odctarget,deftype,qualifier,source,srchistory,contentODC,hotdate' \
+		-where "1=1"
+}
+function cmvc.report.my.checkouts() {
+	echo
+	echo
+	echo "================================================================================"
+	echo "Files that I have checked-out:"
+	echo "================================================================================"
+	set -x
+	Report \
+		-general FileView \
+		-where "releasename in ('st_tests2.1') AND userlogin in ('rbednark')" \
+		-select 'nuPathName,userLogin'
+	rc=$?
+	set +x
+	if [ $rc -ne 0 ]; then
+		echo 
+		echo
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo '!!  ERROR ERROR ERROR ERROR ERROR'
+		echo "ERROR: return code from CMVC command is [$rc]"
+		echo '********************************************************************************'
+		echo '********************************************************************************'
+		echo 
+		echo 
+	fi
+	echo "================================================================================"
+	echo
+	echo
+}
+fi
+
+################################################################################
+# Other functions
+################################################################################
+function obs.show.failures() {
+	tmpFilenames="$*"
+	for oneFilename in $tmpFilenames; do
+	# Get just the number of total failures (not passed)
+		numFails=`grep "NotPassed   :  .*[0-9]" $oneFilename |head -1 | sed -e 's/.* \([0-9]\)/\1/'`
+		if [ "$numFails" == "" ]; then
+			#echo "Warning: numFails is nothing for this file: $oneFilename"
+			:
+			echo $oneFilename - numFails is null
+		elif [ $numFails -gt 8 ]; then
+			#echo $oneFilename 
+			echo $oneFilename $numFails
+		fi
+	done
+}
+function obs.rm.dirs.with.many.failures() {
+	tmpDir=/data6/rbednark/one.button.archive
+	cd $tmpDir
+	rc=$?
+	if [ $rc -ne 0 ]; then 
+		echo "ERROR!  Could not cd to [$tmpDir]"
+		return
+	fi
+	tmpResFile="/tmp/tmp.results.log.filenames.$$"
+	find . -name 'results.log' > $tmpResFile
+	for oneFile in `cat $tmpResFile`; do
+		obs.show.failures $oneFile
+	done
+	\rm -f $tmpResFile
+}
+function cpp.bednark.com() {
+	cd $DirBednarkCom/cpp
+	#tmpDirCppOutput="$DirBednarkCom/cpp.output"
+	#mkdir -p $tmpDirCppOutput
+
+	if [ $# -ge 1 ]; then
+		allFiles="$*"
+	else
+		allFiles="*"
+	fi;
+
+	for oneFile in $allFiles; do
+		# e.g., input: foo.cpp  output: foo.html
+		fileOutput=`echo $oneFile | sed -e 's/cpp/html/g'`
+		# cpp.include.file.py is a file that I wrote
+		echo "Processing file [$oneFile]..."
+		cpp.include.files.py $oneFile >  ../$fileOutput
+	done
+}
+function firefoxfile() {
+	title firefox $1
+	echo "NOTE: this firefoxfile function only works for relative paths, not for absolute paths"
+	set -x
+	if echo $1 | grep '^/' > /dev/null 2>&1; then
+		# This is an absolute path, because it starts with a "/"
+		pathWin=`cygpath -m "$1"`
+	else
+		# This is a relative path, because it does not start with a "/"
+		pathWin=`cygpath -m "$PWD/$1"`
+	fi
+	echo $pathWin
+	(firefox file:///"$pathWin" &)
+	set +x
+}
+function scp.tankbuilds.tgz() {
+	set -x
+	tmpDay=`date +%d`
+	((tmpDay--))
+	if [ $tmpDay -lt 10 ]; then
+		tmpDay="0${tmpDay}"
+	fi
+
+	tmpFilename="st_`date +%Y_%m`_$tmpDay.tgz"
+	echo $tmpFilename
+	userScp=rbednark
+	machineScp=$MachineFvt1Driver9
+	time scp -p $userScp@@$machineScp:/tankbuilds/sm/testtarfiles/$tmpFilename ~/gsa/
+	set +x
+}
+function scp.review() {
+	set -x
+	userScp=rbednark
+	machineScp=$MachineFvt1Driver9
+	time ssh $userScp@@$machineScp "set -x; cd ~Rbednark; tar czf /tmp/review.tgz review"
+	time scp -pr $userScp@@$machineScp:/tmp/review.tgz ~/gsa/review/gsa
+	rm -fr ~/gsa/review/gsa/review
+	cd ~/gsa/review/gsa
+	time tar xzf ~/gsa/review/gsa/review.tgz
+	set +x
+}
+function scp.defects() {
+	set -x
+	time ssh root@@$MachineRob "set -x; cd /tankbuilds/sm/defect.details; tar czvf /tmp/defects.tgz all*"
+	time scp -pr root@@$MachineRob:/tmp/defects.tgz ~/read.only/defects
+	cd ~/read.only/defects
+	mv all.tank.defects all.tank.defects.previous
+	time tar xzf defects.tgz
+	set +x
+}
+
+function scp.all() {
+	scp.review
+	scp.tankbuilds.tgz
+	scp.defects
+}
+
+function vi.logs() {
+	fileRes=`ls -1t *results.log *runxml.log| head -1`
+	fileFail=`ls -1t *.failure.log* | head -1`
+	fileStax=`ls -1t *.stax.log | head -1`
+	fileReport=`ls -1t *.report* | head -1`
+	fileLog=`ls -1t *[0-9].log | head -1`
+	vim -R $fileRes $fileFail $fileStax $fileReport $fileLog
+}
+function tail.res() {
+	fileRes=`ls -1t *results.log *runxml.log | head -1`
+	tail -99f $fileRes
+}
+function vi.ls.head() {
+	echo "e.g., vi.ls.head (edits the newest 5 files)" > /dev/null
+	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
+    number=5
+	files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
+	vi $files
+}
+function vi.last.n.files() {
+	echo "e.g., vi.last.n.files '*report' 10" > /dev/null
+	pattern=$1
+	number=$2
+	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
+	vi -R `ls -1t $pattern | head -$number`
+	#files=""
+	#for oneFile in `ls -1t $pattern | head -$number`; do
+		#files="$files \"'\"$oneFile\"'\" " 
+	#done
+	#vi -R $files
+}
+function vi.files.with.pattern() {
+	echo "e.g., vi.files.with.pattern 'FAILED' '*.runxml.log*' 10" > /dev/null
+	patternGrep=$1
+	patternFile=$2
+	number=${3:-20}
+	files=`\ls -1t $patternFile | xargs grep -il "$patternGrep" /dev/null | head -${number}`
+	vi -R $files
+}
+function tail.newest.n.files() {
+	echo "e.g., tail.newest.n.files 2 '*.log' > /dev/null" > /dev/null
+	number=${1:-1}
+	pattern=${2:-}
+	#files=`\ls -1t | xargs find -type d -prune | head -${number}`
+	files=`find * -type f -prune | xargs \ls -1d | head -${number}`
+	files2=""
+	for oneFile in $files; do
+		if [ -d $oneFile ]; then
+			# skip directories
+			:
+		else
+			files2="$files2 $oneFile"
+		fi
+	done
+	tail -99f $files
+}
+function ls.head() {
+	echo "e.g., ls.head 40" > /dev/null
+	number=${1:-60}
+	ls -lt | head -$number
+}
+function findExecutables() {
+	filesExec=`find * -prune -type f -perm +111`
+}
+function make.expected.all() {
+	set -x
+	findExecutables
+	../make.actual.expected $filesExec
+	set +x
+}
+function vexec() {
+	findExecutables
+	vim $filesExec
+}
+function scp.from.laptop.to.review() {
+	set -x
+	files="$@@"
+	scp -p $files rbednark@@$MachineFvt1Driver9:~Rbednark/review
+	set +x
+}
+function scp.from.laptop.to.tmp() {
+	set -x
+	files="$@@"
+	scp -p $files rbednark@@$MachineFvt1Driver9:~Rbednark/tmp
+	set +x
+}
+function run.commands() {
+	set -x
+	/home/rbednark/bin/commands >> /home/rbednark/output/out.commands.out 2>&1 &
+	vim -R /home/rbednark/output/out.commands.out
+	set +x
+}
+
+################################################################################
+### The end.
+################################################################################
+@

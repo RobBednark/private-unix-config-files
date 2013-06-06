@@ -1,0 +1,55 @@
+head	1.2;
+access;
+symbols;
+locks
+	sara:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2012.04.02.02.02.58;	author sara;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.04.02.02.02.43;	author sara;	state Exp;
+branches;
+next	;
+
+
+desc
+@.
+@
+
+
+1.2
+log
+@.
+@
+text
+@# Use Ctrl-a as the prefix instead of ctrl-b
+unbind C-b
+set -g prefix ^A
+bind a send-prefix
+@
+
+
+1.1
+log
+@.
+@
+text
+@d1 1
+a4 11
+
+#set -g prefix C-a
+#unbind C-b
+#bind C-a send-prefix
+
+#set-option -g prefix C-a
+#unbind-key C-b
+#bind-key C-a send-prefix
+
+#unbind C-b
+#set -g prefix C-a
+@

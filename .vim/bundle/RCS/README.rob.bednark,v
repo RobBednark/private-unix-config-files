@@ -1,0 +1,43 @@
+head	1.2;
+access;
+symbols;
+locks
+	rob:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2012.11.09.11.07.41;	author rob;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2012.11.09.10.57.32;	author rob;	state Exp;
+branches;
+next	;
+
+
+desc
+@.
+@
+
+
+1.2
+log
+@.
+@
+text
+@I did "chmod a-rx Pydiction", because I don't really like how it's been working with tab completion.
+I did "chmod a-rx python-mode" because it seemed to be giving me problems.
+@
+
+
+1.1
+log
+@.
+@
+text
+@d1 2
+a2 1
+I did a "chmod a-rx Pydiction", because I don't really like how it's been working with tab completion.
+@
