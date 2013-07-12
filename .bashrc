@@ -834,7 +834,7 @@ function vici.onefile() {
     cd $DirBase
     DirGit=$(git rev-parse --show-toplevel)
     cd $DirGit
-    git diff
+    git diff --ignore-submodules=dirty
     git status --ignore-submodules=dirty
     echo "Hit return to continue..."; read x
     # Add all files that aren't already in the repo
@@ -842,7 +842,7 @@ function vici.onefile() {
     echo "Hit return to continue..."; read x
     git commit -a -m 'Auto commit from vici'
     echo "Hit return to continue..."; read x
-    git diff
+    git diff --ignore-submodules=dirty
     git status --ignore-submodules=dirty
     echo "Hit return to continue..."; read x
     set +xv
