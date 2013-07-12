@@ -265,7 +265,7 @@ function   atlatl.recreate.db.only() {
     find . -name '*.pyc' -delete
     dropdb -U atlatl atlatl
     if createdb -U atlatl atlatl; then
-        ./manage.py syncdb --migrate --no
+        time ./manage.py syncdb --migrate --no
         return 0
     else
         echo "ERROR from createdb; see above"
@@ -273,7 +273,7 @@ function   atlatl.recreate.db.only() {
     fi
 }
 function atlatl.create.db.data() {
-    ./manage.py make_test_data --email-domain=bednark.com --num-clients=1 --num-levels=0 --num-configs=1 --num-parts=1 --num-quotes=1 --num-sub-orgs=0 --num-users=1
+    time ./manage.py make_test_data --email-domain=bednark.com --num-clients=1 --num-levels=0 --num-configs=1 --num-parts=1 --num-quotes=1 --num-sub-orgs=0 --num-users=1
 }
 function   atlatl.recreate.db.data.and.runserver() {
     start=$(date)
@@ -555,6 +555,7 @@ alias   vatlatl="title vatlatl; vici $DirQuiz/db_atlatl"
 alias   vdaily="title vdaily; cd $DirQuiz; vici db_daily_review"
 alias   vdiary="title vdiary; cd $DirQuiz; vici db_diary"
 alias   vdjango="title vdjango; cd $DirQuiz; vici db_django"
+alias   vfamily="cdfam; vim -R *txt"
 alias   vfun="cd $DirQuiz; vici db_fun"
 alias   vgit="title vgit; cd $DirQuiz; vici db_git"
 alias   vgratitude="cd $DirQuiz; vici gratitude"
@@ -825,26 +826,54 @@ function rcsdiff_show_files_that_diff {
         fi
     done
 }
-function vici.new () { 
-    # Use git instead of rcs
-    cur_dir=$(pwd)
-	DirBase=`dirname $1`
-    files="$@"
-    git status 
-    vim $files
-    # Need to do a "git add" of any new files; or else find the git command that will automatically do that
-    git status 
+function vici.onefile() {
+    set -xv
+    onefile=$1
+    DirBase=`dirname $onefile`
+    # Go to the top level of the repo to add all files that haven't been added
+    cd $DirBase
+    DirGit=$(git rev-parse --show-toplevel)
+    cd $DirGit
+    git diff
+    git status --ignore-submodules=dirty
+    echo "Hit return to continue..."; read x
+    # Add all files that aren't already in the repo
+    git add -A
+    echo "Hit return to continue..."; read x
     git commit -a -m 'Auto commit from vici'
-    git status 
+    echo "Hit return to continue..."; read x
+    git diff
+    git status --ignore-submodules=dirty
+    echo "Hit return to continue..."; read x
+    set +xv
+}
+function vici () { 
+    # Use git instead of rcs
+    # capture the current dir and return to it after we are done
+    cur_dir=$(pwd)
+    files="$@"
+    # Would be best to get a list of the repositories for all the files, and only do one commit
+    # for each repository.  For now, just do it for each.
+    for onefile in $files; do
+        vici.onefile $onefile
+    done
+    vim $files
+    for onefile in $files; do
+        vici.onefile $onefile
+    done
+
+    # cd back to the directory we were in before we started
     cd $cur_dir
 }
-function vici () {
+function vici.old () {
 	DirBase=`dirname $1`
+    # Create the RCS dir if it doesn't exist
 	mkdir -p $DirBase/RCS
     files="$@"
 
 	rcsdiff $files
 	echo "==================================================================="
+    # checkin all the files before editing them
 	cilm $files
     if ! rcsdiff_files_differ $files; then
             # Assert: the files are different, even after attempting to check them all in
@@ -877,9 +906,12 @@ function vici () {
             done
     fi
     echo "Hit return to continue..."; read x
+    # Edit the files
 	vim $files
+    # Show the diffs
 	rcsdiff $files
 	echo "==================================================================="
+    # Checkin the files again
 	cilm $files
 }
 function	vabout() { 

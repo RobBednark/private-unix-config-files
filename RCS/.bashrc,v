@@ -1,10 +1,20 @@
-head	1.569;
+head	1.571;
 access;
 symbols;
 locks
-	robbednark:1.569; strict;
+	robbednark:1.571; strict;
 comment	@# @;
 
+
+1.571
+date	2013.06.15.18.06.34;	author robbednark;	state Exp;
+branches;
+next	1.570;
+
+1.570
+date	2013.06.15.18.06.04;	author robbednark;	state Exp;
+branches;
+next	1.569;
 
 1.569
 date	2013.05.29.21.34.47;	author robbednark;	state Exp;
@@ -2857,7 +2867,7 @@ desc
 @
 
 
-1.569
+1.571
 log
 @.
 @
@@ -3129,7 +3139,7 @@ function   atlatl.recreate.db.only() {
     find . -name '*.pyc' -delete
     dropdb -U atlatl atlatl
     if createdb -U atlatl atlatl; then
-        ./manage.py syncdb --migrate --no
+        time ./manage.py syncdb --migrate --no
         return 0
     else
         echo "ERROR from createdb; see above"
@@ -3137,7 +3147,7 @@ function   atlatl.recreate.db.only() {
     fi
 }
 function atlatl.create.db.data() {
-    ./manage.py make_test_data --email-domain=bednark.com --num-clients=1 --num-levels=0 --num-configs=1 --num-parts=1 --num-quotes=1 --num-sub-orgs=0 --num-users=1
+    time ./manage.py make_test_data --email-domain=bednark.com --num-clients=1 --num-levels=0 --num-configs=1 --num-parts=1 --num-quotes=1 --num-sub-orgs=0 --num-users=1
 }
 function   atlatl.recreate.db.data.and.runserver() {
     start=$(date)
@@ -3419,6 +3429,7 @@ alias   vatlatl="title vatlatl; vici $DirQuiz/db_atlatl"
 alias   vdaily="title vdaily; cd $DirQuiz; vici db_daily_review"
 alias   vdiary="title vdiary; cd $DirQuiz; vici db_diary"
 alias   vdjango="title vdjango; cd $DirQuiz; vici db_django"
+alias   vfamily="cdfam; vim -R *txt"
 alias   vfun="cd $DirQuiz; vici db_fun"
 alias   vgit="title vgit; cd $DirQuiz; vici db_git"
 alias   vgratitude="cd $DirQuiz; vici gratitude"
@@ -3688,6 +3699,19 @@ function rcsdiff_show_files_that_diff {
             #rcs.show.lock $one_file
         fi
     done
+}
+function vici.new () { 
+    # Use git instead of rcs
+    cur_dir=$(pwd)
+	DirBase=`dirname $1`
+    files="$@@"
+    git status 
+    vim $files
+    # Need to do a "git add" of any new files; or else find the git command that will automatically do that
+    git status 
+    git commit -a -m 'Auto commit from vici'
+    git status 
+    cd $cur_dir
 }
 function vici () {
 	DirBase=`dirname $1`
@@ -4130,6 +4154,30 @@ fi
 ################################################################################
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+@
+
+
+1.570
+log
+@.
+@
+text
+@d558 1
+@
+
+
+1.569
+log
+@.
+@
+text
+@d268 1
+a268 1
+        ./manage.py syncdb --migrate --no
+d276 1
+a276 1
+    ./manage.py make_test_data --email-domain=bednark.com --num-clients=1 --num-levels=0 --num-configs=1 --num-parts=1 --num-quotes=1 --num-sub-orgs=0 --num-users=1
+d828 13
 @
 
 
