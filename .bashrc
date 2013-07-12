@@ -843,7 +843,7 @@ function vici.onefile() {
     echo "+ git diff; git status"
     git --no-pager diff --ignore-submodules=dirty
     git --no-pager status --ignore-submodules=dirty
-    echo "Hit return to continue (after diff, before add; onefile=$onefile)..."; read x
+    #echo "Hit return to continue (after diff, before add; onefile=$onefile)..."; read x
 
     # Add all files that aren't already in the repo
     echo "+ git add -A"
