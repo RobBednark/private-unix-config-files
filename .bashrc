@@ -519,6 +519,10 @@ alias	tsvcdriver="title SVC Driver; telnet $MachineSvcDriver"
 alias 	tclient1="telnet $MachineFvt1ClientLinux"
 alias	taix="telnet 192.168.40.25"
 
+if $MacOSX; then
+    alias top="top -c d -o cpu"
+fi
+
 alias	vaddrs="title vi email addresses; vici $FileEmailAddrs"
 alias   vagrant.halt='cdvagrant; vagrant status; time vagrant halt; vagrant status'
 alias   vagrant.ssh='cdvagrant; vagrant status; date; time vagrant up; date; vagrant ssh'
