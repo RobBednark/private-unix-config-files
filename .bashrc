@@ -838,8 +838,8 @@ function vici.onefile() {
     DirGit=$(git rev-parse --show-toplevel)
     cd $DirGit
     echo "+ git diff; git status"
-    git diff --ignore-submodules=dirty
-    git status --ignore-submodules=dirty
+    git --no-pager diff --ignore-submodules=dirty
+    git --no-pager status --ignore-submodules=dirty
     #echo "Hit return to continue..."; read x
     # Add all files that aren't already in the repo
     echo "+ git add -A"
@@ -848,8 +848,8 @@ function vici.onefile() {
     echo "git commit -a -m 'Auto commit from vici'"
     git commit -a -m 'Auto commit from vici'
     #echo "Hit return to continue..."; read x
-    git diff --ignore-submodules=dirty
-    git status --ignore-submodules=dirty
+    git --no-pager diff --ignore-submodules=dirty
+    git --no-pager status --ignore-submodules=dirty
     #echo "Hit return to continue..."; read x
 }
 function vici () { 
