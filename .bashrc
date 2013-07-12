@@ -833,21 +833,28 @@ function rcsdiff_show_files_that_diff {
 function vici.onefile() {
     onefile=$1
     DirBase=`dirname $onefile`
+
     # Go to the top level of the repo to add all files that haven't been added
     cd $DirBase
     DirGit=$(git rev-parse --show-toplevel)
     cd $DirGit
+
+    # Show status
     echo "+ git diff; git status"
     git --no-pager diff --ignore-submodules=dirty
     git --no-pager status --ignore-submodules=dirty
     echo "Hit return to continue (onefile=$onefile)..."; read x
+
     # Add all files that aren't already in the repo
     echo "+ git add -A"
     git add -A
     #echo "Hit return to continue..."; read x
+
+    # Commit
     echo "git commit -a -m 'Auto commit from vici'"
     git commit -a -m 'Auto commit from vici'
     #echo "Hit return to continue..."; read x
+
     git --no-pager diff --ignore-submodules=dirty
     git --no-pager status --ignore-submodules=dirty
     echo "Hit return to continue (onefile=$onefile)..."; read x
@@ -859,6 +866,7 @@ function vici () {
     files="$@"
     # Would be best to get a list of the repositories for all the files, and only do one commit
     # for each repository.  For now, just do it for each.
+    echo "DEBUG: files=[$files]"
     for onefile in $files; do
         vici.onefile $onefile
     done
