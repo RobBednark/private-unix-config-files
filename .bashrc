@@ -850,6 +850,7 @@ function vici.onefile() {
 function vici () { 
     # Use git instead of rcs
     # capture the current dir and return to it after we are done
+    set -xv
     cur_dir=$(pwd)
     files="$@"
     # Would be best to get a list of the repositories for all the files, and only do one commit
@@ -864,6 +865,7 @@ function vici () {
 
     # cd back to the directory we were in before we started
     cd $cur_dir
+    set +xv
 }
 function vici.old () {
 	DirBase=`dirname $1`
