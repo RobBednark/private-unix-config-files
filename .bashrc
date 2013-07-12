@@ -831,30 +831,30 @@ function rcsdiff_show_files_that_diff {
     done
 }
 function vici.onefile() {
-    set -xv
     onefile=$1
     DirBase=`dirname $onefile`
     # Go to the top level of the repo to add all files that haven't been added
     cd $DirBase
     DirGit=$(git rev-parse --show-toplevel)
     cd $DirGit
+    echo "+ git diff; git status"
     git diff --ignore-submodules=dirty
     git status --ignore-submodules=dirty
-    echo "Hit return to continue..."; read x
+    #echo "Hit return to continue..."; read x
     # Add all files that aren't already in the repo
+    echo "+ git add -A"
     git add -A
-    echo "Hit return to continue..."; read x
+    #echo "Hit return to continue..."; read x
+    echo "git commit -a -m 'Auto commit from vici'"
     git commit -a -m 'Auto commit from vici'
-    echo "Hit return to continue..."; read x
+    #echo "Hit return to continue..."; read x
     git diff --ignore-submodules=dirty
     git status --ignore-submodules=dirty
-    echo "Hit return to continue..."; read x
-    set +xv
+    #echo "Hit return to continue..."; read x
 }
 function vici () { 
     # Use git instead of rcs
     # capture the current dir and return to it after we are done
-    set -xv
     cur_dir=$(pwd)
     files="$@"
     # Would be best to get a list of the repositories for all the files, and only do one commit
@@ -869,7 +869,6 @@ function vici () {
 
     # cd back to the directory we were in before we started
     cd $cur_dir
-    set +xv
 }
 function vici.old () {
 	DirBase=`dirname $1`
