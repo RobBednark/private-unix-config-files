@@ -841,7 +841,8 @@ function vici.onefile() {
 
     # Show status
     echo "+ git diff; git status"
-    git --no-pager diff --ignore-submodules=dirty
+    git.diff.old
+    #git --no-pager diff --ignore-submodules=dirty
     git --no-pager status --ignore-submodules=dirty
     #echo "Hit return to continue (after diff, before add; onefile=$onefile)..."; read x
 
@@ -855,7 +856,8 @@ function vici.onefile() {
     git commit -a -m 'Auto commit from vici'
     #echo "Hit return to continue..."; read x
 
-    git --no-pager diff --ignore-submodules=dirty
+    #git --no-pager diff --ignore-submodules=dirty
+    git.diff.old
     git --no-pager status --ignore-submodules=dirty
     echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
 }
