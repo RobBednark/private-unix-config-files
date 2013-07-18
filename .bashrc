@@ -869,6 +869,7 @@ function vici () {
     # Would be best to get a list of the repositories for all the files, and only do one commit
     # for each repository.  For now, just do it for each.
     echo "DEBUG: files=[$files]"
+    echo "DEBUG: \$\#=[$#]"
     for onefile in $files; do
         vici.onefile $onefile
     done
