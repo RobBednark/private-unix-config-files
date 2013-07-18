@@ -871,6 +871,7 @@ function vici () {
     echo "DEBUG: files=[$files]"
     echo "DEBUG: \$\#=[$#]"
     for onefile in $files; do
+        echo "DEBUG: onefile=[$onefile]"
         vici.onefile $onefile
     done
     vim $files
