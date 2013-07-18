@@ -840,24 +840,22 @@ function vici.onefile() {
     cd $DirGit
 
     # Show status
-    echo "+ git diff; git status"
+    echo "================================================================================"
     git.diff.old
-    #git --no-pager diff --ignore-submodules=dirty
+    echo "================================================================================"
     git --no-pager status --ignore-submodules=dirty
-    #echo "Hit return to continue (after diff, before add; onefile=$onefile)..."; read x
 
     # Add all files that aren't already in the repo
     echo "+ git add -A"
     git add -A
-    #echo "Hit return to continue..."; read x
 
     # Commit
     echo "git commit -a -m 'Auto commit from vici'"
     git commit -a -m 'Auto commit from vici'
-    #echo "Hit return to continue..."; read x
 
-    #git --no-pager diff --ignore-submodules=dirty
+    echo "================================================================================"
     git.diff.old
+    echo "================================================================================"
     git --no-pager status --ignore-submodules=dirty
     echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
 }
