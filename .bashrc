@@ -757,6 +757,7 @@ function vifind.portal() {
 	 files=`find .|xargs grep -l $@ /dev/null`
 	 vim -R $files
 }
+
 function grepaliases () {
 	grep -i $@ $FileEmailAddrs
 }
