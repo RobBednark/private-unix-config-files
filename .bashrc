@@ -299,7 +299,7 @@ function   atlatl.recreate.db.data.and.runserver2() {
     start=$(date)
     if atlatl.recreate.db.only2; then
         atlatl.create.db.data
-        ./manage.py runserver
+        ./manage.py runserver 8002
     fi
 }
 function atlatl.curl.wirecrafters.login() {
