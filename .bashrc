@@ -273,7 +273,6 @@ function   atlatl.recreate.db.only() {
     fi
 }
 function   atlatl.recreate.db.only2() {
-    cdcore
     set -x
     find . -name '*.pyc' -delete
     dropdb -U atlatl atlatl2
