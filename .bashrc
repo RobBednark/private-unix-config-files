@@ -405,7 +405,7 @@ alias   gb="echo git branch; git branch"
 alias   gc="echo git checkout $*; git checkout"
 alias   gf="echo git fetch; git fetch"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
-alias   git.diff.old="(set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --noprompt $*)"
+#alias   git.diff.old="(set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --noprompt $*)"
 
 alias   help.find.delete='echo find . -name "*.pyc" -delete'
 
@@ -756,6 +756,10 @@ function find.portal () {
 function vifind.portal() {
 	 files=`find .|xargs grep -l $@ /dev/null`
 	 vim -R $files
+}
+
+function git.diff.old () {
+  (set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --noprompt $*)
 }
 
 function grepaliases () {
