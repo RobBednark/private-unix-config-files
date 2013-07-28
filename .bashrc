@@ -868,7 +868,7 @@ function vici.onefile() {
     echo "================================================================================"
     git.diff.old
     echo "================================================================================"
-    git --no-pager status --ignore-submodules=dirty
+    # git --no-pager status --ignore-submodules=dirty
 
     # Add all files that aren't already in the repo
     echo "+ git add -A"
@@ -881,7 +881,7 @@ function vici.onefile() {
     echo "================================================================================"
     git.diff.old
     echo "================================================================================"
-    git --no-pager status --ignore-submodules=dirty
+    # git --no-pager status --ignore-submodules=dirty
     echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
 }
 function vici () { 
