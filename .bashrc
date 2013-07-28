@@ -872,11 +872,11 @@ function vici.onefile() {
     # git --no-pager status --ignore-submodules=dirty
 
     # Add all files that aren't already in the repo
-    echo "+ git add -A"
+    # echo "+ git add -A"
     git add -A
 
     # Commit
-    echo "git commit -a -m 'Auto commit from vici'"
+    # echo "git commit -a -m 'Auto commit from vici'"
     git commit -a -m 'Auto commit from vici'
 
     echo "================================================================================"
@@ -892,10 +892,10 @@ function vici () {
     files=$@
     # Would be best to get a list of the repositories for all the files, and only do one commit
     # for each repository.  For now, just do it for each.
-    echo "DEBUG: files=[$files]"
-    echo "DEBUG: \$#=[$#]"
+    # echo "DEBUG: files=[$files]"
+    # echo "DEBUG: \$#=[$#]"
     for onefile in $files; do
-        echo "DEBUG: onefile=[$onefile]"
+        # echo "DEBUG: onefile=[$onefile]"
         vici.onefile $onefile
     done
     vim $files
