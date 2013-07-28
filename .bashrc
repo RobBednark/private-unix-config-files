@@ -165,6 +165,7 @@ fi
 IBM=false
 
 DirDropbox=~/Dropbox
+DirGit=$DirDropbox/git
 DirRob="$DirSaraDocs/Rob"
 # This is what it was on HOME-PC desktop:
 #DirRbednark="/cygdrive/c/cygwin/home/sara"
@@ -328,7 +329,7 @@ alias	cddownload="cd $DirDownload"
 alias   cddropbox="cd ~/dropbox"
 alias   cdebento="cd ~/dropbox/ebento/git/eBento1-Client-test/ebtest; ls"
 alias   cdfam="cd ~/dropbox/family.tree/docs.July.1.Fri"
-alias   cdgit="cd $DirDropbox/git"
+alias   cdgit="cd $DirGit"
 alias	cdlearn="title learn; cd $DirLearn"
 #alias	cdmusic="cd /cygdrive/c/Documents\ and\ Settings/All\ Users/Documents/My\ Music/"
 #alias	cdoption="cd $DirOptionTables"
@@ -337,7 +338,7 @@ alias   cdpsu="cd $DirDropbox/Rob/psu.online.map"
 alias	cdpublic="cd $DirPublicHtml"
 alias   cdpydoc="cd ~/dropbox/Rob/python.doc/python-2.7.2-docs-text"
 alias   cdquiz="title quiz; cd $DirLearn/quiz.python/db"
-alias   cdquizme="cd ~/git/quizme_site"
+alias   cdquizme="cd $DirGit/quizme_site"
 alias	cdsel="title ebento.py; cd ~/huawei/selenium"
 #alias	cdstax="cd $DirLearn/stax; pwd; ls"
 alias   cdsurvey="cd $DirDropbox/mike.ames.survey/2013*"
