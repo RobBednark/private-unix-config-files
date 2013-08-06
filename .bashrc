@@ -889,7 +889,7 @@ function vici () {
     # Use git instead of rcs
     # capture the current dir and return to it after we are done
     cur_dir=$(pwd)
-    files=$@
+    files="$@"
     # Would be best to get a list of the repositories for all the files, and only do one commit
     # for each repository.  For now, just do it for each.
     # echo "DEBUG: files=[$files]"
