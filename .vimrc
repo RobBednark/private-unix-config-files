@@ -124,4 +124,7 @@ Bundle 'multiselect'
 " tab-completion:
 " Bundle 'SuperTab'
 
+" ropevim -- Python refactoring
+Bundle 'ropevim'
+
 filetype plugin indent on     " required!
