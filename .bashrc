@@ -259,7 +259,8 @@ alias   ssh.prod.app="ssh -i ~/.ssh/PRODapp1.pem rbednark@prodapp1.atlatlprivate
 alias   ssh.prod.db="ssh -i ~/.ssh/PRODdb1.pem rbednark@proddb1.atlatlprivate.com"
 alias   ssh.prod.web="ssh -i ~/.ssh/PRODweb1.pem rbednark@prodweb1.atlatlprivate.com"
 #alias   atlatl.run.unit.tests="cdcore; workon atlatl; (set -x; ./manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer lockout configuration api)"
-alias   atlatl.run.unit.tests="cdcore; python -u manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer lockout configuration api"
+#alias   atlatl.run.unit.tests="cdcore; python -u manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer lockout configuration api"
+alias   atlatl.run.unit.tests="cdcore; python -u manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer configuration api"
 function   atlatl.recreate.db.only() {
     cdcore
     set -x
