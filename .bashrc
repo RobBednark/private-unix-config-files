@@ -566,6 +566,7 @@ alias   vjtmp="title interim j; vici $FileJTmp"
 alias 	vjtmp.read.only="title j; vim -R $FileJ $FileJTmp $FileToDo $FileDiary $FileHuawei"
 alias   vl='vim -c "normal '\''0"'  # vim the last file that was edited in vim; '0 means the most recent file; "-c" means execute this command; I think "normal" means start in normal mode, but I'm not sure
 alias	vlyrics="title lyrics; vici $DirDoc/lyrics.txt"
+alias   vmeetups="cd $DirQuiz; vici *meetups"
 alias 	vone="vici $DirDoc/teamroom.one.button.html"
 alias	vphone="title vphone; vici $FilePhone"
 alias 	vpicts="vici $FilePicts"
