@@ -1254,7 +1254,10 @@ function vi.grep.rl() {
 function vi.grep.ril() {
     patternGrep=$1
     echo "Pattern=[$patternGrep]"
-    grep -ril $patternGrep . | xargs --no-run-if-empty vim
+    grep -ril $patternGrep . | xargs vim
+
+    # This one will only work with xargs that supports the --no-run-if-empty option:
+    #grep -ril $patternGrep . | xargs --no-run-if-empty vim
 }
 function tail.newest.n.files() {
 	echo "e.g., tail.newest.n.files 2 '*.log' > /dev/null" > /dev/null
