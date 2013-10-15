@@ -118,7 +118,7 @@ export MANPATH="$MANPATH:/usr/man"
 if $MacOSX; then
     # The path for the PostgreSQL Postgres.app from Heroku
     #export PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
-    export PATH="/Applications"
+    #export PATH="$PATH:/Applications"
     :
 fi
 export PATH="/usr/local/bin:$PATH"
