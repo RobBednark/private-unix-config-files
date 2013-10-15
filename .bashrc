@@ -419,7 +419,8 @@ alias	findex="ls -l | grep '^...x'"
 if uname | grep -i linux > /dev/null; then
 	true
 elif $MacOSX; then
-	alias	firefox="open"
+	#alias	firefox="open /Applications/"
+    :
 else
 	alias	firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
 fi
