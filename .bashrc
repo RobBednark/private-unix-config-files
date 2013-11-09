@@ -167,6 +167,7 @@ IBM=false
 
 DirDropbox=~/Dropbox
 DirGit=$DirDropbox/git
+DirGitLocal="$HOME/local.git"
 DirRob="$DirSaraDocs/Rob"
 # This is what it was on HOME-PC desktop:
 #DirRbednark="/cygdrive/c/cygwin/home/sara"
@@ -321,6 +322,7 @@ alias acrobat="'/cygdrive/c/Program Files (x86)/Adobe/Reader 10.0/Reader/AcroRd3
 alias   browse.family.tree="firefoxfile $FileFamilyTreeHtml"
 
 alias	cdbednarkcom="cd $DirBednarkCom"
+alias   cdbuddyup="cd $DirGitLocal/buddyup"
 #alias	cdc="cd $DirC; pwd; ls"
 #alias	cdcheckin="cd $DirCheckin"
 alias   cddada="cd $DirDropbox/Rob/dada"
