@@ -789,6 +789,12 @@ function vifind.portal() {
 }
 
 function git.diff.old () {
+  # --no-commit-id => don't show the commit ID
+  # --name-only    => show only file names, not owner, group, perms
+  (set -x; git diff-tree --no-commit-id --name-only -r $*)
+}
+
+function git.diff.old () {
   (set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --noprompt $*)
 }
 
