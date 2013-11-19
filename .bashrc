@@ -795,6 +795,13 @@ function git.files.changed.in.commit () {
   (set -x; git diff-tree --no-commit-id --name-only -r $*)
 }
 
+function git.files.added.and.changed.in.commit () {
+  # --no-commit-id => don't show the commit ID
+  # --name-only    => show only file names, not owner, group, perms
+  # -r             => recurse into sub-trees
+  (set -x; git ls-tree --name-only -r $*)
+}
+
 function git.diff.old () {
   (set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --noprompt $*)
 }
