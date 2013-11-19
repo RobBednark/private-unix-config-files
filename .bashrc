@@ -788,9 +788,10 @@ function vifind.portal() {
 	 vim -R $files
 }
 
-function git.diff.old () {
+function git.files.changed.in.commit () {
   # --no-commit-id => don't show the commit ID
   # --name-only    => show only file names, not owner, group, perms
+  # -r             => recurse into sub-trees
   (set -x; git diff-tree --no-commit-id --name-only -r $*)
 }
 
