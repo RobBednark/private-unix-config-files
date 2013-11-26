@@ -270,7 +270,7 @@ function   atlatl.recreate.db.only() {
     find . -name '*.pyc' -delete
     dropdb -U atlatl atlatl
     if createdb -U atlatl atlatl; then
-        time ./manage.py syncdb --migrate --no
+        time ./manage.py syncdb --migrate --noinput
         return 0
     else
         echo "ERROR from createdb; see above"
@@ -282,7 +282,7 @@ function   atlatl.recreate.db.only2() {
     find . -name '*.pyc' -delete
     dropdb -U atlatl atlatl2
     if createdb -U atlatl atlatl2; then
-        time ./manage.py syncdb --migrate --no
+        time ./manage.py syncdb --migrate --noinput
         return 0
     else
         echo "ERROR from createdb; see above"
@@ -454,7 +454,7 @@ alias	lib="title library; telnet multnomah.lib.or.us"
 
 alias	manoj="telnet $MachineManoj"
 alias	mv="mv -i"
-alias   mycmd='(set -x; rm -f mydb.db;./manage.py syncdb --n; ./manage.py mycmd)'
+alias   mycmd='(set -x; rm -f mydb.db;./manage.py syncdb --noinput; ./manage.py mycmd)'
 alias   mycmd.nosync='(set -x; ./manage.py mycmd)'
 
 alias 	mounttestadm="sudo mkdir -p /testadm; sudo mount $MachineCurtis:/testadm /testadm"
