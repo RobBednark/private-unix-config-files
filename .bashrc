@@ -104,7 +104,7 @@ export SAVEHIST=30000 # masx size in HISTFILE
 if echo $SHELL | grep zsh > /dev/null; then
     # Added 2/8/13.  History was not getting saved on Atlatl Mac.  Not sure how it was getting saved on my Retina.
     export HISTFILE=~/.zsh_history
-    export HISTSIZE=25000 # max size internal history per session
+    export HISTSIZE=30000 # max size internal history per session
 fi
 #export SHARE_HISTORY=1
 # Uncommented APPEND_HISTORY 2/5/13
