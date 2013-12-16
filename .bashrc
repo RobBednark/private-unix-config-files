@@ -322,7 +322,7 @@ alias acrobat="'/cygdrive/c/Program Files (x86)/Adobe/Reader 10.0/Reader/AcroRd3
 alias   browse.family.tree="firefoxfile $FileFamilyTreeHtml"
 
 alias	cdbednarkcom="cd $DirBednarkCom"
-alias   cdbuddyup="cd $DirGitLocal/buddyup"
+alias   cdbuddyup="cd $DirGitLocal/buddyup.github.adevore"
 #alias	cdc="cd $DirC; pwd; ls"
 #alias	cdcheckin="cd $DirCheckin"
 alias   cddada="cd $DirDropbox/Rob/dada"
