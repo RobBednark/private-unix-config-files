@@ -127,4 +127,9 @@ Bundle 'multiselect'
 " ropevim -- Python refactoring
 Bundle 'ropevim'
 
+" PreserveNoEOL - this modifies vim so that it doesn't automatically add newline characters at the end of a file.  This is useful for modifying files that other people created in other editors that do not have a newline at the end of a file, and git shows it as a diff when I save it in vim and it adds a newline on.
+Bundle 'PreserveNoEOL'
+" The following setting is needed to enable PreserveNoEOL
+let g:PreserveNoEOL = 1 
+
 filetype plugin indent on     " required!
