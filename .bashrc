@@ -242,7 +242,7 @@ FileStories="$DirBednarkCom/cpp/stories.cpp"
 FileToday="$DirDoc/today.txt"
 FileTodayNew="$DirBin/todo_db.py"
 FileToDo="$DirDoc/todo.txt"
-FileVimrc="$DirRbednark/.vimrc"
+FileVimrc="$DirUnixConfigFiles/.vimrc"
 FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 
 DirScpBin="root@$MachineDriver:/fvt/rbednark/bin"
