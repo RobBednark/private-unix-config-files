@@ -245,8 +245,6 @@ FileToDo="$DirDoc/todo.txt"
 FileVimrc="$DirUnixConfigFiles/.vimrc"
 FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 
-DirScpBin="root@$MachineDriver:/fvt/rbednark/bin"
-
 ################################################################################
 ### Atlatl 
 ################################################################################
@@ -488,7 +486,6 @@ alias   scp.nginx.logs="scp -Cpr -i $PemTixie515 ubuntu@$MachineProdWeb:/var/log
 alias   screensaver="gnome-screensaver-command --activate"
 alias	script_date="script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`"
 alias	script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`'
-alias 	sdriver="title fvt4-drv1; ssh -l root $MachineFvt4Driver9"
 #alias   seleniumServerRun="java -jar C:/cygwin/home/sara/selenium/selenium-server-1.0.3/selenium-server.jar"
 alias   seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/selenium-2.0b1/selenium-server-standalone-2.0b1.jar"
 #alias	sshmtproxy="echo mtd@t@2011; ssh root@mtproxy.futurewei.ebento.net"
@@ -522,12 +519,6 @@ alias   ssh.qa-web.tixie="ssh -i $PemTixieKey ubuntu@$MachineQATixie"
 alias   ssh.qa-db.tixie="ssh -i $PemTixieKey ubuntu@$MachineQA_DB_Tixie"
 
 alias   source.django="source ~/dropbox/bin/learn/dir.learn.django.projects/source.venv"
-#alias 	sobs="source /home/rbednark/mysandbox/new/obs.env.bash"
-#alias	srob="ssh -l root $MachineRob"
-#alias 	ssh.svc.driver="ssh root@9.47.81.137"
-#alias 	sserv1="ssh -l root $MachineFvt1Serv1"
-#alias 	sserv2="ssh -l root $MachineFvt1Serv2"
-#alias 	syncbvtsummary="set -x; cd ~/gsa/review/laptop; scp bvt_summaries.txt root@$MachineFvt1Driver9:$DirTestDocs; ssh root@$MachineFvt1Driver9 \"chmod 755 $DirTestDocs/bvt_summaries.txt; ls -ltr $DirTestDocs\"; set +x"
 
 alias   ti=title
 alias	tlab="title svc driver; telnet $MachineSvcDriver"
@@ -537,14 +528,10 @@ alias	telm35="telnet $elm35"
 alias	telm36="telnet $elm36"
 alias	telm37="telnet $elm37"
 alias	telm50="telnet $elm50"
-alias 	sfvt1="title fvt1; ssh $MachineFvt1Driver9"
-alias 	tfvt1="title fvt1; telnet $MachineFvt1Driver9"
-alias 	tfvt8="title fvt8; telnet $MachineFvt8Driver9"
 alias	tritu="telnet $MachineRitu"
 alias	trob="ssh -l root $MachineRob"
 alias	ssvcdriver="title SVC Driver; ssh root@$MachineSvcDriver"
 alias	tsvcdriver="title SVC Driver; telnet $MachineSvcDriver"
-alias 	tclient1="telnet $MachineFvt1ClientLinux"
 alias	taix="telnet 192.168.40.25"
 
 if $MacOSX; then
@@ -1119,15 +1106,6 @@ function upload.to.bednark.com() {
 	cd $DirBednarkCom
 	scp -pr $@ 'rob@bednark.com:/home/rob/bednark.com'
 	set +xv
-}
-function test.authors() {
-	if [ $# -gt 0 ]; then
-		dir="$@"
-	else
-		dir="/fvt/tests/new.tests /fvt/tests/install"
-	fi
-
-	find $dir -name '*\.xml'| xargs grep -i author /dev/null 
 }
 function web() {
     action=$1
