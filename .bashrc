@@ -858,8 +858,10 @@ function title {
     if $MacOSX; then
         # iTerm2 
         #echo -n "\033];$title\007"
+        echo "DEBUG: title for MacOS"
         echo -ne "\033]0;"$_title"\007"
     else
+        echo "DEBUG: title for NOT MacOS"
         echo -ne "\e]2;$*\a"
     fi
 }
