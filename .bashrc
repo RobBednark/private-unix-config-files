@@ -1237,13 +1237,13 @@ function vi.files.with.pattern() {
 	patternGrep=$1
 	patternFile=$2
 	number=${3:-20}
-	files=`\ls -1t $patternFile | xargs --no-run-if-empty grep -il "$patternGrep" /dev/null | head -${number}`
+	files=`\ls -1t $patternFile | xargs --no-run-if-empty grep -iIl "$patternGrep" /dev/null | head -${number}`
 	vi -R $files
 }
 function vici.grep.i() {
     patternGrep=$1
     echo "Pattern=[$patternGrep]"
-    files=`grep -il $patternGrep *`
+    files=`grep -iIl $patternGrep *`
     vici $files
 }
 function vi.grep.l() {
@@ -1253,11 +1253,11 @@ function vi.grep.l() {
     echo "grep args=[$grepArgs]"
     if $MacOSX; then
         set -xv
-        grep -l $grepArgs | xargs vim
+        grep -Il $grepArgs | xargs vim
         set +xv
     else
         set -xv
-        grep -l $grepArgs | xargs --no-run-if-empty vim
+        grep -Il $grepArgs | xargs --no-run-if-empty vim
         set +xv
     fi
 }
@@ -1268,18 +1268,18 @@ function vi.grep.il() {
     echo "Pattern=[$patternGrep]"
     set -xv
     if $MacOSX; then
-        grep -il $patternGrep * | xargs --no-run-if-empty vim
+        grep -iIl $patternGrep * | xargs --no-run-if-empty vim
     else
-        grep -il $patternGrep * | xargs vim
+        grep -iIl $patternGrep * | xargs vim
     fi
     set +xv
 }
 function vi.grep.ril() {
     # USAGE: vi.grep.ril {grep_args}
-    # Vim all recursively found files that match "grep -ri {grep_args}"
+    # Vim all recursively found files that match "grep -rilI {grep_args}"
     patternGrep=$1
     echo "Pattern=[$patternGrep]"
-    grep -ril $patternGrep . | xargs vim
+    grep -rilI $patternGrep . | xargs vim
 
     # This one will only work with xargs that supports the --no-run-if-empty option:
     #grep -ril $patternGrep . | xargs --no-run-if-empty vim
