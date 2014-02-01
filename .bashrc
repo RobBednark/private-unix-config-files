@@ -1247,6 +1247,8 @@ function vici.grep.i() {
     vici $files
 }
 function vi.grep.l() {
+    # USAGE: vi.grep.l {grep_args}
+    # vim all files in current dir that contain {grep_args}
     grepArgs="$*"
     echo "grep args=[$grepArgs]"
     if $MacOSX; then
@@ -1259,7 +1261,9 @@ function vi.grep.l() {
         set +xv
     fi
 }
-function vi.grep.rl() {
+function vi.grep.il() {
+    # USAGE: vi.grep.il {grep_args}
+    # vim all files in current dir that match "grep -i {grep_args}"
     patternGrep=$1
     echo "Pattern=[$patternGrep]"
     set -xv
@@ -1271,6 +1275,8 @@ function vi.grep.rl() {
     set +xv
 }
 function vi.grep.ril() {
+    # USAGE: vi.grep.ril {grep_args}
+    # Vim all recursively found files that match "grep -ri {grep_args}"
     patternGrep=$1
     echo "Pattern=[$patternGrep]"
     grep -ril $patternGrep . | xargs vim
