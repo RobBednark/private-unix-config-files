@@ -899,6 +899,7 @@ function vici.onefile() {
 function vici () { 
     # Use git instead of rcs
     # capture the current dir and return to it after we are done
+    set -xv
     cur_dir=$(pwd)
     files="$@"
     # Would be best to get a list of the repositories for all the files, and only do one commit
@@ -909,8 +910,10 @@ function vici () {
         # echo "DEBUG: onefile=[$onefile]"
         vici.onefile $onefile
     done
+    read "Hit return to [vim $files]..."
     vim $files
     for onefile in $files; do
+        read "Hit return to [vici.onefile $onefile]..."
         vici.onefile $onefile
     done
 
