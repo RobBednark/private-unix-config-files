@@ -869,6 +869,7 @@ function rcsdiff_show_files_that_diff {
 }
 function vici.onefile() {
     onefile=$1
+    DirCurDir=$(pwd)
     DirBase=`dirname $onefile`
 
     # Go to the top level of the repo to add all files that haven't been added
@@ -894,12 +895,13 @@ function vici.onefile() {
     git.diff.old
     echo "================================================================================"
     # git --no-pager status --ignore-submodules=dirty
+    # Now cd back to the directory where the user was to begin with.
+    cd $DirCurDir
     echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
 }
 function vici () { 
     # Use git instead of rcs
     # capture the current dir and return to it after we are done
-    set -xv
     cur_dir=$(pwd)
     files="$@"
     # Would be best to get a list of the repositories for all the files, and only do one commit
@@ -910,10 +912,10 @@ function vici () {
         # echo "DEBUG: onefile=[$onefile]"
         vici.onefile $onefile
     done
-    read "Hit return to [vim $files]..."
+    # echo "Hit return to [vim $files]..."; read FOO
     vim $files
     for onefile in $files; do
-        read "Hit return to [vici.onefile $onefile]..."
+        # echo "Hit return to [vici.onefile $onefile]..."; read FOO
         vici.onefile $onefile
     done
 
@@ -933,7 +935,6 @@ function vici.old () {
     if ! rcsdiff_files_differ $files; then
             # Assert: the files are different, even after attempting to check them all in
             for oneFile in $files; do
-                set -xv
                 if [ -e $oneFile ] && rcsdiff_files_differ $oneFile; then 
                     # ASSERT: the file exists, and it differs from the RCS version
                     rcs.show.lock $oneFile
@@ -1024,7 +1025,6 @@ function	vpeople() {
     else
         (firefox file:///`cygpath -m $FilePeopleHtml` &)
     fi
-    set -xv
 	vici  $DirQuiz/*people
 	vici $DirQuiz/*people $FilePeopleHtml $FileInformixEmployees $FilePeopleTxt $FileIndex $DirFamilyTree/*txt
 	# upload.to.bednark.com $FilePeopleHtml $FileBlogHtml $FileIndex
