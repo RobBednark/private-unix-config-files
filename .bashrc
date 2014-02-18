@@ -874,11 +874,9 @@ function vici.onefile() {
     DirBase=`dirname $onefile`
 
     # Go to the top level of the repo to add all files that haven't been added
-    set -x
     cd $DirBase
     DirGit=$(git rev-parse --show-toplevel)
     cd $DirGit
-    set +x
 
     # Show status
     echo "================================================================================"
