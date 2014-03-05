@@ -1368,9 +1368,10 @@ fi
 ### The end.
 ################################################################################
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Commented-out the following 2 lines Wed 3/5/14 2:30pm after upgrading to Mavericks, because MacVim (mvim) is giving a SEGV with command-t.
+# It looks like this might be because of the Ruby version in my path.
+# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
