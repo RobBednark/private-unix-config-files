@@ -437,7 +437,9 @@ alias   help.find.delete='echo find . -name "*.pyc" -delete'
 
 if $MacOSX; then
 	alias	ls="ls -G"
-    alias   vim='mvim -v'
+    # Commented-out Wed 3/5/14 4:20pm after upgrade to Mavericks.
+    # I cannot get mvim working with command-t on Mavericks.
+    #alias   vim='mvim -v'
     alias   iphone.simulator="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator"
 else
 	alias	ls="ls -CF --color"

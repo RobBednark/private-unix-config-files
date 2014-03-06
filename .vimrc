@@ -20,7 +20,10 @@ set fileformat=unix
 set expandtab " expand tabs to spaces instead of tab characters
 set modeline  " look for /* vim: */ modeline settings at the beginning of a file
 " I created this file manually using the ctags command.  -Rob Bednark 4/9/12
-set tags+=$HOME/.vim/tags/python.ctags
+" Commented-out the following line 3/5/14 after installing Mavericks, and getting the following error when doing a :w
+"    Taglist: Failed to generate tags for /Users/rob/.vimrc
+" It did not help.
+" set tags+=$HOME/.vim/tags/python.ctags
 filetype plugin indent on
 " Turn on omni autocompletion:
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -47,7 +50,7 @@ function! SearchMultiLine(bang, ...)
         let @/ = join(a:000, sep)
     endif
 endfunction
-command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args
+" command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args
 
 
 
@@ -111,6 +114,7 @@ Bundle 'gmarik/vundle'
 " Bundle 'Pydiction'  -- commented-out because I'm getting poor autocompletion; I'm not sure if it's coming from Pydiction or something else
 
 " command-t ==> file/dir explorer
+" Commented-out command-t Wed 3/5/14 5:10pm after upgrade to Mavericks, because I'm getting a SEGV when running it with vim.
 Bundle 'wincent/Command-T'
 
 " show plugins in Bundle menu in vim GUI's, e.g., mvim:
@@ -125,7 +129,9 @@ Bundle 'multiselect'
 " Bundle 'SuperTab'
 
 " ropevim -- Python refactoring
-Bundle 'ropevim'
+" Commented-out 3/5/14 after Mavericks upgrade when I started seeing this error on :w
+"   Taglist: Failed to generate tags for /Users/rob/.vimrc
+" Bundle 'ropevim'
 
 " PreserveNoEOL - this modifies vim so that it doesn't automatically add newline characters at the end of a file.  This is useful for modifying files that other people created in other editors that do not have a newline at the end of a file, and git shows it as a diff when I save it in vim and it adds a newline on.
 Bundle 'PreserveNoEOL'
