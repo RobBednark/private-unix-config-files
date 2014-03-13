@@ -614,7 +614,6 @@ alias vlists="title vlists; rm -f /tmp/tmp.todo*; /home/rbednark/bin/todo.py --m
 alias	vtips="title tips.html; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/tips.html` &); vici $DirDoc/tips.html"
 alias vvimrc="cd `dirname $FileVimrc`; vici `basename $FileVimrc`"
 alias vxd="cd $DirUnixConfigFiles; vici .Xdefaults"
-alias ping.monitor="python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py"
 alias	winmerge="'/cygdrive/c/Program Files/WinMerge/WinMerge.exe'"
 
 ################################################################################
@@ -809,6 +808,11 @@ function ninja.grep.tests () {
 }
 function phone () {
   grep -i $@ $FilePhone
+}
+function ping.monitor() {
+    FILE_PING_OUTPUT=/tmp/ping.monitor.$$
+    python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >& $FILE_PING_OUTPUT
+    tail -f $FILE_PING_OUTPUT
 }
 function rcs.show.lock() {
     for oneFile in $@; do
