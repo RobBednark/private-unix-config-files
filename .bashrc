@@ -811,7 +811,7 @@ function phone () {
 }
 function ping.monitor() {
     FILE_PING_OUTPUT=/tmp/ping.monitor.$$
-    python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >& $FILE_PING_OUTPUT
+    python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >& $FILE_PING_OUTPUT &
     tail -f $FILE_PING_OUTPUT
 }
 function rcs.show.lock() {
