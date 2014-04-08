@@ -2,7 +2,9 @@
 # From http://stackoverflow.com/questions/1623039/python-debugging-tips
 # -Rob Bednark 2/12/14
 
+# print the dunder dict of a class instance
 alias pd pp %1.__dict__
+
 alias pdir pp { attr : type(attr) for attr in dir(%s) }
 
 # Print a dictionary, sorted. %1 is the dict, %2 is the prefix for the names.
