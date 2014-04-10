@@ -348,13 +348,20 @@ alias	cdsel="title ebento.py; cd ~/huawei/selenium"
 alias   cdsurvey="cd $DirDropbox/mike.ames.survey/"
 alias	cdsync="cd $DirSync"
 #alias	cdtestadm="cd $DirTestadm; ls"
-alias   cdtrapit="cd ~/vagrants/trapit.hashicorp.precise64"
-alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos"
 alias	cdtxt="cd $DirTxt"
 alias   cdunixconfigfiles="cd $DirUnixConfigFiles"
 alias   cdvagrant="cd ~/Desktop/vagranttest"
 #alias   cdvim="cd '/cygdrive/c/Program Files (x86)/Vim/vim72/doc'"
 
+################################################################################
+# Trapit:
+################################################################################
+DirTrapitRepos="~/trapit.repos"
+alias   cdelzar="cd $DirTrapitRepos/elzar"
+alias   cdmom="cd $DirTrapitRepos/mom"
+alias   cdnibbler="cd $DirTrapitRepos/nibbler"
+alias   cdtrapit="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
+alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
 
 ################################################################################
 # Tixie:
