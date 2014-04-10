@@ -360,6 +360,7 @@ DirTrapitRepos="~/trapit.repos"
 alias   cdelzar="cd $DirTrapitRepos/elzar"
 alias   cdmom="cd $DirTrapitRepos/mom"
 alias   cdnibbler="cd $DirTrapitRepos/nibbler"
+alias   cdstorytool="cd $DirTrapitRepos/storytool"
 alias   cdtrapit="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
 alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
 
