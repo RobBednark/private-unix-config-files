@@ -532,6 +532,7 @@ alias   ssh.qa-web.tixie="ssh -i $PemTixieKey ubuntu@$MachineQATixie"
 alias   ssh.qa-db.tixie="ssh -i $PemTixieKey ubuntu@$MachineQA_DB_Tixie"
 
 alias   source.django="source ~/dropbox/bin/learn/dir.learn.django.projects/source.venv"
+alias   stree="open -a SourceTree"
 
 alias   ti=title
 alias	tlab="title svc driver; telnet $MachineSvcDriver"
