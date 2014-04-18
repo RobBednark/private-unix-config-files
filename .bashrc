@@ -1064,7 +1064,8 @@ function	vquotes() {
 	title quotes
 	cd $DirBednarkCom
     if $MacOSX; then
-        (firefox file:///$FileQuotes http://bednark.com/quotes.html &)
+        #(firefox file:///$FileQuotes http://bednark.com/quotes.html &)
+        open file:///$FileQuotes http://bednark.com/quotes.html
     else
         (firefox file:///`cygpath -m $FileQuotes` http://bednark.com/quotes.html &)
     fi
