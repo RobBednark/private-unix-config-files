@@ -940,6 +940,8 @@ function vici () {
     done
     # echo "Hit return to [vim $files]..."; read FOO
     vim $files
+    # setopt shwordsplit causes zsh to behave like bash for splitting a string (e.g., $files)
+    setopt shwordsplit
     for onefile in $files; do
         # echo "Hit return to [vici.onefile $onefile]..."; read FOO
         vici.onefile $onefile
