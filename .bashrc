@@ -926,6 +926,9 @@ function vici () {
     # Use git instead of rcs
     # capture the current dir and return to it after we are done
 
+    # setopt shwordsplit causes zsh to behave like bash for splitting a string (e.g., $files)
+    setopt shwordsplit
+
     # ISSUE: 4/18/14: vici does not work for multiple files; why not?
     #   o 4/18 7:42am I removed the quotes from files=$@ -- result: no difference; still has space in filename
     cur_dir=$(pwd)
@@ -940,8 +943,6 @@ function vici () {
     done
     # echo "Hit return to [vim $files]..."; read FOO
     vim $files
-    # setopt shwordsplit causes zsh to behave like bash for splitting a string (e.g., $files)
-    setopt shwordsplit
     for onefile in $files; do
         # echo "Hit return to [vici.onefile $onefile]..."; read FOO
         vici.onefile $onefile
