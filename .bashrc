@@ -927,7 +927,7 @@ function vici () {
     # capture the current dir and return to it after we are done
 
     # ISSUE: 4/18/14: vici does not work for multiple files; why not?
-    #   o 4/18 7:42am I removed the quotes from files=$@ -- result: 
+    #   o 4/18 7:42am I removed the quotes from files=$@ -- result: no difference; still has space in filename
     cur_dir=$(pwd)
     files=$@
     # Would be best to get a list of the repositories for all the files, and only do one commit
