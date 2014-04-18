@@ -139,3 +139,4 @@ Bundle 'PreserveNoEOL'
 let g:PreserveNoEOL = 1 
 
 filetype plugin indent on     " required!
+nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
