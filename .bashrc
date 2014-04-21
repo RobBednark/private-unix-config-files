@@ -1062,7 +1062,11 @@ function	vpeople() {
 function	vhumor() { 
 	title humor
 	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileHumor` &)
+    if $MacOSX; then
+        open file:///`cygpath -m $FileHumor`
+    else
+        (firefox file:///`cygpath -m $FileHumor` &)
+    fi
 	vici $FileHumor $FileIndex
 	upload.to.bednark.com $FileHumor $FileIndex
 }
