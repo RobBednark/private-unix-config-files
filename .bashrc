@@ -1063,7 +1063,7 @@ function	vhumor() {
 	title humor
 	cd $DirBednarkCom
     if $MacOSX; then
-        open file:///`cygpath -m $FileHumor`
+        open -a Google\ Chrome file:///`cygpath -m $FileHumor`
     else
         (firefox file:///`cygpath -m $FileHumor` &)
     fi
