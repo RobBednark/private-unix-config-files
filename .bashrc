@@ -920,7 +920,7 @@ function vici.onefile() {
     # git --no-pager status --ignore-submodules=dirty
     # Now cd back to the directory where the user was to begin with.
     cd $DirCurDir
-    echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
+    # echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
 }
 function vici () { 
     # Use git instead of rcs
