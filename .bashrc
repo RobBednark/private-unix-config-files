@@ -357,6 +357,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 # Trapit:
 ################################################################################
 DirTrapitRepos="~/trapit.repos"
+alias   cdarcher="cd $DirTrapitRepos/archer"
 alias   cdelzar="cd $DirTrapitRepos/elzar"
 alias   cdmom="cd $DirTrapitRepos/mom"
 alias   cdnibbler="cd $DirTrapitRepos/nibbler"
