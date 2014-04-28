@@ -365,7 +365,7 @@ alias   cdstorytool="cd $DirTrapitRepos/storytool"
 alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
 alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
 alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
-alias   ssh.trapit="cdtrapit.vagrant; vagrant ssh"
+alias   ssh.trapit="cdtrapit.vagrant; vagrant up; vagrant ssh"
 
 ################################################################################
 # Tixie:
