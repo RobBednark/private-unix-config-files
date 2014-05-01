@@ -359,11 +359,14 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 DirTrapitRepos="~/trapit.repos"
 alias   cdarcher="cd $DirTrapitRepos/archer"
 alias   cdelzar="cd $DirTrapitRepos/elzar"
+alias   cdgoose="cd $DirTrapitRepos/goose"
 alias   cdmom="cd $DirTrapitRepos/mom"
 alias   cdnibbler="cd $DirTrapitRepos/nibbler"
+alias   cdrunlog="cd $DirTrapitRepos/runlog"
 alias   cdstorytool="cd $DirTrapitRepos/storytool"
 alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
 alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
+alias   cdval="cd $DirTrapitRepos/val"
 alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
 alias   ssh.trapit="cdtrapit.vagrant; vagrant up; vagrant ssh"
 
