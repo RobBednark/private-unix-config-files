@@ -364,6 +364,7 @@ alias   cdmom="cd $DirTrapitRepos/mom"
 alias   cdnibbler="cd $DirTrapitRepos/nibbler"
 alias   cdqueuestore="cd $DirTrapitRepos/queuestore"
 alias   cdrunlog="cd $DirTrapitRepos/runlog"
+alias   cdshortlinks="cd $DirTrapitRepos/shortlinks"
 alias   cdstorytool="cd $DirTrapitRepos/storytool"
 alias   cdthedude="cd $DirTrapitRepos/thedude"
 alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
