@@ -1069,7 +1069,6 @@ function	vpeople() {
     else
         (firefox file:///`cygpath -m $FilePeopleHtml` &)
     fi
-	vici  $DirQuiz/*people
 	vici $DirQuiz/*people $FilePeopleHtml $FileInformixEmployees $FilePeopleTxt $FileIndex $DirFamilyTree/*txt
 	# upload.to.bednark.com $FilePeopleHtml $FileBlogHtml $FileIndex
 }
