@@ -371,6 +371,7 @@ alias   cdrunlog="cd $DirTrapitRepos/runlog"
 alias   cdshortlinks="cd $DirTrapitRepos/shortlinks"
 alias   cdstorytool="cd $DirTrapitRepos/storytool"
 alias   cdthedude="cd $DirTrapitRepos/thedude"
+alias   cdvulcan="cd $DirTrapitRepos/vulcan"
 alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
 alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
 alias   cdval="cd $DirTrapitRepos/val"
