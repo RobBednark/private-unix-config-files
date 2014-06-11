@@ -359,6 +359,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 ################################################################################
 DirTrapitRepos="~/trapit.repos"
 alias   cdarcher="cd $DirTrapitRepos/archer"
+alias   cdansible="cd $DirTrapitRepos/ansible"
 alias   cdelzar="cd $DirTrapitRepos/elzar"
 alias   cdgoose="cd $DirTrapitRepos/python-goose"
 alias   cdmom="cd $DirTrapitRepos/mom"
