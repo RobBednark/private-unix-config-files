@@ -841,8 +841,8 @@ function phone () {
   grep -i $@ $FilePhone
 }
 function ping.monitor() {
-    FILE_PING_OUTPUT=/tmp/ping.monitor.$$
-    FILE_SYMLINK_ACTIVE=/tmp/ping.monitor.active
+    FILE_PING_OUTPUT=~/tmp/ping.monitor.$$
+    FILE_SYMLINK_ACTIVE=~/tmp/ping.monitor.active
     python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >>& $FILE_PING_OUTPUT &
     rm -f $FILE_SYMLINK_ACTIVE
     ln -s $FILE_PING_OUTPUT $FILE_SYMLINK_ACTIVE
