@@ -229,6 +229,8 @@ FilePeopleHtml="$DirBednarkCom/people.I.know.html"
 FilePeopleTxt="$DirDoc/people.I.know.txt"
 FilePhone="$DirDoc/phone.nums.txt"
 FilePicts="$DirTxt/sent.list.txt"
+FilePingOutput=~/tmp/ping.monitor.$$
+FilePingSymlinkActive=~/tmp/ping.monitor.active
 FileQuotes="$DirBednarkCom/quotes.html"
 FileRecommendations="$DirBednarkCom/cpp/i.recommend.cpp"
 FileSitemap="$DirBednarkCom/sitemap.xml"
@@ -554,6 +556,7 @@ alias   ssh.qa-db.tixie="ssh -i $PemTixieKey ubuntu@$MachineQA_DB_Tixie"
 alias   source.django="source ~/dropbox/bin/learn/dir.learn.django.projects/source.venv"
 alias   sourcetree="open -a SourceTree"
 
+alias   tail.downtime="tail -999f $FilePingSymlinkActive | grep time.DOWN"
 alias   ti=title
 alias	tlab="title svc driver; telnet $MachineSvcDriver"
 alias 	tbvt3="telnet $MachineBvt3Driver9"
@@ -843,12 +846,10 @@ function phone () {
   grep -i $@ $FilePhone
 }
 function ping.monitor() {
-    FILE_PING_OUTPUT=~/tmp/ping.monitor.$$
-    FILE_SYMLINK_ACTIVE=~/tmp/ping.monitor.active
-    python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >>& $FILE_PING_OUTPUT &
-    rm -f $FILE_SYMLINK_ACTIVE
-    ln -s $FILE_PING_OUTPUT $FILE_SYMLINK_ACTIVE
-    tail -f $FILE_PING_OUTPUT
+    python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >>& $FilePingOutput &
+    rm -f $FilePingSymlinkActive
+    ln -s $FilePingOutput $FilePingSymlinkActive
+    tail -f $FilePingSymlinkActive
 }
 function rcs.show.lock() {
     for oneFile in $@; do
