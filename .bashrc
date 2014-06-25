@@ -558,6 +558,7 @@ alias   sourcetree="open -a SourceTree"
 
 alias   tail.downtime="tail -999f $FilePingSymlinkActive | grep time.DOWN"
 alias   tail.summary="tail -99f $FilePingSymlinkActive | grep SUMMARY"
+alias   tail.time="tail -99f $FilePingSymlinkActive | grep SUMMARY:.time"
 alias   tail.ping="tail -20f $FilePingSymlinkActive"
 alias   ti=title
 alias	tlab="title svc driver; telnet $MachineSvcDriver"
