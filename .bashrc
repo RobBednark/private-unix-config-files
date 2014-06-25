@@ -852,7 +852,7 @@ function ping.monitor() {
     python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >>& $FilePingOutput &
     rm -f $FilePingSymlinkActive
     ln -s $FilePingOutput $FilePingSymlinkActive
-    tail -f $FilePingSymlinkActive
+    tail.time
 }
 function rcs.show.lock() {
     for oneFile in $@; do
