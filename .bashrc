@@ -608,6 +608,7 @@ alias 	vpicts="vici $FilePicts"
 alias   vatd="cd $DirLearn; vici atd_survey_filter.py"
 
 # Quiz files
+alias   vabraham.hicks.quotes="vici $DirQuize/abraham-hicks.quotes"
 alias   vachievements.atlatl="title vachievements.atlatl; vici $DirQuiz/achievements.atlatl"
 alias   vapps="title vapps; cd $DirQuiz; vici db_apps"
 alias   varchitecture="vici $DirQuiz/db_software_design_architecture"
