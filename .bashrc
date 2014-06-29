@@ -250,8 +250,8 @@ FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 ################################################################################
 ### Atlatl 
 ################################################################################
-alias   cdatl="cd ~/Dropbox/git/atlatl-mvp/atlatl-server"
-alias   cdcore="cd $DirDropbox/git/dart-core/atlatl-server"
+alias   cd.atlatl.mvp.from.creo="cd ~/Dropbox/git/atlatl-mvp/atlatl-server"
+alias   cd.atlatl.core="cd $DirDropbox/git/dart-core/atlatl-server"
 alias   cdtest="cd $DirDropbox/git/dart-core/acceptance-tests/cuke-atlatl"
 alias   show_data="python -u manage.py show_data |& less"
 alias   ssh.dev.app="ssh -i ~/.ssh/DEVapp.pem rbednark@devapp.atlatlprivate.com"
