@@ -526,6 +526,7 @@ alias   seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/
 #alias	sshmtproxy="echo mtd@t@2011; ssh root@mtproxy.futurewei.ebento.net"
 #alias	sshmtproxy8="echo wloe...; ssh rbednark@mtproxy8.ebento.net"
 #alias	sshtest="title douglas; ssh rbednark@$hostDouglas"
+alias   ssh="ssh -A"
 alias   ssh.rob-aws="ssh -i $PemRobKey ubuntu@$MachineRobAWS"
 
 # Tixie machines
