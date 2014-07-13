@@ -559,6 +559,7 @@ alias   ssh.qa-db.tixie="ssh -i $PemTixieKey ubuntu@$MachineQA_DB_Tixie"
 
 alias   source.django="source ~/dropbox/bin/learn/dir.learn.django.projects/source.venv"
 alias   sourcetree="open -a SourceTree"
+alias   sourcetree.this.repo="sourcetree $(git rev-parse --show-toplevel)"
 
 alias   tail.downtime="tail -999f $FilePingSymlinkActive | grep time.DOWN"
 alias   tail.summary="tail -99f $FilePingSymlinkActive | grep SUMMARY"
