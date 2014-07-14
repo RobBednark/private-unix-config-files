@@ -588,6 +588,7 @@ alias	vaddrs="title vi email addresses; vici $FileEmailAddrs"
 alias   vagrant.halt='cdvagrant; vagrant status; time vagrant halt; vagrant status'
 alias   vagrant.ssh='cdvagrant; vagrant status; date; time vagrant up; date; vagrant ssh'
 alias   vagrant.status='cdvagrant; vagrant status'
+alais   vask="cd $DirQuiz; vici db_*ask*"
 alias	vconvert="title teamroom.how.to.convert.to.flexsan.html; cd $DirDoc; explorer.exe teamroom.how.to.convert.to.flexsan.html; vici teamroom.how.to.convert.to.flexsan.html"
 alias	vebento="cdsel; vici ebento.py"
 alias 	vhw="title Huawei; vici $FileToDo $FileHuawei $FileJ $FileDoc"
