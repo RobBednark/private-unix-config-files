@@ -388,6 +388,7 @@ alias   trapit.psql.astro="psql -h 10.23.1.21 -U zoidberg --password trapit"
 alias   trapit.psql.staging="psql --host=10.0.1.94 --username=zoidberg --dbname=trapit"
 #alias   trapit.psql.deloitte="psql -h 10.23.1.21 -U zoidberg -W trapit"
 alias   trapit.psql.higgs="psql -h 10.0.1.21 --username=zoidberg -W --dbname=trapit"
+alias   virt="source .virt/bin/activate"
 
 ################################################################################
 # Tixie:
