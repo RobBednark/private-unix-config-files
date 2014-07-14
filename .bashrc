@@ -908,6 +908,19 @@ function title {
     fi
 }
 
+function title.bash {
+    # title isn't working in zsh, so try it in bash
+    _title="$*"
+    if $MacOSX; then
+        # iTerm2 
+        #echo -n "\033];$title\007"
+        bash echo -ne "\033]0;"$_title"\007"
+    else
+        bash echo -ne "\e]2;$*\a"
+    fi
+}
+
+
 function titlessh {
 	ssh $Rob ~/bin/title $@
 }
