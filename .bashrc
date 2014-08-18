@@ -378,10 +378,11 @@ alias   cdshortlinks="cd $DirTrapitRepos/shortlinks"
 alias   cdstorytool="cd $DirTrapitRepos/storytool"
 alias   cdsupport="cd $DirTrapitRepos/support"
 alias   cdthedude="cd $DirTrapitRepos/thedude"
-alias   cdvulcan="cd $DirTrapitRepos/vulcan"
+alias   cdtachyon="cd $DirTrapitRepos/tachyon"
 alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
 alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
 alias   cdval="cd $DirTrapitRepos/val"
+alias   cdvulcan="cd $DirTrapitRepos/vulcan"
 alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
 alias   trapit.cp.fusion.metric.scripts="(set -x; DIR_FUSION=$DirTrapitRepos/xm-2.fusion.metrics; mkdir -p $DIR_FUSION; scp -p 'xm-2:/home/fusion/metrics/*.{py,sh}' $DIR_FUSION)"
 alias   ssh.trapit="cdtrapit.vagrant; vagrant up; vagrant ssh"
