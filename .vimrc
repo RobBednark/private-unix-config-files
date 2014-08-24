@@ -1,5 +1,5 @@
 set ic   " ignorecase
-"set cc=80 " colorcolumn -- show a column of red at character position 80
+set cc=80 " colorcolumn -- show a column of red at character position 80
 set ai   " autoindent
 set nows " nowrapscan - don't wrap around to beginning after search hits end-of-file
 set hls  " highlightsearch
