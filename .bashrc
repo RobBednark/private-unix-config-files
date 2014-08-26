@@ -7,7 +7,7 @@
 ################################################################################
 # oh-my-zsh BEGIN
 ################################################################################
-enable_oh_my_zsh=false
+enable_oh_my_zsh=true
 
 if $enable_oh_my_zsh; then
     # Path to your oh-my-zsh configuration.
@@ -21,6 +21,8 @@ if $enable_oh_my_zsh; then
 
     # Uncomment following line if you want red dots to be displayed while waiting for completion
     COMPLETION_WAITING_DOTS="true"
+
+    DISABLE_AUTO_TITLE='true'
 
     # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
     # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
