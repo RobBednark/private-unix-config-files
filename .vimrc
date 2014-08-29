@@ -18,6 +18,7 @@ syntax on " syntax highlighting
 set incsearch " incremental search
 set fileformat=unix
 set expandtab " expand tabs to spaces instead of tab characters
+set modelines=5  " Look for /* vim: ...: */ settings in the first/last this many lines of the file; if 0, modelines is disabled
 set modeline  " look for /* vim: */ modeline settings at the beginning of a file
 " I created this file manually using the ctags command.  -Rob Bednark 4/9/12
 " Commented-out the following line 3/5/14 after installing Mavericks, and getting the following error when doing a :w
