@@ -462,6 +462,7 @@ alias   cpuslow="cpushow; set -x; sudo cpufreq-set --cpu 1 --max 1200000;sudo cp
 alias   cpufast="cpushow; set -x; sudo cpufreq-set --cpu 1 --max 2000000;sudo cpufreq-set --cpu 0 --max 2000000; cpushow; set +x"
 alias   cpushow="set -x; cpufreq-info | egrep 'policy'; cpufreq-info|egrep stats; echo 'CRITICAL temp: 100C; MAX temp: 105C; Hard disk MAX temp: 140C; Hard disk MTBF: 500,000 hrs'; set +x"
 
+alias   datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
 alias	diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
 alias	dotrc="source $FileRc"
 
