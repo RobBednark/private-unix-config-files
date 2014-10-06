@@ -484,6 +484,7 @@ alias   gb="echo git branch; git branch"
 alias   gc="echo git checkout $*; git checkout"
 alias   gf="echo git fetch; git fetch"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
+alias   git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias   git.show.toplevel="git rev-parse --show-toplevel"
 #alias   git.diff.old="(set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --noprompt $*)"
 
