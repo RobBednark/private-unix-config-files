@@ -894,7 +894,7 @@ function latest() {
     _file=$(ls -1t $@ | head -1)
     if [ "$@" != "" ]; {
         _dir="$@" 
-        echo $_dir/$_file
+        echo "$_dir/$_file"
     } else {
         echo $_file
     }
