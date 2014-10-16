@@ -892,12 +892,12 @@ function pless() {
 }
 function latest() {
     _file=$(ls -1t $@ | head -1)
-    if [ "$@" != "" ]; {
+    if [ "$@" != "" ]; then
         _dir="$@" 
         echo "$_dir/$_file"
-    } else {
+    else
         echo $_file
-    }
+    fi
 }
 function ninja.grep.tests () {
 	egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@ 
