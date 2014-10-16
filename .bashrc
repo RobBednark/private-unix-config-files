@@ -890,6 +890,9 @@ function pless() {
     # pipe stdout/stderr to less
     $@ 2>&1 | less
 }
+function latest() {
+    ls -1t $@ | head -1
+}
 function ninja.grep.tests () {
 	egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@ 
 }
