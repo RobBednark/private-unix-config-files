@@ -891,7 +891,13 @@ function pless() {
     $@ 2>&1 | less
 }
 function latest() {
-    ls -1t $@ | head -1
+    _file=$(ls -1t $@ | head -1)
+    if ("$@" != "") {
+        _dir="$@" 
+        echo $_dir/$_file
+    } else {
+        echo $_file
+    }
 }
 function ninja.grep.tests () {
 	egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@ 
