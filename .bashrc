@@ -422,6 +422,7 @@ alias   trapit.psql.higgs="psql -h 10.0.1.21 --username=zoidberg -W --dbname=tra
 
 alias   vgoogleplus="vici $DirTrapit/google.plus.design.notes.md"
 alias   virt="source .virt/bin/activate"
+alias   vtrapitfaq="vici $DirTrapitRepos/misc/rbednark/docs/faq_platform"
 
 ################################################################################
 # Tixie:
