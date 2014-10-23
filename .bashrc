@@ -417,9 +417,10 @@ alias   ssh.trapit="cdtrapit.vagrant; vagrant up; vagrant ssh"
 
 alias   trapit.cp.fusion.metric.scripts="(set -x; DIR_FUSION=$DirTrapitRepos/xm-2.fusion.metrics; mkdir -p $DIR_FUSION; scp -p 'xm-2:/home/fusion/metrics/*.{py,sh}' $DIR_FUSION)"
 alias   trapit.psql.astro="psql -h 10.23.1.21 -U zoidberg --password trapit"
-alias   trapit.psql.staging="psql --host=10.0.1.94 --username=zoidberg --dbname=trapit"
 #alias   trapit.psql.deloitte="psql -h 10.23.1.21 -U zoidberg -W trapit"
 alias   trapit.psql.higgs="psql -h 10.0.1.21 --username=zoidberg -W --dbname=trapit"
+alias   trapit.psql.logs="psql -h 10.0.5.222 --username=zoidberg -W --dbname=trapit_nginx_logs"
+alias   trapit.psql.staging="psql --host=10.0.1.94 --username=zoidberg --dbname=trapit"  # Need to be on staging
 
 alias   vgoogleplus="vici $DirTrapit/google.plus.design.notes.md"
 alias   virt="source .virt/bin/activate"
