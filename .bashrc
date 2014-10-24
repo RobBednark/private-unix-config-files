@@ -424,7 +424,7 @@ alias   trapit.psql.staging="psql --host=10.0.1.94 --username=zoidberg --dbname=
 
 alias   vgoogleplus="vici $DirTrapit/google.plus.design.notes.md"
 alias   virt="source .virt/bin/activate"
-alias   vtrapitfaq="vici $DirTrapitRepos/misc/rbednark/docs/faq_platform.md"
+alias   vtrapitfaq="title Trapit FAQ; vici $DirTrapitRepos/misc/rbednark/docs/faq_platform.md"
 
 ################################################################################
 # Tixie:
