@@ -421,6 +421,7 @@ alias   trapit.psql.astro="psql -h 10.23.1.21 -U zoidberg --password trapit"
 alias   trapit.psql.higgs="psql -h 10.0.1.21 --username=zoidberg -W --dbname=trapit"
 alias   trapit.psql.logs="psql -h 10.0.5.222 --username=zoidberg -W --dbname=trapit_nginx_logs"
 alias   trapit.psql.staging="psql --host=10.0.1.94 --username=zoidberg --dbname=trapit"  # Need to be on staging
+alias   trapit.scp.deloitte.logs="mkdir -p /tmp/nginx-logs/deloitte; date; time scp -Cpr deloitte:/trapit/logs-archive/rsync-var-log-trapit/trapit/'*.gz' /tmp/nginx-logs/deloitte; date"
 
 alias   vgoogleplus="vici $DirTrapit/google.plus.design.notes.md"
 alias   virt="source .virt/bin/activate"
