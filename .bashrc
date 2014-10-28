@@ -473,6 +473,11 @@ alias   cdwebapp="cd /var/webapp/tixie_public"
 alias   subl.tixie="subl /Users/rob/git/tixie-web/src"
 ################################################################################
 
+################################################################################
+# Postgres
+################################################################################
+alias   postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by peer|GMT LOG:  duration:'"
+
 alias	ci="ci -zLT"
 # I think "cmd" works for the default cygwin window, but not for rxvt
 #alias	cls="cmd /c cls"
