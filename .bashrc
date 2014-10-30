@@ -399,6 +399,7 @@ alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" #
 alias   cdval="cd $DirTrapitRepos/val"
 alias   cdvulcan="cd $DirTrapitRepos/vulcan"
 alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
+alias   cdzulu="cd $DirTrapitRepos/zulu"
 
 alias   redis.higgs.cache="redis-cli -h 10.0.1.101 -p 6379"
 alias   redis.higgs.events="redis-cli -h 10.0.1.101 -p 6379 -d 1"
