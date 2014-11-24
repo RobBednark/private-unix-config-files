@@ -1000,7 +1000,7 @@ function rcsdiff_show_files_that_diff {
 }
 function vici.onefile() {
     onefile=$1
-    title $onefile
+    title $(basename $onefile)
     DirCurDir=$(pwd)
     DirBase=`dirname $onefile`
 
