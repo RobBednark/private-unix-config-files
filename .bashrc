@@ -649,6 +649,7 @@ alias	vninja="title ninja.html; cd $DirDoc; (firefox file:///`type cygpath > /de
 alias	vobs="title readme.obs.html; cd $DirDoc; explorer.exe readme.obs.html; vici readme.obs.html"
 alias	vi=vim
 
+alias   vdone="vici $FileAccomplishments"
 alias 	vj.other="vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
 alias 	vj="title j; vim -R $FileJ ; echo vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
 alias   vjtmp="title interim j; vici $FileJTmp"
