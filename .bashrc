@@ -612,7 +612,6 @@ alias   sourcetree="open -a SourceTree"
 alias   sourcetree.this.repo='sourcetree $(git rev-parse --show-toplevel)'
 
 alias   tail.downtime="tail -999f $FilePingSymlinkActive | grep time.DOWN"
-alias   tail.recent.logs="tail -30f $(ls -1tr ~/logs | head -n 2)"
 alias   tail.summary="tail -99f $FilePingSymlinkActive | grep SUMMARY"
 alias   tail.time="tail -99f $FilePingSymlinkActive | grep SUMMARY:.time"
 alias   tail.ping="tail -20f $FilePingSymlinkActive"
@@ -1409,6 +1408,10 @@ function vi.grep.ril() {
 
     # This one will only work with xargs that supports the --no-run-if-empty option:
     #grep -ril $patternGrep . | xargs --no-run-if-empty vim
+}
+function tail.recent.logs() {
+    # Tail the newest 2 log files
+    (set -xv; date; tail -30f $(ls -1tr ~/logs | head -n 2) )
 }
 function tail.newest.n.files() {
 	echo "e.g., tail.newest.n.files 2 '*.log' > /dev/null" > /dev/null
