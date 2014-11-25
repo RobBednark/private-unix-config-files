@@ -612,6 +612,7 @@ alias   sourcetree="open -a SourceTree"
 alias   sourcetree.this.repo='sourcetree $(git rev-parse --show-toplevel)'
 
 alias   tail.downtime="tail -999f $FilePingSymlinkActive | grep time.DOWN"
+alias   tail.recent.logs="tail -30f $(ls -1tr ~/logs | head -n 2)"
 alias   tail.summary="tail -99f $FilePingSymlinkActive | grep SUMMARY"
 alias   tail.time="tail -99f $FilePingSymlinkActive | grep SUMMARY:.time"
 alias   tail.ping="tail -20f $FilePingSymlinkActive"
