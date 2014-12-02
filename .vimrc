@@ -116,9 +116,16 @@ Bundle 'gmarik/vundle'
 
 " command-t ==> file/dir explorer
 " Commented-out command-t Wed 3/5/14 5:10pm after upgrade to Mavericks, because I'm getting a SEGV when running it with vim.
+" Command-T ==> a plugin I love; for easily finding files to edit
 Bundle 'wincent/Command-T'
 
-" show plugins in Bundle menu in vim GUI's, e.g., mvim:
+" py-coverage ==> for highlighting lines that coverage indicates are not covered by the tests
+Bundle 'py-coverage'
+
+" vim-fugitive ==> interact with git to see git diffs with vim-diff, and more
+Bundle 'tpope/vim-fugitive'
+
+" headlights ==> show plugins in Bundle menu in vim GUI's, e.g., mvim:
 Bundle 'mbadran/headlights'
 " required by headlights:
 Bundle 'genutils'
