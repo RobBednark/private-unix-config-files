@@ -3,21 +3,21 @@ set cc=80 " colorcolumn -- show a column of red at character position 80
 set ai   " autoindent
 set nows " nowrapscan - don't wrap around to beginning after search hits end-of-file
 set hls  " highlightsearch
-"set nu   " number -- line numbers
 set ts=4 " tabstop
 set sw=4 " shiftwidth
-"set shell=/bin/bash
+set incsearch " incremental search
 set shell=/bin/bash   " I can't get zsh -i so use the .zshrc file and use my PATH (:!which python /usr/bin/python instead of /usr/local/bin/python), but bash does use them.
+syntax on " syntax highlighting
+set expandtab " expand tabs to spaces instead of tab characters
+"set nu   " number -- line numbers
+"set shell=/bin/bash
 "set shell=/bin/bash\ -i   " Someone recommended this to get my .bashrc, but it wasn't necessary, and introduced it's own problems.  [see vvim]
 "set shell=/usr/local/bin/zsh
 "set shell=~/.zsh.from.vim.with.zshrc.zsh\ -i
 "set shellcmdflag=-i  " need -i (interactive) option to zsh so that it reads in the .zshrc file and sets my PATH to use the right Python
 "set shellcmdflag=-i  " need -i (interactive) option to bash so that it reads in the .bashrc file and sets my PATH to use the right Python
 set textwidth=0
-syntax on " syntax highlighting
-set incsearch " incremental search
 set fileformat=unix
-set expandtab " expand tabs to spaces instead of tab characters
 set modelines=5  " Look for /* vim: ...: */ settings in the first/last this many lines of the file; if 0, modelines is disabled
 set modeline  " look for /* vim: */ modeline settings at the beginning of a file
 " I created this file manually using the ctags command.  -Rob Bednark 4/9/12
