@@ -399,6 +399,7 @@ alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" #
 alias   cdval="cd $DirTrapitRepos/val"
 alias   cdvulcan="cd $DirTrapitRepos/vulcan"
 alias   cdyaro="cd $DirTrapitRepos/yaro-0.6.4"
+alias   cdzapper="cd $DirTrapitRepos/zapper"
 alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
 alias   cdzulu="cd $DirTrapitRepos/zulu"
 
