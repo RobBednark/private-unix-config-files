@@ -872,8 +872,8 @@ function cilm () {
 function cd.package.dir() {
     # cd to the directory that contains the specified python package
     _py_package=$1
-    _py_file=$(python -c "import $package; print ${package}.__file__")
-    cd $(dirname $_py_file)
+    _py_file=$(python -c "import ${_py_package}; print ${_py_package}.__file__")
+    cd $(dirname ${_py_file})
 }
 function emailaddr () {
   grep -i $@ $FileEmailAddrs
