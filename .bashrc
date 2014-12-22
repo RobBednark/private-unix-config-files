@@ -870,10 +870,12 @@ function cilm () {
 	ci -zLT -t-. -l -m. $*
 }
 function cd.package.dir() {
-_py_package=$1
-_py_file=$(python -c "import $package; print ${package}.__file__")
-cd $(dirname $file)
-}ion emailaddr () {
+    # cd to the directory that contains the specified python package
+    _py_package=$1
+    _py_file=$(python -c "import $package; print ${package}.__file__")
+    cd $(dirname $_py_file)
+}
+function emailaddr () {
   grep -i $@ $FileEmailAddrs
 }
 function find.portal () {
