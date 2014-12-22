@@ -869,7 +869,11 @@ function cilm () {
 	mkdir -p $DirBase/RCS
 	ci -zLT -t-. -l -m. $*
 }
-function emailaddr () {
+function cd.package.dir() {
+_py_package=$1
+_py_file=$(python -c "import $package; print ${package}.__file__")
+cd $(dirname $file)
+}ion emailaddr () {
   grep -i $@ $FileEmailAddrs
 }
 function find.portal () {
