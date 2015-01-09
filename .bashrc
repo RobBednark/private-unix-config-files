@@ -102,6 +102,7 @@ export DISPLAY='rbednark:0.0'
 export DISPLAY=""
 export DISPLAY=":0.0"
 export EDITOR="/usr/bin/vim"
+export GREP_COLOR=always  # used by grep to show matches in color, equivalent to "grep --color=always"
 # less -R ==> Like  -r,  but only ANSI "color" escape sequences are output in "raw" form.  Unlike -r, the screen appearance is maintained correctly in most cases.
 # less --LINE_NUMBERS ==> enable line numbers
 export LESS="-iRX --LINE-NUMBERS --jump-target=.5" # -R ==> process color escape sequences correctly   -i ==> case insensitive search, unless UPPERCASE chars are searched
