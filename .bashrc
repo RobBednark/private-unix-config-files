@@ -514,6 +514,7 @@ fi
 alias   gb="echo git branch; git branch"
 alias   gc="echo git checkout $*; git checkout"
 alias   gf="echo git fetch; git fetch"
+alias   grep="grep --color"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
 alias   git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
