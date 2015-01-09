@@ -430,6 +430,7 @@ alias   trapit.scp.deloitte.logs="mkdir -p /tmp/nginx-logs/deloitte; date; time 
 alias   vgoogleplus="vici $DirTrapit/google.plus.design.notes.md"
 alias   virt="source .virt/bin/activate"
 alias   vtrapitfaq="title Trapit FAQ; vici $DirTrapitRepos/misc/rbednark/docs/faq_platform.md"
+alias   vtrapitdiaries="title Trapit diaries; vim $DirTrapitRepos/misc/rbednark/docs/*diar*"
 
 ################################################################################
 # Tixie:
