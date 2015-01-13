@@ -122,6 +122,9 @@ Bundle 'wincent/Command-T'
 " py-coverage ==> for highlighting lines that coverage indicates are not covered by the tests
 Bundle 'py-coverage'
 
+" vim-abolish ==> for doing smart replacements of words (e.g., foo=>bar Foo=>Bar FOO=>BAR fooies=>bars
+Bundle 'tpope/vim-abolish'
+
 " vim-fugitive ==> interact with git to see git diffs with vim-diff, and more
 Bundle 'tpope/vim-fugitive'
 
