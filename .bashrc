@@ -546,7 +546,8 @@ alias	lib="title library; telnet multnomah.lib.or.us"
 
 alias	manoj="telnet $MachineManoj"
 alias	mv="mv -i"
-alias   mycmd='(set -x; rm -f mydb.db db.sqlite3;./manage.py syncdb --noinput; ./manage.py mycmd)'
+alias   mycmd_old='(set -x; rm -f mydb.db db.sqlite3;./manage.py syncdb --noinput; ./manage.py mycmd)'
+alias   mycmd='(set -x; rm -f mydb.db db.sqlite3;./manage.py migrate; ./manage.py mycmd)'
 alias   mycmd.nosync='(set -x; ./manage.py mycmd)'
 
 alias 	mounttestadm="sudo mkdir -p /testadm; sudo mount $MachineCurtis:/testadm /testadm"
