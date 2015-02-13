@@ -1,4 +1,5 @@
-# Last updated: Fri 8/12/2002 06:15pm by Rob Bednark
+# Last updated: Fri 9/12/2002 06:15pm by Rob Bednark
+
 # AUTHOR: Rob Bednark
 ################################################################################
 ### .bashrc
@@ -201,6 +202,7 @@ DirOptionTables="$DirRbednark/option.tables"
 DirPicts="$DirRbednark/picts"
 DirPublicHtml="$DirRbednark/public_html"
 DirQuiz="$DirLearn/quiz.python/db"
+DirQuizMe=$DirGit/quizme_website
 DirReadOnly="$DirRbednark/read.only"
 DirSync="$DirRbednark/sync"
 DirUnixConfigFiles="$DirDropbox/Rob/unix.config.files"
@@ -354,7 +356,7 @@ alias   cdpsu="cd $DirDropbox/Rob/psu.online.map"
 alias	cdpublic="cd $DirPublicHtml"
 alias   cdpydoc="cd ~/dropbox/Rob/python.doc/python-2.7.2-docs-text"
 alias   cdquiz="title quiz; cd $DirLearn/quiz.python/db"
-alias   cdquizme="cd $DirGit/quizme_website; workon quizme"
+alias   cdquizme="cd $DirQuizMe; workon quizme"
 alias   cdscrapy="cd $DirLearn/scrapy"
 #alias	cdsel="title ebento.py; cd ~/huawei/selenium"
 #alias	cdstax="cd $DirLearn/stax; pwd; ls"
@@ -700,7 +702,8 @@ alias   vpeople.quiz="vici $DirQuiz/db_quiz_people"
 alias   vprogramming="cd $DirQuiz; vici db_programming"
 alias   vpython="title vpython; cd $DirQuiz; vici db_python"
 alias   vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
-alias   vquizme="cd $DirGit/quizme_website; vici README"
+alias   vquizme="cd $DirQuizMe; vici README"
+alias   vquizmedb="vim $(ls -1tr $DirQuizMe/db_dumps | tail -1)"
 alias   vresume="vici $DirQuiz/db_resume"
 alias   vselenium="vici $DirQuiz/db_selenium"
 alias   vtalks="vici $DirQuiz/db_talks"
