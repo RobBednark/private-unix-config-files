@@ -449,6 +449,12 @@ function trapit.supervisorctl.status.all() {
     done
     )
 }
+function trapit.show.all.logs() {
+    (
+    set -xv;
+    ssh nb-1 cat '/trapit/*/v?/*log'
+    )
+}
 
 ################################################################################
 # Tixie:
