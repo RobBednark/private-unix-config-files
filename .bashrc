@@ -441,9 +441,12 @@ alias   vtrapitdiaries="title Trapit diaries; vim $DirTrapitRepos/misc/rbednark/
 
 function trapit.supervisorctl.status.all() {
     servers='nb-1 zb-1 zb-2 zb-3'
+    (
+    set -xv;
     for server in $servers; do 
         ssh $server supervisorctl status
     done
+    )
 }
 
 ################################################################################
