@@ -449,6 +449,12 @@ function trapit.supervisorctl.status.all() {
     done
     )
 }
+function trapit.get.all.logs() {
+    (
+    set -xv;
+    ssh nb-1 '(cd /tmp; mkdir tmp.rbednark.logs; )'
+    )
+}
 function trapit.show.all.logs() {
     (
     set -xv;
