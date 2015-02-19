@@ -440,9 +440,10 @@ alias   vtrapitfaq="title Trapit FAQ; vici $DirTrapitRepos/misc/rbednark/docs/fa
 alias   vtrapitdiaries="title Trapit diaries; vim $DirTrapitRepos/misc/rbednark/docs/*diar*"
 
 function trapit.supervisorctl.status.all() {
-    servers="nb-1 zb-1 zb-2 zb-3"
     (
+    setopt shwordsplit
     set -xv;
+    servers="nb-1 zb-1 zb-2 zb-3"
     for server in $servers; do 
         ssh $server supervisorctl status
     done
