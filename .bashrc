@@ -581,7 +581,7 @@ alias   mycmd.nosync='(set -x; ./manage.py mycmd)'
 
 alias 	mounttestadm="sudo mkdir -p /testadm; sudo mount $MachineCurtis:/testadm /testadm"
 
-alias   open.postgresql.manual="open $DirDropbox/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
+alias   open.postgresql.manual="open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
 
 alias	pgoog="ping google.com"
 alias 	pok="title poughkeepsie sanfs00; telnet 9.12.20.42; ssh rbednark@9.12.20.42"
