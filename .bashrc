@@ -401,6 +401,7 @@ alias   cdstorytool="cd $DirTrapitRepos/storytool"
 alias   cdsupport="cd $DirTrapitRepos/support"
 alias   cdthedude="cd $DirTrapitRepos/thedude"
 alias   cdtachyon="cd $DirTrapitRepos/tachyon"
+alias   cdtenjintemplates="cd $DirTrapitRepos/tenjintemplates"
 alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
 alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
 alias   cdval="cd $DirTrapitRepos/val"
