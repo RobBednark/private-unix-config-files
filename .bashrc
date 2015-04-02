@@ -407,6 +407,7 @@ alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
 alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
 alias   cdval="cd $DirTrapitRepos/val"
 alias   cdvulcan="cd $DirTrapitRepos/vulcan"
+alias   cdwordpressplugin="cd $DirTrapitRepos/wordpress-plugin"
 alias   cdyaro="cd $DirTrapitRepos/yaro-0.6.4"
 alias   cdzapper="cd $DirTrapitRepos/zapper"
 alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
