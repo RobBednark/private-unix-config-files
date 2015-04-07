@@ -413,6 +413,8 @@ alias   cdzapper="cd $DirTrapitRepos/zapper"
 alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
 alias   cdzulu="cd $DirTrapitRepos/zulu"
 
+alias   higgs=trapit.psql.higgs
+
 alias   redis.higgs.cache="redis-cli -h 10.0.1.101 -p 6379"
 alias   redis.higgs.events="redis-cli -h 10.0.1.101 -p 6379 -d 1"
 alias   redis.higgs.landing-page-cache="redis-cli -h 10.0.1.55 -p 3344 -d 0"
