@@ -1406,7 +1406,7 @@ function vi.last.n.files() {
 	pattern=$1
 	number=$2
 	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
-	vi -R `ls -1t $pattern | head -$number`
+	vi `ls -1t $pattern | head -$number`
 	#files=""
 	#for oneFile in `ls -1t $pattern | head -$number`; do
 		#files="$files \"'\"$oneFile\"'\" " 
