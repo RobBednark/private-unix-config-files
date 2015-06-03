@@ -981,7 +981,7 @@ function ping.monitor() {
     rm -f $FilePingSymlinkActive
     ln -s $FilePingOutput $FilePingSymlinkActive
     sleep 3;
-    tail.time
+    ping.tail.time
 }
 function rcs.show.lock() {
     for oneFile in $@; do
