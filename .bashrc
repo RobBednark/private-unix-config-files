@@ -431,7 +431,7 @@ alias   redis.higgs.zoidberg="redis-cli -h 10.0.1.55 -p 6378 -d 0"
 
 alias   ssh.trapit="cdtrapit.vagrant; vagrant up; vagrant ssh"
 alias   stag="ssh staging-1"
-alias   staging="ssh staging-1"
+alias   st="ssh staging-1"
 
 alias   trapit.cp.fusion.metric.scripts="(set -x; DIR_FUSION=$DirTrapitRepos/xm-2.fusion.metrics; mkdir -p $DIR_FUSION; scp -p 'xm-2:/home/fusion/metrics/*.{py,sh}' $DIR_FUSION)"
 alias   trapit.psql.astro="psql -h 10.23.1.21 -U zoidberg --password trapit"
