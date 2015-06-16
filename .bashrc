@@ -376,6 +376,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 DirTrapit="~/trapit"
 DirTrapitRepos="~/trapit.repos"
 
+alias   ab0="ssh a-build-0"
 alias   a-build-0="ssh a-build-0"
 
 alias   cdarcher="cd $DirTrapitRepos/archer"
