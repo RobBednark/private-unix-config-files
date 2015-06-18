@@ -329,7 +329,7 @@ function atlatl.curl.wirecrafters.login() {
 ################################################################################
 #alias acrobat="'/cygdrive/c/Program Files/Adobe/Acrobat 6.0/Reader/AcroRd32.exe'"
 #alias acrobat="'/cygdrive/c/Program Files/Adobe/Acrobat 7.0/Reader/AcroRd32.exe'"
-alias acrobat="'/cygdrive/c/Program Files (x86)/Adobe/Reader 10.0/Reader/AcroRd32.exe'"
+#alias acrobat="'/cygdrive/c/Program Files (x86)/Adobe/Reader 10.0/Reader/AcroRd32.exe'"
 
 alias   browse.family.tree="firefoxfile $FileFamilyTreeHtml"
 
