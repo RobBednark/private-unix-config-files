@@ -109,7 +109,7 @@ export LESS="-iRX --LINE-NUMBERS --jump-target=.5" # -R ==> process color escape
                    # -X ==> do NOT clear the screen on exit  --jump-target=.5 ==> show matches in the middle of the screen instead of the first line
 #export SHELL=/bin/bash
 export VISUAL="/usr/bin/vim"
-export SAVEHIST=40000 # max size in HISTFILE
+export SAVEHIST=80000 # max size in HISTFILE
 if echo $SHELL | grep zsh > /dev/null; then
     # Added 2/8/13.  History was not getting saved on Atlatl Mac.  Not sure how it was getting saved on my Retina.
     export HISTFILE=~/.zsh_history
