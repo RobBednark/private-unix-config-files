@@ -449,7 +449,7 @@ alias   trapit.cp.fusion.metric.scripts="(set -x; DIR_FUSION=$DirTrapitRepos/xm-
 alias   trapit.psql.astro="psql -h 10.23.1.21 -U zoidberg --password trapit"
 #alias   trapit.psql.deloitte="psql -h 10.23.1.21 -U zoidberg -W trapit"
 #alias   trapit.psql.higgs="psql -h 10.0.1.24 --username=zoidberg -W --dbname=trapit"
-alias   trapit.psql.higgs="psql postgres://zoidberg:dangerzone@db.higgs.trapit.com/trapit"
+alias   trapit.psql.higgs="psql postgres://zoidberg:dangerzone@10.0.1.24/trapit"
 alias   trapit.psql.higgs.db-3="psql -h 10.0.1.22 --username=zoidberg -W --dbname=trapit"
 alias   trapit.psql.logs="psql -h 10.0.5.222 --username=zoidberg -W --dbname=trapit_nginx_logs"
 alias   trapit.psql.staging="psql --host=10.0.1.94 --username=zoidberg --dbname=trapit"  # Need to be on staging
