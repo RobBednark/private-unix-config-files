@@ -377,7 +377,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 ################################################################################
 # Idealist:
 ################################################################################
-DirIdealistRepos="~/repos"
+DirIdealistRepos="~/work/repos"
 
 alias   cdi3="cd $DirIdealistRepos/app-ido-i3"
 
