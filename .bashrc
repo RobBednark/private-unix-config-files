@@ -607,6 +607,10 @@ alias   open.sqlalchemy.manual="open $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded
 alias   open.adobe.reader.sqlalchemy.manual="open.adobe.reader $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
 alias   open.the.effective.engineer="open $DirDropbox/Rob/the-effective-engineer-sample.pdf"
 
+if $MacOSX; then
+alias   osx.wifi.reboot="networksetup -setairportpower en1 off; networksetup -setairportpower en1 on"
+fi
+
 alias	pgoog="ping google.com"
 alias 	pok="title poughkeepsie sanfs00; telnet 9.12.20.42; ssh rbednark@9.12.20.42"
 alias	pw3="ping w3.ibm.com"
