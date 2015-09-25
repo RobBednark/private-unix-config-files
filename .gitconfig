@@ -2,7 +2,7 @@
 	name = Rob Bednark
 	email = rbednark@gmail.com
 [core]
-	excludesfile = /Users/rob/.gitignore_global
+	excludesfile = /Users/rbednark/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
