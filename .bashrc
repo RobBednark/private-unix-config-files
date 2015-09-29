@@ -1007,7 +1007,7 @@ function phone () {
 }
 function ping.monitor() {
     title ping.monitor
-    # python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >>& $FilePingOutput &
+    python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >> $FilePingOutput 2>&1 &
     rm -f $FilePingSymlinkActive
     ln -s $FilePingOutput $FilePingSymlinkActive
     sleep 3;
