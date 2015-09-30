@@ -115,6 +115,9 @@ Bundle 'gmarik/vundle'
 " python tab completion:
 " Bundle 'Pydiction'  -- commented-out because I'm getting poor autocompletion; I'm not sure if it's coming from Pydiction or something else
 
+" ctrlp -- control-p -- file browser plugin, like Command-T; does not require Ruby like Command-T does
+Bundle 'ctrlpvim/ctrlp.vim'
+
 " command-t ==> file/dir explorer
 " Commented-out command-t Wed 3/5/14 5:10pm after upgrade to Mavericks, because I'm getting a SEGV when running it with vim.
 " Command-T ==> a plugin I love; for easily finding files to edit
