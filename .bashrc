@@ -380,6 +380,9 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 DirIdealistRepos="~/work/repos"
 
 alias   cdi3="cd $DirIdealistRepos/app-ido-i3"
+alias   idealist.ssh.pgsandbox0="ssh command@pgsandbox0.dev.awb"
+alias   idealist.ssh.pgsandbox1="ssh command@pgsandbox1.dev.awb"
+alias   idealist.ssh.pgsandbox2="ssh command@pgsandbox2.dev.awb"
 
 ################################################################################
 # Trapit:
