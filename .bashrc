@@ -111,9 +111,14 @@ export LESS="-iRX --LINE-NUMBERS --jump-target=.5" # -R ==> process color escape
 export VISUAL="/usr/bin/vim"
 export SAVEHIST=80000 # max size in HISTFILE
 if echo $SHELL | grep zsh > /dev/null; then
+    # zsh
     # Added 2/8/13.  History was not getting saved on Atlatl Mac.  Not sure how it was getting saved on my Retina.
     export HISTFILE=~/.zsh_history
     export HISTSIZE=32000 # max size internal history per session
+else
+    # bash
+    export HISTSIZE=99999 # max size internal history per session
+    export HISTFILESIZE=99999 # max size internal history per session
 fi
 #export SHARE_HISTORY=1
 # Uncommented APPEND_HISTORY 2/5/13
