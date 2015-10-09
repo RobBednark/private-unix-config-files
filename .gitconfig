@@ -1,6 +1,6 @@
 [user]
-	name = Rob Bednark
-	email = rbednark@gmail.com
+	name = 
+	email = 
 [core]
 	excludesfile = /Users/rbednark/.gitignore_global
 [difftool "sourcetree"]
