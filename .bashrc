@@ -1608,6 +1608,7 @@ fi
 
 ################################################################################
 # nosetests autocomplete
+# Note: need to "pip install nosecomplete" in the virt as well
 ################################################################################
 if echo $SHELL | grep bash > /dev/null; then
     # bash
