@@ -85,12 +85,13 @@ if type setopt > /dev/null 2>&1; then
     # When I start a new session, get the history of all sessions before it.  But once it's started, don't get any history from other sessions:
     setopt append_history no_inc_append_history no_share_history
 else
-    # If this shell doesn't support setopt (like bash), then do nothing.
-    :
+    # bash
+    # If this shell doesn't support setopt (like bash):
+    # histappend => If the histappend shell option is enabled, the lines are appended to the history file, otherwise the history file is overwritten.
+    shopt -s histappend
 fi
 
 # Show all lines of history, not just the last 15 lines.
-alias history="history 1"
 alias hless="history|less"
 alias htail="history|tail"
 
@@ -113,12 +114,23 @@ export SAVEHIST=80000 # max size in HISTFILE
 if echo $SHELL | grep zsh > /dev/null; then
     # zsh
     # Added 2/8/13.  History was not getting saved on Atlatl Mac.  Not sure how it was getting saved on my Retina.
+    alias history="history 1"  # by default, zsh history does not show entire history, so override and show all
     export HISTFILE=~/.zsh_history
     export HISTSIZE=32000 # max size internal history per session
 else
     # bash
     export HISTSIZE=99999 # max size internal history per session
     export HISTFILESIZE=99999 # max size internal history per session
+    #  HISTIGNORE
+    #         A  colon-separated list of patterns used to decide which command lines should be saved on the history list.
+    #         Each pattern is anchored at the beginning of the line and must match the complete line (no implicit `*'  is
+    #         appended).   Each pattern is tested against the line after the checks specified by HISTCONTROL are applied.
+    #         In addition to the normal shell pattern matching characters, `&' matches the previous  history  line.   `&'
+    #         may  be escaped using a backslash; the backslash is removed before attempting a match.  The second and sub-
+    #         sequent lines of a multi-line compound command are not tested, and are added to the history  regardless  of
+    #         the value of HISTIGNORE.
+    # & -- previous history line
+    export HISTIGNORE="&:ls:[bf]g:exit:history"
 fi
 #export SHARE_HISTORY=1
 # Uncommented APPEND_HISTORY 2/5/13
