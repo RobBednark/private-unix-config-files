@@ -1618,8 +1618,7 @@ if echo $SHELL | grep bash > /dev/null; then
         # If word-to-complete contains a colon,
         # and bash-version < 4,
         # or bash-version >= 4 and COMP_WORDBREAKS contains a colon
-        if [[
-            "$1" == *:* && (
+        if [[ "$1" == *:* && (
                 ${BASH_VERSINFO[0]} -lt 4 ||
                 (${BASH_VERSINFO[0]} -ge 4 && "$COMP_WORDBREAKS" == *:*)
             )
@@ -1636,9 +1635,8 @@ if echo $SHELL | grep bash > /dev/null; then
     _nosetests()
     {
         cur=${COMP_WORDS[COMP_CWORD]}
-        if [[
-                ${BASH_VERSINFO[0]} -lt 4 ||
-                (${BASH_VERSINFO[0]} -ge 4 && "$COMP_WORDBREAKS" == *:*)
+        if [[ ${BASH_VERSINFO[0]} -lt 4 ||
+              (${BASH_VERSINFO[0]} -ge 4 && "$COMP_WORDBREAKS" == *:*)
         ]]; then
             local i=$COMP_CWORD
             while [ $i -ge 0 ]; do
