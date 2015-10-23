@@ -30,7 +30,8 @@ filetype plugin indent on
 " Turn on omni autocompletion:
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 
-" create a macro for inserting 
+" create a macros for inserting traces for pdb and for nose.
+" To use, in command mode, type <backslash> followed by "b" or "n"
 map <silent> <leader>b oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
 
