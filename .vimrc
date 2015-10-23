@@ -30,6 +30,10 @@ filetype plugin indent on
 " Turn on omni autocompletion:
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 
+" create a macro for inserting 
+map <silent> <leader>b oimport pdb; pdb.set_trace()<esc>
+map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
+
 " Disable automatically-adding comment prefix on the next line:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 
