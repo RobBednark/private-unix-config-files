@@ -34,7 +34,7 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 " To use, in command mode, type <backslash> followed by "b" or "n"
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
-map <silent> <leader>c :w<esc>:python -m py_compile %<esc>
+map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 
 " Disable automatically-adding comment prefix on the next line:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
