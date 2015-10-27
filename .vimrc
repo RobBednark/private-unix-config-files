@@ -131,9 +131,11 @@ Bundle 'wincent/Command-T'
 
 " coveragepy -- for highlighting lines in python code that don't have code coverage
 " https://github.com/alfredodeza/coveragepy.vim
+" I installed this 10/27/15, but it doesn't seem to have the Coveragepy command like the help indicates.
 Bundle 'alfredodeza/coveragepy.vim'
 
 " py-coverage ==> for highlighting lines that coverage indicates are not covered by the tests
+" 10/27/15 :PyCoverageHighlight -- doesn't seem to find the .coverage file in the current dir; it gives the error
 Bundle 'py-coverage'
 
 " vim-abolish ==> for doing smart replacements of words (e.g., foo=>bar Foo=>Bar FOO=>BAR fooies=>bars
