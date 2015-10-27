@@ -129,6 +129,10 @@ Bundle 'ctrlpvim/ctrlp.vim'
 " Command-T ==> a plugin I love; for easily finding files to edit
 Bundle 'wincent/Command-T'
 
+" coveragepy -- for highlighting lines in python code that don't have code coverage
+" https://github.com/alfredodeza/coveragepy.vim
+Bundle 'alfredodeza/coveragepy.vim'
+
 " py-coverage ==> for highlighting lines that coverage indicates are not covered by the tests
 Bundle 'py-coverage'
 
