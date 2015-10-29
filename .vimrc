@@ -135,7 +135,8 @@ Bundle 'wincent/Command-T'
 Bundle 'alfredodeza/coveragepy.vim'
 
 " py-coverage ==> for highlighting lines that coverage indicates are not covered by the tests
-" 10/27/15 :PyCoverageHighlight -- this is the command that works; note that it calls the "coverage" script, so you need to be in a virtualenv with "pip install coverage"
+" 10/27/15 :PyCoverageHighlight -- this is the command that works; note that it calls the "coverage" script, 
+"          so you need to be in a virtualenv with "pip install coverage"
 Bundle 'py-coverage'
 
 " vim-abolish ==> for doing smart replacements of words (e.g., foo=>bar Foo=>Bar FOO=>BAR fooies=>bars
