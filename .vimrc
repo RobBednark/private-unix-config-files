@@ -35,6 +35,8 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
+" from John de la Garza 10/26/15.  I think what this does is allow a different leader, e.g., "," instead of "\"
+" let mapleader="," noremap <Leader>n :bn<Enter> noremap <Leader>d oimport pdb;pdb.set_trace() 
 
 " Disable automatically-adding comment prefix on the next line:
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
