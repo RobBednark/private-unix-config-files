@@ -32,9 +32,10 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 
 " create a macros for inserting traces for pdb and for nose.
 " To use, in command mode, type <backslash> followed by "b" or "n"
+map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
-map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
+map <silent> <leader>u oimport pudb; pudb.set_trace()<esc>
 " from John de la Garza 10/26/15.  I think what this does is allow a different leader, e.g., "," instead of "\"
 " let mapleader="," noremap <Leader>n :bn<Enter> noremap <Leader>d oimport pdb;pdb.set_trace() 
 
