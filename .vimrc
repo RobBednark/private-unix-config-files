@@ -169,6 +169,11 @@ Bundle 'PreserveNoEOL'
 " The following setting is needed to enable PreserveNoEOL
 let g:PreserveNoEOL = 1 
 
+" conflict-marker: this highlights git conflicts, and allows you to go to next/prev conflict with [x ]x 
+" This plugin defines mappings as default, ct for themselves, co for ourselves, cn for none and cb for both.
+" See: https://github.com/rhysd/conflict-marker.vim
+Bundle 'rhysd/conflict-marker.vim'
+
 filetype plugin indent on     " required!
 nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
