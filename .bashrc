@@ -600,7 +600,7 @@ alias   git.log.branches='git log --graph --full-history --all --pretty=format:"
 alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 alias   git.show.toplevel="git rev-parse --show-toplevel"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
-alias   git.vim.conflicts="vim $(git diff --name-only --diff-filter=U)"
+alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
 #alias   git.diff.old="(set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
 alias   help.find.delete='echo find . -name "*.pyc" -delete'
