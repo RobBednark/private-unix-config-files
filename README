@@ -1,0 +1,2 @@
+11/25/15 downloaded git-completion.bash via:
+    curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > git-completion.bash
