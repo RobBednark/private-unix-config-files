@@ -1701,7 +1701,7 @@ alias betty=/Users/rob/betty/main.rb
 
 if echo $SHELL | grep bash > /dev/null; then
     # autocomplete for git for things like "git checkout my-branchname-some<tab>"
-    source ~/.unix.config.files/.git-completion.bash
+    source ~/.unix.config.files/git-completion.bash
 fi
 ################################################################################
 ### The end. (.bashrc)
