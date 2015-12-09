@@ -181,5 +181,6 @@ nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'
 " The following setting tells ctrlp to just use the current working directory as the ancestor
 " see http://kien.github.io/ctrlp.vim/
 let g:ctrlp_working_path_mode = ''
+let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlinks to avoid duplicates.
 " This from John, to only search idealist directory:
 " let g:ctrlp_cmd = 'CtrlP idealist'
