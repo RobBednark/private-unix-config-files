@@ -399,6 +399,7 @@ DirIdealistRepos="~/work/repos"
 
 alias   cdi3="cd $DirIdealistRepos/app-ido-i3"
 alias   cdidealist="cd $DirDropbox/Rob/idealist"
+alias   cdtechnical-design-docs="cd $DirIdealistRepos/technical-design-docs"
 alias   idealist.coverage="coverage report --show-missing --rcfile=.coveragerc-api"
 alias   idealist.ssh.pgsandbox0="ssh command@pgsandbox0.dev.awb"
 alias   idealist.ssh.pgsandbox1="ssh command@pgsandbox1.dev.awb"
