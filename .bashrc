@@ -397,6 +397,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 ################################################################################
 DirIdealistRepos="~/work/repos"
 
+alias   cdhvap="cd $DirIdealistRepos/app-hvap"
 alias   cdi3="cd $DirIdealistRepos/app-ido-i3"
 alias   cdidealist="cd $DirDropbox/Rob/idealist"
 alias   cdtechnical-design-docs="cd $DirIdealistRepos/technical-design-docs"
