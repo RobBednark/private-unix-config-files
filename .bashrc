@@ -399,7 +399,7 @@ DirIdealistRepos="~/work/repos"
 
 alias   cdhvap="cd $DirIdealistRepos/app-hvap"
 alias   cdi3="cd $DirIdealistRepos/app-ido-i3"
-alias   cdi3.osx="cd ~/idealist/respos/app-ido-i3-OSX"
+alias   cdi3.osx="cd ~/idealist/repos/app-ido-i3-OSX"
 alias   cdidealist="cd $DirDropbox/Rob/idealist"
 alias   cdsysutils="cd $DirIdealistRepos/sys-utils"
 alias   cdtechnical-design-docs="cd $DirIdealistRepos/technical-design-docs"
