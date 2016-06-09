@@ -405,7 +405,7 @@ alias   cdsysutils="cd $DirIdealistRepos/sys-utils"
 alias   cdtechnical-design-docs="cd $DirIdealistRepos/technical-design-docs"
 alias   idealist.coverage="coverage report --show-missing --rcfile=.coveragerc-api"
 alias   idealist.psql.sandbox="psql -h pgsandbox.dev.awb -U i3"
-alias   idealist.scp.depot.webapp.log="scp depot.awbdev.org:/awb/logs/app/lomo/c768/webapp.log ~/tmp"
+alias   idealist.scp.depot.webapp.log='dir=~/tmp/api.logs/depot/c768; mkdir -p $dir; scp depot.awbdev.org:/awb/logs/app/lomo/c768/webapp.log $dir'
 alias   idealist.scp.lomo.webhead.api.logs='for webhead in $(grep "^lomo-webheads" ~/work/repos/sys-utils/conf/csshrc |sed -e "s/^lomo-webheads = //"); do echo $webhead ; mkdir -p ~/tmp/api.logs/ido-c768/$webhead; scp -p $webhead:/idealist/var/instance/ido-c768/api-*.log ~/tmp/api.logs/ido-c768/$webhead; done'
 alias   idealist.ssh.pgsandbox0="ssh command@pgsandbox0.dev.awb"
 alias   idealist.ssh.pgsandbox1="ssh command@pgsandbox1.dev.awb"
