@@ -175,6 +175,16 @@ Bundle 'PreserveNoEOL'
 " See: https://github.com/rhysd/conflict-marker.vim
 Bundle 'rhysd/conflict-marker.vim'
 
+" vim-flake8: flake8 checker for python code
+" press F7 to run it; need flake8 executable in the virtualenv / env
+" Bundle 'nvie/vim-flake8'
+
+" flake8-vim: flake8 checker for python code
+" Bundle 'andviro/flake8-vim'
+
+" syntastic: for flake8 while editing python code
+Bundle 'scrooloose/syntastic'
+
 filetype plugin indent on     " required!
 nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
