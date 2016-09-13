@@ -1,4 +1,4 @@
-set nu   " line numbers
+" set nu   " line numbers
 set ic   " ignorecase
 set cc=80 " colorcolumn -- show a column of red at character position 80
 set ai   " autoindent
