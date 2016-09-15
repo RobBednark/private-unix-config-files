@@ -39,6 +39,6 @@ fi
 #   INFOPATH=${HOME}/info:${INFOPATH}
 # fi
 
-
 # added by Anaconda2 4.0.0 installer
-export PATH="/Users/rbednark/anaconda/bin:$PATH"
+# Commented-out by Rob 9/12/16
+# export PATH="/Users/rbednark/anaconda/bin:$PATH"
