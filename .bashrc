@@ -1166,8 +1166,10 @@ function vici () {
     # Use git instead of rcs
     # capture the current dir and return to it after we are done
 
-    # setopt shwordsplit causes zsh to behave like bash for splitting a string (e.g., $files)
-    setopt shwordsplit
+    if echo $SHELL | grep zsh > /dev/null; then
+        # setopt shwordsplit causes zsh to behave like bash for splitting a string (e.g., $files)
+        setopt shwordsplit
+    fi
 
     # ISSUE: 4/18/14: vici does not work for multiple files; why not?
     #   o 4/18 7:42am I removed the quotes from files=$@ -- result: no difference; still has space in filename
