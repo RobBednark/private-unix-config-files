@@ -218,6 +218,7 @@ DirLearn="$DirBin/learn"
 DirOptionTables="$DirRbednark/option.tables"
 DirPicts="$DirRbednark/picts"
 DirPublicHtml="$DirRbednark/public_html"
+DirResume="$DirDropbox/rob.resume"
 DirQuiz="$DirLearn/quiz.python/db"
 DirQuizMe=$DirGit/quizme_website
 DirReadOnly="$DirRbednark/read.only"
@@ -382,7 +383,7 @@ alias   cdpydoc="cd ~/dropbox/Rob/python.doc/python-2.7.2-docs-text"
 alias   cdquantopian="cd $DirDropbox/quantopian"
 alias   cdquiz="title quiz; cd $DirQuiz"
 alias   cdquizme="cd $DirQuizMe; workon quizme"
-alias   cdresume="cd $DirDropbox/rob.resume"
+alias   cdresume="cd $DirResume"
 alias   cdscrapy="cd $DirLearn/scrapy"
 #alias	cdsel="title ebento.py; cd ~/huawei/selenium"
 #alias	cdstax="cd $DirLearn/stax; pwd; ls"
@@ -644,9 +645,10 @@ alias   mycmd.nosync='(set -x; ./manage.py mycmd)'
 alias 	mounttestadm="sudo mkdir -p /testadm; sudo mount $MachineCurtis:/testadm /testadm"
 
 alias   open.postgresql.manual="open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
+alias   open.resume="open $DirResume/*pdf"
 alias   open.solr.manual="open $DirDropbox/Rob/apache-solr-ref-guide-4.10-downloaded-Feb-20-2015.pdf"
 alias   open.sqlalchemy.manual="open $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
-alias   open.adobe.reader.sqlalchemy.manual="open.adobe.reader $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
+alias   open.sqlalchemy.manual.adobe.reader="open.adobe.reader $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
 alias   open.the.effective.engineer="open $DirDropbox/Rob/the-effective-engineer-sample.pdf"
 
 if $MacOSX; then
