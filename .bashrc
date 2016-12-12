@@ -765,7 +765,7 @@ alias	vi=vim
 
 alias   vdone="vici $FileAccomplishments"
 alias 	vj.other="vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
-alias 	vj="title j; vim -R $FileJ ; echo vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
+alias 	vj="title j; vim $FileJ ; echo vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
 alias   vjtmp="title interim j; vici $FileJTmp"
 alias 	vjtmp.read.only="title j; vim -R $FileJ $FileJTmp $FileToDo $FileDiary $FileHuawei"
 alias   vl='vim -c "normal '\''0"'  # vim the last file that was edited in vim; '0 means the most recent file; "-c" means execute this command; I think "normal" means start in normal mode, but I'm not sure
