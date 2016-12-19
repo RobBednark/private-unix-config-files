@@ -723,7 +723,7 @@ alias   ssh.qa-db.tixie="ssh -i $PemTixieKey ubuntu@$MachineQA_DB_Tixie"
 
 alias   source.django="source $DirDropbox/bin/learn/dir.learn.django.projects/source.venv"
 alias   sourcetree="open -a SourceTree"
-alias   sourcetree.this.repo='sourcetree $(git rev-parse --show-toplevel)'
+alias   sourcetree.this.repo='sourcetree "$(git rev-parse --show-toplevel)"'
 alias   subl2="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 alias   subl3="/Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl"
 alias   subl=subl3
@@ -1145,7 +1145,7 @@ function vici.onefile() {
     cd $DirBase
     pwd
     DirGit=$(git rev-parse --show-toplevel)
-    cd $DirGit
+    cd "$DirGit"
     pwd
 
     # Show status
