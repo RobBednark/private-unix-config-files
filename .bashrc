@@ -286,7 +286,7 @@ FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 ################################################################################
 ### Atlatl 
 ################################################################################
-alias   cd.atlatl.mvp.from.creo="cd ~/Dropbox/git/atlatl-mvp/atlatl-server"
+alias   cd.atlatl.mvp.from.creo="cd $DirDropbox/git/atlatl-mvp/atlatl-server"
 alias   cd.atlatl.core="cd $DirDropbox/git/dart-core/atlatl-server"
 alias   cdtest="cd $DirDropbox/git/dart-core/acceptance-tests/cuke-atlatl"
 alias   show_data="python -u manage.py show_data |& less"
@@ -536,7 +536,7 @@ MachineRobAWS='ec2-23-20-227-24.compute-1.amazonaws.com'
 DirTixieGit=~/git/tixie-web
 DirTixieSrc=$DirTixieGit/src
 DirTixieApps=$DirTixieSrc/apps
-DirTixieRob=~/Dropbox/Rob/tixie
+DirTixieRob=$DirDropbox/Rob/tixie
 DirTixieTest=$DirTixieSrc/tixie_public
 FileNotesTixie="$DirQuiz/tixie.notes"
 FileQuizTixie="$DirQuiz/db_tixie"
@@ -567,7 +567,7 @@ alias   cdapps="cd $DirTixieApps"
 alias   cdcommands="cd /Users/rob/git/tixie-web/src/apps/tixie/management/commands/"
 alias   cdsrc="cd $DirTixieSrc"
 alias   cddropbox.tixie="cd $DirDropbox/Rob/tixie; ls"
-alias   cdtixie="cd ~/Dropbox/git/tixie-web"
+alias   cdtixie="cd $DirDropbox/git/tixie-web"
 alias   cdtixierob="cd $DirTixieRob; ls"
 alias   cdwebapp="cd /var/webapp/tixie_public"
 #alias   subl.django="subl ~/.virtualenvs/tixie-web/lib/python2.7/site-packages/django/"
@@ -851,10 +851,10 @@ alias	winmerge="'/cygdrive/c/Program Files/WinMerge/WinMerge.exe'"
 ################################################################################
 function psql.dev-rob-pg9-12.04-grep-all-data() {
     regex="$1"
-    (set -x; python -u ~/Dropbox/bin/learn/pg.show.all.data.all.tables.py | egrep -i --context=6 "^\+|$regex" )
+    (set -x; python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py | egrep -i --context=6 "^\+|$regex" )
 }
 function psql.dev-rob-pg9-12.04-show-all-data() {
-    (set -x; python -u ~/Dropbox/bin/learn/pg.show.all.data.all.tables.py)
+    (set -x; python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py)
 }
 function psql.dev-rob-pg9-12.04-select-events() {
     (set -x; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_allevents_and_draws ORDER BY event_date' )
@@ -1056,7 +1056,7 @@ function phone () {
 }
 function ping.monitor() {
     title ping.monitor
-    python -u ~/Dropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >> $FilePingOutput 2>&1 &
+    python -u $DirDropbox/bin/learn/log_track_monitor_online_wifi_status_with_ping.py >> $FilePingOutput 2>&1 &
     rm -f $FilePingSymlinkActive
     ln -s $FilePingOutput $FilePingSymlinkActive
     sleep 3;
