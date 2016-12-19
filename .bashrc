@@ -136,6 +136,7 @@ fi
 # Uncommented APPEND_HISTORY 2/5/13
 export APPEND_HISTORY=1 # Append rather than replace
 #export INC_APPEND_HISTORY=1  
+export HISTTIMEFORMAT="%d/%m/%y %T "
 
 ################################################################################
 ### Exports
