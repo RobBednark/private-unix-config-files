@@ -191,7 +191,11 @@ else
 fi
 IBM=false
 
-DirDropbox=~/Dropbox
+if hostname | grep -i 'moovel' > /dev/null; then
+    DirDropbox=~/dropbox.symlink
+else
+    DirDropbox=~/Dropbox
+fi
 DirGit=$DirDropbox/git
 DirGitLocal="$HOME/local.git"
 DirRob="$DirSaraDocs/Rob"
