@@ -186,6 +186,10 @@ Bundle 'rhysd/conflict-marker.vim'
 Bundle 'scrooloose/syntastic'
 
 " vim-gitgutter: shows git diff in the gutter (what lines have been changed); stages/undoes hunks
+" [c ]c ==> prev/next hunk
+" <leader>hp ==> preview the changes for the hunk the cursor is on
+" <leader>hs ==> stage the hunk that the cursor is on
+" <leader>hu ==> undo the hunk that the cursor is on
 Bundle 'airblade/vim-gitgutter'
 
 filetype plugin indent on     " required!
