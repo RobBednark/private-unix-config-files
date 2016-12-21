@@ -286,68 +286,68 @@ FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 ################################################################################
 ### Atlatl 
 ################################################################################
-alias   cd.atlatl.mvp.from.creo="cd $DirDropbox/git/atlatl-mvp/atlatl-server"
-alias   cd.atlatl.core="cd $DirDropbox/git/dart-core/atlatl-server"
-alias   cdtest="cd $DirDropbox/git/dart-core/acceptance-tests/cuke-atlatl"
-alias   show_data="python -u manage.py show_data |& less"
-alias   ssh.dev.app="ssh -i ~/.ssh/DEVapp.pem rbednark@devapp.atlatlprivate.com"
-alias   ssh.dev.db="ssh -i ~/.ssh/DEVdb.pem masteradmin@devdb.atlatlprivate.com"
-alias   ssh.dev.web="ssh -i ~/.ssh/DEVweb.pem rbednark@devweb.atlatlprivate.com"
-alias   ssh.prod.app="ssh -i ~/.ssh/PRODapp1.pem rbednark@prodapp1.atlatlprivate.com"
-alias   ssh.prod.db="ssh -i ~/.ssh/PRODdb1.pem rbednark@proddb1.atlatlprivate.com"
-alias   ssh.prod.web="ssh -i ~/.ssh/PRODweb1.pem rbednark@prodweb1.atlatlprivate.com"
+# alias   cd.atlatl.mvp.from.creo="cd $DirDropbox/git/atlatl-mvp/atlatl-server"
+# alias   cd.atlatl.core="cd $DirDropbox/git/dart-core/atlatl-server"
+# alias   cdtest="cd $DirDropbox/git/dart-core/acceptance-tests/cuke-atlatl"
+# alias   show_data="python -u manage.py show_data |& less"
+# alias   ssh.dev.app="ssh -i ~/.ssh/DEVapp.pem rbednark@devapp.atlatlprivate.com"
+# alias   ssh.dev.db="ssh -i ~/.ssh/DEVdb.pem masteradmin@devdb.atlatlprivate.com"
+# alias   ssh.dev.web="ssh -i ~/.ssh/DEVweb.pem rbednark@devweb.atlatlprivate.com"
+# alias   ssh.prod.app="ssh -i ~/.ssh/PRODapp1.pem rbednark@prodapp1.atlatlprivate.com"
+# alias   ssh.prod.db="ssh -i ~/.ssh/PRODdb1.pem rbednark@proddb1.atlatlprivate.com"
+# alias   ssh.prod.web="ssh -i ~/.ssh/PRODweb1.pem rbednark@prodweb1.atlatlprivate.com"
 #alias   atlatl.run.unit.tests="cdcore; workon atlatl; (set -x; ./manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer lockout configuration api)"
 #alias   atlatl.run.unit.tests="cdcore; python -u manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer lockout configuration api"
-alias   atlatl.run.unit.tests="cdcore; python -u manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings account api configuration customer freight main native organization poc quote rest_api lockout"
-alias   atlatl.coverage="coverage run atlatl-server/manage.py test account api configuration customer freight main native organization poc quote rest_api lockout --settings=unit_test_settings"
-function   atlatl.recreate.db.only() {
-    cdcore
-    set -x
-    find . -name '*.pyc' -delete
-    dropdb -U atlatl atlatl
-    if createdb -U atlatl atlatl; then
-        time ./manage.py syncdb --migrate --noinput
-        return 0
-    else
-        echo "ERROR from createdb; see above"
-        return 1
-    fi
-}
-function   atlatl.recreate.db.only2() {
-    set -x
-    find . -name '*.pyc' -delete
-    dropdb -U atlatl atlatl2
-    if createdb -U atlatl atlatl2; then
-        time ./manage.py syncdb --migrate --noinput
-        return 0
-    else
-        echo "ERROR from createdb; see above"
-        return 1
-    fi
-}
-function atlatl.create.db.data() {
-    time ./manage.py make_test_data --email-domain=bednark.com --num-clients=1 --num-levels=0 --num-configs=1 --num-parts=1 --num-quotes=1 --num-sub-orgs=0 --num-users=1
-}
-function   atlatl.recreate.db.data.and.runserver() {
-    start=$(date)
-    if atlatl.recreate.db.only; then
-        atlatl.create.db.data
-        ./manage.py runserver
-    fi
-}
-function   atlatl.recreate.db.data.and.runserver2() {
-    start=$(date)
-    if atlatl.recreate.db.only2; then
-        atlatl.create.db.data
-        ./manage.py runserver 8002
-    fi
-}
-function atlatl.curl.wirecrafters.login() {
-    (
-    set -xv;
-    curl --verbose --data 'email=wc.sales.rep@bednark.com&password=p' http://wirecrafters.dev.atlatlprivate.com/api/account/login/
-    )
-}
+# alias   atlatl.run.unit.tests="cdcore; python -u manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings account api configuration customer freight main native organization poc quote rest_api lockout"
+# alias   atlatl.coverage="coverage run atlatl-server/manage.py test account api configuration customer freight main native organization poc quote rest_api lockout --settings=unit_test_settings"
+#function   atlatl.recreate.db.only() {
+#    cdcore
+#    set -x
+#    find . -name '*.pyc' -delete
+#    dropdb -U atlatl atlatl
+#    if createdb -U atlatl atlatl; then
+#        time ./manage.py syncdb --migrate --noinput
+#        return 0
+#    else
+#        echo "ERROR from createdb; see above"
+#        return 1
+#    fi
+#}
+#function   atlatl.recreate.db.only2() {
+#    set -x
+#    find . -name '*.pyc' -delete
+#    dropdb -U atlatl atlatl2
+#    if createdb -U atlatl atlatl2; then
+#        time ./manage.py syncdb --migrate --noinput
+#        return 0
+#    else
+#        echo "ERROR from createdb; see above"
+#        return 1
+#    fi
+#}
+#function atlatl.create.db.data() {
+#    time ./manage.py make_test_data --email-domain=bednark.com --num-clients=1 --num-levels=0 --num-configs=1 --num-parts=1 --num-quotes=1 --num-sub-orgs=0 --num-users=1
+#}
+#function   atlatl.recreate.db.data.and.runserver() {
+#    start=$(date)
+#    if atlatl.recreate.db.only; then
+#        atlatl.create.db.data
+#        ./manage.py runserver
+#    fi
+#}
+#function   atlatl.recreate.db.data.and.runserver2() {
+#    start=$(date)
+#    if atlatl.recreate.db.only2; then
+#        atlatl.create.db.data
+#        ./manage.py runserver 8002
+#    fi
+#}
+#function atlatl.curl.wirecrafters.login() {
+#    (
+#    set -xv;
+#    curl --verbose --data 'email=wc.sales.rep@bednark.com&password=p' http://wirecrafters.dev.atlatlprivate.com/api/account/login/
+#    )
+#}
 ################################################################################
 ### Aliases
 ################################################################################
@@ -402,132 +402,142 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 #alias   cdvim="cd '/cygdrive/c/Program Files (x86)/Vim/vim72/doc'"
 
 ################################################################################
+# Moovel:
+################################################################################
+DirReposMoovel="~/repos"
+alias   cdproviders="cd $DirReposMoovel/na-providers-python"
+alias   cdtransit="cd $DirReposMoovel/na-transitplusplus-python"
+alias   cddockertransit="cd $DirReposMoovel/na-transitutils-docker"
+alias   cdgateway="cd $DirReposMoovel/na-gateway-python"
+alias   cdingestion="cd $DirReposMoovel/na-ingestionserver-python"
+alias   cdmobility="cd $DirReposMoovel/na-mobility-docker"
+################################################################################
 # Idealist:
 ################################################################################
-DirIdealistRepos="~/work/repos"
+# DirIdealistRepos="~/work/repos"
 
-alias   cdhvap="cd $DirIdealistRepos/app-hvap"
-alias   cdi3="cd $DirIdealistRepos/app-ido-i3"
-alias   cdi3.osx="cd ~/idealist/repos/app-ido-i3-OSX"
-alias   cdidealist="cd $DirDropbox/Rob/idealist"
-alias   cdsysutils="cd $DirIdealistRepos/sys-utils"
-alias   cdtechnical-design-docs="cd $DirIdealistRepos/technical-design-docs"
-alias   idealist.coverage="coverage report --show-missing --rcfile=.coveragerc-api"
-alias   idealist.psql.sandbox="psql -h pgsandbox.dev.awb -U i3"
-alias   idealist.scp.depot.webapp.log='dir=~/tmp/api.logs/depot/c768; mkdir -p $dir; scp depot.awbdev.org:/awb/logs/app/lomo/c768/webapp.log $dir'
-alias   idealist.scp.lomo.webhead.api.logs='for webhead in $(grep "^lomo-webheads" ~/work/repos/sys-utils/conf/csshrc |sed -e "s/^lomo-webheads = //"); do echo $webhead ; mkdir -p ~/tmp/api.logs/ido-c768/$webhead; scp -p $webhead:/idealist/var/instance/ido-c768/api-*.log ~/tmp/api.logs/ido-c768/$webhead; done'
-alias   idealist.ssh.pgsandbox0="ssh command@pgsandbox0.dev.awb"
-alias   idealist.ssh.pgsandbox1="ssh command@pgsandbox1.dev.awb"
-alias   idealist.ssh.pgsandbox2="ssh command@pgsandbox2.dev.awb"
-alias   sub="ssh ubuntu"
+# alias   cdhvap="cd $DirIdealistRepos/app-hvap"
+# alias   cdi3="cd $DirIdealistRepos/app-ido-i3"
+# alias   cdi3.osx="cd ~/idealist/repos/app-ido-i3-OSX"
+# alias   cdidealist="cd $DirDropbox/Rob/idealist"
+# alias   cdsysutils="cd $DirIdealistRepos/sys-utils"
+# alias   cdtechnical-design-docs="cd $DirIdealistRepos/technical-design-docs"
+# alias   idealist.coverage="coverage report --show-missing --rcfile=.coveragerc-api"
+# alias   idealist.psql.sandbox="psql -h pgsandbox.dev.awb -U i3"
+# alias   idealist.scp.depot.webapp.log='dir=~/tmp/api.logs/depot/c768; mkdir -p $dir; scp depot.awbdev.org:/awb/logs/app/lomo/c768/webapp.log $dir'
+# alias   idealist.scp.lomo.webhead.api.logs='for webhead in $(grep "^lomo-webheads" ~/work/repos/sys-utils/conf/csshrc |sed -e "s/^lomo-webheads = //"); do echo $webhead ; mkdir -p ~/tmp/api.logs/ido-c768/$webhead; scp -p $webhead:/idealist/var/instance/ido-c768/api-*.log ~/tmp/api.logs/ido-c768/$webhead; done'
+# alias   idealist.ssh.pgsandbox0="ssh command@pgsandbox0.dev.awb"
+# alias   idealist.ssh.pgsandbox1="ssh command@pgsandbox1.dev.awb"
+# alias   idealist.ssh.pgsandbox2="ssh command@pgsandbox2.dev.awb"
+# alias   sub="ssh ubuntu"
 
 ################################################################################
 # Trapit:
 ################################################################################
-DirTrapit="~/trapit"
-DirTrapitRepos="~/trapit.repos"
+#DirTrapit="~/trapit"
+#DirTrapitRepos="~/trapit.repos"
 
-alias   ab0="ssh a-build-0"
-alias   a-build-0="ssh a-build-0"
+#alias   ab0="ssh a-build-0"
+#alias   a-build-0="ssh a-build-0"
 
-alias   cdarcher="cd $DirTrapitRepos/archer"
-alias   cdansible="cd $DirTrapitRepos/ansible"
-alias   cdarsenal="cd $DirTrapitRepos/arsenal"
-alias   cddocumentation="cd $DirTrapitRepos/documentation"
-alias   cddocumentation.wiki.git="cd $DirTrapitRepos/documentation.wiki.git"
-alias   cdelzar="cd $DirTrapitRepos/elzar; title elzar"
-alias   cdfigure="cd $DirTrapitRepos/figure"
-alias   cdgoose="cd $DirTrapitRepos/python-goose"
-alias   cdgoose.grangier="cd $DirTrapitRepos/grangier.goose"
-alias   cdlogparser="title logparser; cd $DirTrapitRepos/logparser"
-alias   cdlogster="title logster; cd $DirTrapitRepos/logster"
-alias   cdmisc="cd $DirTrapitRepos/misc/rbednark/docs"
-alias   cdmom="cd $DirTrapitRepos/mom; title mom"
-alias   cdmorbo="cd $DirTrapitRepos/morbo; title morbo"
-alias   cdnibbler="cd $DirTrapitRepos/nibbler"
-alias   cdnova="cd $DirTrapRepos/nova"
-alias   cdops="cd $DirTrapitRepos/ops"
-alias   cdpenrose="cd $DirTrapitRepos/penrose"
-alias   cdpolaris="cd $DirTrapitRepos/polaris"
-alias   cdqueuestore="cd $DirTrapitRepos/queuestore"
-alias   cdresearch="cd $DirTrapitRepos/research"
-alias   cdredbike="cd $DirTrapitRepos/lukearno.redbike"
-alias   cdrosecity="cd $DirTrapitRepos/rosecity; title rosecity"
-alias   cdrunlog="cd $DirTrapitRepos/runlog"
-alias   cdselector="title selector; cd $DirTrapitRepos/lukearno.selector"
-alias   cdshortlinks="cd $DirTrapitRepos/shortlinks"
-alias   cdstorytool="cd $DirTrapitRepos/storytool"
-alias   cdsupport="cd $DirTrapitRepos/support"
-alias   cdthedude="cd $DirTrapitRepos/thedude"
-alias   cdtachyon="cd $DirTrapitRepos/tachyon"
-alias   cdtenjintemplates="cd $DirTrapitRepos/tenjintemplates"
-alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
-alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
-alias   cdval="cd $DirTrapitRepos/val"
-alias   cdvulcan="cd $DirTrapitRepos/vulcan"
-alias   cdwalter="cd $DirTrapitRepos/walter"
-alias   cdwordpressplugin="cd $DirTrapitRepos/wordpress-plugin"
-alias   cdyaro="cd $DirTrapitRepos/yaro-0.6.4"
-alias   cdzapper="cd $DirTrapitRepos/zapper"
-alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
-alias   cdzulu="cd $DirTrapitRepos/zulu"
+#alias   cdarcher="cd $DirTrapitRepos/archer"
+#alias   cdansible="cd $DirTrapitRepos/ansible"
+#alias   cdarsenal="cd $DirTrapitRepos/arsenal"
+#alias   cddocumentation="cd $DirTrapitRepos/documentation"
+#alias   cddocumentation.wiki.git="cd $DirTrapitRepos/documentation.wiki.git"
+#alias   cdelzar="cd $DirTrapitRepos/elzar; title elzar"
+#alias   cdfigure="cd $DirTrapitRepos/figure"
+#alias   cdgoose="cd $DirTrapitRepos/python-goose"
+#alias   cdgoose.grangier="cd $DirTrapitRepos/grangier.goose"
+#alias   cdlogparser="title logparser; cd $DirTrapitRepos/logparser"
+#alias   cdlogster="title logster; cd $DirTrapitRepos/logster"
+#alias   cdmisc="cd $DirTrapitRepos/misc/rbednark/docs"
+#alias   cdmom="cd $DirTrapitRepos/mom; title mom"
+#alias   cdmorbo="cd $DirTrapitRepos/morbo; title morbo"
+#alias   cdnibbler="cd $DirTrapitRepos/nibbler"
+#alias   cdnova="cd $DirTrapRepos/nova"
+#alias   cdops="cd $DirTrapitRepos/ops"
+#alias   cdpenrose="cd $DirTrapitRepos/penrose"
+#alias   cdpolaris="cd $DirTrapitRepos/polaris"
+#alias   cdqueuestore="cd $DirTrapitRepos/queuestore"
+#alias   cdresearch="cd $DirTrapitRepos/research"
+#alias   cdredbike="cd $DirTrapitRepos/lukearno.redbike"
+#alias   cdrosecity="cd $DirTrapitRepos/rosecity; title rosecity"
+#alias   cdrunlog="cd $DirTrapitRepos/runlog"
+#alias   cdselector="title selector; cd $DirTrapitRepos/lukearno.selector"
+#alias   cdshortlinks="cd $DirTrapitRepos/shortlinks"
+#alias   cdstorytool="cd $DirTrapitRepos/storytool"
+#alias   cdsupport="cd $DirTrapitRepos/support"
+#alias   cdthedude="cd $DirTrapitRepos/thedude"
+#alias   cdtachyon="cd $DirTrapitRepos/tachyon"
+#alias   cdtenjintemplates="cd $DirTrapitRepos/tenjintemplates"
+#alias   cdtrapit.vagrant="cd ~/vagrants/trapit.hashicorp.precise64" # trapit
+#alias   cdtrapit.repos="cd ~/vagrants/trapit.hashicorp.precise64/trapit.repos" # trapit
+#alias   cdval="cd $DirTrapitRepos/val"
+#alias   cdvulcan="cd $DirTrapitRepos/vulcan"
+#alias   cdwalter="cd $DirTrapitRepos/walter"
+#alias   cdwordpressplugin="cd $DirTrapitRepos/wordpress-plugin"
+#alias   cdyaro="cd $DirTrapitRepos/yaro-0.6.4"
+#alias   cdzapper="cd $DirTrapitRepos/zapper"
+#alias   cdzoidberg="cd $DirTrapitRepos/zoidberg"
+#alias   cdzulu="cd $DirTrapitRepos/zulu"
 
-alias   higgs=trapit.psql.higgs
+#alias   higgs=trapit.psql.higgs
 
-alias   redis.higgs.cache="redis-cli -h 10.0.1.101 -p 6379"
-alias   redis.higgs.events="redis-cli -h 10.0.1.101 -p 6379 -d 1"
-alias   redis.higgs.landing-page-cache="redis-cli -h 10.0.1.55 -p 3344 -d 0"
-alias   redis.higgs.memory="redis-cli -h 10.0.1.101 -p 6379 -d 0"
-alias   redis.higgs.nibbler="redis-cli -h 10.0.1.101 -p 6379 -d 0"
-alias   redis.higgs.queuecache="redis-cli -h 10.0.1.55 -p 6381 -d 0"
-alias   redis.higgs.quickcheck="redis-cli -h 10.0.1.55 -p 6381 -d 0"
-alias   redis.higgs.redbike="redis-cli -h 10.0.1.101 -p 6379 -d 0"
-alias   redis.higgs.runlog="redis-cli -h 10.0.1.55 -p 6380 -d 0"
-alias   redis.higgs.shorts="redis-cli -h 10.0.1.81 -p 6379 -d 0"
-alias   redis.higgs.url_hash="redis-cli -h 10.0.1.55 -p 6382 -d 0"
-alias   redis.higgs.zb1="redis-cli -h 10.0.1.151 -p 6379 -d 0"
-alias   redis.higgs.zoidberg="redis-cli -h 10.0.1.55 -p 6378 -d 0"
+#alias   redis.higgs.cache="redis-cli -h 10.0.1.101 -p 6379"
+#alias   redis.higgs.events="redis-cli -h 10.0.1.101 -p 6379 -d 1"
+#alias   redis.higgs.landing-page-cache="redis-cli -h 10.0.1.55 -p 3344 -d 0"
+#alias   redis.higgs.memory="redis-cli -h 10.0.1.101 -p 6379 -d 0"
+#alias   redis.higgs.nibbler="redis-cli -h 10.0.1.101 -p 6379 -d 0"
+#alias   redis.higgs.queuecache="redis-cli -h 10.0.1.55 -p 6381 -d 0"
+#alias   redis.higgs.quickcheck="redis-cli -h 10.0.1.55 -p 6381 -d 0"
+#alias   redis.higgs.redbike="redis-cli -h 10.0.1.101 -p 6379 -d 0"
+#alias   redis.higgs.runlog="redis-cli -h 10.0.1.55 -p 6380 -d 0"
+#alias   redis.higgs.shorts="redis-cli -h 10.0.1.81 -p 6379 -d 0"
+#alias   redis.higgs.url_hash="redis-cli -h 10.0.1.55 -p 6382 -d 0"
+#alias   redis.higgs.zb1="redis-cli -h 10.0.1.151 -p 6379 -d 0"
+#alias   redis.higgs.zoidberg="redis-cli -h 10.0.1.55 -p 6378 -d 0"
 
-alias   ssh.trapit="cdtrapit.vagrant; vagrant up; vagrant ssh"
-alias   stag="ssh staging-1"
-alias   st="ssh staging-1"
+#alias   ssh.trapit="cdtrapit.vagrant; vagrant up; vagrant ssh"
+#alias   stag="ssh staging-1"
+#alias   st="ssh staging-1"
 
-alias   trapit.cp.fusion.metric.scripts="(set -x; DIR_FUSION=$DirTrapitRepos/xm-2.fusion.metrics; mkdir -p $DIR_FUSION; scp -p 'xm-2:/home/fusion/metrics/*.{py,sh}' $DIR_FUSION)"
-alias   trapit.psql.astro="psql -h 10.23.1.21 -U zoidberg --password trapit"
-#alias   trapit.psql.deloitte="psql -h 10.23.1.21 -U zoidberg -W trapit"
-alias   trapit.psql.higgs="psql -h 10.0.1.24 --username=zoidberg --dbname=trapit"
-alias   trapit.psql.higgs.db-3="psql -h 10.0.1.22 --username=zoidberg -W --dbname=trapit"
-alias   trapit.psql.logs="psql -h 10.0.5.222 --username=zoidberg -W --dbname=trapit_nginx_logs"
-alias   trapit.psql.staging="psql --host=10.0.1.94 --username=zoidberg --dbname=trapit"  # Need to be on staging
-alias   trapit.scp.deloitte.logs="mkdir -p /tmp/nginx-logs/deloitte; date; time scp -Cpr deloitte:/trapit/logs-archive/rsync-var-log-trapit/trapit/'*.gz' /tmp/nginx-logs/deloitte; date"
+#alias   trapit.cp.fusion.metric.scripts="(set -x; DIR_FUSION=$DirTrapitRepos/xm-2.fusion.metrics; mkdir -p $DIR_FUSION; scp -p 'xm-2:/home/fusion/metrics/*.{py,sh}' $DIR_FUSION)"
+#alias   trapit.psql.astro="psql -h 10.23.1.21 -U zoidberg --password trapit"
+##alias   trapit.psql.deloitte="psql -h 10.23.1.21 -U zoidberg -W trapit"
+#alias   trapit.psql.higgs="psql -h 10.0.1.24 --username=zoidberg --dbname=trapit"
+#alias   trapit.psql.higgs.db-3="psql -h 10.0.1.22 --username=zoidberg -W --dbname=trapit"
+#alias   trapit.psql.logs="psql -h 10.0.5.222 --username=zoidberg -W --dbname=trapit_nginx_logs"
+#alias   trapit.psql.staging="psql --host=10.0.1.94 --username=zoidberg --dbname=trapit"  # Need to be on staging
+#alias   trapit.scp.deloitte.logs="mkdir -p /tmp/nginx-logs/deloitte; date; time scp -Cpr deloitte:/trapit/logs-archive/rsync-var-log-trapit/trapit/'*.gz' /tmp/nginx-logs/deloitte; date"
 
-alias   vgoogleplus="vici $DirTrapit/google.plus.design.notes.md"
-alias   virt="source .virt/bin/activate"
-alias   vtrapitfaq="title Trapit FAQ; vici $DirTrapitRepos/misc/rbednark/docs/faq_platform.md"
-alias   vtrapitdiaries="title Trapit diaries; vim $DirTrapitRepos/misc/rbednark/docs/*diar*"
+#alias   vgoogleplus="vici $DirTrapit/google.plus.design.notes.md"
+#alias   virt="source .virt/bin/activate"
+#alias   vtrapitfaq="title Trapit FAQ; vici $DirTrapitRepos/misc/rbednark/docs/faq_platform.md"
+#alias   vtrapitdiaries="title Trapit diaries; vim $DirTrapitRepos/misc/rbednark/docs/*diar*"
 
-function trapit.supervisorctl.status.all() {
-    (
-    setopt shwordsplit
-    set -xv;
-    servers="nb-1 zb-1 zb-2 zb-3"
-    for server in $servers; do 
-        ssh $server supervisorctl status
-    done
-    )
-}
-function trapit.get.all.logs() {
-    (
-    set -xv;
-    ssh nb-1 '(cd /tmp; mkdir tmp.rbednark.logs; )'
-    )
-}
-function trapit.show.all.logs() {
-    (
-    set -xv;
-    ssh nb-1 cat '/trapit/*/v?/*log'
-    )
-}
+#function trapit.supervisorctl.status.all() {
+#    (
+#    setopt shwordsplit
+#    set -xv;
+#    servers="nb-1 zb-1 zb-2 zb-3"
+#    for server in $servers; do 
+#        ssh $server supervisorctl status
+#    done
+#    )
+#}
+#function trapit.get.all.logs() {
+#    (
+#    set -xv;
+#    ssh nb-1 '(cd /tmp; mkdir tmp.rbednark.logs; )'
+#    )
+#}
+#function trapit.show.all.logs() {
+#    (
+#    set -xv;
+#    ssh nb-1 cat '/trapit/*/v?/*log'
+#    )
+#}
 
 ################################################################################
 # Tixie:
@@ -785,7 +795,7 @@ alias   vatd="cd $DirLearn; vici atd_survey_filter.py"
 
 # Quiz files
 alias   vabraham.hicks.quotes="vici $DirQuiz/abraham-hicks.quotes"
-alias   vachievements.atlatl="title vachievements.atlatl; vici $DirQuiz/achievements.atlatl"
+#alias   vachievements.atlatl="title vachievements.atlatl; vici $DirQuiz/achievements.atlatl"
 alias   vapps="title vapps; cd $DirQuiz; vici db_apps"
 alias   varchitecture="vici $DirQuiz/db_software_design_architecture"
 alias   vatlatl="title vatlatl; vici $DirQuiz/db_atlatl"
