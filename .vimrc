@@ -185,6 +185,9 @@ Bundle 'rhysd/conflict-marker.vim'
 " syntastic: for flake8 while editing python code
 Bundle 'scrooloose/syntastic'
 
+" vim-gitgutter: shows git diff in the gutter (what lines have been changed); stages/undoes hunks
+Bundle 'airblade/vim-gitgutter'
+
 filetype plugin indent on     " required!
 nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
