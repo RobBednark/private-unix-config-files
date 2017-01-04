@@ -413,7 +413,7 @@ alias   cdtransit="cd $DirReposMoovel/na-transitplusplus-python"
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
 alias   cdgateway="cd $DirReposMoovel/na-gateway-python"
 alias   cdingestion="cd $DirReposMoovel/na-ingestionserver-python"
-alias   cdmobility="cd $DirReposMoovel/na-mobility-docker"
+alias   cdmobility="cd $DirReposMoovel/na-mobility-python"
 ################################################################################
 # Idealist:
 ################################################################################
