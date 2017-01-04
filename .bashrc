@@ -1653,9 +1653,12 @@ function tab() {
 EOF
 }
 
-if ! $Atlatl; then
+if hostname | grep -i 'moovel' > /dev/null; then
+    export WORKON_HOME=$HOME/.virtualenvs
+    export PROJECT_HOME=$HOME/Devel
+    source /usr/local/bin/virtualenvwrapper.sh
+elif ! $Atlatl; then
     # my Retina Mac
-    # For my Atlatl Mac, 
     export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
     [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
     if echo $SHELL | grep zsh > /dev/null; then
