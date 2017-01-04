@@ -414,7 +414,7 @@ alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
 alias   cdgateway="cd $DirReposMoovel/na-gateway-python"
 alias   cdingestion="cd $DirReposMoovel/na-ingestionserver-python"
 alias   cdmobility="cd $DirReposMoovel/na-mobility-python"
-alias   sshproviders="ssh ubuntu@52.27.32.0 -i ~/repos/na-providers/python/ridescout-backend-developer.pem.txt"
+alias   sshproviders="ssh ubuntu@52.27.32.0 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 ################################################################################
 # Idealist:
 ################################################################################
