@@ -126,6 +126,9 @@ Bundle 'gmarik/vundle'
 
 " ctrlp -- control-p -- file browser plugin, like Command-T; does not require Ruby like Command-T does
 Bundle 'ctrlpvim/ctrlp.vim'
+let g:ctrlp_match_window = 'min:4,max:999'  " allow the results window to be up to 999 lines high instead of just 10
+
+
 
 " command-t ==> file/dir explorer
 " Commented-out command-t Wed 3/5/14 5:10pm after upgrade to Mavericks, because I'm getting a SEGV when running it with vim.
