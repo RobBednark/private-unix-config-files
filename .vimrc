@@ -126,7 +126,7 @@ Bundle 'gmarik/vundle'
 
 " ctrlp -- control-p -- file browser plugin, like Command-T; does not require Ruby like Command-T does
 Bundle 'ctrlpvim/ctrlp.vim'
-let g:ctrlp_match_window = 'min:4,max:999'  " allow the results window to be up to 999 lines high instead of just 10
+let g:ctrlp_match_window = 'min:4,max:999'  " allow the ctrlp results window to be up to 999 lines high instead of just 10
 
 
 
