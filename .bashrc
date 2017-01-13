@@ -407,6 +407,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 ################################################################################
 # Moovel:
 ################################################################################
+DirMoovel=$DirDropbox/moovel
 DirReposMoovel="~/repos"
 alias   cdproviders="cd $DirReposMoovel/na-providers-python"
 alias   cdtransit="cd $DirReposMoovel/na-transitplusplus-python"
@@ -829,7 +830,7 @@ alias   vlos_angeles="vici $DirQuiz/db_los_angeles"
 alias   vmac="title vmac; cd $DirQuiz; vici db_mac"
 alias   vmaster.manifest="title vmaster.manifest; cd $DirQuiz; vici master.manifest.txt"
 alias   vmisc="cd $DirQuiz; vici db_misc"
-alias   vmoovel="vici $DirDropbox/moovel/moovel.txt"
+alias   vmoovel="vici $DirMoovel/moovel.txt"
 alias   vpaste="vici ~/tmp/paste"
 alias   vpeople.quiz="vici $DirQuiz/db_quiz_people"
 alias   vprogramming="cd $DirQuiz; vici db_programming"
