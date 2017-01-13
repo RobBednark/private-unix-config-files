@@ -418,8 +418,8 @@ alias   cdmobility="cd $DirReposMoovel/na-mobility-python"
 alias   psqlproviders="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
 alias   sshproviders="ssh ubuntu@52.27.32.0 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias   sshgateway="ssh ubuntu@54.191.144.62 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
-alias   ssh.rs.transit="ssh ubuntu@54.191.119.117 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
-alias   ssh.rs.transit="ssh ubuntu@ec2-54-191-119-117.us-west-2.compute.amazonaws.com ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
+# alias   ssh.rs.transit="ssh ubuntu@54.191.119.117 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
+alias   ssh.rs.transit="ssh ubuntu@ec2-54-191-119-117.us-west-2.compute.amazonaws.com -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias   ssh.shared.dev.admin="~/repos/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; ssh -p 9998 127.0.0.1"
 ################################################################################
 # Idealist:
