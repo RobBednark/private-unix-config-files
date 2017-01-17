@@ -1159,6 +1159,7 @@ function rcsdiff_show_files_that_diff {
     done
 }
 function vici.onefile() {
+    set -x;
     onefile=$1
     title $(basename $onefile)
     DirCurDir=$(pwd)
@@ -1192,6 +1193,7 @@ function vici.onefile() {
     # Now cd back to the directory where the user was to begin with.
     cd $DirCurDir
     # echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
+    set +x;
 }
 function vici () { 
     # Use git instead of rcs
