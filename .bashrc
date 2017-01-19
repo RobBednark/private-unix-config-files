@@ -422,7 +422,7 @@ alias   sshgateway="ssh ubuntu@54.191.144.62 -i ~/repos/na-providers-python/ride
 # alias   ssh.rs.transit="ssh ubuntu@54.191.119.117 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias   ssh.rs.ingestion="ssh ubuntu@ec2-52-88-39-172.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
 alias   ssh.rs.transit="ssh ubuntu@ec2-54-191-119-117.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
-alias   ssh.shared.dev.admin="~/repos/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; ssh -p 9998 127.0.0.1"
+alias   ssh.shared.dev.admin="~/repos/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1; ssh -p 9998 127.0.0.1"
 ################################################################################
 # Idealist:
 ################################################################################
