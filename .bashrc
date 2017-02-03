@@ -297,13 +297,12 @@ FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 # alias   ssh.prod.app="ssh -i ~/.ssh/PRODapp1.pem rbednark@prodapp1.atlatlprivate.com"
 # alias   ssh.prod.db="ssh -i ~/.ssh/PRODdb1.pem rbednark@proddb1.atlatlprivate.com"
 # alias   ssh.prod.web="ssh -i ~/.ssh/PRODweb1.pem rbednark@prodweb1.atlatlprivate.com"
-#alias   atlatl.run.unit.tests="cdcore; workon atlatl; (set -x; ./manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer lockout configuration api)"
+#alias   atlatl.run.unit.tests="cdcore; workon atlatl; (./manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer lockout configuration api)"
 #alias   atlatl.run.unit.tests="cdcore; python -u manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings main organization account quote rest_api customer lockout configuration api"
 # alias   atlatl.run.unit.tests="cdcore; python -u manage.py test --testrunner=django.test.simple.DjangoTestSuiteRunner --settings=unit_test_settings account api configuration customer freight main native organization poc quote rest_api lockout"
 # alias   atlatl.coverage="coverage run atlatl-server/manage.py test account api configuration customer freight main native organization poc quote rest_api lockout --settings=unit_test_settings"
 #function   atlatl.recreate.db.only() {
 #    cdcore
-#    set -x
 #    find . -name '*.pyc' -delete
 #    dropdb -U atlatl atlatl
 #    if createdb -U atlatl atlatl; then
@@ -315,7 +314,6 @@ FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 #    fi
 #}
 #function   atlatl.recreate.db.only2() {
-#    set -x
 #    find . -name '*.pyc' -delete
 #    dropdb -U atlatl atlatl2
 #    if createdb -U atlatl atlatl2; then
@@ -345,7 +343,6 @@ FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 #}
 #function atlatl.curl.wirecrafters.login() {
 #    (
-#    set -xv;
 #    curl --verbose --data 'email=wc.sales.rep@bednark.com&password=p' http://wirecrafters.dev.atlatlprivate.com/api/account/login/
 #    )
 #}
@@ -515,7 +512,7 @@ alias   ssh.jump.server="~/repos/it/aws/tools/vpc-tunnel.sh development 172.18.1
 #alias   stag="ssh staging-1"
 #alias   st="ssh staging-1"
 
-#alias   trapit.cp.fusion.metric.scripts="(set -x; DIR_FUSION=$DirTrapitRepos/xm-2.fusion.metrics; mkdir -p $DIR_FUSION; scp -p 'xm-2:/home/fusion/metrics/*.{py,sh}' $DIR_FUSION)"
+#alias   trapit.cp.fusion.metric.scripts="(DIR_FUSION=$DirTrapitRepos/xm-2.fusion.metrics; mkdir -p $DIR_FUSION; scp -p 'xm-2:/home/fusion/metrics/*.{py,sh}' $DIR_FUSION)"
 #alias   trapit.psql.astro="psql -h 10.23.1.21 -U zoidberg --password trapit"
 ##alias   trapit.psql.deloitte="psql -h 10.23.1.21 -U zoidberg -W trapit"
 #alias   trapit.psql.higgs="psql -h 10.0.1.24 --username=zoidberg --dbname=trapit"
@@ -532,7 +529,6 @@ alias   ssh.jump.server="~/repos/it/aws/tools/vpc-tunnel.sh development 172.18.1
 #function trapit.supervisorctl.status.all() {
 #    (
 #    setopt shwordsplit
-#    set -xv;
 #    servers="nb-1 zb-1 zb-2 zb-3"
 #    for server in $servers; do 
 #        ssh $server supervisorctl status
@@ -541,13 +537,11 @@ alias   ssh.jump.server="~/repos/it/aws/tools/vpc-tunnel.sh development 172.18.1
 #}
 #function trapit.get.all.logs() {
 #    (
-#    set -xv;
 #    ssh nb-1 '(cd /tmp; mkdir tmp.rbednark.logs; )'
 #    )
 #}
 #function trapit.show.all.logs() {
 #    (
-#    set -xv;
 #    ssh nb-1 cat '/trapit/*/v?/*log'
 #    )
 #}
@@ -610,10 +604,6 @@ alias	ci="ci -zLT"
 alias cls="echo -ne '\033c'" 
 alias	co="co -zLT"
 alias	cp="cp -ip "
-# Set the Littred CPU to the slowest setting.
-alias   cpuslow="cpushow; set -x; sudo cpufreq-set --cpu 1 --max 1200000;sudo cpufreq-set --cpu 0 --max 1200000; cpushow; set +x"
-alias   cpufast="cpushow; set -x; sudo cpufreq-set --cpu 1 --max 2000000;sudo cpufreq-set --cpu 0 --max 2000000; cpushow; set +x"
-alias   cpushow="set -x; cpufreq-info | egrep 'policy'; cpufreq-info|egrep stats; echo 'CRITICAL temp: 100C; MAX temp: 105C; Hard disk MAX temp: 140C; Hard disk MTBF: 500,000 hrs'; set +x"
 
 alias   datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
 alias   dc='docker-compose'
@@ -644,7 +634,7 @@ alias   git.show.toplevel="git rev-parse --show-toplevel"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
 alias   git.vim.modified='vim $(git diff --name-only --diff-filter=M)'
-#alias   git.diff.old="(set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
+#alias   git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
 alias   help.find.delete='echo find . -name "*.pyc" -delete'
 
@@ -731,7 +721,7 @@ alias   ssh.weechat=ssh.rob-aws
 # alias   ssh.dev-rob-db-clone-20120720="ssh -i $PemTixieKey ubuntu@$MachineDevRobDbClone20120720"
 # alias   ssh.dev-rob-db-clone-20120720-clone2-20120724="ssh -i $PemTixieKey ubuntu@$MachineDevRobDbClone20120720Clone20120724"
 # alias   ssh.dev-rob-db-clone-20120727="ssh -i $PemTixie515 ubuntu@$MachineDevRobDbClone20120727"
-# alias   ssh.dev-rob-rest-clone-20120723="set -x; ssh -i $PemTixie515 ec2-user@$MachineDevRobRestClone20120723; set +x"
+# alias   ssh.dev-rob-rest-clone-20120723="ssh -i $PemTixie515 ec2-user@$MachineDevRobRestClone20120723; set +x"
 # alias   ssh.dev-rob-web-clone-20120626="ssh -i $PemTixie515 ubuntu@$MachineDevRobWebClone20120626"
 # alias   ssh.dev-rob-web-clone-20120719="ssh -i $PemTixie515 ubuntu@$MachineDevRobWebClone20120719"
 
@@ -877,54 +867,54 @@ alias	winmerge="'/cygdrive/c/Program Files/WinMerge/WinMerge.exe'"
 ################################################################################
 function psql.dev-rob-pg9-12.04-grep-all-data() {
     regex="$1"
-    (set -x; python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py | egrep -i --context=6 "^\+|$regex" )
+    (python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py | egrep -i --context=6 "^\+|$regex" )
 }
 function psql.dev-rob-pg9-12.04-show-all-data() {
-    (set -x; python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py)
+    (python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py)
 }
 function psql.dev-rob-pg9-12.04-select-events() {
-    (set -x; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_allevents_and_draws ORDER BY event_date' )
+    (psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_allevents_and_draws ORDER BY event_date' )
 }
 function psql.dev-rob-pg9-12.04-20120727() {
-    (set -x; psql --host $MachineDevRobPg9_12_04_20120727 --port 5432 --user tixie_admin --dbname tixie_main )
+    (psql --host $MachineDevRobPg9_12_04_20120727 --port 5432 --user tixie_admin --dbname tixie_main )
 }
 function psql.dev-rob-pg9-12.04() {
-    (set -x; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main )
+    (psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main )
 }
 function psql.PROD-DB() {
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main $* )
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main $* )
 }
 function psql.vagrant() {
-    (set -x; psql --host localhost --port 5433 --user tixie_admin --dbname tixie_main )
+    (psql --host localhost --port 5433 --user tixie_admin --dbname tixie_main )
 }
 function psql.qa-db() {
-    (set -x; date; psql --host $MachineQADb --port 5432 --user tixie_admin --dbname tixie_main )
+    (date; psql --host $MachineQADb --port 5432 --user tixie_admin --dbname tixie_main )
 }
 function psql.list-tables.rob-dev-pg9() {
-    (set -x; date; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command '\d')
+    (date; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command '\d')
 }
 function psql.list-users.rob-dev-pg9() {
-    (set -x; date; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY username;')
+    (date; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY username;')
 }
 function psql.list-users.PROD-DB() {
-(set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT au.join_date, au.username, au.first_name, au.last_name, au.email, aa.dob, aa.tokens, aa.win_eligible, au.is_staff, au.is_superuser FROM accounts_account aa, auth_user au WHERE au.id = aa.user_id ORDER BY au.join_date;')
-    #(set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY username;')
-    #(set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT id,guid,user_id,facebook_id,access_token,avatar,site_password_set,email_notifications,facebook_wall_notifications FROM accounts_account ORDER BY id;')
+(date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT au.join_date, au.username, au.first_name, au.last_name, au.email, aa.dob, aa.tokens, aa.win_eligible, au.is_staff, au.is_superuser FROM accounts_account aa, auth_user au WHERE au.id = aa.user_id ORDER BY au.join_date;')
+    #(date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY username;')
+    #(date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT id,guid,user_id,facebook_id,access_token,avatar,site_password_set,email_notifications,facebook_wall_notifications FROM accounts_account ORDER BY id;')
 }
 function psql.list-users.date_joined.PROD-DB() {
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY date_joined;')
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY date_joined;')
 }
 function psql.list-users.last_login.PROD-DB() {
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY last_login;')
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY last_login;')
 }
 function psql.list-hot-events.PROD-DB() {
     date
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_hot_analysis ORDER BY hotscore;')
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM vw_hot_events  ORDER BY uk_bid_cnt_by_event;')
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM vw_hot_events2 ORDER BY uk_bid_cnt_by_event;')
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ v_hot_analysis')
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ vw_hot_events')
-    (set -x; date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ vw_hot_events2')
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_hot_analysis ORDER BY hotscore;')
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM vw_hot_events  ORDER BY uk_bid_cnt_by_event;')
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM vw_hot_events2 ORDER BY uk_bid_cnt_by_event;')
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ v_hot_analysis')
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ vw_hot_events')
+    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ vw_hot_events2')
     date
 }
 function psql.get-bid-log.PROD-DB() {
@@ -941,27 +931,22 @@ function scp.from.prod-db() {
 function scp.to.aws() {
     file=$1
     server=$2
-    set -x
     scp -i $PemTixie515 $file $server:/tmp
     set +x
 }
 function scp.latest.dump() {
-    set -x
     scp -i $PemTixie515 ubuntu@$MachineProdDb:/var/lib/postgresql/backups/hourly/tixie_main.dump.1 ~/Desktop/vagranttest
     set +x
 }
 function scp.get.tixie.reports() {
-    set -x
     scp -C -i $PemTixie515 ubuntu@$MachineProdDb:/var/lib/postgresql/'*.csv' $DirTixieRob/reports
     set +x
 }
 function scp.to.rob-dev() {
-    set -x
     scp -i $PemTixie515 $@ ubuntu@$MachineDevRobWebClone20120626:/tmp
     set +x
 }
 function scp.from.rob-dev() {
-    set -x
     scp -i $PemTixie515 ubuntu@$MachineDevRobWebClone20120626:$@
     set +x
 }
@@ -978,7 +963,6 @@ function tixiefindvi() {
 function tixiegrepvi() {
     grepArgs="$*"
     echo "grep args=[$grepArgs]"
-    set -xv
     cd $DirTixieSrc
     if grep -lr $grepArgs . > /dev/null 2>&1; then
         grep -lr $grepArgs . | xargs --no-run-if-empty vim
