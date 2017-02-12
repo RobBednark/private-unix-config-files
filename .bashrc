@@ -210,6 +210,7 @@ DirBin="$DirDropbox/bin"
 DirTxt="$DirTopPC/txt"
 DirDoc=$DirDropbox/Rob/doc
 
+DirAddToQuizme="$DirDropbox/add_to_quizme"
 DirBackup="$DirTopPC/backup"
 DirBednarkCom="$DirDropbox/Rob/bednark.com"
 DirC="/cygdrive/c"
@@ -831,7 +832,7 @@ alias   vprogramming="cd $DirQuiz; vici db_programming"
 alias   vpython="title vpython; cd $DirQuiz; vici db_python"
 alias   vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
 alias   vquizme="cd $DirQuizMe; vici README"
-alias   vquizmedb="vici.onefile $DirLearn/learn_add_to_quizme; vim $DirLearn/learn_add_to_quizme  $DirQuizMe/db_dumps/latest.dump.txt; vici.onefile $DirLearn/learn_add_to_quizme"
+alias   vquizmedb="vici.onefile $DirAddToQuizme/learn_add_to_quizme; vim $DirAddToQuizme/learn_add_to_quizme  $DirQuizMe/db_dumps/latest.dump.txt; vici.onefile $DirAddToQuizme/learn_add_to_quizme"
 alias   vresume=vjobsearch
 alias   vresume.word="open -a 'Microsoft Word' $DirDropbox/Documents/Rob.Bednark.resume.docx"
 #alias   vresume.pdf="open -a "Microsoft Word"'
