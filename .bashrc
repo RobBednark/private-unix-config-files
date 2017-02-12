@@ -1025,6 +1025,17 @@ function vifind.portal() {
 	 vim -R $files
 }
 
+function gitall() { 
+    # run the specified git command on all subdirectories
+    for dir in *; do 
+        echo "================================================================================"
+        echo $dir
+        echo "================================================================================"
+        cd $dir
+        git $*
+        cd ..
+    done
+}
 function git.files.changed.in.commit () {
   # --no-commit-id => don't show the commit ID
   # --name-only    => show only file names, not owner, group, perms
