@@ -1610,11 +1610,10 @@ function lsgrep() {
 	ls -ld *"$patternGrep"*
 }
 function lshead() {
-	echo "e.g., ls.head 40" > /dev/null
 	#number=${1:-30}
 	#ls -alt | head -$number
 	where=$*
-    ls -alt $where | head -30
+    ls -alt $where | head -10
 }
 function findExecutables() {
 	filesExec=`find * -prune -type f -perm +111`
