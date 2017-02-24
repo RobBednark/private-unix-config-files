@@ -429,6 +429,7 @@ alias curl.providersnear.prod.portland='curl "https://rs-gateway.transitsherpa.c
 alias curl.providersnear.shareddev.portland='curl "https://rs-gateway-dev.gslabs.us/city/providers-near/?radius=3000&lat=45.5199&lng=-122.6799&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.providersnear.shareddev.octa='curl "https://rs-gateway-dev.gslabs.us/city/providers-near/?api_key=7e03125622b5d4c262d1c02012e9f200&radius=3000&presentation_demo=true&lat=33.683947&format=json&lng=-117.794694" | json_pp | less'
 alias curl.providersnear.prod.octa='curl "https://rs-gateway.transitsherpa.com/city/providers-near/?api_key=7e03125622b5d4c262d1c02012e9f200&radius=3000&presentation_demo=true&lat=33.683947&format=json&lng=-117.794694" | json_pp | less'
+alias curl.instances.shareddev.raw='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances"'
 alias curl.instances.shareddev='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances" | json_pp | less'
 ################################################################################
 # Idealist:
