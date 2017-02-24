@@ -424,6 +424,7 @@ alias   ssh.rs.ingestion="ssh ubuntu@ec2-52-88-39-172.us-west-2.compute.amazonaw
 alias   ssh.rs.transit="ssh ubuntu@ec2-54-191-119-117.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
 alias   ssh.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; ssh -p 9998 127.0.0.1"
 alias curl.ridesnear.shareddev.octa='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=33.699841&lng=-117.759218&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
+alias curl.ridesnear.shareddev.octa.at.zipcar='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=33.672080695117245&lng=-117.84223858968812&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.ridesnear.shareddev.portland='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=45.5199&lng=-122.6799&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.providersnear.prod.portland='curl "https://rs-gateway.transitsherpa.com/city/providers-near/?radius=3000&lat=45.5199&lng=-122.6799&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.providersnear.shareddev.portland='curl "https://rs-gateway-dev.gslabs.us/city/providers-near/?radius=3000&lat=45.5199&lng=-122.6799&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
