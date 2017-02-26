@@ -1142,6 +1142,7 @@ function title {
 }
 
 title.both()   { title 0 $@; }
+title()        { title 1 $@; }
 title.tab()    { title 1 $@; }
 title.window() { title 2 $@; }
 
