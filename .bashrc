@@ -1129,7 +1129,7 @@ function subl.django() {
     subl $dir_django
 }
 
-function title {
+function title_working {
     _title="$*"
     if $MacOSX; then
         # iTerm2  - set the name of the tab AND the window
@@ -1140,20 +1140,32 @@ function title {
     fi
 }
 
-function title.tab {
+function title {
+    # iTerm2  - set the name of the tab AND the window
+    _mode=$1; shift  # 0=both  1=tab  2=window
+    _title="$@"
+    echo -ne "\033]${_mode};"${_title}"\007"
+}
+
+title.both()   { title 0 $@; }
+title.tab()    { title 1 $@; }
+title.window() { title 2 $@; }
+
+
+function title.tab_works {
     # https://hacksformacs.wordpress.com/2015/08/20/setting-iterm2-tab-and-window-titles/
     _title="$*"
     # iTerm2  - set the name of the tab AND the window
     echo -ne "\033]1;"$_title"\007"
 }
 
-function title.window {
+function title.window_works {
     _title="$*"
     # iTerm2  - set the name of the window (not the tab)
     echo -ne "\033]2;"$_title"\007"
 }
 
-function title.bash {
+function title.bash_works {
     # title isn't working in zsh, so try it in bash
     _title="$*"
     if $MacOSX; then
