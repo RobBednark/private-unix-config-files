@@ -1129,19 +1129,13 @@ function subl.django() {
     subl $dir_django
 }
 
-function title_working {
-    _title="$*"
-    if $MacOSX; then
-        # iTerm2  - set the name of the tab AND the window
-        #echo -n "\033];$title\007"
-        echo -ne "\033]0;"$_title"\007"
-    else
-        echo -ne "\e]2;$*\a"
-    fi
+function title_linux {
+    echo -ne "\e]2;$*\a"
 }
 
 function title {
-    # iTerm2  - set the name of the tab AND the window
+    # iTerm2  - set the name of the tab, the window, or both
+    # https://hacksformacs.wordpress.com/2015/08/20/setting-iterm2-tab-and-window-titles/
     _mode=$1; shift  # 0=both  1=tab  2=window
     _title="$@"
     echo -ne "\033]${_mode};"${_title}"\007"
@@ -1150,32 +1144,6 @@ function title {
 title.both()   { title 0 $@; }
 title.tab()    { title 1 $@; }
 title.window() { title 2 $@; }
-
-
-function title.tab_works {
-    # https://hacksformacs.wordpress.com/2015/08/20/setting-iterm2-tab-and-window-titles/
-    _title="$*"
-    # iTerm2  - set the name of the tab AND the window
-    echo -ne "\033]1;"$_title"\007"
-}
-
-function title.window_works {
-    _title="$*"
-    # iTerm2  - set the name of the window (not the tab)
-    echo -ne "\033]2;"$_title"\007"
-}
-
-function title.bash_works {
-    # title isn't working in zsh, so try it in bash
-    _title="$*"
-    if $MacOSX; then
-        # iTerm2 
-        #echo -n "\033];$title\007"
-        bash echo -ne "\033]0;"$_title"\007"
-    else
-        bash echo -ne "\e]2;$*\a"
-    fi
-}
 
 
 function titlessh {
