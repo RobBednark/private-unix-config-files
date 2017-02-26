@@ -1132,12 +1132,25 @@ function subl.django() {
 function title {
     _title="$*"
     if $MacOSX; then
-        # iTerm2 
+        # iTerm2  - set the name of the tab AND the window
         #echo -n "\033];$title\007"
         echo -ne "\033]0;"$_title"\007"
     else
         echo -ne "\e]2;$*\a"
     fi
+}
+
+function title.tab {
+    # https://hacksformacs.wordpress.com/2015/08/20/setting-iterm2-tab-and-window-titles/
+    _title="$*"
+    # iTerm2  - set the name of the tab AND the window
+    echo -ne "\033]1;"$_title"\007"
+}
+
+function title.window {
+    _title="$*"
+    # iTerm2  - set the name of the window (not the tab)
+    echo -ne "\033]2;"$_title"\007"
 }
 
 function title.bash {
