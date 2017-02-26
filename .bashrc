@@ -1143,7 +1143,7 @@ function title_set {
 
 title.both()   { title_set 0 $@; }
 title()        { title_set 1 $@; }
-title.tab()    { title_set 1 $@; }
+title.tab()    { title_set 1 $@; }  # Note that title.tab set just the tab only if you've already set just the window
 title.window() { title_set 2 $@; }
 
 
