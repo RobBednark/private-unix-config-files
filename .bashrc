@@ -1133,7 +1133,7 @@ function title_linux {
     echo -ne "\e]2;$*\a"
 }
 
-function title {
+function title_set {
     # iTerm2  - set the name of the tab, the window, or both
     # https://hacksformacs.wordpress.com/2015/08/20/setting-iterm2-tab-and-window-titles/
     _mode=$1; shift  # 0=both  1=tab  2=window
@@ -1141,10 +1141,10 @@ function title {
     echo -ne "\033]${_mode};"${_title}"\007"
 }
 
-title.both()   { title 0 $@; }
-title()        { title 1 $@; }
-title.tab()    { title 1 $@; }
-title.window() { title 2 $@; }
+title.both()   { title_set 0 $@; }
+title()        { title_set 1 $@; }
+title.tab()    { title_set 1 $@; }
+title.window() { title_set 2 $@; }
 
 
 function titlessh {
