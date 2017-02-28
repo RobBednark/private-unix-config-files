@@ -649,6 +649,7 @@ alias   git.log.branches='git log --graph --full-history --all --pretty=format:"
 alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 alias   git.show.toplevel="git rev-parse --show-toplevel"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
+alias   git.vim.cached='vim $(git diff --name-only --diff-filter=A)'
 alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
 alias   git.vim.modified='vim $(git diff --name-only --diff-filter=M)'
 #alias   git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
