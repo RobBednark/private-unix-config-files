@@ -430,6 +430,7 @@ alias   scp.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 1
 alias   ssh.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; ssh -p 9998 127.0.0.1"
 alias curl.ridesnear.local.octa='curl "http://0.0.0.0:48002/city/rides-near/?lat=33.699841&lng=-117.759218&api_key=backendrules&format=json&limit=3&presentation_demo=true"'
 alias curl.ridesnear.shareddev.octa='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=33.699841&lng=-117.759218&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
+alias curl.ridesnear.prod.octa.at.zipcar='curl "https://rs-gateway.transitsherpa.com/city/rides-near/?lat=33.672080695117245&lng=-117.84223858968812&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.ridesnear.shareddev.octa.at.zipcar='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=33.672080695117245&lng=-117.84223858968812&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.ridesnear.shareddev.portland='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=45.5199&lng=-122.6799&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.providersnear.prod.portland='curl "https://rs-gateway.transitsherpa.com/city/providers-near/?radius=3000&lat=45.5199&lng=-122.6799&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
