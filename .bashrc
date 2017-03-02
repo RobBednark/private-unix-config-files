@@ -409,6 +409,7 @@ DirMoovel=$DirDropbox/moovel
 DirReposMoovel="~/repos"
 alias   cdmoovel="cd $DirMoovel"
 alias   cdproviders="cd $DirReposMoovel/na-providers-python"
+alias   cdrrrr="cd $DirReposMoovel/rrrr"
 alias   cdtransit="cd $DirReposMoovel/na-transitplusplus-python"
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
 alias   cddocker.gateway="cd $DirReposMoovel/na-transitutils-docker/src/app/na-gateway-python"
