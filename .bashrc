@@ -362,8 +362,6 @@ alias   browse.family.tree="firefoxfile $FileFamilyTreeHtml"
 
 alias	cdbednarkcom="cd $DirBednarkCom"
 alias   cdbuddyup="cd $DirGitLocal/buddyup.github.adevore"
-#alias	cdc="cd $DirC; pwd; ls"
-#alias	cdcheckin="cd $DirCheckin"
 alias   cddada="cd $DirDropbox/Rob/dada"
 alias   cd.iphone.apps="cd ~/Music/iTunes/iTunes?Media/Mobile?Applications"
 alias   cddockerlearn="cd $DirDropbox/bin/learn/dir-learn-docker"
@@ -627,6 +625,7 @@ alias	cp="cp -ip "
 
 alias   datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
 alias   dc='docker-compose'
+alias   dclogs='docker-compose logs --tail --follow'
 alias	diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
 alias	dotrc="source $FileRc"
 
