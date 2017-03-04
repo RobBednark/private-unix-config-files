@@ -625,7 +625,7 @@ alias	cp="cp -ip "
 
 alias   datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
 alias   dc='docker-compose'
-alias   dclogs='docker-compose logs --tail --follow'
+alias   dclogs='docker-compose logs --timestamps --follow'
 alias	diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
 alias	dotrc="source $FileRc"
 
