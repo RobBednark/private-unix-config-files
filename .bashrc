@@ -417,6 +417,7 @@ alias   cddocker.gateway="cd $DirReposMoovel/na-transitutils-docker/src/app/na-g
 alias   cddocker.ingestion="cd $DirReposMoovel/na-transitutils-docker/src/app/na-ingestionserver-python"
 alias   cddocker.mobility="cd $DirReposMoovel/na-transitutils-docker/src/app/na-mobility-python"
 alias   cddocker.providers="cd $DirReposMoovel/na-transitutils-docker/src/app/na-providers-python"
+alias   cddocker.rrrr="cd $DirReposMoovel/na-transitutils-docker/src/app/rrrr"
 alias   cddocker.transit="cd $DirReposMoovel/na-transitutils-docker/src/app/na-transitplusplus-python"
 alias   cdgateway="cd $DirReposMoovel/na-gateway-python"
 alias   cdingestion="cd $DirReposMoovel/na-ingestionserver-python"
