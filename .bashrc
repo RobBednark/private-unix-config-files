@@ -101,7 +101,7 @@ if type bindkey > /dev/null 2>&1; then
 fi
 
 # GIT_DIFF_OPTS -- set the number of lines of context to 0 lines
-GIT_DIFF_OPTS=-u0
+export GIT_DIFF_OPTS=-u0
 
 export DISPLAY='rbednark:0.0'
 export DISPLAY=""
