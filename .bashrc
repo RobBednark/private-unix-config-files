@@ -422,6 +422,7 @@ alias   cddocker.transit="cd $DirReposMoovel/na-transitutils-docker/src/app/na-t
 alias   cdgateway="cd $DirReposMoovel/na-gateway-python"
 alias   cdingestion="cd $DirReposMoovel/na-ingestionserver-python"
 alias   cdmobility="cd $DirReposMoovel/na-mobility-python"
+alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
 alias   psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
 alias   ssh.rs.mobility="ssh ubuntu@beta.mobility.ridescout.com -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias   ssh.rs.providers="ssh ubuntu@52.27.32.0 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
