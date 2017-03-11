@@ -197,7 +197,7 @@ Bundle 'airblade/vim-gitgutter'
 
 " vim-auto-save: autosave file every n seconds; see https://github.com/vim-scripts/vim-auto-save
 Bundle 'vim-scripts/vim-auto-save'
-let g:autosave_time=1  " autosave file every this many seconds (vim-auto-save plugin)
+let g:autosave_time=20  " autosave file every this many seconds (vim-auto-save plugin)
 let g:auto_save = 1    " enable AutoSave on Vim startup (vim-auto-save plugin)
 
 filetype plugin indent on     " required!
