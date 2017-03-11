@@ -195,6 +195,10 @@ Bundle 'scrooloose/syntastic'
 " <leader>hu ==> undo the hunk that the cursor is on
 Bundle 'airblade/vim-gitgutter'
 
+" vim-auto-save: autosave file every n seconds; see
+Bundle 'vim-scripts/vim-auto-save'
+let g:autosave_time=1  " autosave file every this many seconds; used by vim-auto-save plugin
+
 filetype plugin indent on     " required!
 nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
