@@ -408,6 +408,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 ################################################################################
 DirMoovel=$DirDropbox/moovel
 DirReposMoovel="~/repos"
+DirReposMoovel="~/repos.clients"
 alias   cdmoovel="cd $DirMoovel"
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
 alias   cdgateway="cd $DirReposMoovel/na-transitutils-docker/src/app/na-gateway-python"
@@ -416,6 +417,8 @@ alias   cdmobility="cd $DirReposMoovel/na-transitutils-docker/src/app/na-mobilit
 alias   cdproviders="cd $DirReposMoovel/na-transitutils-docker/src/app/na-providers-python"
 alias   cdrrrr="cd $DirReposMoovel/na-transitutils-docker/src/app/rrrr"
 alias   cdtransit="cd $DirReposMoovel/na-transitutils-docker/src/app/na-transitplusplus-python"
+
+alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
 # alias   cdproviders="cd $DirReposMoovel/na-providers-python"
 # alias   cdrrrr="cd $DirReposMoovel/rrrr"
 # alias   cdtransit="cd $DirReposMoovel/na-transitplusplus-python"
