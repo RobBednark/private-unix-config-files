@@ -419,6 +419,7 @@ alias   cdrrrr="cd $DirReposMoovel/na-transitutils-docker/src/app/rrrr"
 alias   cdtransit="cd $DirReposMoovel/na-transitutils-docker/src/app/na-transitplusplus-python"
 
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
+alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
 # alias   cdproviders="cd $DirReposMoovel/na-providers-python"
 # alias   cdrrrr="cd $DirReposMoovel/rrrr"
 # alias   cdtransit="cd $DirReposMoovel/na-transitplusplus-python"
