@@ -436,6 +436,8 @@ alias   ssh.rs.ingestion="ssh ubuntu@ec2-52-88-39-172.us-west-2.compute.amazonaw
 alias   ssh.rs.transit="ssh ubuntu@ec2-54-191-119-117.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
 alias   scp.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; scp -P 9998 127.0.0.1:myfile ."
 alias   ssh.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; ssh -p 9998 127.0.0.1"
+moovel_prod="https://rs-gateway.transitsherpa.com"
+moovel_shared_dev="https://rs-gateway-dev.gslabs.us"
 alias curl.ridesnear.local.octa='curl "http://0.0.0.0:48002/city/rides-near/?lat=33.699841&lng=-117.759218&api_key=backendrules&format=json&limit=3&presentation_demo=true"'
 alias curl.busstops.shareddev.san_antonio='curl "https://rs-gateway-dev.gslabs.us/transit/bus-stops/?api_key=backendrules&lat=29.414695&lng=-98.436579&radius=2000&end=29.414695,-98.436579" | json_pp | less'
 alias curl.ridesnear.shareddev.octa='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=33.699841&lng=-117.759218&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
@@ -448,6 +450,8 @@ alias curl.providersnear.shareddev.octa='curl "https://rs-gateway-dev.gslabs.us/
 alias curl.providersnear.prod.octa='curl "https://rs-gateway.transitsherpa.com/city/providers-near/?api_key=7e03125622b5d4c262d1c02012e9f200&radius=3000&presentation_demo=true&lat=33.683947&format=json&lng=-117.794694" | json_pp | less'
 alias curl.providersnear.prod.san-antonio='curl "https://rs-gateway.transitsherpa.com/city/providers-near/?api_key=7e03125622b5d4c262d1c02012e9f200&radius=3000&presentation_demo=true&lat=29.42&format=json&lng=-98.48" | json_pp | less'
 alias curl.providersnear.shared-dev.san-antonio='curl "https://rs-gateway-dev.gslabs.us/city/providers-near/?api_key=7e03125622b5d4c262d1c02012e9f200&radius=3000&presentation_demo=true&lat=29.42&format=json&lng=-98.48" | json_pp | less'
+alias curl.ridesnear.shared-dev.san-antonio='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=29.42&lng=-98.48&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
+alias curl.ridesnear.prod.san-antonio='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=29.42&lng=-98.48&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.instances.shareddev.raw='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances"'
 alias curl.instances.shareddev='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances" | json_pp | less'
 ################################################################################
