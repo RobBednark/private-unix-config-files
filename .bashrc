@@ -451,7 +451,7 @@ alias curl.providersnear.prod.octa='curl "https://rs-gateway.transitsherpa.com/c
 alias curl.providersnear.prod.san-antonio='curl "https://rs-gateway.transitsherpa.com/city/providers-near/?api_key=7e03125622b5d4c262d1c02012e9f200&radius=3000&presentation_demo=true&lat=29.42&format=json&lng=-98.48" | json_pp | less'
 alias curl.providersnear.shared-dev.san-antonio='curl "https://rs-gateway-dev.gslabs.us/city/providers-near/?api_key=7e03125622b5d4c262d1c02012e9f200&radius=3000&presentation_demo=true&lat=29.42&format=json&lng=-98.48" | json_pp | less'
 alias curl.ridesnear.shared-dev.san-antonio='curl "https://rs-gateway-dev.gslabs.us/city/rides-near/?lat=29.42&lng=-98.48&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
-alias curl.ridesnear.prod.san-antonio='curl "https://rs-gateway.transitsherpa.com/city/rides-near/?lat=29.42&lng=-98.48&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
+alias curl.ridesnear.prod.san-antonio='curl "${moovel_prod}/city/rides-near/?lat=29.42&lng=-98.48&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.instances.shareddev.raw='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances"'
 alias curl.instances.shareddev='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances" | json_pp | less'
 ################################################################################
