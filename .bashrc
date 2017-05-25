@@ -10,6 +10,8 @@
 ################################################################################
 enable_oh_my_zsh=false
 
+HOSTNAME_COMPUTER_MOOVEL='mv-mbp13-rbednark'
+
 if $enable_oh_my_zsh; then
     # Path to your oh-my-zsh configuration.
     ZSH=$HOME/.oh-my-zsh
@@ -196,7 +198,7 @@ else
 fi
 IBM=false
 
-if hostname | grep -i 'moovel' > /dev/null; then
+if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
     DirDropbox=~/dropbox.symlink
 else
     DirDropbox=~/Dropbox
@@ -1688,7 +1690,7 @@ function tab() {
 EOF
 }
 
-if hostname | grep -i 'moovel' > /dev/null; then
+if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
     export WORKON_HOME=$HOME/.virtualenvs
     export PROJECT_HOME=$HOME/Devel
     source /usr/local/bin/virtualenvwrapper.sh
@@ -1785,3 +1787,6 @@ fi
 ################################################################################
 ### The end. (.bashrc)
 ################################################################################
+
+export NVM_DIR="/Users/robb/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
