@@ -424,6 +424,7 @@ alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
 alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
 
 alias   cdenv-shared-prod-east="cd $DirReposMoovelDevops/env-shared-prod-east"
+alias   cdenv-shared-dev="cd $DirReposMoovelDevops/env-shared-prod-east"
 
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
 alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
