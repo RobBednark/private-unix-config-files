@@ -414,6 +414,7 @@ DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
 DirReposMoovelClients="~/repos.clients"
 alias   cdmoovel="cd $DirMoovel"
+
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
 alias   cdgateway="cd $DirReposMoovelDocker/na-gateway-python"
 alias   cdingestion="cd $DirReposMoovelDocker/na-ingestionserver-python"
@@ -422,6 +423,8 @@ alias   cdproviders="cd $DirReposMoovelDocker/na-providers-python"
 alias   cdrrrr="cd $DirReposMoovelDocker/rrrr"
 alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
 alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
+
+alias   cdtrip-planner="cd $DirReposMoovel/trip-planner"
 
 alias   cdenv-shared-prod-east="cd $DirReposMoovelDevops/env-shared-prod-east"
 alias   cdenv-shared-dev="cd $DirReposMoovelDevops/env-shared-dev"
