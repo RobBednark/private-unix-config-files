@@ -410,6 +410,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 ################################################################################
 DirMoovel=$DirDropbox/moovel
 DirReposMoovel="~/repos"
+DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
 DirReposMoovelClients="~/repos.clients"
 alias   cdmoovel="cd $DirMoovel"
@@ -422,14 +423,11 @@ alias   cdrrrr="cd $DirReposMoovelDocker/rrrr"
 alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
 alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
 
+alias   cdenv-shared-prod-east="cd $DirReposMoovelDevops/env-shared-prod-east"
+
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
 alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
-# alias   cdproviders="cd $DirReposMoovel/na-providers-python"
-# alias   cdrrrr="cd $DirReposMoovel/rrrr"
-# alias   cdtransit="cd $DirReposMoovel/na-transitplusplus-python"
-# alias   cdgateway="cd $DirReposMoovel/na-gateway-python"
-# alias   cdingestion="cd $DirReposMoovel/na-ingestionserver-python"
-# alias   cdmobility="cd $DirReposMoovel/na-mobility-python"
+
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
 alias   psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
 alias   ssh.rs.mobility="ssh ubuntu@beta.mobility.ridescout.com -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
