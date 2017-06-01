@@ -1535,6 +1535,9 @@ function ls.newest.files() {
 function python.module.dir() {
     python $DirLearn/get_module_path.py $*
 }
+function vi.git.grep() {
+    vim $(git grep -l $*)
+}
 function vi.ls.head() {
 	echo "e.g., vi.ls.head (edits the newest 5 files)" > /dev/null
 	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
