@@ -1056,6 +1056,16 @@ function cd.package.dir() {
     _py_file=$(python -c "import ${_py_package}; print(${_py_package}.__file__)")
     cd $(dirname ${_py_file})
 }
+function dc-rebuild-container() {
+    container=$1
+    (set -x;
+     docker-compose stop $container;
+     docker-compose rm $container;
+     docker-compose build $container;
+     docker-compose create $container;
+     docker-compose start $container;
+    )
+}
 function emailaddr () {
   grep -i $@ $FileEmailAddrs
 }
