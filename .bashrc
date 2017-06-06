@@ -1060,7 +1060,7 @@ function dc-rebuild-container() {
     container=$1
     (set -x;
      docker-compose stop $container;
-     docker-compose rm $container;
+     docker-compose rm --force $container;
      docker-compose build $container;
      docker-compose create $container;
      docker-compose start $container;
