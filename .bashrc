@@ -429,6 +429,7 @@ alias   cdtrip-planner="cd $DirReposMoovel/trip-planner"
 alias   cdenv-shared-prod-east="cd $DirReposMoovelDevops/env-shared-prod-east"
 alias   cdenv-shared-dev="cd $DirReposMoovelDevops/env-shared-dev"
 
+alias   cdandroid="cd $DirReposMoovelClients/na-ridetap-android"
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
 alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
 
