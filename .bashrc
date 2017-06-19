@@ -416,6 +416,7 @@ DirReposMoovelClients="~/repos.clients"
 alias   cdmoovel="cd $DirMoovel"
 
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
+alias   cdgamma="cd $DirReposMoovel/gamma-docker"
 alias   cdgateway="cd $DirReposMoovelDocker/na-gateway-python"
 alias   cdingestion="cd $DirReposMoovelDocker/na-ingestionserver-python"
 alias   cdmobility="cd $DirReposMoovelDocker/na-mobility-python"
