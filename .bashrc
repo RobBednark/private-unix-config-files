@@ -409,6 +409,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 # Moovel:
 ################################################################################
 DirMoovel=$DirDropbox/moovel
+DirMoovelLocal="~/moovel"
 DirReposMoovel="~/repos"
 DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
@@ -423,7 +424,7 @@ alias   cdgtfsrt="cd $DirReposMoovelDocker/na-gtfsrt-py"
 alias   cdingestion="cd $DirReposMoovelDocker/na-ingestionserver-python"
 alias   cdjenkins="cd $DirReposMoovelDevops/jenkins-dev"
 alias   cdmobility="cd $DirReposMoovelDocker/na-mobility-python"
-alias   cdpace="cd $DirMoovel/gtfs/pace"
+alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
 alias   cdproviders="cd $DirReposMoovelDocker/na-providers-python"
 alias   cdrrrr="cd $DirReposMoovelDocker/rrrr"
 alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
