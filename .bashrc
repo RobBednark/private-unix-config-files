@@ -1628,6 +1628,14 @@ function vi.grep.ril() {
     # This one will only work with xargs that supports the --no-run-if-empty option:
     #grep -ril $patternGrep . | xargs --no-run-if-empty vim
 }
+function vi.output() {
+    FileTmp=~/tmp/output-$(datestamp)
+    # This doesn't work yet for a pipeline with grep, 
+    # e.g.,
+    #     vi.output echo foo | grep foo
+    ($@) >& ${FileTmp}
+    vim $FileTmp
+}
 function tail.recent.logs() {
     # Tail the newest 2 log files
     (set -xv; date; tail -30f $(ls -1tr ~/logs | head -n 2) )
