@@ -1562,14 +1562,14 @@ function vi.ls.head() {
 	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
     number=5
 	files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
-	vi $files
+	vim $files
 }
 function vi.last.n.files() {
 	echo "e.g., vi.last.n.files '*report' 10" > /dev/null
 	pattern=$1
 	number=$2
 	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
-	vi `ls -1t $pattern | head -$number`
+	vim `ls -1t $pattern | head -$number`
 	#files=""
 	#for oneFile in `ls -1t $pattern | head -$number`; do
 		#files="$files \"'\"$oneFile\"'\" " 
@@ -1582,7 +1582,7 @@ function vi.files.with.pattern() {
 	patternFile=$2
 	number=${3:-20}
 	files=`\ls -1t $patternFile | xargs --no-run-if-empty grep -iIl "$patternGrep" /dev/null | head -${number}`
-	vi -R $files
+	vim -R $files
 }
 function vici.grep.i() {
     patternGrep=$1
