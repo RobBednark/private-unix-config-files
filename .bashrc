@@ -1075,6 +1075,13 @@ function dc-rebuild-container() {
      docker-compose start $container;
     )
 }
+function dc-restart-tail-logs() {
+    services=$@
+    set -x
+    docker-compose restart ${services}
+    docker-compose logs --timestamps --follow --tail=50 ${services}
+    set +x
+}
 function emailaddr () {
   grep -i $@ $FileEmailAddrs
 }
