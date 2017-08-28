@@ -1628,6 +1628,14 @@ function vi.grep.ril() {
     # This one will only work with xargs that supports the --no-run-if-empty option:
     #grep -ril $patternGrep . | xargs --no-run-if-empty vim
 }
+function redirect-and-tail-output() {
+    FileTmp=~/tmp/output-$(datestamp)
+    # This doesn't work yet for a pipeline with grep, 
+    # e.g.,
+    #     vi.output echo foo | grep foo
+    ($@) >& ${FileTmp} &
+    tail -f $FileTmp
+}
 function vi.output() {
     FileTmp=~/tmp/output-$(datestamp)
     # This doesn't work yet for a pipeline with grep, 
