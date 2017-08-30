@@ -195,7 +195,7 @@ Bundle 'scrooloose/syntastic'
 " <leader>hu ==> undo the hunk that the cursor is on
 Bundle 'airblade/vim-gitgutter'
 " Enable highlighting of lines that are modified by git:
-:GitGutterLineHighlightsEnable
+GitGutterLineHighlightsEnable
 
 " vim-auto-save: autosave file every n seconds; see https://github.com/vim-scripts/vim-auto-save
 Bundle 'vim-scripts/vim-auto-save'
