@@ -1637,9 +1637,6 @@ function vi.grep.ril() {
 }
 function redirect-and-tail-output() {
     FileTmp=~/tmp/output-$(datestamp)
-    # This doesn't work yet for a pipeline with grep, 
-    # e.g.,
-    #     vi.output echo foo | grep foo
     ($@) >& ${FileTmp} &
     tail -f $FileTmp
 }
