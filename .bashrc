@@ -414,17 +414,16 @@ DirReposMoovel="~/repos"
 DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
 DirReposMoovelClients="~/repos.clients"
+DirReposMoovelPayment="~/reports.journaling"
 DirGammaDocker="$DirReposMoovel/gamma-docker"
 alias   cdmoovel="cd $DirMoovel"
 
+# Trip Utilities:
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
-alias   cdgamma="cd $DirGammaDocker"
 alias   cdgateway="cd $DirReposMoovelDocker/na-gateway-python"
 alias   cdgtfsrt="cd $DirReposMoovelDocker/na-gtfsrt-py"
 alias   cdgtfsrealtimejson="cd ~/repos.other/gtfs_realtime_json"
 alias   cdingestion="cd $DirReposMoovelDocker/na-ingestionserver-python"
-alias   cdjenkins="cd $DirReposMoovelDevops/jenkins-dev"
-alias   cdlambda="cd ~/repos.journaling/journal-lambda"
 alias   cdmobility="cd $DirReposMoovelDocker/na-mobility-python"
 alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
 alias   cdproviders="cd $DirReposMoovelDocker/na-providers-python"
@@ -432,6 +431,15 @@ alias   cdrrrr="cd $DirReposMoovelDocker/rrrr"
 alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
 alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
 
+# payment/reporting/journaling
+alias   cdgamma="cd $DirGammaDocker"
+alias   cdlambda="cd $DirReposMoovelPayment/journal-lambda"
+alias   cdpayment="cd $DirReposMoovelPayment/gamma-payment"
+
+# misc devops:
+alias   cdjenkins="cd $DirReposMoovelDevops/jenkins-dev"
+
+# node trip-plannner
 alias   cdtrip-planner="cd $DirGammaDocker/src/app/trip-planner"
 
 alias   cdenv-shared-prod-east="cd $DirReposMoovelDevops/env-shared-prod-east"
