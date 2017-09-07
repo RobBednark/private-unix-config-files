@@ -414,7 +414,7 @@ DirReposMoovel="~/repos"
 DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
 DirReposMoovelClients="~/repos.clients"
-DirReposMoovelPayment="~/reports.journaling"
+DirReposMoovelPayment="~/repos.journaling"
 DirGammaDocker="$DirReposMoovel/gamma-docker"
 alias   cdmoovel="cd $DirMoovel"
 
@@ -435,6 +435,7 @@ alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
 alias   cdgamma="cd $DirGammaDocker"
 alias   cdlambda="cd $DirReposMoovelPayment/journal-lambda"
 alias   cdpayment="cd $DirReposMoovelPayment/gamma-payment"
+alias   cdpurchase="cd $DirReposMoovelPayment/gamma-purchase"
 
 # misc devops:
 alias   cdjenkins="cd $DirReposMoovelDevops/jenkins-dev"
