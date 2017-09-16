@@ -182,10 +182,10 @@ Bundle 'rhysd/conflict-marker.vim'
 " press F7 to run it; need flake8 executable in the virtualenv / env
 " Bundle 'nvie/vim-flake8'
 
-" flake8-vim: flake8 checker for python code
+" flake8-vim: flake8/pep8/.. checker for python code
 " Bundle 'andviro/flake8-vim'
 
-" syntastic: for flake8 while editing python code; requires flake8 package installed (pip install flake8)
+" syntastic: for flake8/pep8/... while editing python code; requires flake8 package installed (pip install flake8)
 Bundle 'scrooloose/syntastic'
 
 " vim-gitgutter: shows git diff in the gutter (what lines have been changed); stages/undoes hunks
