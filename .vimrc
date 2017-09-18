@@ -219,4 +219,4 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 
 " unmap some commands that plugin's mapped
 " > -- from unimpaired
-:unmap >
+unmap >
