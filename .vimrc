@@ -216,3 +216,7 @@ let g:ctrlp_working_path_mode = ''
 let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlinks to avoid duplicates.
 " This from John, to only search idealist directory:
 " let g:ctrlp_cmd = 'CtrlP idealist'
+
+" unmap some commands that plugin's mapped
+" > -- from unimpaired
+:unmap >
