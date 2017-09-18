@@ -219,4 +219,6 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 
 " unmap some commands that plugin's mapped
 " > -- from unimpaired
-unmap >
+" The following doesn't work.  I haven't yet figured out how to do this.
+" But it doesn't seem to be affecting me now.  Can do ":unmap >" at the vim command-line.
+" unmap >
