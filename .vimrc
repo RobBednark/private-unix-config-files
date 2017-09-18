@@ -186,6 +186,7 @@ Bundle 'rhysd/conflict-marker.vim'
 " Bundle 'andviro/flake8-vim'
 
 " syntastic: for flake8/pep8/... while editing python code; requires flake8 package installed (pip install flake8)
+" 
 Bundle 'scrooloose/syntastic'
 
 " vim-gitgutter: shows git diff in the gutter (what lines have been changed); stages/undoes hunks
@@ -207,7 +208,7 @@ Bundle 'vim-scripts/vim-auto-save'
 Bundle 'tpope/vim-unimpaired'
 
 filetype plugin indent on     " required!
-nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
+" nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
 " The following setting tells ctrlp to just use the current working directory as the ancestor
 " see http://kien.github.io/ctrlp.vim/
