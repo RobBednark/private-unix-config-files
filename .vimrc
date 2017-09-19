@@ -208,6 +208,9 @@ Bundle 'vim-scripts/vim-auto-save'
 Bundle 'tpope/vim-unimpaired'
 
 " vim-AnsiEsc -- show ANSI terminal escape color codes in color (e.g., redirected terminal output that has color codes)
+" To use it, toggle it on with:
+" :AnsiEsc
+" (do it again to toggle it off)
 Bundle 'jbnicolai/vim-AnsiEsc'
 
 filetype plugin indent on     " required!
