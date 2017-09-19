@@ -207,6 +207,9 @@ Bundle 'vim-scripts/vim-auto-save'
 " Note that vim-unimpaired remaps >> (that I use for indentation)
 Bundle 'tpope/vim-unimpaired'
 
+" vim-AnsiEsc -- show ANSI terminal escape color codes in color (e.g., redirected terminal output that has color codes)
+Bundle 'jbnicolai/vim-AnsiEsc'
+
 filetype plugin indent on     " required!
 " nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
