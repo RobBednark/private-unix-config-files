@@ -411,12 +411,17 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 DirMoovel=$DirDropbox/moovel
 DirMoovelLocal="~/moovel"
 DirReposMoovel="~/repos"
+DirReposMoovelClients="~/repos.clients"
 DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
-DirReposMoovelClients="~/repos.clients"
+DirReposMoovelGamma="~/repos.gamma"
 DirReposMoovelPayment="~/repos.journaling"
 DirGammaDocker="$DirReposMoovel/gamma-docker"
 alias   cdmoovel="cd $DirMoovel"
+
+# Rip City / catalog
+alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
+alias   cdfare-catalogs="cd $DirReposMoovelGamma/fare-catalogs"
 
 # Trip Utilities:
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
