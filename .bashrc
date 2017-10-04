@@ -416,7 +416,7 @@ DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
 DirReposMoovelGamma="~/repos.gamma"
 DirReposMoovelPayment="~/repos.journaling"
-DirGammaDocker="$DirReposMoovel/gamma-docker"
+DirGammaDocker="$DirReposMoovel/gamma-docker-2"
 alias   cdmoovel="cd $DirMoovel"
 
 # Rip City / catalog
