@@ -421,6 +421,7 @@ alias   cdmoovel="cd $DirMoovel"
 
 # Rip City / catalog
 alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
+alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
 alias   cdfare-catalogs="cd $DirReposMoovelGamma/fare-catalogs"
 
 # Trip Utilities:
