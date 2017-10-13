@@ -453,6 +453,7 @@ alias   cdenv-shared-dev="cd $DirReposMoovelDevops/env-shared-dev"
 alias   cdenv-shared-prod="cd $DirReposMoovelDevops/env-shared-prod"
 alias   cdenv-shared-prod-east="cd $DirReposMoovelDevops/env-shared-prod-east"
 alias   cdenv-shared-test="cd $DirReposMoovelDevops/env-shared-test"
+alias   cdenv-ventra-prod="cd $DirReposMoovelDevops/env-ventra-prod"
 
 alias   cdandroid="cd $DirReposMoovelClients/na-ridetap-android"
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
