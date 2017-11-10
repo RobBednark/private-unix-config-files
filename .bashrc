@@ -180,8 +180,8 @@ else
 	:
 fi
 
-export AWS_ACCESS_KEY_ID='AKIAJME5CORBB3EJ3X5Q'
-export AWS_SECRET_ACCESS_KEY='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'
+# export AWS_ACCESS_KEY_ID='AKIAJME5CORBB3EJ3X5Q'
+# export AWS_SECRET_ACCESS_KEY='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'
 export OSU_API_KEY='be0ebeaa7260905173375e8e26611192cf1c2c61'
 
 ################################################################################
