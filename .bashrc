@@ -462,6 +462,14 @@ alias   cdandroid="cd $DirReposMoovelClients/na-ridetap-android"
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
 alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
 
+function  curl-agency-sync-metrotransit-prod() {
+    curl --request GET \
+    --url 'https://metrotransit.transitsherpa.com/v2/agency-sync/sync' \
+    --header 'accept: version=3' \
+    --header 'x-gs-scope: metrotransit-prod' \
+    --header 'x-gs-user-agent: {"devicePlatform": "ios"}' | jq .
+}
+
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
 alias   psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
 alias   ssh.rs.mobility="ssh ubuntu@beta.mobility.ridescout.com -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
