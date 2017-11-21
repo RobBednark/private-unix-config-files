@@ -462,12 +462,25 @@ alias   cdandroid="cd $DirReposMoovelClients/na-ridetap-android"
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
 alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
 
-function  curl-agency-sync-metrotransit-prod() {
+function curl-agency-sync() {
+    host=$1
+    scope=$2
+    user_agend=$3
     curl --request GET \
-    --url 'https://metrotransit.transitsherpa.com/v2/agency-sync/sync' \
+    --url "https://${host}.transitsherpa.com/v2/agency-sync/sync" \
     --header 'accept: version=3' \
-    --header 'x-gs-scope: metrotransit-prod' \
-    --header 'x-gs-user-agent: {"devicePlatform": "ios"}' | jq .
+    --header "x-gs-scope: ${scope}" \
+    --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" | jq .
+}
+
+function  curl-agency-sync-metrotransit-prod() {
+    curl-agency-sync "metrotransit" "metrotransit-prod" "ios"
+}
+function  curl-agency-sync-san-diego-prod() {
+    curl-agency-sync "compass" "san-diego-prod" "ios"
+}
+function  curl-agency-sync-santa-clara-vta-prod() {
+    curl-agency-sync "vtaezfare" "santa-clara-vta-prod" "ios"
 }
 
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
