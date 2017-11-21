@@ -478,25 +478,25 @@ function  curl-agency-sync-bart-prod() {
     curl-agency-sync "bart.transitsherpa.com" "bart-prod" "ios" 3
 }
 function  curl-agency-sync-caltrain-prod() {
-    curl-agency-sync "caltrain" "caltrain-prod" "ios" 3
+    curl-agency-sync "caltrain.transitsherpa.com" "caltrain-prod" "ios" 3
 }
 function  curl-agency-sync-metrotransit-dev() {
     curl-agency-sync "metrotransit-dev.gslabs.us" "metrotransit-dev" "ios" 3
 }
 function  curl-agency-sync-metrotransit-prod() {
-    curl-agency-sync "metrotransit" "metrotransit-prod" "ios" 3
+    curl-agency-sync "metrotransit.transitsherpa.com" "metrotransit-prod" "ios" 3
 }
 function  curl-agency-sync-octa-prod() {
-    curl-agency-sync "ocbus" "octa-prod" "ios" 3
+    curl-agency-sync "ocbus.transitsherpa.com" "octa-prod" "ios" 3
 }
 function  curl-agency-sync-san-diego-prod() {
-    curl-agency-sync "compass" "san-diego-prod" "ios" 3
+    curl-agency-sync "compass.transitsherpa.com" "san-diego-prod" "ios" 3
 }
 function  curl-agency-sync-santa-clara-vta-prod() {
-    curl-agency-sync "vtaezfare" "santa-clara-vta-prod" "ios" 3
+    curl-agency-sync "vtaezfare.transitsherpa.com" "santa-clara-vta-prod" "ios" 3
 }
 function  curl-agency-sync-sfmuni-prod() {
-    curl-agency-sync "sfmta" "sfmuni-prod" "ios" 2
+    curl-agency-sync "sfmta.transitsherpa.com" "sfmuni-prod" "ios" 2
 }
 
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
