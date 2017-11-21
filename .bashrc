@@ -468,17 +468,20 @@ function curl-agency-sync() {
     user_agend=$3
     version=$4
     curl --request GET \
-    --url "https://${host}.transitsherpa.com/v2/agency-sync/sync" \
+    --url "https://${host}/v2/agency-sync/sync" \
     --header 'accept: version=2' \
     --header "x-gs-scope: ${scope}" \
     --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" | jq .
 }
 
 function  curl-agency-sync-bart-prod() {
-    curl-agency-sync "bart" "bart-prod" "ios" 3
+    curl-agency-sync "bart.transitsherpa.com" "bart-prod" "ios" 3
 }
 function  curl-agency-sync-caltrain-prod() {
     curl-agency-sync "caltrain" "caltrain-prod" "ios" 3
+}
+function  curl-agency-sync-metrotransit-dev() {
+    curl-agency-sync "metrotransit-dev.gslabs.us" "metrotransit-dev" "ios" 3
 }
 function  curl-agency-sync-metrotransit-prod() {
     curl-agency-sync "metrotransit" "metrotransit-prod" "ios" 3
@@ -486,11 +489,11 @@ function  curl-agency-sync-metrotransit-prod() {
 function  curl-agency-sync-octa-prod() {
     curl-agency-sync "ocbus" "octa-prod" "ios" 3
 }
-function  curl-agency-sync-santa-clara-vta-prod() {
-    curl-agency-sync "vtaezfare" "santa-clara-vta-prod" "ios" 3
-}
 function  curl-agency-sync-san-diego-prod() {
     curl-agency-sync "compass" "san-diego-prod" "ios" 3
+}
+function  curl-agency-sync-santa-clara-vta-prod() {
+    curl-agency-sync "vtaezfare" "santa-clara-vta-prod" "ios" 3
 }
 function  curl-agency-sync-sfmuni-prod() {
     curl-agency-sync "sfmta" "sfmuni-prod" "ios" 2
