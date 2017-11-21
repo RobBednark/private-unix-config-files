@@ -474,8 +474,17 @@ function curl-agency-sync() {
     --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" | jq .
 }
 
+function  curl-agency-sync-bart-prod() {
+    curl-agency-sync "bart" "bart-prod" "ios" 3
+}
+function  curl-agency-sync-caltrain-prod() {
+    curl-agency-sync "caltrain" "caltrain-prod" "ios" 3
+}
 function  curl-agency-sync-metrotransit-prod() {
     curl-agency-sync "metrotransit" "metrotransit-prod" "ios" 3
+}
+function  curl-agency-sync-octa-prod() {
+    curl-agency-sync "ocbus" "octa-prod" "ios" 3
 }
 function  curl-agency-sync-santa-clara-vta-prod() {
     curl-agency-sync "vtaezfare" "santa-clara-vta-prod" "ios" 3
