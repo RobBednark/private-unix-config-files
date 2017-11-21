@@ -466,21 +466,25 @@ function curl-agency-sync() {
     host=$1
     scope=$2
     user_agend=$3
+    version=$4
     curl --request GET \
     --url "https://${host}.transitsherpa.com/v2/agency-sync/sync" \
-    --header 'accept: version=3' \
+    --header 'accept: version=2' \
     --header "x-gs-scope: ${scope}" \
     --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" | jq .
 }
 
 function  curl-agency-sync-metrotransit-prod() {
-    curl-agency-sync "metrotransit" "metrotransit-prod" "ios"
-}
-function  curl-agency-sync-san-diego-prod() {
-    curl-agency-sync "compass" "san-diego-prod" "ios"
+    curl-agency-sync "metrotransit" "metrotransit-prod" "ios" 3
 }
 function  curl-agency-sync-santa-clara-vta-prod() {
-    curl-agency-sync "vtaezfare" "santa-clara-vta-prod" "ios"
+    curl-agency-sync "vtaezfare" "santa-clara-vta-prod" "ios" 3
+}
+function  curl-agency-sync-san-diego-prod() {
+    curl-agency-sync "compass" "san-diego-prod" "ios" 3
+}
+function  curl-agency-sync-sfmuni-prod() {
+    curl-agency-sync "sfmta" "sfmuni-prod" "ios" 2
 }
 
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
