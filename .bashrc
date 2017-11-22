@@ -468,8 +468,8 @@ function curl-agency-sync() {
     user_agend=$3
     version=$4
     curl --request GET \
-    --url "https://${host}/v${version}/agency-sync/sync" \
-    --header "accept: version=3" \
+    --url "https://${host}/v2/agency-sync/sync" \
+    --header "accept: version=${version}" \
     --header "x-gs-scope: ${scope}" \
     --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" # | jq .
 }
