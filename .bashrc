@@ -474,6 +474,20 @@ function curl-agency-sync() {
     --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" # | jq .
 }
 
+function curl-agency-sync-all() {
+    set -x;
+    curl-agency-sync-bart-prod
+    curl-agency-sync-caltrain-prod
+    curl-agency-sync-houston-dev
+    curl-agency-sync-houston-prod
+    curl-agency-sync-metrotransit-dev
+    curl-agency-sync-metrotransit-prod
+    curl-agency-sync-octa-prod
+    curl-agency-sync-san-diego-prod
+    curl-agency-sync-santa-clara-vta-prod
+    curl-agency-sync-sfmuni-prod
+    set +x
+}
 function  curl-agency-sync-bart-prod() {
     curl-agency-sync "bart.transitsherpa.com" "bart-prod" "ios" 3
 }
