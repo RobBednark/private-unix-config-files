@@ -469,7 +469,7 @@ function curl-agency-sync() {
     version=$4
     curl --request GET \
     --url "https://${host}/v${version}/agency-sync/sync" \
-    --header "accept: version=${version}" \
+    --header "accept: version=3" \
     --header "x-gs-scope: ${scope}" \
     --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" # | jq .
 }
