@@ -465,7 +465,7 @@ alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
 function curl-agency-sync() {
     host=$1
     scope=$2
-    user_agend=$3
+    user_agent=$3
     version=$4
     curl --request GET \
     --url "https://${host}/v2/agency-sync/sync" \
