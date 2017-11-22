@@ -481,7 +481,7 @@ function  curl-agency-sync-caltrain-prod() {
     curl-agency-sync "caltrain.transitsherpa.com" "caltrain-prod" "ios" 3
 }
 function  curl-agency-sync-houston-dev() {
-    curl-agency-sync "houston-metro-dev.gslabs.us" "houston-metro-dev" "ios" 3
+    curl-agency-sync "houston-metro-dev.gslabs.us" "houston-metro-dev" "ios" 2
 }
 function  curl-agency-sync-houston-prod() {
     curl-agency-sync "ridemetro.transitsherpa.com" "houston-metro-prod" "ios" 3
