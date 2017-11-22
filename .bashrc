@@ -471,7 +471,7 @@ function curl-agency-sync() {
     --url "https://${host}/v${version}/agency-sync/sync" \
     --header "accept: version=${version}" \
     --header "x-gs-scope: ${scope}" \
-    --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" | jq .
+    --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" # | jq .
 }
 
 function  curl-agency-sync-bart-prod() {
