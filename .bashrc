@@ -420,6 +420,9 @@ DirReposMoovelPayment="~/repos.journaling"
 DirGammaDocker="$DirReposMoovel/gamma-docker-3"
 alias   cdmoovel="cd $DirMoovel"
 
+# Tests
+alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
+
 # Rip City / catalog
 alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
 alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
@@ -458,6 +461,7 @@ alias   cdenv-shared-stage="cd $DirReposMoovelDevops/env-shared-stage"
 alias   cdenv-shared-test="cd $DirReposMoovelDevops/env-shared-test"
 alias   cdenv-ventra-prod="cd $DirReposMoovelDevops/env-ventra-prod"
 
+# client apps
 alias   cdandroid="cd $DirReposMoovelClients/na-ridetap-android"
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
 alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
