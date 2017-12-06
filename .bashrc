@@ -417,7 +417,7 @@ DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
 DirReposMoovelGamma="~/repos.gamma"
 DirReposMoovelPayment="~/repos.journaling"
-DirGammaDocker="$DirReposMoovel/gamma-docker-3"
+DirGammaDocker="$DirReposMoovel/gamma-docker-4"
 alias   cdmoovel="cd $DirMoovel"
 
 # Tests
