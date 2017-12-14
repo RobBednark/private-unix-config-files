@@ -435,11 +435,12 @@ alias   cdgtfsrt="cd $DirReposMoovelDocker/na-gtfsrt-py"
 alias   cdgtfsrealtimejson="cd ~/repos.other/gtfs_realtime_json"
 alias   cdingestion="cd $DirReposMoovelDocker/na-ingestionserver-python"
 alias   cdmobility="cd $DirReposMoovelDocker/na-mobility-python"
-alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
 alias   cdproviders="cd $DirReposMoovelDocker/na-providers-python"
 alias   cdrrrr="cd $DirReposMoovelDocker/rrrr"
 alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
 alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
+
+alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
 
 # payment/reporting/journaling
 alias   cdgamma="cd $DirGammaDocker"
