@@ -511,6 +511,9 @@ function  curl-agency-sync-metrotransit-dev() {
 function  curl-agency-sync-metrotransit-prod() {
     curl-agency-sync "metrotransit.transitsherpa.com" "metrotransit-prod" "ios" 3
 }
+function  curl-agency-sync-octa-local() {
+    curl-agency-sync "localhost:80" "octa-docker" "ios" 3
+}
 function  curl-agency-sync-octa-prod() {
     curl-agency-sync "ocbus.transitsherpa.com" "octa-prod" "ios" 3
 }
