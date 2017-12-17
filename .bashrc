@@ -1167,6 +1167,14 @@ function dc-restart-tail-logs() {
     docker-compose logs --timestamps --follow --tail=50 ${services}
     set +x
 }
+function docker-rm-everything() {
+    (set -x;
+     docker stop $(docker ps --all --quiet) # stop all running containers
+     docker rm $(docker ps --all --quiet) # remove all containers
+     docker rmi --force $(docker images --all --quiet) # remove all images
+     docker volume rm $(docker volume ls --quiet) # remove all volumes
+    )
+}
 function emailaddr () {
   grep -i $@ $FileEmailAddrs
 }
