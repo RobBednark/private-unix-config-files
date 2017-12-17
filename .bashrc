@@ -473,7 +473,7 @@ function curl-agency-sync() {
     user_agent=$3
     version=$4
     curl --request GET \
-    --url "https://${host}/v2/agency-sync/sync" \
+    --url "${host}/v2/agency-sync/sync" \
     --header "accept: version=${version}" \
     --header "x-gs-scope: ${scope}" \
     --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" | jq .
@@ -493,38 +493,44 @@ function curl-agency-sync-all() {
     curl-agency-sync-sfmuni-prod
     set +x
 }
+function  curl-agency-sync-bart-docker() {
+    curl-agency-sync "http://localhost:80" "bart-docker" "ios" 3
+}
 function  curl-agency-sync-bart-prod() {
-    curl-agency-sync "bart.transitsherpa.com" "bart-prod" "ios" 3
+    curl-agency-sync "https://bart.transitsherpa.com" "bart-prod" "ios" 3
+}
+function  curl-agency-sync-caltrain-docker() {
+    curl-agency-sync "http://localhost:80" "caltrain-docker" "ios" 3
 }
 function  curl-agency-sync-caltrain-prod() {
-    curl-agency-sync "caltrain.transitsherpa.com" "caltrain-prod" "ios" 3
+    curl-agency-sync "https://caltrain.transitsherpa.com" "caltrain-prod" "ios" 3
 }
 function  curl-agency-sync-houston-dev() {
-    curl-agency-sync "houston-metro-dev.gslabs.us" "houston-metro-dev" "ios" 2
+    curl-agency-sync "https://houston-metro-dev.gslabs.us" "houston-metro-dev" "ios" 2
 }
 function  curl-agency-sync-houston-prod() {
-    curl-agency-sync "ridemetro.transitsherpa.com" "houston-metro-prod" "ios" 2
+    curl-agency-sync "https://ridemetro.transitsherpa.com" "houston-metro-prod" "ios" 2
 }
 function  curl-agency-sync-metrotransit-dev() {
-    curl-agency-sync "metrotransit-dev.gslabs.us" "metrotransit-dev" "ios" 3
+    curl-agency-sync "https://metrotransit-dev.gslabs.us" "metrotransit-dev" "ios" 3
 }
 function  curl-agency-sync-metrotransit-prod() {
-    curl-agency-sync "metrotransit.transitsherpa.com" "metrotransit-prod" "ios" 3
+    curl-agency-sync "https://metrotransit.transitsherpa.com" "metrotransit-prod" "ios" 3
 }
-function  curl-agency-sync-octa-local() {
-    curl-agency-sync "localhost:80" "octa-docker" "ios" 3
+function  curl-agency-sync-octa-docker() {
+    curl-agency-sync "http://localhost:80" "octa-docker" "ios" 3
 }
 function  curl-agency-sync-octa-prod() {
-    curl-agency-sync "ocbus.transitsherpa.com" "octa-prod" "ios" 3
+    curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 3
 }
 function  curl-agency-sync-san-diego-prod() {
-    curl-agency-sync "compass.transitsherpa.com" "san-diego-prod" "ios" 3
+    curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "ios" 3
 }
 function  curl-agency-sync-santa-clara-vta-prod() {
-    curl-agency-sync "vtaezfare.transitsherpa.com" "santa-clara-vta-prod" "ios" 3
+    curl-agency-sync "https://vtaezfare.transitsherpa.com" "santa-clara-vta-prod" "ios" 3
 }
 function  curl-agency-sync-sfmuni-prod() {
-    curl-agency-sync "sfmta.transitsherpa.com" "sfmuni-prod" "ios" 2
+    curl-agency-sync "https://sfmta.transitsherpa.com" "sfmuni-prod" "ios" 2
 }
 
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
