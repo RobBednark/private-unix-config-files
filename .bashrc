@@ -427,6 +427,7 @@ alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
 alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
 alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
 alias   cdfare-catalogs="cd $DirReposMoovelGamma/fare-catalogs"
+alias   cdsecurity-code="cd $DirReposMoovelGamma/gamma-security-code"
 
 # Trip Utilities:
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
