@@ -424,8 +424,9 @@ alias   cdmoovel="cd $DirMoovel"
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
 
 # Rip City / catalog
-alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
 alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
+alias   cdagency-sync="cd $DirReposMoovelGamma/gamma-agency-sync"
+alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
 alias   cdfare-catalogs="cd $DirReposMoovelGamma/fare-catalogs"
 alias   cdsecurity-code="cd $DirReposMoovelGamma/gamma-security-code"
 
