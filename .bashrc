@@ -424,6 +424,7 @@ alias   cdmoovel="cd $DirMoovel"
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
 
 # moovel micro dependencies
+alias   cdclient-response="cd $DirReposMoovelGamma/na-mv-client-response"
 alias   cderror="cd $DirReposMoovelGamma/na-mv-error"
 alias   cdlogger="cd $DirReposMoovelGamma/na-gamma-logger"
 alias   cdrequest="cd $DirReposMoovelGamma/na-mv-request"
