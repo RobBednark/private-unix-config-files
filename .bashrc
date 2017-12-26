@@ -423,6 +423,11 @@ alias   cdmoovel="cd $DirMoovel"
 # Tests
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
 
+# moovel micro dependencies
+alias   cderror="cd $DirReposMoovelGamma/na-mv-error"
+alias   cdlogger="cd $DirReposMoovelGamma/na-gamma-logger"
+alias   cdrequest="cd $DirReposMoovelGamma/na-mv-request"
+
 # Rip City / catalog
 alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
 alias   cdagency-sync="cd $DirReposMoovelGamma/gamma-agency-sync"
