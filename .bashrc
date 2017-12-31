@@ -462,7 +462,7 @@ alias   cdawsdeploy="cd $DirReposMoovelDevops/gamma-aws-deploy"
 alias   cdjenkins="cd $DirReposMoovelDevops/jenkins-dev"
 
 # node trip-plannner
-alias   cdtrip-planner="cd $DirGammaDocker/src/app/trip-planner"
+alias   cdtrip-planner="cd $DirReposMoovel/trip-planner"
 
 alias   cdenv-shared-dev="cd $DirReposMoovelDevops/env-shared-dev"
 alias   cdenv-shared-prod="cd $DirReposMoovelDevops/env-shared-prod"
