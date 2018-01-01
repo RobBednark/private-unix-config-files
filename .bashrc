@@ -420,7 +420,7 @@ DirReposMoovelPayment="~/repos.journaling"
 DirGammaDocker="$DirReposMoovel/gamma-docker-4"
 alias   cdmoovel="cd $DirMoovel"
 
-# Tests
+# moovel e2e Tests
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
 
 # moovel micro dependencies
@@ -428,6 +428,9 @@ alias   cdclient-response="cd $DirReposMoovelGamma/na-mv-client-response"
 alias   cderror="cd $DirReposMoovelGamma/na-mv-error"
 alias   cdlogger="cd $DirReposMoovelGamma/na-gamma-logger"
 alias   cdrequest="cd $DirReposMoovelGamma/na-mv-request"
+
+# config / proxy
+alias   cdrevproxy="cd $DirReposMoovelGamma/gamma-config-revproxy"
 
 # Rip City / catalog
 alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
