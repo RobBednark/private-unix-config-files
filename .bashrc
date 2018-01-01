@@ -481,8 +481,9 @@ function curl-agency-sync() {
     scope=$2
     user_agent=$3
     version=$4
+    query_string=$5
     curl --request GET \
-    --url "${host}/v2/agency-sync/sync" \
+    --url "${host}/v2/agency-sync/sync${query_string}" \
     --header "accept: version=${version}" \
     --header "x-gs-scope: ${scope}" \
     --header "x-gs-user-agent: {\"devicePlatform\": \"${user_agent}\"}" | jq .
@@ -497,6 +498,7 @@ function curl-agency-sync-all() {
     curl-agency-sync-metrotransit-dev
     curl-agency-sync-metrotransit-prod
     curl-agency-sync-octa-prod
+    curl-agency-sync-octa-prod-reduced
     curl-agency-sync-san-diego-prod
     curl-agency-sync-santa-clara-vta-prod
     curl-agency-sync-sfmuni-prod
@@ -531,6 +533,9 @@ function  curl-agency-sync-octa-docker() {
 }
 function  curl-agency-sync-octa-prod() {
     curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 3
+}
+function  curl-agency-sync-octa-prod-reduced() {
+    curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 3 '?fare=reduced'
 }
 function  curl-agency-sync-san-diego-prod() {
     curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "ios" 3
