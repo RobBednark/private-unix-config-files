@@ -543,6 +543,12 @@ function  curl-agency-sync-octa-prod-reduced() {
 function  curl-agency-sync-san-diego-prod() {
     curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "ios" 3
 }
+function  curl-agency-sync-san-antonio-via-prod-android() {
+    curl-agency-sync "https://via.transitsherpa.com" "santa-antonio-via-prod" "android" 3
+}
+function  curl-agency-sync-san-antonio-via-prod-ios() {
+    curl-agency-sync "https://via.transitsherpa.com" "santa-antonio-via-prod" "ios" 3
+}
 function  curl-agency-sync-santa-clara-vta-prod() {
     curl-agency-sync "https://vtaezfare.transitsherpa.com" "santa-clara-vta-prod" "ios" 3
 }
