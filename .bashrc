@@ -432,6 +432,9 @@ alias   cdrequest="cd $DirReposMoovelGamma/na-mv-request"
 # config / proxy
 alias   cdrevproxy="cd $DirReposMoovelGamma/gamma-config-revproxy"
 
+# database / db
+alias   cdbaseschema="cd $DirReposMoovelGamma/db-base-schema"
+
 # Rip City / catalog
 alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
 alias   cdagency-sync="cd $DirReposMoovelGamma/gamma-agency-sync"
