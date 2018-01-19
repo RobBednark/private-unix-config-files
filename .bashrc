@@ -536,13 +536,13 @@ function  curl-agency-sync-metrotransit-prod() {
     curl-agency-sync "https://metrotransit.transitsherpa.com" "metrotransit-prod" "ios" 3
 }
 function  curl-agency-sync-octa-docker() {
-    curl-agency-sync "http://localhost:80" "octa-docker" "ios" 3
+    curl-agency-sync "http://localhost:80" "octa-docker" "ios" 2
 }
 function  curl-agency-sync-octa-prod() {
-    curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 3
+    curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 2
 }
 function  curl-agency-sync-octa-prod-reduced() {
-    curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 3 '?fare=reduced'
+    curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 2 '?fare=reduced'
 }
 function  curl-agency-sync-san-diego-prod() {
     curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "ios" 3
