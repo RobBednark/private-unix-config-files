@@ -499,6 +499,7 @@ function curl-agency-sync() {
 function curl-agency-sync-all() {
     set -x;
     curl-agency-sync-bart-prod
+    curl-agency-sync-bart-stage
     curl-agency-sync-caltrain-prod
     curl-agency-sync-houston-dev
     curl-agency-sync-houston-prod
@@ -516,6 +517,9 @@ function  curl-agency-sync-bart-docker() {
 }
 function  curl-agency-sync-bart-prod() {
     curl-agency-sync "https://bart.transitsherpa.com" "bart-prod" "ios" 3
+}
+function  curl-agency-sync-bart-stage() {
+    curl-agency-sync "https://bart-stage.gslabs.us" "bart-stage" "ios" 3
 }
 function  curl-agency-sync-caltrain-docker() {
     curl-agency-sync "http://localhost:80" "caltrain-docker" "ios" 3
