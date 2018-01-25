@@ -458,6 +458,9 @@ alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
 
 alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
 
+# ticket
+alias   cdticket="cd $DirReposMoovelPayment/gamma-ticket"
+
 # payment/reporting/journaling
 alias   cdgamma="cd $DirGammaDocker"
 alias   cdlambda="cd $DirReposMoovelPayment/journal-lambda"
