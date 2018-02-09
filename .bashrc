@@ -456,7 +456,7 @@ alias   cdproviders="cd $DirReposMoovelDocker/na-providers-python"
 alias   cdrrrr="cd $DirReposMoovelDocker/rrrr"
 alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
 alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
-alias   cdtransitfeed="cd $DirReposMoovelOther/transitfeed"
+alias   cdtransitfeed="cd $DirReposMoovelOther/transitfeed/examples"
 
 alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
 
