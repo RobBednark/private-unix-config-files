@@ -417,6 +417,7 @@ DirReposMoovelDevops="~/repos.devops"
 DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
 DirReposMoovelGamma="~/repos.gamma"
 DirReposMoovelPayment="~/repos.journaling"
+DirReposMoovelOther="~/repos.other"
 DirGammaDocker="$DirReposMoovel/gamma-docker-4"
 alias   cdmoovel="cd $DirMoovel"
 
@@ -455,6 +456,7 @@ alias   cdproviders="cd $DirReposMoovelDocker/na-providers-python"
 alias   cdrrrr="cd $DirReposMoovelDocker/rrrr"
 alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
 alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
+alias   cdtransitfeed="cd $DirReposMoovelOther/transitfeed"
 
 alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
 
