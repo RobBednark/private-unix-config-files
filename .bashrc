@@ -469,6 +469,9 @@ alias   cdlambda="cd $DirReposMoovelPayment/journal-lambda"
 alias   cdpayment="cd $DirReposMoovelPayment/gamma-payment"
 alias   cdpurchase="cd $DirReposMoovelPayment/gamma-purchase"
 
+# misc
+alias   cdscheduled-tasks="cd $DirReposMoovel/scheduled-tasks"
+
 # misc devops:
 alias   cdawsdeploy="cd $DirReposMoovelDevops/gamma-aws-deploy"
 alias   cdjenkins="cd $DirReposMoovelDevops/jenkins-dev"
