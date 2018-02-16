@@ -460,7 +460,7 @@ alias   cdtransitfeed="cd $DirReposMoovelOther/transitfeed/examples"
 
 # Ventra Trip Planner / Pace GTFS ingestion
 alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
-alias   cdgtfspace="cd $DirReposMoovel/gtfs-pace-import.git"
+alias   cdgtfspace="cd $DirReposMoovel/gtfs-pace-import"
 
 # ticket
 alias   cdticket="cd $DirReposMoovelGamma/gamma-ticket"
