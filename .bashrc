@@ -601,6 +601,8 @@ alias curl.ridesnear.shared-dev.san-antonio='curl "${moovel_shared_dev}/city/rid
 alias curl.ridesnear.prod.san-antonio='curl "${moovel_prod}/city/rides-near/?${coords_san_antonio}&api_key=backendrules&format=json&limit=3&presentation_demo=true" | json_pp | less'
 alias curl.instances.shareddev.raw='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances"'
 alias curl.instances.shareddev='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances" | json_pp | less'
+
+alias   vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 ################################################################################
 # Idealist:
 ################################################################################
