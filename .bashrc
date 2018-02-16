@@ -458,7 +458,9 @@ alias   cdtest="cd $DirReposMoovelDocker/na-trip-utils-api-tests"
 alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
 alias   cdtransitfeed="cd $DirReposMoovelOther/transitfeed/examples"
 
+# Ventra Trip Planner / Pace GTFS ingestion
 alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
+alias   cdgtfspace="cd $DirReposMoovel/gtfs-pace-import.git"
 
 # ticket
 alias   cdticket="cd $DirReposMoovelGamma/gamma-ticket"
