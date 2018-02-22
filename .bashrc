@@ -1225,6 +1225,9 @@ function docker-rm-everything() {
      docker rm $(docker ps --all --quiet) # remove all containers
      docker rmi --force $(docker images --all --quiet) # remove all images
      docker volume rm $(docker volume ls --quiet) # remove all volumes
+     docker ps --all
+     docker volume ls
+     docker images --all
     )
 }
 function emailaddr () {
