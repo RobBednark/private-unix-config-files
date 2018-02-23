@@ -485,6 +485,7 @@ alias   cdenv-shared-dev="cd $DirReposMoovelDevops/env-shared-dev"
 alias   cdenv-shared-prod="cd $DirReposMoovelDevops/env-shared-prod"
 alias   cdenv-shared-prod-east="cd $DirReposMoovelDevops/env-shared-prod-east"
 alias   cdenv-shared-stage="cd $DirReposMoovelDevops/env-shared-stage"
+alias   cdenv-stage-east="cd $DirReposMoovelDevops/env-stage-east"
 alias   cdenv-shared-test="cd $DirReposMoovelDevops/env-shared-test"
 alias   cdenv-ventra-prod="cd $DirReposMoovelDevops/env-ventra-prod"
 
@@ -566,6 +567,9 @@ function  curl-agency-sync-san-antonio-via-prod-android() {
 }
 function  curl-agency-sync-san-antonio-via-prod-ios() {
     curl-agency-sync "https://via.transitsherpa.com" "san-antonio-via-prod" "ios" 3
+}
+function  curl-agency-sync-san-antonio-via-stage-ios() {
+    curl-agency-sync "https://via.transitsherpa.com" "san-antonio-via-stage" "ios" 3
 }
 function  curl-agency-sync-santa-clara-vta-prod() {
     curl-agency-sync "https://vtaezfare.transitsherpa.com" "santa-clara-vta-prod" "ios" 3
