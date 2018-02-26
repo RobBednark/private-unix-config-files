@@ -442,6 +442,7 @@ alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
 alias   cdagency-sync="cd $DirReposMoovelGamma/gamma-agency-sync"
 alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
 alias   cdfare-catalogs="cd $DirReposMoovelGamma/fare-catalogs"
+alias   cdproduct="cd $DirReposMoovelGamma/gamma-catalog"
 alias   cdsecurity-code="cd $DirReposMoovelGamma/gamma-security-code"
 alias   cdverve="cd $DirReposMoovelGamma/verve-web"
 
