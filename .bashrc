@@ -460,7 +460,8 @@ alias   cdtransit="cd $DirReposMoovelDocker/na-transitplusplus-python"
 alias   cdtransitfeed="cd $DirReposMoovelOther/transitfeed/examples"
 
 # Ventra Trip Planner / Pace GTFS ingestion
-alias   cdpace="cd $DirMoovelLocal/gtfs/pace"
+alias   cdpace-old="cd $DirMoovelLocal/gtfs/pace"
+alias   cdpace="cd $DirReposMoovel/scheduled-tasks/ventra-gtfs-import/filter-pace-gtfs"
 alias   cdgtfspace="cd $DirReposMoovel/gtfs-pace-import"
 
 # ticket
