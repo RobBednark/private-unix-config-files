@@ -561,8 +561,14 @@ function  curl-agency-sync-octa-prod() {
 function  curl-agency-sync-octa-prod-reduced() {
     curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 2 '?fare=reduced'
 }
-function  curl-agency-sync-san-diego-prod() {
+function  curl-agency-sync-san-diego-prod-android() {
+    curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "android" 3
+}
+function  curl-agency-sync-san-diego-prod-ios() {
     curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "ios" 3
+}
+function  curl-agency-sync-san-diego-prod-null() {
+    curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "null" 3
 }
 function  curl-agency-sync-san-antonio-via-prod-android() {
     curl-agency-sync "https://via.transitsherpa.com" "san-antonio-via-prod" "android" 3
