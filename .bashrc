@@ -570,6 +570,15 @@ function  curl-agency-sync-san-diego-dev-ios() {
 function  curl-agency-sync-san-diego-dev-null() {
     curl-agency-sync "https://san-diego-dev.gslabs.us" "san-diego-dev" "null" 3
 }
+function  curl-agency-sync-san-diego-docker-android() {
+    curl-agency-sync "http://localhost:80" "san-diego-docker" "android" 3
+}
+function  curl-agency-sync-san-diego-docker-ios() {
+    curl-agency-sync "http://localhost:80" "san-diego-docker" "ios" 3
+}
+function  curl-agency-sync-san-diego-docker-null() {
+    curl-agency-sync "http://localhost:80" "san-diego-docker" "null" 3
+}
 function  curl-agency-sync-san-diego-prod-android() {
     curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "android" 3
 }
