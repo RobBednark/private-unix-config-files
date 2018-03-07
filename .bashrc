@@ -597,6 +597,15 @@ function  curl-agency-sync-san-diego-stage-ios() {
 function  curl-agency-sync-san-diego-stage-null() {
     curl-agency-sync "https://san-diego-stage.gslabs.us" "san-diego-stage" "null" 3
 }
+function  curl-agency-sync-san-diego-test-android() {
+    curl-agency-sync "https://san-diego-test.gslabs.us" "san-diego-test" "android" 3
+}
+function  curl-agency-sync-san-diego-test-ios() {
+    curl-agency-sync "https://san-diego-test.gslabs.us" "san-diego-test" "ios" 3
+}
+function  curl-agency-sync-san-diego-test-null() {
+    curl-agency-sync "https://san-diego-test.gslabs.us" "san-diego-test" "null" 3
+}
 function  curl-agency-sync-san-antonio-via-prod-android() {
     curl-agency-sync "https://via.transitsherpa.com" "san-antonio-via-prod" "android" 3
 }
