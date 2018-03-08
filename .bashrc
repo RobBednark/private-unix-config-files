@@ -526,7 +526,7 @@ function curl-agency-sync-all() {
     set +x
 }
 function  curl-agency-sync-atlanta-streetcar-product() {
-    curl-agency-sync "https://atlanta-streetcar.transitsherpa.com" "atlanta-streetcar-prod" "ios" 3
+    curl-agency-sync "https://atlanta-streetcar.transitsherpa.com" "atlanta-streetcar-prod" "ios" 2
 }
 function  curl-agency-sync-bart-docker() {
     curl-agency-sync "http://localhost:80" "bart-docker" "ios" 3
