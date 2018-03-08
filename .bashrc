@@ -525,6 +525,9 @@ function curl-agency-sync-all() {
     curl-agency-sync-sfmuni-prod
     set +x
 }
+function  curl-agency-sync-atlanta-streetcar-product() {
+    curl-agency-sync "https://atlanta-streetcar.transitsherpa.com" "atlanta-streetcar-prod" "ios" 3
+}
 function  curl-agency-sync-bart-docker() {
     curl-agency-sync "http://localhost:80" "bart-docker" "ios" 3
 }
