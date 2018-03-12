@@ -659,6 +659,8 @@ alias curl.ridesnear.prod.san-antonio='curl "${moovel_prod}/city/rides-near/?${c
 alias curl.instances.shareddev.raw='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances"'
 alias curl.instances.shareddev='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances" | json_pp | less'
 
+alias moovel-mysqldump="mysqldump -h 0.0.0.0 -P 23306 -u root -p123 --no-data transitsherpa_san_diego"
+
 alias   vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 ################################################################################
 # Idealist:
