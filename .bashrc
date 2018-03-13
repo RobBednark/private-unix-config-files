@@ -162,6 +162,7 @@ export PATH="$PATH:~/bin"
 if $MacOSX; then
     # Python3
     export PATH="$PATH:/usr/local/Cellar/python3/3.2.3/bin"
+    # export PATH="$(brew --prefix)/opt/python/libexec/bin:$PATH"
 fi
 export RCSINIT=" -zLT"  # RCSINIT - options that get prepended to rcs commands.  -z is to set the time zone.  LT is for local time.
 
