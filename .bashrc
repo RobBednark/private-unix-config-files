@@ -630,7 +630,7 @@ alias curl-catalog-products="curl -H 'x-gs-scope: houston-metro-docker' http://g
 
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
 alias   psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
-alias   moovel-ssh-host="$DirBin/ssh-host.py"
+alias   moovel-ssh-host="~/bin/ssh-host.py"
 alias   ssh.rs.mobility="ssh ubuntu@beta.mobility.ridescout.com -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias   ssh.rs.providers="ssh ubuntu@52.27.32.0 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias   ssh.rs.gateway="ssh ubuntu@54.191.144.62 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
