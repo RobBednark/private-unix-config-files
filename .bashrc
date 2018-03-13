@@ -1945,6 +1945,7 @@ EOF
 if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
     export WORKON_HOME=$HOME/.virtualenvs
     export PROJECT_HOME=$HOME/Devel
+    export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
     source /usr/local/bin/virtualenvwrapper.sh
 elif ! $Atlatl; then
     # my Retina Mac
