@@ -662,7 +662,7 @@ alias curl.instances.shareddev.raw='curl "https://dashboard-shared-dev.gslabs.us
 alias curl.instances.shareddev='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances" | json_pp | less'
 
 alias moovel-mysqldump-schema="mysqldump -h 0.0.0.0 -P 23306 -u root -p123 --no-data transitsherpa_san_diego"
-alias moovel-vi-schema="vim $DirMoovel/schemas/latest-schema.sql"
+alias moovel-vi-schema="vim $DirMoovelLocal/schemas/latest-schema.sql"
 
 alias   vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 ################################################################################
