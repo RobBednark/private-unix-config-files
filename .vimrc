@@ -213,6 +213,9 @@ Bundle 'tpope/vim-unimpaired'
 " (do it again to toggle it off)
 Bundle 'jbnicolai/vim-AnsiEsc'
 
+" vim-jsx -- React jsx syntax and highlighting
+Bundle 'mxw/vim-jsx'
+
 filetype plugin indent on     " required!
 " nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
