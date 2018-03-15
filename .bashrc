@@ -204,6 +204,8 @@ if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
 else
     DirDropbox=~/Dropbox
 fi
+DirBin="$DirDropbox/bin"
+export PATH=$PATH:$DirDropbox/bin
 DirGit=$DirDropbox/git
 DirGitLocal="$HOME/local.git"
 DirRob="$DirSaraDocs/Rob"
@@ -212,7 +214,6 @@ DirRob="$DirSaraDocs/Rob"
 DirRbednark=~
 DirTopPC="$HOME"
 DirTopUnix="/home/rbednark"
-DirBin="$DirDropbox/bin"
 DirTxt="$DirTopPC/txt"
 DirDoc=$DirDropbox/Rob/doc
 
