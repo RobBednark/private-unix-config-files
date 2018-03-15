@@ -158,7 +158,7 @@ Bundle 'tpope/vim-fugitive'
 " Bundle 'genutils'
 
 " for doing multiple different selections:
-Bundle 'multiselect'
+" Bundle 'multiselect'
 " for automatically folding classes and functions:
 " Bundle 'python_fold'
 " tab-completion:
