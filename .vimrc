@@ -221,6 +221,14 @@ Bundle 'mxw/vim-jsx'
 " ale: async code linting/prettifying (recommended by Bradley Bossard)
 Bundle 'w0rp/ale'
 
+" ale settings from Matt McLaughlin's .vimrc:  https://github.com/mattmcla/vim-config/blob/ec5e8f99112631849b31a3b8f83e0a3b11767cdb/.vimrc
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\ }
+let g:ale_javascript_eslint_executable = 'eslint_d'
+let g:ale_javascript_eslint_use_global = 1
+
+
 filetype plugin indent on     " required!
 " nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
