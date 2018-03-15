@@ -153,11 +153,12 @@ Bundle 'tpope/vim-abolish'
 Bundle 'tpope/vim-fugitive'
 
 " headlights ==> show plugins in Bundle menu in vim GUI's, e.g., mvim:
+" Commented-out 3/15/18 when upgraded to Vim 8
 " Bundle 'mbadran/headlights'
 " required by headlights:
 " Bundle 'genutils'
 
-" for doing multiple different selections:
+" multiselect: for doing multiple different selections:  (commented-out 3/15/18 when upgraded to Vim 8)
 " Bundle 'multiselect'
 " for automatically folding classes and functions:
 " Bundle 'python_fold'
@@ -187,8 +188,8 @@ Bundle 'rhysd/conflict-marker.vim'
 " Bundle 'andviro/flake8-vim'
 
 " syntastic: for flake8/pep8/... while editing python code; requires flake8 package installed (pip install flake8)
-" 
-Bundle 'scrooloose/syntastic'
+" Commented-out 3/15/18.  Conflicts with ale which I just installed.
+" Bundle 'scrooloose/syntastic'
 
 " vim-gitgutter: shows git diff in the gutter (what lines have been changed); stages/undoes hunks
 " [c ]c ==> prev/next hunk
@@ -216,6 +217,9 @@ Bundle 'jbnicolai/vim-AnsiEsc'
 
 " vim-jsx -- React jsx syntax and highlighting
 Bundle 'mxw/vim-jsx'
+
+" ale: async code linting/prettifying (recommended by Bradley Bossard)
+Bundle 'w0rp/ale'
 
 filetype plugin indent on     " required!
 " nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
