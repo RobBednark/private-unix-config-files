@@ -415,15 +415,16 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 DirMoovel=$DirDropbox/moovel
 DirMoovelLocal=~/moovel
 DirMoovelAgencyObjects=$DirMoovelLocal/agency-objects
-DirReposMoovel="~/repos"
-DirReposMoovelClients="~/repos.clients"
-DirReposMoovelDevops="~/repos.devops"
-DirReposMoovelDocker="$DirReposMoovel/na-transitutils-docker/src/app"
-DirReposMoovelGamma="~/repos.gamma"
-DirReposMoovelPayment="~/repos.journaling"
-DirReposMoovelOther="~/repos.other"
-DirGammaDocker="$DirReposMoovel/gamma-docker-4"
+DirReposMoovel=~/repos
+DirReposMoovelClients=~/repos.clients
+DirReposMoovelDevops=~/repos.devops
+DirReposMoovelDocker=$DirReposMoovel/na-transitutils-docker/src/app
+DirReposMoovelGamma=~/repos.gamma
+DirReposMoovelPayment=~/repos.journaling
+DirReposMoovelOther=~/repos.other
+DirGammaDocker=$DirReposMoovel/gamma-docker-4
 alias   cdmoovel="cd $DirMoovel"
+alias   cdmoovel-agency-object-download="cd $DirReposMoovel/download-agency-objects"
 
 # moovel e2e Tests
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
