@@ -413,7 +413,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 # Moovel:
 ################################################################################
 DirMoovel=$DirDropbox/moovel
-DirMoovelLocal="~/moovel"
+DirMoovelLocal=~/moovel
 DirMoovelAgencyObjects=$DirMoovelLocal/agency-objects
 DirReposMoovel="~/repos"
 DirReposMoovelClients="~/repos.clients"
@@ -443,6 +443,7 @@ alias   cddbbaseschema="cd $DirReposMoovelGamma/db-base-schema"
 
 # Rip City / catalog
 alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
+alias   cdagency-objects="cd $DirMoovelLocal/agency-objects"
 alias   cdagency-sync="cd $DirReposMoovelGamma/gamma-agency-sync"
 alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
 alias   cdfare-catalogs="cd $DirReposMoovelGamma/fare-catalogs"
@@ -624,6 +625,11 @@ function  curl-agency-sync-san-antonio-via-stage-ios() {
 }
 function  curl-agency-sync-santa-clara-vta-prod() {
     curl-agency-sync "https://vtaezfare.transitsherpa.com" "santa-clara-vta-prod" "ios" 3
+}
+function curl-agency-sync-san-diego-all() {
+    curl-agency-sync-san-diego-dev-android | jq . > $DirMoovelAgencyObjects/san-diego/$(datestamp)-san-diego-dev-android.json
+    curl-agency-sync-san-diego-dev-ios | jq . > $DirMoovelAgencyObjects/san-diego/$(datestamp)-san-diego-dev-ios.json
+    curl-agency-sync-san-diego-dev-null | jq . > $DirMoovelAgencyObjects/san-diego/$(datestamp)-san-diego-dev-null.json
 }
 function  curl-agency-sync-sfmuni-prod() {
     curl-agency-sync "https://sfmta.transitsherpa.com" "sfmuni-prod" "ios" 2
