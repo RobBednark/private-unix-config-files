@@ -153,9 +153,10 @@ Bundle 'tpope/vim-abolish'
 Bundle 'tpope/vim-fugitive'
 
 " headlights ==> show plugins in Bundle menu in vim GUI's, e.g., mvim:
-Bundle 'mbadran/headlights'
+" Bundle 'mbadran/headlights'
 " required by headlights:
-Bundle 'genutils'
+" Bundle 'genutils'
+
 " for doing multiple different selections:
 Bundle 'multiselect'
 " for automatically folding classes and functions:
