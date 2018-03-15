@@ -414,6 +414,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 ################################################################################
 DirMoovel=$DirDropbox/moovel
 DirMoovelLocal="~/moovel"
+DirMoovelAgencyObjects=$DirMoovelLocal/agency-objects
 DirReposMoovel="~/repos"
 DirReposMoovelClients="~/repos.clients"
 DirReposMoovelDevops="~/repos.devops"
