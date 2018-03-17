@@ -884,6 +884,7 @@ fi
 alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
+alias   git.log.files.changed="git diff --name-only"
 alias   git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
 alias   git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
