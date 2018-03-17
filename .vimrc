@@ -10,7 +10,11 @@ set incsearch " incremental search
 set shell=/bin/bash   " I can't get zsh -i so use the .zshrc file and use my PATH (:!which python /usr/bin/python instead of /usr/local/bin/python), but bash does use them.
 syntax on " syntax highlighting
 set expandtab " expand tabs to spaces instead of tab characters
-set exrc  " read from vimrc in current directory after reading primary vimrc
+
+" exrc => read from .vimrc in current directory after reading primary .vimrc
+" secure => disallow risky commands from local .vimrc/.exrc files
+set secure exrc
+
 "set nu   " number -- line numbers
 "set shell=/bin/bash
 "set shell=/bin/bash\ -i   " Someone recommended this to get my .bashrc, but it wasn't necessary, and introduced it's own problems.  [see vvim]
