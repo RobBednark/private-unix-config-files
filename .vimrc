@@ -91,7 +91,7 @@ filetype plugin indent on
 " map :nt :NERDTreeToggle
 
 " wildignore is a setting for the Command-T plugin.  It indicates which files to ignore.
-:set wildignore+=*.pyc,.git
+:set wildignore+=*.pyc,.git,node_modules
 
 " 8/5/12 Vundle section.
 " I installed vundle so that I could easily install the headlights plugin.  -Rob Bednark, 8/5/12
