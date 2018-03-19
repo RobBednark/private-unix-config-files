@@ -1362,6 +1362,11 @@ function latest() {
 function ninja.grep.tests () {
 	egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@ 
 }
+function npm-exec () {
+    # Run a command that is an executable
+    # "npm bin" => returns the directory of the executables (e.g., node_modules/.bin)
+    (PATH=$(npm bin):$PATH; eval $@;)
+}
 function phone () {
   grep -i $@ $FilePhone
 }
