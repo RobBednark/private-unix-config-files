@@ -138,7 +138,7 @@ let g:ctrlp_match_window = 'min:4,max:999'  " allow the ctrlp results window to 
 " command-t ==> file/dir explorer
 " Commented-out command-t Wed 3/5/14 5:10pm after upgrade to Mavericks, because I'm getting a SEGV when running it with vim.
 " Command-T ==> a plugin I love; for easily finding files to edit
-Bundle 'wincent/Command-T'
+" Bundle 'wincent/Command-T'
 
 " coveragepy -- for highlighting lines in python code that don't have code coverage
 " https://github.com/alfredodeza/coveragepy.vim
@@ -230,8 +230,8 @@ Bundle 'w0rp/ale'
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \ }
-let g:ale_javascript_eslint_executable = 'eslint_d'
-let g:ale_javascript_eslint_use_global = 1
+let g:ale_javascript_eslint_executable = 'eslint'
+let g:ale_javascript_eslint_use_global = 0
 
 
 filetype plugin indent on     " required!
