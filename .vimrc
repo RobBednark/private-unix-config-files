@@ -231,6 +231,7 @@ let g:ale_linters = {
 \   'javascript': ['eslint'],
 \ }
 let g:ale_javascript_eslint_executable = 'eslint'
+" use_global = 0 is required so that it uses the local eslint instead of a globally-installed eslint
 let g:ale_javascript_eslint_use_global = 0
 
 
