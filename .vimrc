@@ -34,6 +34,7 @@ set modeline  " look for /* vim: */ modeline settings at the beginning of a file
 filetype plugin indent on
 " Turn on omni autocompletion:
 autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 
 " create a macros for inserting traces for pdb and for nose.
 " To use, in command mode, type <backslash> followed by "b" or "n"
