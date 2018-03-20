@@ -229,6 +229,7 @@ if $MacOSX; then
     DirIphoneApps="~/Music/iTunes/iTunes Media/Mobile?Applications"
 fi
 DirLearn="$DirBin/learn"
+DirNodeModulesLocal=~/local_node_modules
 DirOptionTables="$DirRbednark/option.tables"
 DirPicts="$DirRbednark/picts"
 DirPublicHtml="$DirRbednark/public_html"
@@ -1358,6 +1359,12 @@ function latest() {
     else
         echo $_file
     fi
+}
+function ln_node_modules() {
+    # ${PWD##*/} ==> get the name of the current directory
+    _target=$DirNodeModulesLocal/$(basename $(pwd))
+    mv node_modules $_target
+    ln -s $_target node_modules
 }
 function ninja.grep.tests () {
 	egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@ 
