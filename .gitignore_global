@@ -1,0 +1,11 @@
+.DS_Store
+
+# vim temp files
+*.swp
+*.swo
+
+# python compiled files
+*.pyc
+
+# installed node modules
+/node_modules
