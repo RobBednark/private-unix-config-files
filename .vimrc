@@ -227,6 +227,9 @@ Bundle 'mxw/vim-jsx'
 " ale: async code linting/prettifying (recommended by Bradley Bossard)
 Bundle 'w0rp/ale'
 
+" apiblueprint => syntax highlighting for API Blueprint files
+Bundle 'kylef/apiblueprint.vim'
+
 " ale settings from Matt McLaughlin's .vimrc:  https://github.com/mattmcla/vim-config/blob/ec5e8f99112631849b31a3b8f83e0a3b11767cdb/.vimrc
 let g:ale_linters = {
 \   'javascript': ['eslint'],
