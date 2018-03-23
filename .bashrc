@@ -1374,6 +1374,7 @@ function git.fixup.autosquash () {
      read _continue
 
      git stash pop
+     git status
     )
 }
 function git.diff.old () {
