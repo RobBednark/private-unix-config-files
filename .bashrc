@@ -894,7 +894,8 @@ alias   git.log.filenames.AMD="git log --stats"
 alias   git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
 alias   git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
-alias   git.remove.staged.files="git reset HEAD -- ."
+alias   git.remove.untracked.files="git clean -f"
+alias   git.unstage.files="git reset HEAD -- ."
 alias   git.show.toplevel="git rev-parse --show-toplevel"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias   git.vim.cached='vim $(git diff --name-only --cached)'
