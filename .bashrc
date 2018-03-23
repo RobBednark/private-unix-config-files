@@ -803,47 +803,47 @@ alias   vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 ################################################################################
 # Tixie:
 ################################################################################
-PemRobKey=$DirDropbox/Rob/aws/RobKey.pem
-MachineRobAWS='ec2-23-20-227-24.compute-1.amazonaws.com'
-DirTixieGit=~/git/tixie-web
-DirTixieSrc=$DirTixieGit/src
-DirTixieApps=$DirTixieSrc/apps
-DirTixieRob=$DirDropbox/Rob/tixie
-DirTixieTest=$DirTixieSrc/tixie_public
-FileNotesTixie="$DirQuiz/tixie.notes"
-FileQuizTixie="$DirQuiz/db_tixie"
-MachineDevRobAdminClone20120723='ec2-72-44-37-175.compute-1.amazonaws.com'
-MachineDevRobRestClone20120723='ec2-50-17-30-53.compute-1.amazonaws.com'
-MachineDevRobDbClone20120720='ec2-23-20-15-37.compute-1.amazonaws.com' 
-MachineDevRobDbClone20120727='ec2-23-22-116-221.compute-1.amazonaws.com' 
-MachineDevRobDbClone20120720Clone20120724='ec2-50-17-157-250.compute-1.amazonaws.com'
-MachineDevRobDbPg9_20120712='ec2-23-22-205-63.compute-1.amazonaws.com'
-MachineDevRobPg9_12_04_20120717='ec2-107-21-163-193.compute-1.amazonaws.com'
-MachineDevRobPg9_12_04_20120727='ec2-107-21-71-108.compute-1.amazonaws.com'
-MachineDevRobWebClone20120626='ec2-107-20-36-130.compute-1.amazonaws.com'
-MachineDevRobWebClone20120719='ec2-23-22-137-206.compute-1.amazonaws.com'
-MachineCorpTixie='corp.tixie.com'
-MachineProdAdmin='ec2-50-17-242-66.compute-1.amazonaws.com'
-MachineProdCron='production-cron-01.in.tixie.org'
-MachineProdDb84='ec2-107-20-219-93.compute-1.amazonaws.com'
-MachineProdDb='ec2-23-22-135-206.compute-1.amazonaws.com'
-MachineProdDb01='ec2-184-73-115-109.compute-1.amazonaws.com'
-MachineProdWeb='ec2-75-101-151-220.compute-1.amazonaws.com'
-MachineQAiPhoneAPI='ec2-50-17-70-177.compute-1.amazonaws.com'
-MachineQADb='qa-db.in.tixie.org'
-MachineQATixie='qa-web-develop.in.tixie.org'
-MachineQA_DB_Tixie='qa-db.in.tixie.org'
-PemTixie515=$DirDropbox/Rob/tixie/tixie20120515.pem
-PemTixieKey=$DirDropbox/Rob/tixie/tixiekey.pem
-alias   cdapps="cd $DirTixieApps"
-alias   cdcommands="cd /Users/rob/git/tixie-web/src/apps/tixie/management/commands/"
-alias   cdsrc="cd $DirTixieSrc"
-alias   cddropbox.tixie="cd $DirDropbox/Rob/tixie; ls"
-alias   cdtixie="cd $DirDropbox/git/tixie-web"
-alias   cdtixierob="cd $DirTixieRob; ls"
-alias   cdwebapp="cd /var/webapp/tixie_public"
-#alias   subl.django="subl ~/.virtualenvs/tixie-web/lib/python2.7/site-packages/django/"
-alias   subl.tixie="subl /Users/rob/git/tixie-web/src"
+# PemRobKey=$DirDropbox/Rob/aws/RobKey.pem
+# MachineRobAWS='ec2-23-20-227-24.compute-1.amazonaws.com'
+# DirTixieGit=~/git/tixie-web
+# DirTixieSrc=$DirTixieGit/src
+# DirTixieApps=$DirTixieSrc/apps
+# DirTixieRob=$DirDropbox/Rob/tixie
+# DirTixieTest=$DirTixieSrc/tixie_public
+# FileNotesTixie="$DirQuiz/tixie.notes"
+# FileQuizTixie="$DirQuiz/db_tixie"
+# MachineDevRobAdminClone20120723='ec2-72-44-37-175.compute-1.amazonaws.com'
+# MachineDevRobRestClone20120723='ec2-50-17-30-53.compute-1.amazonaws.com'
+# MachineDevRobDbClone20120720='ec2-23-20-15-37.compute-1.amazonaws.com' 
+# MachineDevRobDbClone20120727='ec2-23-22-116-221.compute-1.amazonaws.com' 
+# MachineDevRobDbClone20120720Clone20120724='ec2-50-17-157-250.compute-1.amazonaws.com'
+# MachineDevRobDbPg9_20120712='ec2-23-22-205-63.compute-1.amazonaws.com'
+# MachineDevRobPg9_12_04_20120717='ec2-107-21-163-193.compute-1.amazonaws.com'
+# MachineDevRobPg9_12_04_20120727='ec2-107-21-71-108.compute-1.amazonaws.com'
+# MachineDevRobWebClone20120626='ec2-107-20-36-130.compute-1.amazonaws.com'
+# MachineDevRobWebClone20120719='ec2-23-22-137-206.compute-1.amazonaws.com'
+# MachineCorpTixie='corp.tixie.com'
+# MachineProdAdmin='ec2-50-17-242-66.compute-1.amazonaws.com'
+# MachineProdCron='production-cron-01.in.tixie.org'
+# MachineProdDb84='ec2-107-20-219-93.compute-1.amazonaws.com'
+# MachineProdDb='ec2-23-22-135-206.compute-1.amazonaws.com'
+# MachineProdDb01='ec2-184-73-115-109.compute-1.amazonaws.com'
+# MachineProdWeb='ec2-75-101-151-220.compute-1.amazonaws.com'
+# MachineQAiPhoneAPI='ec2-50-17-70-177.compute-1.amazonaws.com'
+# MachineQADb='qa-db.in.tixie.org'
+# MachineQATixie='qa-web-develop.in.tixie.org'
+# MachineQA_DB_Tixie='qa-db.in.tixie.org'
+# PemTixie515=$DirDropbox/Rob/tixie/tixie20120515.pem
+# PemTixieKey=$DirDropbox/Rob/tixie/tixiekey.pem
+# alias   cdapps="cd $DirTixieApps"
+# alias   cdcommands="cd /Users/rob/git/tixie-web/src/apps/tixie/management/commands/"
+# alias   cdsrc="cd $DirTixieSrc"
+# alias   cddropbox.tixie="cd $DirDropbox/Rob/tixie; ls"
+# alias   cdtixie="cd $DirDropbox/git/tixie-web"
+# alias   cdtixierob="cd $DirTixieRob; ls"
+# alias   cdwebapp="cd /var/webapp/tixie_public"
+# #alias   subl.django="subl ~/.virtualenvs/tixie-web/lib/python2.7/site-packages/django/"
+# alias   subl.tixie="subl /Users/rob/git/tixie-web/src"
 ################################################################################
 
 ################################################################################
@@ -1128,112 +1128,112 @@ alias	winmerge="'/cygdrive/c/Program Files/WinMerge/WinMerge.exe'"
 ################################################################################
 # Tixie functions:
 ################################################################################
-function psql.dev-rob-pg9-12.04-grep-all-data() {
-    regex="$1"
-    (python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py | egrep -i --context=6 "^\+|$regex" )
-}
-function psql.dev-rob-pg9-12.04-show-all-data() {
-    (python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py)
-}
-function psql.dev-rob-pg9-12.04-select-events() {
-    (psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_allevents_and_draws ORDER BY event_date' )
-}
-function psql.dev-rob-pg9-12.04-20120727() {
-    (psql --host $MachineDevRobPg9_12_04_20120727 --port 5432 --user tixie_admin --dbname tixie_main )
-}
-function psql.dev-rob-pg9-12.04() {
-    (psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main )
-}
-function psql.PROD-DB() {
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main $* )
-}
-function psql.vagrant() {
-    (psql --host localhost --port 5433 --user tixie_admin --dbname tixie_main )
-}
-function psql.qa-db() {
-    (date; psql --host $MachineQADb --port 5432 --user tixie_admin --dbname tixie_main )
-}
-function psql.list-tables.rob-dev-pg9() {
-    (date; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command '\d')
-}
-function psql.list-users.rob-dev-pg9() {
-    (date; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY username;')
-}
-function psql.list-users.PROD-DB() {
-(date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT au.join_date, au.username, au.first_name, au.last_name, au.email, aa.dob, aa.tokens, aa.win_eligible, au.is_staff, au.is_superuser FROM accounts_account aa, auth_user au WHERE au.id = aa.user_id ORDER BY au.join_date;')
-    #(date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY username;')
-    #(date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT id,guid,user_id,facebook_id,access_token,avatar,site_password_set,email_notifications,facebook_wall_notifications FROM accounts_account ORDER BY id;')
-}
-function psql.list-users.date_joined.PROD-DB() {
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY date_joined;')
-}
-function psql.list-users.last_login.PROD-DB() {
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY last_login;')
-}
-function psql.list-hot-events.PROD-DB() {
-    date
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_hot_analysis ORDER BY hotscore;')
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM vw_hot_events  ORDER BY uk_bid_cnt_by_event;')
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM vw_hot_events2 ORDER BY uk_bid_cnt_by_event;')
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ v_hot_analysis')
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ vw_hot_events')
-    (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ vw_hot_events2')
-    date
-}
-function psql.get-bid-log.PROD-DB() {
-    #( # Put in parens so that "set -x" goes away after the subshell;
-    #set -x;
-    #date;
-    set -x
-    psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM sweeps_bid_log ORDER BY bid_date;'
-    #)
-}
-function scp.from.prod-db() {
-    scp -i $PemTixie515 ubuntu@$MachineProdDb:$1 .
-}
-function scp.to.aws() {
-    file=$1
-    server=$2
-    scp -i $PemTixie515 $file $server:/tmp
-    set +x
-}
-function scp.latest.dump() {
-    scp -i $PemTixie515 ubuntu@$MachineProdDb:/var/lib/postgresql/backups/hourly/tixie_main.dump.1 ~/Desktop/vagranttest
-    set +x
-}
-function scp.get.tixie.reports() {
-    scp -C -i $PemTixie515 ubuntu@$MachineProdDb:/var/lib/postgresql/'*.csv' $DirTixieRob/reports
-    set +x
-}
-function scp.to.rob-dev() {
-    scp -i $PemTixie515 $@ ubuntu@$MachineDevRobWebClone20120626:/tmp
-    set +x
-}
-function scp.from.rob-dev() {
-    scp -i $PemTixie515 ubuntu@$MachineDevRobWebClone20120626:$@
-    set +x
-}
-function tixiefind() {
-    findRegex="$*"
-    cd $DirTixieSrc
-    find . -name "$findRegex" 
-}
-function tixiefindvi() {
-    findRegex="$*"
-    cd $DirTixieSrc
-    find . -name "$findRegex" | xargs --no-run-if-empty vim
-}
-function tixiegrepvi() {
-    grepArgs="$*"
-    echo "grep args=[$grepArgs]"
-    cd $DirTixieSrc
-    if grep -lr $grepArgs . > /dev/null 2>&1; then
-        grep -lr $grepArgs . | xargs --no-run-if-empty vim
-    else
-        echo "grep found nothing"
-    fi
-    set +xv
-}
+# function psql.dev-rob-pg9-12.04-grep-all-data() {
+#     regex="$1"
+#     (python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py | egrep -i --context=6 "^\+|$regex" )
+# }
+# function psql.dev-rob-pg9-12.04-show-all-data() {
+#     (python -u $DirDropbox/bin/learn/pg.show.all.data.all.tables.py)
+# }
+# function psql.dev-rob-pg9-12.04-select-events() {
+#     (psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_allevents_and_draws ORDER BY event_date' )
+# }
+# function psql.dev-rob-pg9-12.04-20120727() {
+#     (psql --host $MachineDevRobPg9_12_04_20120727 --port 5432 --user tixie_admin --dbname tixie_main )
+# }
+# function psql.dev-rob-pg9-12.04() {
+#     (psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main )
+# }
+# function psql.PROD-DB() {
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main $* )
+# }
+# function psql.vagrant() {
+#     (psql --host localhost --port 5433 --user tixie_admin --dbname tixie_main )
+# }
+# function psql.qa-db() {
+#     (date; psql --host $MachineQADb --port 5432 --user tixie_admin --dbname tixie_main )
+# }
+# function psql.list-tables.rob-dev-pg9() {
+#     (date; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command '\d')
+# }
+# function psql.list-users.rob-dev-pg9() {
+#     (date; psql --host $MachineDevRobPg9_12_04_20120717 --port 5432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY username;')
+# }
+# function psql.list-users.PROD-DB() {
+# (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT au.join_date, au.username, au.first_name, au.last_name, au.email, aa.dob, aa.tokens, aa.win_eligible, au.is_staff, au.is_superuser FROM accounts_account aa, auth_user au WHERE au.id = aa.user_id ORDER BY au.join_date;')
+#     #(date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY username;')
+#     #(date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT id,guid,user_id,facebook_id,access_token,avatar,site_password_set,email_notifications,facebook_wall_notifications FROM accounts_account ORDER BY id;')
+# }
+# function psql.list-users.date_joined.PROD-DB() {
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY date_joined;')
+# }
+# function psql.list-users.last_login.PROD-DB() {
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM auth_user ORDER BY last_login;')
+# }
+# function psql.list-hot-events.PROD-DB() {
+#     date
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM v_hot_analysis ORDER BY hotscore;')
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM vw_hot_events  ORDER BY uk_bid_cnt_by_event;')
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM vw_hot_events2 ORDER BY uk_bid_cnt_by_event;')
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ v_hot_analysis')
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ vw_hot_events')
+#     (date; psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command '\d+ vw_hot_events2')
+#     date
+# }
+# function psql.get-bid-log.PROD-DB() {
+#     #( # Put in parens so that "set -x" goes away after the subshell;
+#     #set -x;
+#     #date;
+#     set -x
+#     psql --host $MachineProdDb --port 6432 --user tixie_admin --dbname tixie_main --command 'SELECT * FROM sweeps_bid_log ORDER BY bid_date;'
+#     #)
+# }
+# function scp.from.prod-db() {
+#     scp -i $PemTixie515 ubuntu@$MachineProdDb:$1 .
+# }
+# function scp.to.aws() {
+#     file=$1
+#     server=$2
+#     scp -i $PemTixie515 $file $server:/tmp
+#     set +x
+# }
+# function scp.latest.dump() {
+#     scp -i $PemTixie515 ubuntu@$MachineProdDb:/var/lib/postgresql/backups/hourly/tixie_main.dump.1 ~/Desktop/vagranttest
+#     set +x
+# }
+# function scp.get.tixie.reports() {
+#     scp -C -i $PemTixie515 ubuntu@$MachineProdDb:/var/lib/postgresql/'*.csv' $DirTixieRob/reports
+#     set +x
+# }
+# function scp.to.rob-dev() {
+#     scp -i $PemTixie515 $@ ubuntu@$MachineDevRobWebClone20120626:/tmp
+#     set +x
+# }
+# function scp.from.rob-dev() {
+#     scp -i $PemTixie515 ubuntu@$MachineDevRobWebClone20120626:$@
+#     set +x
+# }
+# function tixiefind() {
+#     findRegex="$*"
+#     cd $DirTixieSrc
+#     find . -name "$findRegex" 
+# }
+# function tixiefindvi() {
+#     findRegex="$*"
+#     cd $DirTixieSrc
+#     find . -name "$findRegex" | xargs --no-run-if-empty vim
+# }
+# function tixiegrepvi() {
+#     grepArgs="$*"
+#     echo "grep args=[$grepArgs]"
+#     cd $DirTixieSrc
+#     if grep -lr $grepArgs . > /dev/null 2>&1; then
+#         grep -lr $grepArgs . | xargs --no-run-if-empty vim
+#     else
+#         echo "grep found nothing"
+#     fi
+#     set +xv
+# }
 
 
 
