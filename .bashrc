@@ -1327,10 +1327,13 @@ function gitall() {
     done
 }
 function git.files.changed.in.commit () {
+  # git.files.changed.in.commit <treeish>
+  # Show the files that were changed in a given commit.
+  # e.g., git.files.changed.in.commit HEAD
   # --no-commit-id => don't show the commit ID
   # --name-only    => show only file names, not owner, group, perms
   # -r             => recurse into sub-trees
-  (set -x; git diff-tree --no-commit-id --name-only -r $*)
+  git diff-tree --no-commit-id --name-only -r $*
 }
 
 function git.files.added.and.changed.in.commit () {
