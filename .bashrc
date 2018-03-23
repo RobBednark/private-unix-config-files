@@ -886,7 +886,7 @@ alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
 alias   git.diff.filenames.change.summary="git diff --stats"
 alias   git.ls.filenames.staged="git diff --name-only --cached"
-alias   git.ls.filenames.untracked="git ls-files . --excluded-standard --others"
+alias   git.ls.filenames.untracked="git ls-files . --exclude-standard --others"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
 alias   git.log.filenames.changed="git log --name-only"
 alias   git.log.filenames.change.summary="git log --stats"
@@ -899,7 +899,7 @@ alias   git.show.toplevel="git rev-parse --show-toplevel"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias   git.vim.cached='vim $(git diff --name-only --cached)'
 alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
-alias   git.vim.modified.and.new='vim $(git diff --name-only --diff-filter=AM)'
+alias   git.vim.modified.and.new='vim $(git diff --name-only --diff-filter=M) $(git.ls.filenames.untracked)'
 #alias   git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
 alias   help.find.delete='echo find . -name "*.pyc" -delete'
