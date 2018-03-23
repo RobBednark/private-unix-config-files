@@ -1348,12 +1348,18 @@ function git.fixup.autosquash () {
     (
      set -x
 
+     git status
+
+     : Hit return to continue
+     read _continue
+
      git stash --keep-index
 
      : Hit return to continue
      read _continue
 
      git status
+     git diff
 
      : Hit return to continue
      read _continue
