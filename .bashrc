@@ -1359,7 +1359,7 @@ function git.fixup.autosquash () {
      read _continue
 
      git status
-     git diff
+     git diff --cached
 
      : Hit return to continue
      read _continue
