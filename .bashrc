@@ -884,6 +884,7 @@ fi
 # alias   gf="echo git fetch; git fetch"
 alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
+alias   git.fixup.autosquash="git --fixup HEAD; git rebase -i --autosquash"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
 alias   git.log.filenames.changed="git log --name-only"
 alias   git.log.filenames.change.summary="git log --stats"
