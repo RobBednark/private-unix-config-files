@@ -1371,7 +1371,7 @@ function git.fixup.autosquash () {
      git rebase -i --autosquash HEAD~2
 
      : Hit return to continue
-     read foo
+     read _continue
 
      git stash pop
     )
