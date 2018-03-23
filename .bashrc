@@ -884,6 +884,9 @@ fi
 # alias   gf="echo git fetch; git fetch"
 alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
+alias   git.diff.filenames.change.summary="git diff --stats"
+alias   git.ls.filenames.staged="git diff --name-only --cached"
+alias   git.ls.filenames.untracked="git ls-files . --excluded-standard --others"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
 alias   git.log.filenames.changed="git log --name-only"
 alias   git.log.filenames.change.summary="git log --stats"
@@ -891,11 +894,12 @@ alias   git.log.filenames.AMD="git log --stats"
 alias   git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
 alias   git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
+alias   git.remove.staged.files="git reset HEAD -- ."
 alias   git.show.toplevel="git rev-parse --show-toplevel"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias   git.vim.cached='vim $(git diff --name-only --cached)'
 alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
-alias   git.vim.modified='vim $(git diff --name-only --diff-filter=M)'
+alias   git.vim.modified.and.new='vim $(git diff --name-only --diff-filter=AM)'
 #alias   git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
 alias   help.find.delete='echo find . -name "*.pyc" -delete'
