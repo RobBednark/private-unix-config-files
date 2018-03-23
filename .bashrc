@@ -1343,6 +1343,33 @@ function git.files.added.and.changed.in.commit () {
   (set -x; git ls-tree --name-only -r $*)
 }
 
+function git.fixup.autosquash () {
+    # This depends on files already staged
+    (
+     set -x
+
+     git stash --keep-index
+
+     : Hit return to continue
+     read _continue
+
+     git status
+
+     : Hit return to continue
+     read _continue
+
+     git commit --fixup HEAD
+     : Hit return to continue
+     read _continue
+
+     git rebase -i --autosquash HEAD~2
+
+     : Hit return to continue
+     read foo
+
+     git stash pop
+    )
+}
 function git.diff.old () {
   (set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)
 }
