@@ -889,8 +889,8 @@ alias   git.ls.filenames.staged="git diff --name-only --cached"
 alias   git.ls.filenames.untracked="git ls-files . --exclude-standard --others"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
 alias   git.log.filenames.changed="git log --name-only"
-alias   git.log.filenames.change.summary="git log --stats"
-alias   git.log.filenames.AMD="git log --stats"
+alias   git.log.filenames.change.summary="git log --stat"
+alias   git.log.filenames.AMD="git log --stat"
 alias   git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
 alias   git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
