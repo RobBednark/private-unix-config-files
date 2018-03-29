@@ -884,6 +884,7 @@ fi
 # alias   gf="echo git fetch; git fetch"
 alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
+alias   git.branch.rm.on.remote.repo="git push origin --delete"
 alias   git.diff.filenames.change.summary="git diff --stat"
 alias   git.ls.filenames.staged="git diff --name-only --cached"
 alias   git.ls.filenames.untracked="git ls-files . --exclude-standard --others"
