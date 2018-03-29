@@ -896,6 +896,7 @@ alias   git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-
 alias   git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 alias   git.remove.untracked.files="git clean -f"
+alias   git.remove.untracked.directories="git clean -df"
 alias   git.unstage.files="git reset HEAD -- ."
 alias   git.show.toplevel="git rev-parse --show-toplevel"
 alias   git.stash.show.diff="git stash show -p"
