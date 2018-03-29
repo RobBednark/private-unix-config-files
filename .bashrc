@@ -897,6 +897,7 @@ alias   git.log.branches.color='git log --graph --full-history --all --color --p
 alias   git.remove.untracked.files="git clean -f"
 alias   git.unstage.files="git reset HEAD -- ."
 alias   git.show.toplevel="git rev-parse --show-toplevel"
+alias   git.stash.show.diff="git stash show -p"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias   git.vim.cached='vim $(git diff --name-only --cached)'
 alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
