@@ -453,6 +453,7 @@ alias   cdfare-catalogs="cd $DirReposMoovelGamma/fare-catalogs"
 alias   cdproduct="cd $DirReposMoovelGamma/gamma-product"
 alias   cdsecurity-code="cd $DirReposMoovelGamma/gamma-security-code"
 alias   cdverve="cd $DirReposMoovelGamma/na-verve-web"
+alias   cdverve2="cd $DirReposMoovelGamma/na-verve-web-2"
 
 # Trip Utilities:
 alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
