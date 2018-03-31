@@ -2020,7 +2020,10 @@ if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
     export WORKON_HOME=$HOME/.virtualenvs
     export PROJECT_HOME=$HOME/Devel
     # export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-    source /usr/local/bin/virtualenvwrapper.sh
+    # source /usr/local/bin/pyenv-virtualenvwrapper
+    if command -v pyenv 1>/dev/null 2>&1; then
+      eval "$(pyenv init -)"
+    fi
 elif ! $Atlatl; then
     # my Retina Mac
     export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
