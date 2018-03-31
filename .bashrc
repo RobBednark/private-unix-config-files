@@ -2024,6 +2024,8 @@ if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
     if command -v pyenv 1>/dev/null 2>&1; then
       eval "$(pyenv init -)"
     fi
+    # run virtualenvwrapper to get workon, mkvirtualenv, ... functions in my environment
+    pyenv virtualenvwrapper
 elif ! $Atlatl; then
     # my Retina Mac
     export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
