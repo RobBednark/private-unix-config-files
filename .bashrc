@@ -102,8 +102,8 @@ if type bindkey > /dev/null 2>&1; then
     bindkey '^R' history-incremental-search-backward
 fi
 
-# GIT_DIFF_OPTS -- set the number of lines of context to 0 lines (instead of default of 3)
-export GIT_DIFF_OPTS=-u0
+# GIT_DIFF_OPTS -- -U0 -- set the number of lines of context to 0 lines (instead of default of 3)
+export GIT_DIFF_OPTS=-U0
 
 export DISPLAY='rbednark:0.0'
 export DISPLAY=""
