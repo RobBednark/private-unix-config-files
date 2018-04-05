@@ -640,6 +640,7 @@ function  curl-agency-sync-sfmuni-prod() {
 }
 
 alias curl-catalog-products="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
+alias docker.stats="docker stats --no-trunc --no-stream "
 
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
 alias   psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
