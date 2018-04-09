@@ -1841,18 +1841,18 @@ function ls.newest.files() {
 function python.module.dir() {
     python $DirLearn/get_module_path.py $*
 }
-function vi.git.grep() {
+function vim.git.grep() {
     vim $(git grep -l $*)
 }
-function vi.ls.head() {
-	echo "e.g., vi.ls.head (edits the newest 5 files)" > /dev/null
+function vim.ls.head() {
+	echo "e.g., vim.ls.head (edits the newest 5 files)" > /dev/null
 	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
     number=5
 	files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
 	vim $files
 }
-function vi.last.n.files() {
-	echo "e.g., vi.last.n.files '*report' 10" > /dev/null
+function vim.last.n.files() {
+	echo "e.g., vim.last.n.files '*report' 10" > /dev/null
 	pattern=$1
 	number=$2
 	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
@@ -1863,8 +1863,8 @@ function vi.last.n.files() {
 	#done
 	#vi -R $files
 }
-function vi.files.with.pattern() {
-	echo "e.g., vi.files.with.pattern 'FAILED' '*.runxml.log*' 10" > /dev/null
+function vim.files.with.pattern() {
+	echo "e.g., vim.files.with.pattern 'FAILED' '*.runxml.log*' 10" > /dev/null
 	patternGrep=$1
 	patternFile=$2
 	number=${3:-20}
@@ -1877,8 +1877,8 @@ function vici.grep.i() {
     files=`grep -iIl $patternGrep *`
     vici $files
 }
-function vi.grep.l() {
-    # USAGE: vi.grep.l {grep_args}
+function vim.grep.l() {
+    # USAGE: vim.grep.l {grep_args}
     # vim all files in current dir that contain {grep_args}
     grepArgs="$*"
     echo "grep args=[$grepArgs]"
@@ -1892,8 +1892,8 @@ function vi.grep.l() {
         set +xv
     fi
 }
-function vi.grep.il() {
-    # USAGE: vi.grep.il {grep_args}
+function vim.grep.il() {
+    # USAGE: vim.grep.il {grep_args}
     # vim all files in current dir that match "grep -i {grep_args}"
     patternGrep=$1
     echo "Pattern=[$patternGrep]"
@@ -1905,8 +1905,8 @@ function vi.grep.il() {
     fi
     set +xv
 }
-function vi.grep.ril() {
-    # USAGE: vi.grep.ril {grep_args}
+function vim.grep.ril() {
+    # USAGE: vim.grep.ril {grep_args}
     # Vim all recursively found files that match "grep -rilI {grep_args}"
     patternGrep=$1
     echo "Pattern=[$patternGrep]"
@@ -1920,11 +1920,11 @@ function redirect-and-tail-output() {
     ($@) >& ${FileTmp} &
     tail -f $FileTmp
 }
-function vi.output() {
+function vim.output() {
     FileTmp=~/tmp/output-$(datestamp)
     # This doesn't work yet for a pipeline with grep, 
     # e.g.,
-    #     vi.output echo foo | grep foo
+    #     vim.output echo foo | grep foo
     ($@) >& ${FileTmp}
     vim $FileTmp
 }
