@@ -2036,6 +2036,15 @@ elif ! $Atlatl; then
     fi
 fi
 
+if hash rg 2>/dev/null; then
+  # Per https://github.com/aykamko/tag, create an 'rg' alias that
+  # gives results and allows you to type something like `e2` to jump to that 
+  # result in the editor (vim).
+  export TAG_SEARCH_PROG=rg  # replace with rg for ripgrep
+  tag() { command tag "$@"; source ${TAG_ALIAS_FILE:-/tmp/tag_aliases} 2>/dev/null; }
+  alias rg=tag  # replace with rg for ripgrep
+fi
+
 ################################################################################
 # nosetests autocomplete
 # Note: need to "pip install nosecomplete" in the virt as well
