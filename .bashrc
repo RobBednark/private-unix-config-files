@@ -48,9 +48,9 @@ fi
 # oh-my-zsh END
 ################################################################################
 
-# Set the interactive shell prompt to [username@machinename directory]
 if echo $SHELL | grep bash > /dev/null; then
-    export PS1="\u@\h \w \D{%m/%d} \t\n$ "
+    # Set the interactive shell prompt to [username@machinename working-directory mm/dd hh:mm:ss ]
+    export PS1="\u@\h \w $(git.branch.show) \D{%m/%d} \t\n$ "
 fi
 #
 # e.g.,
