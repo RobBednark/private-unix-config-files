@@ -574,6 +574,7 @@ function  curl-agency-sync-sfmuni-prod-v3() {
 }
 
 alias curl-catalog-products="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
+alias curl-catalog-products-verve="curl 'https://bart-dev.gslabs.us/v2/catalog/products' -H 'Pragma: no-cache' -H 'Origin: https://verve-dev.gslabs.us' -H 'Accept-Encoding: gzip, deflate, br' -H 'Accept-Language: en-US,en;q=0.9' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36' -H 'content-type: application/json; charset=utf-8' -H 'Accept: */*' -H 'Cache-Control: no-cache' -H 'Referer: https://verve-dev.gslabs.us/bart' -H 'Connection: keep-alive' -H 'x-gs-scope: bart-dev' --compressed"
 alias docker.stats="docker stats --no-trunc --no-stream "
 
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
