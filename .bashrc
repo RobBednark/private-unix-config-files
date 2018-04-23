@@ -638,6 +638,9 @@ function curl-agency-sync-san-diego-all() {
 function  curl-agency-sync-sfmuni-prod() {
     curl-agency-sync "https://sfmta.transitsherpa.com" "sfmuni-prod" "ios" 2
 }
+function  curl-agency-sync-sfmuni-prod-v3() {
+    curl-agency-sync "https://sfmta.transitsherpa.com" "sfmuni-prod" "ios" 3
+}
 
 alias curl-catalog-products="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
 alias docker.stats="docker stats --no-trunc --no-stream "
