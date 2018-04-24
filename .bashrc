@@ -355,7 +355,7 @@ DirReposMoovelDocker=$DirReposMoovel/na-transitutils-docker/src/app
 DirReposMoovelGamma=~/repos.gamma
 DirReposMoovelPayment=~/repos.journaling
 DirReposMoovelOther=~/repos.other
-DirGammaDocker=$DirReposMoovel/gamma-docker-4
+DirGammaDocker=$DirReposMoovel/gamma-docker-5
 alias   cdmoovel="cd $DirMoovel"
 alias   cdmoovel-agency-object-download="cd $DirReposMoovel/download-agency-objects"
 
