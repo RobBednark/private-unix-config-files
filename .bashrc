@@ -577,7 +577,7 @@ alias curl-catalog-product-id="curl 'https://bart-dev.gslabs.us/v2/catalog/produ
 alias curl-catalog-products="curl 'https://bart-dev.gslabs.us/v2/catalog/products' -H 'x-gs-scope: bart-dev'"
 alias curl-catalog-products-docker="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
 alias docker.stats="docker stats --no-trunc --no-stream "
-
+alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  # see container names instead of hashes
 alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
 alias   psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
 alias   moovel-ssh-host="~/bin/ssh-host.py"
