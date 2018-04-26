@@ -352,12 +352,16 @@ DirReposMoovel=~/repos
 DirReposMoovelClients=~/repos.clients
 DirReposMoovelDevops=~/repos.devops
 DirReposMoovelDocker=$DirReposMoovel/na-transitutils-docker/src/app
+DirReposMoovelEngineering=~/repos.engineering
 DirReposMoovelGamma=~/repos.gamma
 DirReposMoovelPayment=~/repos.journaling
 DirReposMoovelOther=~/repos.other
 DirGammaDocker=$DirReposMoovel/gamma-docker-4
 alias   cdmoovel="cd $DirMoovel"
 alias   cdmoovel-agency-object-download="cd $DirReposMoovel/download-agency-objects"
+
+# moovel docs
+alias   cddocs-moovel="cd $DirReposMoovelEngineering"
 
 # moovel e2e Tests
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
