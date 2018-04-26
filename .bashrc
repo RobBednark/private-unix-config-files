@@ -361,7 +361,7 @@ alias   cdmoovel="cd $DirMoovel"
 alias   cdmoovel-agency-object-download="cd $DirReposMoovel/download-agency-objects"
 
 # moovel docs
-alias   cddocs-moovel="cd $DirReposMoovelEngineering"
+alias   cddocs-moovel="cd $DirReposMoovelEngineering/na-engineering-docs"
 
 # moovel e2e Tests
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
