@@ -418,7 +418,7 @@ alias   cdpayment="cd $DirReposMoovelPayment/gamma-payment"
 alias   cdpurchase="cd $DirReposMoovelPayment/gamma-purchase"
 
 # misc
-alias   cdscheduled-tasks="cd $DirReposMoovel/scheduled-tasks/ventra-gtfs-import/filter-pace-gtfs"
+alias   cdscheduled-tasks="cd $DirReposMoovel/scheduled-tasks/ventra-pace-gtfs-filter"
 
 # misc devops:
 alias   cdawsdeploy="cd $DirReposMoovelDevops/gamma-aws-deploy"
