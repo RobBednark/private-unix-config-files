@@ -831,6 +831,7 @@ alias   git.branch.rm.on.remote.repo="git push origin --delete"
 alias   git.diff.filenames.change.summary="git diff --stat"
 alias   git.ls.filenames.staged="git diff --name-only --cached"
 alias   git.ls.filenames.untracked="git ls-files . --exclude-standard --others"
+alias   git.ls.filenames.modified='git diff --name-only --diff-filter=M'
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
 alias   git.log.filenames.changed="git log --name-only"
 alias   git.log.filenames.change.summary="git log --stat"
@@ -846,7 +847,7 @@ alias   git.stash.show.diff="git stash show -p"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias   git.vim.cached.staged='vim $(git diff --name-only --cached)'
 alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
-alias   git.vim.modified.and.new='vim $(git diff --name-only --diff-filter=M) $(git.ls.filenames.untracked)'
+alias   git.vim.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filenames.untracked)'
 #alias   git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
 alias   help.find.delete='echo find . -name "*.pyc" -delete'
