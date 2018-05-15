@@ -849,7 +849,7 @@ alias   git.remove.untracked.directories="git clean -df"
 alias   git.unstage.files="git reset HEAD -- ."
 alias   git.show.toplevel="git rev-parse --show-toplevel"
 alias   git.stash.show.diff="git stash show -p"
-alias   git.undo.modified.and.staged.files="git reset --hard"
+alias   git.undo.rm.modified.and.staged.files="git reset --hard"
 alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias   git.vim.cached.staged='vim $(git diff --name-only --cached)'
 alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
