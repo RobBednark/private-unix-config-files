@@ -832,10 +832,11 @@ alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
 alias   git.branch.rm.on.remote.repo="git push origin --delete"
 alias   git.diff.filenames.change.summary="git diff --stat"
-alias   git.ls.filenames.staged="git diff --name-only --cached"
-alias   git.ls.filenames.new.untracked="git ls-files . --exclude-standard --others"
+alias   git.ls.filenames.ignored='git status --ignored'
 alias   git.ls.filenames.modified='git diff --name-only --diff-filter=M'
 alias   git.ls.filenames.modified.and.new="git.ls.filenames.new.untracked; git.ls.filenames.modified"
+alias   git.ls.filenames.new.untracked="git ls-files . --exclude-standard --others"
+alias   git.ls.filenames.staged="git diff --name-only --cached"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
 alias   git.log.filenames.changed="git log --name-only"
 alias   git.log.filenames.change.summary="git log --stat"
