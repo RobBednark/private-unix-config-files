@@ -113,6 +113,7 @@ export EDITOR="/usr/bin/vim"
 # less --LINE_NUMBERS ==> enable line numbers
 export LESS="-iRX --LINE-NUMBERS --jump-target=.5" # -R ==> process color escape sequences correctly   -i ==> case insensitive search, unless UPPERCASE chars are searched
                    # -X ==> do NOT clear the screen on exit  --jump-target=.5 ==> show matches in the middle of the screen instead of the first line
+                   # NOTE: -I will completely ignore case, even for uppercase searches
 #export SHELL=/bin/bash
 export VISUAL="/usr/bin/vim"
 export SAVEHIST=80000 # max size in HISTFILE
