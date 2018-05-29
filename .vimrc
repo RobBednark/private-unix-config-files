@@ -11,6 +11,8 @@ set shell=/bin/bash   " I can't get zsh -i so use the .zshrc file and use my PAT
 syntax on " syntax highlighting
 set expandtab " expand tabs to spaces instead of tab characters
 
+set foldopen-=search  " when searching, don't open folds; constrain search to unfolded text
+
 " exrc => read from .vimrc in current directory after reading primary .vimrc
 " secure => disallow risky commands from local .vimrc/.exrc files
 set secure exrc
