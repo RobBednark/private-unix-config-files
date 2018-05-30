@@ -34,6 +34,12 @@ set modeline  " look for /* vim: */ modeline settings at the beginning of a file
 " It did not help.
 " set tags+=$HOME/.vim/tags/python.ctags
 filetype plugin indent on
+
+" The following two autocmd's will save folds when exiting, and load them again when re-opening the file.
+" http://vim.wikia.com/wiki/Make_views_automatic
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
+
 " Turn on omni autocompletion:
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
