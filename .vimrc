@@ -137,7 +137,6 @@ Bundle 'gmarik/vundle'
 
 " taboo: for renaming tabs:
 "  :TabooRename my tab name
-" (I haven't got it to work yet)  6/4/18
 Bundle 'gcmt/taboo.vim'
 
 " vim-airline: show a nice status/tablin on the bottom
