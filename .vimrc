@@ -134,6 +134,15 @@ Bundle 'gmarik/vundle'
 " Bundle 'pythoncomplete' -- commented-out because I'm getting poor autocompletion in python; I'm not sure if it's due to pythoncomplete or not
 
 " My Bundles here:
+
+" taboo: for renaming tabs:
+"  :TabooRename my tab name
+" (I haven't got it to work yet)  6/4/18
+" Bundle 'gcmt/taboo.vim'
+
+" vim-airline: show a nice status/tablin on the bottom
+Bundle 'vim-airline'
+
 " Bundle 'Python-mode-klen'  -- commented-out because getting urandom errors
 " python tab completion:
 " Bundle 'Pydiction'  -- commented-out because I'm getting poor autocompletion; I'm not sure if it's coming from Pydiction or something else
