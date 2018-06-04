@@ -139,7 +139,8 @@ Bundle 'gmarik/vundle'
 "  :TabooRename my tab name
 Bundle 'gcmt/taboo.vim'
 
-" vim-airline: show a nice status/tablin on the bottom
+" vim-airline: show a nice status/tablin on the bottom  (mode, git branch, git lines added/changed/changed), e.g.,
+"    NORMAL  +0 ~1 -0 ᚠ master  .vimrc                                                                                        vim  utf-8[unix]   51% ☰  142/276 ㏑ :107  ☲ [167]trailing
 " https://github.com/vim-airline/vim-airline
 Bundle 'vim-airline/vim-airline'
 
