@@ -141,7 +141,7 @@ Bundle 'gmarik/vundle'
 " Bundle 'gcmt/taboo.vim'
 
 " vim-airline: show a nice status/tablin on the bottom
-Bundle 'vim-airline'
+Bundle 'vim-airline/vim-airline'
 
 " Bundle 'Python-mode-klen'  -- commented-out because getting urandom errors
 " python tab completion:
