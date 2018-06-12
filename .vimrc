@@ -105,7 +105,7 @@ filetype plugin indent on
 " 8/5/12 Vundle section.
 " I installed vundle so that I could easily install the headlights plugin.  -Rob Bednark, 8/5/12
 set nocompatible               " be iMproved
-filetype off                   " required!
+filetype off                   " required by Vundle!  
 
 " Disable Pydiction
 set runtimepath-=~/.vim/bundle/Pydiction
