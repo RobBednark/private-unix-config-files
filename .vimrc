@@ -135,10 +135,6 @@ Bundle 'gmarik/vundle'
 
 " My Bundles here:
 
-" csv.vim: for viewing/editing CSV files (installed 6/12/18)
-" https://github.com/chrisbra/csv.vim
-Bundle 'chrisbra/csv.vim'
-
 " taboo: for renaming tabs (installed 6/4/18):
 "  :TabooRename my tab name
 Bundle 'gcmt/taboo.vim'
@@ -252,6 +248,11 @@ Bundle 'w0rp/ale'
 
 " apiblueprint => syntax highlighting for API Blueprint files
 Bundle 'kylef/apiblueprint.vim'
+
+" csv.vim: for viewing/editing CSV files (installed 6/12/18)
+" https://github.com/chrisbra/csv.vim
+Bundle 'chrisbra/csv.vim'
+
 
 " ale settings from Matt McLaughlin's .vimrc:  https://github.com/mattmcla/vim-config/blob/ec5e8f99112631849b31a3b8f83e0a3b11767cdb/.vimrc
 let g:ale_linters = {
