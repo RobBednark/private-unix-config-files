@@ -836,6 +836,7 @@ alias   git.branch.rm.on.remote.repo="git push origin --delete"
 alias   git.cp.files.from.other.branch="git checkout my-branch my-file1 my-file2 my-subdir"
 alias   git.diff.exclude.a.file="echo git diff master...original . ':(exclude)package-lock.json'"
 alias   git.diff.filenames.change.summary="git diff --stat"
+alias   git.diff.merge.commit="take 'Merge: 7022ea3 6459148' and add 3 dots: 'git diff 7022ea3...67459148'" 
 alias   git.ls.filenames.ignored='git status --ignored'
 alias   git.ls.filenames.modified='git diff --name-only --diff-filter=M'
 alias   git.ls.filenames.modified.and.new="git.ls.filenames.new.untracked; git.ls.filenames.modified"
