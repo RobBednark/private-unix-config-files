@@ -135,13 +135,18 @@ Bundle 'gmarik/vundle'
 
 " My Bundles here:
 
-" taboo: for renaming tabs:
+" csv.vim: for viewing/editing CSV files (installed 6/12/18)
+" https://github.com/chrisbra/csv.vim
+Bundle 'chrisbra/csv.vim'
+
+" taboo: for renaming tabs (installed 6/4/18):
 "  :TabooRename my tab name
 Bundle 'gcmt/taboo.vim'
 
 " vim-airline: show a nice status/tablin on the bottom  (mode, git branch, git lines added/changed/changed), e.g.,
 "    NORMAL  +0 ~1 -0 ᚠ master  .vimrc                                                                                        vim  utf-8[unix]   51% ☰  142/276 ㏑ :107  ☲ [167]trailing
 " https://github.com/vim-airline/vim-airline
+" (installed 6/4/18)
 Bundle 'vim-airline/vim-airline'
 
 " Bundle 'Python-mode-klen'  -- commented-out because getting urandom errors
