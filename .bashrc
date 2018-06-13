@@ -567,6 +567,9 @@ function  curl-agency-sync-san-antonio-via-prod-ios() {
 function  curl-agency-sync-san-antonio-via-stage-ios() {
     curl-agency-sync "https://san-antonio-via-stage.gslabs.us" "san-antonio-via-stage" "ios" 3
 }
+function  curl-agency-sync-santa-clara-vta-docker() {
+    curl-agency-sync "http://localhost:80" "santa-clara-vta-docker" "ios" 3
+}
 function  curl-agency-sync-santa-clara-vta-prod() {
     curl-agency-sync "https://vtaezfare.transitsherpa.com" "santa-clara-vta-prod" "ios" 3
 }
