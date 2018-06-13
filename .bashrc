@@ -666,6 +666,7 @@ alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
 alias   git.branch.rm.on.remote.repo="git push origin --delete"
 alias   git.cp.files.from.other.branch="git checkout my-branch my-file1 my-file2 my-subdir"
+alias   git.diff.csv.word.diff="git diff --word-diff --word-diff-regex=,"
 alias   git.diff.exclude.a.file="echo git diff master...original . ':(exclude)package-lock.json'"
 alias   git.diff.filenames.change.summary="git diff --stat"
 alias   git.diff.merge.commit="echo find 'Merge: 7022ea3 6459148' from the merge commit and add 3 dots: 'git diff 7022ea3...67459148'" 
