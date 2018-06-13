@@ -752,52 +752,6 @@ alias   vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 #}
 
 ################################################################################
-# Tixie:
-################################################################################
-# PemRobKey=$DirDropbox/Rob/aws/RobKey.pem
-# MachineRobAWS='ec2-23-20-227-24.compute-1.amazonaws.com'
-# DirTixieGit=~/git/tixie-web
-# DirTixieSrc=$DirTixieGit/src
-# DirTixieApps=$DirTixieSrc/apps
-# DirTixieRob=$DirDropbox/Rob/tixie
-# DirTixieTest=$DirTixieSrc/tixie_public
-# FileNotesTixie="$DirQuiz/tixie.notes"
-# FileQuizTixie="$DirQuiz/db_tixie"
-# MachineDevRobAdminClone20120723='ec2-72-44-37-175.compute-1.amazonaws.com'
-# MachineDevRobRestClone20120723='ec2-50-17-30-53.compute-1.amazonaws.com'
-# MachineDevRobDbClone20120720='ec2-23-20-15-37.compute-1.amazonaws.com' 
-# MachineDevRobDbClone20120727='ec2-23-22-116-221.compute-1.amazonaws.com' 
-# MachineDevRobDbClone20120720Clone20120724='ec2-50-17-157-250.compute-1.amazonaws.com'
-# MachineDevRobDbPg9_20120712='ec2-23-22-205-63.compute-1.amazonaws.com'
-# MachineDevRobPg9_12_04_20120717='ec2-107-21-163-193.compute-1.amazonaws.com'
-# MachineDevRobPg9_12_04_20120727='ec2-107-21-71-108.compute-1.amazonaws.com'
-# MachineDevRobWebClone20120626='ec2-107-20-36-130.compute-1.amazonaws.com'
-# MachineDevRobWebClone20120719='ec2-23-22-137-206.compute-1.amazonaws.com'
-# MachineCorpTixie='corp.tixie.com'
-# MachineProdAdmin='ec2-50-17-242-66.compute-1.amazonaws.com'
-# MachineProdCron='production-cron-01.in.tixie.org'
-# MachineProdDb84='ec2-107-20-219-93.compute-1.amazonaws.com'
-# MachineProdDb='ec2-23-22-135-206.compute-1.amazonaws.com'
-# MachineProdDb01='ec2-184-73-115-109.compute-1.amazonaws.com'
-# MachineProdWeb='ec2-75-101-151-220.compute-1.amazonaws.com'
-# MachineQAiPhoneAPI='ec2-50-17-70-177.compute-1.amazonaws.com'
-# MachineQADb='qa-db.in.tixie.org'
-# MachineQATixie='qa-web-develop.in.tixie.org'
-# MachineQA_DB_Tixie='qa-db.in.tixie.org'
-# PemTixie515=$DirDropbox/Rob/tixie/tixie20120515.pem
-# PemTixieKey=$DirDropbox/Rob/tixie/tixiekey.pem
-# alias   cdapps="cd $DirTixieApps"
-# alias   cdcommands="cd /Users/rob/git/tixie-web/src/apps/tixie/management/commands/"
-# alias   cdsrc="cd $DirTixieSrc"
-# alias   cddropbox.tixie="cd $DirDropbox/Rob/tixie; ls"
-# alias   cdtixie="cd $DirDropbox/git/tixie-web"
-# alias   cdtixierob="cd $DirTixieRob; ls"
-# alias   cdwebapp="cd /var/webapp/tixie_public"
-# #alias   subl.django="subl ~/.virtualenvs/tixie-web/lib/python2.7/site-packages/django/"
-# alias   subl.tixie="subl /Users/rob/git/tixie-web/src"
-################################################################################
-
-################################################################################
 # Postgres
 ################################################################################
 alias   postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by peer|GMT LOG:  duration:'"
