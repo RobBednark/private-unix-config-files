@@ -719,6 +719,7 @@ else
 fi
 
 alias   idle='env python3 /usr/lib/python3.2/idlelib/idle.py &'
+alias   ipaddr='ifconfig | grep inet'
 
 alias   lsless="ls -lt|less"
 alias	lsx="ls -l | grep '^-..x'"
