@@ -662,6 +662,9 @@ fi
 # alias   gb="echo git branch; git branch"
 # alias   gc="echo git checkout $*; git checkout"
 # alias   gf="echo git fetch; git fetch"
+alias   gd="git diff"
+alias   gl="git log -n5 --abbrev-commit"
+alias   gs="git status"
 alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
 alias   git.branch.rm.on.remote.repo="git push origin --delete"
@@ -676,6 +679,7 @@ alias   git.ls.filenames.modified.and.new="git.ls.filenames.new.untracked; git.l
 alias   git.ls.filenames.new.untracked="git ls-files . --exclude-standard --others"
 alias   git.ls.filenames.staged="git diff --name-only --cached"
 alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
+alias   git.log.abbrev.short.commit.hash="git log --abbrev-commit"
 alias   git.log.filenames.changed="git log --name-only"
 alias   git.log.filenames.change.summary="git log --stat"
 alias   git.log.filenames.AMD="git log --stat"
