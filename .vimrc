@@ -194,7 +194,7 @@ Bundle 'rhysd/conflict-marker.vim'
 " Bundle 'nvie/vim-flake8'
 
 " flake8-vim: flake8/pep8/.. checker for python code
-" Bundle 'andviro/flake8-vim'
+Bundle 'andviro/flake8-vim'
 
 " syntastic: for flake8/pep8/... while editing python code; requires flake8 package installed (pip install flake8)
 " Commented-out 3/15/18.  Conflicts with ale which I just installed.
