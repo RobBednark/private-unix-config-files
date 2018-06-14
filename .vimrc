@@ -77,22 +77,6 @@ function! SearchMultiLine(bang, ...)
 endfunction
 " command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args
 
-
-
-" The following are for pathogen.vim
-" Description:  
-"   Manage your 'runtimepath' with ease. In practical terms, pathogen.vim makes it super easy to install plugins and runtime files in their own private directories.
-"   https://github.com/tpope/vim-pathogen
-" I added pathogen#helptags() to automatically build the help for plugins like python-mode.  -Rob Bednark, 8/5/12
-
-" Disable the python-mode plugin, because it's not finding os.urandom
-" To disable a plugin, add it's bundle name to the following list.
-"  -Rob Bednark, 8/5/12
-"let g:pathogen_disabled = []
-"call add(g:pathogen_disabled, 'python-mode')
-
-"call pathogen#infect()
-"call pathogen#helptags()
 syntax on
 filetype plugin indent on
 
