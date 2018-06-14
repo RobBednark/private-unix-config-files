@@ -120,7 +120,10 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 
 " AsyncCommand - AsyncCommand allows you to execute shell commands without waiting for them to complete. When the application terminates, its output can be loaded into a vim buffer. 
-Bundle 'idbrii/AsyncCommand'
+" AsyncCommand requires vim to be compiled with +clientserver:
+"   AsyncCommand requires vim compiled with +clientserver (see :help +clientserver)
+" Added then disabled 6/14/18 -Rob Bednark
+" Bundle 'idbrii/AsyncCommand'
 
 " taboo: for renaming tabs (installed 6/4/18):
 "  :TabooRename my tab name
