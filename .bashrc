@@ -882,7 +882,7 @@ alias   vprogramming="cd $DirQuiz; vici db_programming"
 alias   vpython="title vpython; cd $DirQuiz; vici db_python"
 alias   vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
 alias   vquizme="cd $DirQuizMe; vici README"
-alias   vquizmedb="git.autocommit.all.modified.and.new $DirAddToQuizme/learn_add_to_quizme; vim $DirAddToQuizme/learn_add_to_quizme  $DirQuizMe/db_dumps/latest.dump.txt; git.autocommit.all.modified.and.new $DirAddToQuizme/learn_add_to_quizme"
+alias   vquizmedb="git.commit.all.modified.and.new $DirAddToQuizme/learn_add_to_quizme; vim $DirAddToQuizme/learn_add_to_quizme  $DirQuizMe/db_dumps/latest.dump.txt; git.commit.all.modified.and.new $DirAddToQuizme/learn_add_to_quizme"
 alias   vquizmedb-second-file="vim  $DirQuizMe/db_dumps/latest.dump.txt"
 alias   vresume=vjobsearch
 alias   vresume.word="open -a 'Microsoft Word' $DirDropbox/Documents/Rob.Bednark.resume.docx"
@@ -1169,7 +1169,7 @@ function rcsdiff_show_files_that_diff {
         fi
     done
 }
-function git.autocommit.all.modified.and.new() {
+function git.commit.all.modified.and.new() {
     onefile=$1
     title $(basename $onefile)
     DirCurDir=$(pwd)
@@ -1223,13 +1223,13 @@ function vici () {
     # echo "DEBUG: \$#=[$#]"
     for onefile in $files; do
         # echo "DEBUG: onefile=[$onefile]"
-        git.autocommit.all.modified.and.new $onefile
+        git.commit.all.modified.and.new $onefile
     done
     # echo "Hit return to [vim $files]..."; read FOO
     vim $files
     for onefile in $files; do
-        # echo "Hit return to [git.autocommit.all.modified.and.new $onefile]..."; read FOO
-        git.autocommit.all.modified.and.new $onefile
+        # echo "Hit return to [git.commit.all.modified.and.new $onefile]..."; read FOO
+        git.commit.all.modified.and.new $onefile
     done
 
     # cd back to the directory we were in before we started
