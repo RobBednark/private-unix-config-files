@@ -664,7 +664,7 @@ fi
 # alias   gc="echo git checkout $*; git checkout"
 # alias   gf="echo git fetch; git fetch"
 alias   gd="git diff"
-alias   gl="git log -n5 --abbrev-commit"
+alias   gl="git log -n5 --abbrev-commit --decorate"
 alias   gs="git status"
 alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
