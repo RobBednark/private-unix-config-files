@@ -659,10 +659,7 @@ else
 	alias	firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
 fi
 
-# git aliases
-# alias   gb="echo git branch; git branch"
-# alias   gc="echo git checkout $*; git checkout"
-# alias   gf="echo git fetch; git fetch"
+# #git aliases
 alias   gd="git diff"
 alias   gl="git log -n5 --abbrev-commit --decorate"
 alias   gs="git status"
