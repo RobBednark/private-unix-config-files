@@ -363,6 +363,10 @@ alias   cdmoovel-agency-object-download="cd $DirReposMoovel/download-agency-obje
 # moovel docs
 alias   cddocs-moovel="cd $DirReposMoovelEngineering/na-engineering-docs"
 
+# moovel gamma-docker
+alias   cdgamma="cd $DirGammaDocker"
+alias   cdgamma-fare-catalogs="cd $DirGammaDocker/src/data/fare-catalogs"
+
 # moovel e2e Tests
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
 
@@ -412,7 +416,6 @@ alias   cdgtfspace="cd $DirReposMoovel/gtfs-pace-import"
 alias   cdticket="cd $DirReposMoovelGamma/gamma-ticket"
 
 # payment/reporting/journaling
-alias   cdgamma="cd $DirGammaDocker"
 alias   cdlambda="cd $DirReposMoovelPayment/journal-lambda"
 alias   cdpayment="cd $DirReposMoovelPayment/gamma-payment"
 alias   cdpurchase="cd $DirReposMoovelPayment/gamma-purchase"
