@@ -441,7 +441,7 @@ alias   cdenv-ventra-prod="cd $DirReposMoovelDevops/env-ventra-prod"
 # client apps
 alias   cdandroid="cd $DirReposMoovelClients/na-ridetap-android"
 alias   cdios="cd $DirReposMoovelClients/na-ridetap-ios"
-alias   cdthe.app.factory="cd $DirReposMoovelClients/the-app-factory"
+alias   cdthe.app.factory="cd $DirReposMoovelClients/na-app-factory-titanium"
 
 function curl-agency-sync() {
     host=$1
