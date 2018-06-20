@@ -675,17 +675,18 @@ alias	gr="git rebase -i --autosquash"  # need to supply a commit-ish
 alias   gs="git status"
 alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
-alias   git.branch.mv.rename.remote="see directions below in .bashrc:"
-# 1. Rename your local branch.
-#      If you are on the branch you want to rename:
-#          git branch -m new-name
-#      If you are on a different branch:
-#          git branch -m old-name new-name
-#  2. Delete the old-name remote branch and push the new-name local branch.
-#      git push origin :old-name new-name
-#  3. Reset the upstream branch for the new-name local branch.
-#      Switch to the branch and then:
-#          git push origin -u new-name
+alias   git.branch.mv.rename.remote="echo '
+1. Rename your local branch.
+     If you are on the branch you want to rename:
+         git branch -m new-name
+     If you are on a different branch:
+         git branch -m old-name new-name
+ 2. Delete the old-name remote branch and push the new-name local branch.
+     git push origin :old-name new-name
+ 3. Reset the upstream branch for the new-name local branch.
+     Switch to the branch and then:
+         git push origin -u new-name
+'"
 alias   git.branch.rm.on.remote.repo="git push origin --delete"
 alias   git.checkout.cp.files.from.other.branch="echo 'git checkout my-branch my-file1 my-file2 my-subdir'"
 alias   git.diff.csv.word.diff="git diff --word-diff --word-diff-regex=,"
