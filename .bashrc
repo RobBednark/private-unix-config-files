@@ -668,6 +668,7 @@ alias	gcaf="git commit -a --fixup"  # need to supply a commit-ish
 alias	gc="git checkout"
 alias	gc-="git checkout -"
 alias   gd="git diff"
+alias	gf="git fetch"
 alias   gl="git log -n5 --abbrev-commit --decorate"
 alias	gp="git pull"
 alias	gr="git rebase -i --autosquash"  # need to supply a commit-ish
