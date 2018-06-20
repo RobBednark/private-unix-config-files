@@ -663,6 +663,7 @@ else
 fi
 
 # #git aliases
+alias	gb="git branch"
 alias	gcaf="git commit -a --fixup"  # need to supply a commit-ish
 alias	gc-="git checkout -"
 alias   gd="git diff"
