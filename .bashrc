@@ -666,6 +666,7 @@ fi
 alias   gd="git diff"
 alias   gl="git log -n5 --abbrev-commit --decorate"
 alias	gp="git pull"
+alias	gr="git rebase -i --autosquash"  # need to supply a commit-ish
 alias   gs="git status"
 alias   grep="grep --color"
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
