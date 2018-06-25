@@ -243,6 +243,10 @@ Bundle 'kylef/apiblueprint.vim'
 " https://github.com/chrisbra/csv.vim
 Bundle 'chrisbra/csv.vim'
 
+" vim-dirdiff (DirDiff): for doing recursive vimdiff's 
+"  :DirDiff dir1 dir2
+"  :help dirdiff
+Bundle 'will133/vim-dirdiff'
 
 " ale settings from Matt McLaughlin's .vimrc:  https://github.com/mattmcla/vim-config/blob/ec5e8f99112631849b31a3b8f83e0a3b11767cdb/.vimrc
 let g:ale_linters = {
