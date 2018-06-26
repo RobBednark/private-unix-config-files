@@ -348,24 +348,24 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 DirMoovel=$DirDropbox/moovel
 DirMoovelLocal=~/moovel
 DirMoovelAgencyObjects=$DirMoovelLocal/agency-objects
-DirReposMoovel=~/repos
+DirMoovelRepos=~/repos
 DirReposMoovelClients=~/repos.clients
 DirReposMoovelDevops=~/repos.devops
-DirReposMoovelDocker=$DirReposMoovel/na-transitutils-docker/src/app
+DirReposMoovelDocker=$DirMoovelRepos/na-transitutils-docker/src/app
 DirReposMoovelEngineering=~/repos.engineering
 DirReposMoovelGamma=~/repos.gamma
 DirReposMoovelPayment=~/repos.journaling
 DirReposMoovelOther=~/repos.other
-DirGammaDocker=$DirReposMoovel/gamma-docker-4
+DirMoovelGammaDocker=$DirMoovelRepos/gamma-docker-4
 alias   cdmoovel="cd $DirMoovel"
-alias   cdmoovel-agency-object-download="cd $DirReposMoovel/download-agency-objects"
+alias   cdmoovel-agency-object-download="cd $DirMoovelRepos/download-agency-objects"
 
 # moovel docs
 alias   cddocs-moovel="cd $DirReposMoovelEngineering/na-engineering-docs"
 
 # moovel gamma-docker
-alias   cdgamma="cd $DirGammaDocker"
-alias   cdgamma-fare-catalogs="cd $DirGammaDocker/src/data/fare-catalogs"
+alias   cddocker="cd $DirMoovelGammaDocker"
+alias   cddocker-fare-catalogs="cd $DirMoovelGammaDocker/src/data/fare-catalogs"
 
 # moovel e2e Tests
 alias   cde2e-tests="cd $DirReposMoovelGamma/na-e2e-service-tests"
@@ -386,7 +386,8 @@ alias   cddbbaseschema="cd $DirReposMoovelGamma/db-base-schema"
 # Rip City / catalog
 alias   cdagency-config="cd $DirReposMoovelGamma/agency-config"
 alias   cdagency-objects="cd $DirMoovelLocal/agency-objects"
-alias   cdagency-sync="cd $DirReposMoovelGamma/gamma-agency-sync"
+# alias   cdagency-sync="cd $DirReposMoovelGamma/gamma-agency-sync"
+alias   cdagency-sync="cd $DirMoovelGammaDocker/src/app/gamma-agency-sync"
 alias   cdcatalog="cd $DirReposMoovelGamma/gamma-catalog"
 alias   cdfare-catalogs="cd $DirReposMoovelGamma/fare-catalogs"
 alias   cdproduct="cd $DirReposMoovelGamma/gamma-product"
@@ -395,7 +396,7 @@ alias   cdverve="cd $DirReposMoovelGamma/na-verve-web"
 alias   cdverve2="cd $DirReposMoovelGamma/na-verve-web-2"
 
 # Trip Utilities:
-alias   cddocker="cd $DirReposMoovel/na-transitutils-docker"
+alias   cd-docker-transitutils="cd $DirMoovelRepos/na-transitutils-docker"
 alias   cdgateway="cd $DirReposMoovelDocker/na-gateway-python"
 alias   cdgtfsrt="cd $DirReposMoovelDocker/na-gtfsrt-py"
 alias   cdgtfsrealtimejson="cd ~/repos.other/gtfs_realtime_json"
@@ -409,8 +410,8 @@ alias   cdtransitfeed="cd $DirReposMoovelOther/transitfeed/examples"
 
 # Ventra Trip Planner / Pace GTFS ingestion
 alias   cdpace-old="cd $DirMoovelLocal/gtfs/pace"
-alias   cdpace="cd $DirReposMoovel/scheduled-tasks/ventra-gtfs-import/filter-pace-gtfs"
-alias   cdgtfspace="cd $DirReposMoovel/gtfs-pace-import"
+alias   cdpace="cd $DirMoovelRepos/scheduled-tasks/ventra-gtfs-import/filter-pace-gtfs"
+alias   cdgtfspace="cd $DirMoovelRepos/gtfs-pace-import"
 
 # ticket
 alias   cdticket="cd $DirReposMoovelGamma/gamma-ticket"
@@ -421,14 +422,14 @@ alias   cdpayment="cd $DirReposMoovelPayment/gamma-payment"
 alias   cdpurchase="cd $DirReposMoovelPayment/gamma-purchase"
 
 # misc
-alias   cdscheduled-tasks="cd $DirReposMoovel/scheduled-tasks/ventra-pace-gtfs-filter"
+alias   cdscheduled-tasks="cd $DirMoovelRepos/scheduled-tasks/ventra-pace-gtfs-filter"
 
 # misc devops:
 alias   cdawsdeploy="cd $DirReposMoovelDevops/gamma-aws-deploy"
 alias   cdjenkins="cd $DirReposMoovelDevops/jenkins-dev"
 
 # node trip-plannner
-alias   cdtrip-planner="cd $DirReposMoovel/trip-planner"
+alias   cdtrip-planner="cd $DirMoovelRepos/trip-planner"
 
 alias   cdenv-shared-dev="cd $DirReposMoovelDevops/env-shared-dev"
 alias   cdenv-shared-prod="cd $DirReposMoovelDevops/env-shared-prod"
