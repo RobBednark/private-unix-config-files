@@ -297,7 +297,8 @@ if $MacOSX; then
     alias open.adobe.reader='open -a "Adobe Reader"'
 fi
 
-alias   browse.family.tree="firefoxfile $FileFamilyTreeHtml"
+alias   family.tree.firefox="firefoxfile $FileFamilyTreeHtml"
+alias   family.tree.chrome="open -a chrome $FileFamilyTreeHtml"
 
 alias	cdbednarkcom="cd $DirBednarkCom"
 alias   cdbuddyup="cd $DirGitLocal/buddyup.github.adevore"
