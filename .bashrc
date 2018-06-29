@@ -298,7 +298,7 @@ if $MacOSX; then
 fi
 
 alias   family.tree.firefox="firefoxfile $FileFamilyTreeHtml"
-alias   family.tree.chrome="open -a chrome $FileFamilyTreeHtml"
+alias   family.tree.chrome="open -a google\ chrome $FileFamilyTreeHtml"
 
 alias	cdbednarkcom="cd $DirBednarkCom"
 alias   cdbuddyup="cd $DirGitLocal/buddyup.github.adevore"
