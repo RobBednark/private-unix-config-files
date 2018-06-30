@@ -346,7 +346,7 @@ alias   cdvagrant="cd ~/Desktop/vagranttest"
 #alias   cdvim="cd '/cygdrive/c/Program Files (x86)/Vim/vim72/doc'"
 
 ################################################################################
-# Moovel:
+# #Moovel:
 ################################################################################
 DirMoovel=$DirDropbox/moovel
 DirMoovelLocal=~/moovel
@@ -636,6 +636,10 @@ alias moovel-vi-schema="vim $DirMoovelLocal/schemas/latest-schema.sql"
 
 alias   vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 ################################################################################
+# End #Moovel
+################################################################################
+
+################################################################################
 # Postgres
 ################################################################################
 alias   postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by peer|GMT LOG:  duration:'"
@@ -759,13 +763,13 @@ alias   lsless="ls -lt|less"
 alias	lsx="ls -l | grep '^-..x'"
 alias	lib="title library; telnet multnomah.lib.or.us"
 
-alias	manoj="telnet $MachineManoj"
+alias	macos-clear-dns-cache="sudo killall -v -HUP mDNSResponder"
+alias	macos-clear-dns-cache-show="sudo killall -v -d mDNSResponder"  # -d ==> print info, don't send signal
+alias	macos-reboot-wifi="(set -x; ifconfig en0; sudo ifconfig en0 down; sudo ifconfig en0 up; sleep 2; ifconfig en0)"
 alias	mv="mv -i"
 alias   mycmd_old_pre_v1.7_django_versions='(set -x; rm -f mydb.db db.sqlite3;./manage.py syncdb --noinput; ./manage.py mycmd)'
 alias   mycmd='(set -x; rm -rf mydb.db db.sqlite3 myapp/migrations;./manage.py makemigrations; ./manage.py migrate; ./manage.py mycmd)'
 alias   mycmd.nosync='(set -x; ./manage.py mycmd)'
-
-alias 	mounttestadm="sudo mkdir -p /testadm; sudo mount $MachineCurtis:/testadm /testadm"
 
 alias   open.postgresql.manual="open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
 alias   open.resume="open $DirResume/*pdf"
@@ -830,7 +834,6 @@ alias   ping.tail="tail -20f $FilePingSymlinkActive"
 alias   ti=title
 alias	tlab="title svc driver; telnet $MachineSvcDriver"
 alias 	tbvt3="telnet $MachineBvt3Driver9"
-alias	tcurtis="telnet $MachineCurtis"
 alias	telm35="telnet $elm35"
 alias	telm36="telnet $elm36"
 alias	telm37="telnet $elm37"
