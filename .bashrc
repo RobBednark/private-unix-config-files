@@ -676,7 +676,7 @@ alias	gb="git branch"
 alias	gcaf="git commit -a --fixup"  # need to supply a commit-ish
 alias	gch="git checkout"
 alias	gch-="git checkout -"
-alias	gco"git commit"
+alias	gco="git commit"
 alias   gd="git diff"
 alias	gf="git fetch"
 alias   gl="git log -n5 --abbrev-commit --decorate"
