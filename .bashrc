@@ -48,7 +48,9 @@ fi
 
 if echo $SHELL | grep bash > /dev/null; then
     # Set the interactive shell prompt to [username@machinename working-directory mm/dd hh:mm:ss ]
-    export PS1="\u@\h \w \$(git.branch.show) \D{%m/%d} \t\n$ "
+    # \u@\h ==> username@machinename
+	# \w ==> working-directory
+    export PS1="\w \$(git.branch.show) \D{%m/%d} \t\n$ "
 fi
 #
 # e.g.,
