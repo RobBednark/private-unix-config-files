@@ -359,7 +359,7 @@ DirMoovelReposPayment=~/repos.journaling
 DirMoovelReposOther=~/repos.other
 DirMoovelGammaDocker=$DirMoovelRepos/gamma-docker-4
 alias   cdmoovel="cd $DirMoovel"
-alias   cdmoovel-agency-object-download="cd $DirMoovelRepos/download-agency-objects"
+alias   cdmoovel-agency-object-download="cd $DirMoovelRepos/download-agency-objects"  # DELETE this after I get my create*.sh scripts working in fare-catalogs
 
 # moovel docs
 alias   cddocs-moovel="cd $DirMoovelReposEngineering/na-engineering-docs"
