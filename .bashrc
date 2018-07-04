@@ -673,6 +673,7 @@ fi
 
 # #git short aliases
 alias	gb="git branch"
+alias	gca="git commit -a"
 alias	gcaf="git commit -a --fixup"  # need to supply a commit-ish
 alias	gch="git checkout"
 alias	gch-="git checkout -"
