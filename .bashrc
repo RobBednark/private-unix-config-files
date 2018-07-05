@@ -651,6 +651,7 @@ alias	ci="ci -zLT"
 alias cls="echo -ne '\033c'" 
 alias	co="co -zLT"
 alias	cp="cp -ip "
+alias	curl.verbose="curl -v --write-out 'http_code=[%{http_code}] \nlocal_ip=[%{local_ip}]; remote_ip=[%{remote_ip}]\nredirect_url=[%{redirect_url}]\nsize_download=[%{size_download}] size_header=[%{size_header}] size_request=[%{size_request}] size_upload=[%{size_upload}]\nspeed_download=[%{speed_download}] bytes per second; speed_upload=[%{speed_upload}] bytes per second \ntime_appconnect=[%{time_appconnect}] time_connect=[%{time_connect}] seconds; time_namelookup=[%{time_namelookup}] time_total[%{time_total}] seconds; '"
 
 alias   datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
 alias   dc='docker-compose'
@@ -671,7 +672,9 @@ else
 	alias	firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
 fi
 
+################################################################################
 # #git short aliases
+################################################################################
 alias	gb="git branch"
 alias	gca="git commit -a"
 alias	gcaf="git commit -a --fixup"  # need to supply a commit-ish
