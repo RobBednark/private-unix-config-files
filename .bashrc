@@ -684,6 +684,7 @@ alias	gcaf="git commit -a --fixup"  # need to supply a commit-ish
 alias	gch="git checkout"
 alias	gch-="git checkout -"
 alias	gco="git commit"
+alias	gcof="git commit --fixup"
 alias   gd="git diff"
 alias   gdc="git diff --cached"
 alias	gf="git fetch"
