@@ -691,6 +691,7 @@ alias   gd="git diff"
 alias   gdc="git diff --cached"
 alias	gf="git fetch"
 alias   gl="git log -n5 --abbrev-commit --decorate"
+alias	gpf="git push -f"
 alias	gpul="git pull"
 alias	gpus="git push"
 alias	gr="git rebase -i --autosquash"  # need to supply a commit-ish
