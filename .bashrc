@@ -678,6 +678,7 @@ fi
 ################################################################################
 # #git short aliases
 ################################################################################
+alias   ga="git add"
 alias	gb="git branch"
 alias	gca="git commit -a"
 alias	gcaf="git commit -a --fixup"  # need to supply a commit-ish
