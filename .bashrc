@@ -602,17 +602,17 @@ alias curl-catalog-products-docker="curl -H 'x-gs-scope: houston-metro-docker' h
 alias docker.stats="docker stats --no-trunc --no-stream "
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 # see container names instead of hashes
-alias   addrs.dev="$DirLearn/parse_moovel_instances.py"
-alias   psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
-alias   moovel-ssh-host="~/bin/ssh-host.py"
-alias   ssh.rs.mobility="ssh ubuntu@beta.mobility.ridescout.com -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
-alias   ssh.rs.providers="ssh ubuntu@52.27.32.0 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
-alias   ssh.rs.gateway="ssh ubuntu@54.191.144.62 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
+alias addrs.dev="$DirLearn/parse_moovel_instances.py"
+alias psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
+alias moovel-ssh-host="~/bin/ssh-host.py"
+alias ssh.rs.mobility="ssh ubuntu@beta.mobility.ridescout.com -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
+alias ssh.rs.providers="ssh ubuntu@52.27.32.0 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
+alias ssh.rs.gateway="ssh ubuntu@54.191.144.62 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 # alias   ssh.rs.transit="ssh ubuntu@54.191.119.117 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
-alias   ssh.rs.ingestion="ssh ubuntu@ec2-52-88-39-172.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
-alias   ssh.rs.transit="ssh ubuntu@ec2-54-191-119-117.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
-alias   scp.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; scp -P 9998 127.0.0.1:myfile ."
-alias   ssh.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; ssh -p 9998 127.0.0.1"
+alias ssh.rs.ingestion="ssh ubuntu@ec2-52-88-39-172.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
+alias ssh.rs.transit="ssh ubuntu@ec2-54-191-119-117.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
+alias scp.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; scp -P 9998 127.0.0.1:myfile ."
+alias ssh.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; ssh -p 9998 127.0.0.1"
 moovel_prod="https://rs-gateway.transitsherpa.com"
 moovel_shared_dev="https://rs-gateway-dev.gslabs.us"
 coords_san_antonio='lat=29.42&lng=-98.48'
@@ -636,7 +636,7 @@ alias curl.instances.shareddev='curl "https://dashboard-shared-dev.gslabs.us/gam
 alias moovel-mysqldump-schema="mysqldump -h 0.0.0.0 -P 23306 -u root -p123 --no-data transitsherpa_san_diego"
 alias moovel-vi-schema="vim $DirMoovelLocal/schemas/latest-schema.sql"
 
-alias   vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
+alias vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 ################################################################################
 # End #Moovel
 ################################################################################
@@ -644,9 +644,9 @@ alias   vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 ################################################################################
 # Postgres
 ################################################################################
-alias   postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by peer|GMT LOG:  duration:'"
+alias postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by peer|GMT LOG:  duration:'"
 
-alias	ci="ci -zLT"
+alias ci="ci -zLT"
 # I think "cmd" works for the default cygwin window, but not for rxvt
 #alias	cls="cmd /c cls"
 # The following echo sequence works for rxvt.
@@ -680,25 +680,25 @@ fi
 ################################################################################
 # #git short aliases
 ################################################################################
-alias   ga="git add"
-alias	gb="git branch"
-alias	gca="git commit -a"
-alias	gcaf="git commit -a --fixup"  # need to supply a commit-ish
-alias	gcf="git commit --fixup"
-alias	gch="git checkout"
-alias	gch-="git checkout -"
-alias	gco="git commit"
-alias	gcof="git commit --fixup"
-alias   gd="git diff"
-alias   gdc="git diff --cached"
-alias	gf="git fetch"
-alias   gl="git log -n5 --abbrev-commit --decorate"
-alias	gpf="git push -f"
-alias	gpul="git pull"
-alias	gpus="git push"
-alias	gr="git rebase -i --autosquash"  # need to supply a commit-ish
-alias   gs="git status"
-alias   grep="grep --color"
+alias ga="git add"
+alias gb="git branch"
+alias gca="git commit -a"
+alias gcaf="git commit -a --fixup"  # need to supply a commit-ish
+alias gcf="git commit --fixup"
+alias gch="git checkout"
+alias gch-="git checkout -"
+alias gco="git commit"
+alias gcof="git commit --fixup"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gf="git fetch"
+alias gl="git log -n5 --abbrev-commit --decorate"
+alias gpf="git push -f"
+alias gpul="git pull"
+alias gpus="git push"
+alias gr="git rebase -i --autosquash"  # need to supply a commit-ish
+alias gs="git status"
+alias grep="grep --color"
 
 #alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
 alias   git.branch.mv.rename.remote="echo '
@@ -713,52 +713,52 @@ alias   git.branch.mv.rename.remote="echo '
      Switch to the branch and then:
          git push origin -u new-name
 '"
-alias   git.branch.rm.on.remote.repo="git push origin --delete"
-alias   git.checkout.cp.files.from.other.branch="echo 'git checkout my-branch my-file1 my-file2 my-subdir'"
-alias   git.diff.csv.word.diff="git diff --word-diff --word-diff-regex=,"
-alias   git.diff.exclude.a.file="echo git diff master...original . ':(exclude)package-lock.json'"
-alias   git.diff.filenames.change.summary="git diff --stat"
-alias   git.diff.merge.commit="echo find 'Merge: 7022ea3 6459148' from the merge commit and add 3 dots: 'git diff 7022ea3...67459148'" 
-alias   git.ls.filenames.ignored='git status --ignored'
-alias   git.ls.filenames.modified='git diff --name-only --diff-filter=M'
-alias   git.ls.filenames.modified.and.new="git.ls.filenames.new.untracked; git.ls.filenames.modified"
-alias   git.ls.filenames.new.untracked="git ls-files . --exclude-standard --others"
-alias   git.ls.filenames.staged="git diff --name-only --cached"
-alias   git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
-alias   git.log.abbrev.short.commit.hash="git log --abbrev-commit"
-alias   git.log.filenames.changed="git log --name-only"
-alias   git.log.filenames.change.summary="git log --stat"
-alias   git.log.filenames.AMD="git log --stat"
-alias   git.log.grep.log.messages="git log --grep"
-alias   git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
-alias   git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
-alias   git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
-alias	git.log.commit.message.only='git log --format=%B -n 1'
-alias   git.log.limit.commits='git log --max-count=2'
-alias   git.log.merge.commit.files.changes='git log -m -1 --name-only --pretty="format:"'  # need to specify a commit hash
-alias   git.log.show.orphaned.commits.too="git log --reflog"
-alias   git.log.show.orphaned.commits.too.2="git reflog"
-alias   git.log.show.just.commit.hashes="git log --pretty=format:'%h'"
-alias   git.push.force.dry.run="git push --dry-run -f origin"
-alias	git.reflog.show.filenames="git reflog --stat"
-alias	git.remote.set.origin.different.url="echo 'add the git://new.url.here to the command'; git remote set-url origin"
-alias   git.rm.untracked.files="git clean -f"
-alias   git.rm.untracked.directories="git clean -df"
-alias   git.show.commit.hash.for.HEAD="git rev-parse HEAD"
-alias   git.show.commit.hash..for.HEAD.short="git rev-parse --short HEAD"
-alias   git.show.commit.hash.for.HEAD.2="git show --no-patch --format=%H; git show --no-patch --format=%h"
-alias   git.show.describe.first.tag.reachable.from.HEAD="git describe"
-alias   git.unstage.files="git reset HEAD -- ."
-alias   git.show.toplevel="git rev-parse --show-toplevel"
-alias   git.stash.show.diff="git stash show -p"
-alias   git.undo.rm.modified.and.staged.files="git reset --hard"
-alias   git.vimdiff="git difftool --no-prompt --tool=vimdiff"
-alias   git.vim.cached.staged='vim $(git diff --name-only --cached)'
-alias   git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
-alias   git.vim.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filenames.new.untracked)'
+alias git.branch.rm.on.remote.repo="git push origin --delete"
+alias git.checkout.cp.files.from.other.branch="echo 'git checkout my-branch my-file1 my-file2 my-subdir'"
+alias git.diff.csv.word.diff="git diff --word-diff --word-diff-regex=,"
+alias git.diff.exclude.a.file="echo git diff master...original . ':(exclude)package-lock.json'"
+alias git.diff.filenames.change.summary="git diff --stat"
+alias git.diff.merge.commit="echo find 'Merge: 7022ea3 6459148' from the merge commit and add 3 dots: 'git diff 7022ea3...67459148'" 
+alias git.ls.filenames.ignored='git status --ignored'
+alias git.ls.filenames.modified='git diff --name-only --diff-filter=M'
+alias git.ls.filenames.modified.and.new="git.ls.filenames.new.untracked; git.ls.filenames.modified"
+alias git.ls.filenames.new.untracked="git ls-files . --exclude-standard --others"
+alias git.ls.filenames.staged="git diff --name-only --cached"
+alias git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
+alias git.log.abbrev.short.commit.hash="git log --abbrev-commit"
+alias git.log.filenames.changed="git log --name-only"
+alias git.log.filenames.change.summary="git log --stat"
+alias git.log.filenames.AMD="git log --stat"
+alias git.log.grep.log.messages="git log --grep"
+alias git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
+alias git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
+alias git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
+alias git.log.commit.message.only='git log --format=%B -n 1'
+alias git.log.limit.commits='git log --max-count=2'
+alias git.log.merge.commit.files.changes='git log -m -1 --name-only --pretty="format:"'  # need to specify a commit hash
+alias git.log.show.orphaned.commits.too="git log --reflog"
+alias git.log.show.orphaned.commits.too.2="git reflog"
+alias git.log.show.just.commit.hashes="git log --pretty=format:'%h'"
+alias git.push.force.dry.run="git push --dry-run -f origin"
+alias git.reflog.show.filenames="git reflog --stat"
+alias git.remote.set.origin.different.url="echo 'add the git://new.url.here to the command'; git remote set-url origin"
+alias git.rm.untracked.files="git clean -f"
+alias git.rm.untracked.directories="git clean -df"
+alias git.show.commit.hash.for.HEAD="git rev-parse HEAD"
+alias git.show.commit.hash..for.HEAD.short="git rev-parse --short HEAD"
+alias git.show.commit.hash.for.HEAD.2="git show --no-patch --format=%H; git show --no-patch --format=%h"
+alias git.show.describe.first.tag.reachable.from.HEAD="git describe"
+alias git.unstage.files="git reset HEAD -- ."
+alias git.show.toplevel="git rev-parse --show-toplevel"
+alias git.stash.show.diff="git stash show -p"
+alias git.undo.rm.modified.and.staged.files="git reset --hard"
+alias git.vimdiff="git difftool --no-prompt --tool=vimdiff"
+alias git.vim.cached.staged='vim $(git diff --name-only --cached)'
+alias git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
+alias git.vim.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filenames.new.untracked)'
 #alias   git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
-alias   help.find.delete='echo find . -name "*.pyc" -delete'
+alias help.find.delete='echo find . -name "*.pyc" -delete'
 
 if $MacOSX; then
 	alias	ls="ls -G"
