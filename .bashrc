@@ -362,93 +362,93 @@ DirMoovelReposGamma=~/repos.gamma
 DirMoovelReposPayment=~/repos.journaling
 DirMoovelReposOther=~/repos.other
 DirMoovelGammaDocker=$DirMoovelRepos/gamma-docker-4
-alias   cdmoovel="cd $DirMoovel"
-alias   cdmoovel-agency-object-download="cd $DirMoovelRepos/download-agency-objects"  # DELETE this after I get my create*.sh scripts working in fare-catalogs
+alias cdmoovel="cd $DirMoovel"
+alias cdmoovel-agency-object-download="cd $DirMoovelRepos/download-agency-objects"  # DELETE this after I get my create*.sh scripts working in fare-catalogs
 
 # moovel docs
-alias   cddocs-moovel="cd $DirMoovelReposEngineering/na-engineering-docs"
+alias cddocs-moovel="cd $DirMoovelReposEngineering/na-engineering-docs"
 
 # moovel gamma-docker
-alias   cddocker="cd $DirMoovelGammaDocker"
-alias   cddocker-fare-catalogs="cd $DirMoovelGammaDocker/src/data/fare-catalogs"
+alias cddocker="cd $DirMoovelGammaDocker"
+alias cddocker-fare-catalogs="cd $DirMoovelGammaDocker/src/data/fare-catalogs"
 
 # moovel e2e Tests
-alias   cde2e-tests="cd $DirMoovelReposGamma/na-e2e-service-tests"
+alias cde2e-tests="cd $DirMoovelReposGamma/na-e2e-service-tests"
 
 # moovel micro dependencies
-alias   cdclient-response="cd $DirMoovelReposGamma/na-mv-client-response"
-alias   cderror="cd $DirMoovelReposGamma/na-mv-error"
-alias   cdlogger="cd $DirMoovelReposGamma/na-gamma-logger"
-alias   cdrequest="cd $DirMoovelReposGamma/na-mv-request"
+alias cdclient-response="cd $DirMoovelReposGamma/na-mv-client-response"
+alias cderror="cd $DirMoovelReposGamma/na-mv-error"
+alias cdlogger="cd $DirMoovelReposGamma/na-gamma-logger"
+alias cdrequest="cd $DirMoovelReposGamma/na-mv-request"
 
 # config / proxy
-alias   cdrevproxy="cd $DirMoovelReposGamma/gamma-config-revproxy"
+alias cdrevproxy="cd $DirMoovelReposGamma/gamma-config-revproxy"
 
 # database / db
-alias   cddbagency="cd $DirMoovelReposGamma/db-agency"
-alias   cddbbaseschema="cd $DirMoovelReposGamma/db-base-schema"
+alias cddbagency="cd $DirMoovelReposGamma/db-agency"
+alias cddbbaseschema="cd $DirMoovelReposGamma/db-base-schema"
 
 # Rip City / catalog
-alias   cdagency-config="cd $DirMoovelReposGamma/agency-config"
-alias   cdagency-objects="cd $DirMoovelLocal/agency-objects"
-alias	cd-agency-map="cd $DirMoovelReposGamma/na-agency-map"
-alias   cdagency-sync="cd $DirMoovelGammaDocker/src/app/gamma-agency-sync"
-alias   cdcatalog="cd $DirMoovelReposGamma/gamma-catalog"
-alias	cd-download-agency-objects="cd $DirMoovelReposGamma/na-download-agency-objects"
-alias   cdfare-catalogs="cd $DirMoovelReposGamma/fare-catalogs"
-alias   cdproduct="cd $DirMoovelReposGamma/gamma-product"
-alias   cdsecurity-code="cd $DirMoovelReposGamma/gamma-security-code"
-alias   cdverve="cd $DirMoovelReposGamma/na-verve-web"
-alias   cdverve2="cd $DirMoovelReposGamma/na-verve-web-2"
+alias cdagency-config="cd $DirMoovelReposGamma/agency-config"
+alias cdagency-objects="cd $DirMoovelLocal/agency-objects"
+alias cd-agency-map="cd $DirMoovelReposGamma/na-agency-map"
+alias cdagency-sync="cd $DirMoovelGammaDocker/src/app/gamma-agency-sync"
+alias cdcatalog="cd $DirMoovelReposGamma/gamma-catalog"
+alias cd-download-agency-objects="cd $DirMoovelReposGamma/na-download-agency-objects"
+alias cdfare-catalogs="cd $DirMoovelReposGamma/fare-catalogs"
+alias cdproduct="cd $DirMoovelReposGamma/gamma-product"
+alias cdsecurity-code="cd $DirMoovelReposGamma/gamma-security-code"
+alias cdverve="cd $DirMoovelReposGamma/na-verve-web"
+alias cdverve2="cd $DirMoovelReposGamma/na-verve-web-2"
 
 # Trip Utilities:
-alias   cd-docker-transitutils="cd $DirMoovelRepos/na-transitutils-docker"
-alias   cdgateway="cd $DirMoovelReposDocker/na-gateway-python"
-alias   cdgtfsrt="cd $DirMoovelReposDocker/na-gtfsrt-py"
-alias   cdgtfsrealtimejson="cd ~/repos.other/gtfs_realtime_json"
-alias   cdingestion="cd $DirMoovelReposDocker/na-ingestionserver-python"
-alias   cdmobility="cd $DirMoovelReposDocker/na-mobility-python"
-alias   cdproviders="cd $DirMoovelReposDocker/na-providers-python"
-alias   cdrrrr="cd $DirMoovelReposDocker/rrrr"
-alias   cdtest="cd $DirMoovelReposDocker/na-trip-utils-api-tests"
-alias   cdtransit="cd $DirMoovelReposDocker/na-transitplusplus-python"
-alias   cdtransitfeed="cd $DirMoovelReposOther/transitfeed/examples"
+alias cd-docker-transitutils="cd $DirMoovelRepos/na-transitutils-docker"
+alias cdgateway="cd $DirMoovelReposDocker/na-gateway-python"
+alias cdgtfsrt="cd $DirMoovelReposDocker/na-gtfsrt-py"
+alias cdgtfsrealtimejson="cd ~/repos.other/gtfs_realtime_json"
+alias cdingestion="cd $DirMoovelReposDocker/na-ingestionserver-python"
+alias cdmobility="cd $DirMoovelReposDocker/na-mobility-python"
+alias cdproviders="cd $DirMoovelReposDocker/na-providers-python"
+alias cdrrrr="cd $DirMoovelReposDocker/rrrr"
+alias cdtest="cd $DirMoovelReposDocker/na-trip-utils-api-tests"
+alias cdtransit="cd $DirMoovelReposDocker/na-transitplusplus-python"
+alias cdtransitfeed="cd $DirMoovelReposOther/transitfeed/examples"
 
 # Ventra Trip Planner / Pace GTFS ingestion
-alias   cdpace-old="cd $DirMoovelLocal/gtfs/pace"
-alias   cdpace="cd $DirMoovelRepos/scheduled-tasks/ventra-gtfs-import/filter-pace-gtfs"
-alias   cdgtfspace="cd $DirMoovelRepos/gtfs-pace-import"
+alias cdpace-old="cd $DirMoovelLocal/gtfs/pace"
+alias cdpace="cd $DirMoovelRepos/scheduled-tasks/ventra-gtfs-import/filter-pace-gtfs"
+alias cdgtfspace="cd $DirMoovelRepos/gtfs-pace-import"
 
 # ticket
-alias   cdticket="cd $DirMoovelReposGamma/gamma-ticket"
+alias cdticket="cd $DirMoovelReposGamma/gamma-ticket"
 
 # payment/reporting/journaling
-alias   cdlambda="cd $DirMoovelReposPayment/journal-lambda"
-alias   cdpayment="cd $DirMoovelReposPayment/gamma-payment"
-alias   cdpurchase="cd $DirMoovelReposPayment/gamma-purchase"
+alias cdlambda="cd $DirMoovelReposPayment/journal-lambda"
+alias cdpayment="cd $DirMoovelReposPayment/gamma-payment"
+alias cdpurchase="cd $DirMoovelReposPayment/gamma-purchase"
 
 # misc
-alias   cdscheduled-tasks="cd $DirMoovelRepos/scheduled-tasks/ventra-pace-gtfs-filter"
+alias cdscheduled-tasks="cd $DirMoovelRepos/scheduled-tasks/ventra-pace-gtfs-filter"
 
 # misc devops:
-alias   cdawsdeploy="cd $DirMoovelReposDevops/gamma-aws-deploy"
-alias   cdjenkins="cd $DirMoovelReposDevops/jenkins-dev"
+alias cdawsdeploy="cd $DirMoovelReposDevops/gamma-aws-deploy"
+alias cdjenkins="cd $DirMoovelReposDevops/jenkins-dev"
 
 # node trip-plannner
-alias   cdtrip-planner="cd $DirMoovelRepos/trip-planner"
+alias cdtrip-planner="cd $DirMoovelRepos/trip-planner"
 
-alias   cdenv-shared-dev="cd $DirMoovelReposDevops/env-shared-dev"
-alias   cdenv-shared-prod="cd $DirMoovelReposDevops/env-shared-prod"
-alias   cdenv-shared-prod-east="cd $DirMoovelReposDevops/env-shared-prod-east"
-alias   cdenv-shared-stage="cd $DirMoovelReposDevops/env-shared-stage"
-alias   cdenv-stage-east="cd $DirMoovelReposDevops/env-stage-east"
-alias   cdenv-shared-test="cd $DirMoovelReposDevops/env-shared-test"
-alias   cdenv-ventra-prod="cd $DirMoovelReposDevops/env-ventra-prod"
+alias cdenv-shared-dev="cd $DirMoovelReposDevops/env-shared-dev"
+alias cdenv-shared-prod="cd $DirMoovelReposDevops/env-shared-prod"
+alias cdenv-shared-prod-east="cd $DirMoovelReposDevops/env-shared-prod-east"
+alias cdenv-shared-stage="cd $DirMoovelReposDevops/env-shared-stage"
+alias cdenv-stage-east="cd $DirMoovelReposDevops/env-stage-east"
+alias cdenv-shared-test="cd $DirMoovelReposDevops/env-shared-test"
+alias cdenv-ventra-prod="cd $DirMoovelReposDevops/env-ventra-prod"
 
 # client apps
-alias   cdandroid="cd $DirMoovelReposClients/na-ridetap-android"
-alias   cdios="cd $DirMoovelReposClients/na-ridetap-ios"
-alias   cdthe.app.factory="cd $DirMoovelReposClients/na-app-factory-titanium"
+alias cdandroid="cd $DirMoovelReposClients/na-ridetap-android"
+alias cdios="cd $DirMoovelReposClients/na-ridetap-ios"
+alias cdthe.app.factory="cd $DirMoovelReposClients/na-app-factory-titanium"
 
 function curl-agency-sync() {
     host=$1
