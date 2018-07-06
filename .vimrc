@@ -97,9 +97,6 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
-" Python auto-completion
-" Bundle 'pythoncomplete' -- commented-out because I'm getting poor autocompletion in python; I'm not sure if it's due to pythoncomplete or not
-
 " My Bundles here:
 
 " AsyncCommand - AsyncCommand allows you to execute shell commands without waiting for them to complete. When the application terminates, its output can be loaded into a vim buffer. 
@@ -152,14 +149,6 @@ Bundle 'tpope/vim-fugitive'
 " required by headlights:
 " Bundle 'genutils'
 
-" multiselect: for doing multiple different selections:  (commented-out 3/15/18 when upgraded to Vim 8)
-" Bundle 'multiselect'
-" for automatically folding classes and functions:
-" Bundle 'python_fold'
-" tab-completion:
-" Bundle 'SuperTab'
-
-" ropevim -- Python refactoring
 " Commented-out 3/5/14 after Mavericks upgrade when I started seeing this error on :w
 "   Taglist: Failed to generate tags for /Users/rob/.vimrc
 " Bundle 'ropevim'
@@ -174,16 +163,8 @@ Bundle 'PreserveNoEOL'
 " See: https://github.com/rhysd/conflict-marker.vim
 Bundle 'rhysd/conflict-marker.vim'
 
-" vim-flake8: flake8 checker for python code
-" press F7 to run it; need flake8 executable in the virtualenv / env
-" Bundle 'nvie/vim-flake8'
-
 " flake8-vim: flake8/pep8/.. checker for python code
 Bundle 'andviro/flake8-vim'
-
-" syntastic: for flake8/pep8/... while editing python code; requires flake8 package installed (pip install flake8)
-" Commented-out 3/15/18.  Conflicts with ale which I just installed.
-" Bundle 'scrooloose/syntastic'
 
 " vim-gitgutter: shows git diff in the gutter (what lines have been changed); stages/undoes hunks
 " [c ]c ==> prev/next hunk
