@@ -41,10 +41,18 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 
 " create a macros for inserting traces for pdb and for nose.
 " To use, in command mode, type <backslash> followed by "b" or "n"
-map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>       # \c ==> check python syntax
-map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>          # \p ==> add python set_trace()
-map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>  # \n ==> add python nose set_trace()
-map <silent> <leader>u oimport pudb; pudb.set_trace()<esc>        # \u ==> add pudb set_trace()
+" \c ==> :!python -m py_compile %
+" \n ==> add python nose set_trace()
+" \p ==> add python set_trace()
+" \r ==> :TabooRename  (rename the current tab)
+" \s ==> :tab split  (create a new tab)
+" \u ==> add pudb set_trace()
+map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
+map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
+map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
+map <silent> <leader>r :TabooRename 
+map <silent> <leader>s :tab split<esc>
+map <silent> <leader>u oimport pudb; pudb.set_trace()<esc>
 " from John de la Garza 10/26/15.  I think what this does is allow a different leader, e.g., "," instead of "\"
 " let mapleader="," noremap <Leader>n :bn<Enter> noremap <Leader>d oimport pdb;pdb.set_trace() 
 
