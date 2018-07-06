@@ -718,7 +718,7 @@ alias git.branch.mv.rename.remote="echo '
          git push origin -u new-name
 '"
 alias git.branch.rm.on.remote.repo="git push origin --delete"
-alias git.checkout.cp.files.from.other.branch="echo 'git checkout my-branch my-file1 my-file2 my-subdir'"
+alias git.checkout.cp.files.from.other.branch="echo 'git checkout other-branch my-file1 my-file2 my-subdir'"
 alias git.diff.csv.word.diff="git diff --word-diff --word-diff-regex=,"
 alias git.diff.exclude.a.file="echo git diff master...original . ':(exclude)package-lock.json'"
 alias git.diff.filenames.change.summary="git diff --stat"
