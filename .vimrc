@@ -82,12 +82,6 @@ filetype plugin indent on
 set nocompatible               " be iMproved
 filetype off                   " required by Vundle!  
 
-" Disable python_mode
-set runtimepath-=~/.vim/bundle/python_mode
-
-" python-mode-klen
-set runtimepath-=~/.vim/bundle/Python-mode-klen
-set runtimepath-=~/.vim/bundle/Python-mode-klen/after
 " Disable SuperTab
 set runtimepath-=~/.vim/bundle/SuperTab
 " Disable python_fold
