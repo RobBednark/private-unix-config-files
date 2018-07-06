@@ -485,6 +485,9 @@ function curl-agency-sync-all() {
 function curl-agency-sync-atlanta-streetcar-prod-ios() {
     curl-agency-sync "https://atlanta-streetcar.transitsherpa.com" "atlanta-streetcar-prod" "ios" 2
 }
+function curl-agency-sync-baltimore-docker-null() {
+    curl-agency-sync "http://localhost:80" "baltimore-mta-docker" "null" 3
+}
 function curl-agency-sync-baltimore-test-null() {
     curl-agency-sync "https://baltimore-mta-test.gslabs.us" "baltimore-mta-test" "null" 3
 }
