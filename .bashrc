@@ -238,9 +238,11 @@ DirResume="$DirDropbox/rob.resume"
 DirQuiz="$DirLearn/quiz.python/db"
 DirQuizMe=$DirGit/quizme_website
 DirReadOnly="$DirRbednark/read.only"
-DirRepoRobBednarkGithubIo="~/repos.rob/robbednark.github.io"
+DirRepoRobBednarkGithubIO=~/repos.rob/robbednark.github.io
 DirSync="$DirRbednark/sync"
 DirUnixConfigFiles="$DirDropbox/Rob/unix.config.files"
+
+URL_robbednark_github_io='https://robbednark.github.io'
 
 BinQuote="$DirBin/get.random.quote.pl"
 
@@ -279,7 +281,7 @@ FilePhone="$DirDoc/phone.nums.txt"
 FilePicts="$DirTxt/sent.list.txt"
 FilePingOutput=~/tmp/ping.monitor.$$
 FilePingSymlinkActive=~/tmp/ping.monitor.active
-FileQuotes="$DirBednarkCom/quotes.html"
+FileQuotes="$DirRepoRobBednarkGithubIO/quotes.html"
 FileRecommendations="$DirBednarkCom/cpp/i.recommend.cpp"
 FileSitemap="$DirBednarkCom/sitemap.xml"
 FileViolinStrings="$DirBednarkCom/cpp/violin.strings.survey.cpp"
@@ -332,7 +334,7 @@ alias   cdquiz="title quiz; cd $DirQuiz"
 alias   cdquizme="cd $DirQuizMe; pipenv shell"
 alias   cdreact="cd $DirLearn/learn-react/create-react-app"
 alias   cdresume="cd $DirResume"
-alias	cdrobbednark-github-io-website="cd $DirRepoRobBednarkGithubIo"
+alias	cdrobbednark-github-io-website="cd $DirRepoRobBednarkGithubIO"
 alias   cdscrapy="cd $DirLearn/scrapy"
 #alias	cdsel="title ebento.py; cd ~/huawei/selenium"
 #alias	cdstax="cd $DirLearn/stax; pwd; ls"
@@ -1401,15 +1403,14 @@ function	vhumor() {
 }
 function	vquotes() { 
 	title quotes
-	cd $DirBednarkCom
+	cd $DirRepoRobBednarkGithubIO
     if $MacOSX; then
-        #(firefox file:///$FileQuotes http://bednark.com/quotes.html &)
-        open file:///$FileQuotes http://bednark.com/quotes.html
+        open file:///$FileQuotes $URL_robbednark_github_io/quotes.html
     else
         (firefox file:///`cygpath -m $FileQuotes` http://bednark.com/quotes.html &)
     fi
 	vici $FileQuotes $FileIndex $FileSitemap
-	upload.to.bednark.com $FileQuotes $FileIndex $FileSitemap
+	git push
 }
 function	vrecommendations() { 
 	title recommendations
