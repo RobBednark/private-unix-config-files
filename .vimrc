@@ -74,9 +74,6 @@ endfunction
 syntax on
 filetype plugin indent on
 
-" A shortcut for NERDTree
-" map :nt :NERDTreeToggle
-
 " wildignore is a setting for the Command-T plugin.  It indicates which files to ignore.
 :set wildignore+=*.pyc,.git,node_modules
 
