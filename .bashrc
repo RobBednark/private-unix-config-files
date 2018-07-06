@@ -304,6 +304,7 @@ fi
 alias   family.tree.firefox="firefoxfile $FileFamilyTreeHtml"
 alias   family.tree.chrome="open -a google\ chrome $FileFamilyTreeHtml"
 
+alias	c=clear
 alias	cdbednarkcom="cd $DirBednarkCom"
 alias   cdbuddyup="cd $DirGitLocal/buddyup.github.adevore"
 alias   cddada="cd $DirDropbox/Rob/dada"
