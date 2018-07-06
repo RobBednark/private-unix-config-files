@@ -608,7 +608,7 @@ alias moovel-ssh-host="~/bin/ssh-host.py"
 alias ssh.rs.mobility="ssh ubuntu@beta.mobility.ridescout.com -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias ssh.rs.providers="ssh ubuntu@52.27.32.0 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias ssh.rs.gateway="ssh ubuntu@54.191.144.62 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
-# alias   ssh.rs.transit="ssh ubuntu@54.191.119.117 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
+# alias ssh.rs.transit="ssh ubuntu@54.191.119.117 -i ~/repos/na-providers-python/ridescout-backend-developer.pem.txt"
 alias ssh.rs.ingestion="ssh ubuntu@ec2-52-88-39-172.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
 alias ssh.rs.transit="ssh ubuntu@ec2-54-191-119-117.us-west-2.compute.amazonaws.com -i $DirMoovel/certs/ridescoutingestion.pem"
 alias scp.jump.server="~/repos.devops/it/aws/tools/vpc-tunnel.sh development 172.18.1.21 9998; sleep 1.5; scp -P 9998 127.0.0.1:myfile ."
@@ -658,13 +658,13 @@ alias curl.status.code="curl --write-out 'http_code=[%{http_code}]'"
 alias curl.status.code.2="curl --include"
 alias curl.verbose="curl -v --write-out 'http_code=[%{http_code}] \nlocal_ip=[%{local_ip}]; remote_ip=[%{remote_ip}]\nredirect_url=[%{redirect_url}]\nsize_download=[%{size_download}] size_header=[%{size_header}] size_request=[%{size_request}] size_upload=[%{size_upload}]\nspeed_download=[%{speed_download}] bytes per second; speed_upload=[%{speed_upload}] bytes per second \ntime_appconnect=[%{time_appconnect}] time_connect=[%{time_connect}] seconds; time_namelookup=[%{time_namelookup}] time_total[%{time_total}] seconds; '"
 
-alias   datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
-alias   dc='docker-compose'
-alias   dclogs='docker-compose logs --timestamps --follow'
+alias datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
+alias dc='docker-compose'
+alias dclogs='docker-compose logs --timestamps --follow'
 alias diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
 alias dotrc="source $FileRc"
 
-alias   finddropboxconflicted='find $DirDropbox | grep conflicted'
+alias finddropboxconflicted='find $DirDropbox | grep conflicted'
 alias findex="ls -l | grep '^...x'"
 if uname | grep -i linux > /dev/null; then
 	true
@@ -700,8 +700,8 @@ alias gr="git rebase -i --autosquash"  # need to supply a commit-ish
 alias gs="git status"
 alias grep="grep --color"
 
-#alias   git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
-alias   git.branch.mv.rename.remote="echo '
+#alias git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
+alias git.branch.mv.rename.remote="echo '
 1. Rename your local branch.
      If you are on the branch you want to rename:
          git branch -m new-name
@@ -756,7 +756,7 @@ alias git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias git.vim.cached.staged='vim $(git diff --name-only --cached)'
 alias git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
 alias git.vim.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filenames.new.untracked)'
-#alias   git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
+#alias git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
 alias help.find.delete='echo find . -name "*.pyc" -delete'
 
@@ -764,19 +764,19 @@ if $MacOSX; then
 	alias ls="ls -G"
     # Commented-out Wed 3/5/14 4:20pm after upgrade to Mavericks.
     # I cannot get mvim working with command-t on Mavericks.
-    #alias   vim='mvim -v'
-    alias   iphone.simulator="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator"
+    #alias vim='mvim -v'
+    alias iphone.simulator="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator"
 else
 	alias ls="ls -CF --color"
     alias  gvim="  /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim72/gvim.exe"
     alias  gvimdiff="c:/WINDOWS/gvimdiff.bat"
 fi
 
-alias   idle='env python3 /usr/lib/python3.2/idlelib/idle.py &'
-alias   ipaddr='ipconfig getifaddr en0'
-alias   ipaddr-2='ifconfig | grep inet'
+alias idle='env python3 /usr/lib/python3.2/idlelib/idle.py &'
+alias ipaddr='ipconfig getifaddr en0'
+alias ipaddr-2='ifconfig | grep inet'
 
-alias   lsless="ls -lt|less"
+alias lsless="ls -lt|less"
 alias lsx="ls -l | grep '^-..x'"
 alias lib="title library; telnet multnomah.lib.or.us"
 
@@ -784,19 +784,19 @@ alias macos-clear-dns-cache="sudo killall -v -HUP mDNSResponder"
 alias macos-clear-dns-cache-show="sudo killall -v -d mDNSResponder"  # -d ==> print info, don't send signal
 alias macos-reboot-wifi="(set -x; ifconfig en0; sudo ifconfig en0 down; sudo ifconfig en0 up; sleep 2; ifconfig en0)"
 alias mv="mv -i"
-alias   mycmd_old_pre_v1.7_django_versions='(set -x; rm -f mydb.db db.sqlite3;./manage.py syncdb --noinput; ./manage.py mycmd)'
-alias   mycmd='(set -x; rm -rf mydb.db db.sqlite3 myapp/migrations;./manage.py makemigrations; ./manage.py migrate; ./manage.py mycmd)'
-alias   mycmd.nosync='(set -x; ./manage.py mycmd)'
+alias mycmd_old_pre_v1.7_django_versions='(set -x; rm -f mydb.db db.sqlite3;./manage.py syncdb --noinput; ./manage.py mycmd)'
+alias mycmd='(set -x; rm -rf mydb.db db.sqlite3 myapp/migrations;./manage.py makemigrations; ./manage.py migrate; ./manage.py mycmd)'
+alias mycmd.nosync='(set -x; ./manage.py mycmd)'
 
-alias   open.postgresql.manual="open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
-alias   open.resume="open $DirResume/*pdf"
-alias   open.solr.manual="open $DirDropbox/Rob/apache-solr-ref-guide-4.10-downloaded-Feb-20-2015.pdf"
-alias   open.sqlalchemy.manual="open $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
-alias   open.sqlalchemy.manual.adobe.reader="open.adobe.reader $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
-alias   open.the.effective.engineer="open $DirDropbox/Rob/the-effective-engineer-sample.pdf"
+alias open.postgresql.manual="open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
+alias open.resume="open $DirResume/*pdf"
+alias open.solr.manual="open $DirDropbox/Rob/apache-solr-ref-guide-4.10-downloaded-Feb-20-2015.pdf"
+alias open.sqlalchemy.manual="open $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
+alias open.sqlalchemy.manual.adobe.reader="open.adobe.reader $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
+alias open.the.effective.engineer="open $DirDropbox/Rob/the-effective-engineer-sample.pdf"
 
 if $MacOSX; then
-alias   osx.wifi.reboot="networksetup -setairportpower en1 off; networksetup -setairportpower en1 on"
+alias osx.wifi.reboot="networksetup -setairportpower en1 off; networksetup -setairportpower en1 on"
 fi
 
 alias pgoog="ping google.com"
