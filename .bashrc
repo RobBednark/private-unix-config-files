@@ -175,12 +175,12 @@ export RCSINIT=" -zLT"  # RCSINIT - options that get prepended to rcs commands. 
 
 if echo $OSTYPE | grep -i linux > /dev/null; then
  ## ASSERT: this is Linux
-	export PATH="$PATH:/usr/bin"
-	export PATH="$PATH:/sbin"
-	export PATH="$PATH:/usr/sbin"
-	export PATH="$PATH:/home/sara/bin"
+    export PATH="$PATH:/usr/bin"
+    export PATH="$PATH:/sbin"
+    export PATH="$PATH:/usr/sbin"
+    export PATH="$PATH:/home/sara/bin"
 else
-	:
+    :
 fi
 
 # export AWS_ACCESS_KEY_ID='AKIAJME5CORBB3EJ3X5Q'
@@ -195,9 +195,9 @@ export OSU_API_KEY='be0ebeaa7260905173375e8e26611192cf1c2c61'
 
 CmdDatestamp='date +%Y.%m.%d_%H.%M.%S.%a'
 if hostname | grep 'littlered-ubuntu' > /dev/null; then
-	DirSaraDocs="~/windows.sara.documents"
+    DirSaraDocs="~/windows.sara.documents"
 else
-	DirSaraDocs="/cygdrive/c/Users/sara/Documents"
+    DirSaraDocs="/cygdrive/c/Users/sara/Documents"
 fi
 IBM=false
 
@@ -269,11 +269,11 @@ FileJTmpQuizCopy="$DirQuiz/j.interim.txt"
 FileLearnTodo="$DirQuiz/db_want_to_learn_find_out_get_answers_ask_google_helpouts_stackoverflow_todo.txt"
 FileMyPsychology="$DirDoc/my.psychology.txt"
 if hostname | grep 'littlered-ubuntu' > /dev/null; then
-	DirCygwin="~/windows.cygwin.home.sara"
-	#FileRc="$DirCygwin/.bashrc"
-	FileRc="$DirUnixConfigFiles/.bashrc"
+    DirCygwin="~/windows.cygwin.home.sara"
+    #FileRc="$DirCygwin/.bashrc"
+    FileRc="$DirUnixConfigFiles/.bashrc"
 else
-	FileRc="$DirUnixConfigFiles/.bashrc"
+    FileRc="$DirUnixConfigFiles/.bashrc"
 fi
 FilePeopleHtml="$DirBednarkCom/people.I.know.html"
 FilePeopleTxt="$DirDoc/people.I.know.txt"
@@ -667,14 +667,14 @@ alias dotrc="source $FileRc"
 alias finddropboxconflicted='find $DirDropbox | grep conflicted'
 alias findex="ls -l | grep '^...x'"
 if uname | grep -i linux > /dev/null; then
-	true
+    true
 elif $MacOSX; then
     alias chrome="open -a Google\ Chrome"
     alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
-	#alias firefox="open /Applications/"
+    #alias firefox="open /Applications/"
     :
 else
-	alias firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
+    alias firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
 fi
 
 ################################################################################
@@ -761,13 +761,13 @@ alias git.vim.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filena
 alias help.find.delete='echo find . -name "*.pyc" -delete'
 
 if $MacOSX; then
-	alias ls="ls -G"
+    alias ls="ls -G"
     # Commented-out Wed 3/5/14 4:20pm after upgrade to Mavericks.
     # I cannot get mvim working with command-t on Mavericks.
     #alias vim='mvim -v'
     alias iphone.simulator="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator"
 else
-	alias ls="ls -CF --color"
+    alias ls="ls -CF --color"
     alias gvim="  /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim72/gvim.exe"
     alias gvimdiff="c:/WINDOWS/gvimdiff.bat"
 fi
@@ -977,22 +977,22 @@ function aws.instance.info() {
 }
 
 function check.cmd.before.tests() {
-	for oneFile in `\ls -1`; do
-		echo "+ grep $oneFile cmd.before.tests"
-		grep $oneFile cmd.before.tests
-		rc="$?"
-		if [ $rc -eq 0 ]; then
-			echo "YES: $oneFile"
-		else
-			echo "NO : $oneFile"
-		fi
-	done
+    for oneFile in `\ls -1`; do
+        echo "+ grep $oneFile cmd.before.tests"
+        grep $oneFile cmd.before.tests
+        rc="$?"
+        if [ $rc -eq 0 ]; then
+            echo "YES: $oneFile"
+        else
+            echo "NO : $oneFile"
+        fi
+    done
 }
 
 function cilm () {
-	DirBase=`dirname $1`
-	mkdir -p $DirBase/RCS
-	ci -zLT -t-. -l -m. $*
+    DirBase=`dirname $1`
+    mkdir -p $DirBase/RCS
+    ci -zLT -t-. -l -m. $*
 }
 function cd.package.dir() {
     # cd to the directory that contains the specified python package
@@ -1032,11 +1032,11 @@ function emailaddr () {
   grep -i $@ $FileEmailAddrs
 }
 function find.portal () {
-	 find .|xargs grep $@ /dev/null
+     find .|xargs grep $@ /dev/null
 }
 function vifind.portal() {
-	 files=`find .|xargs grep -l $@ /dev/null`
-	 vim -R $files
+     files=`find .|xargs grep -l $@ /dev/null`
+     vim -R $files
 }
 
 function git.branch.show() {  
@@ -1110,7 +1110,7 @@ function git.diff.old () {
 }
 
 function grepaliases () {
-	grep -i $@ $FileEmailAddrs
+    grep -i $@ $FileEmailAddrs
 }
 function pless() {
     # pipe stdout/stderr to less
@@ -1132,7 +1132,7 @@ function ln_node_modules() {
     ln -s $_target node_modules
 }
 function ninja.grep.tests () {
-	egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@ 
+    egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@ 
 }
 function npm-exec () {
     # Run a command that is an executable
@@ -1168,14 +1168,14 @@ function rcs.unlock.lock() {
 }
 
 function scp.sync() {
-	allFiles=""
-	for oneFile in $@
-	do
-		allFiles="$allFiles $DirDriverSync/$oneFile"
-	done
-	set -x
-	scp -p $allFiles .
-	set +x
+    allFiles=""
+    for oneFile in $@
+    do
+        allFiles="$allFiles $DirDriverSync/$oneFile"
+    done
+    set -x
+    scp -p $allFiles .
+    set +x
 }
 
 function subl.django() {
@@ -1202,7 +1202,7 @@ title.window() { title_set 2 $@; }
 
 
 function titlessh {
-	ssh $Rob ~/bin/title $@
+    ssh $Rob ~/bin/title $@
 }
 ### Note: this function must be defined after the "alias cilm", otherwise cilm is not resolved in this function.
 function rcsdiff_files_differ {
@@ -1284,15 +1284,15 @@ function vici () {
     cd $cur_dir
 }
 function vici.old () {
-	DirBase=`dirname $1`
+    DirBase=`dirname $1`
     # Create the RCS dir if it doesn't exist
-	mkdir -p $DirBase/RCS
+    mkdir -p $DirBase/RCS
     files="$@"
 
-	rcsdiff $files
-	echo "==================================================================="
+    rcsdiff $files
+    echo "==================================================================="
     # checkin all the files before editing them
-	cilm $files
+    cilm $files
     if ! rcsdiff_files_differ $files; then
             # Assert: the files are different, even after attempting to check them all in
             for oneFile in $files; do
@@ -1324,153 +1324,153 @@ function vici.old () {
     fi
     echo "Hit return to continue..."; read x
     # Edit the files
-	vim $files
+    vim $files
     # Show the diffs
-	rcsdiff $files
-	echo "==================================================================="
+    rcsdiff $files
+    echo "==================================================================="
     # Checkin the files again
-	cilm $files
+    cilm $files
 }
-function	vabout() { 
-	title aboutMe
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileAbout` &)
-	vici $FileAbout $FileIndex
+function    vabout() { 
+    title aboutMe
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileAbout` &)
+    vici $FileAbout $FileIndex
 }
 
-function	vblog() { 
-	title blog
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileBlogHtml` &)
-	vici $FileBlogHtml $FileIndex $FileBlog $FileSiteMapXml
-	upload.to.bednark.com $FileBlogHtml $FileIndex
+function    vblog() { 
+    title blog
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileBlogHtml` &)
+    vici $FileBlogHtml $FileIndex $FileBlog $FileSiteMapXml
+    upload.to.bednark.com $FileBlogHtml $FileIndex
 }
 
 function vbooknotes() { 
-	title bookNotes
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileBooknotes` &)
-	vici $FileBooknotes $FileIndex
-	upload.to.bednark.com $FileBooknotes $FileIndex
+    title bookNotes
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileBooknotes` &)
+    vici $FileBooknotes $FileIndex
+    upload.to.bednark.com $FileBooknotes $FileIndex
 }
 
-function	vemailgroups() { 
-	title email.groups.html
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileEmailGroups` &)
-	vici $FileEmailGroups $FileIndex
-	upload.to.bednark.com $FileEmailGroups $FileIndex
+function    vemailgroups() { 
+    title email.groups.html
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileEmailGroups` &)
+    vici $FileEmailGroups $FileIndex
+    upload.to.bednark.com $FileEmailGroups $FileIndex
 }
 
-function	vcontact() { 
-	title bednark.com contact.info.cpp
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileContactInfo` &)
-	vici $FileContactInfo
-	upload.to.bednark.com $FileContactInfo
+function    vcontact() { 
+    title bednark.com contact.info.cpp
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileContactInfo` &)
+    vici $FileContactInfo
+    upload.to.bednark.com $FileContactInfo
 }
-function	vindex() { 
-	title bednark.com index.cpp
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileIndex` &)
-	vici $FileIndex
-	upload.to.bednark.com $FileIndex
+function    vindex() { 
+    title bednark.com index.cpp
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileIndex` &)
+    vici $FileIndex
+    upload.to.bednark.com $FileIndex
 }
 
-function	vpeople() { 
-	title people.I.know
-	cd $DirBednarkCom
+function    vpeople() { 
+    title people.I.know
+    cd $DirBednarkCom
     if $MacOSX; then
         # open $FilePeopleHtml http://bednark.com/people.I.know.html
         :
     else
         (firefox file:///`cygpath -m $FilePeopleHtml` &)
     fi
-	vici $DirQuiz/*people $FilePeopleHtml $FileInformixEmployees $FilePeopleTxt $FileIndex $DirFamilyTree/*txt
-	# upload.to.bednark.com $FilePeopleHtml $FileBlogHtml $FileIndex
+    vici $DirQuiz/*people $FilePeopleHtml $FileInformixEmployees $FilePeopleTxt $FileIndex $DirFamilyTree/*txt
+    # upload.to.bednark.com $FilePeopleHtml $FileBlogHtml $FileIndex
 }
 
-function	vhumor() { 
-	title humor
-	cd $DirBednarkCom
+function    vhumor() { 
+    title humor
+    cd $DirBednarkCom
     if $MacOSX; then
         open -a Google\ Chrome $FileHumor
     else
         (firefox file:///`cygpath -m $FileHumor` &)
     fi
-	vici $FileHumor $FileIndex
-	upload.to.bednark.com $FileHumor $FileIndex
+    vici $FileHumor $FileIndex
+    upload.to.bednark.com $FileHumor $FileIndex
 }
-function	vquotes() { 
-	title quotes
-	cd $DirRepoRobBednarkGithubIO
+function    vquotes() { 
+    title quotes
+    cd $DirRepoRobBednarkGithubIO
     if $MacOSX; then
         open file:///$FileQuotes $URL_robbednark_github_io/quotes.html
     else
         (firefox file:///`cygpath -m $FileQuotes` http://bednark.com/quotes.html &)
     fi
-	vici $FileQuotes $FileIndex $FileSitemap
-	git push
+    vici $FileQuotes $FileIndex $FileSitemap
+    git push
 }
-function	vrecommendations() { 
-	title recommendations
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileRecommendations` &)
-	vici $FileRecommendations $FileIndex
-	upload.to.bednark.com $FileRecommendations $FileIndex
+function    vrecommendations() { 
+    title recommendations
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileRecommendations` &)
+    vici $FileRecommendations $FileIndex
+    upload.to.bednark.com $FileRecommendations $FileIndex
 }
 
-function	vsitemap() { 
-	title site.map.cpp
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileSiteMapHtml` &)
-	vici $FileSiteMapHtml 
-	upload.to.bednark.com $FileSiteMapHtml
+function    vsitemap() { 
+    title site.map.cpp
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileSiteMapHtml` &)
+    vici $FileSiteMapHtml 
+    upload.to.bednark.com $FileSiteMapHtml
 }
-function	vsoftwarequotes() { 
-	title software.quotes
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileSoftwareQuotes` &)
-	vici $FileSoftwareQuotes $FileIndex
-	upload.to.bednark.com $FileSoftwareQuotes $FileIndex
+function    vsoftwarequotes() { 
+    title software.quotes
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileSoftwareQuotes` &)
+    vici $FileSoftwareQuotes $FileIndex
+    upload.to.bednark.com $FileSoftwareQuotes $FileIndex
 }
-function	vstories() { 
-	title stories
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileStories` &)
-	vici $FileStories $FileIndex
-	upload.to.bednark.com $FileStories $FileIndex
+function    vstories() { 
+    title stories
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileStories` &)
+    vici $FileStories $FileIndex
+    upload.to.bednark.com $FileStories $FileIndex
 }
-function	vstrings() { 
-	title violin strings survey
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileViolinStrings` &)
-	vici $FileViolinStrings $FileIndex
-	upload.to.bednark.com $FileViolinStrings $FileIndex
+function    vstrings() { 
+    title violin strings survey
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileViolinStrings` &)
+    vici $FileViolinStrings $FileIndex
+    upload.to.bednark.com $FileViolinStrings $FileIndex
 }
-function	vvocab() { 
-	title vocab
+function    vvocab() { 
+    title vocab
     cd $DirQuiz
-	cd $DirBednarkCom
-	(firefox file:///`cygpath -m $FileVocab` &)
-	vici $DirQuiz/db_vocab $FileVocab $FileIndex
-	upload.to.bednark.com $FileVocab $FileIndex
+    cd $DirBednarkCom
+    (firefox file:///`cygpath -m $FileVocab` &)
+    vici $DirQuiz/db_vocab $FileVocab $FileIndex
+    upload.to.bednark.com $FileVocab $FileIndex
 }
 
 
 function getbednark.com() {
-	rm -fr /tmp/bednark.com
-	mkdir -p /tmp/bednark.com
-	scp -p 'rob@bednark.com:/home/rob/bednark.com/docs/*html' /tmp/bednark.com
+    rm -fr /tmp/bednark.com
+    mkdir -p /tmp/bednark.com
+    scp -p 'rob@bednark.com:/home/rob/bednark.com/docs/*html' /tmp/bednark.com
 }
 function upload.defaults.to.bednark.com() {
-	upload.to.bednark.com $FileIndex $FileQuotes $FileAbout $FileBooknotes
+    upload.to.bednark.com $FileIndex $FileQuotes $FileAbout $FileBooknotes
 }
 function upload.to.bednark.com() {
-	set -xv
-	cd $DirBednarkCom
-	scp -pr $@ 'rob@bednark.com:/home/rob/bednark.com'
-	set +xv
+    set -xv
+    cd $DirBednarkCom
+    scp -pr $@ 'rob@bednark.com:/home/rob/bednark.com'
+    set +xv
 }
 function web() {
     action=$1
@@ -1510,50 +1510,50 @@ set -o vi
 # Other functions
 ################################################################################
 function cpp.bednark.com() {
-	cd $DirBednarkCom/cpp
-	#tmpDirCppOutput="$DirBednarkCom/cpp.output"
-	#mkdir -p $tmpDirCppOutput
+    cd $DirBednarkCom/cpp
+    #tmpDirCppOutput="$DirBednarkCom/cpp.output"
+    #mkdir -p $tmpDirCppOutput
 
-	if [ $# -ge 1 ]; then
-		allFiles="$*"
-	else
-		allFiles="*"
-	fi;
+    if [ $# -ge 1 ]; then
+        allFiles="$*"
+    else
+        allFiles="*"
+    fi;
 
-	for oneFile in $allFiles; do
-		# e.g., input: foo.cpp  output: foo.html
-		fileOutput=`echo $oneFile | sed -e 's/cpp/html/g'`
-		# cpp.include.file.py is a file that I wrote
-		echo "Processing file [$oneFile]..."
-		cpp.include.files.py $oneFile >  ../$fileOutput
-	done
+    for oneFile in $allFiles; do
+        # e.g., input: foo.cpp  output: foo.html
+        fileOutput=`echo $oneFile | sed -e 's/cpp/html/g'`
+        # cpp.include.file.py is a file that I wrote
+        echo "Processing file [$oneFile]..."
+        cpp.include.files.py $oneFile >  ../$fileOutput
+    done
 }
 function firefoxfile() {
-	title firefox $1
-	echo "NOTE: this firefoxfile function only works for relative paths, not for absolute paths"
-	set -x
-	if echo $1 | grep '^/' > /dev/null 2>&1; then
-		# This is an absolute path, because it starts with a "/"
-		pathWin=`cygpath -m "$1"`
-	else
-		# This is a relative path, because it does not start with a "/"
+    title firefox $1
+    echo "NOTE: this firefoxfile function only works for relative paths, not for absolute paths"
+    set -x
+    if echo $1 | grep '^/' > /dev/null 2>&1; then
+        # This is an absolute path, because it starts with a "/"
+        pathWin=`cygpath -m "$1"`
+    else
+        # This is a relative path, because it does not start with a "/"
         pwdNow=`pwd`
-		pathWin=`cygpath -m "$pwdNow/$1"`
-	fi
-	echo $pathWin
-	(firefox file:///"$pathWin" &)
-	set +x
+        pathWin=`cygpath -m "$pwdNow/$1"`
+    fi
+    echo $pathWin
+    (firefox file:///"$pathWin" &)
+    set +x
 }
 function ls.1.less() {
-	echo 'e.g., ls.1.less foo (ls -1d *foo* | less)' > /dev/null
-	ls -1d *$1* | less
+    echo 'e.g., ls.1.less foo (ls -1d *foo* | less)' > /dev/null
+    ls -1d *$1* | less
 }
 function ls.newest.files() {
-	echo "e.g., ls.newest.files 5 (shows the newest 5 files)" > /dev/null
-	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
-	number=${1:-20}
-	files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
-	ls -ltrd $files
+    echo "e.g., ls.newest.files 5 (shows the newest 5 files)" > /dev/null
+    # Need to quote the filenames, in case they have spaces in them, like the chat logs do.
+    number=${1:-20}
+    files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
+    ls -ltrd $files
 }
 function python.module.dir() {
     python $DirLearn/get_module_path.py $*
@@ -1562,31 +1562,31 @@ function vim.git.grep() {
     vim $(git grep -l $*)
 }
 function vim.ls.head() {
-	echo "e.g., vim.ls.head (edits the newest 5 files)" > /dev/null
-	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
+    echo "e.g., vim.ls.head (edits the newest 5 files)" > /dev/null
+    # Need to quote the filenames, in case they have spaces in them, like the chat logs do.
     number=5
-	files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
-	vim $files
+    files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
+    vim $files
 }
 function vim.last.n.files() {
-	echo "e.g., vim.last.n.files '*report' 10" > /dev/null
-	pattern=$1
-	number=$2
-	# Need to quote the filenames, in case they have spaces in them, like the chat logs do.
-	vim `ls -1t $pattern | head -$number`
-	#files=""
-	#for oneFile in `ls -1t $pattern | head -$number`; do
-		#files="$files \"'\"$oneFile\"'\" " 
-	#done
-	#vi -R $files
+    echo "e.g., vim.last.n.files '*report' 10" > /dev/null
+    pattern=$1
+    number=$2
+    # Need to quote the filenames, in case they have spaces in them, like the chat logs do.
+    vim `ls -1t $pattern | head -$number`
+    #files=""
+    #for oneFile in `ls -1t $pattern | head -$number`; do
+        #files="$files \"'\"$oneFile\"'\" " 
+    #done
+    #vi -R $files
 }
 function vim.files.with.pattern() {
-	echo "e.g., vim.files.with.pattern 'FAILED' '*.runxml.log*' 10" > /dev/null
-	patternGrep=$1
-	patternFile=$2
-	number=${3:-20}
-	files=`\ls -1t $patternFile | xargs --no-run-if-empty grep -iIl "$patternGrep" /dev/null | head -${number}`
-	vim -R $files
+    echo "e.g., vim.files.with.pattern 'FAILED' '*.runxml.log*' 10" > /dev/null
+    patternGrep=$1
+    patternFile=$2
+    number=${3:-20}
+    files=`\ls -1t $patternFile | xargs --no-run-if-empty grep -iIl "$patternGrep" /dev/null | head -${number}`
+    vim -R $files
 }
 function vici.grep.i() {
     patternGrep=$1
@@ -1650,63 +1650,63 @@ function tail.recent.logs() {
     (set -xv; date; tail -30f $(ls -1tr ~/logs | head -n 2) )
 }
 function tail.newest.n.files() {
-	echo "e.g., tail.newest.n.files 2 '*.log' > /dev/null" > /dev/null
-	number=${1:-1}
-	pattern=${2:-}
-	#files=`\ls -1t | xargs --no-run-if-empty find -type d -prune | head -${number}`
-	files=`find * -type f -prune | xargs \ls -1d | head -${number}`
-	files2=""
-	for oneFile in $files; do
-		if [ -d $oneFile ]; then
-			# skip directories
-			:
-		else
-			files2="$files2 $oneFile"
-		fi
-	done
-	tail -99f $files
+    echo "e.g., tail.newest.n.files 2 '*.log' > /dev/null" > /dev/null
+    number=${1:-1}
+    pattern=${2:-}
+    #files=`\ls -1t | xargs --no-run-if-empty find -type d -prune | head -${number}`
+    files=`find * -type f -prune | xargs \ls -1d | head -${number}`
+    files2=""
+    for oneFile in $files; do
+        if [ -d $oneFile ]; then
+            # skip directories
+            :
+        else
+            files2="$files2 $oneFile"
+        fi
+    done
+    tail -99f $files
 }
 function hg() {
     # hg = history | grep
-	echo "e.g., histgrep foo" > /dev/null
+    echo "e.g., histgrep foo" > /dev/null
     patternGrep="$1"
-	history | egrep -i $patternGrep
+    history | egrep -i $patternGrep
 }
 function hgt() {
     # hgt = history | grep | tail
-	echo "e.g., histgrep foo" > /dev/null
+    echo "e.g., histgrep foo" > /dev/null
     patternGrep="$1"
-	history | egrep -i $patternGrep | tail
+    history | egrep -i $patternGrep | tail
 }
 function lsgrep() {
-	echo "e.g., lsgrep foo" > /dev/null
+    echo "e.g., lsgrep foo" > /dev/null
     patternGrep="$1"
-	ls -ld *"$patternGrep"*
+    ls -ld *"$patternGrep"*
 }
 function lshead() {
-	#number=${1:-30}
-	#ls -alt | head -$number
-	where=$*
+    #number=${1:-30}
+    #ls -alt | head -$number
+    where=$*
     ls -alt $where | head -10
 }
 function findExecutables() {
-	filesExec=`find * -prune -type f -perm +111`
+    filesExec=`find * -prune -type f -perm +111`
 }
 function make.expected.all() {
-	set -x
-	findExecutables
-	../make.actual.expected $filesExec
-	set +x
+    set -x
+    findExecutables
+    ../make.actual.expected $filesExec
+    set +x
 }
 function vexec() {
-	findExecutables
-	vim $filesExec
+    findExecutables
+    vim $filesExec
 }
 function run.commands() {
-	set -x
-	/home/rbednark/bin/commands >> /home/rbednark/output/out.commands.out 2>&1 &
-	vim -R /home/rbednark/output/out.commands.out
-	set +x
+    set -x
+    /home/rbednark/bin/commands >> /home/rbednark/output/out.commands.out 2>&1 &
+    vim -R /home/rbednark/output/out.commands.out
+    set +x
 }
 function tab() {
   # I got this script from Howard, July 2012, for doing tabs in Mac Terminal.
