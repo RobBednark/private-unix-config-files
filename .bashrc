@@ -480,109 +480,109 @@ function curl-agency-sync-all() {
     curl-agency-sync-sfmuni-prod
     set +x
 }
-function  curl-agency-sync-atlanta-streetcar-prod-ios() {
+function curl-agency-sync-atlanta-streetcar-prod-ios() {
     curl-agency-sync "https://atlanta-streetcar.transitsherpa.com" "atlanta-streetcar-prod" "ios" 2
 }
-function  curl-agency-sync-baltimore-test-null() {
+function curl-agency-sync-baltimore-test-null() {
     curl-agency-sync "https://baltimore-mta-test.gslabs.us" "baltimore-mta-test" "null" 3
 }
-function  curl-agency-sync-bart-docker() {
+function curl-agency-sync-bart-docker() {
     curl-agency-sync "http://localhost:80" "bart-docker" "ios" 3
 }
-function  curl-agency-sync-bart-prod() {
+function curl-agency-sync-bart-prod() {
     curl-agency-sync "https://bart.transitsherpa.com" "bart-prod" "ios" 3
 }
-function  curl-agency-sync-bart-stage() {
+function curl-agency-sync-bart-stage() {
     curl-agency-sync "https://bart-stage.gslabs.us" "bart-stage" "ios" 3
 }
-function  curl-agency-sync-caltrain-docker() {
+function curl-agency-sync-caltrain-docker() {
     curl-agency-sync "http://localhost:80" "caltrain-docker" "ios" 3
 }
-function  curl-agency-sync-caltrain-prod() {
+function curl-agency-sync-caltrain-prod() {
     curl-agency-sync "https://caltrain.transitsherpa.com" "caltrain-prod" "ios" 3
 }
-function  curl-agency-sync-hampton-roads-hrt-test() {
+function curl-agency-sync-hampton-roads-hrt-test() {
     curl-agency-sync "https://hampton-roads-hrt-test.gslabs.us" "hampton-roads-hrt-test" "ios" 3
 }
-function  curl-agency-sync-houston-dev() {
+function curl-agency-sync-houston-dev() {
     curl-agency-sync "https://houston-metro-dev.gslabs.us" "houston-metro-dev" "ios" 2
 }
-function  curl-agency-sync-houston-prod() {
+function curl-agency-sync-houston-prod() {
     curl-agency-sync "https://ridemetro.transitsherpa.com" "houston-metro-prod" "ios" 2
 }
-function  curl-agency-sync-metrotransit-dev() {
+function curl-agency-sync-metrotransit-dev() {
     curl-agency-sync "https://metrotransit-dev.gslabs.us" "metrotransit-dev" "ios" 3
 }
-function  curl-agency-sync-metrotransit-prod() {
+function curl-agency-sync-metrotransit-prod() {
     curl-agency-sync "https://metrotransit.transitsherpa.com" "metrotransit-prod" "ios" 3
 }
-function  curl-agency-sync-octa-docker() {
+function curl-agency-sync-octa-docker() {
     curl-agency-sync "http://localhost:80" "octa-docker" "ios" 2
 }
-function  curl-agency-sync-octa-prod() {
+function curl-agency-sync-octa-prod() {
     curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 2
 }
-function  curl-agency-sync-octa-prod-reduced() {
+function curl-agency-sync-octa-prod-reduced() {
     curl-agency-sync "https://ocbus.transitsherpa.com" "octa-prod" "ios" 2 '?fare=reduced'
 }
-function  curl-agency-sync-san-diego-dev-android() {
+function curl-agency-sync-san-diego-dev-android() {
     curl-agency-sync "https://san-diego-dev.gslabs.us" "san-diego-dev" "android" 3
 }
-function  curl-agency-sync-san-diego-dev-ios() {
+function curl-agency-sync-san-diego-dev-ios() {
     curl-agency-sync "https://san-diego-dev.gslabs.us" "san-diego-dev" "ios" 3
 }
-function  curl-agency-sync-san-diego-dev-null() {
+function curl-agency-sync-san-diego-dev-null() {
     curl-agency-sync "https://san-diego-dev.gslabs.us" "san-diego-dev" "null" 3
 }
-function  curl-agency-sync-san-diego-docker-android() {
+function curl-agency-sync-san-diego-docker-android() {
     curl-agency-sync "http://localhost:80" "san-diego-docker" "android" 3
 }
-function  curl-agency-sync-san-diego-docker-ios() {
+function curl-agency-sync-san-diego-docker-ios() {
     curl-agency-sync "http://localhost:80" "san-diego-docker" "ios" 3
 }
-function  curl-agency-sync-san-diego-docker-null() {
+function curl-agency-sync-san-diego-docker-null() {
     curl-agency-sync "http://localhost:80" "san-diego-docker" "null" 3
 }
-function  curl-agency-sync-san-diego-prod-android() {
+function curl-agency-sync-san-diego-prod-android() {
     curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "android" 3
 }
-function  curl-agency-sync-san-diego-prod-ios() {
+function curl-agency-sync-san-diego-prod-ios() {
     curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "ios" 3
 }
-function  curl-agency-sync-san-diego-prod-null() {
+function curl-agency-sync-san-diego-prod-null() {
     curl-agency-sync "https://compass.transitsherpa.com" "san-diego-prod" "null" 3
 }
-function  curl-agency-sync-san-diego-stage-android() {
+function curl-agency-sync-san-diego-stage-android() {
     curl-agency-sync "https://san-diego-stage.gslabs.us" "san-diego-stage" "android" 3
 }
-function  curl-agency-sync-san-diego-stage-ios() {
+function curl-agency-sync-san-diego-stage-ios() {
     curl-agency-sync "https://san-diego-stage.gslabs.us" "san-diego-stage" "ios" 3
 }
-function  curl-agency-sync-san-diego-stage-null() {
+function curl-agency-sync-san-diego-stage-null() {
     curl-agency-sync "https://san-diego-stage.gslabs.us" "san-diego-stage" "null" 3
 }
-function  curl-agency-sync-san-diego-test-android() {
+function curl-agency-sync-san-diego-test-android() {
     curl-agency-sync "https://san-diego-test.gslabs.us" "san-diego-test" "android" 3
 }
-function  curl-agency-sync-san-diego-test-ios() {
+function curl-agency-sync-san-diego-test-ios() {
     curl-agency-sync "https://san-diego-test.gslabs.us" "san-diego-test" "ios" 3
 }
-function  curl-agency-sync-san-diego-test-null() {
+function curl-agency-sync-san-diego-test-null() {
     curl-agency-sync "https://san-diego-test.gslabs.us" "san-diego-test" "null" 3
 }
-function  curl-agency-sync-san-antonio-via-prod-android() {
+function curl-agency-sync-san-antonio-via-prod-android() {
     curl-agency-sync "https://via.transitsherpa.com" "san-antonio-via-prod" "android" 3
 }
-function  curl-agency-sync-san-antonio-via-prod-ios() {
+function curl-agency-sync-san-antonio-via-prod-ios() {
     curl-agency-sync "https://via.transitsherpa.com" "san-antonio-via-prod" "ios" 3
 }
-function  curl-agency-sync-san-antonio-via-stage-ios() {
+function curl-agency-sync-san-antonio-via-stage-ios() {
     curl-agency-sync "https://san-antonio-via-stage.gslabs.us" "san-antonio-via-stage" "ios" 3
 }
-function  curl-agency-sync-santa-clara-vta-docker() {
+function curl-agency-sync-santa-clara-vta-docker() {
     curl-agency-sync "http://localhost:80" "santa-clara-vta-docker" "ios" 3
 }
-function  curl-agency-sync-santa-clara-vta-prod() {
+function curl-agency-sync-santa-clara-vta-prod() {
     curl-agency-sync "https://vtaezfare.transitsherpa.com" "santa-clara-vta-prod" "ios" 3
 }
 function curl-agency-sync-san-diego-all() {
@@ -590,10 +590,10 @@ function curl-agency-sync-san-diego-all() {
     curl-agency-sync-san-diego-dev-ios | jq . > $DirMoovelAgencyObjects/san-diego/$(datestamp)-san-diego-dev-ios.json
     curl-agency-sync-san-diego-dev-null | jq . > $DirMoovelAgencyObjects/san-diego/$(datestamp)-san-diego-dev-null.json
 }
-function  curl-agency-sync-sfmuni-prod() {
+function curl-agency-sync-sfmuni-prod() {
     curl-agency-sync "https://sfmta.transitsherpa.com" "sfmuni-prod" "ios" 2
 }
-function  curl-agency-sync-sfmuni-prod-v3() {
+function curl-agency-sync-sfmuni-prod-v3() {
     curl-agency-sync "https://sfmta.transitsherpa.com" "sfmuni-prod" "ios" 3
 }
 
@@ -1332,14 +1332,14 @@ function vici.old () {
     # Checkin the files again
     cilm $files
 }
-function    vabout() { 
+function vabout() { 
     title aboutMe
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileAbout` &)
     vici $FileAbout $FileIndex
 }
 
-function    vblog() { 
+function vblog() { 
     title blog
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileBlogHtml` &)
@@ -1355,7 +1355,7 @@ function vbooknotes() {
     upload.to.bednark.com $FileBooknotes $FileIndex
 }
 
-function    vemailgroups() { 
+function vemailgroups() { 
     title email.groups.html
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileEmailGroups` &)
@@ -1363,14 +1363,14 @@ function    vemailgroups() {
     upload.to.bednark.com $FileEmailGroups $FileIndex
 }
 
-function    vcontact() { 
+function vcontact() { 
     title bednark.com contact.info.cpp
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileContactInfo` &)
     vici $FileContactInfo
     upload.to.bednark.com $FileContactInfo
 }
-function    vindex() { 
+function vindex() { 
     title bednark.com index.cpp
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileIndex` &)
@@ -1378,7 +1378,7 @@ function    vindex() {
     upload.to.bednark.com $FileIndex
 }
 
-function    vpeople() { 
+function vpeople() { 
     title people.I.know
     cd $DirBednarkCom
     if $MacOSX; then
@@ -1391,7 +1391,7 @@ function    vpeople() {
     # upload.to.bednark.com $FilePeopleHtml $FileBlogHtml $FileIndex
 }
 
-function    vhumor() { 
+function vhumor() { 
     title humor
     cd $DirBednarkCom
     if $MacOSX; then
@@ -1402,7 +1402,7 @@ function    vhumor() {
     vici $FileHumor $FileIndex
     upload.to.bednark.com $FileHumor $FileIndex
 }
-function    vquotes() { 
+function vquotes() { 
     title quotes
     cd $DirRepoRobBednarkGithubIO
     if $MacOSX; then
@@ -1413,7 +1413,7 @@ function    vquotes() {
     vici $FileQuotes $FileIndex $FileSitemap
     git push
 }
-function    vrecommendations() { 
+function vrecommendations() { 
     title recommendations
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileRecommendations` &)
@@ -1421,35 +1421,35 @@ function    vrecommendations() {
     upload.to.bednark.com $FileRecommendations $FileIndex
 }
 
-function    vsitemap() { 
+function vsitemap() { 
     title site.map.cpp
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileSiteMapHtml` &)
     vici $FileSiteMapHtml 
     upload.to.bednark.com $FileSiteMapHtml
 }
-function    vsoftwarequotes() { 
+function vsoftwarequotes() { 
     title software.quotes
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileSoftwareQuotes` &)
     vici $FileSoftwareQuotes $FileIndex
     upload.to.bednark.com $FileSoftwareQuotes $FileIndex
 }
-function    vstories() { 
+function vstories() { 
     title stories
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileStories` &)
     vici $FileStories $FileIndex
     upload.to.bednark.com $FileStories $FileIndex
 }
-function    vstrings() { 
+function vstrings() { 
     title violin strings survey
     cd $DirBednarkCom
     (firefox file:///`cygpath -m $FileViolinStrings` &)
     vici $FileViolinStrings $FileIndex
     upload.to.bednark.com $FileViolinStrings $FileIndex
 }
-function    vvocab() { 
+function vvocab() { 
     title vocab
     cd $DirQuiz
     cd $DirBednarkCom
