@@ -82,8 +82,6 @@ filetype plugin indent on
 set nocompatible               " be iMproved
 filetype off                   " required by Vundle!  
 
-" Disable Pydiction
-set runtimepath-=~/.vim/bundle/Pydiction
 " Disable python_mode
 set runtimepath-=~/.vim/bundle/python_mode
 
@@ -125,10 +123,6 @@ Bundle 'gcmt/taboo.vim'
 " https://github.com/vim-airline/vim-airline
 " (installed 6/4/18)
 Bundle 'vim-airline/vim-airline'
-
-" Bundle 'Python-mode-klen'  -- commented-out because getting urandom errors
-" python tab completion:
-" Bundle 'Pydiction'  -- commented-out because I'm getting poor autocompletion; I'm not sure if it's coming from Pydiction or something else
 
 " ctrlp -- control-p -- file browser plugin, like Command-T; does not require Ruby like Command-T does
 Bundle 'ctrlpvim/ctrlp.vim'
