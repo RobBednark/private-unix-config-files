@@ -271,10 +271,6 @@ FileLearnTodo="$DirQuiz/db_want_to_learn_find_out_get_answers_ask_google_helpout
 FileMyPsychology="$DirDoc/my.psychology.txt"
 if hostname | grep 'littlered-ubuntu' > /dev/null; then
     DirCygwin="~/windows.cygwin.home.sara"
-    #FileRc="$DirCygwin/.bashrc"
-    FileRc="$DirUnixConfigFiles/.bashrc"
-else
-    FileRc="$DirUnixConfigFiles/.bashrc"
 fi
 FilePeopleHtml="$DirBednarkCom/people.I.know.html"
 FilePeopleTxt="$DirDoc/people.I.know.txt"
@@ -283,6 +279,7 @@ FilePicts="$DirTxt/sent.list.txt"
 FilePingOutput=~/tmp/ping.monitor.$$
 FilePingSymlinkActive=~/tmp/ping.monitor.active
 FileQuotes="$DirRepoRobBednarkGithubIO/quotes.html"
+FileRc="$DirUnixConfigFiles/.bashrc"
 FileRecommendations="$DirBednarkCom/cpp/i.recommend.cpp"
 FileSitemap="$DirBednarkCom/sitemap.xml"
 FileViolinStrings="$DirBednarkCom/cpp/violin.strings.survey.cpp"
@@ -701,6 +698,9 @@ alias gr="git rebase -i --autosquash"  # need to supply a commit-ish
 alias gs="git status"
 alias grep="grep --color"
 
+################################################################################
+# #git long aliases
+################################################################################
 #alias git.show.date.last.commit="git show --quiet --pretty='%cd' --no-pager  # just show commit date, and don't use a pager (e.g., less)
 alias git.branch.mv.rename.remote="echo '
 1. Rename your local branch.
@@ -1110,6 +1110,9 @@ function git.diff.old () {
   (set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)
 }
 
+function grc() {
+    grep -i $@ $FileRc
+}
 function grepaliases () {
     grep -i $@ $FileEmailAddrs
 }
