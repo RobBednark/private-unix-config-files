@@ -1113,9 +1113,6 @@ function git.diff.old () {
 function grc() {
     grep -i $@ $FileRc
 }
-function grepaliases () {
-    grep -i $@ $FileEmailAddrs
-}
 function pless() {
     # pipe stdout/stderr to less
     $@ 2>&1 | less
