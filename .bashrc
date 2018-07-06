@@ -47,11 +47,17 @@ fi
 # oh-my-zsh END
 ################################################################################
 
+# ANSI escape sequences terminal colors
+ANSI_ESC_SEQ_BLUE="\[$(tput setaf 105)\]"
+ANSI_ESC_SEQ_GREEN="\[$(tput setaf 2)\]"
+ANSI_ESC_SEQ_RED="\[$(tput setaf 162)\]"
+ANSI_ESC_SEQ_RESET="\[$(tput sgr0)\]"
+
 if echo $SHELL | grep bash > /dev/null; then
     # Set the interactive shell prompt to [username@machinename working-directory mm/dd hh:mm:ss ]
     # \u@\h ==> username@machinename
- # \w ==> working-directory
-    export PS1="\w \$(git.branch.show) \D{%m/%d} \t\n$ "
+    # \w ==> working-directory
+    export PS1="${ANSI_ESC_SEQ_RED}\w ${ANSI_ESC_SEQ_GREEN}\$(git.branch.show) ${ANSI_ESC_SEQ_BLUE}\D{%m/%d} \t\n${ANSI_ESC_SEQ_RESET}$ "
 fi
 #
 # e.g.,
@@ -69,9 +75,6 @@ if hostname | grep -i atlatl > /dev/null; then
 else   
     Atlatl=false
 fi
-
-#export PS1="\u@\h \w \d \t$ "
-#export PS1="$ "
 
 if echo $SHELL | grep zsh > /dev/null; then
     # zsh prompt
