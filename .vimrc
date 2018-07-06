@@ -78,7 +78,7 @@ filetype plugin indent on
 :set wildignore+=*.pyc,.git,node_modules
 
 " 8/5/12 Vundle section.
-" I installed vundle so that I could easily install the headlights plugin.  -Rob Bednark, 8/5/12
+" I installed the vundle package manager to easily manage vim packages/plugins.  -Rob Bednark, 8/5/12
 set nocompatible               " be iMproved
 filetype off                   " required by Vundle!  
 
