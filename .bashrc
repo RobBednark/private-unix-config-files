@@ -49,7 +49,7 @@ fi
 if echo $SHELL | grep bash > /dev/null; then
     # Set the interactive shell prompt to [username@machinename working-directory mm/dd hh:mm:ss ]
     # \u@\h ==> username@machinename
-	# \w ==> working-directory
+ # \w ==> working-directory
     export PS1="\w \$(git.branch.show) \D{%m/%d} \t\n$ "
 fi
 #
@@ -59,7 +59,7 @@ fi
 if uname | grep Darwin  > /dev/null; then
     MacOSX=true
 else
-	alias	ls="ls -CF --color"
+ alias ls="ls -CF --color"
     MacOSX=false
 fi
 
@@ -174,7 +174,7 @@ export RCSINIT=" -zLT"  # RCSINIT - options that get prepended to rcs commands. 
 ##export PYTHONPATH="C:/cygwin/home/sara/selenium/selenium-python-client-driver-1.0.1"
 
 if echo $OSTYPE | grep -i linux > /dev/null; then
-	## ASSERT: this is Linux
+ ## ASSERT: this is Linux
 	export PATH="$PATH:/usr/bin"
 	export PATH="$PATH:/sbin"
 	export PATH="$PATH:/usr/sbin"
@@ -648,33 +648,33 @@ alias postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by
 
 alias ci="ci -zLT"
 # I think "cmd" works for the default cygwin window, but not for rxvt
-#alias	cls="cmd /c cls"
+#alias cls="cmd /c cls"
 # The following echo sequence works for rxvt.
 alias cls="echo -ne '\033c'" 
-alias	co="co -zLT"
-alias	cp="cp -ip "
-alias	curl.headers="curl --include"
-alias	curl.status.code="curl --write-out 'http_code=[%{http_code}]'"
-alias	curl.status.code.2="curl --include"
-alias	curl.verbose="curl -v --write-out 'http_code=[%{http_code}] \nlocal_ip=[%{local_ip}]; remote_ip=[%{remote_ip}]\nredirect_url=[%{redirect_url}]\nsize_download=[%{size_download}] size_header=[%{size_header}] size_request=[%{size_request}] size_upload=[%{size_upload}]\nspeed_download=[%{speed_download}] bytes per second; speed_upload=[%{speed_upload}] bytes per second \ntime_appconnect=[%{time_appconnect}] time_connect=[%{time_connect}] seconds; time_namelookup=[%{time_namelookup}] time_total[%{time_total}] seconds; '"
+alias co="co -zLT"
+alias cp="cp -ip "
+alias curl.headers="curl --include"
+alias curl.status.code="curl --write-out 'http_code=[%{http_code}]'"
+alias curl.status.code.2="curl --include"
+alias curl.verbose="curl -v --write-out 'http_code=[%{http_code}] \nlocal_ip=[%{local_ip}]; remote_ip=[%{remote_ip}]\nredirect_url=[%{redirect_url}]\nsize_download=[%{size_download}] size_header=[%{size_header}] size_request=[%{size_request}] size_upload=[%{size_upload}]\nspeed_download=[%{speed_download}] bytes per second; speed_upload=[%{speed_upload}] bytes per second \ntime_appconnect=[%{time_appconnect}] time_connect=[%{time_connect}] seconds; time_namelookup=[%{time_namelookup}] time_total[%{time_total}] seconds; '"
 
 alias   datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
 alias   dc='docker-compose'
 alias   dclogs='docker-compose logs --timestamps --follow'
-alias	diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
-alias	dotrc="source $FileRc"
+alias diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
+alias dotrc="source $FileRc"
 
 alias   finddropboxconflicted='find $DirDropbox | grep conflicted'
-alias	findex="ls -l | grep '^...x'"
+alias findex="ls -l | grep '^...x'"
 if uname | grep -i linux > /dev/null; then
 	true
 elif $MacOSX; then
     alias chrome="open -a Google\ Chrome"
     alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
-	#alias	firefox="open /Applications/"
+	#alias firefox="open /Applications/"
     :
 else
-	alias	firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
+	alias firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
 fi
 
 ################################################################################
@@ -761,15 +761,15 @@ alias git.vim.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filena
 alias help.find.delete='echo find . -name "*.pyc" -delete'
 
 if $MacOSX; then
-	alias	ls="ls -G"
+	alias ls="ls -G"
     # Commented-out Wed 3/5/14 4:20pm after upgrade to Mavericks.
     # I cannot get mvim working with command-t on Mavericks.
     #alias   vim='mvim -v'
     alias   iphone.simulator="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator"
 else
-	alias	ls="ls -CF --color"
-    alias 	gvim="  /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim72/gvim.exe"
-    alias 	gvimdiff="c:/WINDOWS/gvimdiff.bat"
+	alias ls="ls -CF --color"
+    alias  gvim="  /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim72/gvim.exe"
+    alias  gvimdiff="c:/WINDOWS/gvimdiff.bat"
 fi
 
 alias   idle='env python3 /usr/lib/python3.2/idlelib/idle.py &'
@@ -777,13 +777,13 @@ alias   ipaddr='ipconfig getifaddr en0'
 alias   ipaddr-2='ifconfig | grep inet'
 
 alias   lsless="ls -lt|less"
-alias	lsx="ls -l | grep '^-..x'"
-alias	lib="title library; telnet multnomah.lib.or.us"
+alias lsx="ls -l | grep '^-..x'"
+alias lib="title library; telnet multnomah.lib.or.us"
 
-alias	macos-clear-dns-cache="sudo killall -v -HUP mDNSResponder"
-alias	macos-clear-dns-cache-show="sudo killall -v -d mDNSResponder"  # -d ==> print info, don't send signal
-alias	macos-reboot-wifi="(set -x; ifconfig en0; sudo ifconfig en0 down; sudo ifconfig en0 up; sleep 2; ifconfig en0)"
-alias	mv="mv -i"
+alias macos-clear-dns-cache="sudo killall -v -HUP mDNSResponder"
+alias macos-clear-dns-cache-show="sudo killall -v -d mDNSResponder"  # -d ==> print info, don't send signal
+alias macos-reboot-wifi="(set -x; ifconfig en0; sudo ifconfig en0 down; sudo ifconfig en0 up; sleep 2; ifconfig en0)"
+alias mv="mv -i"
 alias   mycmd_old_pre_v1.7_django_versions='(set -x; rm -f mydb.db db.sqlite3;./manage.py syncdb --noinput; ./manage.py mycmd)'
 alias   mycmd='(set -x; rm -rf mydb.db db.sqlite3 myapp/migrations;./manage.py makemigrations; ./manage.py migrate; ./manage.py mycmd)'
 alias   mycmd.nosync='(set -x; ./manage.py mycmd)'
@@ -799,39 +799,39 @@ if $MacOSX; then
 alias   osx.wifi.reboot="networksetup -setairportpower en1 off; networksetup -setairportpower en1 on"
 fi
 
-alias	pgoog="ping google.com"
-alias 	pok="title poughkeepsie sanfs00; telnet 9.12.20.42; ssh rbednark@9.12.20.42"
-alias	pw3="ping w3.ibm.com"
+alias pgoog="ping google.com"
+alias  pok="title poughkeepsie sanfs00; telnet 9.12.20.42; ssh rbednark@9.12.20.42"
+alias pw3="ping w3.ibm.com"
 DirPyWin2="c:/Python27"
 DirPyWin3="c:/Python32"
 DirPy2="c:/Python27"
 DirPy3="c:/Python32"
-alias	pydocwin2="$DirPyWin2/python.exe $DirPyWin2/Lib/pydoc.py"
-alias	pydocwin3="$DirPyWin3/python.exe $DirPyWin3/Lib/pydoc.py"
-alias	pythonwin="$DirPyWin2/python.exe"
+alias pydocwin2="$DirPyWin2/python.exe $DirPyWin2/Lib/pydoc.py"
+alias pydocwin3="$DirPyWin3/python.exe $DirPyWin3/Lib/pydoc.py"
+alias pythonwin="$DirPyWin2/python.exe"
 alias   py2="$DirPy2/python.exe"
 alias   py2w="$DirPy2/pythonw.exe"
 alias   py=py2
 alias   py3="$DirPy3/python.exe"
 alias   py3w="$DirPy3/pythonw.exe"
-alias	pywin=pythonwin
+alias pywin=pythonwin
 alias   pipwin="$DirPyWin2/Scripts/pip.exe"
 
-alias	quote="echo '================================================================================'; $BinQuote --cfg $DirSync/quote.cfg --linelength 160 $FileQuotes; echo '================================================================================'"
-alias	quoteOld="echo '================================================================================'; $BinQuote --old --cfg $DirSync/quote.cfg --linelength 160 $FileQuotes; echo '================================================================================'"
+alias quote="echo '================================================================================'; $BinQuote --cfg $DirSync/quote.cfg --linelength 160 $FileQuotes; echo '================================================================================'"
+alias quoteOld="echo '================================================================================'; $BinQuote --old --cfg $DirSync/quote.cfg --linelength 160 $FileQuotes; echo '================================================================================'"
 
-alias	rm="rm -i"
+alias rm="rm -i"
 alias   rm.pyc.files="(set -x; find . -name '*.pyc' -delete; set +x)"
 
 alias   scp.nginx.logs="scp -Cpr -i $PemTixie515 ubuntu@$MachineProdWeb:/var/log/nginx ."
 alias   screensaver="gnome-screensaver-command --activate"
-alias	script_date="script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`"
-alias	script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`'
+alias script_date="script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`"
+alias script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`'
 #alias   seleniumServerRun="java -jar C:/cygwin/home/sara/selenium/selenium-server-1.0.3/selenium-server.jar"
 alias   seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/selenium-2.0b1/selenium-server-standalone-2.0b1.jar"
-#alias	sshmtproxy="echo mtd@t@2011; ssh root@mtproxy.futurewei.ebento.net"
-#alias	sshmtproxy8="echo wloe...; ssh rbednark@mtproxy8.ebento.net"
-#alias	sshtest="title douglas; ssh rbednark@$hostDouglas"
+#alias sshmtproxy="echo mtd@t@2011; ssh root@mtproxy.futurewei.ebento.net"
+#alias sshmtproxy8="echo wloe...; ssh rbednark@mtproxy8.ebento.net"
+#alias sshtest="title douglas; ssh rbednark@$hostDouglas"
 alias   ssh="ssh -A"
 alias   ssh.rob-aws="ssh -i $PemRobKey ubuntu@$MachineRobAWS"
 
@@ -849,49 +849,49 @@ alias   ping.tail.time="tail -5 $FilePingSymlinkActive; tail -99f $FilePingSymli
 alias   ping.tail.down="tail -5 $FilePingSymlinkActive; tail -9999f $FilePingSymlinkActive | grep 'SUMMARY: time DOWN:'"
 alias   ping.tail="tail -20f $FilePingSymlinkActive"
 alias   ti=title
-alias	tlab="title svc driver; telnet $MachineSvcDriver"
-alias 	tbvt3="telnet $MachineBvt3Driver9"
-alias	telm35="telnet $elm35"
-alias	telm36="telnet $elm36"
-alias	telm37="telnet $elm37"
-alias	telm50="telnet $elm50"
-alias	tritu="telnet $MachineRitu"
-alias	trob="ssh -l root $MachineRob"
-alias	ssvcdriver="title SVC Driver; ssh root@$MachineSvcDriver"
-alias	tsvcdriver="title SVC Driver; telnet $MachineSvcDriver"
-alias	taix="telnet 192.168.40.25"
+alias tlab="title svc driver; telnet $MachineSvcDriver"
+alias  tbvt3="telnet $MachineBvt3Driver9"
+alias telm35="telnet $elm35"
+alias telm36="telnet $elm36"
+alias telm37="telnet $elm37"
+alias telm50="telnet $elm50"
+alias tritu="telnet $MachineRitu"
+alias trob="ssh -l root $MachineRob"
+alias ssvcdriver="title SVC Driver; ssh root@$MachineSvcDriver"
+alias tsvcdriver="title SVC Driver; telnet $MachineSvcDriver"
+alias taix="telnet 192.168.40.25"
 
 if $MacOSX; then
     alias top="top -c d -o cpu -s 2"
 fi
 
-alias	vaddrs="title vi email addresses; vici $FileEmailAddrs"
+alias vaddrs="title vi email addresses; vici $FileEmailAddrs"
 alias   vagrant.halt='cdvagrant; vagrant status; time vagrant halt; vagrant status'
 alias   vagrant.ssh='cdvagrant; vagrant status; date; time vagrant up; date; vagrant ssh'
 alias   vagrant.status='cdvagrant; vagrant status'
 alias   vask="cd $DirQuiz; vici db_*ask*stackoverflow"
-alias	vconvert="title teamroom.how.to.convert.to.flexsan.html; cd $DirDoc; explorer.exe teamroom.how.to.convert.to.flexsan.html; vici teamroom.how.to.convert.to.flexsan.html"
-alias	vebento="cdsel; vici ebento.py"
-alias 	vhw="title Huawei; vici $FileToDo $FileHuawei $FileJ $FileDoc"
-alias	vgoserver="title teamroom.design.proposal.eliminating.GoServer.html; cd $DirDoc; explorer.exe teamroom.design.proposal.eliminating.GoServer.html; vici teamroom.design.proposal.eliminating.GoServer.html"
-alias	vgtest="title gtest.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/teamroom.brownbag.gtest.html` &); vici teamroom.brownbag.gtest.html"
+alias vconvert="title teamroom.how.to.convert.to.flexsan.html; cd $DirDoc; explorer.exe teamroom.how.to.convert.to.flexsan.html; vici teamroom.how.to.convert.to.flexsan.html"
+alias vebento="cdsel; vici ebento.py"
+alias  vhw="title Huawei; vici $FileToDo $FileHuawei $FileJ $FileDoc"
+alias vgoserver="title teamroom.design.proposal.eliminating.GoServer.html; cd $DirDoc; explorer.exe teamroom.design.proposal.eliminating.GoServer.html; vici teamroom.design.proposal.eliminating.GoServer.html"
+alias vgtest="title gtest.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/teamroom.brownbag.gtest.html` &); vici teamroom.brownbag.gtest.html"
 
-alias	vhowtorun="vici $DirDoc/teamroom.how.to.run.html"
-alias	vninja="title ninja.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/ninja.html` &); vici ninja.html"
-alias	vobs="title readme.obs.html; cd $DirDoc; explorer.exe readme.obs.html; vici readme.obs.html"
-alias	vi=vim
+alias vhowtorun="vici $DirDoc/teamroom.how.to.run.html"
+alias vninja="title ninja.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/ninja.html` &); vici ninja.html"
+alias vobs="title readme.obs.html; cd $DirDoc; explorer.exe readme.obs.html; vici readme.obs.html"
+alias vi=vim
 
 alias   vdone="vici $FileAccomplishments"
-alias 	vj.other="vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
-alias 	vj="title j; vici $FileJ ; echo vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
+alias  vj.other="vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
+alias  vj="title j; vici $FileJ ; echo vici $FileJTmp $FileToDo $FileDiary $FileHuawei"
 alias   vjtmp="title interim j; vici $FileJTmp"
-alias 	vjtmp.read.only="title j; vim -R $FileJ $FileJTmp $FileToDo $FileDiary $FileHuawei"
+alias  vjtmp.read.only="title j; vim -R $FileJ $FileJTmp $FileToDo $FileDiary $FileHuawei"
 alias   vl='vim -c "normal '\''0"'  # vim the last file that was edited in vim; '0 means the most recent file; "-c" means execute this command; I think "normal" means start in normal mode, but I'm not sure
-alias	vlyrics="title lyrics; vici $DirDoc/lyrics.txt"
+alias vlyrics="title lyrics; vici $DirDoc/lyrics.txt"
 alias   vmeetups="cd $DirQuiz; vici *meetups"
-alias 	vone="vici $DirDoc/teamroom.one.button.html"
-alias	vphone="title vphone; vici $FilePhone"
-alias 	vpicts="vici $FilePicts"
+alias  vone="vici $DirDoc/teamroom.one.button.html"
+alias vphone="title vphone; vici $FilePhone"
+alias  vpicts="vici $FilePicts"
 
 # files very active with for a limited duration
 alias   vatd="cd $DirLearn; vici atd_survey_filter.py"
@@ -946,21 +946,21 @@ alias   vvim="title vvim; cd $DirQuiz; vici db_vim"
 alias   vtixie="title vtixie; cd $DirQuiz; vici $FileQuizTixie $FileNotesTixie"
 alias   vtixieconfidential="title vtixie; vici $DirQuiz/db_tixie_confidential"
 alias   vweb="title vweb; cd $DirQuiz; vici *web*"
-alias	vrc="title vrc; (cd `dirname $FileRc`; vici `basename $FileRc`); dotrc"
-alias	vrecipes="vici $DirDoc/fvt.team.recipes.txt"
-alias	vrequirements="vici $DirDoc/teamroom.fvt.requirements.html"
+alias vrc="title vrc; (cd `dirname $FileRc`; vici `basename $FileRc`); dotrc"
+alias vrecipes="vici $DirDoc/fvt.team.recipes.txt"
+alias vrequirements="vici $DirDoc/teamroom.fvt.requirements.html"
 alias   v.six.degrees="vici $DirQuiz/db_six_degrees_of_connection"
 alias   vspinosa="vici $DirDoc/spinosa.property.values.txt"
 alias vstocks="vici  $DirQuiz/db_stocks_options $FileStocks $FileStockNotes"
-alias	vpsych="vici $FileMyPsychology"
+alias vpsych="vici $FileMyPsychology"
 alias vtoday="title vtoday; vici  $FileAccomplishments $FileDoc"
 alias vtower="title vtower; vici $DirDoc/tower.hill.property.values.txt"
 alias vtodo="title ToDo; vici  $FileLearnTodo $FileTodayNew $FileToday"
 alias vlists="title vlists; rm -f /tmp/tmp.todo*; /home/rbednark/bin/todo.py --makeLists; vim  /tmp/tmp.todo*"
-alias	vtips="title tips.html; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/tips.html` &); vici $DirDoc/tips.html"
+alias vtips="title tips.html; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/tips.html` &); vici $DirDoc/tips.html"
 alias vvimrc="cd `dirname $FileVimrc`; vici `basename $FileVimrc`"
 alias vxd="cd $DirUnixConfigFiles; vici .Xdefaults"
-alias	winmerge="'/cygdrive/c/Program Files/WinMerge/WinMerge.exe'"
+alias winmerge="'/cygdrive/c/Program Files/WinMerge/WinMerge.exe'"
 ################################################################################
 ### Functions
 ################################################################################
