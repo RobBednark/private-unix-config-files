@@ -746,6 +746,7 @@ alias git.log.branches.color='git log --graph --full-history --all --color --pre
 alias git.log.commit.message.only='git log --format=%B -n 1'
 alias git.log.limit.commits='git log --max-count=2'
 alias git.log.merge.commit.files.changes='git log -m -1 --name-only --pretty="format:"'  # need to specify a commit hash
+alias git.log.show.commits.on.branch.b.but.not.a="echo git log branch1..branch2"
 alias git.log.show.orphaned.commits.too="git log --reflog"
 alias git.log.show.orphaned.commits.too.2="git reflog"
 alias git.log.show.just.commit.hashes="git log --pretty=format:'%h'"
