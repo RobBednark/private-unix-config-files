@@ -228,7 +228,8 @@ DirBackup="$DirTopPC/backup"
 DirBednarkCom="$DirDropbox/Rob/bednark.com"
 DirC="/cygdrive/c"
 DirCheckin="$DirRbednark/checkin"
-DirFamilyTree="$DirDropbox/family.tree/docs.July.1.Fri"
+DirFamilyTree="$DirDropbox/family.tree"
+DirFamilyTreeReports="$DirFamilyTree"
 DirGithub=~/git
 if $MacOSX; then
     DirIphoneApps="~/Music/iTunes/iTunes Media/Mobile?Applications"
@@ -318,7 +319,7 @@ alias cddjango="cd $DirDropbox/bin/learn/dir.learn.django.projects"
 alias cddjangocode="cd /home/sara/local.dir.learn.django.projects/my.venv/lib/python2.7/site-packages/django"
 alias cddoc="cd $DirDoc"
 alias cddropbox="cd $DirDropbox"
-alias cdfam="cd $DirFamilyTree/docs.July.1.Fri"
+alias cdfam="cd $DirFamilyTree"
 alias cdgit="cd $DirGit"
 alias cdisbullshit="cd $DirGitLocal/isbullshit-crawler"
 alias cdjavascript="cd $DirLearn/javascript"
@@ -1432,7 +1433,7 @@ function vpeople() {
     else
         (firefox file:///`cygpath -m $FilePeopleHtml` &)
     fi
-    vici $DirQuiz/*people $FilePeopleHtml $FileInformixEmployees $FilePeopleTxt $FileIndex $DirFamilyTree/*txt
+    vici $DirQuiz/*people $FilePeopleHtml $FileInformixEmployees $FilePeopleTxt $FileIndex $DirFamilyTreeReports/*txt
     # upload.to.bednark.com $FilePeopleHtml $FileBlogHtml $FileIndex
 }
 
