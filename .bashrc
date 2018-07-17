@@ -394,7 +394,8 @@ alias cddbbaseschema="cd $DirMoovelReposGamma/db-base-schema"
 
 # Rip City / catalog
 alias cdagency-config="cd $DirMoovelReposGamma/agency-config"
-alias cdagency-objects="cd $DirMoovelLocal/agency-objects"
+#alias cdagency-objects="cd $DirMoovelLocal/agency-objects"
+alias cdagency-objects="cd $DirMoovelLocal/na-agency-objects"
 alias cd-agency-map="cd $DirMoovelReposGamma/na-agency-map"
 alias cdagency-sync="cd $DirMoovelGammaDocker/src/app/gamma-agency-sync"
 alias cdcatalog="cd $DirMoovelReposGamma/gamma-catalog"
