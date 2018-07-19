@@ -792,6 +792,7 @@ alias ipaddr='ipconfig getifaddr en0'
 alias ipaddr-2='ifconfig | grep inet'
 
 alias l=ls
+alias ll="ls -ltr"
 alias lsless="ls -lt|less"
 alias lsx="ls -l | grep '^-..x'"
 alias lib="title library; telnet multnomah.lib.or.us"
