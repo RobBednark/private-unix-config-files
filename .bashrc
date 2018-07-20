@@ -797,6 +797,7 @@ alias ll="ls -ltr"
 alias lsless="ls -lt|less"
 alias lsx="ls -l | grep '^-..x'"
 alias lib="title library; telnet multnomah.lib.or.us"
+alias lt="ls -lt | less"
 
 alias macos-clear-dns-cache="sudo killall -v -HUP mDNSResponder"
 alias macos-clear-dns-cache-show="sudo killall -v -d mDNSResponder"  # -d ==> print info, don't send signal
