@@ -885,6 +885,7 @@ if $MacOSX; then
     alias top="top -c d -o cpu -s 2"
 fi
 
+alias v=vim
 alias vaddrs="title vi email addresses; vici $FileEmailAddrs"
 alias vagrant.halt='cdvagrant; vagrant status; time vagrant halt; vagrant status'
 alias vagrant.ssh='cdvagrant; vagrant status; date; time vagrant up; date; vagrant ssh'
