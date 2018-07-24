@@ -493,6 +493,9 @@ function curl-agency-sync-baltimore-docker-null() {
 function curl-agency-sync-baltimore-test-null() {
     curl-agency-sync "https://baltimore-mta-test.gslabs.us" "baltimore-mta-test" "null" 3
 }
+function curl-agency-sync-bart-dev() {
+    curl-agency-sync "http://bart-dev.gslabs.us" "bart-dev" "ios" 3
+}
 function curl-agency-sync-bart-docker() {
     curl-agency-sync "http://localhost:80" "bart-docker" "ios" 3
 }
