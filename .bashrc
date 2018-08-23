@@ -358,6 +358,7 @@ DirMoovel=$DirDropbox/moovel
 DirMoovelLocal=~/moovel
 DirMoovelAgencyObjects=$DirMoovelLocal/agency-objects
 DirMoovelRepos=~/repos
+DirMoovelReposAll=~/repos.all-gamma-services
 DirMoovelReposClients=~/repos.clients
 DirMoovelReposDevops=~/repos.devops
 DirMoovelReposDocker=$DirMoovelRepos/na-transitutils-docker/src/app
@@ -403,6 +404,7 @@ alias cd-download-agency-objects="cd $DirMoovelReposGamma/na-download-agency-obj
 alias cdfare-catalogs="cd $DirMoovelReposGamma/fare-catalogs"
 alias cdproduct="cd $DirMoovelReposGamma/gamma-product"
 alias cdsecurity-code="cd $DirMoovelReposGamma/gamma-security-code"
+alias cdticket-animation="cd $DirMoovelReposAll/gamma-ticket-animation"
 alias cdverve="cd $DirMoovelReposGamma/na-verve-web"
 alias cdverve2="cd $DirMoovelReposGamma/na-verve-web-2"
 
