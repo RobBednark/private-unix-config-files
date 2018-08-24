@@ -608,6 +608,9 @@ function curl-agency-sync-sfmuni-prod() {
 function curl-agency-sync-sfmuni-prod-v3() {
     curl-agency-sync "https://sfmta.transitsherpa.com" "sfmuni-prod" "ios" 3
 }
+function curl-agency-sync-vre-prod-v1() {
+    curl-agency-sync "https://vre.transitsherpa.com" "vre" "ios" 1
+}
 
 alias curl-catalog-product-id="curl 'https://bart-dev.gslabs.us/v2/catalog/product/1' -H 'x-gs-scope: bart-dev'"
 alias curl-catalog-products="curl 'https://bart-dev.gslabs.us/v2/catalog/products' -H 'x-gs-scope: bart-dev'"
