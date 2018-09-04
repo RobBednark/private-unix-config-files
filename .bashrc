@@ -1196,9 +1196,6 @@ function ln_node_modules() {
     mv node_modules $_target
     ln -s $_target node_modules
 }
-function ninja.grep.tests () {
-    egrep -v 'CleanupClient|GoServer|GoMake|InstallMDS|win_cleanup|^\+----------' $@ 
-}
 function npm-exec () {
     # Run a command that is an executable
     # "npm bin" => returns the directory of the executables (e.g., node_modules/.bin)
