@@ -376,6 +376,7 @@ alias cddocs-moovel="cd $DirMoovelReposEngineering/na-engineering-docs"
 # moovel gamma-docker
 alias cddocker="cd $DirMoovelGammaDocker"
 alias cddocker-fare-catalogs="cd $DirMoovelGammaDocker/src/data/fare-catalogs"
+alias cddocker-gamma-catalog="cd $DirMoovelGammaDocker/src/app/gamma-catalog"
 
 # moovel e2e Tests
 alias cde2e-tests="cd $DirMoovelReposGamma/na-e2e-service-tests"
