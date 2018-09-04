@@ -1196,6 +1196,17 @@ function ln_node_modules() {
     mv node_modules $_target
     ln -s $_target node_modules
 }
+function moovel-reclone-gamma-docker() {
+    (set -x;
+     date; 
+     cddocker; 
+     bin/status.sh;
+     read -p "Hit return to continue... ";
+     cd ..; 
+     rm -fr gamma-docker-4 && git clone git@github.com:moovel/gamma-docker.git gamma-docker-4 && cd gamma-docker-4 && bin/rebuild.sh;
+     date
+    )
+}
 function npm-exec () {
     # Run a command that is an executable
     # "npm bin" => returns the directory of the executables (e.g., node_modules/.bin)
