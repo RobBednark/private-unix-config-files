@@ -777,7 +777,7 @@ alias git.show.commit.hash.for.HEAD="git rev-parse HEAD"
 alias git.show.commit.hash..for.HEAD.short="git rev-parse --short HEAD"
 alias git.show.commit.hash.for.HEAD.2="git show --no-patch --format=%H; git show --no-patch --format=%h"
 alias git.show.describe.first.tag.reachable.from.HEAD="git describe"
-alias git.unstage.all.files="git reset HEAD -- ."  # or git reset FILE
+alias git.reset.unstage.all.files="git reset HEAD -- ."  # or git reset FILE
 alias git.show.toplevel="git rev-parse --show-toplevel"
 alias git.stash.show.diff="git stash show -p"
 alias git.undo.rm.modified.and.staged.files="git reset --hard"
