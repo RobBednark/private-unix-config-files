@@ -740,7 +740,7 @@ alias git.branch.mv.rename.remote="echo '
      Switch to the branch and then:
          git push origin -u new-name
 '"
-alias git.branch.rm.on.remote.repo="git push origin --delete"
+alias git.branch.rm.on.remote.repo="git push origin --delete"  # add name of branch to remove
 alias git.checkout.cp.files.from.other.branch="echo 'git checkout other-branch my-file1 my-file2 my-subdir'"
 alias git.checkout.undo.modifications.to.working.file="echo 'To undo changes to a file (they will be lost): \"git checkout my-file\"'"
 alias git.diff.csv.word.diff="git diff --word-diff --word-diff-regex=,"
