@@ -1,5 +1,5 @@
 " set nu   " line numbers
-set cursorline  " underline the line that the cursor is on
+" set cursorline  " underline the line that the cursor is on
 set ic   " ignorecase
 set cc=80 " colorcolumn -- show a column of red at character position 80
 set ai   " autoindent
