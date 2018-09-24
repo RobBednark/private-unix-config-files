@@ -822,6 +822,8 @@ alias mycmd_old_pre_v1.7_django_versions='(set -x; rm -f mydb.db db.sqlite3;./ma
 alias mycmd='(set -x; rm -rf mydb.db db.sqlite3 myapp/migrations;./manage.py makemigrations; ./manage.py migrate; ./manage.py mycmd)'
 alias mycmd.nosync='(set -x; ./manage.py mycmd)'
 
+alias nettop.monitor.network.traffic.bandwidth="nettop"
+
 alias open.postgresql.manual="open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
 alias open.resume="open $DirResume/*pdf"
 alias open.solr.manual="open $DirDropbox/Rob/apache-solr-ref-guide-4.10-downloaded-Feb-20-2015.pdf"
