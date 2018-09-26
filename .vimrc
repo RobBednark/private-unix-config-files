@@ -180,6 +180,7 @@ Bundle 'andviro/flake8-vim'
 " <leader>hp ==> preview the changes for the hunk the cursor is on
 " <leader>hs ==> stage the hunk that the cursor is on
 " <leader>hu ==> undo the hunk that the cursor is on
+" ==> diable vim-gitgutter
 Bundle 'airblade/vim-gitgutter'
 " Enable highlighting of lines that are modified by git:
 let g:gitgutter_highlight_lines = 1
