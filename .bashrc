@@ -721,6 +721,7 @@ alias gpul="git pull"
 alias gpus="git push"
 alias gr="git rebase -i --autosquash"  # need to supply a commit-ish
 alias gra="git rebase -i --autosquash HEAD~20"
+alias grh="git reset --hard"
 alias gs="git status"
 alias grep="grep --color"
 
