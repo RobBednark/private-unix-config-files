@@ -618,6 +618,7 @@ function curl-agency-sync-vre-prod-v1() {
 alias curl-catalog-product-id="curl 'https://bart-dev.gslabs.us/v2/catalog/product/1' -H 'x-gs-scope: bart-dev'"
 alias curl-catalog-products="curl 'https://bart-dev.gslabs.us/v2/catalog/products' -H 'x-gs-scope: bart-dev'"
 alias curl-catalog-products-docker="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
+alias curl-csv-gamma-catalog="curl --header 'x-gs-scope: san-diego-dev' --url 'https://san-diego-dev.gslabs.us/csv'"
 alias docker.stats="docker stats --no-trunc --no-stream "
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 # see container names instead of hashes
