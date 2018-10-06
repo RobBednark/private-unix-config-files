@@ -615,10 +615,22 @@ function curl-agency-sync-vre-prod-v1() {
     curl-agency-sync "https://vre.transitsherpa.com" "vre" "ios" 1
 }
 
+function curl-csvs-gamma-catalog() {
+    # read -p "Input the agency (octa)" _agency
+    _zipfile="rbednark.csvs.zip"
+    (
+    set -x;
+    cddocker;
+    docker exec gamma-catalog bash -c "curl --header 'x-gs-scope: san-diego-docker' --url 'http://localhost:5000/csv' > /tmp/$_zipfile";
+    docker cp gamma-catalog:/tmp/$_zipfile /tmp;
+    ls -l /tmp/$_zipfile;
+    unzip -l /tmp/$_zipfile;
+    )
+}
+
 alias curl-catalog-product-id="curl 'https://bart-dev.gslabs.us/v2/catalog/product/1' -H 'x-gs-scope: bart-dev'"
 alias curl-catalog-products="curl 'https://bart-dev.gslabs.us/v2/catalog/products' -H 'x-gs-scope: bart-dev'"
 alias curl-catalog-products-docker="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
-alias curl-csv-gamma-catalog="curl --header 'x-gs-scope: san-diego-docker' --url 'http://localhost:5000/csv'"  # Run this in the gamma-catalog docker container or on the shared-dev server
 alias docker.stats="docker stats --no-trunc --no-stream "
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 # see container names instead of hashes
