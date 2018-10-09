@@ -618,13 +618,20 @@ function curl-agency-sync-vre-prod-v1() {
 function curl-csvs-gamma-catalog() {
     # read -p "Input the agency (octa)" _agency
     _zipfile="rbednark.csvs.zip"
+    _dir_zipfile="/tmp"
     (
     set -x;
     cddocker;
-    docker exec gamma-catalog bash -c "curl --header 'x-gs-scope: san-diego-docker' --url 'http://localhost:5000/csv' > /tmp/$_zipfile";
+    docker exec gamma-catalog bash -c "curl --header 'x-gs-scope: san-diego-docker' --url 'http://localhost:5000/csv?workflowId=1' > /tmp/$_zipfile";
+    rm -f /tmp/$_zipfile;
     docker cp gamma-catalog:/tmp/$_zipfile /tmp;
     ls -l /tmp/$_zipfile;
     unzip -l /tmp/$_zipfile;
+    cd /tmp;
+    rm -fr rbednark-csvs;
+    mkdir rbednark-csvs;
+    cd rbednark-csvs;
+    unzip /tmp/$_zipfile;
     )
 }
 
