@@ -781,6 +781,7 @@ alias git.log.abbrev.short.commit.hash="git log --abbrev-commit"
 alias git.log.filenames.changed="git log --name-only"
 alias git.log.filenames.change.summary="git log --stat"
 alias git.log.filenames.AMD="git log --stat"
+alias git.log.grep.diffs="git log -G"
 alias git.log.grep.log.messages="git log --grep"
 alias git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
 alias git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
