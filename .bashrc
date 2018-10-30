@@ -616,11 +616,12 @@ function curl-agency-sync-vre-prod-v1() {
     curl-agency-sync "https://vre.transitsherpa.com" "vre" "ios" 1
 }
 
-function curl-csvs-GET-gamma-catalog() {  # $1=scope
+function curl-csvs-GET-gamma-catalog() {  # $1=scope  $2=directory-to-unzip-them
     # read -p "Input the agency (octa)" _agency
-    _zipfile="rbednark.csvs.zip"
     _dir_zipfile="/tmp"
+    _zipfile="rbednark.CSVs.zip"
     scope=$1
+    DirOutput=$2
     (
     set -x;
     cddocker;
@@ -628,12 +629,9 @@ function curl-csvs-GET-gamma-catalog() {  # $1=scope
     rm -f /tmp/$_zipfile;
     docker cp gamma-catalog:/tmp/$_zipfile /tmp;
     ls -l /tmp/$_zipfile;
-    unzip -l /tmp/$_zipfile;
-    cd /tmp;
-    rm -fr rbednark-csvs;
-    mkdir rbednark-csvs;
-    cd rbednark-csvs;
-    unzip /tmp/$_zipfile;
+    cd -
+    pwd
+    unzip -o -d $DirOutput /tmp/$_zipfile;
     )
 }
 function curl-csvs-POST-gamma-catalog() {
