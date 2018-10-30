@@ -616,7 +616,7 @@ function curl-agency-sync-vre-prod-v1() {
     curl-agency-sync "https://vre.transitsherpa.com" "vre" "ios" 1
 }
 
-function curl-csvs-gamma-catalog() {
+function curl-csvs-GET-gamma-catalog() {
     # read -p "Input the agency (octa)" _agency
     _zipfile="rbednark.csvs.zip"
     _dir_zipfile="/tmp"
@@ -633,6 +633,16 @@ function curl-csvs-gamma-catalog() {
     mkdir rbednark-csvs;
     cd rbednark-csvs;
     unzip /tmp/$_zipfile;
+    )
+}
+function curl-csvs-POST-gamma-catalog() {
+    _zipfile="rbednark.csvs.zip"
+    _dir_zipfile="/tmp"
+    (
+    set -x;
+    cddocker;
+    docker cp gamma-catalog:/tmp/$_zipfile /tmp;
+    docker exec -i gamma-catalog '/bin/sh' '-c' "curl -i --silent -H 'x-gs-scope: octa-docker' -F 'files=@/usr/tmp/fare-catalogs/octa/time_rule.csv' -F 'files=@/usr/tmp/fare-catalogs/octa/price.csv' -F 'files=@/usr/tmp/fare-catalogs/octa/reduced.json' -F 'files=@/usr/tmp/fare-catalogs/octa/notifications.csv' -F 'files=@/usr/tmp/fare-catalogs/octa/riderApp1_rules.json' -F 'files=@/usr/tmp/fare-catalogs/octa/regular.json' -F 'files=@/usr/tmp/fare-catalogs/octa/transit_product_price.csv' -F 'files=@/usr/tmp/fare-catalogs/octa/activation.csv' -F 'files=@/usr/tmp/fare-catalogs/octa/catalog.csv' -F 'files=@/usr/tmp/fare-catalogs/octa/expiration.csv' -F 'files=@/usr/tmp/fare-catalogs/octa/display_items.csv' -F 'files=@/usr/tmp/fare-catalogs/octa/menu_slug_notifications.csv' localhost:5000/catalog"
     )
 }
 
