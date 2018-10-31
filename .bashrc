@@ -411,6 +411,7 @@ alias cdv2="cd $DirMoovelReposGamma/na-verve-web-2"
 alias cdv3="cd $DirMoovelReposGamma/na-verve-web-3"
 alias cdv4="cd $DirMoovelReposGamma/na-verve-web-4"
 alias cdgateway-verve="cd $DirMoovelReposGamma/gateway-verve"
+alias cdgateway-verve-docker="cd $DirMoovelGammaDocker/src/app/gateway-verve"
 
 # Trip Utilities:
 alias cd-docker-transitutils="cd $DirMoovelRepos/na-transitutils-docker"
