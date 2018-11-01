@@ -649,6 +649,8 @@ function curl-csvs-POST-gamma-catalog() {
 alias curl-catalog-product-id="curl 'https://bart-dev.gslabs.us/v2/catalog/product/1' -H 'x-gs-scope: bart-dev'"
 alias curl-catalog-products="curl 'https://bart-dev.gslabs.us/v2/catalog/products' -H 'x-gs-scope: bart-dev'"
 alias curl-catalog-products-docker="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
+alias curl-verve-product-get="curl -H 'x-gs-scope: metrotransit-docker' 'http://localhost:80/verve/product' "
+alias curl-verve-product-post="curl -H 'x-gs-scope: metrotransit-docker' 'http://localhost:80/verve/product' --data='{id=1, productDescription: \'Rob description\'}'"
 alias docker.stats="docker stats --no-trunc --no-stream "
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 # see container names instead of hashes
