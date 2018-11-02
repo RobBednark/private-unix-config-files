@@ -817,6 +817,7 @@ alias git.rm.untracked.files="git clean -f"
 alias git.rm.untracked.directories="git clean -df"
 alias git.show.commit.hash.for.HEAD.2="git show --no-patch --format=%H; git show --no-patch --format=%h"
 alias git.show.describe.first.tag.reachable.from.HEAD="git describe"
+alias git.show.just.filenames.for.commit="git show --pretty='' --name-only"  # defaults to HEAD
 alias git.reset.unstage.all.files="git reset HEAD -- ."  # or git reset FILE
 alias git.stash.show.diff="git stash show -p"
 alias git.undo.rm.modified.and.staged.files="git reset --hard"
@@ -824,6 +825,9 @@ alias git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias git.vim.cached.staged='vim $(git diff --name-only --cached)'
 alias git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
 alias git.vim.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filenames.new.untracked)'
+function git.vim.files.changed.in.commit { 
+    vim $(git.show.just.filenames.for.commit $1)
+}
 #alias git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
 alias help.find.delete='echo find . -name "*.pyc" -delete'
