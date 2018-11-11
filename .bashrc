@@ -784,6 +784,7 @@ alias git.diff.exclude.a.file="echo git diff master...original . ':(exclude)pack
 alias git.diff.filenames.change.summary="git diff --stat"
 alias git.diff.merge.commit="echo find 'Merge: 7022ea3 6459148' from the merge commit and add 3 dots: 'git diff 7022ea3...67459148'" 
 alias git.ls.filenames.ignored='git status --ignored'
+alias git.ls-files.ignored='git ls-files --ignored --exclude-standard --others'
 alias git.ls.filenames.modified='git diff --name-only --diff-filter=M'
 alias git.ls.filenames.modified.and.new="git.ls.filenames.new.untracked; git.ls.filenames.modified"
 alias git.ls.filenames.new.untracked="git ls-files . --exclude-standard --others"
