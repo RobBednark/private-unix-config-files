@@ -825,7 +825,8 @@ alias git.undo.rm.modified.and.staged.files="git reset --hard"
 alias git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias git.vim.cached.staged='vim $(git diff --name-only --cached)'
 alias git.vim.conflicts='vim $(git diff --name-only --diff-filter=U)'
-alias git.vim.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filenames.new.untracked)'
+alias vim.git.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filenames.new.untracked)'
+alias vim.git.untracked.new='vim $(git.ls.filenames.new.untracked)'
 function git.vim.files.changed.in.commit { 
     vim $(git.show.just.filenames.for.commit $1)
 }
