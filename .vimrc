@@ -11,6 +11,7 @@ set incsearch " incremental search
 set shell=/bin/bash   " I can't get zsh -i so use the .zshrc file and use my PATH (:!which python /usr/bin/python instead of /usr/local/bin/python), but bash does use them.
 syntax on " syntax highlighting
 set expandtab " expand tabs to spaces instead of tab characters
+set scrolloff=5  " when searching, keep the next match 5 lines from the bottom
 
 set foldopen-=search  " when searching, don't open folds; constrain search to unfolded text
 
