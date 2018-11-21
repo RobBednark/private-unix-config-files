@@ -500,6 +500,9 @@ function curl-agency-sync-baltimore-docker-null() {
 function curl-agency-sync-baltimore-test-null() {
     curl-agency-sync "https://baltimore-mta-test.gslabs.us" "baltimore-mta-test" "null" 3
 }
+function curl-agency-sync-baltimore-prod-null() {
+    curl-agency-sync "https://baltimore-mta.transitsherpa.com" "baltimore-mta-prod" "null" 3
+}
 function curl-agency-sync-bart-dev() {
     curl-agency-sync "https://bart-dev.gslabs.us" "bart-dev" "ios" 3
 }
