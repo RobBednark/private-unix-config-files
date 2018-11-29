@@ -920,6 +920,7 @@ alias quoteOld="echo '==========================================================
 
 alias rm="rm -i"
 alias rm.pyc.files="(set -x; find . -name '*.pyc' -delete; set +x)"
+alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
 
 alias scp.nginx.logs="scp -Cpr -i $PemTixie515 ubuntu@$MachineProdWeb:/var/log/nginx ."
 alias screensaver="gnome-screensaver-command --activate"
