@@ -620,6 +620,19 @@ function curl-agency-sync-vre-prod-v1() {
     curl-agency-sync "https://vre.transitsherpa.com" "vre" "ios" 1
 }
 
+function curl-csvs-GET-gateway-verve() {  # $1=scope  $2=directory-to-unzip-them
+    _dir_zipfile="/tmp"
+    _zipfile="rbednark.CSVs.zip"
+    scope=$1
+    DirOutput=$2
+    (
+    set -x;
+    curl --header 'x-gs-scope: octa-docker' http://localhost/gateway-verve/verve/csv > $_dir_zipfile/$_zipfile
+    ls -l /tmp/$_zipfile;
+    pwd
+    unzip -o -d $DirOutput /tmp/$_zipfile;
+    )
+}
 function curl-csvs-GET-gamma-catalog() {  # $1=scope  $2=directory-to-unzip-them
     # read -p "Input the agency (octa)" _agency
     _dir_zipfile="/tmp"
