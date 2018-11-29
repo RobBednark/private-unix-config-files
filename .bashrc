@@ -629,9 +629,11 @@ function curl-csvs-GET-gamma-catalog() {  # $1=scope  $2=directory-to-unzip-them
     (
     set -x;
     cddocker;
-    docker exec gamma-catalog bash -c "curl --header 'x-gs-scope: $scope' --url 'http://localhost:5000/csv?workflowId=1' > /tmp/$_zipfile";
+    # docker exec gamma-catalog bash -c "curl --header 'x-gs-scope: $scope' --url 'http://localhost:5000/csv?workflowId=1' > /tmp/$_zipfile";
+    docker exec gateway-verve bash -c "set -x; rm -f /tmp/$_zipfile && curl --header 'x-gs-scope: $scope' --url 'http://localhost:3000/csv?workflowId=1' > /tmp/$_zipfile";
     rm -f /tmp/$_zipfile;
-    docker cp gamma-catalog:/tmp/$_zipfile /tmp;
+    #docker cp gamma-catalog:/tmp/$_zipfile /tmp;
+    docker cp gateway-verve:/tmp/$_zipfile /tmp;
     ls -l /tmp/$_zipfile;
     cd -
     pwd
