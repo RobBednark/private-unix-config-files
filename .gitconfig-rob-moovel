@@ -22,3 +22,9 @@ email = rob.bednark@moovel.com
 [log]
     #  abbrevCommit: makes git-log[1], git-show[1], and git-whatchanged[1] assume --abbrev-commit. You may override this option with --no-abbrev-commit.
     abbrevCommit = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
