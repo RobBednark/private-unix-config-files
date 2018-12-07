@@ -708,6 +708,10 @@ alias moovel-mysqldump-schema="mysqldump -h 0.0.0.0 -P 23306 -u root -p123 --no-
 alias moovel-vi-schema="vim $DirMoovelLocal/schemas/latest-schema.sql"
 
 alias vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
+
+# Verve requests with authentication for docker or shared-dev
+alias token='export VERVE_TOKEN=`pbpaste`;echo $VERVE_TOKEN'
+alias kurl='curl -H "Authorization: Bearer $VERVE_TOKEN" -H "Origin: http://localhost:3000"'
 ################################################################################
 # End #Moovel
 ################################################################################
