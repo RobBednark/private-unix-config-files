@@ -721,6 +721,9 @@ alias kurl='curl -H "Authorization: Bearer $VERVE_TOKEN" -H "Origin: http://loca
 ################################################################################
 alias postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by peer|GMT LOG:  duration:'"
 
+################################################################################
+# General aliases
+################################################################################
 alias ci="ci -zLT"
 # I think "cmd" works for the default cygwin window, but not for rxvt
 #alias cls="cmd /c cls"
@@ -738,6 +741,8 @@ alias dc='docker-compose'
 alias dclogs='docker-compose logs --timestamps --follow'
 alias dcp="docker-compose ps"
 alias diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
+alias docker_ip_addr="docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"  # e.g., docker_ip_addy my_container
+
 alias dotrc="source $FileRc"
 
 alias finddropboxconflicted='find $DirDropbox | grep conflicted'
@@ -1155,6 +1160,13 @@ function dc-restart-tail-logs() {
     docker-compose restart ${services}
     docker-compose logs --timestamps --follow --tail=50 ${services}
     set +x
+}
+function docker_ip_addrs() {
+    _docker_services=$(docker-compose ps --services)
+    for _service in $_docker_services; do
+        _addr=$(docker_ip_addr $_service)
+        echo $_addr $_service
+    done
 }
 function docker-rm-everything() {
     (set -x;
