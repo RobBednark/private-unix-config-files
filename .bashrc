@@ -1314,6 +1314,13 @@ function rcs.unlock.lock() {
     done
 }
 
+function repeat() {  # repeat/run a command multiple times, e.g., repeat 5 echo foo
+    _num_times=$1
+    shift
+    for _num in $(seq $_num_times); do
+        $@
+    done
+}
 function scp.sync() {
     allFiles=""
     for oneFile in $@
