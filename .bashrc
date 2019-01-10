@@ -522,6 +522,9 @@ function curl-agency-sync-caltrain-docker() {
 function curl-agency-sync-caltrain-prod() {
     curl-agency-sync "https://caltrain.transitsherpa.com" "caltrain-prod" "ios" 3
 }
+function curl-agency-sync-hampton-roads-hrt-dev() {
+    curl-agency-sync "https://hampton-roads-hrt-dev.gslabs.us" "hampton-roads-hrt-dev" "ios" 3
+}
 function curl-agency-sync-hampton-roads-hrt-test() {
     curl-agency-sync "https://hampton-roads-hrt-test.gslabs.us" "hampton-roads-hrt-test" "ios" 3
 }
