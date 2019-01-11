@@ -535,6 +535,9 @@ function curl-agency-sync-houston-prod() {
     curl-agency-sync "https://ridemetro.transitsherpa.com" "houston-metro-prod" "ios" 2
 }
 function curl-agency-sync-los-angeles-ladot-dev() {
+    curl-agency-sync "https://lamobile.transitsherpa.com" "los-angeles-ladot-prod" "ios" 3
+}
+function curl-agency-sync-los-angeles-ladot-dev() {
     curl-agency-sync "https://los-angeles-ladot-dev.gslabs.us" "los-angeles-ladot-dev" "ios" 3
 }
 function curl-agency-sync-metrotransit-dev() {
