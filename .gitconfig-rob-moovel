@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
 # Please adapt and uncomment the following lines:
-name = Rob Bednark
-email = rob.bednark@moovel.com
+	name = Rob Bednark
+	email = rob.bednark@moovel.com
 [core]
 	excludesfile = /Users/robb/.gitignore_global
 # [difftool "sourcetree"]
@@ -28,3 +28,5 @@ email = rob.bednark@moovel.com
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+	template = /Users/robb/.stCommitMsg
