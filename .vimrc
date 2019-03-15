@@ -229,8 +229,7 @@ let g:ale_javascript_eslint_executable = 'eslint'
 " use_global = 0 is required so that it uses the local eslint instead of a globally-installed eslint
 let g:ale_javascript_eslint_use_global = 0
 " ale_fixers -- for :ALEFix command
-let b:ale_fixers = ['eslint', 'prettier']
-
+let g:ale_fixers = ['eslint', 'prettier']
 
 filetype plugin indent on     " required!
 " nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
