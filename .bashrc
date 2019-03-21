@@ -353,7 +353,7 @@ alias cdunixconfigfiles="cd $DirUnixConfigFiles"
 alias cdvagrant="cd ~/Desktop/vagranttest"
 
 ################################################################################
-# #Moovel:
+# #Moovel / Reach Now:
 ################################################################################
 DirMoovel=$DirDropbox/moovel
 DirMoovelLocal=~/moovel
@@ -443,6 +443,8 @@ alias cdpurchase="cd $DirMoovelReposPayment/gamma-purchase"
 
 # misc
 alias cdscheduled-tasks="cd $DirMoovelRepos/scheduled-tasks/ventra-pace-gtfs-filter"
+alias cdphrase="cd $DirMoovelReposAll/gamma-phrase"
+alias cdphrase-data="cd $DirMoovelReposGamma/phrase-data"
 
 # misc devops:
 alias cdawsdeploy="cd $DirMoovelReposDevops/gamma-aws-deploy"
