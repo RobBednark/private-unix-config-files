@@ -1207,6 +1207,18 @@ function git.branch.show() {
     # Just show the current branch name
     git rev-parse --abbrev-ref HEAD 2> /dev/null
 }
+function git.DANGER.rm.verve.branches() {
+    if git remote -v | grep rbednark-fare-catalogs >& /dev/null; then
+        branches=$(git branch -l 'verve*')
+        for branch in $branches; do
+            (set -x; git branch --quiet --force --delete $branch)
+            (set -x; git push origin --quiet --delete $branch)
+        done
+        (set -x; git branch -l 'verve*')
+    else
+        echo "Not in rbednark-fare-catalogs, so doing nothing."
+    fi
+}
 function gitall() { 
     # run the specified git command on all subdirectories
     for dir in *; do 
