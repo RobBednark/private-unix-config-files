@@ -1208,16 +1208,25 @@ function git.branch.show() {
     git rev-parse --abbrev-ref HEAD 2> /dev/null
 }
 function git.DANGER.rm.verve.branches() {
+    (set -x; git fetch --prune)
     if git remote -v | grep rbednark-fare-catalogs >& /dev/null; then
-        branches=$(git branch -l 'verve_env*')
+        branches=$(git branch -a |grep verve_env)
         for branch in $branches; do
-            (set -x; git branch --quiet --force --delete $branch)
-            (set -x; git push origin --quiet --delete $branch)
+            if echo $branch | grep remotes/origin; then
+                # this is a remote branch, e.g., remotes/origin/verve_foo
+                branch=$(echo $branch | cut -d / -f 3)  # ignore remotes/origin
+                (set -x; git push origin --quiet --delete $branch)
+            else
+                # this is a local branch
+                (set -x; git branch --quiet --force --delete $branch)
+            fi
         done
-        (set -x; git branch -l 'verve*')
+        (set -x; git branch -a |grep 'verve_')
     else
         echo "Not in rbednark-fare-catalogs, so doing nothing."
     fi
+    (set -x; git fetch --prune)
+
 }
 function gitall() { 
     # run the specified git command on all subdirectories
