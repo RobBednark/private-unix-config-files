@@ -1209,7 +1209,7 @@ function git.branch.show() {
 }
 function git.DANGER.rm.verve.branches() {
     if git remote -v | grep rbednark-fare-catalogs >& /dev/null; then
-        branches=$(git branch -l 'verve*')
+        branches=$(git branch -l 'verve_env*')
         for branch in $branches; do
             (set -x; git branch --quiet --force --delete $branch)
             (set -x; git push origin --quiet --delete $branch)
