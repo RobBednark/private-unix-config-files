@@ -1210,7 +1210,7 @@ function git.branch.show() {
 function git.DANGER.rm.verve.branches() {
     (set -x; git fetch --prune)
     if git remote -v | grep rbednark-fare-catalogs >& /dev/null; then
-        branches=$(git branch -a |grep verve_env)
+        branches=$(git branch -a |grep verve_)
         for branch in $branches; do
             if echo $branch | grep remotes/origin; then
                 # this is a remote branch, e.g., remotes/origin/verve_foo
