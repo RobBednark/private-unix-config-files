@@ -685,6 +685,7 @@ alias curl-verve-product-post="curl -H 'x-gs-scope: metrotransit-docker' 'http:/
 alias docker.stats="docker stats --no-trunc --no-stream "
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 # see container names instead of hashes
+alias dcl="docker-compose logs -tf --tail=40 gateway-verve"
 alias addrs.dev="$DirLearn/parse_moovel_instances.py"
 alias psql.ridescout.providers="psql -h ridescoutgeo.cixz9hxezij4.us-west-2.rds.amazonaws.com -U ridescout -W providers"
 alias moovel-ssh-host="~/bin/ssh-host.py"
