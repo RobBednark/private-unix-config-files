@@ -9,7 +9,7 @@
 ################################################################################
 enable_oh_my_zsh=false
 
-HOSTNAME_COMPUTER_MOOVEL='mv-mbp13-rbednark'
+HOSTNAME_COMPUTER_MOOVEL='rn-mbp-rbednark'
 
 if $enable_oh_my_zsh; then
     # Path to your oh-my-zsh configuration.
@@ -1938,8 +1938,11 @@ EOF
 if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
     export WORKON_HOME=$HOME/.virtualenvs
     export PROJECT_HOME=$HOME/Devel
+
+    # The following 2 lines were commented-out a long time ago.  4/26/19
     # export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
     # source /usr/local/bin/pyenv-virtualenvwrapper
+
     if command -v pyenv 1>/dev/null 2>&1; then
       eval "$(pyenv init -)"
     fi
