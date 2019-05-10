@@ -1167,6 +1167,7 @@ function dc-rebuild-container() {
      docker-compose create $container;
      docker-compose start $container;
     )
+    docker-compose logs -tf --tail=10 $container;
 }
 function dc-restart-tail-logs() {
     services=$@
