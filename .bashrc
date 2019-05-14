@@ -753,6 +753,7 @@ alias datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
 alias dc='docker-compose'
 alias dclogs='docker-compose logs --timestamps --follow --tail=30'
 alias dcp="docker-compose ps"
+alias dcrg="dc-restart-tail-logs gateway-verve"
 alias diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
 alias docker_ip_addr="docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"  # e.g., docker_ip_addy my_container
 
