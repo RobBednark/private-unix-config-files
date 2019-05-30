@@ -718,6 +718,8 @@ alias curl.ridesnear.prod.san-antonio='curl "${moovel_prod}/city/rides-near/?${c
 alias curl.instances.shareddev.raw='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances"'
 alias curl.instances.shareddev='curl "https://dashboard-shared-dev.gslabs.us/gamma-status/instances" | json_pp | less'
 
+alias gbverve="git branch -a | grep 'origin/verve_env='"
+
 alias moovel-mysqldump-schema="mysqldump -h 0.0.0.0 -P 23306 -u root -p123 --no-data transitsherpa_san_diego"
 alias moovel-vi-schema="vim $DirMoovelLocal/schemas/latest-schema.sql"
 
