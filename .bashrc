@@ -1081,6 +1081,7 @@ alias vrequirements="vici $DirDoc/teamroom.fvt.requirements.html"
 alias v.six.degrees="vici $DirQuiz/db_six_degrees_of_connection"
 alias vspinosa="vici $DirDoc/spinosa.property.values.txt"
 alias vstocks="vici  $DirQuiz/db_stocks_options $FileStocks $FileStockNotes"
+alias vs=vstocks
 alias vpsych="vici $FileMyPsychology"
 alias vtoday="title vtoday; vici  $FileAccomplishments $FileDoc"
 alias vtower="title vtower; vici $DirDoc/tower.hill.property.values.txt"
