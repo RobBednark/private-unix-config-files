@@ -914,6 +914,7 @@ alias mycmd='(set -x; rm -rf mydb.db db.sqlite3 myapp/migrations;./manage.py mak
 alias mycmd.nosync='(set -x; ./manage.py mycmd)'
 
 alias nettop.monitor.network.traffic.bandwidth="nettop"
+alias npm.repo.open.repo.in.web.browser="npm repo"
 
 alias open.postgresql.manual="open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
 alias open.resume="open $DirResume/*pdf"
