@@ -368,6 +368,8 @@ DirMoovelReposGamma=~/repos.gamma
 DirMoovelReposPayment=~/repos.journaling
 DirMoovelReposOther=~/repos.other
 DirMoovelGammaDocker=$DirMoovelRepos/gamma-docker-4
+
+alias cd.repo.jenkins-job-to-create-new-agency-in-env-shared-xxx="cd $DirMoovelReposDevops/jenkins-jobs-onboard-new-agency"
 alias cdmoovel="cd $DirMoovel"
 alias cdmoovel-agency-object-download="cd $DirMoovelRepos/download-agency-objects"  # DELETE this after I get my create*.sh scripts working in fare-catalogs
 
