@@ -1,4 +1,9 @@
 # This is Git's per-user configuration file.
+[alias]
+    set-upstream = \
+       !git branch \
+           --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+
 [user]
 # Please adapt and uncomment the following lines:
 	name = Rob Bednark

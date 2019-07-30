@@ -1,3 +1,8 @@
+[alias]
+    set-upstream = \
+       !git branch \
+           --set-upstream-to=origin/`git symbolic-ref --short HEAD`
+
 [user]
 	name = Rob Bednark
 	email = rbednark@gmail.com
