@@ -866,6 +866,7 @@ alias git.rev-parse.show.commit.hash.for.HEAD="git rev-parse HEAD"
 alias git.rev-parse.show.commit.hash..for.HEAD.short="git rev-parse --short HEAD"
 alias git.rm.untracked.files="git clean -f"
 alias git.rm.untracked.directories="git clean -df"
+alias git.show.commit.hash.for.HEAD="git show --no-patch --format=%h"
 alias git.show.commit.hash.for.HEAD.2="git show --no-patch --format=%H; git show --no-patch --format=%h"
 alias git.show.describe.first.tag.reachable.from.HEAD="git describe"
 alias git.show.just.filenames.for.commit="git show --pretty='' --name-only"  # defaults to HEAD
