@@ -833,7 +833,7 @@ alias git.diff.csv.word.diff="git diff --word-diff --word-diff-regex=,"
 alias git.diff.exclude.a.file="echo git diff master...original . ':(exclude)package-lock.json'"
 alias git.diff.filenames.change.summary="git diff --stat"
 alias git.diff.merge.commit="echo find 'Merge: 7022ea3 6459148' from the merge commit and add 3 dots: 'git diff 7022ea3...67459148'" 
-alias git.fixup.rebase.and.push='git_hash_head=$(git.show.commit.hash.for.HEAD); gcaf $git_hash_head; gr $git_hash_head~; gpusf'
+alias git.fixup.rebase.and.push='git diff; git_hash_head=$(git.show.commit.hash.for.HEAD); gcaf $git_hash_head; gr $git_hash_head~; gpusf'
 alias git.ls.filenames.ignored='git status --ignored'
 alias git.ls-files.ignored='git ls-files --ignored --exclude-standard --others'
 alias git.ls.filenames.modified='git diff --name-only --diff-filter=M'
