@@ -1198,13 +1198,13 @@ function docker_ip_addrs() {
 }
 function docker-rm-everything() {
     (set -x;
-     docker stop $(docker ps --all --quiet) # stop all running containers
-     docker rm $(docker ps --all --quiet) # remove all containers
-     docker rmi --force $(docker images --all --quiet) # remove all images
-     docker volume rm $(docker volume ls --quiet) # remove all volumes
-     docker ps --all
-     docker volume ls
-     docker images --all
+     time docker stop $(docker ps --all --quiet) # stop all running containers
+     time docker rm $(docker ps --all --quiet) # remove all containers
+     time docker rmi --force $(docker images --all --quiet) # remove all images
+     time docker volume rm $(docker volume ls --quiet) # remove all volumes
+     time docker ps --all
+     time docker volume ls
+     time docker images --all
     )
 }
 function emailaddr () {
