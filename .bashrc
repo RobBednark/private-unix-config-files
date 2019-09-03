@@ -732,6 +732,11 @@ alias vmoovel-perf-reviews="vici $DirMoovel/perf-reviews.txt"
 # Verve requests with authentication for docker or shared-dev
 alias token='export VERVE_TOKEN=`pbpaste`;echo $VERVE_TOKEN'
 alias kurl='curl -H "Authorization: Bearer $VERVE_TOKEN" -H "Origin: http://localhost:3000"'
+
+# Needed for AWS docker login 9/2/19
+export AWS_PROFILE=gs-dev2
+export AWS_SDK_LOAD_CONFIG=1
+
 ################################################################################
 # End #Moovel
 ################################################################################
