@@ -879,7 +879,7 @@ alias git.show.describe.first.tag.reachable.from.HEAD="git describe"
 alias git.show.just.filenames.for.commit="git show --pretty='' --name-only"  # defaults to HEAD
 alias git.reset.unstage.all.files="git reset HEAD -- ."  # or git reset FILE
 alias git.stash.show.diff="git stash show -p"
-alias git.undo.rm.modified.and.staged.files="git reset --hard"
+alias git.reset.hard.undo.rm.modified.and.staged.files="git reset --hard"
 alias git.vimdiff="git difftool --no-prompt --tool=vimdiff"
 alias vim.git.cached.staged='vim $(git diff --name-only --cached)'
 alias vim.git.conflicts='vim $(git diff --name-only --diff-filter=U)'
