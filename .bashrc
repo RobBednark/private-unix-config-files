@@ -886,7 +886,7 @@ alias vim.git.conflicts='vim $(git diff --name-only --diff-filter=U)'
 alias vim.git.modified='vim $(git.ls.filenames.modified)'
 alias vim.git.modified.and.new='vim $(git.ls.filenames.modified) $(git.ls.filenames.new.untracked)'
 alias vim.git.untracked.new='vim $(git.ls.filenames.new.untracked)'
-function git.vim.files.changed.in.commit { 
+function vim.git.files.changed.in.commit { 
     vim $(git.show.just.filenames.for.commit $1)
 }
 #alias git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
