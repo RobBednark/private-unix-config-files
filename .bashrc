@@ -1782,6 +1782,9 @@ function python.module.dir() {
 function vim.git.grep() {
     vim $(git grep -l $*)
 }
+function vim.git.ls-files() {
+    vim $(git ls-files $*)
+}
 function vim.ls.head() {
     echo "e.g., vim.ls.head (edits the newest 5 files)" > /dev/null
     # Need to quote the filenames, in case they have spaces in them, like the chat logs do.
