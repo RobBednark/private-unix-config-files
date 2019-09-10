@@ -856,7 +856,7 @@ alias git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-da
 alias git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 alias git.log.commits.by.specified.author="git log --author"   # e.g., git log --author bednark
-alias git.log.commit.message.only='git log --format=%B -n 1'
+alias git.log.commit.message.only='git --no-pager log --format=%B -n 1'
 alias git.log.limit.commits='git log --max-count=2'
 alias git.log.merge.commit.files.changes='git log -m -1 --name-only --pretty="format:"'  # need to specify a commit hash
 alias git.log.no.pager="git --no-pager log"
