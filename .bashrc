@@ -1318,6 +1318,18 @@ function git.diff.old () {
   (set -x; git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)
 }
 
+function git.reset.redo.last.commit() {
+    # Re-do the last commit.  Undo the changes to the package-lock.json file.
+    FileCommitMsgUnique=/tmp/tmp-file-commit-msg-$$
+    FileCommitMsgLast=/tmp/tmp-file-commit-msg-last
+    git --no-pager log --format=%B -n 1 > $FileCommitMsgUnique
+    cp $FileCommitMsgUnique $FileCommitMsgLast
+    HashCommitBeforeReset=$(git rev-parse --short HEAD)
+    git reset HEAD~1
+    git checkout package-lock.json
+    git commit --all --file $FileCommitMsgUnique
+    git show
+}
 function grc() {
     grep -i $@ $FileRc
 }
