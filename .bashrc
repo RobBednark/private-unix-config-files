@@ -1323,7 +1323,7 @@ function git.reset.redo.last.commit() {
     FileCommitMsgUnique=/tmp/tmp-file-commit-msg-$$
     FileCommitMsgLast=/tmp/tmp-file-commit-msg-last
     git --no-pager log --format=%B -n 1 > $FileCommitMsgUnique
-    cp $FileCommitMsgUnique $FileCommitMsgLast
+    \cp -fp $FileCommitMsgUnique $FileCommitMsgLast
     HashCommitBeforeReset=$(git rev-parse --short HEAD)
     git reset HEAD~1
     git checkout package-lock.json
