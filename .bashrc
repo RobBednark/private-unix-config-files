@@ -1320,6 +1320,7 @@ function git.diff.old () {
 
 function git.reset.redo.last.commit() {
     # Re-do the last commit.  Undo the changes to the package-lock.json file.
+    set -x
     FileCommitMsgUnique=/tmp/tmp-file-commit-msg-$$
     FileCommitMsgLast=/tmp/tmp-file-commit-msg-last
     git --no-pager log --format=%B -n 1 > $FileCommitMsgUnique
@@ -1328,7 +1329,10 @@ function git.reset.redo.last.commit() {
     git reset HEAD~1
     git checkout package-lock.json
     git commit --all --file $FileCommitMsgUnique
-    git show
+    git --no-pager show
+    git push -f --no-verify
+    git status
+    set +x
 }
 function grc() {
     grep -i $@ $FileRc
