@@ -687,6 +687,8 @@ alias curl-catalog-products-docker="curl -H 'x-gs-scope: houston-metro-docker' h
 alias curl-verve-product-get="curl -H 'x-gs-scope: metrotransit-docker' 'http://localhost:80/verve/product' "
 alias curl-verve-product-post="curl -H 'x-gs-scope: metrotransit-docker' 'http://localhost:80/verve/product' --data='{id=1, productDescription: \'Rob description\'}'"
 alias docker.rm.prune.everything="docker system prune --all --volumes"
+alias docker-exec="echo 'docker exec -it {container-name} bash'"
+alias docker-service-names="docker stats --format "{{.Name}}" --no-stream |sort "
 alias docker.stats="docker stats --no-trunc --no-stream "
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 # see container names instead of hashes
@@ -1213,12 +1215,12 @@ function docker-recreate-container() {
         set +x
         return
     fi
-    return
     dc ps     $_container
     dc stop   $_container
-    dc rm     $_container
-    dc create $_container
+    dc rm -f  $_container
+    dc up --no-start $_container
     dc start  $_container
+    dc ps     $_container
     set +x
 }
 function docker-rm-everything() {
