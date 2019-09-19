@@ -1205,6 +1205,22 @@ function docker_ip_addrs() {
         echo $_addr $_service
     done
 }
+function docker-recreate-container() {
+    set -x
+    _container="$1"
+    if [ "$_container" = "" ]; then
+        echo "Error!  Must supply an argument"
+        set +x
+        return
+    fi
+    return
+    dc ps     $_container
+    dc stop   $_container
+    dc rm     $_container
+    dc create $_container
+    dc start  $_container
+    set +x
+}
 function docker-rm-everything() {
     (set -x;
      time docker stop $(docker ps --all --quiet) # stop all running containers
