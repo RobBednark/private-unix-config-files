@@ -43,6 +43,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 
 " create a macros for inserting traces for pdb and for nose.
 " To use, in command mode, type <backslash> followed by "b" or "n"
+" \a ==> :ALEfix  (fix javascript prettier/eslint errors using the ALE plugin)
 " \c ==> :!python -m py_compile %
 " \m ==> highlight the text inside the matching brace/parenthesis for 3 seconds
 " \n ==> add python nose set_trace()
@@ -50,6 +51,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " \r ==> :TabooRename  (rename the current tab)
 " \s ==> :tab split  (create a new tab)
 " \u ==> add pudb set_trace()
+map <silent> <leader>a :ALEFix
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
