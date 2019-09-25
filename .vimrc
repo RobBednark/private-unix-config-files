@@ -51,7 +51,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " \r ==> :TabooRename  (rename the current tab)
 " \s ==> :tab split  (create a new tab)
 " \u ==> add pudb set_trace()
-map <silent> <leader>a :ALEFix
+map <silent> <leader>a :ALEFix<CR>
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
