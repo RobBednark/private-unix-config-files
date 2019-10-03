@@ -687,6 +687,7 @@ alias curl-catalog-products="curl 'https://bart-dev.gslabs.us/v2/catalog/product
 alias curl-catalog-products-docker="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
 alias curl-verve-product-get="curl -H 'x-gs-scope: metrotransit-docker' 'http://localhost:80/verve/product' "
 alias curl-verve-product-post="curl -H 'x-gs-scope: metrotransit-docker' 'http://localhost:80/verve/product' --data='{id=1, productDescription: \'Rob description\'}'"
+alias docker-disk-usage="docker system df"
 alias docker.rm.prune.everything="docker system prune --all --volumes"
 alias docker-exec="echo 'docker exec -it {container-name} bash'"
 alias docker-service-names="docker stats --format "{{.Name}}" --no-stream |sort "
