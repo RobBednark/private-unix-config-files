@@ -968,6 +968,7 @@ alias pipwin="$DirPyWin2/Scripts/pip.exe"
 alias quote="echo '================================================================================'; $BinQuote --cfg $DirSync/quote.cfg --linelength 160 $FileQuotes; echo '================================================================================'"
 alias quoteOld="echo '================================================================================'; $BinQuote --old --cfg $DirSync/quote.cfg --linelength 160 $FileQuotes; echo '================================================================================'"
 
+alias react-start-no-clear-console="npm run start | cat"
 alias rm="rm -i"
 alias rm.pyc.files="(set -x; find . -name '*.pyc' -delete; set +x)"
 alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
