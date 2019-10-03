@@ -767,6 +767,7 @@ alias curl.verbose="curl -v --write-out 'http_code=[%{http_code}] \nlocal_ip=[%{
 alias datestamp='date +%Y.%m.%d.%a.%H.%M.%S'
 alias dc='docker-compose'
 alias dclogs='docker-compose logs --timestamps --follow --tail=30'
+alias dclogs-1='docker-compose logs --timestamps --follow --tail=1'
 alias dclogs-no-tail='docker-compose logs --timestamps --follow'
 alias dcp="docker-compose ps"
 alias dcrg="dc-restart-tail-logs gateway-verve"
