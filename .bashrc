@@ -1002,17 +1002,7 @@ alias ping.tail.time="tail -5 $FilePingSymlinkActive; tail -99f $FilePingSymlink
 alias ping.tail.down="tail -5 $FilePingSymlinkActive; tail -9999f $FilePingSymlinkActive | grep 'SUMMARY: time DOWN:'"
 alias ping.tail="tail -20f $FilePingSymlinkActive"
 alias ti=title
-alias tlab="title svc driver; telnet $MachineSvcDriver"
-alias tbvt3="telnet $MachineBvt3Driver9"
-alias telm35="telnet $elm35"
-alias telm36="telnet $elm36"
-alias telm37="telnet $elm37"
-alias telm50="telnet $elm50"
-alias tritu="telnet $MachineRitu"
-alias trob="ssh -l root $MachineRob"
-alias ssvcdriver="title SVC Driver; ssh root@$MachineSvcDriver"
-alias tsvcdriver="title SVC Driver; telnet $MachineSvcDriver"
-alias taix="telnet 192.168.40.25"
+alias term-small="printf '\e[8;40;100t'"
 
 if $MacOSX; then
     alias top="top -c d -o cpu -s 2"
