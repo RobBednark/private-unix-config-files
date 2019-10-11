@@ -1185,6 +1185,17 @@ function dc-rebuild-container() {
      docker-compose stop $container;
      docker-compose rm --force $container;
      docker-compose build $container;
+     docker-compose up --no-start $container;
+     docker-compose start $container;
+    )
+    docker-compose logs -tf --tail=10 $container;
+}
+function dc-rebuild-container-old() {
+    container=$1
+    (set -x;
+     docker-compose stop $container;
+     docker-compose rm --force $container;
+     docker-compose build $container;
      docker-compose create $container;
      docker-compose start $container;
     )
