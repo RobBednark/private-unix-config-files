@@ -119,6 +119,16 @@ Bundle 'gmarik/vundle'
 " Added then disabled 6/14/18 -Rob Bednark
 " Bundle 'idbrii/AsyncCommand'
 
+" vim-table-mode - automatically align tables as you type
+"   disabled by default;
+"   :TableModeEnable -- enable table mode
+"   :TableModeDisable -- disable table mode
+"   (I tried it but it didn't work for me 10/18/19; it didn't add spacing)
+"   Other features:
+"      - remove column
+"      - align data in column
+Bundle 'dhruvasagar/vim-table-mode'
+
 " taboo: for renaming tabs (installed 6/4/18):
 "  :TabooRename my tab name
 Bundle 'gcmt/taboo.vim'
