@@ -367,7 +367,7 @@ DirMoovelReposEngineering=~/repos.engineering
 DirMoovelReposGamma=~/repos.gamma
 DirMoovelReposPayment=~/repos.journaling
 DirMoovelReposOther=~/repos.other
-DirMoovelGammaDocker=$DirMoovelRepos/gamma-docker-4
+DirMoovelGammaDocker=$DirMoovelRepos/gamma-docker
 DirMoovelReposDocker=$DirMoovelGammaDocker/src/app
 
 alias cdapp="cd $DirMoovelReposDocker/src/app"
@@ -1393,7 +1393,7 @@ function moovel-reclone-gamma-docker() {
      bin/status.sh;
      read -p "Hit return to continue... ";
      cd ..; 
-     rm -fr gamma-docker-4 && git clone git@github.com:moovel/gamma-docker.git gamma-docker-4 && cd gamma-docker-4 && bin/rebuild.sh;
+     rm -fr gamma-docker && git clone git@github.com:moovel/gamma-docker.git && cd gamma-docker && bin/rebuild.sh;
      date
     )
 }
