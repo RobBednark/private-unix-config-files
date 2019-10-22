@@ -254,6 +254,8 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 " This from John, to only search idealist directory:
 " let g:ctrlp_cmd = 'CtrlP idealist'
 
+" Note: I installed shellcheck via "brew install shellcheck" but I don't know how it's getting used by vim
+
 " unmap some commands that plugin's mapped
 " > -- from unimpaired
 " The following doesn't work.  I haven't yet figured out how to do this.  It gives:
