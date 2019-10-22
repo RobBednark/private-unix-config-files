@@ -370,7 +370,7 @@ DirMoovelReposOther=~/repos.other
 DirMoovelGammaDocker=$DirMoovelRepos/gamma-docker
 DirMoovelReposDocker=$DirMoovelGammaDocker/src/app
 
-alias cdapp="cd $DirMoovelReposDocker/src/app"
+alias cdapp="cd $DirMoovelReposDocker"
 alias cd.repo.jenkins-job-to-create-new-agency-in-env-shared-xxx="cd $DirMoovelReposDevops/jenkins-jobs-onboard-new-agency"
 alias cdmoovel="cd $DirMoovel"
 alias cdmoovel-agency-object-download="cd $DirMoovelRepos/download-agency-objects"  # DELETE this after I get my create*.sh scripts working in fare-catalogs
@@ -382,7 +382,7 @@ alias cddocs-moovel="cd $DirMoovelReposEngineering/na-engineering-docs"
 alias cddocker="cd $DirMoovelGammaDocker"
 alias cddocker-agency-config="cd $DirMoovelGammaDocker/src/cfg/agency-config"
 alias cdfare-catalogs-docker="cd $DirMoovelGammaDocker/src/data/fare-catalogs"
-alias cddocker-gamma-catalog="cd $DirMoovelGammaDocker/src/app/gamma-catalog"
+alias cddocker-gamma-catalog="cd $DirMoovelReposDocker/gamma-catalog"
 
 # moovel e2e Tests
 alias cde2e-tests="cd $DirMoovelReposGamma/na-e2e-service-tests"
