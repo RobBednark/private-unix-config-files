@@ -233,6 +233,7 @@ Bundle 'chrisbra/csv.vim'
 "  :help dirdiff
 Bundle 'will133/vim-dirdiff'
 
+" :ALEDisable -  disable for the current file
 " ale settings from Matt McLaughlin's .vimrc:  https://github.com/mattmcla/vim-config/blob/ec5e8f99112631849b31a3b8f83e0a3b11767cdb/.vimrc
 let g:ale_linters = {
 \   'javascript': ['eslint'],
