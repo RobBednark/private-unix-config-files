@@ -858,7 +858,7 @@ alias git.ls.filenames.new.untracked="git ls-files . --exclude-standard --others
 alias git.ls.filenames.staged="git diff --name-only --cached"
 alias git.log="(set -x; git log --all --graph --oneline --abbrev-commit  --decorate; set +x)"
 alias git.log.abbrev.short.commit.hash="git log --abbrev-commit"
-alias git.log.exclude.author="echo 'Do this: git log --invert-grep --author=somebody'"
+alias git.log.exclude.commits.by.this.author="echo 'Do this: git log --invert-grep --author=somebody'"
 alias git.log.filenames.changed="git log --name-only"
 alias git.log.filenames.change.summary="git log --stat"
 alias git.log.filenames.AMD="git log --stat"
