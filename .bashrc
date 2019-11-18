@@ -874,6 +874,7 @@ alias git.log.commit.message.first.line.only='git --no-pager log --format=%s -n 
 alias git.log.limit.commits='git log --max-count=2'
 alias git.log.merge.commit.files.changes='git log -m -1 --name-only --pretty="format:"'  # need to specify a commit hash
 alias git.log.no.pager="git --no-pager log"
+alias git.log.p.zero.context="git log -p --unified=0"
 alias git.log.show.commits.in.merge.commit='echo "git log commit1..commit2 (get commit hashes from merge commit via "git log" or "git show")"'
 alias git.log.show.commits.on.branch.b.but.not.a="echo git log branch1..branch2"
 alias git.log.show.orphaned.commits.too="git log --reflog"
