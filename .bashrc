@@ -5,6 +5,7 @@
 ################################################################################
 
 # NOTE: the "watch" command will repeat/loop a command every n seconds
+# NOTE: to connect to Moovel mysql docker instance: mysql -u root -h 0.0.0.0 -P 23306 -p123
 
 ################################################################################
 # oh-my-zsh BEGIN
