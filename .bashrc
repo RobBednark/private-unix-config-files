@@ -704,6 +704,7 @@ alias docker.rm.prune.everything.2="(set -x; date; docker.rm.prune.everything; t
 alias docker-exec="echo 'docker exec -it {container-name} bash'"
 alias docker-service-names="docker stats --format "{{.Name}}" --no-stream |sort "
 alias docker.stats="docker stats --no-trunc --no-stream "
+alias docker-stop-all='docker stop $(docker ps -a -q)'
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 # see container names instead of hashes
 alias dcl="docker-compose logs -tf --tail=40 gateway-verve"
