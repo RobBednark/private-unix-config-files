@@ -478,9 +478,11 @@ alias cdandroid="cd $DirMoovelReposClients/na-ridetap-android"
 alias cdios="cd $DirMoovelReposClients/na-ridetap-ios"
 alias cdthe.app.factory="cd $DirMoovelReposClients/na-app-factory-titanium"
 
-# Moovel Validated / convox / Django
+# Moovel Validated / convox / Django / postgres
 alias cdval="cd ~/validated/validated-backend"
 alias convox-all-status="(set -x; convox apps; convox builds; convox instances; convox ps; convox rack; convox releases; convox resources; convox services)"
+alias convox-proxy-db="convox resources proxy database -p 54320"
+alias psql-validated="psql postgres://app:foo@localhost:54320/app"
 
 function curl-agency-sync() {
     host=$1
