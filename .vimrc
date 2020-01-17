@@ -188,7 +188,8 @@ Bundle 'PreserveNoEOL'
 Bundle 'rhysd/conflict-marker.vim'
 
 " flake8-vim: flake8/pep8/.. checker for python code
-Bundle 'andviro/flake8-vim'
+" Commented-out 1/16/20 while working on Validated code
+" Bundle 'andviro/flake8-vim'
 
 " vim-gitgutter: shows git diff in the gutter (what lines have been changed); stages/undoes hunks
 " [c ]c ==> prev/next hunk
