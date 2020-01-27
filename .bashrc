@@ -170,8 +170,10 @@ export PATH="$PATH:/bin"
 export PATH="$PATH:~/bin"
 if $MacOSX; then
     # Python3
-    export PATH="$PATH:/usr/local/Cellar/python3/3.2.3/bin"
+    # Commented-out the following 1/27/20:
+    # export PATH="$PATH:/usr/local/Cellar/python3/3.2.3/bin"
     # export PATH="$(brew --prefix)/opt/python/libexec/bin:$PATH"
+    :
 fi
 export RCSINIT=" -zLT"  # RCSINIT - options that get prepended to rcs commands.  -z is to set the time zone.  LT is for local time.
 
@@ -2027,11 +2029,14 @@ if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
     # export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
     # source /usr/local/bin/pyenv-virtualenvwrapper
 
-    if command -v pyenv 1>/dev/null 2>&1; then
-      eval "$(pyenv init -)"
-    fi
+    # Commented-out the following 1/27/20, because it looks like a virtualenvwrapper thing:
+    # if command -v pyenv 1>/dev/null 2>&1; then
+      # eval "$(pyenv init -)"
+    # fi
+
     # run virtualenvwrapper to get workon, mkvirtualenv, ... functions in my environment
-    pyenv virtualenvwrapper
+    # commented-out the following 1/27/20; I did a "brew upgrade python" and then started getting errors when starting a new shell
+    # pyenv virtualenvwrapper
 elif ! $Atlatl; then
     # my Retina Mac
     export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
