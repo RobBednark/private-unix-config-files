@@ -882,6 +882,7 @@ alias git.log.filenames.only="git log --name-only --pretty=format:"
 alias git.log.grep.diffs="git log -G"
 alias git.log.grep.log.messages="git log --grep"
 alias git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
+alias git.log.all.branches='git log --all'  # All branches, local and remote, and all tags
 alias git.log.branches='git log --graph --full-history --all --pretty=format:"%h%x09%d%x20%s"'
 alias git.log.branches.color='git log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s"'
 alias git.log.commits.by.specified.author="git log --author"   # e.g., git log --author bednark
