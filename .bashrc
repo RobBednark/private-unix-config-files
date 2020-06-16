@@ -344,6 +344,7 @@ alias cdpydoc="cd $DirDropbox/Rob/python.doc/python-2.7.2-docs-text"
 alias cdquantopian="cd $DirDropbox/quantopian"
 alias cdq=cdquizme-prod
 alias cdqd=cdquizme-dev
+alias cdqp=cdquizme-personal
 alias cdquiz="title quiz; cd $DirQuiz"
 alias cdquizme-dev="cd $DirQuizMeDev; workon quizme"
 alias cdquizme-personal="cd $DirQuizMeDev/../quizme_personal_files"
