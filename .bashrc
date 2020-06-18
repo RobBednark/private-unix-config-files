@@ -708,6 +708,7 @@ alias curl-catalog-products="curl 'https://bart-dev.gslabs.us/v2/catalog/product
 alias curl-catalog-products-docker="curl -H 'x-gs-scope: houston-metro-docker' http://gamma-catalog:5000/products"
 alias curl-verve-product-get="curl -H 'x-gs-scope: metrotransit-docker' 'http://localhost:80/verve/product' "
 alias curl-verve-product-post="curl -H 'x-gs-scope: metrotransit-docker' 'http://localhost:80/verve/product' --data='{id=1, productDescription: \'Rob description\'}'"
+
 alias docker-disk-usage="docker system df"
 alias docker.rm.prune.everything="docker system prune --all --volumes"
 alias docker.rm.prune.everything.2="(set -x; date; docker.rm.prune.everything; time docker-compose down -v; time ./bin/clean-docker.sh; time ./bin/reset.sh)"
@@ -1001,6 +1002,8 @@ alias react-start-no-clear-console="npm run start | cat"
 alias rm="rm -i"
 alias rm.pyc.files="(set -x; find . -name '*.pyc' -delete; set +x)"
 alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
+alias run="python manage.py runserver"
+alias runprod="DB_QUIZME=quizme_production run"
 
 alias scp.nginx.logs="scp -Cpr -i $PemTixie515 ubuntu@$MachineProdWeb:/var/log/nginx ."
 alias screensaver="gnome-screensaver-command --activate"
