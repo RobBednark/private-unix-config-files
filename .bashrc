@@ -977,6 +977,7 @@ alias osx.wifi.reboot="networksetup -setairportpower en1 off; networksetup -seta
 fi
 
 alias pgoog="ping google.com"
+alias pman='python manage.py'
 alias pok="title poughkeepsie sanfs00; telnet 9.12.20.42; ssh rbednark@9.12.20.42"
 alias psh="pipenv shell"
 alias pw3="ping w3.ibm.com"
