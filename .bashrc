@@ -807,7 +807,7 @@ alias findex="ls -l | grep '^...x'"
 if uname | grep -i linux > /dev/null; then
     true
 elif $MacOSX; then
-    alias chrome="open -a Google\ Chrome"
+    alias chrome-open="open -a Google\ Chrome"
     alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
     #alias firefox="open /Applications/"
     :
