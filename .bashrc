@@ -1110,7 +1110,8 @@ alias vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
 alias vquizme="cd $DirQuizMeDev; vici README"
 alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme; \
-    vim $DirAddToQuizme/learn_add_to_quizme  $DirQuizMeProd/db_dumps/latest.dump.txt; \
+    vim $DirAddToQuizme/learn_add_to_quizme  \
+        $DirDropbox/quizme_production_db_dumps/latest.dump.txt; \
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme"
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
 alias vresume=vjobsearch
