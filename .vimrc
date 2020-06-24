@@ -35,8 +35,11 @@ filetype plugin indent on
 " The following two autocmd's will save folds when exiting, and load them again when re-opening the file.
 " http://vim.wikia.com/wiki/Make_views_automatic
 " Note: use * so it matches all files (not *.*) per https://stackoverflow.com/questions/2142402/code-folding-is-not-saved-in-my-vimrc  5/24/20
-autocmd BufWinLeave * mkview
-autocmd BufWinEnter * silent loadview
+" Note: "silent!" is used to prevent showing error messages like the following when starting vim without a filename:
+"    Error detected while processing BufWinEnter Autocommands for "*":
+"    E32: No file name
+autocmd BufWinLeave * silent! mkview
+autocmd BufWinEnter * silent! loadview
 
 " Turn on omni autocompletion:
 autocmd FileType python set omnifunc=pythoncomplete#Complete
