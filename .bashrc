@@ -835,6 +835,7 @@ alias gdc="git diff --cached --unified=0"
 alias gf="git fetch"
 alias gg="git grep"
 alias gl="git log -n5 --abbrev-commit --decorate --first-parent --no-merges"
+alias gld="git log --decorate"  # show branch/tag/reference names
 alias glp="git log -p -n5 --abbrev-commit --decorate --first-parent --no-merges -U0"
 alias gpusf="git push -f"
 alias gpul="git pull"
