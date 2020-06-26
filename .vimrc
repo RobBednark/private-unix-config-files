@@ -117,6 +117,9 @@ Bundle 'gmarik/vundle'
 
 " My Bundles here:
 
+" vim-surround - Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
+Bundle 'tpope/vim-surround'
+
 " AsyncCommand - AsyncCommand allows you to execute shell commands without waiting for them to complete. When the application terminates, its output can be loaded into a vim buffer. 
 " AsyncCommand requires vim to be compiled with +clientserver:
 "   AsyncCommand requires vim compiled with +clientserver (see :help +clientserver)
