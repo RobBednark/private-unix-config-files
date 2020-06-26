@@ -172,7 +172,8 @@ Bundle 'py-coverage'
 Bundle 'tpope/vim-abolish'
 
 " vim-fugitive ==> interact with git to see git diffs with vim-diff, and more
-" :Gdiff
+" :Gvsplit -- vertical split, showing prev version and modified version
+" :Gdiff -- if git conflicts, will open 3 panes with different versions
 Bundle 'tpope/vim-fugitive'
 
 " headlights ==> show plugins in Bundle menu in vim GUI's, e.g., mvim:
