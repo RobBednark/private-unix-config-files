@@ -1005,9 +1005,11 @@ alias quoteOld="echo '==========================================================
 alias react-start-no-clear-console="npm run start | cat"
 alias rm="rm -i"
 alias rm.pyc.files="(set -x; find . -name '*.pyc' -delete; set +x)"
+alias rq='cdquizme-prod ; DB_QUIZME=quizme_production pipenv shell python manage.py runserver'
 alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
 alias run="python manage.py runserver"
 alias runprod="DB_QUIZME=quizme_production run"
+
 
 alias scp.nginx.logs="scp -Cpr -i $PemTixie515 ubuntu@$MachineProdWeb:/var/log/nginx ."
 alias screensaver="gnome-screensaver-command --activate"

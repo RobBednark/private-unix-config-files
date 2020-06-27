@@ -15,12 +15,16 @@
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [push]
+    # current - push the current branch to update a branch with the same name on the receiving end. Works in both central and non-central workflows.
+    # https://git-scm.com/docs/git-config#Documentation/git-config.txt-pushdefault
     default = current
     # default = simple
 [log]
     abbrevCommit = true
     # I haven't gotten abbrevCommit to work yet  11/3/18
     #  makes git-log[1], git-show[1], and git-whatchanged[1] assume --abbrev-commit. You may override this option with --no-abbrev-commit.
+    # decorate => Print out the ref names of any commits that are shown by the log command.  https://git-scm.com/docs/git-config
+    decorate = full
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
