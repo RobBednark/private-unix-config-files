@@ -155,6 +155,7 @@ export HISTTIMEFORMAT="%m/%d/%y %a %T "
 ################################################################################
 ### Exports
 ################################################################################
+export PGDATABASE=template1  # postgresql database for psql, etc.; template1 is a standard system database; https://www.postgresql.org/docs/12/manage-ag-templatedbs.html
 export MANPATH="$MANPATH:/usr/man"
 if $MacOSX; then
     # The path for the PostgreSQL Postgres.app from Heroku
