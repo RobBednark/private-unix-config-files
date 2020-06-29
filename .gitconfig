@@ -5,7 +5,7 @@
 
 [user]
 	name = Rob Bednark
-	email = rbednark@gmail.com
+	email = rob@trapit.com
 [core]
 	excludesfile = /Users/rbednark/.gitignore_global
 [difftool "sourcetree"]
@@ -30,3 +30,5 @@
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
+[commit]
+	template = /Users/rbednark/.stCommitMsg
