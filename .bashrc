@@ -885,7 +885,7 @@ alias git.log.filenames.changed="git log --name-only"
 alias git.log.filenames.change.summary="git log --stat"
 alias git.log.filenames.AMD="git log --stat"
 alias git.log.filenames.only="git log --name-only --pretty=format:"
-alias git.log.grep.diffs="git log -G"
+alias git.log.grep.diffs="git log -p -G"
 alias git.log.grep.log.messages="git log --grep"
 alias git.log.authors="(set -x; git log --pretty=format:'%ad %an')"  # author-date, author-name
 alias git.log.all.branches='git log --all'  # All branches, local and remote, and all tags
