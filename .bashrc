@@ -821,6 +821,7 @@ fi
 ################################################################################
 alias ga="git add"
 alias gb="git branch"
+alias gba="git branch -a"
 alias gca="git commit -a"
 alias gcaf="git commit -a --no-verify --fixup"  # need to supply a commit-ish
 alias gcafh="git commit -a --fixup HEAD"
