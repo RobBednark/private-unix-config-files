@@ -115,10 +115,14 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+" ================================================================================
 " My Bundles here:
+" ================================================================================
 
 " vim-surround - Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
 " https://github.com/tpope/vim-surround
+" e.g.,
+"  cs"' => when inside "foo", change to become 'foo'
 Bundle 'tpope/vim-surround'
 
 " AsyncCommand - AsyncCommand allows you to execute shell commands without waiting for them to complete. When the application terminates, its output can be loaded into a vim buffer. 
@@ -242,6 +246,8 @@ Bundle 'chrisbra/csv.vim'
 "  :DirDiff dir1 dir2
 "  :help dirdiff
 Bundle 'will133/vim-dirdiff'
+
+" ================================================================================
 
 " :ALEDisable -  disable for the current file
 " ale settings from Matt McLaughlin's .vimrc:  https://github.com/mattmcla/vim-config/blob/ec5e8f99112631849b31a3b8f83e0a3b11767cdb/.vimrc
