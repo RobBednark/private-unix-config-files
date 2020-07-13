@@ -917,7 +917,7 @@ alias git.rm.untracked.files="git clean -f"
 alias git.rm.untracked.directories="git clean -df"
 alias git.show.commit.hash.for.HEAD="git show --no-patch --format=%h"
 alias git.show.commit.hash.for.HEAD.2="git show --no-patch --format=%H; git show --no-patch --format=%h"
-alias git.show.contents.of.file.for.commit="echo 'git show  <commit>:<filename>' to show the contents of <filename> for <commit>"
+alias git.show.contents.of.file.for.commit='echo \'"git show  <commit>:<filename>" to show the contents of <filename> for <commit>\''
 alias git.show.parent.commit="git log --pretty=%P -n 1"
 alias git.show.describe.first.tag.reachable.from.HEAD="git describe"
 alias git.show.just.filenames.for.commit="git show --pretty='' --name-only"  # defaults to HEAD
