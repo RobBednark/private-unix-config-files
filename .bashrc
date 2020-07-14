@@ -909,6 +909,7 @@ alias git.log.show.orphaned.commits.too.2="git reflog"
 alias git.log.show.just.commit.hashes="git log --pretty=format:'%h'"
 alias git.push.force.dry.run="git push --dry-run -f origin"
 alias git.reflog.show.filenames="git reflog --stat"
+alias git.reflog.show.dates.and.better.output="git reflog --pretty=short"
 alias git.remote.set.origin.different.url="echo 'add the git://new.url.here to the command'; git remote set-url origin"
 alias git.reset.undo.last.reset='git reset HEAD@{1}; echo "\"git reflog\" to see history of commands"'
 alias git.rev-parse.show.toplevel.repo.dir="git rev-parse --show-toplevel"
