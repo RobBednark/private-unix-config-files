@@ -844,6 +844,8 @@ alias gpusf="git push -f"
 alias gpul="git pull"
 alias gpus="git push"
 alias gr="git rebase -i --autosquash"  # need to supply a commit-ish
+alias gra='git rebase --abort'
+alias grc='git rebase --continue'
 alias gr20="git rebase -i --autosquash HEAD~20"
 alias grH="git rebase -i --autosquash HEAD~2"
 alias grh="git reset --hard"
@@ -1407,7 +1409,7 @@ function git.reset.redo.last.commit() {
     git status
     set +x
 }
-function grc() {
+function grrc() {  # GRep .bashRC
     grep -i $@ $FileRc
 }
 function pless() {
