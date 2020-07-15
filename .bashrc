@@ -1014,6 +1014,7 @@ alias react-start-no-clear-console="npm run start | cat"
 alias rm="rm -i"
 alias rm.pyc.files="(set -x; find . -name '*.pyc' -delete; set +x)"
 alias rq='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production QM_INCLUDE_UNANSWERED=True QM_SORT_BY_ANSWERED_COUNT=False QM_SORT_BY_WHEN_ANSWERED=False QM_DEBUG_PRINT=True pipenv shell python manage.py runserver)'  # unanswered first ("rq" = "run quiz")
+alias rqf='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production QM_INCLUDE_UNANSWERED=True QM_SORT_BY_ANSWERED_COUNT=True QM_SORT_BY_WHEN_ANSWERED=False  QM_DEBUG_PRINT=True pipenv shell python manage.py runserver)'  # sort by answered count ("rqr" = "run quiz, frequency")
 alias rqr='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production QM_INCLUDE_UNANSWERED=False QM_SORT_BY_ANSWERED_COUNT=False QM_SORT_BY_WHEN_ANSWERED=True  QM_DEBUG_PRINT=True pipenv shell python manage.py runserver)'  # unanswered last  ("rqr" = "run quiz, reinforce")
 alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
 alias run="python manage.py runserver"
