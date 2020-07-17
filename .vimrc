@@ -49,6 +49,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " To use, in command mode, type <backslash> followed by "b" or "n"
 " \a ==> :ALEfix  (fix javascript prettier/eslint errors using the ALE plugin)
 " \c ==> :!python -m py_compile %
+" \d ==> (diff)  :r!git diff --cached
 " \m ==> highlight the text inside the matching brace/parenthesis for 3 seconds
 " \n ==> add python nose set_trace()
 " \p ==> add python set_trace()
@@ -57,6 +58,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " \u ==> add pudb set_trace()
 map <silent> <leader>a :ALEFix<CR>
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
+map <silent> <leader>d :r!git diff --cached<esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
