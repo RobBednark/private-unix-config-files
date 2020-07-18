@@ -1410,7 +1410,7 @@ function git.reset.redo.last.commit() {
     git status
     set +x
 }
-function grrc() {  # GRep .bashRC
+function grrc() {  # GRep .bashRC (previously grc)
     grep -i $@ $FileRc
 }
 function pless() {
