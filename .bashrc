@@ -1030,8 +1030,10 @@ alias rqf='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
 alias rqo='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
     QM_INCLUDE_UNANSWERED=True  \
     QM_LIMIT_TO_DATE_SHOW_NEXT_BEFORE_NOW=True \
+    QM_NULLS_FIRST=True \
     QM_SORT_BY_ANSWERED_COUNT=False \
-    QM_SORT_BY_WHEN_ANSWERED=True \
+    QM_SORT_BY_WHEN_ANSWERED_NEWEST=False \
+    QM_SORT_BY_WHEN_ANSWERED_OLDEST=True \
     QM_DEBUG_PRINT=True \
     pipenv shell python manage.py runserver)'  # unanswered last, oldest-answered first  ("rqo" = "run quiz, oldest-answered first, include unanswered")
 alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
