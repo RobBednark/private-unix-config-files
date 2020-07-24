@@ -50,6 +50,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " \a ==> :ALEfix  (fix javascript prettier/eslint errors using the ALE plugin)
 " \c ==> :!python -m py_compile %
 " \d ==> (diff)  :r!git diff --cached
+" \e ==> open the file in Chrome
 " \m ==> highlight the text inside the matching brace/parenthesis for 3 seconds
 " \n ==> add python nose set_trace()
 " \p ==> add python set_trace()
@@ -59,9 +60,9 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 map <silent> <leader>a :ALEFix<CR>
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
+map <silent> <leader>e :!open -a google\ chrome % <esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
-map <silent> <leader>n :!open -a google\ chrome %<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>r :TabooRename 
 map <silent> <leader>s :tab split<esc>
