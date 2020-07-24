@@ -61,6 +61,7 @@ map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
+map <silent> <leader>n :!open -a google\ chrome %<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>r :TabooRename 
 map <silent> <leader>s :tab split<esc>
