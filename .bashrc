@@ -1015,10 +1015,10 @@ alias react-start-no-clear-console="npm run start | cat"
 alias rm="rm -i"
 alias rm.pyc.files="(set -x; find . -name '*.pyc' -delete; set +x)"
 alias rqr='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
-    QM_INCLUDE_UNANSWERED=True \
+    QM_INCLUDE_UNANSWERED=False \
     QM_LIMIT_TO_DATE_SHOW_NEXT_BEFORE_NOW=True \
     QM_SORT_BY_ANSWERED_COUNT=False \
-    QM_SORT_BY_WHEN_ANSWERED=False \
+    QM_SORT_BY_WHEN_ANSWERED=True  \
     QM_DEBUG_PRINT=True \
     pipenv shell python manage.py runserver)'  # unanswered first, then newest scheduled ("rqr" = "run quiz, reinforce")
 alias rqra='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
