@@ -99,7 +99,18 @@ filetype plugin indent on
 " wildignore is a setting for the Command-T plugin.  It indicates which files to ignore.
 :set wildignore+=*.pyc,.git,node_modules
 
-" 7.31.20, 8/5/12 Vundle section.  https://github.com/VundleVim/Vundle.vim
+" ================================================================================
+" Vundle setup section
+" 7.31.20, 8/5/12 
+" https://github.com/VundleVim/Vundle.vim
+" ================================================================================
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+" see :h vundle for more details or wiki for FAQ
+
 " I installed the vundle package manager to easily manage vim packages/plugins.  -Rob Bednark, 8/5/12
 set nocompatible               " be iMproved, required by Vundle
 filetype off                   " required by Vundle!  
