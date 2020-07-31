@@ -99,9 +99,9 @@ filetype plugin indent on
 " wildignore is a setting for the Command-T plugin.  It indicates which files to ignore.
 :set wildignore+=*.pyc,.git,node_modules
 
-" 8/5/12 Vundle section.
+" 7.31.20, 8/5/12 Vundle section.  https://github.com/VundleVim/Vundle.vim
 " I installed the vundle package manager to easily manage vim packages/plugins.  -Rob Bednark, 8/5/12
-set nocompatible               " be iMproved
+set nocompatible               " be iMproved, required by Vundle
 filetype off                   " required by Vundle!  
 
 " Disable SuperTab
@@ -112,12 +112,13 @@ set runtimepath-=~/.vim/bundle/python_fold/after
 " Disable syntastic
 set runtimepath-=~/.vim/bundle/syntastic
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim  " required by Vundle
+" call vundle#rc()  " Apparently no longer required by Vundle  7.31.20
+call vundle#begin()
 
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
+" let Vundle manage Vundle; required by Vundle
+Plugin 'VundleVim/Vundle.vim'
 
 " ================================================================================
 " My Bundles here:
@@ -255,6 +256,9 @@ Bundle 'chrisbra/csv.vim'
 "  :help dirdiff
 Bundle 'will133/vim-dirdiff'
 
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 " ================================================================================
 
