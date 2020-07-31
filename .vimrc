@@ -123,6 +123,9 @@ Bundle 'gmarik/vundle'
 " My Bundles here:
 " ================================================================================
 
+" vim-rainbow-parenthesis -- give different colors to each pair of parentheses/brackets/html-tags/...
+Bundle '/dbarsam/vim-rainbow-parentheses'
+
 " vim-surround - Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
 " https://github.com/tpope/vim-surround
 " e.g.,
@@ -250,6 +253,7 @@ Bundle 'chrisbra/csv.vim'
 "  :DirDiff dir1 dir2
 "  :help dirdiff
 Bundle 'will133/vim-dirdiff'
+
 
 " ================================================================================
 
