@@ -127,8 +127,11 @@ Plugin 'VundleVim/Vundle.vim'
 " ================================================================================
 
 " vim-rainbow-parenthesis -- give different colors to each pair of parentheses/brackets/html-tags/...
-" Bundle 'dbarsam/vim-rainbow-parentheses'
+" https://github.com/luochen1990/rainbow
 Bundle 'luochen1990/rainbow'
+" Note that setting rainbow_active to something is required, otherwise the Rainbow* commands aren't present
+let g:rainbow_active = 0 "set to 0 if you want to enable it later via :RainbowToggle
+
 
 " vim-surround - Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
 " https://github.com/tpope/vim-surround
