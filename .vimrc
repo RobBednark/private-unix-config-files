@@ -115,17 +115,8 @@ filetype plugin indent on
 set nocompatible               " be iMproved, required by Vundle
 filetype off                   " required by Vundle!  
 
-" Disable SuperTab
-set runtimepath-=~/.vim/bundle/SuperTab
-" Disable python_fold
-set runtimepath-=~/.vim/bundle/python_fold
-set runtimepath-=~/.vim/bundle/python_fold/after
-" Disable syntastic
-set runtimepath-=~/.vim/bundle/syntastic
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim  " required by Vundle
-" call vundle#rc()  " Apparently no longer required by Vundle  7.31.20
 call vundle#begin()
 
 " let Vundle manage Vundle; required by Vundle
@@ -267,7 +258,7 @@ Bundle 'chrisbra/csv.vim'
 "  :help dirdiff
 Bundle 'will133/vim-dirdiff'
 
-" All of your Plugins must be added before the following line
+" All Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
