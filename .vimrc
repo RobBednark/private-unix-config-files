@@ -61,6 +61,7 @@ map <silent> <leader>a :ALEFix<CR>
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>e :!open -a google\ chrome % <esc>
+map <silent> <leader>l :!open -a sublime\ text % <esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
