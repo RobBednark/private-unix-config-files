@@ -927,6 +927,7 @@ alias git.show.describe.first.tag.reachable.from.HEAD="git describe"
 alias git.show.just.filenames.for.commit="git show --pretty='' --name-only"  # defaults to HEAD
 alias git.show.staged.file.contents='echo "git show :/path/myfile"'
 alias git.reset.unstage.all.files="git reset HEAD -- ."  # or git reset FILE
+alias git.stash.backup.changes='(set -x; git stash save; git stash pop)'
 alias git.stash.show.diff="git stash show -p"
 alias git.reset.hard.undo.rm.modified.and.staged.files="git reset --hard"
 alias git.vimdiff="git difftool --no-prompt --tool=vimdiff"
