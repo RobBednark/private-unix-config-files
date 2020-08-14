@@ -1100,7 +1100,6 @@ alias vgtest="title gtest.html; cd $DirDoc; (firefox file:///`type cygpath > /de
 alias vig='cdquizme-personal; vici ignore*'
 alias vhowtorun="vici $DirDoc/teamroom.how.to.run.html"
 alias vninja="title ninja.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/ninja.html` &); vici ninja.html"
-alias vobs="title readme.obs.html; cd $DirDoc; explorer.exe readme.obs.html; vici readme.obs.html"
 alias vi=vim
 
 alias vdone="vici $FileAccomplishments"
@@ -1152,7 +1151,7 @@ alias vpeople.quiz="vici $DirQuiz/db_quiz_people"
 alias vprogramming="cd $DirQuiz; vici db_programming"
 alias vpython="title vpython; cd $DirQuiz; vici db_python"
 alias vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
-alias vquizme="cd $DirQuizMeDev; vici README"
+alias vr="cdquizme-prof; vim README"
 alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme; \
     vim $DirAddToQuizme/learn_add_to_quizme  \
