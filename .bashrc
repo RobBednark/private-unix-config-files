@@ -333,6 +333,7 @@ alias cdfam="cd $DirFamilyTree"
 alias cdgit="cd $DirGit"
 alias cdisbullshit="cd $DirGitLocal/isbullshit-crawler"
 alias cdjavascript="cd $DirLearn/javascript"
+alias cdlatest='cd $(ls -t |head -1)'
 alias cdlearn="title learn; cd $DirLearn"
 alias cdlearngit="cd $DirLearn/git"
 #aliascdmusic="cd /cygdrive/c/Documents\ and\ Settings/All\ Users/Documents/My\ Music/"
