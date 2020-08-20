@@ -5,14 +5,11 @@
 ################################################################################
 
 # NOTE: the "watch" command will repeat/loop a command every n seconds
-# NOTE: to connect to Moovel mysql docker instance: mysql -u root -h 0.0.0.0 -P 23306 -p123
 
 ################################################################################
 # oh-my-zsh BEGIN
 ################################################################################
 enable_oh_my_zsh=false
-
-HOSTNAME_COMPUTER_MOOVEL='rn-mbp-rbednark'
 
 if $enable_oh_my_zsh; then
     # Path to your oh-my-zsh configuration.
@@ -71,12 +68,6 @@ if uname | grep Darwin  > /dev/null; then
 else
  alias ls="ls -CF --color"
     MacOSX=false
-fi
-
-if hostname | grep -i atlatl > /dev/null; then
-    Atlatl=true
-else   
-    Atlatl=false
 fi
 
 if echo $SHELL | grep zsh > /dev/null; then
@@ -211,11 +202,6 @@ else
 fi
 IBM=false
 
-if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
-    DirDropbox=~/dropbox.symlink
-else
-    DirDropbox=~/Dropbox
-fi
 DirBin="$DirDropbox/bin"
 export PATH=$PATH:$DirDropbox/bin
 DirGit=$DirDropbox/git
@@ -2086,30 +2072,12 @@ function tab() {
 EOF
 }
 
-if hostname | grep -i $HOSTNAME_COMPUTER_MOOVEL > /dev/null; then
-    export WORKON_HOME=$HOME/.virtualenvs
-    export PROJECT_HOME=$HOME/Devel
-
-    # The following 2 lines were commented-out a long time ago.  4/26/19
-    # export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
-    # source /usr/local/bin/pyenv-virtualenvwrapper
-
-    # Commented-out the following 1/27/20, because it looks like a virtualenvwrapper thing:
-    # if command -v pyenv 1>/dev/null 2>&1; then
-      # eval "$(pyenv init -)"
-    # fi
-
-    # run virtualenvwrapper to get workon, mkvirtualenv, ... functions in my environment
-    # commented-out the following 1/27/20; I did a "brew upgrade python" and then started getting errors when starting a new shell
-    # pyenv virtualenvwrapper
-elif ! $Atlatl; then
-    # my Retina Mac
-    export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-    [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
-    if echo $SHELL | grep zsh > /dev/null; then
-        [ -f ~/.git.prompts.zsh ] && source ~/.git.prompts.zsh
-    fi
-fi
+# my Retina Mac
+# export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+# [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
+# if echo $SHELL | grep zsh > /dev/null; then
+#     [ -f ~/.git.prompts.zsh ] && source ~/.git.prompts.zsh
+# fi
 
 if hash rg 2>/dev/null; then
   # Per https://github.com/aykamko/tag, create an 'rg' alias that
