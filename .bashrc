@@ -201,6 +201,7 @@ else
     DirSaraDocs="/cygdrive/c/Users/sara/Documents"
 fi
 IBM=false
+DirDropbox=~/Dropbox
 
 DirBin="$DirDropbox/bin"
 export PATH=$PATH:$DirDropbox/bin
