@@ -110,6 +110,7 @@ filetype plugin indent on
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+" :PluginUpdate     - update plugins to latest versions
 " see :h vundle for more details or wiki for FAQ
 
 " I installed the vundle package manager to easily manage vim packages/plugins.  -Rob Bednark, 8/5/12
