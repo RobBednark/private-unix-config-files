@@ -167,7 +167,11 @@ Bundle 'gcmt/taboo.vim'
 Bundle 'vim-airline/vim-airline'
 
 " ctrlp -- control-p -- file browser plugin, like Command-T; does not require Ruby like Command-T does
+" 8.20.20 -- I've been seeing issues with ctrlp, so I tried a specific <commit>, but doing the "@<commit>" didn't work.
+" I also tried 'kien/ctrlp.vim' but that didn't fix the issue.
+" Issue: ctrlp the first time works, but then when I do it again, it searches a different directory
 Bundle 'ctrlpvim/ctrlp.vim'
+" Bundle 'kien/ctrlp.vim'
 let g:ctrlp_match_window = 'min:4,max:999'  " allow the ctrlp results window to be up to 999 lines high instead of just 10
 
 

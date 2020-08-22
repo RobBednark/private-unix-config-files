@@ -2073,12 +2073,12 @@ function tab() {
 EOF
 }
 
-# my Retina Mac
-# export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-# [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
-# if echo $SHELL | grep zsh > /dev/null; then
-#     [ -f ~/.git.prompts.zsh ] && source ~/.git.prompts.zsh
-# fi
+    # my Retina Mac
+    export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+    [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
+    if echo $SHELL | grep zsh > /dev/null; then
+        [ -f ~/.git.prompts.zsh ] && source ~/.git.prompts.zsh
+    fi
 
 if hash rg 2>/dev/null; then
   # Per https://github.com/aykamko/tag, create an 'rg' alias that
