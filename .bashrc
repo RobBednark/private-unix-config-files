@@ -1128,8 +1128,8 @@ alias vjobsearch2016="vici $DirQuiz/job_search_Sep_2016"
 alias vjobsearch="vici $DirQuiz/cover_letters* $DirQuiz/job_search_Sep_2016 $DirQuiz/portland.job.scene $DirQuiz/job.search.Aug.2015 $DirQuiz/db_resume $DirDoc/cover.letters.txt $DirDoc/job.openings.descriptions.txt $DirQuiz/job.descriptions $DirQuiz/job.references"
 alias vjournaling="cd $DirQuiz; vici db_journaling"  # diary scratch
 alias vjs="vici $DirLearn/javascript/learn_javascript_lang_elements.js"
+alias vlatest-files='vim.ls.head 20'
 alias vlearn="cd $DirQuiz; vici db_learn"
-alias vlos_angeles="vici $DirQuiz/db_los_angeles"
 alias vm="vici $DirMoovel/moovel.txt"
 alias vmac="title vmac; cd $DirQuiz; vici db_mac"
 alias vmaster.manifest="title vmaster.manifest; cd $DirQuiz; vici master.manifest.txt"
@@ -1900,14 +1900,14 @@ function vim.git.grep() {
 function vim.git.ls-files() {
     vim $(git ls-files $*)
 }
-function vim.ls.head() {
+function vim.ls.head() { # latest / newest / recent / head
     echo "e.g., vim.ls.head (edits the newest 5 files)" > /dev/null
     # Need to quote the filenames, in case they have spaces in them, like the chat logs do.
-    number=5
+    number=$1
     files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
     vim $files
 }
-function vim.last.n.files() {
+function vim.last.n.files() {  # latest / newest / recent / head
     echo "e.g., vim.last.n.files '*report' 10" > /dev/null
     pattern=$1
     number=$2
