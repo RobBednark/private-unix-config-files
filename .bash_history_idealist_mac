@@ -31755,3 +31755,731 @@ vq
 python manage.py runserver
 #1598317488
 rqo
+#1598367630
+ls -l .bashrc
+#1598367639
+ls -altr
+#1598367746
+mv .bash_history .unix.config.files/.bash_history_idealist_mac && ln -s .unix.config.files/.bash_history_idealist_mac .bash_history
+#1598367816
+ls -ld .unix.config.files
+#1598367540
+ls -altr
+#1598367544
+gs
+#1598367578
+git status -uno
+#1598367586
+git status --help
+#1598367602
+c
+#1598367609
+gs
+#1598367613
+cdunixconfigfiles 
+#1598367615
+ls -altr
+#1598367715
+cd
+#1598367718
+cdunixconfigfiles 
+#1598367718
+gs
+#1598367720
+cd
+#1598367725
+cp -p .bash_history /tmp
+#1598367730
+diff .bash_history /tmp
+#1598367743
+ls -l .bash_history 
+#1598367750
+cdunixconfigfiles 
+#1598367751
+gs
+#1598367762
+diff .bash_history_idealist_mac /tmp/.bash_history 
+#1598367765
+gs
+#1598367767
+git add .
+#1598367768
+gco
+#1598367834
+gs
+#1598366755
+cd .ssh
+#1598366756
+gs
+#1598366762
+ls -al
+#1598366767
+git init .
+#1598366771
+gs
+#1598366773
+git add .
+#1598366796
+gs
+#1598366801
+gco
+#1598366822
+gs
+#1598367396
+history|grep 105
+#1598367429
+history|grep ssh.root|less
+#1598367443
+date -u
+#1598366710
+ping bednark.org
+#1598366717
+ssh root@bednark.org
+#1598367853
+cdunixconfigfiles 
+#1598367853
+gs
+#1598367854
+gd
+#1598367867
+history|less
+#1598367943
+env|grep HIST
+#1598367959
+ls -ld .bash_history_idealist_mac 
+#1598367988
+ls -ltr
+#1598367991
+ls -altr
+#1598368027
+shopt
+#1598368035
+man shopt
+#1598368039
+shopt --help
+#1598368054
+pwd
+#1598368055
+jobs
+#1598368161
+git log -p .bashrc|less
+#1598368195
+git.log.grep.diffs HIST
+#1598368245
+git.log.grep.diffs SAVEHIST
+#1598366703
+ssh root@45.79.115.105
+#1598367106
+vq
+#1598368289
+history|grep ssh.root
+#1598368927
+ssh root@45.79.115.105
+#1598368916
+ssh root@bednark.com
+#1598368934
+ssh root@bednark.org
+#1598371304
+cdquizme-personal 
+#1598371307
+cd bin
+#1598371312
+gs
+#1598371312
+gd
+#1598371315
+vim new-server-install.bash 
+#1598369188
+vq
+#1598369115
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598369116
+ graph
+#1598369118
+pipenv graph
+#1598369110
+cdqn
+#1598369113
+psh
+#1598376877
+vq
+#1598378312
+vq
+#1598377152
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598377152
+python manage.py runserver
+#1598377150
+rqo
+#1598378371
+vq
+#1598387746
+vdiary 
+#1598391764
+vq
+#1598391887
+vig
+#1598392307
+vdiary 
+#1598398067
+vq
+#1598410429
+vdiary 
+#1598410134
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598410134
+python manage.py runserver
+#1598410133
+rqo
+#1598453574
+vdiary 
+#1598453547
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598453547
+python manage.py runserver
+#1598453881
+gs
+#1598462550
+vdiary 
+#1598478124
+vq
+#1598478151
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598478151
+python manage.py runserver
+#1598478926
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598478926
+umpdb
+#1598478934
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1598478150
+rqo
+#1598478925
+cdq
+#1598484426
+cdqn
+#1598484427
+vi
+#1598486357
+cdlearn
+#1598486395
+cp template-stackoverflow-ask-template.txt learn_stackoverflow_ask_django_how_to_show_related_foreignkey_follow_fieldname_in_change_form
+#1598486398
+vim learn_stackoverflow_ask_django_how_to_show_related_foreignkey_follow_fieldname_in_change_form
+#1598487372
+cdqn
+#1598487379
+gs
+#1598487380
+vim README.md 
+#1598484410
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598484410
+python manage.py runserver
+#1598484394
+pwd
+#1598484394
+jobs
+#1598484398
+gs
+#1598484409
+rqo
+#1598484327
+vq
+#1598489182
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598489182
+python manage.py runserver
+#1598489180
+rqo
+#1598539098
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598539098
+python manage.py runserver
+#1598554939
+vq
+#1598555601
+pwd
+#1598555602
+jobs
+#1598555805
+vq
+#1598555448
+cdquizme-personal 
+#1598555449
+gs
+#1598555451
+cd bin
+#1598555454
+vi new-server-install.bash 
+#1598555470
+gpus
+#1598555486
+vim bootstrap-new-server-git-clone.sh 
+#1598559949
+vq
+#1598555526
+cdquizme-personal 
+#1598555557
+(IS_ALPINE=1 time ./bin/bootstrap-new-server-git-clone.sh ) |& tee ./ignore-logs/bootstrap-new-server-git-clone-2020-08-27-1212
+#1598555579
+jobs
+#1598555581
+cd bin
+#1598555593
+(IS_ALPINE=1 time ./bootstrap-new-server-git-clone.sh ) |& tee ../ignore-logs/bootstrap-new-server-git-clone-2020-08-27-1213
+#1598555624
+vim alpine-install-bash.sh new-server-install.bash 
+#1598555657
+gs
+#1598555661
+git rm alpine-install-bash.sh 
+#1598555668
+c
+#1598555671
+cat cp-bin-to-server.sh 
+#1598555937
+vim new-server-install.bash 
+#1598555138
+ssh root@bednark.org
+#1598557812
+ssh root@bednark.org
+#1598560071
+cdlearn
+#1598560073
+ls *date*sh
+#1598560077
+vim learn.da
+#1598560210
+cdquizme-personal 
+#1598560212
+cd bin
+#1598560215
+cat run-server.sh 
+#1598560218
+vim new-server-install.bash 
+#1598560341
+gd
+#1598560348
+git add .
+#1598560349
+gco
+#1598560367
+gs
+#1598560371
+gpus
+#1598566911
+vq
+#1598568022
+vig
+#1598568022
+vig
+#1598570028
+cd .vim/view/
+#1598570029
+lshead
+#1598570044
+type vlatest
+#1598570047
+vlatest
+#1598570057
+vlatest-files 
+#1598570128
+lshead
+#1598570139
+diff /tmp/view -rw-r--r--   1 rbednark  staff  3903 Aug 27 16:15 ~=+quizme-read-only-prod=+questions=+views.py=
+#1598570149
+diff /tmp/view l-rw-r--r--   1 rbednark  staff  3903 Aug 27 16:15 ~=+quizme-read-only-prod=+questions=+views.py=
+#1598570158
+diff /tmp/view ~=+quizme-read-only-prod=+questions=+views.py=
+#1598569393
+cdqn
+#1598569394
+gs
+#1598569395
+vi
+#1598570077
+vim 
+#1598570223
+vim
+#1598571260
+pwd
+#1598571261
+jobs
+#1598571332
+ls -ld */*pipenv*
+#1598571343
+ls -ld *repo*
+#1598571347
+cd repos
+#1598571350
+pip clone git@github.com:pypa/pipenv.git
+#1598571355
+git clone git@github.com:pypa/pipenv.git
+#1598571384
+cd pipenv/
+#1598571387
+du -hs *
+#1598571395
+cd pipenv/
+#1598571397
+du -hs *
+#1598571402
+cd vendor/
+#1598571406
+du -hs *
+#1598571408
+c
+#1598571412
+cd ..
+#1598571425
+git grep -i changelog
+#1598571444
+vim tasks/release.py 
+#1598571523
+git ls-files '*.feature'
+#1598571527
+git ls-files|less
+#1598571590
+git.log.filenames.change.summary 
+#1598571618
+git log -p
+#1598570323
+cdqn
+#1598570324
+vi
+#1598570723
+gs
+#1598570730
+ls -altr
+#1598570732
+ls -al
+#1598570749
+git ls-files
+#1598570760
+vim CHANGELOG.rst
+#1598571952
+cdqn
+#1598571953
+vi
+#1598568877
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598568877
+python manage.py runserver
+#1598568876
+rqo
+#1598577861
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598577861
+python manage.py runserver
+#1598578384
+cdqn
+#1598578385
+git log
+#1598578411
+gdc
+#1598578821
+cdqn
+#1598578823
+cd db_dumps/
+#1598578824
+lshead
+#1598578828
+ls *40.18*
+#1598578834
+cp -p *40.18* symlink-db_dumps
+#1598578836
+cd symlink-db_dumps
+#1598578837
+lshead
+#1598578847
+ln -sf dump.quizme_production.2020.08.27_Thu_18.40.18.txt latest.dump.txt 
+#1598578849
+cd -
+#1598578851
+lshead
+#1598578855
+ls -ld rest*
+#1598578862
+ln -sf dump.quizme_production.2020.08.27_Thu_18.40.18.custom.all restore.custom 
+#1598578865
+cd ..
+#1598579398
+cd db_dumps/
+#1598579399
+lshead
+#1598579402
+ls *49.54*
+#1598579411
+vim dump.quizme_production.2020.08.27_Thu_18.49.54.txt
+#1598579425
+ls *49.54*
+#1598579427
+rm -f *49.54*
+#1598578800
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598578812
+DB_QUIZME=restore_quizme_custom python manage.py showmigrations
+#1598578818
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1598578873
+ make  FILE_DUMP_CUSTOM=db_dumps/restore.custom   loaddb-custom
+#1598578879
+DB_QUIZME=restore_quizme_custom python manage.py showmigrations
+#1598578891
+DB_QUIZME=restore_quizme_custom python manage.py migrate
+#1598578894
+DB_QUIZME=restore_quizme_custom python manage.py showmigrations
+#1598578927
+DB_QUIZME=restore_quizme_custom python manage.py runserver
+#1598579068
+type rqo
+#1598579085
+ DB_QUIZME=quizme_production     QM_INCLUDE_UNANSWERED=True      QM_LIMIT_TO_DATE_SHOW_NEXT_BEFORE_NOW=True     QM_NULLS_FIRST=True     QM_SORT_BY_ANSWERED_COUNT=False     QM_SORT_BY_WHEN_ANSWERED_NEWEST=False     QM_SORT_BY_WHEN_ANSWERED_OLDEST=True     QM_DEBUG_PRINT=False     QM_DEBUG_SQL=False     pipenv shell python manage.py runserver
+#1598579101
+ DB_QUIZME=restore_quizme_custom     QM_INCLUDE_UNANSWERED=True      QM_LIMIT_TO_DATE_SHOW_NEXT_BEFORE_NOW=True     QM_NULLS_FIRST=True     QM_SORT_BY_ANSWERED_COUNT=False     QM_SORT_BY_WHEN_ANSWERED_NEWEST=False     QM_SORT_BY_WHEN_ANSWERED_OLDEST=True     QM_DEBUG_PRINT=False     QM_DEBUG_SQL=False     python manage.py runserver
+#1598579394
+time (df -h .; DB_QUIZME=restore_quizme_custom make dumpdb)
+#1598579446
+DB_QUIZME=quizme_production python manage.py showmigrations
+#1598579452
+DB_QUIZME=quizme_production python manage.py migrate
+#1598579460
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1598578294
+cdqn
+#1598578295
+gs
+#1598578296
+gd
+#1598578309
+git add -p questions/admin.py 
+#1598578326
+gs
+#1598578327
+gdc
+#1598578340
+vi
+#1598578353
+gs
+#1598578355
+gd
+#1598578360
+git add -p questions/admin.py 
+#1598578375
+gdc
+#1598578378
+gco
+#1598578454
+gs
+#1598578456
+gd
+#1598578461
+git add questions/admin.py 
+#1598578463
+gco
+#1598578531
+gs
+#1598578534
+gd
+#1598578539
+gs
+#1598578545
+git add questions/templates/base.html 
+#1598578547
+gdc
+#1598578550
+gco
+#1598578616
+gs
+#1598578618
+gd
+#1598578631
+gs
+#1598578634
+gca
+#1598578788
+gs
+#1598578789
+gpus
+#1598578798
+cq
+#1598578799
+cdq
+#1598627590
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598627590
+python manage.py runserver
+#1598627587
+rqo
+#1598648612
+vq
+#1598644834
+vmisc 
+#1598644841
+vdiary 
+#1598654714
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598654714
+python manage.py runserver
+#1598654712
+rqo
+#1598655451
+vpaste 
+#1598721657
+vq
+#1598722388
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598722388
+python manage.py runserver
+#1598722386
+rqo
+#1598736017
+vq
+#1598736514
+vim /tmp/foo
+#1598736703
+vim
+#1598737436
+cdlearn
+#1598737438
+ls *date*sh
+#1598737440
+vim learn.date.sh
+#1598738196
+ssh root@45.56.94.165
+#1598739153
+ssh root@bednark.org
+#1598735750
+cdquizme-personal 
+#1598735750
+gs
+#1598735751
+gpus
+#1598735758
+cd bin
+#1598735761
+git show
+#1598735787
+git log -p
+#1598735866
+cat new-server-install.bash 
+#1598735869
+vim new-server-install.bash 
+#1598738749
+gs
+#1598738750
+gd
+#1598738760
+gca
+#1598738775
+gpus
+#1598738899
+vim
+#1598738999
+gs
+#1598738999
+gd
+#1598739007
+gca
+#1598739023
+gpus
+#1598739091
+vim new-server-install.bash 
+#1598739430
+gd
+#1598739442
+gca
+#1598739468
+gpus
+#1598739588
+vi
+#1598739816
+gd
+#1598739918
+vi
+#1598740099
+gd
+#1598740103
+gca
+#1598740118
+gpus
+#1598740154
+vi
+#1598740172
+gd
+#1598740175
+gca
+#1598740192
+git mv new-server-install.bash new-server-install.sh
+#1598740193
+gs
+#1598740194
+gco
+#1598740210
+gpus
+#1598740497
+vi
+#1598740502
+vi new-server-install.sh 
+#1598739831
+cdqn
+#1598739832
+gca
+#1598739839
+cdquizme-personal 
+#1598739840
+gs
+#1598739843
+gca
+#1598739871
+gpus
+#1598740634
+cdquizme-personal 
+#1598740635
+crontab -l
+#1598740640
+cd bin
+#1598740642
+vim new-server-install.sh 
+#1598740784
+gd
+#1598740798
+gca
+#1598740817
+gpus
+#1598737391
+cdlearn
+#1598737394
+ls *redir*sh
+#1598737396
+cat *redir*sh
+#1598738594
+ls *grep*sh
+#1598738604
+ls *if*sh
+#1598738610
+vim *if*sh
+#1598738833
+vim learn.date.sh
+#1598740346
+vq
+#1598740596
+cddjango
+#1598740598
+cd *allauth
+#1598740600
+gs
+#1598740602
+git log
+#1598740606
+git show
+#1598735607
+vdiary 
+#1598735702
+ssh root@bednark.org
+#1598740550
+while true; do  ssh root@bednark.org; sleep 5; done
+#1598740916
+jobs
