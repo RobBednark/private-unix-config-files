@@ -32483,3 +32483,251 @@ ssh root@bednark.org
 while true; do  ssh root@bednark.org; sleep 5; done
 #1598740916
 jobs
+#1598745581
+cddjango-last 
+#1598745595
+cd ..
+#1598745596
+lshead
+#1598750229
+ . /Users/rbednark/.virtualenvs/learn_django_allauth-uXG8CYd_/bin/activate
+#1598750232
+pip freeze
+#1598745984
+cddjango-last 
+#1598745992
+vim README 
+#1598745585
+vrc
+#1598745618
+cddjango-last 
+#1598745622
+c
+#1598745757
+vi
+#1598745966
+ls my*
+#1598746107
+gd
+#1598750765
+vi
+#1598750252
+ . /Users/rbednark/.virtualenvs/learn_django_allauth-uXG8CYd_/bin/activate
+#1598750256
+pip freeze
+#1598750263
+python --version
+#1598750269
+python3 --version
+#1598750277
+pipenv --rm
+#1598750282
+pipenv install
+#1598750290
+vim Pipfile
+#1598750301
+pipenv install
+#1598750376
+make
+#1598750210
+cddjango-last 
+#1598750215
+vim Makefile 
+#1598750223
+cat Makefile 
+#1598750228
+psh
+#1598750642
+vig
+#1598751969
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598751969
+python manage.py runserver
+#1598751967
+rqo
+#1598800425
+vq
+#1598816741
+git bisect --help
+#1598816596
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598816597
+make test
+#1598816652
+./manage.py test --failfast questions.tests.tests.NonBrowserTests
+#1598816660
+git bisect --help
+#1598816712
+git bisect start
+#1598816721
+git bisect HEAD
+#1598816727
+git bisect bad
+#1598816733
+git bisect good a4e1c56
+#1598816802
+git bisect run ./manage.py test --failfast questions.tests.tests.NonBrowserTests
+#1598817032
+git bisect start
+#1598817042
+gs
+#1598817047
+git bisect reset
+#1598817052
+git bisect
+#1598817056
+git bisect start
+#1598817060
+git bisect HEAD
+#1598817065
+git bisect good HEAD
+#1598817070
+git bisect bad
+#1598817078
+git bisect good a4e1c56
+#1598817084
+git bisect bad HEAD
+#1598816589
+cdqn
+#1598816590
+gs
+#1598816592
+make test
+#1598816595
+cdq
+#1598816616
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598816619
+./manage.py test -h
+#1598816633
+vim Makefile 
+#1598816687
+git log
+#1598816864
+vim Makefile 
+#1598816873
+git log
+#1598816913
+gr bb75787~
+#1598816926
+git log
+#1598816936
+gr bb75787~
+#1598816943
+gr bb75787~~
+#1598816959
+git log
+#1598817094
+gs
+#1598817098
+git bisect reset
+#1598817099
+gs
+#1598817103
+rqo
+#1598840412
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598840412
+python manage.py runserver
+#1598818840
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598818845
+./manage.py help
+#1598834093
+./manage.py inspectdb -h
+#1598839613
+./manage.py inspectdb --database restore_quizme_custom
+#1598818839
+cdq
+#1598817108
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598817108
+python manage.py runserver
+#1598816611
+cdqn
+#1598816615
+psh
+#1598817107
+rqo
+#1598818216
+vq
+#1598818036
+cdquizme-personal 
+#1598818042
+type cdqp
+#1598818048
+cd bin
+#1598818049
+gs
+#1598818052
+vim new-server-install.sh 
+#1598818721
+gd
+#1598818723
+gco
+#1598818726
+gca
+#1598818740
+gpus
+#1598819020
+vi
+#1598819244
+gd
+#1598819246
+gca
+#1598819256
+gpus
+#1598819267
+man date
+#1598819296
+vi
+#1598819336
+gd
+#1598819338
+gco
+#1598819343
+gca
+#1598819371
+gpus
+#1598819401
+vi
+#1598819482
+vim new-server-install.sh 
+#1598834027
+gd
+#1598834038
+gca
+#1598834055
+gpus
+#1598834023
+ssh root@bednark.org
+#1598817958
+ssh root@bednark.org
+#1598841164
+vq
+#1598880453
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598880453
+python manage.py runserver
+#1598880452
+rqo
+#1598884113
+ip
+#1598884115
+ipconfig 
+#1598884119
+dig
+#1598884124
+man dig
+#1598884136
+traceroute
+#1598884142
+traceroute google.com
+#1598884166
+route
+#1598884170
+man route
+#1598884190
+man grep
+#1598884206
+vq
