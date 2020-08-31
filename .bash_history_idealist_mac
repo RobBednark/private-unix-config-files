@@ -32731,3 +32731,17 @@ man route
 man grep
 #1598884206
 vq
+#1598884912
+cdunixconfigfiles 
+#1598884914
+gs
+#1598884915
+git show
+#1598884979
+cd .vim/
+#1598884982
+cd bundle/
+#1598884985
+cd ctrlp.vim/
+#1598884987
+vi
