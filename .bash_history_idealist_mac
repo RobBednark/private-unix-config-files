@@ -32747,3 +32747,11 @@ cd ctrlp.vim/
 vi
 #1598884901
 vvimrc 
+#1598886282
+vim /tmp/foo
+#1598889148
+vdiary 
+#1598888204
+vim --version
+#1598888959
+brew install vim@8.1
