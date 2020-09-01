@@ -32755,3 +32755,165 @@ vdiary
 vim --version
 #1598888959
 brew install vim@8.1
+#1598885353
+cd .vim/bundle/ctrlp.vim/
+#1598885354
+gs
+#1598885355
+git log
+#1598885600
+vvimrc 
+#1598885150
+cdlearn
+#1598885151
+lshead
+#1598885164
+lshead 
+#1598885171
+ls -lt|head
+#1598885174
+ls -lt|head -20
+#1598885181
+vim learn_stackoverflow_ask_vim_ctrlp_mapping_disappears.txt
+#1598886606
+vim --version
+#1598891205
+vdiary 
+#1598891255
+vmeetups 
+#1598883930
+cddjango-last 
+#1598883931
+gs
+#1598883934
+gd Pip*
+#1598883945
+git add Pip*
+#1598883946
+gdc
+#1598883947
+gco
+#1598884002
+gs
+#1598884004
+gd
+#1598884029
+git checkout my_app/migrations/
+#1598884030
+gs
+#1598884033
+gd
+#1598884052
+vi README 
+#1598890608
+ . /Users/rbednark/.virtualenvs/learn_django_allauth-uXG8CYd_/bin/activate
+#1598890610
+make
+#1598890616
+vi
+#1598890646
+make
+#1598883910
+cddjango-last 
+#1598883911
+gs
+#1598883912
+gd
+#1598884024
+gs
+#1598884476
+cd my_app/
+#1598884477
+ls -al
+#1598884586
+cd templates/
+#1598884589
+cd my_app/
+#1598884611
+vim index.html
+#1598890219
+c
+#1598890224
+cd -
+#1598890226
+cd ../..
+#1598890228
+vi
+#1598890600
+c
+#1598890602
+cat Makefile 
+#1598890604
+make
+#1598890607
+psh
+#1598896731
+cddjango-last 
+#1598896732
+vi
+#1598898444
+cddjango-last 
+#1598898474
+cd cd my_app/
+#1598898478
+cd my_app/
+#1598898480
+cd templates/
+#1598904293
+vq
+#1598904321
+type vq
+#1598904326
+cd /tmp
+#1598904327
+vq
+#1598971296
+vdiary 
+#1598973506
+ssh root@bednark.org
+#1598976020
+vq
+#1598970416
+ssh root@bednark.org
+#1598974012
+curl 45.79.115.105:8000
+#1598974187
+ssh root@bednark.org
+#1598974298
+ssh rob@bednark.org
+#1598975520
+ifconfig
+#1598975767
+c
+#1598975772
+ssh rob@bednark.org
+#1598975780
+ssh foo@bednark.org
+#1598975785
+ssh root@bednark.org
+#1598996218
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598996218
+python manage.py runserver
+#1598996481
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1598996630
+cd db_dumps/
+#1598996644
+ls *41.21*
+#1598996650
+cp -p *41.21* symlink-db_dumps
+#1598996651
+cd symlink-db_dumps
+#1598996652
+lshead
+#1598996661
+ln -sf dump.quizme_production.2020.09.01_Tue_14.41.21.txt latest.dump.txt 
+#1598996216
+rqo
+#1598996599
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1598996599
+python manage.py runserver
+#1598996598
+rqo
