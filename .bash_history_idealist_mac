@@ -32917,3 +32917,143 @@ rqo
 python manage.py runserver
 #1598996598
 rqo
+#1598996803
+vrc
+#1598997498
+cddjango-last 
+#1598997500
+vim README 
+#1598997673
+vig
+#1598998615
+vpaste 
+#1598996901
+ . /Users/rbednark/.virtualenvs/learn_django_allauth-uXG8CYd_/bin/activate
+#1598996902
+make
+#1598996225
+vq
+#1598996682
+c
+#1598996685
+cddjango-last 
+#1598996686
+lshead
+#1598996687
+gs
+#1598996689
+gd
+#1598996710
+git grep social.app
+#1598996735
+git grep -i social.app
+#1598996739
+git grep -i social.*app
+#1598996761
+git grep myapp
+#1598996764
+git grep my_app
+#1598996773
+git ls-files '*social*'
+#1598996777
+git ls-files '*my_app*'
+#1598996780
+gs
+#1598996789
+git grep --help
+#1598996859
+c
+#1598996870
+git grep --untracked my_app
+#1598996881
+git grep --untracked social
+#1598996897
+make
+#1598996900
+psh
+#1599003966
+vq
+#1599005736
+vdiary 
+#1599003466
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599003466
+python manage.py runserver
+#1599003465
+rqo
+#1599014608
+vdiary 
+#1599014043
+vq
+#1599056233
+vpaste 
+#1599057184
+vq
+#1599059511
+cd .ssh
+#1599059512
+ls -al
+#1599059603
+while true; do  ssh root@bednark.org; sleep 5; done
+#1599059854
+cat ~/.ssh/id_rsa.pub 
+#1599073155
+vq
+#1599076878
+cdlearn
+#1599076891
+vim learn_freecodecamp_python_sockets.py
+#1599080695
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599080695
+python manage.py runserver
+#1599080693
+rqo
+#1599081457
+vdiary 
+#1599081558
+∂
+#1599081615
+vpaste 
+#1599087978
+while true; do  ssh root@bednark.org; sleep 5; done
+#1599088635
+cat ~/.ssh/config 
+#1599087913
+pwd
+#1599087913
+jobs
+#1599087929
+vdiary 
+#1599087933
+vq
+#1599094887
+vim tmp/paste
+#1599098733
+vq
+#1599099039
+vpaste 
+#1599099125
+cd tmp
+#1599099126
+gs
+#1599099129
+git remote v
+#1599099154
+git.rev-parse.show.toplevel.repo.dir 
+#1599099157
+ls -altr
+#1599099159
+git init .
+#1599099165
+git add paste
+#1599099166
+gd
+#1599099168
+gco
+#1599099114
+vdiary 
+#1599099267
+c
+#1599099272
+type vpaste
