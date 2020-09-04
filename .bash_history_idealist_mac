@@ -33059,3 +33059,189 @@ c
 type vpaste
 #1599099950
 vrc
+#1599099963
+history -h
+#1599099969
+type history
+#1599099971
+info history
+#1599100039
+history|less
+#1599100087
+dotrc
+#1599100089
+vrc
+#1599100092
+vpaste 
+#1599099943
+vpaste 
+#1599100106
+vdiary 
+#1599100419
+vq
+#1599144856
+shasum
+#1599144859
+shasum asdfasdf
+#1599144863
+man -k sha
+#1599144872
+sha256 adsf
+#1599144896
+man sha256
+#1599144927
+sha256
+#1599144929
+type sha256
+#1599145883
+cat /etc/passwd
+#1599145886
+grep root /etc/passwd
+#1599145892
+ls -l
+#1599145897
+ls -l /var
+#1599145900
+ls -ld /
+#1599145902
+ls -ld /.
+#1599145907
+cd /
+#1599145907
+ls -al
+#1599145916
+cd
+#1599145919
+ls /
+#1599145922
+ls -l /
+#1599146330
+ssh root@bednark.org
+#1599146340
+ssh adfasdf@bednark.org
+#1599146090
+while true; do  ssh root@bednark.org; sleep 5; done
+#1599147540
+ifconfig
+#1599173863
+cdqn
+#1599173864
+vi
+#1599173930
+gs
+#1599173932
+gd
+#1599173937
+git checkout .
+#1599173937
+gs
+#1599173939
+gpul
+#1599173943
+gpus
+#1599173952
+netstat -nlt
+#1599173957
+netstat -nl
+#1599173998
+netstat -pa|less
+#1599174001
+type netstat
+#1599174006
+netstat --help
+#1599174010
+man netstat
+#1599174056
+netstat -a|less
+#1599174379
+lsof -nP -iTCP:$PORT | grep LISTEN
+#1599174387
+type lsof
+#1599174421
+sudo lsof -iTCP -sTCP:LISTEN -n -P
+#1599174583
+crontab -l
+#1599174587
+sudo crontab -l
+#1599169578
+vdiary 
+#1599175666
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599175666
+python manage.py runserver
+#1599175665
+rqo
+#1599171757
+ . /Users/rbednark/.virtualenvs/learn_django_allauth-uXG8CYd_/bin/activate
+#1599171761
+./manage.py runserver
+#1599171636
+pwd
+#1599171636
+jobs
+#1599171642
+cddjango-last 
+#1599171755
+psh
+#1599175446
+cdqn
+#1599175447
+gs
+#1599175480
+pip install django-bootstrap-themes
+#1599175484
+pipenv install django-bootstrap-themes
+#1599175530
+vi
+#1599175700
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599175700
+python manage.py runserver
+#1599175699
+rqo
+#1599171815
+pwd
+#1599171816
+jobs
+#1599171840
+cddjango-last 
+#1599171849
+git grep accounts.profile
+#1599171854
+git grep profile
+#1599171867
+pwd
+#1599171867
+jobs
+#1599171884
+vim mysite/settings.py 
+#1599176674
+cddjango-last 
+#1599176676
+gs
+#1599176678
+vim README 
+#1599174680
+cddjango-last 
+#1599174683
+gs
+#1599174685
+vi
+#1599176636
+gd
+#1599176643
+git diff --help
+#1599176790
+gs
+#1599176798
+git checkout my_app/migrations/
+#1599176798
+gs
+#1599176351
+ . /Users/rbednark/.virtualenvs/learn_django_allauth-uXG8CYd_/bin/activate
+#1599176354
+./manage.py runserver
+#1599176346
+cddjango-last 
+#1599176350
+psh
