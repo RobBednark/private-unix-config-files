@@ -1141,7 +1141,6 @@ alias vpeople.quiz="vici $DirQuiz/db_quiz_people"
 alias vprogramming="cd $DirQuiz; vici db_programming"
 alias vpython="title vpython; cd $DirQuiz; vici db_python"
 alias vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
-alias vr="cdquizme-prod; vim README.md"
 alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme; \
     vim $DirAddToQuizme/learn_add_to_quizme  \
