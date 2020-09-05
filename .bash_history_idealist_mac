@@ -33245,3 +33245,127 @@ gs
 cddjango-last 
 #1599176350
 psh
+#1599229448
+vvimrc 
+#1599230205
+cdqn
+#1599230233
+c
+#1599230234
+vi
+#1599234067
+ls -1|wc -l
+#1599231059
+traceroute google.com
+#1599231106
+traceroute -q google.com
+#1599231111
+traceroute -q0 google.com
+#1599231115
+traceroute -q 1 google.com
+#1599231153
+c
+#1599231156
+traceroute google.com
+#1599232370
+ping google.com
+#1599232489
+traceroute routerlogin.com
+#1599232494
+dig routerlogin.com
+#1599232531
+man dig
+#1599232545
+dig routerlogin.com
+#1599232593
+nslookup routerlogin.com
+#1599232647
+netstat -lun
+#1599232673
+man netstat
+#1599232713
+ps -ef|grep -i dns
+#1599232950
+while true; do  ssh root@bednark.org; sleep 5; done
+#1599230670
+nslookup routerlogin.com
+#1599230690
+less /etc/hosts
+#1599230754
+traceroute routerlogin.com
+#1599230770
+traceroute google.com
+#1599230967
+man traceroute
+#1599231602
+reset
+#1599231603
+man traceroute
+#1599232079
+type traceroute
+#1599232085
+brew install traceroute
+#1599232107
+brew install tcptraceroute
+#1599232146
+man tcptraceroute
+#1599232978
+c
+#1599232989
+python3 -m http.server
+#1599233022
+lsof -P -n|grep -i list
+#1599233040
+lsof -P -n|grep LIST
+#1599233133
+jobs
+#1599233220
+ifconfig|grep 192
+#1599233401
+jobs
+#1599233404
+kill %1
+#1599233411
+python3 -m http.server
+#1599234016
+cd /tmp
+#1599234018
+python3 -m http.server
+#1599234033
+mkdir my.http.server.dir
+#1599234034
+cd my.http.server.dir
+#1599234035
+ls -al
+#1599234039
+python3 -m http.server
+#1599229395
+vq
+#1599313987
+type cdqp
+#1599313990
+cdqp
+#1599313992
+cd bin
+#1599313993
+gs
+#1599313995
+cd ..
+#1599313997
+git ls-files
+#1599314014
+cd bin
+#1599314016
+c
+#1599314020
+vim new-server-install.sh 
+#1599320996
+vpaste 
+#1599321028
+vim tmp/john-git-script.sh
+#1599319464
+type git.checkout.cp.files.from.other.branch 
+#1599318776
+vpaste
+#1599315557
+vq
