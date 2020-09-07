@@ -33371,3 +33371,149 @@ vpaste
 vq
 #1599332333
 type vtodo
+#1599332298
+grrc TODO
+#1599332308
+grrc readme
+#1599332317
+vrc
+#1599332353
+cdqn
+#1599332354
+gs
+#1599332357
+vim TODO.md 
+#1599332895
+gd
+#1599332900
+gd TODO.md 
+#1599332905
+vim TODO.md 
+#1599335876
+vdiary 
+#1599401426
+cdgit 
+#1599401433
+ls -l
+#1599401439
+cdlearngit 
+#1599401444
+ls -ld *merge*
+#1599401475
+mkdir learn-john-2020-09-06-how-git-merge-works
+#1599401476
+cd learn-john-2020-09-06-how-git-merge-works
+#1599401479
+git init .
+#1599401480
+c
+#1599401528
+echo m1 > myfile
+#1599401534
+git add myfile 
+#1599401539
+git commit
+#1599401553
+git checkout -b topic
+#1599401569
+echo t1 >> myfile 
+#1599401578
+git commit -am't1'
+#1599401586
+git log --all
+#1599401600
+echo t2 >> myfile 
+#1599401603
+git commit -am't2'
+#1599401607
+gch-
+#1599401609
+git log
+#1599401620
+echo m2 >> myfile 
+#1599401624
+git commit -am'm2'
+#1599401635
+echo m3 >> myfile 
+#1599401639
+git commit -am'm3'
+#1599401743
+git log --all
+#1599401778
+reset
+#1599401789
+c
+#1599401832
+git log --graph
+#1599401839
+git log --graph --all
+#1599401903
+git log
+#1599401920
+git checkout -b master-orig
+#1599401924
+git checkout topic
+#1599401935
+git checkout master
+#1599401939
+git merge topic
+#1599401944
+vim myfile 
+#1599401952
+git add myfile 
+#1599401953
+gs
+#1599401959
+git merge --continue
+#1599401975
+git log
+#1599402172
+git log --graph --all
+#1599402178
+git log --graph 
+#1599402227
+git log --help
+#1599402056
+cdlearngit 
+#1599402057
+lshead
+#1599402062
+cd learn-john-2020-09-06-how-git-merge-works
+#1599402069
+git log master-origin
+#1599402071
+git log master-original
+#1599402075
+git branch
+#1599402080
+git log master-orig
+#1599401168
+git merge --help
+#1599397355
+vq
+#1599437811
+ssh-keygen 
+#1599437822
+ssh-keygen -h
+#1599437826
+man ssh-keygen
+#1599438892
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599438892
+python manage.py runserver
+#1599438787
+rqo
+#1599438808
+pipenv
+#1599438819
+type pipenv
+#1599438828
+brew info pipenv
+#1599438845
+brew upgrade pipenv
+#1599438869
+pipenv --version
+#1599438888
+pipenv 
+#1599438891
+rqo
