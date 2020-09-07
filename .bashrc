@@ -1036,7 +1036,7 @@ alias rqo='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
     QM_SORT_BY_WHEN_ANSWERED_OLDEST=True \
     QM_DEBUG_PRINT=False \
     QM_DEBUG_SQL=False \
-    pipenv shell python manage.py runserver)'  # unanswered last, oldest-answered first  ("rqo" = "run quiz, oldest-answered first, include unanswered")
+    pipenv shell python manage.py runserver --insecure)'  # unanswered last, oldest-answered first  ("rqo" = "run quiz, oldest-answered first, include unanswered")
 alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
 alias run="python manage.py runserver"
 alias runprod="DB_QUIZME=quizme_production run"
