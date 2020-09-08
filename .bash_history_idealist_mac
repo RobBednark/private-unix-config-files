@@ -33517,3 +33517,291 @@ pipenv --version
 pipenv 
 #1599438891
 rqo
+#1599438739
+cdqn
+#1599438740
+vi
+#1599438763
+gd
+#1599438775
+vi
+#1599439159
+vrc
+#1599439176
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599439176
+python manage.py runserver --insecure
+#1599454531
+npm --help
+#1599454555
+npm search ndt
+#1599486542
+vq
+#1599496080
+vpaste 
+#1599488849
+cd /tmp
+#1599488879
+c
+#1599488940
+mkdir my.repo
+#1599488942
+cd my.repo
+#1599488945
+git init .
+#1599488992
+echo master-1 > myfile
+#1599488994
+git add .
+#1599488994
+gs
+#1599489000
+git commit -am'master-1'
+#1599489010
+echo master-2 >> myfile
+#1599489013
+git commit -am'master-2'
+#1599489015
+gs
+#1599489017
+git log
+#1599489020
+gch HEAD~
+#1599489026
+git checkout -b topic
+#1599489034
+echo topic-1 >> myfile
+#1599489042
+git commit -am'topic-1'
+#1599489045
+echo topic-2 >> myfile
+#1599489049
+git commit -am'topic-2'
+#1599489063
+git merge master
+#1599489068
+vim myfile 
+#1599489076
+gs
+#1599489079
+git add myfile 
+#1599489084
+git merge --continue
+#1599489088
+git show
+#1599489110
+git merge --help
+#1599489364
+git log --help
+#1599489371
+reset
+#1599489373
+git log --help
+#1599489742
+git log --all
+#1599490062
+git log --help
+#1599490071
+git log --topo-order
+#1599490260
+git log --graph --all
+#1599490389
+git log --graph master
+#1599490401
+git log --graph --all
+#1599490500
+git log --graph --all --topo-order
+#1599490517
+git log --graph master
+#1599490522
+git log --graph --all --topo-order
+#1599490748
+git log --help
+#1599490774
+git cat-file
+#1599490778
+git cat-file --help
+#1599490807
+git cat-file myfile
+#1599490815
+git cat-file 
+#1599490824
+git log
+#1599490836
+git cat-file  2ff4a56
+#1599490841
+git cat-file -p 2ff4a56
+#1599490889
+git log --help
+#1599491139
+git log --graph --all --topo-order
+#1599491179
+git log master
+#1599491206
+git log --topo-order master
+#1599491231
+git cat-file 043392d
+#1599491234
+git cat-file -p 043392d
+#1599491239
+git log master
+#1599491243
+git cat-file -p 043392d
+#1599491265
+git log --topo-order topic
+#1599491296
+git log --help
+#1599491340
+git log --parents --topo-order topic
+#1599491391
+git log --help
+#1599491395
+git log --parents --topo-order topic
+#1599491423
+git log --help
+#1599491614
+git log --ancestry-path
+#1599491625
+git log --ancestry-path HEAD..master
+#1599491627
+git log
+#1599491638
+git tag e1a0454 master-1
+#1599491647
+git tag master-1 e1a0454
+#1599491648
+git log
+#1599491655
+git log --ancestry-path HEAD..master-1
+#1599491662
+git log --help
+#1599491684
+git log --ancestry-path master-1..HEAD
+#1599491760
+git log --help
+#1599492612
+git log
+#1599492618
+git rev-list master
+#1599492628
+git rev-list --help
+#1599492763
+git rev-list --full master
+#1599492776
+git rev-list --help
+#1599492799
+git rev-list --pretty full master
+#1599492803
+git rev-list --pretty fuller master
+#1599492807
+git rev-list --pretty --fuller master
+#1599492811
+git rev-list --help
+#1599492822
+git rev-list --pretty=fuller master
+#1599492833
+git rev-list --pretty=fuller topic
+#1599492845
+git rev-list --pretty=oneline topic
+#1599492915
+git show c83f180c73
+#1599492920
+git show --parents c83f180c73
+#1599492942
+git log 
+#1599492967
+git log --graph --all
+#1599493000
+git show --parents c83f180
+#1599489754
+git log --help
+#1599489764
+reset
+#1599489767
+git log --help
+#1599489782
+reset
+#1599489784
+git log --help
+#1599491600
+git log --ancestry-path
+#1599497274
+vq
+#1599509208
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599509212
+./manage.py collectstatic
+#1599509224
+gd
+#1599509226
+pwd
+#1599509227
+jobs
+#1599509233
+type rqo
+#1599509235
+rqo
+#1599509861
+man bash
+#1599509347
+man bash
+#1599509290
+cdlearn
+#1599509294
+ls *redirect*sh
+#1599509303
+ls *pseudo*sh
+#1599509306
+vim *pseudo*sh
+#1599509241
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599509241
+python manage.py runserver --insecure
+#1599509191
+cdqn
+#1599509191
+gs
+#1599509192
+gd
+#1599509204
+./manage.py collectstatic
+#1599509206
+psh
+#1599509240
+rqo
+#1599521872
+vpaste 
+#1599532384
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599532384
+python manage.py runserver --insecure
+#1599533673
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1599532382
+rqo
+#1599538499
+vpaste 
+#1599538662
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599538662
+python manage.py runserver --insecure
+#1599546706
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599546708
+python
+#1599546705
+cdq
+#1599546383
+cdqn
+#1599546390
+vi
+#1599546071
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599546071
+python manage.py runserver --insecure
+#1599546069
+rqo
+#1599575627
+vq
+#1599586508
+vpaste 
