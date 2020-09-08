@@ -33805,3 +33805,65 @@ rqo
 vq
 #1599586508
 vpaste 
+#1599588353
+cd $DirReposRob
+#1599588360
+cd $DirRepoRobBednarkGithubIO/
+#1599588281
+echo $DirRepoRobBednarkGithubIO 
+#1599587963
+grrc private
+#1599587978
+ls -ld *repos*
+#1599587982
+cd repos.mercurial/
+#1599587984
+ls -al
+#1599587985
+cd ..
+#1599587995
+rmdir repos.mercurial/
+#1599587997
+c
+#1599587999
+ls -al
+#1599588002
+ls -ld *repo*
+#1599588009
+ls repos.github.desktop/
+#1599588016
+ls -l repos.github.desktop/
+#1599588028
+cd repos.github.desktop//splinter
+#1599588030
+gs
+#1599588032
+git log
+#1599588034
+gba
+#1599588041
+cd-
+#1599588043
+cd -
+#1599588048
+rm -fr repos.github.desktop/
+#1599588049
+c
+#1599588051
+ls -ld *repo*
+#1599588054
+ls repos*
+#1599588064
+cd repos.rob/
+#1599588066
+git clone git@github.com:RobBednark/private-rbednark-general.git
+#1599588072
+cd private-rbednark-general/
+#1599588225
+dotrc
+#1599588231
+set|grep DirRepo
+#1599588236
+cd $DirReposRob
+#1599588386
+cdprivate-rbednark-general 
