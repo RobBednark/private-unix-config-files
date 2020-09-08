@@ -33869,3 +33869,67 @@ cd $DirReposRob
 cdprivate-rbednark-general 
 #1599588076
 vrc
+#1599588938
+cdresume 
+#1599588943
+cddropbox 
+#1599588947
+ls -ld *esume
+#1599588949
+ls -ld *esume*
+#1599589173
+cdresume 
+#1599589176
+find .
+#1599589184
+ls -ltr
+#1599589185
+cat readme.txt 
+#1599589199
+cd old/
+#1599589205
+cd ..
+#1599589249
+dotrc
+#1599589285
+grrc private
+#1599589321
+ln -s $DirReposRob/private-rbednark-general/rob-bednark-resume.txt  symlink-rob-bednark-resume.txt
+#1599589323
+ls -l
+#1599589326
+head symlink-rob-bednark-resume.txt 
+#1599589354
+grrc resume
+#1599589366
+vresume
+#1599589498
+dotrc
+#1599589500
+vresume
+#1599588754
+cdqn
+#1599588755
+cd db_dumps/
+#1599588759
+lshead
+#1599588771
+cd symlink-db_dumps
+#1599588773
+cd -
+#1599588777
+ls *19.54*
+#1599588781
+cp -pr *19.54* symlink-db_dumps
+#1599588782
+cd symlink-db_dumps
+#1599588783
+lshead
+#1599588792
+ln -sf dump.quizme_production.2020.09.07_Mon_19.54.34.txt latest.dump.txt 
+#1599588793
+vq
+#1599588905
+type grc
+#1599588910
+grrc resume
