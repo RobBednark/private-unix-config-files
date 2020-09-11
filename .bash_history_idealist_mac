@@ -33933,3 +33933,471 @@ vq
 type grc
 #1599588910
 grrc resume
+#1599589394
+cdquiz
+#1599589403
+ls *over*
+#1599589416
+vrc
+#1599588463
+gs
+#1599588480
+git add rob-bednark-resume.txt
+#1599588483
+touch rob-bednark-resume.txt
+#1599588484
+vim rob-bednark-resume.txt
+#1599588505
+ga rob-bednark-resume.txt
+#1599588506
+gs
+#1599588510
+gco
+#1599588721
+gs
+#1599588722
+gpus
+#1599588742
+c
+#1599588742
+gs
+#1599588745
+vim rob-bednark-resume.txt 
+#1599588874
+gs
+#1599588880
+gca
+#1599590884
+vq
+#1599587536
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599587536
+python manage.py runserver --insecure
+#1599587534
+rqo
+#1599592856
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599592856
+python manage.py runserver --insecure
+#1599606732
+vpaste 
+#1599614548
+man ssh-keygen
+#1599615655
+ssh-keygen -f rob-key-2020-09-08
+#1599616237
+ls .ssh/
+#1599616242
+cd .ssh/
+#1599616244
+ls -altr
+#1599616297
+cd
+#1599616298
+ls -altr
+#1599616307
+mv rob-key-2020-09-08* .ssh
+#1599616851
+vdiary 
+#1599615440
+vq
+#1599616544
+cd .ssh/
+#1599616545
+ls -altr
+#1599616546
+gs
+#1599616547
+gd
+#1599616551
+git add .
+#1599616554
+gco
+#1599616578
+gs
+#1599616586
+vim config 
+#1599616602
+gd
+#1599616605
+gca
+#1599616636
+vim config 
+#1599617007
+ssh git@github.com
+#1599617015
+ssh -vv git@github.com
+#1599617019
+ssh -vvv git@github.com
+#1599617028
+vim config 
+#1599617034
+ssh -vvv git@github.com
+#1599617213
+ssh git@github.com
+#1599617222
+ssh-agent
+#1599617276
+man ssh-add
+#1599617286
+ssh-add -L
+#1599617305
+man ssh-add
+#1599617682
+vig 
+#1599616409
+cd .ssh/
+#1599616420
+pbcopy < rob-key-2020-09-08.pub 
+#1599616533
+cdqn
+#1599616535
+git remote -v
+#1599617349
+ssh-add rob-key-2020-09-08
+#1599617354
+ssh-add ~/.ssh/rob-key-2020-09-08
+#1599617403
+ssh git@github.com
+#1599617442
+cd ~/.ssh/
+#1599617448
+gs
+#1599617449
+gd
+#1599617454
+gca
+#1599617472
+gs
+#1599617480
+git rm id*
+#1599617482
+vim known_hosts 
+#1599617498
+gs
+#1599617499
+gd
+#1599617541
+gs
+#1599617548
+gca
+#1599617592
+gs
+#1599617817
+git log -p
+#1599617910
+pbcopy < rob-key-2020-09-08.pub 
+#1599617986
+gs
+#1599617986
+gd
+#1599617993
+cat *pub
+#1599618016
+gs
+#1599618018
+git log -p
+#1599618058
+cat *pub
+#1599618614
+ssh 96.126.101.189
+#1599618625
+ssh root@96.126.101.189
+#1599617420
+cdqn
+#1599617421
+gs
+#1599617424
+gf
+#1599617514
+ssh git@github.com
+#1599617633
+ssh-add -L
+#1599619216
+git clone https://github.com/docker/getting-started.git
+#1599619448
+docker tag docker101tutorial robbednark/docker101tutorial 
+#1599619448
+docker push robbednark/docker101tutorial
+#1599619460
+cd repos/docker-getting-started/
+#1599619462
+docker tag docker101tutorial robbednark/docker101tutorial 
+#1599619462
+docker push robbednark/docker101tutorial
+#1599616089
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599616089
+python manage.py runserver --insecure
+#1599619197
+cdlearn
+#1599619230
+ls *fabric*
+#1599619233
+ls *pyc
+#1599619242
+ls -ltr *pyc
+#1599619257
+ls *.pyc
+#1599619263
+git rm *.pyc
+#1599619270
+ls -l *.pyc
+#1599619278
+git ls-files '*.pyc'
+#1599619281
+git ls-files '*.py'
+#1599619285
+rm -f *.pyc
+#1599619292
+cd
+#1599619307
+ls -ltr
+#1599619314
+ls -ld *repo*
+#1599619324
+mv getting-started repos/docker-getting-started
+#1599619326
+cd repos/docker-getting-started
+#1599619330
+cat Dockerfile 
+#1599619377
+vim README.md 
+#1599619478
+docker run -d -p 80:80 docker/getting-started
+#1599619488
+docker status
+#1599619492
+docker-compose --version
+#1599619497
+docker --version
+#1599619503
+type 
+#1599619507
+type docker-compose
+#1599619509
+type docker
+#1599619515
+ls -l /usr/local/bin/docker*
+#1599619524
+dc status
+#1599619528
+type dc
+#1599619539
+dc logs
+#1599619543
+dc ps
+#1599619545
+dc start
+#1599619552
+cat docker-compose.yml 
+#1599619559
+dc up
+#1599616088
+rqo
+#1599660916
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599660916
+python manage.py runserver --insecure
+#1599661790
+vq
+#1599659933
+cdqp
+#1599659935
+gs
+#1599659938
+cd bin
+#1599659941
+cd ..
+#1599659952
+pipenv install fabric
+#1599660082
+cd bin
+#1599660099
+vim run_fab.py
+#1599678211
+vq
+#1599678887
+cdlearn
+#1599678889
+ls *sed*sh
+#1599678908
+vim *.sed*sh
+#1599673302
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599673302
+python manage.py runserver --insecure
+#1599678406
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1599678715
+cd db_dumps/
+#1599678729
+git clone git@github.com:RobBednark/private-quiz-me-db-backups.git
+#1599678737
+cd private-quiz-me-db-backups/
+#1599678745
+vim README.md
+#1599678791
+git add .
+#1599678792
+gco
+#1599678800
+gs
+#1599678805
+gpus
+#1599678810
+gs
+#1599678813
+cd ..
+#1599678814
+lshead
+#1599678823
+ls *12.06*
+#1599678828
+cp -p *12.06* private-quiz-me-db-backups/
+#1599678829
+cd private-quiz-me-db-backups/
+#1599678871
+for file in *; do echo $file | sed -e 's/.2020.*46//'; done
+#1599679002
+for file in *; do (set -x; mv $file $(echo $file | sed -e 's/.2020.*46//')); done
+#1599679017
+man uncompress
+#1599679024
+uncompress *
+#1599679034
+man uncompress
+#1599679052
+uncompress -f *
+#1599679082
+vim *
+#1599679102
+gs
+#1599679105
+git add .
+#1599679109
+gs
+#1599679111
+gco
+#1599679132
+gs
+#1599679134
+gpus
+#1599679204
+ls -al
+#1599679206
+du -hs .git/
+#1599679209
+ls -lh
+#1599673301
+rqo
+#1599686813
+ssh 96.126.101.189
+#1599686817
+ssh root@96.126.101.189
+#1599686825
+vim .ssh/known_hosts 
+#1599686828
+cd .ssh/
+#1599686829
+gs
+#1599686830
+gd
+#1599686876
+git grep 189
+#1599686902
+gd
+#1599686910
+ls -l known_hosts 
+#1599686911
+date
+#1599686916
+gd
+#1599686918
+git checkout .
+#1599686920
+gs
+#1599686925
+ssh root@96.126.101.189
+#1599686965
+ssh root@2600:3c01::f03c:92ff:fe38:6205
+#1599685390
+cdprivate-rbednark-general 
+#1599685391
+gs
+#1599685394
+gpus
+#1599685400
+git log
+#1599685405
+vim rob-bednark-resume.txt 
+#1599685888
+gd
+#1599685903
+gca
+#1599686331
+cdqp
+#1599686332
+gs
+#1599686636
+cd bin
+#1599686644
+cat run-server.sh 
+#1599686656
+vim run_fab.py 
+#1599686378
+vq
+#1599687031
+ . /Users/rbednark/.virtualenvs/quizme_personal_files-RMXtQk_J/bin/activate
+#1599687033
+python
+#1599687018
+cdqp
+#1599687019
+gs
+#1599687021
+cd bin
+#1599687029
+psh
+#1599769949
+vq
+#1599789314
+cdprivate-rbednark-general 
+#1599789315
+gs
+#1599789316
+gd
+#1599789317
+gpus
+#1599789323
+vim rob-bednark-resume.txt 
+#1599789824
+cdqmp
+#1599789825
+cdqp
+#1599789826
+gs
+#1599789829
+cd bin
+#1599789835
+vim run_fab.py 
+#1599789942
+ . /Users/rbednark/.virtualenvs/quizme_personal_files-RMXtQk_J/bin/activate
+#1599789950
+cd bin
+#1599789953
+python --version
+#1599789958
+python ./run_fab.py 
+#1599790068
+ssh root@96.126.101.189
+#1599790520
+python ./run_fab.py 
+#1599789923
+cdqp
+#1599789930
+c
+#1599789935
+cd bin
+#1599789940
+psh
