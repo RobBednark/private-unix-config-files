@@ -34405,3 +34405,379 @@ psh
 cddocker
 #1599835170
 vrc
+#1599840182
+vq
+#1599835570
+grrc docker
+#1599835576
+cddockerlearn 
+#1599835593
+mkdir
+#1599835594
+no *
+#1599835604
+ls *
+#1599835613
+mkdir learn-alpine-image
+#1599835615
+cd learn-alpine-image
+#1599835625
+pwd
+#1599835766
+vq
+#1599835879
+cddocker
+#1599835887
+cddockerlearn 
+#1599835912
+cd learn-alpine-image/
+#1599835914
+vim Dockerfile
+#1599835944
+vim Makefile
+#1599835967
+docker create .
+#1599835972
+cat Dockerfile 
+#1599835985
+vi Dockerfile 
+#1599836022
+docker create .
+#1599836046
+vim Dockerfile 
+#1599835892
+cddockercomposelearn 
+#1599835899
+ls -l
+#1599836183
+cddockerlearn 
+#1599836185
+cd learn-alpine-image/
+#1599836189
+docker build .
+#1599836226
+docker run
+#1599836267
+cat Dockerfile 
+#1599837663
+docker help
+#1599837767
+docker pull alpine
+#1599837797
+docker run alpine
+#1599837799
+docker ps
+#1599837802
+docker ps -a
+#1599838669
+docker run -it --rm alpine /bin/ash
+#1599838759
+type docker.rm.prune.everything
+#1599838767
+type docker.rm.prune.everything.2
+#1599838779
+vrc
+#1599838805
+docker.rm.prune.everything
+#1599838816
+docker run -it --rm alpine /bin/ash
+#1599838867
+docker run -it --rm alpine sh
+#1599838966
+docker run --help
+#1599839017
+man docker
+#1599839024
+docker run --help|less
+#1599882010
+vpaste 
+#1599921420
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599921420
+python manage.py runserver --insecure
+#1599921419
+rqo
+#1599921946
+cddock
+#1599921962
+c
+#1599922025
+cd
+#1599922026
+c
+#1599922029
+cddockerlearn 
+#1599922044
+vq
+#1599922646
+mkdir learn-nginx-on-alpine
+#1599922647
+cd learn-nginx-on-alpine
+#1599922649
+vim Dockerfile
+#1599922108
+cddocker
+#1599922110
+cddockerlearn 
+#1599922116
+cd learn-alpine-image/
+#1599922119
+vim Makefile 
+#1599922146
+c
+#1599922148
+docker run -it --rm alpine sh
+#1599926492
+jobs
+#1599922663
+cd *image
+#1599922669
+vim Dockerfile 
+#1599926183
+cdqn
+#1599926185
+vi
+#1599926192
+ls *
+#1599926203
+jobs
+#1599942721
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1599942721
+python manage.py runserver --insecure
+#1599942720
+rqo
+#1599940422
+vdiary 
+#1599953272
+ipconfig /all
+#1599953275
+ipconfig
+#1599953277
+ifconfig
+#1599953280
+ifconfig|less
+#1599952728
+nslookup bednark.org
+#1599952746
+dig
+#1599952748
+man dig
+#1599952756
+dig|less
+#1599952827
+man dig
+#1599952430
+traceroute google.com
+#1599950043
+ifconfig
+#1599950045
+ifconfig|less
+#1599948945
+vq
+#1600008207
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600008207
+python manage.py runserver --insecure
+#1600008205
+rqo
+#1600008748
+cddockerlearn 
+#1600008755
+mkdir learn-docker-compose
+#1600008775
+cd learn-docker-compose
+#1600008931
+vq
+#1600009570
+docker run --help|less
+#1600010741
+docker-compose up --help
+#1600010487
+type docker.rm.prune.everything
+#1600010625
+docker-compose help
+#1600010655
+docker stop --help
+#1600011383
+docker-compose up --help|less
+#1600006482
+vpaste 
+#1600017867
+cd tmp
+#1600017869
+ls foo
+#1600017872
+ls -al
+#1600017873
+gs
+#1600017881
+ls -al foo
+#1600017884
+cd foo
+#1600017885
+ls -al
+#1600017887
+gs
+#1600017889
+cd ..
+#1600017890
+rm -fr foo
+#1600017891
+gs
+#1600017897
+c
+#1600017906
+ls *pdf
+#1600017914
+rm -f *pdf
+#1600017917
+ls *vpn
+#1600017928
+ls -ld *vpn
+#1600017932
+rmdir *vpn
+#1600017937
+ls ping*
+#1600017940
+rm -f ping*
+#1600017943
+gs
+#1600017958
+ls mongodb-data/
+#1600017968
+rm -fr mongodb-data/
+#1600017974
+ls backup.learn_comScore_coding_challenge/
+#1600017980
+ls craigslist/
+#1600017985
+rm -fr craigslist/
+#1600017991
+ls css
+#1600017995
+vim css/*
+#1600018021
+rm -fr css
+#1600018025
+ls api.logs/
+#1600018028
+find api.logs/
+#1600018035
+find api.logs/ -type f
+#1600018040
+vim $(find api.logs/ -type f)
+#1600018058
+rm -fr  api.logs/
+#1600018061
+ls docs
+#1600018067
+open docs
+#1600018882
+vpaste 
+#1600023225
+cd tmp/waybacklapse/
+#1600023228
+gs
+#1600023232
+find.
+#1600023233
+find .
+#1600023238
+cd 
+#1600023244
+cd tmp/waybacklapse/2016042211041461349849/
+#1600023246
+open .
+#1600023274
+ls -l
+#1600023279
+cd ../..
+#1600023282
+rm -fr waybacklapse/
+#1600023289
+find . -type d -prune
+#1600023293
+find * -type d -prune
+#1600023299
+ls fonts/
+#1600023306
+rm -fr fonts/
+#1600023311
+ls git.files.modified/
+#1600023315
+ls git.files.modified//*
+#1600023318
+find git.files.modified//*
+#1600023325
+rm -fr git.files.modified/
+#1600023329
+find * -type d -prune
+#1600023335
+ls repo/
+#1600023339
+cd repo/
+#1600023340
+gs
+#1600023343
+git log -p
+#1600023345
+cd ..
+#1600023347
+rm -fr repo/
+#1600023350
+find * -type d -prune
+#1600023371
+find lang
+#1600023409
+vim lang/*
+#1600023417
+rm -fr lang/
+#1600023420
+find * -type d -prune
+#1600023424
+ls lib
+#1600023428
+rm -fr lib/ k
+#1600023436
+find * -type d -prune -ls
+#1600023441
+ls docs
+#1600023448
+rm -fr docs
+#1600023454
+ls -lR email.moovel/
+#1600023468
+rm -f email.moovel/*
+#1600023470
+find email.moovel/
+#1600023472
+rm -fr email.moovel/
+#1600023476
+find email.moovel/
+#1600023479
+find * -type d -prune -ls
+#1600023483
+ls healthnet.csv/
+#1600023486
+ls -l healthnet.csv/
+#1600023490
+rm -fr healthnet.csv/
+#1600023494
+ls ide
+#1600023497
+ls idealist
+#1600023499
+find idealist
+#1600023505
+rm -fr idealist
+#1600023512
+find test-repo/
+#1600023515
+cd test-repo/
+#1600023518
+cd ..
+#1600023520
+rm -fr test-repo/
+#1600023522
+c
