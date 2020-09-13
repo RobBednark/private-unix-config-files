@@ -65,10 +65,10 @@ fi
 #
 if uname | grep Darwin  > /dev/null; then
     MacOSX=true
-    alias ls="ls -G"
+    alias ls="ls -aG"
 else
     MacOSX=false
-    alias ls="ls -CF --color"
+    alias ls="ls -aCF --color"
 fi
 
 if echo $SHELL | grep zsh > /dev/null; then
