@@ -383,8 +383,6 @@ alias postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by
 # General aliases
 ################################################################################
 alias ci="ci -zLT"
-# I think "cmd" works for the default cygwin window, but not for rxvt
-#alias cls="cmd /c cls"
 # The following echo sequence works for rxvt.
 alias cls="echo -ne '\033c'" 
 alias co="co -zLT"
@@ -549,9 +547,6 @@ alias help.find.delete='echo find . -name "*.pyc" -delete'
 
 if $MacOSX; then
     alias ls="ls -G"
-    # Commented-out Wed 3/5/14 4:20pm after upgrade to Mavericks.
-    # I cannot get mvim working with command-t on Mavericks.
-    #alias vim='mvim -v'
     alias iphone.simulator="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator"
 else
     alias ls="ls -CF --color"
@@ -582,7 +577,7 @@ alias mycmd.nosync='(set -x; ./manage.py mycmd)'
 alias nettop.monitor.network.traffic.bandwidth="nettop"
 alias npm.repo.open.repo.in.web.browser="npm repo"
 
-alias open.postgresql.manual="open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf"
+alias open.postgresql.manual='open $DirDropbox/Rob/postgresql-9.4-US-entire-manual-dated-Feb-20-2015.pdf'
 alias open.resume="open $DirResume/*pdf"
 alias open.solr.manual="open $DirDropbox/Rob/apache-solr-ref-guide-4.10-downloaded-Feb-20-2015.pdf"
 alias open.sqlalchemy.manual="open $DirDropbox/Rob/sqlalchemy-0.9.8-downloaded-Feb-20-2015.pdf"
