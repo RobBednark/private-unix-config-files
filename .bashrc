@@ -519,6 +519,7 @@ alias git.reset.undo.last.reset='git reset HEAD@{1}; echo "\"git reflog\" to see
 alias git.rev-parse.show.toplevel.repo.dir="git rev-parse --show-toplevel"
 alias git.rev-parse.show.commit.hash.for.HEAD="git rev-parse HEAD"
 alias git.rev-parse.show.commit.hash..for.HEAD.short="git rev-parse --short HEAD"
+alias git.rm.submodule='git rm -fr --cached' # e.g., git.rm.submodule <submodule-dir>
 alias git.rm.untracked.files="git clean -f"
 alias git.rm.untracked.directories="git clean -df"
 alias git.show.commit.hash.for.HEAD="git show --no-patch --format=%h"
