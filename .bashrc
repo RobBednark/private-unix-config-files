@@ -65,9 +65,10 @@ fi
 #
 if uname | grep Darwin  > /dev/null; then
     MacOSX=true
+    alias ls="ls -G"
 else
-    alias ls="ls -CF --color"
     MacOSX=false
+    alias ls="ls -CF --color"
 fi
 
 if echo $SHELL | grep zsh > /dev/null; then
@@ -546,10 +547,8 @@ function vim.git.files.changed.in.commit {
 alias help.find.delete='echo find . -name "*.pyc" -delete'
 
 if $MacOSX; then
-    alias ls="ls -G"
     alias iphone.simulator="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator"
 else
-    alias ls="ls -CF --color"
     alias gvim="  /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim72/gvim.exe"
     alias gvimdiff="c:/WINDOWS/gvimdiff.bat"
 fi
