@@ -66,7 +66,7 @@ fi
 if uname | grep Darwin  > /dev/null; then
     MacOSX=true
 else
- alias ls="ls -CF --color"
+    alias ls="ls -CF --color"
     MacOSX=false
 fi
 
