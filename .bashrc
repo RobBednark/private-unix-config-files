@@ -1746,9 +1746,9 @@ if echo $SHELL | grep bash > /dev/null; then
     # autocomplete for git for things like "git checkout my-branchname-some<tab>"
     source ~/.unix.config.files/git-completion.bash
 fi
-################################################################################
-### The end. (.bashrc)
-################################################################################
 
 export NVM_DIR="/Users/robb/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+################################################################################
+### The end. (.bashrc)
+################################################################################
