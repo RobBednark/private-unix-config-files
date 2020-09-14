@@ -728,6 +728,7 @@ alias vq="\
     vim $DirAddToQuizme/learn_add_to_quizme  \
         $DirDropbox/quizme_production_db_dumps/latest.dump.txt; \
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme"
+alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
 alias vresume=vjobsearch
 alias vresume.word="open -a 'Microsoft Word' $DirDropbox/Documents/Rob.Bednark.resume.docx"
