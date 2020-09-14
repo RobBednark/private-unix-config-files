@@ -59,10 +59,6 @@ if echo $SHELL | grep bash > /dev/null; then
     # \w ==> working-directory
     export PS1="${ANSI_ESC_SEQ_RED}\w ${ANSI_ESC_SEQ_GREEN}\$(git.branch.show) ${ANSI_ESC_SEQ_BLUE}\D{%m/%d} \t\n${ANSI_ESC_SEQ_RESET}$ "
 fi
-#
-# e.g.,
-# sara@LittleRed ~/bin Tue Oct 11 11:34:24$ 
-#
 if uname | grep Darwin  > /dev/null; then
     MacOSX=true
     alias ls="ls -aG"
@@ -114,7 +110,6 @@ export EDITOR="/usr/bin/vim"
 export LESS="-iRX --LINE-NUMBERS --jump-target=.5" # -R ==> process color escape sequences correctly   -i ==> case insensitive search, unless UPPERCASE chars are searched
                    # -X ==> do NOT clear the screen on exit  --jump-target=.5 ==> show matches in the middle of the screen instead of the first line
                    # NOTE: -I will completely ignore case, even for uppercase searches
-#export SHELL=/bin/bash
 export VISUAL="/usr/bin/vim"
 export SAVEHIST=80000 # max size in HISTFILE
 if echo $SHELL | grep zsh > /dev/null; then
@@ -157,9 +152,6 @@ if $MacOSX; then
 fi
 export PATH="/usr/local/bin:$PATH"
 export PATH="$PATH:/bin"
-#export PATH="$PATH:/cygdrive/c/Program Files/Java/jdk1.5.0_02/bin"
-#export PATH="$PATH:/home/sara/bin"
-#export PATH="$PATH:/cygdrive/c/Program Files/MySQL/MySQL Server 5.5/bin"
 export PATH="$PATH:~/bin"
 if $MacOSX; then
     # Python3
@@ -169,11 +161,6 @@ if $MacOSX; then
     :
 fi
 export RCSINIT=" -zLT"  # RCSINIT - options that get prepended to rcs commands.  -z is to set the time zone.  LT is for local time.
-
-## PYTHONPATH is searched by python for modules to import
-#export PYTHONPATH="/fvt/tests/modules"
-#export PYTHONPATH="~/selenium/selenium-python-client-driver-1.0.1"
-##export PYTHONPATH="C:/cygwin/home/sara/selenium/selenium-python-client-driver-1.0.1"
 
 if echo $OSTYPE | grep -i linux > /dev/null; then
  ## ASSERT: this is Linux
@@ -185,8 +172,6 @@ else
     :
 fi
 
-# export AWS_ACCESS_KEY_ID='AKIAJME5CORBB3EJ3X5Q'
-# export AWS_SECRET_ACCESS_KEY='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'
 export OSU_API_KEY='be0ebeaa7260905173375e8e26611192cf1c2c61'
 
 ################################################################################
@@ -209,8 +194,6 @@ export PATH=$PATH:$DirDropbox/bin
 DirGit=$DirDropbox/git
 DirGitLocal="$HOME/local.git"
 DirRob="$DirSaraDocs/Rob"
-# This is what it was on HOME-PC desktop:
-#DirRbednark="/cygdrive/c/cygwin/home/sara"
 DirRbednark=~
 DirReposRob="$DirRbednark/repos.rob"
 DirTopPC="$HOME"
@@ -325,9 +308,7 @@ alias cdjavascript="cd $DirLearn/javascript"
 alias cdlatest='cd $(ls -dt |head -1)'
 alias cdlearn="title learn; cd $DirLearn"
 alias cdlearngit="cd $DirLearn/git"
-#aliascdmusic="cd /cygdrive/c/Documents\ and\ Settings/All\ Users/Documents/My\ Music/"
 alias cdnode="cd $DirLearn/node-projects"
-#aliascdoption="cd $DirOptionTables"
 alias cdosqa="cd $DirGitLocal/osqa"
 alias cdosu="cd $DirGit/osu-game-stats-top-10k-players; workon osu-game-stats-top-10k-players"
 alias cdpicts="cd $DirPicts"
@@ -343,17 +324,13 @@ alias cdquiz="title quiz; cd $DirQuiz"
 alias cdquizme-dev="cd $DirQuizMeDev"
 alias cdquizme-personal="cd $DirQuizMePersonal"
 alias cdquizme-prod="cd $DirQuizMeProd"
-# alias cdquizme="cd $DirQuizMe; pipenv shell"
 alias cdreact="cd $DirLearn/learn-react/create-react-app"
 alias cdresume="cd $DirResume"
 alias cdrobbednark-github-io-website="cd $DirRepoRobBednarkGithubIO"
 alias cdscrapy="cd $DirLearn/scrapy"
-#aliascdsel="title ebento.py; cd ~/huawei/selenium"
-#aliascdstax="cd $DirLearn/stax; pwd; ls"
 alias cdstatements="cd $DirDropbox/Statements.and.bills"
 alias cdsurvey="cd $DirDropbox/mike.ames.survey/"
 alias cdsync="cd $DirSync"
-#aliascdtestadm="cd $DirTestadm; ls"
 alias cdtxt="cd $DirTxt"
 alias cdunixconfigfiles="cd $DirUnixConfigFiles"
 alias cdvagrant="cd ~/Desktop/vagranttest"
@@ -384,7 +361,6 @@ alias postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by
 # General aliases
 ################################################################################
 alias ci="ci -zLT"
-# The following echo sequence works for rxvt.
 alias cls="echo -ne '\033c'" 
 alias co="co -zLT"
 alias cp="cp -ip "
@@ -656,11 +632,7 @@ alias scp.nginx.logs="scp -Cpr -i $PemTixie515 ubuntu@$MachineProdWeb:/var/log/n
 alias screensaver="gnome-screensaver-command --activate"
 alias script_date="script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`"
 alias script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`'
-#alias seleniumServerRun="java -jar C:/cygwin/home/sara/selenium/selenium-server-1.0.3/selenium-server.jar"
 alias seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/selenium-2.0b1/selenium-server-standalone-2.0b1.jar"
-#alias sshmtproxy="echo mtd@t@2011; ssh root@mtproxy.futurewei.ebento.net"
-#alias sshmtproxy8="echo wloe...; ssh rbednark@mtproxy8.ebento.net"
-#alias sshtest="title douglas; ssh rbednark@$hostDouglas"
 alias ssh="ssh -A"
 alias ssh.rob-aws="ssh -i $PemRobKey ubuntu@$MachineRobAWS"
 
@@ -759,7 +731,6 @@ alias vq="\
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
 alias vresume=vjobsearch
 alias vresume.word="open -a 'Microsoft Word' $DirDropbox/Documents/Rob.Bednark.resume.docx"
-#alias vresume.pdf="open -a "Microsoft Word"'
 alias vselenium="vici $DirQuiz/db_selenium"
 alias vtalks="vici $DirQuiz/db_talks"
 alias vsql="title vsql; cd $DirQuiz; vici db_sql"
@@ -1764,11 +1735,6 @@ fi
 ################################################################################
 ### end of nosetests completions
 ################################################################################
-
-# Commented-out the following 2 lines Wed 3/5/14 2:30pm after upgrading to Mavericks, because MacVim (mvim) is giving a SEGV with command-t.
-# It looks like this might be because of the Ruby version in my path.
-# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
