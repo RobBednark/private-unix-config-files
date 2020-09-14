@@ -34833,3 +34833,83 @@ cd tmp/
 vimrc
 #1600028930
 vrc
+#1600027868
+vq
+#1600028798
+c
+#1600028800
+vpaste 
+#1600029039
+git log
+#1600029042
+cd tmp/
+#1600029045
+cd
+#1600029045
+gs
+#1600029059
+gs -uno
+#1600029061
+cd tmp/
+#1600029071
+git status --help
+#1600029082
+vrc
+#1600029122
+gs
+#1600029124
+cd
+#1600029124
+gs
+#1600029134
+git.status.ignore.untracked.files 
+#1600029136
+cd tmp/
+#1600029137
+gs
+#1600029140
+vpaste 
+#1600029143
+git log
+#1600029146
+git log -p
+#1600029176
+c
+#1600029177
+gs
+#1600029262
+vq
+#1600028814
+vq
+#1600018085
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600018085
+python manage.py runserver --insecure
+#1600029635
+rqo
+#1600029384
+node search bfg
+#1600029388
+node search foo
+#1600029392
+type node
+#1600029393
+node
+#1600029398
+npm search bfg
+#1600029420
+brew search bfg
+#1600029433
+brew install bfg
+#1600029654
+brew reinstall bfg
+#1600029662
+bfg --version
+#1600029737
+vdiary 
+#1600029676
+vpaste 
+#1600029909
+vdiary 
+#1600029880
+vq
