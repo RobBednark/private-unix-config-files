@@ -35041,3 +35041,171 @@ vq
 python manage.py runserver --insecure
 #1600120116
 rqo
+#1600130583
+vrc
+#1600130679
+vresume
+#1600130504
+grrc resume
+#1600130514
+vresume
+#1600130600
+cdprivate-rbednark-general 
+#1600130648
+grrc private
+#1600130694
+vresume
+#1600130703
+dotrc
+#1600130705
+vresume
+#1600131671
+vdiary 
+#1600131017
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600131017
+python manage.py runserver --insecure
+#1600131016
+rqo
+#1600131883
+vdiary 
+#1600132223
+vpaste 
+#1600132715
+vmeetups 
+#1600132726
+vq
+#1600181870
+cd /tmp
+#1600181895
+echo $$
+#1600181905
+cat <(echo $$)
+#1600181929
+cat <(echo '$$')
+#1600182011
+cat <(echo hello)
+#1600182151
+cat <(echo hello) | vim -
+#1600182160
+echo hello | vim -
+#1600182177
+vim show-pid.sh
+#1600182191
+echo $$
+#1600182216
+source show-pid.sh
+#1600182224
+cat show-pid.sh 
+#1600182230
+man source
+#1600182240
+info source
+#1600182248
+man bash
+#1600182293
+PAGER="vim -" man bash
+#1600182317
+man man
+#1600182441
+MANPAGER="col -b | vim -MR - " man bash
+#1600182732
+c
+#1600182777
+# echo <(source show-pid.sh)
+#1600182781
+echo $$
+#1600182831
+echo <(source show-pid.sh)
+#1600182856
+vim show-pid.sh 
+#1600182866
+echo <(source show-pid.sh)
+#1600182914
+cat <(source show-pid.sh)
+#1600182946
+cat <(cat show-pid.sh)
+#1600182964
+chmod a+x show-pid.sh 
+#1600182968
+cat <(bash show-pid.sh)
+#1600183018
+diff <(bash show-pid.sh) <(bash show-pid.sh)
+#1600181249
+cd /tmp
+#1600181254
+vim file1 file2
+#1600181275
+diff file1 file2
+#1600181278
+diff file1 file2|less
+#1600181284
+diff file1 file2|vim
+#1600181293
+jobs
+#1600181296
+diff file1 file2|vim -
+#1600181317
+diff file1 file2|vim /dev/stdin
+#1600181365
+diff file1 file2|vim -
+#1600181374
+
+#1600181376
+jobs
+#1600181377
+reset
+#1600181380
+jobs
+#1600181384
+man comm
+#1600181413
+c
+#1600181433
+vim <(diff file1 file2)
+#1600181471
+cat <(diff file1 file2)
+#1600181476
+echo <(diff file1 file2)
+#1600181540
+pbcopy < file1
+#1600181543
+a
+#1600181543
+b
+#1600181543
+c
+#1600181549
+cat file1
+#1600181557
+pbcopy < file1
+#1600181559
+vim 
+#1600181591
+pbcopy < (cat file1)
+#1600181595
+pbcopy <(cat file1)
+#1600181608
+pbcopy <(file1)
+#1600181614
+pbcopy <(diff file1 file2)
+#1600181660
+man pbcopy
+#1600181696
+vq
+#1600181703
+man read
+#1600184385
+docker search nginx
+#1600184674
+docker run --help
+#1600184677
+docker run --help|less
+#1600185159
+docker-compose --help
+#1600185174
+docker-compose up --help
+#1600185497
+docker search --help
+#1600185510
+docker search -f nginx |grep alpine
