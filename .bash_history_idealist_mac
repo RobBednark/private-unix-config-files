@@ -35209,3 +35209,19 @@ docker-compose up --help
 docker search --help
 #1600185510
 docker search -f nginx |grep alpine
+#1600186320
+docker-run alpine /bin/bash
+#1600186327
+docker-run alpine /bin/sh
+#1600186341
+docker-run nginx:alpine /bin/sh
+#1600186398
+docker-run alpine /bin/sh
+#1600186417
+docker-run nginx:alpine /bin/sh
+#1600186484
+docker-run python:alpine /bin/sh
+#1600186508
+docker-run python-slim:alpine /bin/sh
+#1600186532
+docker-run python:alpine /bin/sh
