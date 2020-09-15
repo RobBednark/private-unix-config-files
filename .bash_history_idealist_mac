@@ -34913,3 +34913,131 @@ vpaste
 vdiary 
 #1600029880
 vq
+#1600041710
+cdqn
+#1600041728
+vrc
+#1600042266
+vqtodo 
+#1600041683
+grrc quiz
+#1600041695
+grrc TOdo
+#1600041722
+grrc TOdo.md
+#1600061909
+vq
+#1600029641
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600029641
+python manage.py runserver --insecure
+#1600018084
+rqo
+#1600062805
+vq
+#1600062816
+man killall
+#1600062842
+killall -HUP Dock
+#1600062789
+echo 1
+#1600062794
+echo 2
+#1600097657
+docker-compose logs -h
+#1600097766
+docker -h
+#1600097775
+docker logs -h
+#1600097940
+docker-compose -h
+#1600096784
+cddockerlearn 
+#1600096794
+cd learn-docker-compose/
+#1600096830
+vim docker-compose.yml Dockerfile-web-server Dockerfile-curl
+#1600096941
+dc up
+#1600096945
+vim docker-compose.yml Dockerfile-web-server Dockerfile-curl
+#1600096967
+dc up
+#1600097501
+vim Makefile
+#1600097619
+make
+#1600097627
+vim *
+#1600098871
+dc up
+#1600098942
+docker search foo
+#1600098950
+docker search alpine|grep -i python
+#1600098991
+docker up
+#1600098993
+dc up
+#1600099930
+vim *
+#1600099956
+dc up
+#1600099982
+jobs
+#1600100069
+dc up
+#1600100127
+dc --build
+#1600100133
+dc --build up
+#1600100142
+dc up --build
+#1600100182
+dc up --build -d
+#1600100186
+jobs
+#1600100192
+vim Makefile 
+#1600100206
+make
+#1600100228
+jobs
+#1600100240
+gs
+#1600100243
+git init .
+#1600100244
+gs
+#1600100246
+git add .
+#1600100248
+gco
+#1600093534
+vqt
+#1600093537
+vqtodo 
+#1600093646
+vq
+#1600100265
+cdqn
+#1600100271
+vim *ocker*
+#1600100302
+jobs
+#1600100351
+vq
+#1600108328
+vpaste 
+#1600111898
+vq
+#1600118139
+vpaste 
+#1600120175
+vq
+#1600120118
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600120118
+python manage.py runserver --insecure
+#1600120116
+rqo
