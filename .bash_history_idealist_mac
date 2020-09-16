@@ -35225,3 +35225,75 @@ docker-run python:alpine /bin/sh
 docker-run python-slim:alpine /bin/sh
 #1600186532
 docker-run python:alpine /bin/sh
+#1600186229
+vrc
+#1600180036
+vdiary 
+#1600180060
+vq
+#1600186897
+docker-run nginx:alpine /bin/sh
+#1600183914
+cddockerlearn 
+#1600183937
+cd learn-nginx-on-alpine/
+#1600183940
+cd ..
+#1600183944
+cd learn-docker-compose/
+#1600183947
+cd ..
+#1600183959
+mv learn-docker-compose learn-docker-compose-nginx-python-web-server
+#1600183963
+cd learn-docker-compose-nginx-python-web-server
+#1600183976
+c
+#1600183979
+gs
+#1600183981
+cd ..
+#1600184040
+cp -pr learn-docker-compose-nginx-python-web-server learn-nginx-ssl
+#1600184041
+cd learn-nginx-ssl
+#1600184079
+vim *yml
+#1600184286
+cp Dockerfile-web-server Dockerfile-nginx
+#1600184327
+vim Dock*
+#1600193456
+vpaste 
+#1600211750
+vq
+#1600211742
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600211742
+python manage.py runserver --insecure
+#1600211740
+rqo
+#1600219071
+vq
+#1600218563
+vqtodo 
+#1600218946
+gs
+#1600218948
+gd
+#1600218952
+c
+#1600218953
+gs
+#1600220753
+vim TODO.md 
+#1600218288
+cdqn
+#1600218302
+gs
+#1600218304
+gd
+#1600218320
+vi
+#1600218184
+vq
