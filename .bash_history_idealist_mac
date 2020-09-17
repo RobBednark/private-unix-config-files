@@ -35297,3 +35297,241 @@ gd
 vi
 #1600218184
 vq
+#1600224658
+vrc
+#1600224502
+cdqn
+#1600224503
+vi
+#1600218181
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600218181
+python manage.py runserver --insecure
+#1600225302
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600225307
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1600225372
+ls *20.01*
+#1600225376
+cd db_dumps/
+#1600225378
+ls *20.01*
+#1600225399
+lshead
+#1600225409
+:w
+#1600225413
+cd private-quiz-me-db-backups/
+#1600225440
+chmod a+x update.sh 
+#1600225442
+./update.sh 
+#1600225472
+./update.sh '*20.01*'
+#1600225500
+gs
+#1600225507
+history|grep sed
+#1600225520
+history|grep 'mv.*sed'
+#1600225569
+./update.sh 
+#1600225578
+./update.sh '*20.01*'
+#1600225609
+man cut
+#1600225638
+pwd
+#1600225638
+jos
+#1600225668
+echo dump.quizme_production.2020.09.15_Tue_20.01.48.custom.all | cut -c 1,15
+#1600225716
+echo dump.quizme_production.2020.09.15_Tue_20.01.48.custom.all | cut -c 1-15
+#1600225745
+echo dump.quizme_production.2020.09.15_Tue_20.01.48.custom.all | cut -c 1-20,40-
+#1600225766
+echo dump.quizme_production.2020.09.15_Tue_20.01.48.custom.all | cut -c 1-23,45-
+#1600225774
+echo dump.quizme_production.2020.09.15_Tue_20.01.48.custom.all | cut -c 1-23,48-
+#1600225841
+./update.sh '*20.01*'
+#1600225876
+gs
+#1600225880
+./update.sh '*20.01*'
+#1600225968
+man uncompress
+#1600225983
+./update.sh '*20.01*'
+#1600226006
+c
+#1600226007
+./update.sh '*20.01*'
+#1600226014
+gs
+#1600226100
+./update.sh '*20.01*'
+#1600226124
+gs
+#1600226129
+git add update.sh 
+#1600226130
+gco
+#1600226139
+gs
+#1600226140
+gd
+#1600226144
+gs
+#1600226149
+gd dump.quizme_production.txt
+#1600226167
+gs
+#1600226172
+gca
+#1600226180
+gpus
+#1600225301
+cdq
+#1600225308
+cdqn
+#1600225310
+cd db_dumps/
+#1600225312
+ls -ltr
+#1600225319
+cd private-quiz-me-db-backups/
+#1600225323
+cat README.md 
+#1600225347
+vim update.sh
+#1600225681
+man cut
+#1600264847
+vpaste 
+#1600267475
+docker tag
+#1600267481
+docker tag --help
+#1600267485
+docker build --help
+#1600266263
+docker run -h
+#1600266297
+docker run --help|less
+#1600267231
+docker build --help|less
+#1600267605
+cddockerlearn 
+#1600267612
+cd learn-nginx-on-alpine/
+#1600267614
+cat Dockerfile 
+#1600267631
+k
+#1600267632
+cd ..
+#1600267637
+cd learn-nginx-ssl/
+#1600267644
+cat Dockerfile-nginx
+#1600267653
+cd ..
+#1600267979
+mkdir learn-nginx-alpine-default
+#1600267980
+cd learn-nginx-alpine-default
+#1600267988
+gs
+#1600267992
+git init .
+#1600267994
+gs
+#1600267997
+vim run.sh
+#1600268066
+chmod a+x run.sh 
+#1600268067
+./run.sh 
+#1600268077
+curl localhost:8080
+#1600268086
+docker run --help
+#1600268090
+docker run --help|less
+#1600268108
+vim run.sh 
+#1600268121
+./run.sh 
+#1600268127
+docker ps
+#1600268136
+man -k random
+#1600268150
+docker stop --help
+#1600268159
+docker stop recursing_agnesi
+#1600268163
+./run.sh 
+#1600268169
+jobs
+#1600268176
+cat run.sh 
+#1600268182
+docker run -d -p 8080:80 nginx:alpine:latest
+#1600268189
+docker run -d -p 8080:80 nginx:alpine
+#1600269325
+cd ..
+#1600269394
+cd -
+#1600269407
+cp run.sh run-with-conf.sh
+#1600269409
+vim run-with-conf.sh
+#1600269573
+./run-with-conf.sh 
+#1600269704
+docker copy -h
+#1600269710
+docker cp -h
+#1600269965
+./run-with-conf.sh 
+#1600271147
+vim tmp-conf
+#1600265000
+vq
+#1600275173
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600275173
+python manage.py runserver --insecure
+#1600275171
+rqo
+#1600287738
+vto
+#1600287741
+vqtodo 
+#1600284958
+vq
+#1600285465
+vpaste 
+#1600286599
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600286599
+python manage.py runserver --insecure
+#1600296218
+vq
+#1600294991
+vresume
+#1600297816
+vq
+#1600297879
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600297879
+python manage.py runserver --insecure
+#1600297877
+rqo
+#1600298527
+vpaste 
