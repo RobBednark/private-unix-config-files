@@ -35537,3 +35537,433 @@ rqo
 vpaste 
 #1600300071
 vq
+#1600304612
+vrc
+#1600304678
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600304678
+python manage.py runserver --insecure
+#1600304677
+rqo
+#1600312275
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600312275
+python manage.py runserver --insecure
+#1600352278
+vq
+#1600353963
+cddockerlearn 
+#1600353973
+cd learn-nginx-ssl/
+#1600353973
+c
+#1600353976
+cd ..
+#1600353985
+cddockerlearn 
+#1600354038
+cd learn-nginx-on-alpine/
+#1600354040
+cd ..
+#1600354045
+cd learn-nginx-d
+#1600354053
+cd learn-nginx-alpine-default/
+#1600354056
+cat run-with-conf.sh 
+#1600351682
+cddockerlearn 
+#1600351870
+cd learn-nginx-
+#1600351872
+cd learn-nginx-alpine-default/
+#1600351874
+ls -l
+#1600352088
+docker run -it --rm bash:4.4
+#1600352133
+docker run -it --rm nginx /bin/bash
+#1600352221
+docker run -it --rm bash:4.4 /bin/bash
+#1600352234
+docker run -it --rm bash bash
+#1600353489
+c
+#1600353494
+cat run.sh 
+#1600353497
+cat run-with-conf.sh 
+#1600353508
+gs
+#1600353513
+ls tmp-conf 
+#1600353518
+git add run*
+#1600353519
+gco
+#1600353526
+c
+#1600353530
+vim run-with-conf.sh 
+#1600353619
+./run-with-conf.sh 
+#1600353630
+vim run-with-conf.sh 
+#1600353647
+./run-with-conf.sh 
+#1600353667
+vim run-with-conf.sh 
+#1600353703
+cat run-with-conf.sh 
+#1600353735
+c
+#1600353738
+./run-with-conf.sh 
+#1600353819
+ps
+#1600353821
+docker ps
+#1600353869
+docker kill goofy_liskov
+#1600353908
+c
+#1600353909
+cd ..
+#1600353918
+cd learn-nginx-ssl/
+#1600353919
+c
+#1600353924
+vim docker-compose.yml 
+#1600354241
+c
+#1600354583
+type dc
+#1600354586
+dc up
+#1600354794
+f
+#1600354823
+mkdir conf.d
+#1600354830
+c
+#1600354851
+jobs
+#1600354858
+dc up
+#1600354895
+jobs
+#1600355022
+c
+#1600355036
+dc up --build
+#1600355067
+dc up &
+#1600355095
+dc ps
+#1600355208
+jobs
+#1600355214
+kill %2
+#1600355242
+jobs
+#1600355242
+c
+#1600355247
+dc up --build
+#1600355409
+ls conf.d/
+#1600355424
+dc up
+#1600355430
+dc ps
+#1600355445
+bg 
+#1600355447
+jobs
+#1600355499
+dc exec my_nginx /bin/ash
+#1600355512
+dc exec my_nginx_server /bin/ash
+#1600355571
+dc ps
+#1600355577
+dc exec my_nginx_server /bin/ash
+#1600355609
+dc exec --build my_nginx_server /bin/ash
+#1600355617
+jobs
+#1600355619
+kill %2
+#1600355628
+dc ps
+#1600355633
+jobs
+#1600355643
+dc build
+#1600355650
+dc exec --build my_nginx_server /bin/ash
+#1600355654
+dc exec my_nginx_server /bin/ash
+#1600355660
+dc run my_nginx_server /bin/ash
+#1600355743
+jobs
+#1600355747
+dc exec my_nginx_server /bin/ash
+#1600355752
+dc run my_nginx_server /bin/ash
+#1600355863
+vim Dockerfile-nginx 
+#1600355884
+dc run nginx:alpine sleep 9999
+#1600355898
+docker run nginx:alpine sleep 9999 &
+#1600355899
+jobs
+#1600355922
+kill %2
+#1600355923
+jobs
+#1600355930
+kill %2
+#1600355931
+jobs
+#1600355936
+kill -9 %2
+#1600355937
+jos
+#1600355939
+jobs
+#1600355992
+dc run my_nginx_server /bin/ash
+#1600356069
+vim conf.d/default.conf
+#1600356095
+jobs
+#1600356114
+dc ps
+#1600356119
+dc kill
+#1600356130
+dc up --build
+#1600356147
+jobs
+#1600356149
+gs
+#1600356162
+git add Dockerfile-nginx conf.d/
+#1600356163
+jobs
+#1600356165
+gs
+#1600356168
+vim .gitignore
+#1600356173
+gs
+#1600356181
+git add .
+#1600356182
+gs
+#1600356193
+gco
+#1600356210
+gs
+#1600356222
+git checkout conf.d/.default.conf.swp
+#1600356224
+gs
+#1600356285
+git reset conf.d/.default.conf.swp
+#1600356286
+gs
+#1600356291
+gco
+#1600356316
+c
+#1600356316
+gs
+#1600356323
+vim conf.d/default.conf 
+#1600356327
+jobs
+#1600356329
+%2
+#1600356518
+vi
+#1600356796
+jobs
+#1600356800
+gd
+#1600356843
+dc up
+#1600356949
+c
+#1600356952
+dc --build up
+#1600356959
+dc up --build
+#1600357468
+c
+#1600357474
+gs
+#1600357484
+c
+#1600357485
+gs
+#1600357487
+gd
+#1600357493
+gca
+#1600357507
+c
+#1600357508
+gs
+#1600358107
+openssl
+#1600358120
+vim generate-ssl-cert.sh
+#1600358218
+chmod a+x generate-ssl-cert.sh
+#1600358221
+./generate-ssl-cert.sh
+#1600358389
+ls -ltr
+#1600358426
+vim generate-ssl-cert.sh 
+#1600355160
+cddockerlearn 
+#1600355166
+cd learn-nginx-alpine-default/
+#1600355172
+vim run.sh 
+#1600351320
+brew search html
+#1600351548
+brew install html2text man2html
+#1600352288
+cat /etc/ver
+#1600351253
+vq
+#1600358556
+c
+#1600358559
+openssl
+#1600358562
+man openssl
+#1600358740
+man acme-client
+#1600358746
+man -k acme
+#1600358870
+cddockerlearn 
+#1600358879
+cd learn-nginx-ssl
+#1600358881
+gs
+#1600358887
+vim generate-ssl-cert.sh 
+#1600359298
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600359301
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1600359369
+cd db_dumps/
+#1600359371
+ls *09.15*
+#1600359378
+ls *09.15.01*
+#1600359384
+cd private-quiz-me-db-backups/
+#1600359386
+gs
+#1600359393
+./update.sh openssl req     -new     -newkey ec     -pkeyopt ec_paramgen_curve:prime256v1     -days 365     -nodes     -x509     -subj "/C=US/ST=Denial/L=Springfield/O=Dis/CN=www.example.com"     -keyout www.example.com.key \
+#1600359412
+./update.sh '*09.15.01*'
+#1600359415
+gs
+#1600359415
+gd
+#1600359418
+gs
+#1600359422
+gd *txt
+#1600359427
+jobs
+#1600359429
+gca
+#1600359434
+gpus
+#1600359286
+cdqn
+#1600359288
+cd db_dumps/
+#1600359291
+lshead
+#1600359297
+cdq
+#1600376900
+vdiary 
+#1600376885
+vq
+#1600376654
+vpaste 
+#1600379850
+vq
+#1600379690
+vq
+#1600379740
+grrc add.to
+#1600379744
+cd $DirAddToQuizme/
+#1600379747
+gs
+#1600379749
+git log -p
+#1600379764
+vim .gitignore
+#1600379769
+gs
+#1600379770
+git add .
+#1600379771
+gco
+#1600379779
+ls -al
+#1600379788
+git log -p
+#1600382185
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600382185
+python manage.py runserver --insecure
+#1600382472
+cat Pipfile
+#1600382496
+pipenv install --dev pudb
+#1600382538
+gd Pipfi*
+#1600382567
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600382567
+python manage.py runserver --insecure
+#1600382183
+rqo
+#1600382034
+cdqn
+#1600382036
+vi
+#1600382346
+vq
+#1600385905
+cdqn
+#1600385906
+gs
+#1600385908
+vi
+#1600385901
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600385901
+python manage.py runserver --insecure
+#1600385900
+rqo
