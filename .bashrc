@@ -638,6 +638,9 @@ alias script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a
 alias seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/selenium-2.0b1/selenium-server-standalone-2.0b1.jar"
 alias ssh="ssh -A"
 alias ssh.rob-aws="ssh -i $PemRobKey ubuntu@$MachineRobAWS"
+# ssh-agent  ==> start the ssh-agent daemon
+# ssh-add ~/.ssh/my-private-key
+# ssh-add -L  ==> list the private keys currently held by ssh-agent
 
 alias source.django="source $DirDropbox/bin/learn/dir.learn.django.projects/source.venv"
 alias sourcetree="open -a SourceTree"
