@@ -35969,3 +35969,9 @@ python manage.py runserver --insecure
 rqo
 #1600386646
 vq
+#1600386569
+vrc
+#1600386793
+cat .gitignore_global 
+#1600386796
+vim .gitignore_global
