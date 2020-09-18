@@ -35977,3 +35977,99 @@ cat .gitignore_global
 vim .gitignore_global
 #1600386967
 vrc
+#1600387266
+ps -ealf|grep ssh
+#1600387271
+ssh-add -L
+#1600387589
+env|grep SSH
+#1600388468
+cdprivate-rbednark-general 
+#1600388469
+gf
+#1600386538
+vresume
+#1600386555
+cdresume 
+#1600386750
+dotrc
+#1600386752
+cdresume
+#1600386754
+gs
+#1600386755
+gd
+#1600386768
+gs
+#1600386774
+git ls-files
+#1600386778
+vim .gitignore
+#1600386840
+gs
+#1600386850
+gca
+#1600386864
+gpus
+#1600386913
+ssh-agent
+#1600386915
+ssh-add
+#1600386918
+gpus
+#1600386950
+ssh-add -L
+#1600387035
+dotrc
+#1600387049
+ssh-add ~/.ssh/rob-key-2020-09-08
+#1600387163
+cp rob-bednark-resume.txt rob-bednark-resume-manager.txt
+#1600387181
+cp rob-bednark-resume.txt rob-bednark-resume-individual-contributor-IC.txt
+#1600387187
+gs
+#1600387193
+git add .
+#1600387194
+gco
+#1600387252
+gs
+#1600387253
+gpus
+#1600387599
+env|grep SSH
+#1600388457
+ssh-add -L
+#1600388461
+gf
+#1600388479
+man ssh-add
+#1600388522
+ssh-add -K ~/.ssh/rob-key-2020-09-08
+#1600388562
+ssh-add -L
+#1600388601
+gf
+#1600386925
+vq
+#1600390596
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600390596
+python manage.py runserver --insecure
+#1600391147
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600391171
+DB_QUIZME=quizme_production ./manage.py dbshell
+#1600391176
+DB_QUIZME=quizme_production ./manage.py shell
+#1600391188
+cat Pipfile
+#1600391400
+gs
+#1600391414
+pipenv install --dev django-extensions
+#1600391460
+vi
+#1600391146
+cdq
