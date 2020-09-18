@@ -36073,3 +36073,253 @@ pipenv install --dev django-extensions
 vi
 #1600391146
 cdq
+#1600393125
+vresume
+#1600393149
+vrc
+#1600393215
+vresume
+#1600392588
+vq
+#1600391578
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600391579
+python manage.py runserver --insecure
+#1600390595
+rqo
+#1600392100
+cdqn
+#1600392101
+vi
+#1600391867
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600391997
+cdq
+#1600392016
+DB_QUIZME=quizme_production manage.py -h
+#1600392020
+DB_QUIZME=quizme_production ./manage.py -h
+#1600392032
+DB_QUIZME=quizme_production ./manage.py shell_plus
+#1600391619
+vq
+#1600391865
+cdq
+#1600437855
+vq
+#1600440458
+cddockerlearn 
+#1600440459
+cd *ssl
+#1600440474
+curl localhost:8080
+#1600440480
+curl localhost:8080|lynx --dump
+#1600440486
+brew install lynx &
+#1600440486
+jobs
+#1600441286
+lynx --dump 127.0.0.1
+#1600441292
+lynx --dump 127.0.0.1:8080
+#1600441340
+vim /etc/hosts
+#1600441344
+sudo vim /etc/hosts
+#1600441393
+jobs
+#1600441398
+ping foobar
+#1600441403
+lynx --dump 127.0.0.1:8080
+#1600441425
+lynx --dump foobar:8080
+#1600441433
+lynx --dump localhost:8080
+#1600441532
+lynx --dump 127.0.0.1:8080
+#1600442428
+man openssl
+#1600442670
+c
+#1600443031
+vim exam*
+#1600444074
+jobs
+#1600444559
+curl localhost:443
+#1600444563
+curl https://localhost:443
+#1600444574
+jobs
+#1600444575
+vim *yml
+#1600444667
+curl https://localhost:443
+#1600444678
+curl localhost:443
+#1600444685
+dc logs my_nginx_server
+#1600439150
+cddockerlearn 
+#1600439155
+cd learn-nginx-ssl
+#1600439163
+dc up
+#1600440245
+dc up --build
+#1600440548
+dc ps
+#1600440554
+dc up --build
+#1600440709
+dc run alpine ash
+#1600440730
+dc run my_curl_call ash
+#1600440822
+dc up --build
+#1600441236
+dc ps
+#1600441246
+dc up --build
+#1600439344
+cddockerlearn 
+#1600439347
+lshead
+#1600439350
+cd *ssl
+#1600439355
+vim *yml
+#1600441028
+git log -p *.conf
+#1600441037
+git log -p nginx.conf
+#1600441039
+gs
+#1600441047
+git log -p conf.d/nginx.conf
+#1600441056
+git ls-files
+#1600441063
+ls conf.d/
+#1600441069
+git log -p conf.d/default.conf
+#1600441085
+%1
+#1600441580
+cddockerlearn 
+#1600441581
+cd *ssl
+#1600441594
+dc exec my_nginx_server bash
+#1600441599
+dc exec my_nginx_server /bin/bash
+#1600441606
+dc exec my_nginx_server ash
+#1600444394
+jobs
+#1600444405
+vim *yml
+#1600445073
+jobs
+#1600442456
+man openssl
+#1600443147
+cddockerlearn 
+#1600443154
+cd *ssl
+#1600443156
+vim ex*
+#1600443230
+jobs
+#1600443268
+openssl x509 -in example.com.csr -text
+#1600443292
+openssl x509 -in example.com.csr -text -noout
+#1600443317
+openssl x509 -in example.com -text -noout
+#1600443323
+openssl x509 -in example.com.key -text -noout
+#1600443339
+
+#1600443411
+openssl x509 -in example.com.key -text -noout -inform der
+#1600443460
+pbcopy < example.com.csr
+#1600443502
+jobs
+#1600442460
+cddockerlearn 
+#1600442462
+cd *ssl
+#1600442465
+vim generate-ssl-cert.sh 
+#1600442490
+jobs
+#1600442497
+gd generate-ssl-cert.sh 
+#1600442502
+git ls-files
+#1600443084
+c
+#1600443086
+./generate-ssl-cert.sh 
+#1600443353
+jobs
+#1600443355
+vim generate-ssl-cert.sh 
+#1600443510
+jobs
+#1600443512
+%1
+#1600443515
+jobs
+#1600443927
+openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt
+#1600443939
+openssl x509 -req -days 365 -in example.com.csr -signkey example.com.key -out server.crt
+#1600443976
+ls -ltr
+#1600443980
+cat server.crt 
+#1600443995
+mv server.crt nginx.conf/
+#1600443999
+cd nginx.conf/
+#1600444010
+cd ..
+#1600444019
+mv nginx.conf/server.crt conf.d/
+#1600444026
+grep nginx.conf *
+#1600444045
+ls conf.d/
+#1600444049
+rmdir nginx.conf/
+#1600444050
+c
+#1600444055
+cd conf.d/
+#1600444061
+jobs
+#1600444228
+cd ..
+#1600444257
+mv *csr conf.d/
+#1600444260
+mv *.key conf.d/
+#1600444263
+cd conf.d/
+#1600444269
+rm bednark.org.key 
+#1600444284
+jobs
+#1600444304
+mv *csv ..
+#1600444310
+mv *csr ..
+#1600444316
+mv example.com.key server.key
+#1600444326
+jobs
