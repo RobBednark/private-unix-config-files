@@ -639,7 +639,7 @@ alias seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/se
 alias ssh="ssh -A"
 alias ssh.rob-aws="ssh -i $PemRobKey ubuntu@$MachineRobAWS"
 # ssh-agent  ==> start the ssh-agent daemon
-# ssh-add ~/.ssh/my-private-key
+# ssh-add -K ~/.ssh/my-private-key  ==> add the private key to ssh-agent, and also store the passphrase
 # ssh-add -L  ==> list the private keys currently held by ssh-agent
 
 alias source.django="source $DirDropbox/bin/learn/dir.learn.django.projects/source.venv"
