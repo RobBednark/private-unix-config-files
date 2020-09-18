@@ -1761,6 +1761,17 @@ export NVM_DIR="/Users/robb/.nvm"
 
 # autojump is a faster way to navigate your filesystem. It works by maintaining a database of the directories you use the most from the command line.
 # https://github.com/wting/autojump
+# j foo ==> jump to directory that contains "foo"
+# jc foo ==> jump to child directory of current directory
+# jo foo  ==> open Mac Finder
+# jco foo  => open Mac Finder to a child directory
+# Note: "j" == "autojump"
+# autojump -s  => show database entries and their key weights
+# autojump --purge  => remove non-existent paths from database
+# autojump --complete  => used for tab completion
+# autojump -a DIRECTORY =>  add path
+# autojump -i  => increase current directory weight
+# autojump --help
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 ################################################################################
 ### The end. (.bashrc)

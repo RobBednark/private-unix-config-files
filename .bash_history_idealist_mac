@@ -36353,3 +36353,51 @@ vq
 history|grep brew install
 #1600446756
 history|grep brew.install
+#1600446987
+type j
+#1600446994
+type jc
+#1600446996
+type autojump
+#1600447000
+type jo
+#1600447095
+autojump --help
+#1600447110
+autojump -s
+#1600446696
+vrc
+#1600446916
+autojump
+#1600446920
+autojump -h
+#1600446934
+type j
+#1600446936
+type jc
+#1600446983
+alias j
+#1600446985
+type j
+#1600447215
+j -h
+#1600447226
+j torr
+#1600447230
+j torrents
+#1600447232
+pwd
+#1600447248
+cddockerlearn 
+#1600447250
+cd *ssl
+#1600447256
+j -s
+#1600447286
+j -i
+#1600447287
+j -s
+#1600447293
+cd
+#1600447295
+j ssl
