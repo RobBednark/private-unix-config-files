@@ -36337,3 +36337,19 @@ man lynx
 man -Hlynx man
 #1600445559
 man -Hmanlynx man
+#1600446466
+cd --
+#1600446511
+brew search autojump
+#1600446606
+autojump
+#1600446611
+brew install autojump
+#1600446674
+autojump
+#1600446620
+vq
+#1600446617
+history|grep brew install
+#1600446756
+history|grep brew.install

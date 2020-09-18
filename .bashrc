@@ -1758,6 +1758,10 @@ fi
 
 export NVM_DIR="/Users/robb/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# autojump is a faster way to navigate your filesystem. It works by maintaining a database of the directories you use the most from the command line.
+# https://github.com/wting/autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 ################################################################################
 ### The end. (.bashrc)
 ################################################################################
