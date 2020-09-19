@@ -36515,3 +36515,109 @@ vim /tmp/foo
 vq
 #1600476836
 vresume
+#1600524870
+env|grep MAN
+#1600526186
+man openssl
+#1600526189
+c
+#1600526208
+man openssl
+#1600526251
+c
+#1600526291
+man openssl
+#1600526315
+man lynx
+#1600526327
+man man
+#1600526360
+man lynx
+#1600526425
+man man
+#1600526454
+man lynx
+#1600526476
+lynx google.com
+#1600526522
+lynx --dump google.com > /tmp/google.html
+#1600526531
+cat /tmp/google.html|lynx
+#1600526554
+lynx < /tmp/google.html 
+#1600526573
+cat /tmp/google.html|lynx -
+#1600526659
+c
+#1600526688
+cddockerlearn 
+#1600526717
+j -s
+#1600526774
+brew install cdargs
+#1600526898
+c
+#1600526910
+autojump
+#1600526917
+j
+#1600526932
+j -s
+#1600526954
+j nginx
+#1600526972
+j qz
+#1600526976
+j quiz
+#1600526986
+j docker
+#1600527097
+cdargs -h
+#1600527102
+cdargs
+#1600527121
+man cdargs
+#1600527142
+cv
+#1600527192
+brew info cdargs
+#1600527248
+grrc complet
+#1600527268
+c
+#1600527280
+brew info cdargs
+#1600527324
+cdargs
+#1600527529
+ls /usr/local/etc
+#1600527536
+ls /usr/local/etc/profile.d/
+#1600527568
+grrc autojump
+#1600527621
+cdargs
+#1600527628
+man cdargs
+#1600527661
+cdargs
+#1600527676
+cd /tmp
+#1600527677
+cdargs
+#1600527704
+j -s
+#1600527709
+cdargs
+#1600527712
+cd
+#1600527714
+cdargs
+#1600527781
+type cv
+#1600527800
+source /usr/local/etc/bash_completion.d/cdargs-bash.sh 
+#1600527802
+type cv
+#1600527824
+vrc
