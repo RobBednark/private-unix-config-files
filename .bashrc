@@ -1772,7 +1772,11 @@ export NVM_DIR="/Users/robb/.nvm"
 # autojump -a DIRECTORY =>  add path
 # autojump -i  => increase current directory weight
 # autojump --help
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
+
+# cdargs allows you to set bookmarks for directories and then cd to them using
+# the bookmark.  [suggested by John De La Garza 9.19.20]
+[ -f /usr/local/etc/bash_completion.d/cdargs-bash.sh ] && source /usr/local/etc/bash_completion.d/cdargs-bash.sh
 ################################################################################
 ### The end. (.bashrc)
 ################################################################################
