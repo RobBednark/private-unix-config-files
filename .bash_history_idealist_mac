@@ -36621,3 +36621,55 @@ source /usr/local/etc/bash_completion.d/cdargs-bash.sh
 type cv
 #1600527824
 vrc
+#1600527929
+type cv
+#1600527939
+cdlearn
+#1600527948
+ca 
+#1600527975
+ca -h
+#1600527979
+cdargs
+#1600527999
+cd /tmp
+#1600528004
+cv l
+#1600528013
+cv
+#1600528034
+cd -
+#1600528048
+ca l
+#1600528051
+cd
+#1600528055
+cv l
+#1600528071
+cv
+#1600528080
+cdargs
+#1600528093
+cd
+#1600528096
+cv l
+#1600528158
+cdargs
+#1600528177
+cv l
+#1600528183
+type cv
+#1600528188
+type cdb
+#1600528198
+cdb l
+#1600528200
+cdb
+#1600528214
+type local
+#1600528223
+type _cdargs_get_dir
+#1600528238
+type cv
+#1600528242
+type cdb

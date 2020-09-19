@@ -1776,6 +1776,8 @@ export NVM_DIR="/Users/robb/.nvm"
 
 # cdargs allows you to set bookmarks for directories and then cd to them using
 # the bookmark.  [suggested by John De La Garza 9.19.20]
+# ca foo  ==> add "foo" bookmark for the current directory
+# cdargs ==> go into menu to do operations
 [ -f /usr/local/etc/bash_completion.d/cdargs-bash.sh ] && source /usr/local/etc/bash_completion.d/cdargs-bash.sh
 ################################################################################
 ### The end. (.bashrc)
