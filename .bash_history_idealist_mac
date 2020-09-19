@@ -36401,3 +36401,117 @@ j -s
 cd
 #1600447295
 j ssl
+#1600446945
+vrc
+#1600447384
+vq
+#1600447617
+curl localhost:443
+#1600447622
+curl localhost:8443
+#1600447635
+lynx localhost:8443
+#1600447646
+lynx --dump localhost:8443
+#1600447654
+lynx --dump https://localhost:8443
+#1600447670
+lynx --dump https://localhost:80
+#1600447672
+lynx --dump http://localhost:80
+#1600447692
+curl http://localhost:80
+#1600447700
+j ssl
+#1600447704
+c
+#1600447711
+dc ps
+#1600447723
+curl http://localhost:8080
+#1600447366
+cd ssl
+#1600447368
+j ssl
+#1600447412
+dc logs my_nginx_server
+#1600447569
+curl localhost:443
+#1600447578
+dc logs -t --tail my_nginx_server
+#1600447584
+dc logs -t --tail=all my_nginx_server
+#1600447597
+dc logs --help
+#1600447609
+dc logs -ft --tail=all my_nginx_server
+#1600445138
+cddockerlearn 
+#1600445140
+cd *ssl
+#1600445151
+cd conf.d/
+#1600445152
+gs
+#1600445157
+vim *conf
+#1600445267
+jobs
+#1600445272
+dc up --build
+#1600470579
+vq
+#1600470613
+cdquiz
+#1600470615
+gs
+#1600470617
+git log
+#1600470621
+git ls-files
+#1600470627
+git grep -i dish
+#1600472685
+c
+#1600472885
+cdqn
+#1600472886
+gs
+#1600472887
+vi
+#1600472893
+vq
+#1600472825
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600472832
+DB_QUIZME=quizme_production ./manage.py shell_plus
+#1600470588
+vdiary 
+#1600472690
+c
+#1600472773
+git log -p
+#1600472822
+cdqn
+#1600472823
+cdq
+#1600475503
+cdqn
+#1600475507
+vi
+#1600476176
+Z
+#1600477023
+cdqn
+#1600477024
+git log
+#1600476987
+cdqn
+#1600476989
+git log
+#1600477010
+vim /tmp/foo
+#1600476919
+vq
+#1600476836
+vresume
