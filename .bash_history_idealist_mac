@@ -36673,3 +36673,257 @@ type _cdargs_get_dir
 type cv
 #1600528242
 type cdb
+#1600528388
+j ng
+#1600528398
+dc logs my_nginx_server
+#1600528419
+vi *yml
+#1600528440
+dc logs my_nginx_server
+#1600528467
+curl https://localhost
+#1600528472
+curl https://localhost:8443
+#1600528484
+curl -k https://localhost:8443
+#1600528497
+curl --help
+#1600528499
+man curl
+#1600528994
+sudo vim /etc/hosts
+#1600529016
+curl -k https://bednark.org:8443
+#1600529020
+curl https://bednark.org:8443
+#1600529137
+curl https://localhost:8443
+#1600529191
+sudo vim /etc/hosts
+#1600528315
+j nginx
+#1600528320
+cd conf.d/
+#1600528363
+cd ..
+#1600528366
+dc up --build
+#1600529035
+j n
+#1600529046
+vi *yml
+#1600530655
+ifconfig en0
+#1600530671
+ifconfig|less
+#1600530683
+route
+#1600530687
+man route
+#1600530692
+c
+#1600530697
+brew search route
+#1600530756
+brew info coreutils
+#1600530762
+man coreutils
+#1600530772
+man route
+#1600530797
+route get
+#1600530803
+route get localhost
+#1600530811
+route get google.com
+#1600531105
+vpaste 
+#1600524530
+vq
+#1600532008
+j l
+#1600532012
+cd conf.d/
+#1600534611
+vq
+#1600542036
+vdiary 
+#1600549232
+vq
+#1600552655
+type vq
+#1600552658
+cdquiz
+#1600552659
+gs
+#1600552661
+git log
+#1600552664
+git log -p
+#1600552666
+c
+#1600552667
+gs
+#1600552670
+git remote -v
+#1600558509
+pwd
+#1600558512
+ping google.com
+#1600558565
+cd /tmp
+#1600558566
+cd
+#1600558568
+cdqn
+#1600558588
+cd /tmp
+#1600558589
+cd
+#1600557222
+vq
+#1600557032
+cdqn
+#1600557034
+cd db_dumps/
+#1600557035
+lshead
+#1600558335
+cd ..
+#1600558342
+gd Pipfile
+#1600558471
+curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bash
+#1600556978
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600556984
+./manage.py -h
+#1600557040
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1600557088
+vi
+#1600557129
+./manage.py -h
+#1600557160
+./manage.py shell_plus -h
+#1600557176
+./manage.py shell_plus --lab
+#1600557218
+brew install jupyter
+#1600557659
+./manage.py shell_plus --lab
+#1600557674
+pip install --dev jupyterlab
+#1600557678
+pipenv install --dev jupyterlab
+#1600557830
+ipython notebook -h
+#1600557905
+./manage.py shell_plus --lab
+#1600558715
+DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1600558903
+gs
+#1600558904
+cd
+#1600558989
+rqo
+#1600559450
+vqtodo 
+#1600559442
+cdqn
+#1600559446
+vi
+#1600559176
+vpaste 
+#1600558999
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600558999
+python manage.py runserver --insecure
+#1600556706
+cdqn
+#1600556712
+vqtodo 
+#1600556893
+gs
+#1600556934
+gd
+#1600556976
+psh
+#1600558997
+rqo
+#1600564050
+vpaste 
+#1600564191
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600564191
+python manage.py runserver --insecure
+#1600563536
+vq
+#1600566571
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600566572
+/dump
+#1600566577
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1600566617
+ls *49.37*
+#1600566620
+cd db_dumps/
+#1600566624
+ls *49.37*
+#1600566626
+cd private-quiz-me-db-backups/
+#1600566634
+./update.sh *49.37*
+#1600566637
+gs
+#1600566638
+gd
+#1600566644
+gs
+#1600566650
+gd dump.quizme_production.*txt
+#1600566660
+gs
+#1600566666
+gd *.all
+#1600566675
+gs
+#1600566677
+gco
+#1600566683
+gca
+#1600566688
+gpus
+#1600566570
+cdq
+#1600566703
+git-agent
+#1600566706
+ssh-agent
+#1600566722
+ssh-add ./.ssh/rob-key-2020-09-08
+#1600566900
+vq
+#1600567296
+vdiary 
+#1600574981
+vq
+#1600576453
+vpaste 
+#1600577453
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600577453
+python manage.py runserver --insecure
+#1600577452
+rqo
+#1600578462
+vpaste 
+#1600578502
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600578503
+python manage.py runserver --insecure
+#1600578501
+rqo
