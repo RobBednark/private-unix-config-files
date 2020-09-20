@@ -650,7 +650,7 @@ alias subl2="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 alias subl3="/Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl"
 alias subln="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias subl=subln
-alias subl-merge='open -a "Sublime Merge 2" ./'  # open for the current directory
+alias subl.merge='open -a "Sublime Merge 2" ./'  # open for the current directory
 
 alias tail.downtime="tail -999f $FilePingSymlinkActive | grep time.DOWN"
 alias tail.summary="tail -99f $FilePingSymlinkActive | grep SUMMARY"
