@@ -36927,3 +36927,379 @@ vpaste
 python manage.py runserver --insecure
 #1600578501
 rqo
+#1600615228
+vrc
+#1600615331
+subl.merge 
+#1600615338
+s
+#1600615339
+gs
+#1600615772
+echo -n '\n\n\n\n'
+#1600615777
+echo -n "\n\n\n\n"
+#1600615779
+man echo
+#1600615788
+type echo
+#1600615791
+echo -h
+#1600615797
+man bash
+#1600616075
+c
+#1600612269
+j ng
+#1600612822
+man lynx
+#1600612856
+lynx https://google.com
+#1600612868
+lynx --dump https://google.com
+#1600612895
+lynx --dump https://localhost
+#1600612919
+ping localhost
+#1600612929
+lynx --dump https://localhost:8443
+#1600612942
+telnet localhost 443
+#1600612955
+brew install telnet
+#1600612999
+telnet localhost 443
+#1600613004
+telnet localhost 8443
+#1600613090
+lynx --dump https://localhost:8443
+#1600613176
+man lynx
+#1600613206
+vim ~/.lynxrc
+#1600613220
+curl https://localhost:8443
+#1600613224
+curl -k https://localhost:8443
+#1600613228
+curl -k https://localhost:8443|lynx
+#1600613234
+curl -k https://localhost:8443|lynx --dump
+#1600613240
+curl -k https://localhost:8443|lynx --dump -
+#1600613253
+curl -k https://localhost:8443
+#1600613300
+gs
+#1600613304
+gd
+#1600613400
+gs
+#1600613410
+git add conf.d/
+#1600613410
+gs
+#1600613423
+git add Dockerfile-curl docker-compose.yml 
+#1600613424
+gs
+#1600613429
+gco
+#1600613463
+c
+#1600613466
+cd conf.d/
+#1600613470
+vim default.conf 
+#1600613625
+mv default.conf rob.conf
+#1600613711
+touch default.conf
+#1600614108
+curl http://google.com:80
+#1600614113
+curl http://google.com
+#1600614116
+man curl
+#1600614162
+c
+#1600614178
+lynx --dump http://localhost:80
+#1600614220
+lynx --dump http://localhost:80/
+#1600614226
+lynx --dump http://localhost
+#1600614229
+lynx --dump localhost
+#1600614231
+lynx --dump localhost/
+#1600614236
+lynx --dump http://localhost:80/
+#1600614257
+lynx --dump http://localhost:8080/
+#1600614265
+lynx --dump http://localhost:8443/
+#1600614271
+lynx --dump https://localhost:8443/
+#1600614576
+lynx --dump http://localhost:80/
+#1600614581
+lynx --dump http://localhost:8080/
+#1600614726
+gs
+#1600614742
+grrc merge
+#1600614753
+cd ..
+#1600614758
+open -a 'sublime merge' .
+#1600614763
+open -a 'Sublime Merge' .
+#1600614774
+ls /
+#1600614781
+ls /Applications/
+#1600614792
+open -a 'Sublime Merge 2' .
+#1600615705
+history|tail -50
+#1600615720
+pwd
+#1600615720
+jobs
+#1600615742
+dc logs my_curl_call
+#1600615927
+echo -e '\n\n\n'
+#1600617130
+curl localhost:8080
+#1600617133
+man curl
+#1600617213
+curl localhost:8080
+#1600617218
+curl --include localhost:8080
+#1600617225
+curl --verbose localhost:8080
+#1600617287
+man curl
+#1600617501
+curl --insecure localhost:8443
+#1600617505
+curl --verbose --insecure localhost:8443
+#1600617536
+curl --verbose --insecure https://localhost:8443
+#1600617618
+curl --verbose --insecure http://localhost:8080
+#1600617965
+lynx --dump http://localhost:8080
+#1600611903
+j n
+#1600611908
+j -s
+#1600611917
+j ng
+#1600611957
+type cd
+#1600611984
+j -s
+#1600611990
+type cdargs
+#1600611996
+type j
+#1600612000
+type autojump
+#1600612026
+c
+#1600612120
+dc up --build
+#1600612183
+j ng
+#1600612186
+gs
+#1600612194
+gd
+#1600612208
+vi *yml
+#1600613835
+vi
+#1600616109
+c
+#1600616109
+gd
+#1600616115
+cd conf.d/
+#1600616151
+docker run nginx:alpine bash
+#1600616157
+docker run nginx:alpine /bin/bash
+#1600616163
+docker run nginx:alpine ash
+#1600616172
+docker run -it nginx:alpine ash
+#1600616237
+cat default.conf 
+#1600616240
+mv rob.conf default.conf 
+#1600616242
+gs
+#1600616253
+cd ..
+#1600616257
+dotrc
+#1600616260
+subl.merge .
+#1600616299
+c
+#1600616301
+gs
+#1600616304
+gca
+#1600616434
+gs
+#1600616435
+c
+#1600616435
+gs
+#1600616443
+git ls-files
+#1600616465
+c
+#1600616575
+vi *yml
+#1600610842
+vq
+#1600618969
+j ng
+#1600618971
+gs
+#1600618972
+gd
+#1600618982
+subl.merge .
+#1600626339
+vq
+#1600626456
+lynx --dump https://www.truepeoplesearch.com/find/bednark/r_walter
+#1600626459
+lynx --dump https://www.truepeoplesearch.com/find/bednark/r_walter|less
+#1600626468
+lynx --dump https://www.truepeoplesearch.com/find/bednark/r_walter|vim -
+#1600633845
+vq
+#1600634462
+vim
+#1600634408
+cdqn
+#1600634413
+bat questions/views.py 
+#1600633638
+type bat
+#1600633639
+bat
+#1600633643
+brew install bat
+#1600633719
+type httpie
+#1600633726
+type http
+#1600633755
+brew install httpie
+#1600633834
+type tldr
+#1600633837
+brew install tldr
+#1600633892
+history|grep brew.install
+#1600633933
+type exa
+#1600633940
+brew install exa
+#1600633956
+exa
+#1600633963
+cdqn
+#1600633964
+exa
+#1600633978
+/usr/local/etc/bash_completion.d
+#1600633990
+/usr/local/etc/bash_completion.d/
+#1600633991
+cd /usr/local/etc/bash_completion.d/
+#1600633995
+cd exa 
+#1600634002
+source exa 
+#1600634011
+tldr ls
+#1600634018
+exa who
+#1600634021
+exa git
+#1600634027
+exa grep
+#1600634029
+exa find
+#1600634034
+exa cat
+#1600634038
+exa --help
+#1600634049
+tldr git
+#1600634054
+tldr ls
+#1600634056
+tldr find
+#1600634067
+cdqn
+#1600634086
+cat questions/views.py 
+#1600634112
+brew install pgcli
+#1600634140
+pgcli
+#1600634234
+type fish
+#1600634237
+brew install fish
+#1600634387
+fish
+#1600635681
+j ng
+#1600635685
+lazydocker 
+#1600635572
+j ng
+#1600635579
+dc up 
+#1600633647
+vq
+#1600635959
+brew info httpie
+#1600635965
+brew install httpie
+#1600635972
+http
+#1600635976
+http localhost
+#1600635982
+http localhost:8080
+#1600635989
+http localhost:8443
+#1600635995
+http google.com
+#1600636002
+https google.com
+#1600629467
+vpaste 
+#1600667071
+vq
+#1600666673
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600666673
+python manage.py runserver --insecure
+#1600667348
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1600666671
+rqo
