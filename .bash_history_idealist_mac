@@ -37573,3 +37573,57 @@ exa -l --color=always
 fish
 #1600715798
 vq
+#1600712552
+lynx --dump https://wperp.com/32125/get-rich-without-being-lucky/ > tmp/paste-ravikanth
+#1600712554
+vim tmp/paste-ravikanth
+#1600712744
+lynx --dump https://threadreaderapp.com/thread/1002103360646823936.html > tmp/paste-ravikanth-2
+#1600712746
+vim tmp/paste-ravikanth-2
+#1600715774
+cd tmp/
+#1600715777
+lt -altr
+#1600715780
+ls -l
+#1600715792
+grrc 'better.*ls'
+#1600715824
+exa
+#1600715829
+exa -l
+#1600715835
+exa -h
+#1600715840
+exa --help
+#1600715890
+vrc
+#1600719114
+vpaste 
+#1600719172
+cdqn
+#1600719174
+cd db_dumps/private-quiz-me-db-backups/
+#1600719176
+gs
+#1600719186
+ls ../*.12.48*
+#1600719196
+./update.sh '../*.12.48*'
+#1600719201
+./update.sh '*.12.48*'
+#1600719203
+gs
+#1600719209
+gca -m'update'
+#1600719211
+gpus
+#1600709270
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600709270
+python manage.py runserver --insecure
+#1600719168
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1600709268
+rqo
