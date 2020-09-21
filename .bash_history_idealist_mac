@@ -37627,3 +37627,17 @@ python manage.py runserver --insecure
 time (df -h .; DB_QUIZME=quizme_production make dumpdb)
 #1600709268
 rqo
+#1600720736
+docker run -it nginx:alpine ash
+#1600721037
+docker run -it nginx:alpine uname -a
+#1600721043
+docker run -it alpine uname -a
+#1600721054
+docker run -it ubuntu uname -a
+#1600722296
+docker run -it alpine uname -a
+#1600722067
+docker run centos:6 bash
+#1600720402
+vq

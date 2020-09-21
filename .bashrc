@@ -217,6 +217,7 @@ DirLearn="$DirBin/learn"
 DirNodeModulesLocal=~/local_node_modules
 DirOptionTables="$DirRbednark/option.tables"
 DirPicts="$DirRbednark/picts"
+DirPrivateQuizMeDbBackups='$DirQuizMeProd/db_dumps/private-quiz-me-db-backups'
 DirPublicHtml="$DirRbednark/public_html"
 DirResume="$DirDropbox/rob.resume"
 DirResumePrev="$DirDropbox/rob.resume"
@@ -264,6 +265,7 @@ FilePhone="$DirDoc/phone.nums.txt"
 FilePicts="$DirTxt/sent.list.txt"
 FilePingOutput=~/tmp/ping.monitor.$$
 FilePingSymlinkActive=~/tmp/ping.monitor.active
+FileQuizMeLatestTextDump="$DirPrivateQuizMeDbBackups/*.txt"
 FileQuotes="$DirRepoRobBednarkGithubIO/quotes.html"
 FileRc="$DirUnixConfigFiles/.bashrc"
 FileRecommendations="$DirBednarkCom/cpp/i.recommend.cpp"
@@ -737,7 +739,7 @@ alias vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
 alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme; \
     vim $DirAddToQuizme/learn_add_to_quizme  \
-        $DirDropbox/quizme_production_db_dumps/latest.dump.txt; \
+        $FileQuizMeLatestTextDump; \
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme"
 alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
