@@ -37303,3 +37303,91 @@ python manage.py runserver --insecure
 time (df -h .; DB_QUIZME=quizme_production make dumpdb)
 #1600666671
 rqo
+#1600700035
+curl --include localhost:8080
+#1600700057
+curl --include localhost:8443
+#1600700086
+curl --include https://localhost:8443
+#1600700127
+col 80
+#1600700129
+col 
+#1600700268
+tput cols
+#1600700274
+man tput
+#1600700480
+vrc
+#1600700287
+vrc
+#1600700369
+tput cols
+#1600700402
+tput rows
+#1600700405
+man tput
+#1600700423
+tput lines
+#1600700455
+tput cols
+#1600700518
+c
+#1600700528
+type grrc
+#1600700533
+grrc rows
+#1600700536
+grrc lines
+#1600700548
+c
+#1600700563
+curl --include https://localhost:8443
+#1600700577
+curl --insecure --include https://localhost:8443
+#1600700595
+curl --insecure --include http://localhost:80
+#1600700598
+curl --insecure --include http://localhost:8080
+#1600700613
+lynx --dump google.com
+#1600700649
+curl --insecure --include http://localhost:8080
+#1600700677
+curl --insecure --include https://localhost:8443/
+#1600700685
+curl --insecure --include https://localhost:8080/
+#1600700691
+curl --insecure --include http://localhost:8080/
+#1600700836
+cat /etc/hosts
+#1600701801
+lynx --dump http://localhost:8080
+#1600701814
+lynx --dump https://localhost:8080
+#1600701851
+vim ~/.lynxrc
+#1600701888
+lynx --dump https://localhost:8080
+#1600701892
+lynx --dump http://localhost:8080
+#1600701914
+lynx --verbose --dump http://localhost:8080
+#1600701923
+man lynx
+#1600701941
+lynx --cfg=~/.lynxrc --verbose --dump http://localhost:8080
+#1600701960
+lynx --cfg=~/.lynxrc --verbose --dump http://google.com
+#1600701964
+lynx --verbose --dump http://google.com
+#1600703141
+git --version
+#1600703316
+c
+#1600703349
+jobs
+#1600703356
+rm jobs
+#1600703360
+rm .lynxrc 
