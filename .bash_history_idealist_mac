@@ -37641,3 +37641,135 @@ docker run -it alpine uname -a
 docker run centos:6 bash
 #1600720402
 vq
+#1600723425
+vrc
+#1600720045
+ls -l $FileQuizMeLatestTextDump 
+#1600720062
+ls -l $DirQuizMeProd/private-quiz-me-db-backups
+#1600723393
+dotrc
+#1600723397
+ls -l $DirQuizMeProd/private-quiz-me-db-backups
+#1600723403
+ls -ld $DirQuizMeProd/private-quiz-me-db-backups
+#1600723413
+ls -ld /Users/rbednark/quizme-read-only-prod/private-quiz-me-db-backups
+#1600723417
+ls -ld /Users/rbednark/quizme-read-only-prod/
+#1600719338
+cdqn
+#1600719340
+cd db_dumps/
+#1600719354
+cd pre
+#1600719356
+cd private-quiz-me-db-backups/
+#1600719358
+gs
+#1600719360
+vim update.sh 
+#1600719432
+gs
+#1600719837
+dotrc
+#1600719857
+vq
+#1600719929
+dotrc
+#1600719931
+vq
+#1600719945
+ls -l $FileQuizMeLatestTextDump 
+#1600719990
+dotrc
+#1600719993
+ls -l $FileQuizMeLatestTextDump 
+#1600720013
+ls -l $DirQuizMeProd/
+#1600720018
+ls -ld $DirQuizMeProd/
+#1600720025
+ls -l $FileQuizMeLatestTextDump 
+#1600720028
+echo $FileQuizMeLatestTextDump 
+#1600720100
+dotrc
+#1600720101
+echo $FileQuizMeLatestTextDump 
+#1600720104
+ls -l $FileQuizMeLatestTextDump 
+#1600720109
+dotrc
+#1600720111
+ls -l $FileQuizMeLatestTextDump 
+#1600720132
+ls -l $DirQuizMeProd/db_dumps/private-quiz-me-db-backups/
+#1600720136
+ls -l $DirQuizMeProd/db_dumps
+#1600720139
+ls -ld $DirQuizMeProd/db_dumps/private-quiz-me-db-backups/
+#1600720151
+ls -l $FileQuizMeLatestTextDump 
+#1600720181
+ls -l $DirPrivateQuizMeDbBackups 
+#1600720215
+ls -ld $DirQuizMeProd
+#1600719314
+vq
+#1600719379
+cdqn
+#1600719382
+cd db_dumps/private-quiz-me-db-backups/
+#1600719389
+ls *txt
+#1600719398
+cd ..
+#1600719413
+ls symlink-db_dumps
+#1600719414
+cd symlink-db_dumps
+#1600719497
+cd $DirAddToQuizme/
+#1600719498
+pwd
+#1600719501
+ls -ltr
+#1600720191
+cdqn
+#1600719318
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600719318
+python manage.py runserver --insecure
+#1600723482
+ls -ld $DirPrivateQuizMeDbBackups 
+#1600723528
+dorc
+#1600723529
+dotrc
+#1600723532
+ls -ld $DirPrivateQuizMeDbBackups 
+#1600723551
+ls -ld $DirQuizMeProd
+#1600723556
+ls -ld $DirQuizMeProd/db_dumps/
+#1600723564
+ls -ld $DirQuizMeProd/db_dumps
+#1600723581
+$DirQuizMeProd/db_dumps/private-quiz-me-db-backups
+#1600723583
+ls -ld $DirQuizMeProd/db_dumps/private-quiz-me-db-backups
+#1600723595
+ls -ld $DirPrivateQuizMeDbBackups 
+#1600723624
+cdqn
+#1600723681
+vpaste 
+#1600723638
+ls -ld $DirPrivateQuizMeDbBackups 
+#1600723656
+dotrc
+#1600723658
+ls -ld $DirPrivateQuizMeDbBackups 
+#1600723660
+vq
