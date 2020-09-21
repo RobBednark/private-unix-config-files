@@ -1783,6 +1783,23 @@ export NVM_DIR="/Users/robb/.nvm"
 # ca foo  ==> add "foo" bookmark for the current directory
 # cdargs ==> go into menu to do operations
 [ -f /usr/local/etc/bash_completion.d/cdargs-bash.sh ] && source /usr/local/etc/bash_completion.d/cdargs-bash.sh
+
 ################################################################################
+### List of commands to grep for in this file, but that don't warrant an alias.
+################################################################################
+# eva (a better "ls")  https://the.exa.website/ 
+################################################################################
+### Shells (bash vs zsh vs fish)
+################################################################################
+# bash:
+#   colors
+# fish:
+#   colors
+#   easy configuration (fish_config opens a web interface)
+#   syntax highlighting on command-line  (e.g., command has different color from options)
+# zsh:
+#   syntax highlighting (with zsh-syntax-highlighting package)
+################################################################################  
 ### The end. (.bashrc)
 ################################################################################
+
