@@ -267,6 +267,19 @@ Bundle 'chrisbra/csv.vim'
 "  :help dirdiff
 Bundle 'will133/vim-dirdiff'
 
+" vim-emoji -- emoji picker to choose emoji
+" Bundle 'junegunn/vim-emoji'
+
+" vim-emoji-complete -- emoji picker
+" Bundle 'kyuhi/vim-emoji-complete'
+
+" YouCompleteMe -- used for code completions; used with emoji-snippets
+" https://github.com/ycm-core/YouCompleteMe
+Bundle 'ycm-core/YouCompleteMe'
+
+" emoji picker / completions
+Bundle 'FuDesign2008/emoji-snippets.vim'
+
 " All Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
