@@ -37489,3 +37489,31 @@ c
 history|tail -100|less
 #1600704808
 vim
+#1600704779
+vvimrc 
+#1600705054
+vim
+#1600704531
+j ng
+#1600704474
+history|less
+#1600704508
+lynx --dump https://localhost
+#1600704512
+lynx --dump https://localhost:443
+#1600704520
+lynx --dump https://localhost:8443
+#1600705568
+lynx --dump google.com
+#1600704491
+j ng
+#1600704496
+dc up --build
+#1600709291
+vpaste 
+#1600709319
+vqtodo 
+#1600712531
+cd tmp
+#1600712531
+gs
