@@ -37391,3 +37391,99 @@ jobs
 rm jobs
 #1600703360
 rm .lynxrc 
+#1600703683
+python -m http.server 8081
+#1600703711
+python -m http.server 81
+#1600703717
+python3 -m http.server 81
+#1600704304
+grrc lsof
+#1600704306
+vrc
+#1600700978
+j ng
+#1600700981
+gs
+#1600700983
+gd
+#1600700986
+vi
+#1600702823
+gs
+#1600702833
+dc *yml
+#1600702839
+subl.merge .
+#1600702922
+jobs
+#1600702926
+vi
+#1600703024
+c
+#1600703042
+gs
+#1600703045
+dco
+#1600703048
+gco
+#1600703061
+gca
+#1600703112
+gs
+#1600703115
+git log
+#1600703123
+git checkout af42ffa
+#1600703416
+obs
+#1600703417
+jobs
+#1600703423
+git log
+#1600703436
+git checkout e22dfce
+#1600703462
+git log
+#1600703476
+git checkout 06d20a0
+#1600703509
+vi
+#1600703523
+gco
+#1600703525
+gch
+#1600703530
+git checkout
+#1600703541
+git checkout master
+#1600703542
+git log
+#1600703553
+vim *yml
+#1600703586
+dc ps
+#1600703601
+curl localhost
+#1600703608
+curl https://localhost
+#1600703624
+lsof -Pn|grep LIST
+#1600703636
+lsof -Pn|less
+#1600703663
+lsof -Pn|grep LIST
+#1600704421
+history|tail -50
+#1600699985
+j ng
+#1600700000
+docker up --build
+#1600700008
+dc up --build
+#1600697172
+vq
+#1600704441
+c
+#1600704445
+history|tail -100|less
