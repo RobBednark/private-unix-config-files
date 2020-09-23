@@ -37773,3 +37773,187 @@ dotrc
 ls -ld $DirPrivateQuizMeDbBackups 
 #1600723660
 vq
+#1600719436
+vq
+#1600719469
+vrc
+#1600737220
+v
+#1600737222
+vq
+#1600753233
+vmeetups 
+#1600752720
+vpaste 
+#1600753208
+vq
+#1600753237
+vpython 
+#1600753363
+vq
+#1600752714
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600752714
+python manage.py runserver --insecure
+#1600753523
+DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1600752712
+rqo
+#1600785735
+tput cols
+#1600785739
+tput rows
+#1600785743
+tput lines
+#1600785752
+tput lines; tput cols
+#1600785893
+vq
+#1600783385
+vite
+#1600783387
+vq
+#1600786165
+j ng
+#1600786171
+vim *yml
+#1600786191
+jobs
+#1600786549
+dc ps
+#1600786570
+dc exec -it my_curl_call
+#1600786576
+dc exec -it my_curl_call bash
+#1600786636
+dc exec my_curl_call bash
+#1600787870
+gs
+#1600787873
+gd
+#1600787890
+subl.merge 
+#1600788271
+dc exec my_curl_call bash
+#1600788276
+dc ps
+#1600788747
+jobs
+#1600788826
+tty
+#1600790435
+dc exec my_curl_call bash
+#1600786057
+j ng
+#1600786065
+dc logs my_curl_call
+#1600786095
+dc logs -t my_curl_call
+#1600786188
+jobs
+#1600786541
+dc up --build
+#1600788745
+jobs
+#1600788763
+c
+#1600788788
+vim *yml
+#1600788798
+ps guaxww|grep 9373
+#1600788802
+jobs
+#1600788815
+ps -ef|grep 9373
+#1600788823
+tty
+#1600789175
+dc up --build
+#1600785867
+j ng
+#1600785870
+gs
+#1600785872
+gd
+#1600785878
+vim *yml
+#1600786029
+dc up --build
+#1600786211
+jobs
+#1600788081
+gs
+#1600788093
+ls conf.d/
+#1600788097
+rm example.com.csr 
+#1600788101
+gca
+#1600788296
+c
+#1600788297
+gs
+#1600788359
+cat generate-ssl-cert.sh 
+#1600788366
+git add generate-ssl-cert.sh 
+#1600788367
+gco
+#1600788385
+gs
+#1600788385
+c
+#1600788419
+vi *yml
+#1600788576
+cp Dockerfile-web-server Dockerfile-web-server-2
+#1600788600
+cp Dockerfile-web-server Dockerfile-web-server-{1,2}
+#1600788608
+mv Dockerfile-web-server Dockerfile-web-server-1
+#1600788613
+vim *[12]
+#1600788835
+tty
+#1600788837
+jobs
+#1600788909
+%1
+#1600788961
+jobs
+#1600789025
+mv Dockerfile-web-server-1 Dockerfile-web-server
+#1600789027
+ls *2
+#1600789028
+rm *2
+#1600789029
+c
+#1600789040
+mkdir web-root-1 web-root-2
+#1600789042
+cd *1
+#1600789049
+touch this-is-web-root-1
+#1600789052
+cd ../*2
+#1600789055
+touch this-is-web-root-2
+#1600789056
+cd ..
+#1600789059
+ls web*
+#1600789073
+vim Dockerfile-web-server 
+#1600791203
+jobs
+#1600787316
+man lynx
+#1600788749
+jobs
+#1600788828
+tty
+#1600791206
+jobs
+#1600842097
+vpaste 
