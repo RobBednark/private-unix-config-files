@@ -548,6 +548,7 @@ alias lsless="ls -lt|less"
 alias lsx="ls -l | grep '^-..x'"
 alias lib="title library; telnet multnomah.lib.or.us"
 alias lt="ls -lt | less"
+alias ly='lynx --dump'  # dump http/web page to plaintext
 
 alias macos-clear-dns-cache="sudo killall -v -HUP mDNSResponder"
 alias macos-clear-dns-cache-show="sudo killall -v -d mDNSResponder"  # -d ==> print info, don't send signal
@@ -1047,6 +1048,14 @@ function ln_node_modules() {
     _target=$DirNodeModulesLocal/$(basename $(pwd))
     mv node_modules $_target
     ln -s $_target node_modules
+}
+function vly() {  # vim lynx --dump (create temp file)
+    (
+        URL=$1;
+        FILE_TEMP="/tmp/vim-lynx-dump.$$.txt";
+        lynx --dump $URL > $FILE_TEMP;
+        vi $FILE_TEMP
+    )
 }
 function moovel-reclone-gamma-docker() {
     (set -x;
