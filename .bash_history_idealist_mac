@@ -38099,3 +38099,59 @@ v
 vq
 #1600907270
 vim
+#1600907091
+grrc table
+#1600907094
+vvimrc 
+#1600906632
+type ld
+#1600906635
+ld --help
+#1600906639
+man ld
+#1600906648
+type ly
+#1600906650
+ly
+#1600906687
+dotrc
+#1600906689
+ly https://en.wikipedia.org/wiki/Minimum_efficiency_reporting_value
+#1600906706
+vim $(ly https://en.wikipedia.org/wiki/Minimum_efficiency_reporting_value)
+#1600906720
+vim <(ly https://en.wikipedia.org/wiki/Minimum_efficiency_reporting_value)
+#1600906988
+dotrc
+#1600906990
+type vly
+#1600906993
+vly https://en.wikipedia.org/wiki/Minimum_efficiency_reporting_value
+#1600909394
+vq
+#1600910586
+vpaste 
+#1600923736
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600923736
+python manage.py runserver --insecure
+#1600923733
+rqo
+#1600955897
+vq
+#1600963756
+cdlearn
+#1600963769
+ls *doctest*
+#1600963770
+vim *doctest*
+#1600963822
+ls *annot*
+#1600963838
+vim learn_type_annotations.py
+#1600964190
+gs
+#1600964205
+vq
+#1600971945
+vdiary 
