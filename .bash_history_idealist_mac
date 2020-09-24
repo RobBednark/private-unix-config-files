@@ -38171,3 +38171,71 @@ dotrc
 vq
 #1600976007
 vdiary 
+#1600981474
+alias foo='echo 1; echo 2'
+#1600981475
+foo
+#1600981500
+type git.commit.all.modified.and.new.for.repo.of.given.file 
+#1600981689
+cd /tmp
+#1600981693
+mkdir dir1 dir2
+#1600981699
+cd dir1
+#1600981703
+echo file1 > file1
+#1600981721
+git init --help
+#1600981739
+git init .
+#1600981744
+git commit --help
+#1600981787
+gs
+#1600981790
+git add .
+#1600981791
+gco
+#1600981799
+gs
+#1600981804
+cd ..
+#1600981809
+rm -fr dir2
+#1600981812
+cp -pr dir1 dir2
+#1600981814
+cd dir2
+#1600981822
+echo dir2 >> file1
+#1600981823
+cd ..
+#1600981827
+vici dir*/*
+#1600981844
+gs
+#1600981850
+cd dir1
+#1600981851
+gs
+#1600981853
+git log -p
+#1600981861
+cd ../dir2
+#1600981864
+cd file1
+#1600981867
+gs
+#1600981869
+git log -p
+#1600982006
+git commit --help
+#1600982013
+git add --help
+#1600981421
+type vq
+#1600981432
+type vq|vim -
+#1600982243
+c
