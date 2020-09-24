@@ -1177,23 +1177,17 @@ function git.commit.all.modified.and.new.for.repo.of.given.file() {
     echo "================================================================================"
     git.diff.old
     echo "================================================================================"
-    # git --no-pager status --ignore-submodules=dirty
 
     # Add all files that aren't already in the repo
-    # echo "+ git add -A"
-    git add -A
+    git add --all
 
-    # Commit
-    # echo "git commit -a -m 'Auto commit from vici'"
     git commit -a -m 'Auto commit from vici'
 
     echo "================================================================================"
     git.diff.old
     echo "================================================================================"
-    # git --no-pager status --ignore-submodules=dirty
     # Now cd back to the directory where the user was to begin with.
     cd $DirCurDir
-    # echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
 }
 function vici () { 
     if echo $SHELL | grep zsh > /dev/null; then
