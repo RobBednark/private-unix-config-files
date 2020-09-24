@@ -739,8 +739,10 @@ alias vpython="title vpython; cd $DirQuiz; vici db_python"
 alias vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
 alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
     vim $DirAddToQuizme/learn_add_to_quizme  \
-        $FileQuizMeLatestTextDump; \
+        $FileQuizMeLatestTextDump \
+        $FileDiary; \
     git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme"
 alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
@@ -1194,30 +1196,20 @@ function git.commit.all.modified.and.new.for.repo.of.given.file() {
     # echo "Hit return to continue (after commit, before vim; onefile=$onefile)..."; read x
 }
 function vici () { 
-    # Use git instead of rcs
-    # capture the current dir and return to it after we are done
-
     if echo $SHELL | grep zsh > /dev/null; then
         # setopt shwordsplit causes zsh to behave like bash for splitting a string (e.g., $files)
         setopt shwordsplit
     fi
 
-    # ISSUE: 4/18/14: vici does not work for multiple files; why not?
-    #   o 4/18 7:42am I removed the quotes from files=$@ -- result: no difference; still has space in filename
     cur_dir=$(pwd)
     files=$@
     # Would be best to get a list of the repositories for all the files, and only do one commit
     # for each repository.  For now, just do it for each.
-    # echo "DEBUG: files=[$files]"
-    # echo "DEBUG: \$#=[$#]"
     for onefile in $files; do
-        # echo "DEBUG: onefile=[$onefile]"
-        git.commit.all.modified.and.new.for.repo.of.given.file $onefile
+        git.commit.all.modified.and.new.for.repo.of.given.file "$onefile"
     done
-    # echo "Hit return to [vim $files]..."; read FOO
     vim $files
     for onefile in $files; do
-        # echo "Hit return to [git.commit.all.modified.and.new.for.repo.of.given.file $onefile]..."; read FOO
         git.commit.all.modified.and.new.for.repo.of.given.file $onefile
     done
 
