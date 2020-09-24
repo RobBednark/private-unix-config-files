@@ -265,6 +265,7 @@ FilePhone="$DirDoc/phone.nums.txt"
 FilePicts="$DirTxt/sent.list.txt"
 FilePingOutput=~/tmp/ping.monitor.$$
 FilePingSymlinkActive=~/tmp/ping.monitor.active
+FileQuizMeAdd="$DirAddToQuizme/learn_add_to_quizme"
 FileQuizMeLatestTextDump="$DirPrivateQuizMeDbBackups/*.txt"
 FileQuotes="$DirRepoRobBednarkGithubIO/quotes.html"
 FileRc="$DirUnixConfigFiles/.bashrc"
@@ -738,12 +739,13 @@ alias vprogramming="cd $DirQuiz; vici db_programming"
 alias vpython="title vpython; cd $DirQuiz; vici db_python"
 alias vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
 alias vq="\
-    git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
     git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
-    vim $DirAddToQuizme/learn_add_to_quizme  \
+    vim $FileQuizMeAdd \
         $FileQuizMeLatestTextDump \
         $FileDiary; \
-    git.commit.all.modified.and.new.for.repo.of.given.file $DirAddToQuizme/learn_add_to_quizme"
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary"
 alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
 alias vresume='cdprivate-rbednark-general; vim *resume*'
