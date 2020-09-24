@@ -148,9 +148,13 @@ Bundle 'tpope/vim-surround'
 " Bundle 'idbrii/AsyncCommand'
 
 " vim-table-mode - automatically align tables as you type
+" https://github.com/dhruvasagar/vim-table-mode
 "   disabled by default;
+"   :help table-mode
+"   :%Tableize/<tab>  -- convert all tables in the entire file (%) using tab as the delimiter
 "   :TableModeEnable -- enable table mode
 "   :TableModeDisable -- disable table mode
+"   :TableModeToggle -- toggle table mode
 "   (I tried it but it didn't work for me 10/18/19; it didn't add spacing)
 "   Other features:
 "      - remove column
