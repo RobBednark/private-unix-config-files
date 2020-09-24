@@ -37957,3 +37957,127 @@ tty
 jobs
 #1600842097
 vpaste 
+#1600870717
+vvimrc 
+#1600872493
+man lynx
+#1600873937
+gs
+#1600870206
+vq
+#1600870458
+j ng
+#1600870465
+gs
+#1600870466
+gd
+#1600870469
+subl.merge 
+#1600870484
+vi
+#1600870549
+gs
+#1600870555
+git add .
+#1600870556
+gs
+#1600870560
+gca
+#1600870631
+c
+#1600870632
+gs
+#1600870646
+ping google.com
+#1600870649
+man ping
+#1600870765
+nslookup google.com
+#1600870769
+man nslookup
+#1600870782
+host
+#1600870785
+host google.com
+#1600870789
+man host
+#1600870804
+man dig
+#1600870812
+dig google.com
+#1600870878
+c
+#1600870894
+docker run alpine bash
+#1600870898
+docker -it alpine bash
+#1600870906
+docker run -it alpine bash
+#1600870916
+docker run -it alpine ash
+#1600870947
+dc up --build
+#1600871000
+dc up
+#1600873148
+dc up --build
+#1600875826
+dc ps
+#1600875838
+dc up --build
+#1600871016
+j ng
+#1600871021
+dc exec my_curl_call bash
+#1600874026
+c
+#1600874026
+gs
+#1600874029
+gca
+#1600874061
+c
+#1600874062
+gs
+#1600874759
+docker run alpine ash
+#1600874765
+docker run -it alpine ash
+#1600874775
+docker run -it alpine ping google.com
+#1600874796
+docker run -it alpine ash
+#1600875802
+dc exec my_web_server_1 bash
+#1600875811
+dc ps
+#1600875939
+dc exec learn-nginx-ssl_my_web_server_1_1 ash
+#1600875953
+dc exec learn-nginx-ssl_my_web_server_1 ash
+#1600875961
+dc exec my_web_server_1 ash
+#1600870950
+j ng
+#1600870965
+vi *yml
+#1600873915
+c
+#1600873917
+gs
+#1600873922
+gd
+#1600873945
+vim *yml
+#1600877400
+gs
+#1600892393
+vpaste 
+#1600893065
+vq
+#1600893910
+lynx --dump https://subslikescript.com/movie/Kikis_Delivery_Service-97814 > /tmp/kiki
+#1600893912
+vim /tmp/kiki
+#1600896094
+vpaste 
