@@ -38243,3 +38243,27 @@ c
 vdiary 
 #1600981566
 vq
+#1600975920
+vrc
+#1600982212
+vq
+#1600982372
+dotrc
+#1600982373
+vq
+#1600982251
+type vq
+#1600982254
+grrc diary
+#1600982258
+vrc
+#1600982910
+psql
+#1600991840
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600991859
+DB_QUIZME=restore_quizme_customer DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1600991887
+DB_QUIZME=restore_quizme_customer DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --help
+#1600991839
+cdq
