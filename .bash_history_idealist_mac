@@ -38267,3 +38267,17 @@ DB_QUIZME=restore_quizme_customer DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py she
 DB_QUIZME=restore_quizme_customer DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --help
 #1600991839
 cdq
+#1600992318
+vq
+#1600992427
+vim
+#1600992160
+cd Downloads/
+#1600992161
+lshead
+#1600992164
+vim rob-qu*
+#1600992278
+lshead
+#1600992281
+vim rob*
