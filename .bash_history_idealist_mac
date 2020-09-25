@@ -38281,3 +38281,259 @@ vim rob-qu*
 lshead
 #1600992281
 vim rob*
+#1600992308
+vvimrc 
+#1600982549
+vq
+#1600998669
+brew install pgcli
+#1600998673
+pgcli
+#1600998229
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600998230
+/dumpdb
+#1600998238
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1600998687
+pgcli
+#1600998228
+cdq
+#1600999112
+v
+#1600998508
+grrc psql
+#1600999132
+cdqn
+#1600999133
+gs
+#1600999142
+ls -ltr *pynb
+#1600999145
+date
+#1600997730
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600997763
+history|grep restore|less
+#1600997792
+history|grep -i 'restore.*make|less
+#1600997797
+history|grep -i 'restore.*make'|less
+#1600997824
+cd db_dumps/
+#1600997827
+lshead
+#1600997838
+ls *12.48*
+#1600997851
+ln -sf dump.quizme_production.2020.09.21_Mon_13.12.48.custom.all restore.custom 
+#1600997853
+cd ..
+#1600997859
+ make  FILE_DUMP_CUSTOM=db_dumps/restore.custom   loaddb-custom
+#1600997974
+pip freeze
+#1600997995
+pipenv upgrade django-extensions
+#1600998000
+pipenv update  django-extensions
+#1600998169
+cdq
+#1600998192
+DB_QUIZME=restore_quizme_custom python manage.py runserver --insecure
+#1600996978
+cdqn
+#1600996978
+vi
+#1600997729
+cdq
+#1600982404
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1600982409
+DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1600982881
+/dump
+#1600982920
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1600991940
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook 
+#1600991945
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook  --print-sql
+#1600996885
+vim quizme/settings.py 
+#1600996910
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook  --print-sql
+#1600982388
+cdqn
+#1600982400
+DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1600982402
+psh
+#1601004065
+cdqn
+#1601004069
+ls *ipn*
+#1601004072
+lshead
+#1601004074
+vim rob-queries-24-sep-2020.ipynb 
+#1601004217
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601004222
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook  --print-sql
+#1601011796
+rqo
+#1601011821
+vpaste 
+#1601011805
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601011805
+python manage.py runserver --insecure
+#1601012491
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1601004216
+cdq
+#1601011804
+rqo
+#1601047892
+git stash --help
+#1601042225
+vq
+#1601045332
+cdqn
+#1601045333
+pwd
+#1601045335
+gs
+#1601045341
+cd ..
+#1601045344
+pwd
+#1601045346
+cdqn
+#1601045347
+cd
+#1601045358
+cp -pr quizme-read-only-prod /tmp/my_repo
+#1601045397
+cd /tmp/my_repo/
+#1601045401
+rm -fr db_dumps/
+#1601045403
+c
+#1601045403
+gs
+#1601045406
+du -hs .
+#1601045408
+c
+#1601045409
+gs
+#1601045410
+c
+#1601045441
+gs
+#1601045507
+cd ..
+#1601045508
+c
+#1601045526
+mv my_repo quizme
+#1601045531
+git init my-repo
+#1601045532
+c
+#1601045546
+cd my-repo/
+#1601045555
+vim my-file
+#1601045564
+git add .
+#1601045566
+gco
+#1601045579
+vim my-file 
+#1601045615
+c
+#1601045616
+gs
+#1601045617
+gd
+#1601045697
+git add -p .
+#1601045706
+gs
+#1601045720
+git tag init
+#1601045728
+git add -p .
+#1601045748
+gs
+#1601045757
+git diff --cache
+#1601045760
+git diff --cached
+#1601045765
+git diff
+#1601045774
+git commit
+#1601045782
+gs
+#1601045787
+gd
+#1601045804
+git reset --hard init
+#1601045805
+gs
+#1601045809
+vim my-file 
+#1601045825
+cat my-file 
+#1601045836
+gs
+#1601045849
+git stash
+#1601045852
+gs
+#1601045860
+git log
+#1601045893
+gs
+#1601045905
+git stash apply
+#1601045909
+git stash pop
+#1601045910
+gs
+#1601045923
+git checkout .
+#1601045927
+git stash pop
+#1601045928
+gs
+#1601045931
+cat my-file 
+#1601045933
+gd
+#1601045965
+git stash -p
+#1601045996
+gs
+#1601045997
+gd
+#1601046024
+git stash -p
+#1601046084
+gs
+#1601046087
+git log
+#1601046094
+git stash pop
+#1601046096
+gd
+#1601046102
+git stash -p
+#1601046153
+gd
+#1601046194
+vim goal
