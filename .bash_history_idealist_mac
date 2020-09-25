@@ -38537,3 +38537,13 @@ git stash -p
 gd
 #1601046194
 vim goal
+#1601058310
+cdlearn
+#1601058315
+ls -ld *stackover*|less
+#1601058272
+cdlearn
+#1601058356
+cp -p stackoverflow_ask_template.txt learn_stackoverflow_ask_what_to_do_when_git_repo_project_is_no_longer_maintained_updated_by_author_pull_requests_not_addressed
+#1601058358
+vim learn_stackoverflow_ask_what_to_do_when_git_repo_project_is_no_longer_maintained_updated_by_author_pull_requests_not_addressed

@@ -1762,19 +1762,22 @@ fi
 export NVM_DIR="/Users/robb/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# autojump is a faster way to navigate your filesystem. It works by maintaining a database of the directories you use the most from the command line.
+# autojump is a faster way to navigate your filesystem. It works by maintaining a database of the directories you cd to the most from the command line.
+# Note: cd'ing to a directory adds it to the jump list.
+# Note: doing "j dir" or "jc dir" to a directory that isn't in the jump list does nothing.
+# Docs: man autojump
 # https://github.com/wting/autojump
 # j foo ==> jump to directory that contains "foo"
 # jc foo ==> jump to child directory of current directory
 # jo foo  ==> open Mac Finder
 # jco foo  => open Mac Finder to a child directory
 # Note: "j" == "autojump"
-# autojump -s  => show database entries and their key weights
-# autojump --purge  => remove non-existent paths from database
-# autojump --complete  => used for tab completion
-# autojump -a DIRECTORY =>  add path
-# autojump -i  => increase current directory weight
-# autojump --help
+# j -s  => show database entries and their key weights
+# j --purge  => remove non-existent paths from database
+# j --complete  => used for tab completion
+# j -a DIRECTORY =>  add path
+# j -i  => increase current directory weight
+# j -h ==> help
 [ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
 
 # cdargs allows you to set bookmarks for directories and then cd to them using
