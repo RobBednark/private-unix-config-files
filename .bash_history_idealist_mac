@@ -38781,3 +38781,9 @@ whereis v
 ls /usr/local/bin/v
 #1601081485
 vrc
+#1601081581
+v -h
+#1601081583
+v foo
+#1601081520
+vq

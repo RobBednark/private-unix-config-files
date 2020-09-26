@@ -1789,6 +1789,12 @@ export NVM_DIR="/Users/robb/.nvm"
 ### List of commands to grep for in this file, but that don't warrant an alias.
 ################################################################################
 # eva (a better "ls")  https://the.exa.website/ 
+#   brew install eva
+# pgcli (a better psql)
+# v (like "autojump", for but vim with files, using vim filehistory; 
+#   v -  ==> edit the most recent file edited
+#   v --help
+#   "brew install v"
 ################################################################################
 ### Shells (bash vs zsh vs fish)
 ################################################################################
