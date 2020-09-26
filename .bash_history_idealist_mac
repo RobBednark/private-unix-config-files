@@ -38769,3 +38769,15 @@ cd ..
 gs
 #1601067499
 cdq
+#1601081420
+brew list v
+#1601081424
+brew install v
+#1601081472
+type v
+#1601081476
+whereis v
+#1601081482
+ls /usr/local/bin/v
+#1601081485
+vrc
