@@ -38787,3 +38787,55 @@ v -h
 v foo
 #1601081520
 vq
+#1601081160
+j learn
+#1601081170
+j bin/learn
+#1601081176
+lshead
+#1601081183
+vim learn_stackoverflow_ask_what_to_do_when_git_repo_project_is_no_longer_maintained_updated_by_author_pull_requests_not_addressed
+#1601081411
+type 
+#1601081413
+type v
+#1601081516
+vrc
+#1601081743
+v --help
+#1601081745
+v -l
+#1601081765
+v -28
+#1601081769
+v --help
+#1601081773
+v 28
+#1601081778
+v 25
+#1601081781
+v - 25
+#1601081782
+v -25
+#1601081789
+v -
+#1601093417
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601093417
+python manage.py runserver --insecure
+#1601094514
+vi
+#1601093377
+v -l
+#1601093394
+vpaste 
+#1601094150
+vq
+#1601094556
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601094556
+python manage.py runserver --insecure
+#1601093416
+rqo
+#1601095551
+vq
