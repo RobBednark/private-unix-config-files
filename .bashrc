@@ -644,6 +644,7 @@ alias screensaver="gnome-screensaver-command --activate"
 alias script_date="script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`"
 alias script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`'
 alias seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/selenium-2.0b1/selenium-server-standalone-2.0b1.jar"
+alias sm=subl.merge
 alias ssh="ssh -A"
 alias ssh.rob-aws="ssh -i $PemRobKey ubuntu@$MachineRobAWS"
 # ssh-agent  ==> start the ssh-agent daemon
