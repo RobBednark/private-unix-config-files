@@ -38547,3 +38547,225 @@ cdlearn
 cp -p stackoverflow_ask_template.txt learn_stackoverflow_ask_what_to_do_when_git_repo_project_is_no_longer_maintained_updated_by_author_pull_requests_not_addressed
 #1601058358
 vim learn_stackoverflow_ask_what_to_do_when_git_repo_project_is_no_longer_maintained_updated_by_author_pull_requests_not_addressed
+#1601058065
+vrc
+#1601058144
+man j
+#1601058147
+man autojump
+#1601066599
+cd /tmp
+#1601066602
+j -s
+#1601066608
+mkdir /tmp/dir3
+#1601066610
+cd /tmp/dir3
+#1601066612
+j -s
+#1601066620
+j -h
+#1601066627
+j --purge
+#1601066631
+j -s
+#1601067390
+vim --version
+#1601068678
+cdlearn
+#1601068683
+ls *sort*tuple*py
+#1601068686
+vim *sort*tuple*py
+#1601069948
+python
+#1601070012
+python3
+#1601057847
+cddjango
+#1601057849
+lshead
+#1601057898
+cp -pr template_django_3_1 learn_django_sum_case_when_condition_related_objects
+#1601057903
+lshead
+#1601057903
+gs
+#1601057911
+cd ..
+#1601057925
+cd -
+#1601057930
+lshead
+#1601057936
+j learn_django_sum_case_when_condition_related_objects
+#1601057938
+gs
+#1601057950
+git.rev-parse.show.toplevel.repo.dir 
+#1601058011
+lshead
+#1601058018
+jc learn_django_sum_case_when_condition_related_objects/
+#1601058022
+type jc
+#1601058048
+cd learn_django_sum_case_when_condition_related_objects/
+#1601058050
+cd ..
+#1601058053
+j -s
+#1601058057
+j sum
+#1601066698
+c
+#1601066701
+gs
+#1601066710
+vi
+#1601067150
+vim README 
+#1601067305
+cd ../template_django_3_1/
+#1601067306
+gs
+#1601067309
+vi
+#1601067376
+gs
+#1601067378
+gd
+#1601067380
+gca
+#1601068033
+cdqn
+#1601068040
+gs
+#1601068048
+vim -R questions/really-working.ipynb 
+#1601068056
+gs
+#1601068066
+cd questions/
+#1601068067
+ls -ltr
+#1601068074
+ls .ipynb_checkpoints/
+#1601068079
+cd .ipynb_checkpoints/
+#1601068081
+vim -R *
+#1601068149
+cp -R really-working-checkpoint.ipynb ../READONLY-really-working-checkpoint.ipynb
+#1601068150
+cd ..
+#1601068159
+diff READONLY-really-working-checkpoint.ipynb really-working.ipynb 
+#1601068162
+diff READONLY-really-working-checkpoint.ipynb really-working.ipynb |less
+#1601068177
+cp READONLY-really-working-checkpoint.ipynb really-working.ipynb 
+#1601067776
+vq
+#1601071996
+cdqn
+#1601071998
+subl.merge .
+#1601071570
+cdqn
+#1601071571
+vi 
+#1601073169
+
+#1601071814
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601071814
+python manage.py runserver --insecure
+#1601071812
+rqo
+#1601067501
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601067507
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook  --print-sql
+#1601057867
+cdqn
+#1601057869
+lshead
+#1601057871
+vim rob-queries-24-sep-2020.ipynb 
+#1601066764
+lsh
+#1601066798
+lshead 
+#1601066803
+ls *py
+#1601066808
+ls rob*
+#1601066809
+ls *rob*
+#1601066815
+ls -ltr
+#1601066818
+vim Un*
+#1601066872
+ls -l U*
+#1601066874
+rm -f U*
+#1601066876
+c
+#1601066876
+gs
+#1601066881
+cat LICENSE 
+#1601066895
+cd questions/
+#1601066898
+vi *titl*
+#1601066930
+gs
+#1601066939
+cd ..
+#1601066939
+gs
+#1601066943
+cd .ipynb_checkpoints/
+#1601066945
+ls -altr
+#1601066949
+vim *
+#1601066967
+rm -f U*
+#1601066969
+cd ..
+#1601066969
+gs
+#1601066993
+cd questions/
+#1601066996
+vim Untitled.ipynb 
+#1601067057
+cd .ipynb_checkpoints/
+#1601067059
+vim Untitled-checkpoint.ipynb 
+#1601067065
+rm Untitled-checkpoint.ipynb 
+#1601067068
+cd ..
+#1601067070
+rmdir .ipynb_checkpoints/
+#1601067073
+cd ..
+#1601067074
+gs
+#1601067086
+ls .ipynb_checkpoints/
+#1601067090
+cd .ipynb_checkpoints/
+#1601067091
+vim rob-queries-24-sep-2020-checkpoint.ipynb 
+#1601067131
+cd ..
+#1601067469
+gs
+#1601067499
+cdq
