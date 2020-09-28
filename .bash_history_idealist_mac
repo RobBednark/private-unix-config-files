@@ -38839,3 +38839,151 @@ python manage.py runserver --insecure
 rqo
 #1601095551
 vq
+#1601095393
+cdqn
+#1601095394
+gs
+#1601095439
+cat .gitignore 
+#1601095460
+ls ign*
+#1601095468
+c
+#1601095480
+vim TEMP-commits
+#1601095273
+vq
+#1601095484
+cdqn
+#1601095485
+gs
+#1601095486
+gd
+#1601095642
+grrc merge
+#1601095644
+type sm
+#1601095646
+sm
+#1601095651
+vrc
+#1601095694
+sm 
+#1601096009
+git grep -i exception
+#1601096014
+git grep --help
+#1601096024
+git grep -i --untracked exception
+#1601096034
+git grep --help
+#1601096073
+vi *ipy*
+#1601096090
+grrc grep
+#1601096100
+grrc 'fast.*grep'
+#1601096119
+ripgrep
+#1601096164
+grep -ri exception .
+#1601096172
+grep -ril exception .
+#1601096185
+man grep
+#1601096210
+grep -ril --exclude-dir=db_dumps exception .
+#1601096230
+vim $(grep -ril --exclude-dir=db_dumps exception .)
+#1601096244
+vim *ipynb
+#1601096294
+vim $(grep -ril --exclude-dir=db_dumps 'not supported between' .)
+#1601096304
+vim $(grep -ri --exclude-dir=db_dumps 'not supported between' .)
+#1601096313
+grep -ri --exclude-dir=db_dumps 'not supported between' .
+#1601128725
+vq
+#1601129799
+docker run -it alpine ash
+#1601146306
+vim
+#1601152486
+vdiary 
+#1601152223
+vq
+#1601146936
+vdiary 
+#1601168072
+cdquizme-
+#1601168073
+cdquiz
+#1601168080
+git.rev-parse.show.toplevel.repo.dir 
+#1601168084
+gs
+#1601168086
+git log
+#1601168105
+git log -p
+#1601168060
+vq
+#1601182962
+vpaste 
+#1601182958
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601182958
+python manage.py runserver --insecure
+#1601182956
+rqo
+#1601221642
+type vfam
+#1601221646
+vfamily 
+#1601221655
+vq
+#1601222625
+vim /tmp/foo.vim
+#1601236703
+vpaste 
+#1601236116
+vim /tmp/paste
+#1601221543
+vim
+#1601239607
+cddropbox 
+#1601239609
+lshead
+#1601239627
+ls *xls
+#1601239629
+gs
+#1601239636
+git.rev-parse.show.toplevel.repo.dir 
+#1601239643
+git init .
+#1601239644
+gs
+#1601239648
+ls *xls
+#1601239667
+git add partners.xls 
+#1601239680
+git add bednark\ family\ tree\ email\ addresses.xls 
+#1601239685
+gs
+#1601239690
+gco
+#1601239783
+ls -ltr
+#1601239785
+ls -l*xls
+#1601239787
+ls -l *xls
+#1601237315
+vpaste 
+#1601219681
+vq
+#1601241297
+vpaste 
