@@ -38987,3 +38987,387 @@ vpaste
 vq
 #1601241297
 vpaste 
+#1601269029
+brew search markdown
+#1601269050
+git show markdown
+#1601269059
+git info markdown
+#1601269068
+brew show markdown
+#1601269072
+brew info markdown
+#1601269266
+vvimrc 
+#1601269359
+brew info grip
+#1601269382
+type grip
+#1601269383
+grip
+#1601269451
+brew install grip
+#1601269566
+grip
+#1601269573
+grip -h
+#1601269580
+vrc
+#1601301249
+vq
+#1601268933
+vq
+#1601267606
+cdqn
+#1601267617
+gs
+#1601267649
+gd quizme/
+#1601267696
+pwd
+#1601267697
+jobs
+#1601267700
+gs
+#1601267702
+gf
+#1601267775
+ssh-agent
+#1601267787
+ssh-add ./.ssh/rob-key-2020-09-08
+#1601267793
+ssh-add ~/.ssh/rob-key-2020-09-08
+#1601267821
+gf
+#1601267823
+gpus
+#1601267848
+gs
+#1601267855
+cat .gitignore 
+#1601267878
+ls tmp*
+#1601267895
+ls -ld ig*
+#1601267909
+mkdir ignore-ipynb
+#1601267923
+ls -ld *.ipynb
+#1601267960
+git.ls.filenames.new.untracked 
+#1601267966
+git.ls.filenames.ignored 
+#1601267984
+ls -altr
+#1601267986
+gs
+#1601268021
+mv *.ipynb* ignore-ipynb/
+#1601268023
+gs
+#1601268044
+mv .ipynb_checkpoints ignore-ipynb/
+#1601268044
+gs
+#1601268098
+mv questions/*ipynb ignore-ipynb/
+#1601268099
+gs
+#1601268110
+ls -la ignore-ipynb/
+#1601268152
+mkdir ignore-ipynb/questions
+#1601268160
+mv questions/.ipynb_checkpoints/ ignore-ipynb/questions/
+#1601268162
+gs
+#1601268164
+c
+#1601268164
+gs
+#1601268193
+sm 
+#1601268214
+gs
+#1601268230
+mv TEMP-commits ignore-commits 
+#1601268250
+c
+#1601268251
+gs
+#1601268502
+git checkout -b DELETE-TEMP-Sun-27-Sep-2020-commit-before-adding-10-commits
+#1601268503
+gs
+#1601268510
+git add LICENSE 
+#1601268513
+cat LICENSE 
+#1601268585
+gs
+#1601268588
+gca
+#1601268627
+gs
+#1601268639
+git checkout HEAD~
+#1601268640
+gs
+#1601268643
+git log
+#1601268649
+gch-
+#1601268654
+type gch
+#1601268660
+gch-
+#1601268671
+gs
+#1601268690
+git reset HEAD~
+#1601268691
+gs
+#1601268698
+git log
+#1601268710
+git show
+#1601268729
+gch rbednark-2020-07-15-add-django-debug-toolbar
+#1601268731
+gs
+#1601268742
+git add LICENSE 
+#1601268743
+gs
+#1601268749
+gco
+#1601268902
+gs
+#1601269661
+vim TODO.md 
+#1601267621
+cdqn
+#1601267627
+vim TEMP-commits 
+#1601268246
+diff TEMP-commits ignore-commits 
+#1601268256
+vim ignore-commits 
+#1601301823
+vq
+#1601303187
+python3
+#1601321404
+vq
+#1601322534
+vpaste 
+#1601389821
+vq
+#1601392106
+vim
+#1601392074
+vim
+#1601390678
+vq
+#1601391145
+grrc ssh
+#1601391161
+ssh-agent
+#1601391166
+ssh-add -L
+#1601391182
+ssh root@96.126.101.189
+#1601392400
+ssh root@96.126.101.189
+#1601437708
+vpaste 
+#1601443610
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601443610
+python manage.py runserver --insecure
+#1601443609
+rqo
+#1601561652
+vq
+#1601573748
+vpaste 
+#1601598056
+vq
+#1601620683
+vpaste 
+#1601622161
+cdqn
+#1601622162
+cd db_dumps/
+#1601622163
+lshead
+#1601622170
+ls *00.02.39*
+#1601622178
+cp -p *00.02.39* symlink-db_dumps
+#1601622182
+cd private-quiz-me-db-backups/
+#1601622188
+./update.sh CRM that doesn't require manual entry of leads, contacts, opportunities, stage, etc. It's ridiculous -- and inherently error prone -- to have sales reps spending 10-15% of their time inputting data into Salesforce, and not just selling.
+#1601622188
+Travel and Expense Reports that are entirely automated and just require a click to approve or disapprove. Zero expense report and receipt reconciliation.
+#1601622188
+Real-time ERP/Financials and Billing that automatically integrates with the revenue side of your app.
+#1601622188
+An "Enterprise-Grade Bulletproof Ops Stack" that automatically results in zero downtime, with full multiple data-center redundancy, zero DBA requirements. I.e., the end of Tech Ops.
+#1601622193
+pwd
+#1601622194
+c
+#1601622206
+./update.sh *00.02.39*
+#1601622210
+gs
+#1601622214
+gd
+#1601622217
+c
+#1601622217
+gs
+#1601622220
+gd *txt
+#1601622255
+gs
+#1601622256
+gca
+#1601622261
+gpus
+#1601620667
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601620667
+python manage.py runserver --insecure
+#1601622158
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1601620665
+rqo
+#1601649782
+vq
+#1601660995
+cal 2 2020
+#1601671840
+cdqn
+#1601671840
+gs
+#1601671845
+gd */view*
+#1601672347
+vq
+#1601672371
+cdquiz
+#1601672375
+lshead
+#1601672398
+grrc add.to.q
+#1601672409
+grrc DirAddTo
+#1601672414
+cd $DirAddToQuizme/
+#1601672416
+gs
+#1601672417
+lshead
+#1601672431
+git log -p learn_add_to_quizme
+#1601672522
+gs
+#1601672524
+lshead
+#1601672526
+git show
+#1601672547
+git tag TMP-DELETE-before-reset
+#1601672550
+gs
+#1601672554
+git show
+#1601672558
+c
+#1601672558
+gs
+#1601672573
+git log
+#1601672597
+git reset d9a2e75
+#1601672597
+gs
+#1601672598
+gd
+#1601672610
+git add -p
+#1601672657
+gs
+#1601672660
+git reset
+#1601672660
+gs
+#1601672665
+git add -p
+#1601672677
+gs
+#1601672685
+git reset --hard
+#1601672686
+git log
+#1601672689
+git show
+#1601672699
+git tag -h
+#1601672702
+git tag -l
+#1601672712
+git reset -p TMP-DELETE-before-reset
+#1601672812
+gs
+#1601672814
+gd
+#1601672835
+gs
+#1601672841
+git reset --hard
+#1601672844
+git show
+#1601672853
+c
+#1601672854
+gs
+#1601672878
+git tag -l
+#1601672889
+git reset -p TMP-DELETE-before-reset
+#1601672912
+gs
+#1601672940
+git reset --help
+#1601673004
+type git.checkout.cp.files.from.other.branch 
+#1601673009
+grrc git.checkout.cp.files.from.other.branch
+#1601673043
+git checkout -h
+#1601673064
+git tag -l
+#1601673073
+git checkout -p TMP-DELETE-before-reset
+#1601673272
+gs
+#1601673273
+gd
+#1601673280
+git checkout --reject -p TMP-DELETE-before-reset
+#1601674481
+gs
+#1601674483
+gd
+#1601674489
+gdc
+#1601674510
+gc
+#1601674511
+gco
+#1601674549
+gs
