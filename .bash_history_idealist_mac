@@ -39423,3 +39423,53 @@ ps gauxww|grep grip
 grrc markd
 #1601683153
 vvim
+#1601681331
+cdqn
+#1601681335
+brew install ripgrep
+#1601681383
+eva -h
+#1601681385
+eva
+#1601681408
+brew info eva
+#1601681478
+brew install eva
+#1601681506
+eva -h
+#1601681510
+eva --help
+#1601681520
+type eva
+#1601681526
+brew info eva
+#1601681543
+brew uninstall eva
+#1601681558
+exa -h
+#1601681561
+exa --help
+#1601681576
+exa ---T
+#1601681577
+exa -T
+#1601681587
+exa ignore*
+#1601681591
+exa -lt ignore*
+#1601681595
+exa -l ignore*
+#1601681608
+vim ignore-commits 
+#1601683772
+grip -h
+#1601683804
+cdqn
+#1601683807
+grip -h
+#1601683810
+grip
+#1601683951
+grip TODO.md 
+#1601696642
+grip README.md 
