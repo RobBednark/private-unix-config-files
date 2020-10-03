@@ -39385,3 +39385,41 @@ grrc find
 vq
 #1601682047
 vpaste 
+#1601680638
+vqtodo 
+#1601681007
+git ls-files --ignored
+#1601681016
+grrc ignore
+#1601681053
+git ls-files --ignored
+#1601681066
+git.ls-files.ignored 
+#1601681086
+git ls-files -lR|less
+#1601681095
+git ls-files --help
+#1601681211
+grrc grep
+#1601681214
+grrc rip
+#1601681230
+type rg
+#1601681280
+vrc
+#1601683476
+brew list
+#1601683491
+history|grep brew.install|tail -30
+#1601682532
+vq
+#1601683715
+ps gauxww|grep grip
+#1601683723
+kill 88031 35269
+#1601683726
+ps gauxww|grep grip
+#1601683074
+grrc markd
+#1601683153
+vvim
