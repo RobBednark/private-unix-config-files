@@ -683,7 +683,7 @@ alias vhw="title Huawei; vici $FileToDo $FileHuawei $FileJ $FileDoc"
 alias vgoserver="title teamroom.design.proposal.eliminating.GoServer.html; cd $DirDoc; explorer.exe teamroom.design.proposal.eliminating.GoServer.html; vici teamroom.design.proposal.eliminating.GoServer.html"
 alias vgtest="title gtest.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/teamroom.brownbag.gtest.html` &); vici teamroom.brownbag.gtest.html"
 
-alias vig='cdquizme-personal; vici ignore*'
+alias vig='cdquizme-personal; vici ignored-LEFT-OFF'
 alias vhowtorun="vici $DirDoc/teamroom.how.to.run.html"
 alias vninja="title ninja.html; cd $DirDoc; (firefox file:///`type cygpath > /dev/null 2>&1 && cygpath -m $DirDoc/ninja.html` &); vici ninja.html"
 alias vi=vim
