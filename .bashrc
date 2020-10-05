@@ -86,6 +86,8 @@ else
     # If this shell doesn't support setopt (like bash):
     # histappend => If the histappend shell option is enabled, the lines are appended to the history file, otherwise the history file is overwritten.
     shopt -s histappend
+    # expand_aliases ==> expand aliases in non-interactive shells; need to use aliases/functions in vim ":!my_command" commands.
+    shopt -s expand_aliases
 fi
 
 # Show all lines of history, not just the last 15 lines.
