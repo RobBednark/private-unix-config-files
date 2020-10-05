@@ -40245,3 +40245,75 @@ vi
 vrc
 #1601922993
 vvimrc 
+#1601923259
+cqn
+#1601923260
+cdqn
+#1601923260
+vi
+#1601923325
+shopt
+#1601923331
+vim
+#1601923504
+vvimrc 
+#1601923586
+vrc
+#1601923045
+cdqn
+#1601923046
+vi
+#1601923080
+vim
+#1601923096
+vrc
+#1601923110
+gd ~/.vimrc
+#1601923162
+-    # expand_aliases ==> expand aliases in non-interactive shells; need to use aliases/functions in vim ":!my_command" commands.
+#1601923162
+-    shopt -s expand_aliases
+#1601923169
+shopt -s expand_aliases
+#1601923172
+vi
+#1601923116
+gd .vimrc 
+#1601923121
+git show 
+#1601923123
+gs
+#1601923132
+cd .unix.config.files
+#1601923134
+gd
+#1601923136
+git show
+#1601923141
+git log -p
+#1601923597
+cdqn
+#1601923598
+gd
+#1601930648
+cdqn
+#1601930648
+vi
+#1601932136
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601932136
+python manage.py runserver --insecure
+#1601932135
+rqo
+#1601930635
+cdqn
+#1601930636
+gd
+#1601935519
+sm
+#1601935536
+cdqn
+#1601935537
+gd
+#1601935554
+git.vimdiff 
