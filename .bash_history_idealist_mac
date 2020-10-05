@@ -39473,3 +39473,697 @@ grip
 grip TODO.md 
 #1601696642
 grip README.md 
+#1601683860
+vrc
+#1601680576
+cdqn
+#1601680578
+gs
+#1601680581
+lshead
+#1601680986
+gs
+#1601680987
+git log
+#1601680992
+gb
+#1601682623
+subl
+#1601682631
+sm
+#1601682651
+gs
+#1601682657
+git add -p TODO.md 
+#1601682667
+gdc
+#1601682672
+gco
+#1601682919
+gs
+#1601682921
+git show
+#1601682927
+gs
+#1601683559
+vim README.md 
+#1601683933
+gd TODO.md 
+#1601684124
+vim TODO.md 
+#1601696206
+gs
+#1601696209
+vim TODO.md 
+#1601696562
+gs
+#1601696563
+git log
+#1601696569
+gpus
+#1601696577
+gs
+#1601696629
+vim README.md 
+#1601705615
+vpaste 
+#1601706219
+vq
+#1601706897
+cdqn
+#1601706900
+cd db_dumps/private-quiz-me-db-backups/
+#1601706904
+cd ..
+#1601706907
+ls *23.34*
+#1601706910
+cd -
+#1601706917
+./update.sh '*23.34*'
+#1601706919
+gs
+#1601706920
+gd
+#1601706923
+c
+#1601706924
+gs
+#1601706926
+gd *txt
+#1601706934
+gs
+#1601706938
+gd *all
+#1601706946
+gs
+#1601706953
+type gcam
+#1601706957
+gca -m'updated'
+#1601706959
+gpus
+#1601706966
+ls -lh
+#1601706969
+du -hs .
+#1601705617
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601705617
+python manage.py runserver --insecure
+#1601706885
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1601705613
+rqo
+#1601735273
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601735271
+cdq
+#1601735277
+type vq
+#1601735288
+cd
+#1601735294
+grrc add.to.q
+#1601735298
+cd $DirAddToQuizme/
+#1601735301
+gs
+#1601735306
+c
+#1601735307
+gs
+#1601735321
+git log
+#1601735324
+sm
+#1601735387
+pwd
+#1601735388
+jobs
+#1601735389
+c
+#1601735392
+gs
+#1601735393
+gb
+#1601735397
+git tags -l
+#1601735400
+git tag -l
+#1601735420
+git checkout TMP-DELETE-before-reset
+#1601735454
+pwd
+#1601735455
+jobs
+#1601735460
+gch-
+#1601735463
+git show
+#1601735466
+vq
+#1601735249
+vq
+#1601735375
+c
+#1601751455
+vdiary 
+#1601759831
+vim /tmp/paste
+#1601759949
+cd /tmp
+#1601759973
+cut -d$'\t' < $(head paste)
+#1601759988
+head paste | cut -d$'\t'
+#1601759993
+head paste | cut -d $'\t'
+#1601760003
+head paste | cut -f 1 -d $'\t'
+#1601760007
+head paste | cut -f 2 -d $'\t'
+#1601760012
+head paste | cut -f 3 -d $'\t'
+#1601760015
+head paste | cut -f 4 -d $'\t'
+#1601760018
+head paste | cut -f 5 -d $'\t'
+#1601760023
+head paste | cut -f 4-5 -d $'\t'
+#1601760027
+ cut -f 4-5 -d $'\t'
+#1601760037
+cat paste | cut -f 4-5 -d $'\t'
+#1601760047
+cat paste | cut -f 4-5 -d $'\t' > tags
+#1601760048
+vim tags
+#1601759674
+vpaste 
+#1601760939
+cd /tmp
+#1601760941
+vim tags 
+#1601760959
+jobs
+#1601760984
+vim tags 
+#1601760809
+vq
+#1601763200
+cdqn
+#1601763203
+cd static/bootstrap/themes/
+#1601763206
+cd cerulean/
+#1601763208
+cd css
+#1601763213
+vim *
+#1601763251
+cd ..
+#1601763254
+vim less/*
+#1601763371
+cd css/
+#1601763470
+diff bootstrap.css ~/Downloads/bootstrap-4.5.2-dist/css/bootstrap.css
+#1601763476
+diff bootstrap.css ~/Downloads/bootstrap-4.5.2-dist/css/bootstrap.css|less
+#1601763430
+cd ~/Downloads/
+#1601763432
+lshead
+#1601763442
+ls -ld boot*
+#1601763444
+cd *dist
+#1601763447
+cd css/
+#1601759639
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601759639
+python manage.py runserver --insecure
+#1601759637
+rqo
+#1601765860
+pipenv help|less
+#1601765869
+pipenv -h|less
+#1601765915
+pipenv update --help|less
+#1601765953
+brew info pipenv
+#1601765961
+brew search pipenv
+#1601765970
+brew upgrade pipenv
+#1601765992
+gs
+#1601767319
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601767319
+python manage.py runserver --insecure
+#1601767508
+vpaste 
+#1601759456
+cdqn
+#1601759457
+gs
+#1601759463
+sm
+#1601759556
+git add -p */views.py
+#1601759567
+gs
+#1601761325
+vi
+#1601761407
+git add -p questions/views.py 
+#1601761694
+vi
+#1601763555
+gs
+#1601763594
+git checkout -b 2020-10-03-use-django-bootstrap-themes
+#1601763595
+gs
+#1601763609
+git add -p
+#1601763655
+gs
+#1601763685
+git reset
+#1601763685
+gs
+#1601764300
+gdc
+#1601764325
+git add -p quizme/settings.py 
+#1601764332
+gs
+#1601764379
+c
+#1601764379
+gs
+#1601764381
+gch-
+#1601764387
+gs
+#1601764403
+git stash
+#1601764404
+gs
+#1601764406
+gch-
+#1601764409
+git stash apply
+#1601764415
+gs
+#1601764477
+git add -p
+#1601764526
+pipenv install --dev django-extensions
+#1601764642
+vim Pipfile.lock 
+#1601764805
+c
+#1601764806
+gs
+#1601764875
+gdc
+#1601764883
+pipenv --rm
+#1601764892
+pipenv install --dev
+#1601764936
+gs
+#1601764948
+pipenv install --dev django-extensions
+#1601764985
+gs
+#1601765107
+pipenv install --help
+#1601765125
+gs
+#1601765153
+pipenv --rm
+#1601765240
+pipenv --help|less
+#1601765258
+pwd
+#1601765259
+jobs
+#1601765264
+gs
+#1601765267
+c
+#1601765267
+gs
+#1601765269
+pwd
+#1601765269
+jobs
+#1601765271
+gs
+#1601765272
+gd
+#1601765274
+c
+#1601765274
+gs
+#1601765280
+pipenv --rm
+#1601765281
+gs
+#1601765300
+pipenv install --dev --ignore-pipfile django-extensions
+#1601765504
+pipenv help
+#1601765509
+pipenv --help|less
+#1601765524
+pipenv install --help|less
+#1601765553
+gs
+#1601765618
+pipenv lock --help
+#1601765635
+pipenv lock
+#1601765660
+gs
+#1601765686
+pipenv --rm
+#1601765693
+gs
+#1601765718
+pipenv update --help
+#1601765788
+pipenv update --outdated
+#1601765813
+gs
+#1601765818
+pipenv update --outdated
+#1601765846
+gs
+#1601765851
+pipenv update --dry-run
+#1601765875
+gs
+#1601766038
+vi Pipfile
+#1601766878
+gs
+#1601766901
+find ~/.cache/
+#1601766932
+gs
+#1601766944
+pipenv -h|less
+#1601766972
+gs
+#1601766980
+pipenv update --dry-run
+#1601767002
+gs
+#1601767005
+pipenv update
+#1601767095
+gs
+#1601767140
+git add -p *lock
+#1601767278
+gs
+#1601767288
+pipenv --rm
+#1601767291
+gs
+#1601767301
+cat quizme/settings.py 
+#1601767304
+gd quizme/settings.py
+#1601767429
+vi
+#1601768174
+gs
+#1601768245
+pipfile install --dev jupyterlab
+#1601768251
+pipenv install --dev jupyterlab
+#1601768420
+vim *ck
+#1601768444
+gs
+#1601768446
+vim Pipfile
+#1601768689
+gs
+#1601768696
+pipenv install --dev pudb
+#1601768827
+vim Pipfile
+#1601769254
+gs
+#1601769256
+sm
+#1601767419
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601767419
+python manage.py runserver --insecure
+#1601767723
+pipenv --rm
+#1601767729
+pipenv install --dev
+#1601767766
+gs
+#1601767776
+pipenv install --dev django-extensions
+#1601767964
+./manage.py -h
+#1601767975
+gs
+#1601767980
+vi
+#1601767996
+./manage.py -h
+#1601767316
+rqo
+#1601767337
+cdqn
+#1601767342
+pipenv install --dev
+#1601767416
+gs
+#1601767418
+rqo
+#1601759491
+cdqn
+#1601759494
+vim ignore*s
+#1601765023
+vq
+#1601769360
+cdqn
+#1601769360
+sm
+#1601779295
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601779296
+./manage.py -h
+#1601779306
+./manage.py runserver_plus --help
+#1601779346
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py runserver_plus
+#1601779355
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py runserver
+#1601779464
+vi
+#1601779293
+cdq
+#1601779266
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601779477
+vi
+#1601779558
+pwd
+#1601779264
+cdq
+#1601784095
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601784097
+DB_Q
+#1601784102
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py runserver
+#1601825011
+j ngin
+#1601825015
+vim *yml
+#1601825250
+cd ..
+#1601825279
+cd  -
+#1601825281
+gs
+#1601825356
+git checkout -b get-ephemeral-port-for-nginx
+#1601825359
+gs
+#1601825361
+vi *yml
+#1601825384
+dc --help
+#1601825397
+dc port
+#1601825470
+dc up --help|less
+#1601825489
+docker --help|less
+#1601825502
+docker run --help|less
+#1601825705
+vim *yml
+#1601820058
+vq
+#1601784475
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601784480
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py runserver
+#1601784474
+cdq
+#1601779129
+cdqn
+#1601779131
+gs
+#1601779139
+gb
+#1601779150
+gd DELETE-TEMP-Sun-27-Sep-2020-commit-before-adding-10-commits
+#1601779173
+type gd
+#1601779179
+sm
+#1601779187
+gs
+#1601779192
+vi
+#1601819693
+c
+#1601819694
+gs
+#1601819695
+gd
+#1601819714
+vim .gitignore 
+#1601819748
+gs
+#1601819755
+vim .gitignore 
+#1601819761
+gs
+#1601819768
+gd .gitignore 
+#1601819777
+git add .gitignore 
+#1601819786
+vi .gitignore 
+#1601819807
+gs
+#1601819812
+git add .gitignore 
+#1601819813
+gs
+#1601819814
+gdc
+#1601819818
+gco
+#1601819850
+vim .gitignore 
+#1601819965
+sm
+#1601825885
+gs
+#1601784258
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601784273
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1601850454
+brew search epub
+#1601850488
+brew info epub-to-pdf
+#1601850549
+brew install calibre
+#1601846612
+vq
+#1601875462
+cd Calibre\ Library/
+#1601875466
+cd Sara\ Bednark/
+#1601875471
+ls -al
+#1601875473
+cd Ashville1\ \(2\)/
+#1601875494
+open .
+#1601875679
+c
+#1601875939
+cdqn
+#1601875945
+vi
+#1601846207
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601846213
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1601876567
+vpaste 
+#1601876564
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601876564
+python manage.py runserver --insecure
+#1601846106
+cdqn
+#1601846106
+gs
+#1601846108
+gd
+#1601846117
+git add .gitignore 
+#1601846118
+gs
+#1601846119
+git log
+#1601846122
+gco
+#1601846128
+sm
+#1601846206
+cdq
+#1601876562
+rqo
+#1601911869
+vq
+#1601913103
+j ng
+#1601913110
+vim *yml
+#1601913120
+dc ps
+#1601913150
+vim conf.d/default.conf 
+#1601913177
+dc ps
+#1601913034
+j ng
+#1601913037
+gd
+#1601913041
+git checkout .
+#1601913041
+gs
+#1601913094
+dc up
+#1601916396
+vmac
+#1601916368
+vq
