@@ -22,7 +22,7 @@ set secure exrc
 "set nu   " number -- line numbers
 "set shell=/bin/bash
 "set shell=/bin/bash\ -i   " Someone recommended this to get my .bashrc, but it wasn't necessary, and introduced it's own problems.  [see vvim]
-set shell=/bin/bash\ --login   " Cause bash to read .bashrc so I have my aliases and functions available.
+" set shell=/bin/bash\ --login   " Cause bash to read .bashrc so I have my aliases and functions available.
 "set shell=/usr/local/bin/zsh
 "set shell=~/.zsh.from.vim.with.zshrc.zsh\ -i
 "set shellcmdflag=-i  " need -i (interactive) option to zsh so that it reads in the .zshrc file and sets my PATH to use the right Python
