@@ -22,11 +22,10 @@ set secure exrc
 "set nu   " number -- line numbers
 "set shell=/bin/bash
 "set shell=/bin/bash\ -i   " Someone recommended this to get my .bashrc, but it wasn't necessary, and introduced it's own problems.  [see vvim]
-" set shell=/bin/bash\ --login   " Cause bash to read .bashrc so I have my aliases and functions available.
+" set shell=/bin/bash\ --login   " Cause bash to read .bashrc so I have my aliases and functions available.  This worked briefly for me, but now it doesn't anymore.  10.5.20
 "set shell=/usr/local/bin/zsh
 "set shell=~/.zsh.from.vim.with.zshrc.zsh\ -i
-"set shellcmdflag=-i  " need -i (interactive) option to zsh so that it reads in the .zshrc file and sets my PATH to use the right Python
-"set shellcmdflag=-i  " need -i (interactive) option to bash so that it reads in the .bashrc file and sets my PATH to use the right Python
+"set shellcmdflag=-i  " need -i (interactive) option to bash so that it reads in the .bashrc file and sets my PATH to use the right Python; however, not that this creates a new shell, with vim in the background, so you need to 'fg' to go back into vim
 set textwidth=0
 set fileformat=unix
 set modelines=5  " Look for /* vim: ...: */ settings in the first/last this many lines of the file; if 0, modelines is disabled
