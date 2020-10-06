@@ -77,6 +77,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " ofu is the "omnicomplete function".  Set it to 
 set ofu=syntaxcomplete#Complete
 
+" SearchMultiLine()
 " Search for the ... arguments separated with whitespace (if no '!'),
 " or with non-word characters (if '!' added to command).
 " e.g., 
@@ -93,6 +94,35 @@ function! SearchMultiLine(bang, ...)
     endif
 endfunction
 " command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args
+
+" ListHelpSubjects
+" https://vi.stackexchange.com/questions/27439/how-to-list-all-help-subjects-and-help-files/27447#27447
+function! ListHelpSubjects()
+    new
+    for f in globpath(&runtimepath, '**/doc/tags', 0, 1)
+        call append('$', readfile(f))
+    endfor
+endfunction
+
+" LoadHelpFiles (called by ListHelpFiles())
+" https://vi.stackexchange.com/questions/27439/how-to-list-all-help-subjects-and-help-files/27447#27447
+function! LoadHelpFileNames(filename)
+    let docpath = substitute(a:filename, '\\', '/', 'g')
+    let docpath = substitute(docpath, '/tags$', '/', '')
+
+    let tags = readfile(a:filename)
+
+    return uniq(sort(map(tags, { idx, val -> substitute(val, '.*\t\(.*\)\t.*', docpath . '\1', '') })))
+endfunction
+
+" ListHelpFiles
+" https://vi.stackexchange.com/questions/27439/how-to-list-all-help-subjects-and-help-files/27447#27447
+function! ListHelpFileNames()
+    new
+    for f in globpath(&runtimepath, '**/doc/tags', 0, 1)
+        call append('$', LoadHelpFileNames(f))
+    endfor
+endfunction
 
 syntax on
 filetype plugin indent on
