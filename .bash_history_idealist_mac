@@ -40317,3 +40317,235 @@ cdqn
 gd
 #1601935554
 git.vimdiff 
+#1601936611
+vq
+#1601936677
+vrc
+#1601936698
+vq
+#1601936210
+cdqn
+#1601936212
+vim 
+#1601937148
+gs
+#1601937230
+vi
+#1601937281
+gs
+#1601937281
+gd
+#1601937297
+git add -p
+#1601937327
+gdc
+#1601937375
+gpus
+#1601937387
+gdc
+#1601937390
+vi
+#1601937665
+gpus
+#1601937689
+gs
+#1601937694
+vi
+#1601938849
+cd .vim/view/
+#1601938852
+ls -ld *view*
+#1601938859
+rm *view*
+#1601938863
+rm -f *view*
+#1601938865
+ls -ld *view*
+#1601940732
+cdqn
+#1601940735
+git grep html
+#1601940747
+git grep flashcard.html
+#1601940752
+git grep question.html
+#1601940772
+git grep answer.html
+#1601940785
+git ls-files '*html'
+#1601940794
+git rm questions/templates/answer.html questions/templates/question.html
+#1601940796
+gs
+#1601940916
+vpaste 
+#1601940713
+cdqn
+#1601940714
+vi
+#1601947470
+vq
+#1601938766
+cdqn
+#1601938767
+vi
+#1601937471
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601937471
+python manage.py runserver --insecure
+#1601937470
+rqo
+#1601937028
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1601937031
+./manage.py -h
+#1601937041
+./manage.py compile_pyc --help
+#1601937056
+./manage.py clean_pyc --help
+#1601937061
+./manage.py clean_pyc
+#1601937062
+gs
+#1601937069
+./manage.py clean_pyc .
+#1601937077
+gs
+#1601937083
+./manage.py -h
+#1601937113
+./manage.py compile_pyc -h
+#1601937120
+./manage.py compile_pyc
+#1601937126
+./manage.py compile_pyc -p .
+#1601937140
+find . -name '*pyc' -ls
+#1601938583
+c
+#1601938584
+gs
+#1601938585
+gd
+#1601938587
+git add -p
+#1601938596
+gdc
+#1601935665
+cdqn
+#1601935668
+gs
+#1601935671
+gpus
+#1601935755
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08; ssh-add -L
+#1601935763
+gpus
+#1601935767
+git add -p
+#1601935847
+gs
+#1601935852
+gd
+#1601935863
+gs
+#1601935879
+gp questions/views.py tmp/
+#1601935881
+cp questions/views.py tmp/
+#1601935883
+gs
+#1601935885
+git reset
+#1601935887
+gs
+#1601935887
+gd
+#1601935913
+git add -p
+#1601935998
+gs
+#1601935999
+gdc
+#1601936009
+gd
+#1601936041
+git add -p
+#1601936315
+gdc
+#1601936347
+gd
+#1601936373
+gs
+#1601936376
+gco
+#1601936440
+gs
+#1601936448
+git stash -l
+#1601936474
+git stash --help
+#1601936478
+git stash list
+#1601936486
+git stash list -p
+#1601936498
+c
+#1601936498
+gs
+#1601936503
+git stash
+#1601936538
+gs
+#1601936545
+git commit --amend
+#1601936552
+git show
+#1601936579
+gs
+#1601936580
+git log
+#1601936586
+gs
+#1601936586
+gd
+#1601936590
+git add .
+#1601936591
+gdc
+#1601936597
+git commit --amend
+#1601936601
+git show
+#1601936840
+dotrc
+#1601936842
+gd
+#1601936844
+gdc
+#1601936850
+git show -U0
+#1601936867
+gs
+#1601936869
+git stash apply
+#1601936873
+vi
+#1601936947
+gs
+#1601936955
+git add .
+#1601936955
+gs
+#1601936957
+gd
+#1601936958
+gdc
+#1601936962
+git reset
+#1601936971
+gs
+#1601937022
+./manage.py -h
+#1601937027
+psh
