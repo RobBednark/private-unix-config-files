@@ -40957,3 +40957,19 @@ vim --noplugin -u NONE
 vvimrc 
 #1602112275
 vim
+#1602114157
+vq
+#1602114185
+cdlearn
+#1602114194
+ls -lt *stackove*'|head 
+#1602114197
+ls -lt '*stackove*'|head 
+#1602114214
+ls *stackover*
+#1602114221
+ls -lt '*stackove*'
+#1602114233
+ls -lt *stackove*|head 
+#1602114238
+vim learn_stackoverflow_ask_vim_ctrlp_mapping_disappears.txt
