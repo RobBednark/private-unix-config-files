@@ -40579,3 +40579,25 @@ vvimrc
 vq
 #1602017209
 vim
+#1602028331
+vq
+#1602028496
+grrc quiz
+#1602028502
+type vq
+#1602028510
+grrc learn.add
+#1602028517
+grrc quizmeadd
+#1602028531
+cd $DirAddToQuizme/
+#1602028533
+gs
+#1602028535
+git show
+#1602028485
+vq
+#1602028632
+vim
+#1602028848
+vim
