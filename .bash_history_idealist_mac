@@ -40637,3 +40637,15 @@ cdqn
 vi
 #1602049444
 vpaste 
+#1602049428
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602049428
+python manage.py runserver --insecure
+#1602050177
+vi
+#1602050314
+gs
+#1602050315
+gd
+#1602049427
+rqo
