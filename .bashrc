@@ -1797,7 +1797,7 @@ export NVM_DIR="/Users/robb/.nvm"
 # fd (a better "find" replacement) (fd -h)
 # grip 9.27.20 "brew install grip" -- GitHub Readme Instant Preview -- Render local readme (markdown) files before sending off to GitHub.  The styles and rendering come directly from GitHub, so you'll know exactly how it will appear. Changes you make to the Readme will be instantly reflected in the browser without requiring a page refresh.  :!grip %
 # pgcli (a better psql)
-# ripgrep (a faster grep) (brew install ripgrep)
+# ripgrep (command: rg) (a faster grep) (brew install ripgrep)
 # v (like "autojump", for but vim with files, using vim filehistory; 
 #   v -  ==> edit the most recent file edited
 #   v --help
