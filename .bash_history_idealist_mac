@@ -40693,3 +40693,93 @@ cd /tmp/myenv/
 psh
 #1602091900
 vq
+#1602087899
+vrc
+#1602092026
+dotrc
+#1602092028
+rg
+#1602087718
+cdqn
+#1602087722
+git grep fieldWrapper
+#1602087828
+git.grep.untracked fieldWrapper
+#1602087833
+git.grep.untracked
+#1602087836
+type git.grep.untracked
+#1602087841
+git grep --help
+#1602090308
+vdiary 
+#1602091837
+ . /Users/rbednark/.virtualenvs/myenv-zO755U2y/bin/activate
+#1602091849
+j virtu
+#1602091854
+ls *
+#1602091874
+brew info ripgrep
+#1602091898
+brew install ripgrep
+#1602091937
+ripgrep
+#1602091960
+rg -h
+#1602091962
+rg
+#1602091964
+type rg
+#1602091970
+type tag
+#1602091975
+vrc
+#1602091440
+pip search django-form
+#1602091445
+pip3 search django-form
+#1602091451
+pip3 search django-formtag
+#1602091463
+pip3 search formtag
+#1602091469
+pip3 search django|less
+#1602091486
+pip3 search --help
+#1602091627
+pip3 search django-form-tag
+#1602091631
+pip3 search django-form-tag|less
+#1602091657
+pip3 search -|less
+#1602091665
+pip3 search python|less
+#1602091694
+pip3 search django-form-tagless
+#1602091706
+cd /tmp/myenv
+#1602091711
+mkdir /tmp/myenv
+#1602091713
+cd /tmp/myenv
+#1602091724
+pipenv install django-form-tags
+#1602091766
+cd /Users/rbednark/.virtualenvs/myenv-zO755U2y
+#1602091770
+ls *
+#1602091788
+pip freeze
+#1602091793
+pip3 freeze
+#1602091797
+psh
+#1602091827
+cd -
+#1602091831
+cat Pipfile
+#1602091836
+psh
+#1602087275
+vq
