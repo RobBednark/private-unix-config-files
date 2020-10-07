@@ -124,6 +124,22 @@ function! ListHelpFileNames()
     endfor
 endfunction
 
+" Set the title of the iTerm2 terminal to the currently-open file
+function! SetTerminalTitle()
+    let titleString = expand('%:t')
+    if len(titleString) > 0
+        let &titlestring = expand('%:t')
+        " this is the format iTerm2 expects when setting the window title
+        let args = "\033];".&titlestring."\007"
+        let cmd = 'silent !echo -e "'.args.'"'
+        execute cmd
+        redraw!
+    endif
+endfunction
+
+" Set the iTerm2 terminal title to the filename being opened
+autocmd BufEnter * call SetTerminalTitle()
+
 syntax on
 filetype plugin indent on
 
