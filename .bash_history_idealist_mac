@@ -40935,3 +40935,21 @@ cd /tmp/myenv/
 psh
 #1602106257
 vq
+#1602112813
+vq
+#1602112838
+pgrep 96518
+#1602112843
+ps guaxww|grep 96518
+#1602112847
+vq
+#1602113505
+vim
+#1602113574
+man vim
+#1602113586
+vim --noplugin
+#1602113611
+man vim
+#1602113677
+vim --noplugin -u NONE
