@@ -40671,3 +40671,25 @@ vq
 vig
 #1602086957
 man vi
+#1602089853
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602089853
+python manage.py runserver --insecure
+#1602089852
+rqo
+#1602088219
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602088219
+python manage.py runserver --insecure
+#1602088218
+rqo
+#1602091804
+ . /Users/rbednark/.virtualenvs/myenv-zO755U2y-1A18T9Hm/bin/activate
+#1602091807
+pip3 freeze
+#1602091821
+cd /tmp/myenv/
+#1602091823
+psh
+#1602091900
+vq
