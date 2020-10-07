@@ -40953,3 +40953,7 @@ vim --noplugin
 man vim
 #1602113677
 vim --noplugin -u NONE
+#1602113011
+vvimrc 
+#1602112275
+vim
