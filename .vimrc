@@ -77,6 +77,9 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " ofu is the "omnicomplete function".  Set it to 
 set ofu=syntaxcomplete#Complete
 
+" ================================================================================
+" Functions
+" ================================================================================
 " SearchMultiLine()
 " Search for the ... arguments separated with whitespace (if no '!'),
 " or with non-word characters (if '!' added to command).
@@ -95,7 +98,9 @@ function! SearchMultiLine(bang, ...)
 endfunction
 " command! -bang -nargs=* -complete=tag S call SearchMultiLine(<bang>0, <f-args
 
-" ListHelpSubjects
+" ListHelpSubjects()
+" To run it:
+"   :call ListHelpSubjects()
 " https://vi.stackexchange.com/questions/27439/how-to-list-all-help-subjects-and-help-files/27447#27447
 function! ListHelpSubjects()
     new
@@ -115,7 +120,9 @@ function! LoadHelpFileNames(filename)
     return uniq(sort(map(tags, { idx, val -> substitute(val, '.*\t\(.*\)\t.*', docpath . '\1', '') })))
 endfunction
 
-" ListHelpFiles
+" ListHelpFileNames()
+" To run it:
+"   :call ListHelpFiles()
 " https://vi.stackexchange.com/questions/27439/how-to-list-all-help-subjects-and-help-files/27447#27447
 function! ListHelpFileNames()
     new
