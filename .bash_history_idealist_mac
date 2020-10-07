@@ -40783,3 +40783,155 @@ cat Pipfile
 psh
 #1602087275
 vq
+#1602092126
+vrc
+#1602104401
+ . /Users/rbednark/.virtualenvs/myenv-zO755U2y/bin/activate
+#1602104401
+--virtenv
+#1602104416
+psh
+#1602104420
+pipenv --rm
+#1602104450
+psh
+#1602109931
+vq
+#1602108069
+vjo
+#1602108125
+man bash
+#1602086947
+cdqn
+#1602086949
+vi
+#1602087941
+dotrc
+#1602087947
+git.grep.ignored fieldWrapper
+#1602087959
+pwd
+#1602087960
+jobs
+#1602088237
+c
+#1602088239
+vi
+#1602092073
+ . /Users/rbednark/.virtualenvs/myenv-zO755U2y/bin/activate
+#1602092074
+pip3 freeze
+#1602092084
+pipenv
+#1602092100
+pipenv --venv
+#1602092105
+cd $(pipenv --venv)
+#1602092110
+type rg
+#1602092146
+rg form.tag
+#1602092150
+rg a
+#1602092154
+rg -h
+#1602092162
+rg form.tag .
+#1602092164
+rg a .
+#1602092188
+man rg
+#1602092204
+type rg
+#1602092229
+rg a
+#1602092237
+pwd
+#1602092238
+ls -ld
+#1602092245
+rg s 
+#1602092247
+rg s .
+#1602092250
+cat Pipfile 
+#1602092253
+rg py .
+#1602092256
+ls -ld
+#1602092313
+cd ..
+#1602092314
+rg a
+#1602092324
+ls -ld myenv-zO755U2y*
+#1602092328
+rg s myenv-zO755U2y*
+#1602092334
+rg py myenv-zO755U2y*
+#1602092346
+rg . .
+#1602092353
+rg . myenv-zO755U2y*
+#1602092358
+ls -ld my*
+#1602104427
+ls -ld mye*
+#1602104437
+rm -fr myenv-zO755U2y-1A18T9Hm/
+#1602104442
+ls -ld mye*
+#1602104469
+cd myenv-zO755U2y/
+#1602104472
+rg .
+#1602104474
+rg . . 
+#1602104480
+grep -r .
+#1602104483
+grep -r . .
+#1602104889
+ripgrep -h|less
+#1602104925
+brew update ripgrep
+#1602104937
+brew upgrade ripgrep
+#1602105088
+rg -h|less
+#1602105708
+pwd
+#1602105709
+cd ..
+#1602105712
+cd mye*
+#1602105721
+grep -ril fieldwrapper
+#1602105724
+grep -ril fieldwrapper .
+#1602105758
+grep --help|less
+#1602105761
+man grep
+#1602105775
+grep -rilI fieldwrapper .
+#1602105781
+vim $(grep -rilI fieldwrapper .)
+#1602105792
+grep -rilI fieldwrapper .
+#1602105798
+man grep
+#1602105906
+grep -rilI fieldwrapper .
+#1602105913
+grep -rilI fieldwrapper --exclude test .
+#1602105921
+grep -rilI fieldwrapper --exclude '*test*' .
+#1602105926
+vim $(grep -rilI fieldwrapper --exclude '*test*' .)
+#1602092067
+cd /tmp/myenv/
+#1602092071
+psh
+#1602106257
+vq
