@@ -41207,3 +41207,81 @@ cd .unix.config.files
 sm
 #1602131205
 vrc
+#1602170073
+j ng
+#1602170186
+dc ps
+#1602170223
+dc exec learn-nginx-ssl_my_nginx_server_1 bash
+#1602170253
+dc my_nginx_server
+#1602170257
+dc exec my_nginx_server bash
+#1602170261
+dc exec my_nginx_server ash
+#1602170338
+dc help
+#1602170343
+ifconfig
+#1602170346
+ifconfig|less
+#1602172117
+dc ps
+#1602172233
+dc exec my_nginx_server ash
+#1602173050
+j ng
+#1602173066
+vim *yml
+#1602167738
+vq
+#1602173259
+j ng
+#1602173270
+dc exec my_web_server_1 hostname
+#1602173275
+dc exec my_web_server_2 hostname
+#1602166180
+glances 
+#1602166372
+brew upgrade glances
+#1602166457
+glances
+#1602170007
+j ng
+#1602170009
+gs
+#1602170026
+dc up
+#1602172140
+dc up &
+#1602172149
+dc ps
+#1602172177
+dc up --scale my_web_server_2=4
+#1602172184
+jobs
+#1602172185
+dc ps
+#1602172678
+dc up --help
+#1602172682
+dc up --help|less
+#1602172711
+docker run --help|less
+#1602172946
+gs
+#1602172948
+vim *yml
+#1602172969
+jobs
+#1602172971
+kill %1 %2
+#1602172983
+jobs
+#1602172986
+kill %1 %2
+#1602173009
+jobs
+#1602173014
+dc up
