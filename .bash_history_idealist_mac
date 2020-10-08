@@ -40973,3 +40973,173 @@ ls -lt '*stackove*'
 ls -lt *stackove*|head 
 #1602114238
 vim learn_stackoverflow_ask_vim_ctrlp_mapping_disappears.txt
+#1602114445
+vvimrc 
+#1602104463
+ . /Users/rbednark/.virtualenvs/myenv-zO755U2y/bin/activate
+#1602105093
+type rg
+#1602105098
+rg . .
+#1602105393
+pip freeze
+#1602105396
+pip3 freez
+#1602105398
+pip3 freeze
+#1602105410
+pipenv install django-form-tags
+#1602105688
+pipenv install django-formtags
+#1602114829
+cat Pipfile
+#1602114906
+cd ..
+#1602115929
+pip3 --version
+#1602115941
+pip3 search a|wc -l
+#1602115947
+pip3 search a|less
+#1602115959
+pip3 search python|wc -l
+#1602115989
+pip3 search python|less
+#1602115023
+ . /Users/rbednark/.virtualenvs/django-jt3DuAEi/bin/activate
+#1602115027
+pipenv --virtenv
+#1602115033
+pipenv -h
+#1602115045
+pipenv --venv
+#1602115050
+cd $(pipenv --venv)
+#1602115064
+git grep -rilI fieldwrapper
+#1602115067
+git grep -rilI fieldwrapper .
+#1602115072
+git grep -ril fieldwrapper .
+#1602115079
+git grep -ril . .
+#1602115085
+grep -ril fieldwrapper .
+#1602115099
+cd -
+#1602115104
+pip3 freeze
+#1602115223
+cd -
+#1602115227
+ripgrep . .
+#1602115230
+rg . . 
+#1602115233
+ls -ld
+#1602115239
+ls -h
+#1602115242
+ls --help
+#1602115244
+man ls
+#1602115250
+ls -@l
+#1602115253
+man ls
+#1602115273
+ls -el
+#1602115277
+man ls
+#1602115308
+type ls
+#1602115310
+whereis ls
+#1602115318
+brew search ls
+#1602115346
+brew info gnutls
+#1602115407
+brew info coreutils
+#1602115428
+type gls
+#1602115431
+gls --help|less
+#1602115503
+c
+#1602115504
+pwd
+#1602115514
+ls -l
+#1602115517
+ls -al
+#1602115559
+rg . .
+#1602115571
+grep -r . . | wc -l
+#1602115639
+rg . /tmp|wc -l
+#1602115662
+pwd
+#1602115917
+type pip3
+#1602115920
+pip3 --version
+#1602092211
+cd /tmp
+#1602092218
+echo foo > bar
+#1602092220
+rg foo
+#1602092339
+rg .
+#1602104392
+cd myenv/
+#1602104400
+psh --virtenv
+#1602104460
+psh
+#1602114910
+cd ..
+#1602114912
+mkdir django
+#1602114914
+cd django/
+#1602114918
+pipenv install django
+#1602115022
+psh
+#1602105106
+cd .virtualenvs/myenv-zO755U2y/
+#1602105108
+rg . .
+#1602105192
+ls -ld
+#1602105195
+type ls
+#1602105378
+grep -ri fieldwrapper .
+#1602105438
+vim $(grep -ril fieldwrapper .)
+#1602126775
+vdiary 
+#1602126231
+vpaste 
+#1602117814
+vq
+#1602116845
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602116845
+python manage.py runserver --insecure
+#1602116843
+rqo
+#1602116817
+cdqn
+#1602116818
+vi
+#1602116963
+sm
+#1602117786
+jobs
+#1602117805
+subl questions/templates/flashcard.html 
