@@ -1800,6 +1800,7 @@ export NVM_DIR="/Users/robb/.nvm"
 # htop - a better top (system monitoring)
 # pgcli (a better psql)
 # ripgrep (command: rg) (a faster grep) (brew install ripgrep)
+# tidy -- an html linter (tidy myfile.html)
 # v (like "autojump", for but vim with files, using vim filehistory; 
 #   v -  ==> edit the most recent file edited
 #   v --help
