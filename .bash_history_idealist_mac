@@ -41143,3 +41143,9 @@ sm
 jobs
 #1602117805
 subl questions/templates/flashcard.html 
+#1602131290
+vrc
+#1602131316
+brew install htop
+#1602131353
+htop
