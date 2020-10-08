@@ -348,14 +348,16 @@ filetype plugin indent on    " required
 " :ALEDisable -  disable for the current file
 " ale settings from Matt McLaughlin's .vimrc:  https://github.com/mattmcla/vim-config/blob/ec5e8f99112631849b31a3b8f83e0a3b11767cdb/.vimrc
 let g:ale_linters = {
+\   'html': ['tidy'],
 \   'javascript': ['eslint'],
 \ }
+let g:ale_html_tidy_executable = 'tidy'
 let g:ale_javascript_eslint_executable = 'eslint'
 " use_global = 0 is required so that it uses the local eslint instead of a globally-installed eslint
 let g:ale_javascript_eslint_use_global = 0
 " ale_fixers -- for :ALEFix command to fix eslint/prettier errors/warnings
 " To fix warnings: :ALEFix
-let g:ale_fixers = ['eslint', 'prettier']
+let g:ale_fixers = ['tidy', 'eslint', 'prettier']
 
 filetype plugin indent on     " required!
 " nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
