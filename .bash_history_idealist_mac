@@ -41285,3 +41285,9 @@ kill %1 %2
 jobs
 #1602173014
 dc up
+#1602191360
+brew install tidy-html5
+#1602191407
+type tidy
+#1602191412
+man tidy

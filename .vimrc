@@ -309,7 +309,9 @@ Bundle 'jbnicolai/vim-AnsiEsc'
 " vim-jsx -- React jsx syntax and highlighting
 Bundle 'mxw/vim-jsx'
 
-" ale: async code linting/prettifying (recommended by Bradley Bossard)
+" ale: Async Line Engine - code linting/prettifying
+" Need to install/configure individual linters.  I've configured:
+"  Tidy -- html linter  (brew install tidy-html5)
 Bundle 'w0rp/ale'
 
 " apiblueprint => syntax highlighting for API Blueprint files
