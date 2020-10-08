@@ -312,6 +312,7 @@ Bundle 'mxw/vim-jsx'
 " ale: Async Line Engine - code linting/prettifying
 " Need to install/configure individual linters.  I've configured:
 "  Tidy -- html linter  (brew install tidy-html5)
+" :AleInfo  -- show configuration info
 Bundle 'w0rp/ale'
 
 " apiblueprint => syntax highlighting for API Blueprint files
