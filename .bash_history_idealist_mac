@@ -41149,3 +41149,61 @@ vrc
 brew install htop
 #1602131353
 htop
+#1602128292
+j ng
+#1602128294
+dc ps
+#1602128374
+dc exec learn-nginx-ssl_my_web_server_1_1 bash
+#1602128380
+dc exec web_server_1_1 bash
+#1602128387
+dc exec web_server_1 bash
+#1602128393
+dc exec my_web_server_1_1 bash
+#1602128399
+cat *yml
+#1602128406
+dc exec my_web_server_1 bash
+#1602128413
+dc exec my_web_server_1 ash
+#1602128157
+j ng
+#1602128162
+dc --help|less
+#1602128247
+dc ps
+#1602128264
+dc up --scale=2
+#1602128284
+dc up --scale my_curl_call=2
+#1602128343
+dc up --scale my_web_server_2=2
+#1602128447
+jobs
+#1602128448
+dc ps
+#1602128620
+docker api
+#1602128691
+ping learn-nginx-ssl_my_web_server_2_1
+#1602127092
+vq
+#1602127167
+cdqn
+#1602128128
+j ng
+#1602128131
+gs
+#1602128132
+gd
+#1602128135
+dc up
+#1602163836
+type vrc
+#1602163838
+cd .unix.config.files
+#1602163839
+sm
+#1602131205
+vrc
