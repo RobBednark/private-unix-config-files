@@ -313,7 +313,8 @@ Bundle 'mxw/vim-jsx'
 " Need to install/configure individual linters.  I've configured:
 "  Tidy -- html linter  (brew install tidy-html5)
 " :AleInfo  -- show configuration info
-Bundle 'w0rp/ale'
+" Bundle 'w0rp/ale'  (this is equivalent and points to the following:)
+Bundle 'dense-analysis/ale'
 
 " apiblueprint => syntax highlighting for API Blueprint files
 Bundle 'kylef/apiblueprint.vim'
