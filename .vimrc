@@ -336,7 +336,8 @@ Bundle 'will133/vim-dirdiff'
 
 " YouCompleteMe -- used for code completions; used with emoji-snippets
 " https://github.com/ycm-core/YouCompleteMe
-Bundle 'ycm-core/YouCompleteMe'
+" Commented-out because there is more configuration I need to do, and I'm not sure if I really want it.
+" Bundle 'ycm-core/YouCompleteMe'
 
 " emoji picker / completions
 Bundle 'FuDesign2008/emoji-snippets.vim'
