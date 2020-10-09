@@ -41329,3 +41329,355 @@ ls *html
 vim flashcard.html 
 #1602204022
 vvimrc 
+#1602204897
+vim
+#1602201948
+vig
+#1602197289
+cdqn
+#1602197294
+git grep content.body
+#1602197464
+git grep content.head
+#1602197518
+git.log.grep.diffs content_body
+#1602202543
+git stash --help
+#1602201640
+vq
+#1602202709
+git stash --help
+#1602211777
+cd Downloads/
+#1602211778
+lshead
+#1602211785
+tidy -e quizme.html 
+#1602211818
+vim quizme.html 
+#1602211857
+tidy -e quizme.html 
+#1602211863
+vim quizme.html 
+#1602211884
+tidy -e quizme.html 
+#1602195672
+cd .vim/
+#1602195674
+cd bundle/
+#1602195682
+cd ale/
+#1602195684
+git remote -v
+#1602195687
+git show
+#1602195860
+viv -v
+#1602195862
+vim -v
+#1602195865
+vim --version
+#1602195921
+tidy --version
+#1602197738
+cd
+#1602197741
+cd Downloads/
+#1602197746
+vim quizme.html 
+#1602191481
+cdqn
+#1602191482
+vi
+#1602192358
+vim /tmp/flashcard.html 
+#1602192649
+type tidy
+#1602192652
+cd /tmp
+#1602192655
+tidy flashcard.html 
+#1602192657
+tidy flashcard.html |less
+#1602192669
+tidy flashcard.html > tidy.html
+#1602194744
+vim flashcard.html 
+#1602196791
+vim --version|head
+#1602196892
+vim flashcard.html 
+#1602196951
+vim sample.html
+#1602197139
+tidy < sample.html 
+#1602197210
+man tidy
+#1602197226
+tidy -e flashcard.html 
+#1602197717
+cd
+#1602197719
+cd Downloads/
+#1602197720
+lshead
+#1602197726
+tidy -e quizme.html 
+#1602197188
+cdqn
+#1602197188
+vi
+#1602201891
+sm
+#1602202051
+gs
+#1602202054
+git add -p
+#1602202135
+gs
+#1602202136
+gdc
+#1602202140
+gs
+#1602202154
+git stash list
+#1602202158
+git stash show
+#1602202169
+git stash list -p
+#1602202174
+c
+#1602202174
+gs
+#1602202178
+git stash
+#1602202179
+gdc
+#1602202181
+gs
+#1602202184
+git stash apply
+#1602202186
+gd
+#1602202188
+gdc
+#1602202634
+gs
+#1602202637
+git add -p 
+#1602202688
+gdc
+#1602202691
+gs
+#1602202743
+git stash push --keep-index questions/templates/flashcard.html
+#1602202744
+gs
+#1602202746
+gd
+#1602202748
+gdc
+#1602202804
+vi
+#1602203476
+gs
+#1602203495
+gco
+#1602203562
+gs
+#1602203565
+git stash apply
+#1602203568
+gs
+#1602203571
+vi
+#1602203608
+gs
+#1602203611
+git reset
+#1602203614
+gs
+#1602203641
+c
+#1602203642
+gs
+#1602203775
+git stash push questions/templates/flashcard.html
+#1602203776
+gs
+#1602204740
+vi
+#1602204842
+gs
+#1602204861
+git add -p questions/templates/flashcard.html
+#1602204986
+gs
+#1602204990
+gdc
+#1602204994
+gs
+#1602205434
+vi
+#1602205702
+git add -p questions/templates/flashcard.html
+#1602205815
+vi
+#1602197388
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602197388
+python manage.py runserver --insecure
+#1602197386
+rqo
+#1602210440
+cdqn
+#1602210442
+git log
+#1602210465
+gs
+#1602210468
+gdc
+#1602210472
+git log
+#1602210485
+type gcf
+#1602210488
+gcf ca61901
+#1602210490
+gr ca61901~
+#1602210493
+gs
+#1602210499
+gd
+#1602211341
+gs
+#1602255736
+j ng
+#1602256315
+docker run python:alpine
+#1602256322
+docker run alpine bash
+#1602256325
+docker run alpine ash
+#1602256339
+history|grep docker.run
+#1602256403
+docker ps
+#1602256427
+docker container run alpine ash
+#1602256436
+docker ps
+#1602256441
+docker container run alpine ls -l
+#1602256448
+docker container run alpine /bin/ash
+#1602256453
+docker container -it run alpine /bin/ash
+#1602256458
+docker container run -it alpine /bin/ash
+#1602255696
+j ng
+#1602255697
+gs
+#1602255701
+dc
+#1602255722
+gd
+#1602255728
+git checkout .
+#1602255730
+gs
+#1602255747
+vim *yml
+#1602255775
+docker run -h
+#1602255780
+docker run --help
+#1602255794
+docker run --help|less
+#1602255807
+docker build --help|less
+#1602255817
+docker image
+#1602255820
+docker image ls
+#1602255830
+docker run 7975e00ea923
+#1602255835
+docker ps
+#1602255841
+docker run 7975e00ea923 ash
+#1602255892
+docker run -p 80:80 7975e00ea923
+#1602255906
+docker ps
+#1602255909
+docker ps -a
+#1602255917
+docker ps 
+#1602255953
+vim Dockerfile-web-server 
+#1602255982
+docker run -p 80:80 7975e00ea923
+#1602255985
+dc ps
+#1602255987
+docker ps
+#1602255993
+vi Dockerfile-web-server 
+#1602256030
+docker run --help|less
+#1602256046
+cat Dockerfile-web-server 
+#1602256065
+vim *yml
+#1602256074
+cat Dockerfile-web-server 
+#1602256077
+vim Dockerfile-web-server
+#1602256086
+docker run -p 80:80 7975e00ea923
+#1602256090
+docker ps
+#1602256105
+vim Dockerfile-web-server
+#1602256141
+docker run -p 80:80 7975e00ea923
+#1602256144
+docker ps
+#1602256162
+cat Dockerfile-web-server 
+#1602256189
+vim Dockerfile-web-server
+#1602256199
+docker build --help|less
+#1602256221
+docker build -f Dockerfile-web-server 
+#1602256236
+docker build -f Dockerfile-web-server .
+#1602256250
+docker run -p 80:80 ffca77699789
+#1602256668
+docker run -p 8000:80 ffca77699789
+#1602256711
+docker run -p 80:8000 ffca77699789
+#1602256562
+ifconfig|grep 10.
+#1602256568
+ifconfig|less
+#1602256625
+curl -i 192.168.1.9
+#1602256648
+curl -i localhost
+#1602256842
+docker exec -it ffca77699789 ash
+#1602256851
+docker ps
+#1602256863
+docker exec -it 90a38b83107a ash
+#1602257152
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602257152
+python manage.py runserver --insecure
+#1602257150
+rqo
