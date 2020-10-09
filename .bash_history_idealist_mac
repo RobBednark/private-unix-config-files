@@ -41321,3 +41321,9 @@ vq
 1
 #1602202390
 tidy -h
+#1602204138
+cd /tmp
+#1602204140
+ls *html
+#1602204142
+vim flashcard.html 
