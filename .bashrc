@@ -352,6 +352,7 @@ alias docker.rm.prune.everything="(set -x; time docker system prune --all --volu
 alias docker.rm.prune.everything.2="(set -x; date; docker.rm.prune.everything; time docker-compose down -v; time ./bin/clean-docker.sh; time ./bin/reset.sh)"
 alias docker-exec="echo 'docker exec -it {container-name} bash'"
 alias docker-run="docker run -it --rm"  # e.g., docker-run alpine /bin/sh  (pull the "alpine" image from docker hub and run it)
+alias docker-run-alpine="docker run -it --rm alpine sh"  # e.g., docker-run alpine /bin/sh  (pull the "alpine" image from docker hub and run it)
 alias docker-service-names="docker stats --format "{{.Name}}" --no-stream |sort "
 alias docker.stats="docker stats --no-trunc --no-stream "
 alias docker-stop-all='docker stop $(docker ps -a -q)'
