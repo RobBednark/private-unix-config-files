@@ -41327,3 +41327,5 @@ cd /tmp
 ls *html
 #1602204142
 vim flashcard.html 
+#1602204022
+vvimrc 
