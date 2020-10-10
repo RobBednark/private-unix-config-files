@@ -41681,3 +41681,111 @@ docker exec -it 90a38b83107a ash
 python manage.py runserver --insecure
 #1602257150
 rqo
+#1602252912
+vpaste 
+#1602254405
+vq
+#1602260617
+vq
+#1602261716
+vrc
+#1602261777
+docker-run-alpine 
+#1602261550
+vim
+#1602262195
+vq
+#1602262132
+cd /tmp
+#1602262134
+vim flashcard.html 
+#1602262533
+cdqn
+#1602262534
+vi
+#1602260563
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602260563
+python manage.py runserver --insecure
+#1602257278
+cdqn
+#1602257283
+gs
+#1602257286
+gd
+#1602257299
+git stash list -p|less
+#1602257303
+git stash list -p
+#1602257323
+c
+#1602257326
+gs
+#1602257333
+git stash apply -h|less
+#1602257342
+gd
+#1602257356
+cp views.py ~/tmp
+#1602257367
+cp questions/views.py ~/tmp
+#1602257371
+git stash apply
+#1602257375
+gs
+#1602257378
+gd
+#1602257394
+git add questions/templates/flashcard.html 
+#1602257399
+sm
+#1602257428
+git stash apply
+#1602257433
+vi
+#1602260550
+gs
+#1602260562
+rqo
+#1602263661
+vq
+#1602271058
+vpaste 
+#1602340526
+vq
+#1602359993
+vdiary 
+#1602359993
+vdiary 
+#1602371874
+
+#1602371584
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602371588
+python --version
+#1602371595
+python -m pudb /tmp/example.py 
+#1602371705
+c
+#1602371707
+cd /tmp
+#1602371710
+c
+#1602371718
+export PS1='$ '
+#1602371718
+c
+#1602371760
+title foo
+#1602371761
+c
+#1602371800
+title pudb -- increase command-line window size
+#1602371803
+c
+#1602371957
+python -m pudb example.py
+#1602371562
+vim /tmp/example.py
+#1602371582
+cdq
