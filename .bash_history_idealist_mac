@@ -41789,3 +41789,31 @@ python -m pudb example.py
 vim /tmp/example.py
 #1602371582
 cdq
+#1602372832
+type l
+#1602372835
+l ls
+#1602372840
+type ls
+#1602372868
+dotrc
+#1602372870
+alias f
+#1602372875
+type f
+#1602372878
+type l
+#1602372881
+l ls
+#1602372918
+dotrc
+#1602372920
+type l
+#1602372921
+l ls
+#1602372940
+dotrc
+#1602372940
+type l
+#1602372945
+l ls

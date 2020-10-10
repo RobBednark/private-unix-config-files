@@ -1042,7 +1042,8 @@ function pless() {
     $@ 2>&1 | less
 }
 function l() {
-    $($*) | less
+    echo "[$*]"
+    ($*) | less
 }
 function latest() {
     _file=$(ls -1t $@ | head -1)
