@@ -546,7 +546,6 @@ alias idle='env python3 /usr/lib/python3.2/idlelib/idle.py &'
 alias ipaddr='ipconfig getifaddr en0'
 alias ipaddr-2='ifconfig | grep inet'
 
-alias l=ls
 alias lh=lshead
 alias ll="ls -ltr"
 alias lsless="ls -lt|less"
@@ -1041,6 +1040,9 @@ function grrc() {  # GRep .bashRC (previously grc)
 function pless() {
     # pipe stdout/stderr to less
     $@ 2>&1 | less
+}
+function l() {
+    $($*) | less
 }
 function latest() {
     _file=$(ls -1t $@ | head -1)
