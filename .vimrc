@@ -1,3 +1,6 @@
+" ================================================================================
+" #Start General settings
+" ================================================================================
 " set nu   " line numbers
 " set cursorline  " underline the line that the cursor is on
 set ic   " ignorecase
@@ -32,6 +35,9 @@ set modelines=5  " Look for /* vim: ...: */ settings in the first/last this many
 set modeline  " look for /* vim: */ modeline settings at the beginning of a file
 filetype plugin indent on
 
+" ================================================================================
+" #Start autocmd's
+" ================================================================================
 " The following two autocmd's will save folds when exiting, and load them again when re-opening the file.
 " http://vim.wikia.com/wiki/Make_views_automatic
 " Note: use * so it matches all files (not *.*) per https://stackoverflow.com/questions/2142402/code-folding-is-not-saved-in-my-vimrc  5/24/20
@@ -45,6 +51,9 @@ autocmd BufWinEnter * silent! loadview
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 
+" ================================================================================
+" #Start mappings
+" ================================================================================
 " create a macros for inserting traces for pdb and for nose.
 " To use, in command mode, type <backslash> followed by "b" or "n"
 " \a ==> :ALEfix  (fix javascript prettier/eslint errors using the ALE plugin)
@@ -78,7 +87,7 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set ofu=syntaxcomplete#Complete
 
 " ================================================================================
-" Functions
+" #Start Functions
 " ================================================================================
 " SearchMultiLine()
 " Search for the ... arguments separated with whitespace (if no '!'),
@@ -154,10 +163,10 @@ filetype plugin indent on
 :set wildignore+=*.pyc,.git,node_modules
 
 " ================================================================================
-" Vundle setup section
+" #Start Vundle setup section
+" ================================================================================
 " 7.31.20, 8/5/12 
 " https://github.com/VundleVim/Vundle.vim
-" ================================================================================
 " Brief help
 " :PluginList       - lists configured plugins
 " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
@@ -178,7 +187,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " ================================================================================
-" My Bundles here:
+" #Start Bundles
 " ================================================================================
 
 " vim-rainbow-parenthesis -- give different colors to each pair of parentheses/brackets/html-tags/...
@@ -342,10 +351,15 @@ Bundle 'will133/vim-dirdiff'
 " emoji picker / completions
 Bundle 'FuDesign2008/emoji-snippets.vim'
 
+" ================================================================================
+" #Start Bundle post-commands
+" ================================================================================
 " All Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" ================================================================================
+" #Start ALE configuration
 " ================================================================================
 
 " :ALEDisable -  disable for the current file
@@ -368,6 +382,9 @@ let g:ale_fixers = ['/usr/local/bin/tidy']
 filetype plugin indent on     " required!
 " nnoremap <leader>y :execute '!PYTHONWARNINGS="d" TRAPIT_ENV=test nosetests -s %'<cr>
 
+" ================================================================================
+" #Start ctrlp configuration
+" ================================================================================
 " The following setting tells ctrlp to just use the current working directory as the ancestor
 " see http://kien.github.io/ctrlp.vim/
 let g:ctrlp_working_path_mode = ''
@@ -386,3 +403,6 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 "    E31: No such mapping
 " But it doesn't seem to be affecting me now.  Can do ":unmap >" at the vim command-line.
 " unmap >
+" ================================================================================
+" The End.
+" ================================================================================
