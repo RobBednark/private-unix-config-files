@@ -65,6 +65,8 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " \r ==> :TabooRename  (rename the current tab)
 " \s ==> :tab split  (create a new tab)
 " \u ==> add pudb set_trace()
+" \D ==> (Down) -- fold DOWN from the current cursor position to G (end of file)
+" \U ==> (Up) -- fold UP from the current cursor position to line 1 (top of file)
 map <silent> <leader>a :ALEFix<CR>
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
@@ -76,6 +78,8 @@ map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>r :TabooRename 
 map <silent> <leader>s :tab split<esc>
 map <silent> <leader>u oimport pudb; pudb.set_trace()<esc>
+map <silent> <leader>D zfG
+map <silent> <leader>U zf1G
 " from John de la Garza 10/26/15.  I think what this does is allow a different leader, e.g., "," instead of "\"
 " let mapleader="," noremap <Leader>n :bn<Enter> noremap <Leader>d oimport pdb;pdb.set_trace() 
 
