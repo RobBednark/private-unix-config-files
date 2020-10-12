@@ -1,39 +1,38 @@
 " ================================================================================
 " #Start General settings
 " ================================================================================
-" set nu   " line numbers
-" set cursorline  " underline the line that the cursor is on
-set ic   " ignorecase
-set cc=80 " colorcolumn -- show a column of red at character position 80
 set ai   " autoindent
-set nows " nowrapscan - don't wrap around to beginning after search hits end-of-file
-set hls  " highlightsearch
-set ts=4 " tabstop
-set sw=4 " shiftwidth
-set incsearch " incremental search
-set shell=/bin/bash   " I can't get zsh -i so use the .zshrc file and use my PATH (:!which python /usr/bin/python instead of /usr/local/bin/python), but bash does use them.
-syntax on " syntax highlighting
+set cc=80 " colorcolumn -- show a column of red at character position 80
+" set cursorline  " underline the line that the cursor is on
 set expandtab " expand tabs to spaces instead of tab characters
-set scrolloff=15  " when searching, keep the next match 5 lines from the bottom
-
-set foldopen-=search  " when searching, don't open folds; constrain search to unfolded text
-
 " exrc => read from .vimrc in current directory after reading primary .vimrc
-" secure => disallow risky commands from local .vimrc/.exrc files
-set secure exrc
+set exrc
+set fileformat=unix
+set foldopen-=search  " when searching, don't open folds; constrain search to unfolded text
+set hls  " highlightsearch
+set ic   " ignorecase
+set incsearch " incremental search
+set modeline  " look for /* vim: */ modeline settings at the beginning of a file
+set modelines=5  " Look for /* vim: ...: */ settings in the first/last this many lines of the file; if 0, modelines is disabled
+set nows " nowrapscan - don't wrap around to beginning after search hits end-of-file
+set scrolloff=15  " when searching, keep the next match 5 lines from the bottom
+" secure => disallow risky commands from local .vimrc/.exrc files  (:help secure)
+set secure
+set shell=/bin/bash   " I can't get zsh -i so use the .zshrc file and use my PATH (:!which python /usr/bin/python instead of /usr/local/bin/python), but bash does use them.
+set sw=4 " shiftwidth
+set textwidth=0
+set ts=4 " tabstop
 
-"set nu   " number -- line numbers
+syntax on " syntax highlighting
+filetype plugin indent on
+
 "set shell=/bin/bash
 "set shell=/bin/bash\ -i   " Someone recommended this to get my .bashrc, but it wasn't necessary, and introduced it's own problems.  [see vvim]
 " set shell=/bin/bash\ --login   " Cause bash to read .bashrc so I have my aliases and functions available.  This worked briefly for me, but now it doesn't anymore.  10.5.20
 "set shell=/usr/local/bin/zsh
 "set shell=~/.zsh.from.vim.with.zshrc.zsh\ -i
 "set shellcmdflag=-i  " need -i (interactive) option to bash so that it reads in the .bashrc file and sets my PATH to use the right Python; however, not that this creates a new shell, with vim in the background, so you need to 'fg' to go back into vim
-set textwidth=0
-set fileformat=unix
-set modelines=5  " Look for /* vim: ...: */ settings in the first/last this many lines of the file; if 0, modelines is disabled
-set modeline  " look for /* vim: */ modeline settings at the beginning of a file
-filetype plugin indent on
+
 
 " ================================================================================
 " #Start autocmd's
