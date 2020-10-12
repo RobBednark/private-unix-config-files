@@ -41817,3 +41817,169 @@ dotrc
 type l
 #1602372945
 l ls
+#1602372773
+type l
+#1602372793
+vrc
+#1602372828
+type l
+#1602372849
+vrc
+#1602372753
+cd .virtualenvs/
+#1602372756
+cd myenv-zO755U2y/
+#1602372759
+rg . . 
+#1602372762
+rg -h
+#1602372767
+rg -h|less
+#1602372980
+dotrc
+#1602372983
+l rg -h
+#1602372995
+cd .virtualenvs/myenv-zO755U2y/
+#1602372997
+rg . . 
+#1602372999
+l rg -h
+#1602373009
+rg --debug . . 
+#1602373033
+cat .gitignore 
+#1602373041
+rg --help
+#1602373046
+l rg --help
+#1602373053
+rg --help
+#1602373057
+man rg
+#1602373061
+type man
+#1602373065
+env|grep MAN
+#1602373072
+man rg
+#1602373103
+rg --no-ignore . .
+#1602373611
+vq
+#1602371008
+vq
+#1602375443
+vi
+#1602375522
+vim
+#1602376882
+vq
+#1602375559
+cd /tmp
+#1602375561
+vim script 
+#1602376702
+vq
+#1602370767
+vpaste 
+#1602380088
+brew install fzf
+#1602380119
+fzf
+#1602380136
+fzf /tmp
+#1602380139
+type fzf
+#1602380141
+man fzf
+#1602380170
+ls -1|fzf
+#1602380193
+vim $(fzf /tmp)
+#1602380206
+$(fzf /tmp)|vim -
+#1602380211
+$(fzf /tmp)|vim 
+#1602380229
+cd /t
+#1602380231
+reset
+#1602380235
+cd /tmp
+#1602380242
+vim $(fzf /tmp)
+#1602380090
+vq
+#1602379072
+cdqn
+#1602379074
+ls tmp/
+#1602379084
+mv tmp/views.py ~/tmp
+#1602379087
+gs
+#1602379094
+vi
+#1602379883
+git.vimdiff 
+#1602379178
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602379182
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1602379716
+sm
+#1602379984
+gs
+#1602379986
+gd
+#1602379991
+gs
+#1602379996
+git log -p questions/templates/flashcard.html
+#1602380595
+vi
+#1602379176
+cdq
+#1602379173
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602379173
+python manage.py runserver --insecure
+#1602379170
+rqo
+#1602386629
+vq
+#1602426277
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602426277
+python manage.py runserver --insecure
+#1602426275
+rqo
+#1602430043
+vq
+#1602432180
+vim tmp/transcript
+#1602439888
+vq
+#1602514052
+man -5 accept
+#1602514056
+man accept
+#1602514065
+man -7 accept
+#1602514097
+man -S 7 accept
+#1602514100
+man 2 accept
+#1602516306
+man 2 recv
+#1602514443
+cdlearn
+#1602514446
+ls *thread*py
+#1602514448
+vim *thread*py
+#1602514685
+vim learn_simple_start_new_thread.py
+#1602520081
+vq
