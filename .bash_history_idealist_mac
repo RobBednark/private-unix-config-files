@@ -41985,3 +41985,523 @@ vim learn_simple_start_new_thread.py
 vq
 #1602524293
 vim
+#1602523681
+vvimrc 
+#1602524616
+cd /tmp
+#1602524620
+vim AlTest1.
+#1602524624
+vim
+#1602520717
+vig 
+#1602529840
+vq
+#1602529504
+vdiary 
+#1602530604
+vpaste 
+#1602536156
+vdiary 
+#1602600773
+man screen
+#1602600784
+screen -list
+#1602600889
+type screen
+#1602600895
+brew install screen
+#1602600909
+screen -version
+#1602601712
+brew install screen
+#1602601748
+type screen
+#1602601789
+alias screen=foo
+#1602601793
+type screen
+#1602601796
+which screen
+#1602601844
+whereis screen
+#1602601887
+rehash
+#1602601149
+su john
+#1602601156
+sudo su john
+#1602601220
+sudo su - john
+#1602601235
+sudo su -
+#1602600640
+screen
+#1602600705
+screen -S host
+#1602601967
+screen -l
+#1602601971
+screen -list
+#1602602011
+ls -l /tmp/uscreens/S-rbednark.
+#1602602016
+ls -l /tmp/uscreens/S-rbednark
+#1602602027
+screen -list
+#1602602053
+chmod 666 /tmp/uscreens/S-rbednark/40599.host 
+#1602602055
+ls -l /tmp/uscreens/S-rbednark/40599.host
+#1602602062
+ls -ld /tmp/uscreens/S-rbednark/
+#1602602067
+chmod 777 /tmp/uscreens/S-rbednark/
+#1602602075
+ls -laR /tmp/uscreens/
+#1602602288
+screen -list
+#1602602296
+cd /tmp/uscreens/
+#1602602338
+ls -ld /tmp
+#1602602377
+cd ..
+#1602602381
+touch touch.john
+#1602602404
+ls -l
+#1602602439
+screen -list
+#1602602442
+cd /tmp/uscreens/
+#1602602449
+ln -s S-rbednark S-john
+#1602602454
+screen -list
+#1602602464
+ls -l
+#1602602493
+chmod 777 S-rbednark/
+#1602602496
+screen -list
+#1602602537
+chmod 700 S-rbednark/
+#1602602541
+ls -l
+#1602602574
+id
+#1602602582
+screen -list
+#1602602789
+chgrp join /tmp/shareds
+#1602602794
+groups
+#1602602804
+chgrp everyone /tmp/shareds
+#1602602840
+that wasy easy
+#1602602842
+## rob
+#1602602914
+which tmux
+#1602602922
+ls /bin/tm*
+#1602602925
+ls /usr/bin/tm*
+#1602602955
+python3
+#1602604567
+vim /tmp/john
+#1602604705
+type emacs
+#1602604713
+vi notes.org
+#1602604726
+e notes.org
+#1602604729
+emacs notes.org
+#1602604800
+hostname
+#1602601915
+which screen
+#1602601918
+screen -version
+#1602601943
+screen -S host
+#1602602107
+screen -list
+#1602602116
+rm -fr /tmp/uscreens/S-rbednark/
+#1602602119
+screen -list
+#1602602178
+screen -x john
+#1602602198
+screen -x john/john
+#1602602215
+sudo su - root
+#1602602256
+cd /tmp/screens/
+#1602602259
+id
+#1602602270
+screen
+#1602602589
+sudo su - john
+#1602602645
+ls -l
+#1602602653
+sudo su - john
+#1602602714
+tmux new-session -s shared
+#1602602783
+tmux -S /tmp/shareds new -s shared
+#1602598221
+vq
+#1602605145
+last john
+#1602605209
+ps guaxww|grep john
+#1602605228
+pgrep john
+#1602605234
+pgrep --help
+#1602605237
+pgrep -h
+#1602605242
+type pgrep
+#1602605249
+man pgrep
+#1602605261
+pgrep -u john
+#1602605265
+pgrep -ul john
+#1602605277
+pgrep -lu john
+#1602605296
+ps -ealf
+#1602605300
+ps -ealf|grep john
+#1602605309
+ps guaxww|grep john
+#1602605324
+pgrep -lu john
+#1602605344
+pkill -lu john
+#1602605351
+sudo pkill -lu john
+#1602605358
+pgrep -lu john
+#1602605368
+ps guaxww|grep john
+#1602605377
+sudo kill 38034 38008
+#1602605378
+ps guaxww|grep john
+#1602605382
+sudo kill -9 38034 38008
+#1602605384
+ps guaxww|grep john
+#1602619054
+vq
+#1602606055
+log show --predicate '(eventMessage CONTAINS "Authentication failed")' --style syslog --last 1d
+#1602620347
+/usr/sbin/system_profiler SPConfigurationProfileDataType | /usr/bin/grep 'maxFailedAttempts'
+#1602620360
+/usr/sbin/system_profiler SPConfigurationProfileDataType | less
+#1602620452
+log
+#1602620457
+log show
+#1602620464
+log config show
+#1602620470
+man log
+#1602620501
+sudo log config --mode "private_data:on"
+#1602620512
+telnet localhost
+#1602620517
+su - rbednark
+#1602620529
+log stream --predicate '(eventMessage CONTAINS "Authentication failed")' --style syslog
+#1602620664
+man log
+#1602620680
+log show --predicate '(eventMessage CONTAINS "Authentication failed")' --style syslog
+#1602620650
+su rbednark
+#1602635448
+vig 
+#1602686569
+sudo passwd jdelagarza
+#1602687205
+cd .ssh/
+#1602690964
+cdqn
+#1602690969
+pip install pylab
+#1602690975
+pip3 install pylab
+#1602690189
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602690192
+/noteb
+#1602690197
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1602690147
+cdqn
+#1602690184
+DB_QUIZME=restore_quizme_custom DJANGO_ALLOW_ASYNC_UNSAFE=true ./manage.py shell_plus --notebook
+#1602690187
+psh
+#1602686999
+chgrp everyone shareds 
+#1602687003
+ls -ld shareds 
+#1602687013
+ssh-keygen 
+#1602687045
+su -  jdelagarza
+#1602687347
+sudo vim /etc/ssh/sshd_config 
+#1602687593
+cd /etc/ssh/
+#1602687595
+gs
+#1602687598
+git init .
+#1602687600
+sudo git init .
+#1602687610
+sudo add .
+#1602687614
+sudo git add .
+#1602687622
+sudo git commit -m'initial'
+#1602687626
+git log
+#1602687635
+clear
+#1602687640
+vim sshd_config 
+#1602687656
+sudo vim vim sshd_config 
+#1602687666
+sudo vim sshd_config 
+#1602687743
+gd
+#1602687750
+psgrep ssh
+#1602687753
+pgrep ssh
+#1602687757
+pgrep -l ssh
+#1602687766
+ps guaxww|grep sshd
+#1602687882
+kill -HUP 10796
+#1602687905
+sudo kill -HUP 10796
+#1602687909
+ps guaxww|grep sshd
+#1602687989
+ps guaxww|grep ssh
+#1602688030
+ps -ef | grep sshd
+#1602688068
+sudo kill -HUP 12409
+#1602688078
+ps -ef | grep sshd
+#1602688112
+ssh localhost -l bob
+#1602688123
+gd
+#1602688135
+man sshd-config
+#1602688139
+man sshdconfig
+#1602688141
+man ssh
+#1602688150
+man ssh_config
+#1602688200
+gd
+#1602688381
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist 
+#1602688405
+sudo launchctl unload /System/Library/LaunchDaemons/ssh.plist 
+#1602688411
+sudo launchctl load -w /System/Library/LaunchDaemons/ssh.plist 
+#1602688414
+ssh localhost -l bob
+#1602688582
+sudo vim sshd_config 
+#1602688633
+gd
+#1602688637
+ps -ef | grep sshd
+#1602688653
+sudo kill -HUP 12438
+#1602688655
+ps -ef | grep sshd
+#1602688660
+login foo
+#1602688675
+jobs
+#1602688696
+kill %1
+#1602688708
+ssh localhost -l xxxxx
+#1602688721
+sudo vim sshd_config 
+#1602688730
+ps -ef | grep sshd
+#1602688785
+sudo kill -HUP 12866
+#1602688791
+ssh localhost foo
+#1602688795
+gd
+#1602689216
+python3
+#1602691173
+ 
+#1602686133
+tmux
+#1602686765
+tmux -S /tmp/shareds new -s shared
+#1602686785
+ls -ld /tmp/shareds 
+#1602686810
+chgrp everyone /tmp/shareds
+#1602686813
+sudo chgrp everyone /tmp/shareds
+#1602686823
+ls -ld /tmp/shareds 
+#1602686827
+tmux -S /tmp/shareds new -s shared
+#1602686908
+find /tmp/shareds
+#1602686920
+sudo rm /tmp/shareds
+#1602686929
+cd /tmp
+#1602686931
+ls -ld shareds.lock 
+#1602686963
+tmux list-sessions
+#1602686968
+tmux -S /tmp/shareds new -s shared
+#1602686106
+vq
+#1602686663
+tmux -l
+#1602686667
+tmux --list
+#1602686674
+man tmux
+#1602686727
+tmux list-sessions
+#1602697279
+vq
+#1602741507
+cdqn
+#1602741509
+cd db_dumps/private-quiz-me-db-backups/
+#1602741516
+cd ..
+#1602741520
+ls *58.16*
+#1602741523
+cd private-quiz-me-db-backups/
+#1602741528
+gs
+#1602741541
+./update.sh '*58.16*'
+#1602741543
+c
+#1602741543
+gs
+#1602741545
+gd
+#1602741547
+c
+#1602741547
+gs
+#1602741555
+gd dump.quizme_production.txt
+#1602741565
+gs
+#1602741571
+gd dump.quizme_production.plain.all
+#1602741578
+gs
+#1602741585
+gd dump.quizme_production.dumpdata.json
+#1602741593
+gs
+#1602741600
+gca -m'updated'
+#1602741601
+gpus
+#1602741617
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08; ssh-add -L
+#1602741325
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602741325
+python manage.py runserver --insecure
+#1602741495
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1602741323
+rqo
+#1602772299
+vq
+#1602780480
+cdqn
+#1602780483
+ls tmp/
+#1602780816
+vq
+#1602780052
+vig 
+#1602782621
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602782621
+python manage.py runserver --insecure
+#1602786036
+type spot
+#1602786038
+grrc spot
+#1602786042
+open -a spotify
+#1602780082
+cdqn
+#1602780083
+gs
+#1602780089
+gd
+#1602780092
+sm
+#1602780474
+vi
+#1602782610
+c
+#1602782620
+rqo
+#1602794125
+cdqn
+#1602794127
+sm
+#1602794354
+git.log.grep.diffs details
+#1602795792
+cdqn
+#1602795793
+gs
+#1602795794
+gd
+#1602809192
+vq
