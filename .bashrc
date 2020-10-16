@@ -1795,7 +1795,7 @@ export NVM_DIR="/Users/robb/.nvm"
 [ -f /usr/local/etc/bash_completion.d/cdargs-bash.sh ] && source /usr/local/etc/bash_completion.d/cdargs-bash.sh
 
 ################################################################################
-### List of commands to grep for in this file, but that don't warrant an alias.
+### List of useful commands that don't warrant an alias (listed here for "grrc" grep-able reference)
 ################################################################################
 # exa (a better/replacement "ls")  https://the.exa.website/ 
 #   brew install eva
@@ -1804,6 +1804,7 @@ export NVM_DIR="/Users/robb/.nvm"
 # glances - a better top -- can filter by process name (<enter> name:.*Chrome.*) (system monitoring)
 # htop - a better top (system monitoring)
 # pgcli (a better psql)
+# pgrep/pkill -fil  (-f "full" -- match against full argument lists; -i "ignore" case; -l "long" output
 # ripgrep (command: rg) (a faster grep) (brew install ripgrep)
 # tidy -- an html linter (tidy myfile.html)
 # v (like "autojump", for but vim with files, using vim filehistory; 

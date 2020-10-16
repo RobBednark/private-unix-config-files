@@ -42549,3 +42549,17 @@ vq
 ifconfig|less
 #1602869008
 vq
+#1602879824
+man pgrep
+#1602879881
+man pkill
+#1602879938
+c
+#1602879943
+pgrep -fil vim
+#1602879952
+pgrep -fil readme
+#1602879960
+pkil -fil readme
+#1602879963
+pkill -fil readme
