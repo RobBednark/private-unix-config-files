@@ -42521,3 +42521,31 @@ vi questions/templates/flashcard.html
 cdqn
 #1602859276
 vi
+#1602860185
+ls -ld *moo*
+#1602860290
+vrc
+#1602860370
+vm
+#1602859937
+vm
+#1602859941
+type vm
+#1602859950
+vrc
+#1602859966
+cd .unix.config.files
+#1602859985
+git.log.grep.diffs .bashrc vm
+#1602859990
+git.log.grep.diffs vm
+#1602860047
+type git.log.grep.diffs
+#1602860147
+git.log.grep.diffs vm .bashrc 
+#1602859709
+vq
+#1602863088
+ifconfig|less
+#1602869008
+vq
