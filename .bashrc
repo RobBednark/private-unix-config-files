@@ -215,6 +215,7 @@ if $MacOSX; then
     DirIphoneApps="~/Music/iTunes/iTunes Media/Mobile?Applications"
 fi
 DirLearn="$DirBin/learn"
+DirMoovel=$DirDropbox/moovel
 DirNodeModulesLocal=~/local_node_modules
 DirOptionTables="$DirRbednark/option.tables"
 DirPicts="$DirRbednark/picts"
