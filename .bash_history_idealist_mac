@@ -42563,3 +42563,169 @@ pgrep -fil readme
 pkil -fil readme
 #1602879963
 pkill -fil readme
+#1602879557
+grrc markdown
+#1602879607
+jobs
+#1602879748
+pgrep -h
+#1602879751
+grrc
+#1602879754
+vrc
+#1602881097
+vq
+#1602879472
+cdqn
+#1602879476
+vim README.md 
+#1602879994
+grip README.md 
+#1602880004
+%1
+#1602880088
+jobs
+#1602880091
+bg %2
+#1602880092
+jobs
+#1602882187
+kil %2
+#1602882190
+kill %2
+#1602882191
+jobs
+#1602882194
+cdqn
+#1602882197
+grip README.md 
+#1602873866
+cdqn
+#1602873879
+pwd
+#1602873880
+jobs
+#1602873881
+cdqn
+#1602873885
+pwd
+#1602873885
+jobs
+#1602873889
+gs
+#1602873890
+gd
+#1602873895
+sm
+#1602881078
+gs
+#1602881079
+gd
+#1602884414
+gs
+#1602885895
+gd
+#1602885908
+gs
+#1602885995
+git stash -h
+#1602886032
+git stash -m 'stash flashcard.html changes, then rebase for fixup, then pop'
+#1602886033
+gs
+#1602886077
+git log
+#1602886091
+type gr
+#1602886094
+gr 5564256
+#1602886343
+gs
+#1602886351
+git stash apply
+#1602886425
+vi
+#1602884672
+vig
+#1602894296
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602894301
+./manage.py runserver -h
+#1602894403
+vi
+#1602894414
+gs
+#1602894416
+git add .
+#1602894417
+gdc
+#1602894490
+vi
+#1602894569
+git add .
+#1602894622
+gpus
+#1602894699
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08; ssh-add -L
+#1602894294
+cdq
+#1602894283
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1602894283
+python manage.py runserver --insecure
+#1602893524
+cdqn
+#1602893525
+gs
+#1602893527
+gd
+#1602893817
+vi
+#1602893938
+gs
+#1602893945
+gd
+#1602893957
+git add -p 
+#1602894045
+gdc
+#1602894048
+gd
+#1602894211
+c
+#1602894212
+gd
+#1602894213
+c
+#1602894214
+gdc
+#1602894273
+git stash --keep-index -m'after "add-p" of single line adding "answered_last_week=..."'
+#1602894273
+gs
+#1602894275
+gd
+#1602894276
+gdc
+#1602894281
+rqo
+#1602894878
+gpus
+#1602893804
+vq
+#1602893872
+vig
+#1602894079
+vq
+#1602963507
+vdiary 
+#1602980682
+vpaste 
+#1603032322
+vq
+#1603038764
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603038764
+python manage.py runserver --insecure
+#1603038762
+rqo
