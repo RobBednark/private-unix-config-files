@@ -1039,7 +1039,7 @@ function grrc() {  # GRep .bashRC (previously grc)
     grep -i $@ $FileRc
 }
 function gvimrc() {  # GRep .VIMRC
-    grep -i $@ $FileVimRc
+    grep -i $@ $FileVimrc
 }
 function pless() {
     # pipe stdout/stderr to less
