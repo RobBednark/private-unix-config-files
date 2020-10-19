@@ -1800,6 +1800,7 @@ export NVM_DIR="/Users/robb/.nvm"
 ################################################################################
 ### List of useful commands that don't warrant an alias (listed here for "grrc" grep-able reference)
 ################################################################################
+# atom (GUI editor)
 # exa (a better/replacement "ls")  https://the.exa.website/ 
 #   brew install eva
 # fd (a better "find" replacement) (fd -h)
