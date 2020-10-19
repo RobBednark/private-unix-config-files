@@ -90,8 +90,22 @@ autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 set ofu=syntaxcomplete#Complete
 
 " ================================================================================
-" #Start Functions
+" #Start #Functions
 " ================================================================================
+function! AddSection()
+  " Add these lines:
+  " ================================================================================
+  " #Start
+  " ================================================================================
+  " ================================================================================
+  " ================================================================================
+  normal! o80a=
+  normal! o#Start 
+  normal! o80a=
+  normal! o80a=
+  normal! o80a=
+endfunction
+
 " SearchMultiLine()
 " Search for the ... arguments separated with whitespace (if no '!'),
 " or with non-word characters (if '!' added to command).
@@ -406,6 +420,13 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 "    E31: No such mapping
 " But it doesn't seem to be affecting me now.  Can do ":unmap >" at the vim command-line.
 " unmap >
+" ================================================================================
+" #reference for grep'ing
+" ================================================================================
+" :call myFunc  ==> call the myFunc() function
+" :help function ==> list all built-in functions
+" :redir @a    :map     :redir END     ==> redirect output of ":map" to the @a buffer
+
 " ================================================================================
 " The End.
 " ================================================================================

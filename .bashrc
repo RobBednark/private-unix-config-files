@@ -1038,6 +1038,9 @@ function git.reset.redo.last.commit() {
 function grrc() {  # GRep .bashRC (previously grc)
     grep -i $@ $FileRc
 }
+function gvimrc() {  # GRep .VIMRC
+    grep -i $@ $FileVimRc
+}
 function pless() {
     # pipe stdout/stderr to less
     $@ 2>&1 | less
