@@ -51,6 +51,10 @@ autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 
 " ================================================================================
+" #Start #abbreviations
+" ================================================================================
+iab _sm 😀
+" ================================================================================
 " #Start mappings
 " ================================================================================
 " create a macros for inserting traces for pdb and for nose.
@@ -423,6 +427,7 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 " ================================================================================
 " #reference for grep'ing
 " ================================================================================
+" :ab  ==> list all abbreviations
 " :call myFunc  ==> call the myFunc() function
 " :help function ==> list all built-in functions
 " :redir @a    :map     :redir END     ==> redirect output of ":map" to the @a buffer
