@@ -43215,3 +43215,231 @@ gs
 cd ..
 #1603208310
 rm -fr quizme3/
+#1603209942
+cdqn
+#1603209942
+gs
+#1603209945
+git remote -v
+#1603209964
+cd ~/.unix.config.files
+#1603209965
+gs
+#1603209971
+git remote -v
+#1603210013
+gs
+#1603210018
+gca
+#1603210046
+git remote add origin git@github.com:RobBednark/private-unix-config-files.git
+#1603210048
+gpus
+#1603205729
+git stash --help
+#1603206518
+cdqn
+#1603206529
+cp -rp . /tmp/quizme2
+#1603206552
+cd /tmp/quizme2/
+#1603206553
+gs
+#1603206560
+rm -fr db_dumps/
+#1603206563
+c
+#1603206564
+gs
+#1603206643
+sm .
+#1603206738
+git stash --help
+#1603206900
+gs
+#1603206908
+cd ../quizme-copy/
+#1603206909
+gs
+#1603206919
+git log
+#1603207217
+gs
+#1603207218
+gd
+#1603207224
+git log
+#1603207241
+git stash list
+#1603207247
+cd -
+#1603207249
+gs
+#1603207255
+ls .git/refs/
+#1603207261
+ls -al .git/refs/
+#1603207269
+vim .git/refs/stash 
+#1603207278
+gs
+#1603207281
+gd
+#1603207359
+gd > /tmp/diff
+#1603207407
+vim /tmp/diff
+#1603207410
+gs
+#1603207459
+gd
+#1603207462
+gdc
+#1603207471
+git diff --cached
+#1603207482
+gs
+#1603207491
+git restore --staged questions/templates/flashcard.html
+#1603207492
+gs
+#1603207494
+gd
+#1603207505
+cat /tmp/diff 
+#1603207524
+vi
+#1603207570
+gs
+#1603207579
+git stash
+#1603207589
+git stash apply
+#1603209869
+cd ~/tmp
+#1603209869
+gs
+#1603209871
+git remote -v
+#1603209922
+git remote --help
+#1603209930
+cd
+#1603209931
+cd tmp/
+#1603209932
+gs
+#1603209935
+git remote add git@github.com:RobBednark/private-tmp.git
+#1603209952
+git remote add origin git@github.com:RobBednark/private-tmp.git
+#1603209953
+gs
+#1603209954
+gpus
+#1603204080
+vq
+#1603211803
+cd /tmp/quizme3/
+#1603211804
+gs
+#1603211806
+gd
+#1603211808
+gs
+#1603211809
+gdc
+#1603211816
+vim Makefile 
+#1603211823
+git stash
+#1603211828
+cd ../*2
+#1603211829
+gs
+#1603211835
+cd ..
+#1603211843
+cp -pr *ate quizme4
+#1603211847
+cd quizme4
+#1603211848
+du -hs .
+#1603211850
+gs
+#1603211864
+vp
+#1603213219
+git stash --help
+#1603216945
+vq
+#1603217021
+vmac
+#1603223331
+vp
+#1603225458
+cdqn
+#1603225462
+gs
+#1603226694
+vq
+#1603226938
+find . -prune -type d -ls
+#1603226941
+find * -prune -type d -ls
+#1603226959
+gs
+#1603226967
+git.ls-files.ignored 
+#1603227017
+git.ls-files.ignored  > /tmp/ignored
+#1603227057
+vim /tmp/ignored 
+#1603227240
+grep -v '/' /tmp/ignored 
+#1603227247
+ls -ld .swp
+#1603227252
+ls -ld .DS_Store 
+#1603227262
+vim .gitignore
+#1603227282
+git.ls-files.ignored 
+#1603227285
+gs
+#1603227332
+ls -ld Dropbox/ audacity/ backups/
+#1603227338
+ls -ld Dropbox audacity backups
+#1603227370
+gs
+#1603227379
+gs -uno
+#1603227397
+git status --untracked
+#1603227407
+git status --untracked -uno
+#1603227447
+git status --untracked
+#1603227458
+cd .ssh
+#1603227459
+gs
+#1603227461
+gd
+#1603227469
+vici known_hosts 
+#1603227471
+gs
+#1603227473
+cd ..
+#1603227529
+gs
+#1603226876
+c
+#1603226876
+gs
+#1603226928
+vim .gitignore
+#1603227859
+vq
