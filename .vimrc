@@ -53,6 +53,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " ================================================================================
 " #Start #abbreviations
 " ================================================================================
+iab _sep ------------------------------
 iab _sm 😀
 " ================================================================================
 " #Start mappings
@@ -76,11 +77,13 @@ map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>e :!open -a google\ chrome % <esc>
 map <silent> <leader>l :!open -a sublime\ text % <esc>
+map <silent> <leader>L :call AddSeparatorLine()<esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>r :TabooRename 
 map <silent> <leader>s :tab split<esc>
+map <silent> <leader>S :call AddSection()<esc>
 map <silent> <leader>u oimport pudb; pudb.set_trace()<esc>
 map <silent> <leader>D zfG
 map <silent> <leader>U zf1G
@@ -96,6 +99,12 @@ set ofu=syntaxcomplete#Complete
 " ================================================================================
 " #Start #Functions
 " ================================================================================
+function! AddSeparatorLine()
+  " Add this lines:
+  " ------------------------------
+  normal! o30a-
+endfunction
+
 function! AddSection()
   " Add these lines:
   " ================================================================================
