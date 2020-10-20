@@ -42847,3 +42847,371 @@ rqo
 vq
 #1603138690
 brew search epub
+#1603149959
+grrc atom
+#1603149965
+type atom
+#1603149968
+atom --help
+#1603149976
+atom --version
+#1603150044
+vrc
+#1603150866
+grrc :sm
+#1603150869
+grrc _sm
+#1603150873
+gvimrc _sm
+#1603150879
+vim
+#1603152574
+atom tmp/flashcard.html 
+#1603152048
+vig
+#1603150074
+cdqn
+#1603150086
+pwd
+#1603150088
+vi
+#1603150191
+gs
+#1603150193
+sm
+#1603150233
+gs
+#1603150267
+git stash -m 'checkpoint: before editing with atom for validation'
+#1603150272
+gs
+#1603150278
+vi
+#1603150283
+gs
+#1603150284
+vi
+#1603150300
+gs
+#1603150300
+gd
+#1603150305
+gdc
+#1603150321
+gs
+#1603152529
+vi
+#1603152629
+gs
+#1603149579
+vq
+#1603152869
+history|less
+#1603204322
+cdqn
+#1603204326
+du -hs .
+#1603204341
+cd /tmp
+#1603204344
+cd quizme-copy/
+#1603204349
+rm -rf db_dumps/
+#1603204350
+gs
+#1603204353
+du -hs .
+#1603204402
+vpas
+#1603204406
+vp
+#1603203050
+pwd
+#1603203050
+jobs
+#1603203058
+ls -ld */*git*
+#1603203071
+ls -ld *repo*
+#1603203074
+cd repos
+#1603203168
+git clone git@github.com:git/git.git
+#1603203223
+cd git
+#1603203225
+git remote -v
+#1603203235
+gs
+#1603203237
+git log
+#1603203249
+git grep -i unmerged.path
+#1603204247
+cdqn
+#1603204254
+gs
+#1603204311
+cp -pr . /tmp/quizme-copy
+#1603205640
+cd /tmp
+#1603205655
+cd quizme-copy/
+#1603205661
+c
+#1603205662
+gs
+#1603205663
+c
+#1603205666
+gs
+#1603205682
+git stash list
+#1603206173
+gs
+#1603206187
+gd
+#1603206268
+gs
+#1603206277
+git status
+#1603206305
+gs
+#1603206371
+git reset
+#1603206372
+gs
+#1603206374
+gd
+#1603206386
+git stash -m 'checkpoint: before editing with atom for validation'
+#1603206389
+gs
+#1603206400
+cd ..
+#1603206414
+man cp
+#1603206424
+man gcp
+#1603208367
+cdqn
+#1603208379
+cp -pr . /tmp/quizme-copy-template
+#1603208386
+cd /tmp/quizme-copy-template
+#1603208402
+rm -fr db_dumps/
+#1603208403
+cd ..
+#1603208410
+cp -pr *template quizme3
+#1603208414
+cd quizme3
+#1603208419
+gs
+#1603208500
+git reset --hard
+#1603208502
+gs
+#1603208503
+vi
+#1603208535
+git add .
+#1603208536
+gs
+#1603208537
+gd
+#1603208539
+vi
+#1603208547
+gs
+#1603208560
+git stash
+#1603208563
+gs
+#1603208573
+vi
+#1603208634
+git add -p .
+#1603208644
+gs
+#1603208645
+gdc
+#1603208647
+gd
+#1603208651
+git stash
+#1603208663
+vi
+#1603208717
+git add .
+#1603208718
+gs
+#1603208720
+vi
+#1603208778
+git reset --hard
+#1603208779
+vi
+#1603208787
+git add .
+#1603208788
+vi
+#1603208797
+gd
+#1603208800
+gdc
+#1603208807
+git stash
+#1603208814
+vi
+#1603208977
+gs
+#1603209100
+vim Makefile 
+#1603209124
+git add .
+#1603209126
+gdc
+#1603209154
+git status
+#1603209160
+vim Makefile 
+#1603209172
+git diff --cached
+#1603209203
+head Makefile 
+#1603209277
+git diff
+#1603209445
+git stash --help
+#1603209597
+c
+#1603209597
+gs
+#1603209612
+gdc
+#1603209617
+gd
+#1603209628
+git stash
+#1603209629
+gs
+#1603209634
+gd
+#1603209636
+gdc
+#1603209637
+gs
+#1603209643
+git stash pop
+#1603209647
+gs
+#1603209651
+gd
+#1603209652
+gdc
+#1603209675
+gs
+#1603209676
+vi Makefile 
+#1603209683
+git add .
+#1603209685
+vi Makefile 
+#1603209689
+gs
+#1603209690
+gdc
+#1603209691
+gd
+#1603209706
+git stash push --keep-index
+#1603209713
+gs
+#1603209717
+gdc
+#1603209718
+gd
+#1603209725
+git show stash@{0}
+#1603209731
+git show stash
+#1603209759
+git stash show
+#1603209764
+git stash show -p
+#1603206225
+vpas
+#1603206227
+vp
+#1603207636
+cdqn
+#1603207646
+cp -pr . /tmp/quizme3
+#1603207663
+cd /tmp/quizme3
+#1603207665
+rm -fr db_dumps/
+#1603207668
+gs
+#1603207682
+ls -l .git/refs/
+#1603207729
+cat .git/refs/stash 
+#1603207734
+git show be3702d0128caeae4f71d15da17a16f8126fb0f0
+#1603207744
+git stash list
+#1603207787
+git show be3702d0128caeae4f71d15da17a16f8126fb0f0
+#1603207792
+git log 
+#1603207799
+git show be3702d0128caeae4f71d15da17a16f8126fb0f0
+#1603207879
+git list
+#1603207882
+git stash list
+#1603207944
+gs
+#1603207949
+c
+#1603207949
+gs
+#1603208019
+git restore --help
+#1603208049
+c
+#1603208050
+gs
+#1603208056
+git diff --cached
+#1603208073
+git diff
+#1603208153
+ls -l ~/tmp/flashcard.html 
+#1603208166
+gs
+#1603208178
+git reset --hard
+#1603208179
+gs
+#1603208180
+git log
+#1603208195
+cp ~/tmp/flashcard.html questions/templates/
+#1603208197
+gs
+#1603208197
+gd
+#1603208206
+gs
+#1603208215
+git stash -m 'checkpoint: before editing with atom for validation'
+#1603208290
+gs
+#1603208305
+cd ..
+#1603208310
+rm -fr quizme3/
