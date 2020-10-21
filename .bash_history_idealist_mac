@@ -43443,3 +43443,132 @@ gs
 vim .gitignore
 #1603227859
 vq
+#1603228746
+vvimrc 
+#1603228982
+gvimrc sep
+#1603228263
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603228263
+python manage.py runserver --insecure
+#1603228261
+rqo
+#1603228676
+git stash --help
+#1603228257
+cdqn
+#1603228477
+cd /tmp
+#1603228481
+cdqn
+#1603228483
+gs
+#1603228503
+cp -pr . /tmp/quizme
+#1603229134
+time (cp -pr . /tmp/quizme-template; rm -fr /tmp/quizme-template/db_dumps)
+#1603228353
+cd /tmp
+#1603228359
+subl quizme.htm 
+#1603228420
+atom *tm
+#1603228704
+vq
+#1603228499
+cd /tmp
+#1603228513
+cd quizme
+#1603228520
+rm -fr db_dumps/
+#1603228523
+cd quizme/
+#1603228524
+gs
+#1603228544
+git reset
+#1603228545
+gs
+#1603228549
+gd
+#1603228553
+git add -p
+#1603228579
+git reset -p
+#1603228602
+gs
+#1603228604
+gdc
+#1603228610
+git reset
+#1603228610
+gs
+#1603228611
+gd
+#1603228615
+git add -p
+#1603228633
+gdc
+#1603228634
+gd
+#1603228636
+gs
+#1603231258
+gdc
+#1603231259
+gd
+#1603231291
+git stash --keep-index
+#1603231293
+gdc
+#1603231294
+gd
+#1603231298
+git stash show
+#1603231305
+git stash show -p
+#1603231631
+gs
+#1603231633
+gd
+#1603231634
+gdc
+#1603231336
+history > /tmp/history
+#1603231337
+vim /tmp/history
+#1603231359
+history|less
+#1603231382
+vim /tmp/history 
+#1603237895
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603237910
+see if this shows up in my history since it's in a pipenv shell
+'
+#1603237918
+history|tail
+#1603237893
+cdq
+#1603237937
+history > /tmp/history2
+#1603237938
+vim /tmp/history2
+#1603238112
+cd /tmp/quizme
+#1603238113
+gs
+#1603238114
+git log
+#1603238463
+cdqn
+#1603238468
+df -h .
+#1603238501
+cp -pr . ~/temp-2020-10-20-backup-quizme-unmerged-paths-state
+#1603238520
+cd ~/temp-2020-10-20-backup-quizme-unmerged-paths-state
+#1603238529
+rm -fr db_dumps/
+#1603238533
+gs
