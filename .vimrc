@@ -321,10 +321,10 @@ Bundle 'rhysd/conflict-marker.vim'
 " Bundle 'andviro/flake8-vim'
 
 " vim-gitgutter: shows git diff in the gutter (what lines have been changed); stages/undoes hunks
-" [c ]c ==> prev/next hunk
-" <leader>hp ==> preview the changes for the hunk the cursor is on
-" <leader>hs ==> stage the hunk that the cursor is on
-" <leader>hu ==> undo the hunk that the cursor is on
+" [c ]c ==> prev/next hunk (gitgutter)
+" <leader>hp ==> preview the changes for the hunk the cursor is on (gitgutter)
+" <leader>hs ==> stage the hunk that the cursor is on (gitgutter)
+" <leader>hu ==> undo the hunk that the cursor is on (gitgutter)
 " :GitGutterDisable ==> disable vim-gitgutter
 Bundle 'airblade/vim-gitgutter'
 " Enable highlighting of lines that are modified by git:
