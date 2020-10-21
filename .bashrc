@@ -1817,6 +1817,7 @@ export NVM_DIR="/Users/robb/.nvm"
 # tidy -- an html linter/validator (tidy -error myfile.html)
 #   tidy -errors myfile.html  # only show validation errors/warnings
 #   tidy -indent --indent-spaces=2 myfile.html  # reformat with indentation
+#   tidy -quiet --tidy-mark no -indent --indent-spaces 2 myfile.html
 # v (like "autojump", for but vim with files, using vim filehistory; 
 #   v -  ==> edit the most recent file edited
 #   v --help
