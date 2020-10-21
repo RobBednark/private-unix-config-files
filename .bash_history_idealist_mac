@@ -43672,3 +43672,9 @@ ls *psuedo*sh
 ls *pseudo*sh
 #1603241317
 vim *pseudo*sh
+#1603241643
+man tidy
+#1603241655
+cd /tmp
+#1603241668
+tidy -indent quizme3.htm |less
