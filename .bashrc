@@ -1197,7 +1197,7 @@ function git.commit.all.modified.and.new.for.repo.of.given.file() {
     git commit -a -m 'Auto commit from vici'
 
     if git remote -v | grep origin >& /dev/null; then
-        gpus
+        (set -x; gpus)
     fi
 
     echo "================================================================================"
