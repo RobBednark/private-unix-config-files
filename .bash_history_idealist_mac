@@ -43652,3 +43652,23 @@ vig
 vq
 #1603239738
 vscode /tmp/quizme3.htm 
+#1603241158
+cd /tmp
+#1603241161
+tidy quizme3.htm 
+#1603241168
+tidy quizme3.htm  > /dev/null
+#1603241231
+diff /tmp/quizme3.htm <(tidy /tmp/quizme3.htm )>
+#1603241242
+grrc psuedo
+#1603241244
+vrc
+#1603241296
+cdlearn
+#1603241305
+ls *psuedo*sh
+#1603241315
+ls *pseudo*sh
+#1603241317
+vim *pseudo*sh
