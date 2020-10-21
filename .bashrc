@@ -1798,6 +1798,10 @@ export NVM_DIR="/Users/robb/.nvm"
 [ -f /usr/local/etc/bash_completion.d/cdargs-bash.sh ] && source /usr/local/etc/bash_completion.d/cdargs-bash.sh
 
 ################################################################################
+### List of useful shell commands, syntax, ... (listed here for "grrc" grep-able reference)
+################################################################################
+# psuedo-file / process substitution: <( )  e.g.,  vim <(diff file1 file2)
+################################################################################
 ### List of useful commands that don't warrant an alias (listed here for "grrc" grep-able reference)
 ################################################################################
 # atom (GUI editor)
