@@ -43678,3 +43678,67 @@ man tidy
 cd /tmp
 #1603241668
 tidy -indent quizme3.htm |less
+#1603241723
+man tidy
+#1603241755
+vrc
+#1603240462
+vq
+#1603241421
+cd /tmp
+#1603241431
+diff quizme3.htm <(tidy quizme3.htm)
+#1603241443
+tidy quizme3.htm > tidy.htm
+#1603241449
+vim quizme3.htm tidy.htm 
+#1603241469
+man tidy
+#1603241488
+tidy --indent quizme3.htm > tidy.htm
+#1603241489
+vim tidy.htm 
+#1603241494
+man tidy
+#1603241551
+tidy -errors quizme3.htm 
+#1603241556
+vrc
+#1603241942
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603241946
+vi
+#1603241941
+cdq
+#1603241962
+vq
+#1603241912
+tidy -errors /tmp/quizme4.htm 
+#1603242953
+vq
+#1603242908
+cd /tmp
+#1603242912
+vim quizme3.htm 
+#1603242351
+cdqn
+#1603242352
+gs
+#1603242353
+gd
+#1603252598
+vi
+#1603241890
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603241890
+python manage.py runserver --insecure
+#1603241846
+cdqn
+#1603241847
+gs
+#1603241848
+sm .
+#1603241888
+rqo
+#1603253242
+vq
