@@ -43572,3 +43572,83 @@ cd ~/temp-2020-10-20-backup-quizme-unmerged-paths-state
 rm -fr db_dumps/
 #1603238533
 gs
+#1603238718
+cd /tmp
+#1603238723
+atom quizme2.htm 
+#1603238822
+atom quizme3.htm 
+#1603239018
+grrc studio
+#1603239026
+vscode quizme3.htm 
+#1603239046
+ls -ld /Applications/Visu*
+#1603239087
+open -a Visual\ Studio
+#1603239090
+open -a Visual\ Studio\ Code
+#1603239126
+ps -ealf|grep -i code
+#1603239131
+ps guaxww|grep -i code
+#1603239145
+ps guaxww|grep Code
+#1603239306
+ls -ld /Applications/Visual\ Studio\ Code.app/
+#1603239308
+type chrome
+#1603239312
+grrc chrome
+#1603239339
+/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron 
+#1603239348
+vrc
+#1603239373
+vscode
+#1603239381
+vscode quizme3.htm 
+#1603238760
+cdqn
+#1603238761
+vi
+#1603238781
+cdqn
+#1603238781
+sm .
+#1603238659
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603238659
+python manage.py runserver --insecure
+#1603238540
+cdqn
+#1603238541
+gs
+#1603238551
+vi
+#1603238563
+gs
+#1603238610
+mkdir ~/tmp/quizme-flashcard.html
+#1603238639
+cp -p questions/templates/flashcard.html ~/tmp/quizme-flashcard.html/flashcard.html-in-unmerged-paths-state
+#1603238640
+gs
+#1603238645
+git reset
+#1603238646
+gs
+#1603238647
+gd
+#1603238654
+gs
+#1603238658
+rqo
+#1603237826
+vq
+#1603238432
+vig
+#1603239573
+vq
+#1603239738
+vscode /tmp/quizme3.htm 
