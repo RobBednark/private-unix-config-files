@@ -43742,3 +43742,394 @@ sm .
 rqo
 #1603253242
 vq
+#1603253489
+grrc tidy
+#1603261265
+man tidy
+#1603261760
+vrc
+#1603253456
+cd /tmp
+#1603253523
+tidy --indent-spaces=2 --indent=yes quizme3
+#1603253527
+tidy --indent-spaces=2 --indent=yes quizme3.htm 
+#1603253534
+tidy --indent-spaces=2 --indent=yes quizme3.htm  > /dev/null
+#1603253551
+tidy -indent-spaces=2 -indent=yes quizme3.htm  > /dev/null
+#1603253555
+tidy -indent-spaces=2 -indent=yes quizme3.htm  > /dev/null|less
+#1603261170
+vim myfile.html
+#1603261180
+tidy myfile.html 
+#1603261191
+tidy -errors myfile.html 
+#1603261201
+vim myfile.html 
+#1603261211
+tidy -errors myfile.html 
+#1603261222
+tidy -indent myfile.html 
+#1603261231
+tidy -indent --indent-spaces=2 myfile.html 
+#1603261239
+tidy -indent --indent-spaces 2 myfile.html 
+#1603261285
+tidy -indent --indent-spaces 2 myfile.html |head 
+#1603261294
+tidy -indent --indent-spaces 2 myfile.html |less
+#1603261310
+tidy -indent --indent-spaces 2 myfile.html |&less
+#1603261322
+tidy --tidy-mark -indent --indent-spaces 2 myfile.html |&less
+#1603261331
+tidy --tidy-mark no -indent --indent-spaces 2 myfile.html |&less
+#1603261346
+tidy --tidy-mark no -indent --indent-spaces 2 myfile.html > output.no
+#1603261352
+tidy --tidy-mark yes -indent --indent-spaces 2 myfile.html > output.yes
+#1603261357
+diff output*
+#1603261366
+head out*
+#1603261383
+tidy --tidy-mark no -indent --indent-spaces 2 myfile.html > output.yes
+#1603261408
+tidy -quiet --tidy-mark no -indent --indent-spaces 2 myfile.html 
+#1603253422
+man tidy
+#1603294456
+cd temp-2020-10-20-backup-quizme-unmerged-paths-state/
+#1603294457
+c
+#1603294458
+gs
+#1603294462
+gd
+#1603292459
+date; history > /tmp/foo; date
+#1603292503
+time history > /tmp/foo
+#1603292531
+time (history > /tmp/foo)
+#1603292577
+man bash
+#1603292582
+c
+#1603292590
+time $(history > /tmp/foo)
+#1603292599
+man bash
+#1603292624
+c
+#1603292629
+time (history > /tmp/foo)
+#1603292640
+time (sleep 1)
+#1603292649
+time (echo foo > /tmp/foo)
+#1603292661
+time (history > /dev/null)
+#1603292679
+time history)
+#1603292699
+time (history)
+#1603292740
+history|tail
+#1603292766
+history > /tmp/foo
+#1603292784
+history |head -1
+#1603292792
+history |tail -1
+#1603292856
+man bash
+#1603292939
+c
+#1603292949
+man bash
+#1603292956
+c
+#1603292968
+tail < /tmp/foo
+#1603292975
+tail < `history`
+#1603292989
+man bash
+#1603293017
+c
+#1603293046
+(tail /tmp/foo)
+#1603293065
+cat /tmp/foo|tail
+#1603293093
+man bash
+#1603293260
+c
+#1603293270
+lshead
+#1603293272
+cd temp-2020-10-20-backup-quizme-unmerged-paths-state/
+#1603293273
+c
+#1603293273
+gs
+#1603293275
+sm .
+#1603293332
+c
+#1603293333
+gs
+#1603293362
+cd
+#1603293365
+cdgit 
+#1603293368
+c
+#1603293368
+gs
+#1603293369
+c
+#1603293371
+cd -
+#1603293374
+cd temp-2020-10-20-backup-quizme-unmerged-paths-state/
+#1603293375
+gs
+#1603293400
+cdlearngit 
+#1603293403
+c
+#1603293411
+ls -l|less
+#1603293418
+mkdir repos-save
+#1603293419
+cd repos-save
+#1603293432
+mkdir learn-merge-unmerged-paths-git-status
+#1603293432
+c
+#1603293436
+cd learn-merge-unmerged-paths-git-status
+#1603293437
+c
+#1603293439
+git init .
+#1603293444
+echo myfile > myfile
+#1603293451
+c
+#1603293451
+gs
+#1603293468
+git stash
+#1603293469
+gs
+#1603293476
+git add .
+#1603293498
+gco -m'initial'
+#1603293499
+c
+#1603293499
+gs
+#1603293504
+echo newfile > newfile
+#1603293506
+git stash
+#1603293508
+gs
+#1603293513
+git stash -u
+#1603293516
+git stash show
+#1603293524
+git stash list
+#1603293529
+git stash show
+#1603293534
+git stash show -p
+#1603293549
+c
+#1603293549
+gs
+#1603293569
+echo newfile > newfile-2
+#1603293578
+echo newfile-2 > newfile
+#1603293582
+rm *2
+#1603293583
+c
+#1603293583
+gs
+#1603293585
+gd
+#1603293588
+git stash pop
+#1603293603
+c
+#1603293606
+rm newfile 
+#1603293609
+git stash pop
+#1603293611
+gs
+#1603293613
+rm newfile 
+#1603293614
+c
+#1603293615
+gs
+#1603293650
+c
+#1603293652
+cat myfile 
+#1603293658
+vim myfile 
+#1603293668
+gd
+#1603293730
+git stash
+#1603293731
+gs
+#1603293734
+vim myfile 
+#1603293745
+gd
+#1603293810
+sm .
+#1603294096
+git stash pop
+#1603294125
+gd
+#1603294135
+gs
+#1603294142
+git checkout .
+#1603294143
+gs
+#1603294160
+vim myfile
+#1603294182
+gca
+#1603294189
+gs
+#1603294198
+git stash pop
+#1603294217
+gs
+#1603294235
+gd
+#1603294384
+$ gd
+#1603294384
+      1 diff --cc myfile
+#1603294384
+      2 index 272f3c9,f196f95..0000000
+#1603294384
+      3 --- a/myfile
+#1603294384
+      4 +++ b/myfile
+#1603294384
+      5 @@@ -1,1 -1,1 +1,5 @@@
+#1603294384
+      6 ++<<<<<<< Updated upstream
+#1603294384
+      7  +CHANGED AND COMMITTED myfile
+#1603294384
+      8 ++=======
+#1603294385
+      9 + MODIFIED myfile
+#1603294387
+c
+#1603294387
+gs
+#1603294388
+gd
+#1603294417
+vim myfile 
+#1603294424
+git diff
+#1603294441
+gs
+#1603294443
+gd
+#1603294563
+cd temp-2020-10-20-backup-quizme-unmerged-paths-state/
+#1603294563
+gs
+#1603295407
+man patch
+#1603296159
+git apply --help
+#1603290603
+vq
+#1603290918
+time (history > /tmp/foo)
+#1603290931
+time (history |tail)
+#1603290944
+history > /tmp/foo
+#1603291169
+history|wc -l
+#1603296347
+vp
+#1603296395
+history > /dev/null
+#1603296398
+(history > /dev/null)
+#1603296408
+time (history > /dev/null)
+#1603296414
+time history > /dev/null
+#1603296427
+date; history > /dev/null; date
+#1603296431
+date; (history > /dev/null); date
+#1603296278
+vp
+#1603300708
+vq
+#1603300796
+type vq
+#1603300812
+grrc quizme
+#1603303917
+cd tmp/
+#1603303918
+gs
+#1603303919
+c
+#1603303925
+cat .gitignore 
+#1603304001
+vim resume-quizme
+#1603304164
+git add .
+#1603304165
+gs
+#1603304174
+gco -m'add resume-quizme
+'
+#1603304179
+gl
+#1603304188
+cp /tmp/new-resume resume-quizme 
+#1603304189
+gd
+#1603304205
+gco -m'updated resume-quizme'
+#1603304210
+gco -am'updated resume-quizme'
+#1603304214
+vici resume-quizme 
+#1603303935
+vq
+#1603305552
+vp
+#1603307142
+vq
