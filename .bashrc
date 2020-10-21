@@ -1814,7 +1814,7 @@ export NVM_DIR="/Users/robb/.nvm"
 # pgcli (a better psql)
 # pgrep/pkill -fil  (-f "full" -- match against full argument lists; -i "ignore" case; -l "long" output
 # ripgrep (command: rg) (a faster grep) (brew install ripgrep)
-# tidy -- an html linter (tidy myfile.html)
+# tidy -- an html linter (tidy -error myfile.html)
 # v (like "autojump", for but vim with files, using vim filehistory; 
 #   v -  ==> edit the most recent file edited
 #   v --help
