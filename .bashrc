@@ -1196,6 +1196,10 @@ function git.commit.all.modified.and.new.for.repo.of.given.file() {
 
     git commit -a -m 'Auto commit from vici'
 
+    if git remote -v | grep origin >& /dev/null; then
+        gpus
+    fi
+
     echo "================================================================================"
     git.diff.old
     echo "================================================================================"
