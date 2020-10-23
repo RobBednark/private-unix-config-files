@@ -44971,3 +44971,55 @@ vresume
 vdiary 
 #1603479142
 vdiary 
+#1603485045
+vq
+#1603489446
+vrc
+#1603485267
+docker search postgres
+#1603485316
+curl -s -S "https://registry.hub.docker.com/v2/repositories/library/$@/tags/" | jq '."results"[]["name"]' |sort
+#1603485840
+dtags () {     local image="${1}";      wget -q https://registry.hub.docker.com/v1/repositories/"${image}"/tags -O -         | tr -d '[]" ' | tr '}' '\n' | awk -F: '{print $3}'; }
+#1603485845
+dtags postgres
+#1603485848
+type wget
+#1603485861
+brew info wget
+#1603485869
+grew search wget
+#1603485872
+brew search wget
+#1603485883
+brew install wget
+#1603486585
+dtags postgres
+#1603489361
+dtags () {     local image="${1}";      wget -q https://registry.hub.docker.com/v1/repositories/"${image}"/tags -O -         | tr -d '[]" ' | tr '}' '\n' | awk -F: '{print $3}'; }
+#1603489366
+dtags postgres
+#1603489369
+dtags postgres|less
+#1603489393
+dtags postgres|grep 13
+#1603484777
+docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+#1603484783
+docker run -it --rm postgres psql -h some-postgres -U postgres
+#1603484792
+docker run -it --rm postgres psql -h postgres -U postgres
+#1603484796
+docker run -it --rm postgres psql -U postgres
+#1603484880
+docker run -it --rm postgres psql -h some-postgres -U postgres
+#1603484984
+docker run my-postres bash
+#1603485032
+docker run postres:latest-aline bash
+#1603485037
+docker run postres:latest-alpine bash
+#1603489406
+docker run postres:13-alpine bash
+#1603489431
+docker run postres:latest bash
