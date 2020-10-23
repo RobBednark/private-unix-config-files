@@ -350,8 +350,8 @@ alias cdvagrant="cd ~/Desktop/vagranttest"
 ################################################################################
 
 alias docker-disk-usage="docker system df"
-alias docker.rm.prune.everything="(set -x; time docker system prune --all --volumes)"
-alias docker.rm.prune.everything.2="(set -x; date; docker.rm.prune.everything; time docker-compose down -v; time ./bin/clean-docker.sh; time ./bin/reset.sh)"
+alias docker-rm-prune-everything="(set -x; time docker system prune --all --volumes)"
+alias docker-rm-prune-everything.2="(set -x; date; docker.rm.prune.everything; time docker-compose down -v; time ./bin/clean-docker.sh; time ./bin/reset.sh)"
 alias docker-exec="echo 'docker exec -it {container-name} bash'"
 alias docker-run="docker run -it --rm"  # e.g., docker-run alpine /bin/sh  (pull the "alpine" image from docker hub and run it)
 alias docker-run-alpine="docker run -it --rm alpine sh"  # e.g., docker-run alpine /bin/sh  (pull the "alpine" image from docker hub and run it)
