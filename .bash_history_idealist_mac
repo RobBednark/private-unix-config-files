@@ -44909,3 +44909,65 @@ set|grep Dir
 set|grep DirTmp
 #1603476768
 echo $DirTmp
+#1603475661
+vq
+#1603476699
+vrc
+#1603476810
+vresume
+#1603476845
+type vresume
+#1603476849
+echo $DirTmp
+#1603476853
+cd $DirTmp
+#1603476864
+vrc
+#1603477279
+cd tmp/
+#1603477279
+gs
+#1603477283
+type vici
+#1603477293
+git.commit.all.modified.and.new.for.repo.of.given.file resume-quizme 
+#1603477302
+type git.commit.all.modified.and.new.for.repo.of.given.file resume-quizme 
+#1603477311
+type git.diff.old
+#1603477322
+gs
+#1603476883
+echo $DirGithut
+#1603476886
+echo $DirGithub
+#1603476887
+cd $DirGithub
+#1603476893
+ls -ld
+#1603476912
+echo $DirQuizMeProd/
+#1603476914
+echo $DirQuizMeProd
+#1603476930
+ls -ld ~/tmp
+#1603476942
+echo $DirTmp
+#1603476946
+cd $DirTmp
+#1603476971
+dotrc
+#1603476975
+cd $DirTmp 
+#1603476999
+dotrc
+#1603477001
+cd $DirTmp 
+#1603477003
+cd
+#1603477007
+vresume
+#1603480091
+vdiary 
+#1603479142
+vdiary 
