@@ -45023,3 +45023,135 @@ docker run postres:latest-alpine bash
 docker run postres:13-alpine bash
 #1603489431
 docker run postres:latest bash
+#1603489726
+j st
+#1603489729
+j post
+#1603489733
+vim README 
+#1603491145
+gs
+#1603491149
+git add README 
+#1603491151
+gca
+#1603490358
+vrc
+#1603484346
+j po
+#1603484350
+cat docker-compose.yml 
+#1603484355
+vim README
+#1603489596
+docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+#1603489602
+docker run -it --rm postgres psql -h some-postgres -U postgres
+#1603489623
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+#1603489627
+dc ps
+#1603489631
+docker ps
+#1603489635
+docker ps -a
+#1603489643
+docker-rm-everything 
+#1603489655
+docker ps -a
+#1603489658
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+#1603489681
+dc ps
+#1603489700
+docker run --help
+#1603489709
+docker ps -a
+#1603489774
+docker-rm-everything 
+#1603489784
+docker run --name my-postgres-container -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+#1603489810
+docker ps -a
+#1603489812
+ docker run -it --rm postgres psql -h some-postgres -U postgres
+#1603489822
+ docker run -it --rm postgres psql -h my-postgres-container -U postgres
+#1603489882
+docker run --help|less
+#1603489907
+ docker exec -it my-postgres-container psql -h my-postgres-container -U postgres
+#1603489922
+ docker exec -it my-postgres-container psql -h localhost -U postgres
+#1603490463
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+#1603490472
+docker ps -a
+#1603490510
+docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+#1603490535
+docker network -h
+#1603490541
+docker network create -h
+#1603490546
+docker network create some-network
+#1603490552
+docker network list
+#1603490571
+docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+#1603490582
+docker ps -a
+#1603490589
+docker run -h
+#1603490593
+docker run --help|less
+#1603490602
+jobs
+#1603490603
+pwd
+#1603490605
+/run
+#1603490613
+type docker-rm-everything 
+#1603490627
+vrc
+#1603490664
+docker-rm-everything-except-images 
+#1603490676
+docker network list
+#1603490692
+grrc docker
+#1603490719
+vrc
+#1603490824
+docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+#1603490852
+docker network list
+#1603490854
+docker network list -a
+#1603490858
+docker network list --help
+#1603490870
+docker ps -a
+#1603490880
+docker image -a
+#1603490884
+docker image ls -a
+#1603490889
+c
+#1603490890
+gs
+#1603490954
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword --network some-network -d postgres
+#1603490958
+docker ps -a
+#1603491017
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword --network some-network -d postgres
+#1603491032
+docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+#1603491157
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword --network some-network -d postgres
+#1603491166
+type docker.rm.prune.everything
+#1603491170
+docker.rm.prune.everything
