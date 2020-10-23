@@ -230,7 +230,7 @@ DirQuizMePersonal=$DirGit/quizme_personal_files
 DirReadOnly="$DirRbednark/read.only"
 DirRepoRobBednarkGithubIO="$DirReposRob/robbednark.github.io"
 DirSync="$DirRbednark/sync"
-DirTmp="~/tmp"
+DirTmp=~/tmp
 DirUnixConfigFiles="$DirDropbox/Rob/unix.config.files"
 
 URL_robbednark_github_io='https://robbednark.github.io'
@@ -753,7 +753,7 @@ alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary"
 alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
-alias vresume='cd $DirTmp; vici *resume*; cdprivate-rbednark-general; vici *resume*'
+alias vresume="cd $DirTmp; vici *resume*; cdprivate-rbednark-general; vici *resume*"
 alias vresume-all=vjobsearch
 alias vresume.word="open -a 'Microsoft Word' $DirDropbox/Documents/Rob.Bednark.resume.docx"
 alias vselenium="vici $DirQuiz/db_selenium"
