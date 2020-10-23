@@ -918,6 +918,17 @@ function docker-rm-everything() {
      time docker images --all
     )
 }
+function docker-rm-everything-except-images() {
+    (set -x;
+     time docker stop $(docker ps --all --quiet) # stop all running containers
+     time docker rm $(docker ps --all --quiet) # remove all containers
+     time docker rmi --force $(docker images --all --quiet) # remove all images
+     time docker volume rm $(docker volume ls --quiet) # remove all volumes
+     time docker ps --all
+     time docker volume ls
+     # time docker images --all
+    )
+}
 function docker-search-list-tags () {  # e.g., docker-search-list-tags postgres
     # https://nickjanetakis.com/blog/docker-tip-81-searching-the-docker-hub-on-the-command-line
     # Note that this uses the older v1 endpoint
