@@ -918,12 +918,21 @@ function docker-rm-everything() {
      time docker images --all
     )
 }
-function docker-search-tags () {  # e.g., docker-search-tags postgres
+function docker-search-list-tags () {  # e.g., docker-search-list-tags postgres
     # https://nickjanetakis.com/blog/docker-tip-81-searching-the-docker-hub-on-the-command-line
     # Note that this uses the older v1 endpoint
     local image="${1}"
     wget -q https://registry.hub.docker.com/v1/repositories/"${image}"/tags -O - \
         | tr -d '[]" ' | tr '}' '\n' | awk -F: '{print $3}'
+}
+function docker-search-list-tags2() {  # e.g., docker-search-list-tags2 postgres
+    NOTE: this fails to complete; it should be looking at the number of return results
+    name=${1}
+    i=0
+    while [ $? == 0 ]; do
+       i=$((i+1))
+       curl https://registry.hub.docker.com/v2/repositories/library/${name}/tags/?page=$i 2>/dev/null|jq '."results"[]["name"]'
+    done
 }
 function emailaddr () {
   grep -i $@ $FileEmailAddrs
