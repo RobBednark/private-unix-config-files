@@ -918,6 +918,13 @@ function docker-rm-everything() {
      time docker images --all
     )
 }
+function docker-search-tags () {  # e.g., docker-search-tags postgres
+    # https://nickjanetakis.com/blog/docker-tip-81-searching-the-docker-hub-on-the-command-line
+    # Note that this uses the older v1 endpoint
+    local image="${1}"
+    wget -q https://registry.hub.docker.com/v1/repositories/"${image}"/tags -O - \
+        | tr -d '[]" ' | tr '}' '\n' | awk -F: '{print $3}'
+}
 function emailaddr () {
   grep -i $@ $FileEmailAddrs
 }
