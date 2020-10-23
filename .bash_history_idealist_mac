@@ -44903,3 +44903,9 @@ gs
 cat .gitignore 
 #1603463374
 vim ignored-LEFT-OFF 
+#1603476761
+set|grep Dir
+#1603476765
+set|grep DirTmp
+#1603476768
+echo $DirTmp
