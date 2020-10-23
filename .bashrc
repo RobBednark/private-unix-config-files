@@ -891,6 +891,17 @@ function docker_ip_addrs() {
         echo $_addr $_service
     done
 }
+function docker-list-all-stuff() {
+    set -x
+    docker container ls -a
+    docker image ls -a
+    docker network ls
+    docker ps -a
+    docker system df
+    docker volume ls
+    docker system info
+    set +x
+}
 function docker-recreate-container() {
     set -x
     _container="$1"

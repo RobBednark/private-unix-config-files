@@ -45155,3 +45155,45 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword --network 
 type docker.rm.prune.everything
 #1603491170
 docker.rm.prune.everything
+#1603490809
+docker network list
+#1603491227
+docket network list
+#1603491231
+docker network list
+#1603491253
+docker ps -a
+#1603491355
+docker image ls
+#1603491357
+docker image ls -a
+#1603491394
+docker network ls -h
+#1603491409
+docker container
+#1603491413
+docker container ls -a
+#1603491416
+docker container ls -h
+#1603491452
+docker volume ls -a
+#1603491456
+docker volume ls 
+#1603491461
+docker volume ls -h
+#1603491472
+dotrc
+#1603491474
+docker-list-all-stuff 
+#1603491504
+docker system -h
+#1603491509
+docker system df
+#1603491536
+dotrc
+#1603491539
+docker-list-all-stuff 
+#1603491578
+docker
+#1603491618
+docker --help|less
