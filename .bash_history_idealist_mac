@@ -44167,3 +44167,739 @@ type git.commit.all.modified.and.new.for.repo.of.given.file
 vrc
 #1603308475
 vdiary 
+#1603309236
+cd .vim/view/
+#1603309238
+lshead
+#1603309254
+vim -R ~=+Dropbox=+bin=+learn=+quiz.python=+db=+db_diary=
+#1603307604
+ping.monitor 
+#1603308005
+c
+#1603308006
+ping.monitor 
+#1603308009
+jobs
+#1603308013
+kill %1 %2
+#1603308014
+jobs
+#1603308015
+c
+#1603308017
+ping.monitor 
+#1603310914
+jobs
+#1603310917
+kill %1
+#1603310918
+jobs
+#1603308981
+grrc gutt
+#1603308989
+gvimrc gutt
+#1603308995
+vvimrc 
+#1603309028
+c
+#1603309032
+gvimrc gutt
+#1603315180
+cdlearn
+#1603315181
+vim stackoverflow_ask_template.txt 
+#1603315187
+gs
+#1603315194
+ls -ld *template*
+#1603315205
+gs
+#1603315207
+gs -u
+#1603315212
+gs -uno
+#1603315221
+gco
+#1603315238
+gs
+#1603315240
+gs -uno
+#1603315261
+git remove -v
+#1603315265
+git remote -v
+#1603315294
+ls -ld *template*
+#1603315299
+vici stackoverflow_ask_template.txt 
+#1603315484
+time sleep 1 | sleep 2
+#1603315504
+time sleep 1 | echo | sleep 2
+#1603315511
+time (sleep 1 | echo | sleep 2)
+#1603309154
+cdlearn
+#1603309171
+ls -ltr *stackov*
+#1603314871
+cp template-stackoverflow-ask-template.txt learn_stackoverflow_ask_vim_gitgutter_next_prev_bracket_c_mappings_stop_working
+#1603314872
+vim learn_stackoverflow_ask_vim_gitgutter_next_prev_bracket_c_mappings_stop_working
+#1603315546
+vici learn_stackoverflow_ask_vim_gitgutter_next_prev_bracket_c_mappings_stop_working
+#1603314948
+cdlearn
+#1603314983
+cp stackoverflow_ask_template.txt learn-ask-stackoverflow-why-bash-history-in-subshell-is-10x-slower
+#1603314984
+vim learn-ask-stackoverflow-why-bash-history-in-subshell-is-10x-slower
+#1603315541
+vici learn-ask-stackoverflow-why-bash-history-in-subshell-is-10x-slower
+#1603314991
+vp
+#1603309073
+vq
+#1603308934
+cdqn
+#1603308934
+gd
+#1603308954
+c
+#1603308955
+gd
+#1603315634
+sm .
+#1603315800
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603315800
+python manage.py runserver --insecure
+#1603315799
+rqo
+#1603315697
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603315697
+python manage.py runserver --insecure
+#1603315712
+gs
+#1603315713
+gd
+#1603315715
+gdc
+#1603315720
+gco
+#1603315767
+vim README.md 
+#1603315780
+gs
+#1603315784
+git stash pop
+#1603315786
+gd
+#1603315817
+gpus
+#1603315844
+git push --verbose
+#1603315850
+type gpus
+#1603315854
+gs
+#1603315868
+gca
+#1603316039
+gpus
+#1603308790
+cdqn
+#1603308816
+gs
+#1603308817
+gd
+#1603308832
+gs
+#1603308834
+git add -p
+#1603308881
+gs
+#1603308883
+git reset
+#1603308884
+gs
+#1603308891
+gd
+#1603308902
+git add -p
+#1603308948
+gs
+#1603308959
+vi
+#1603315655
+gs
+#1603315677
+cp questions/templates/flashcard.html /tmp
+#1603315684
+gd
+#1603315686
+gdc
+#1603315691
+git stash --keep-index
+#1603315692
+gs
+#1603315696
+rqo
+#1603315833
+git push --help
+#1603323931
+vdiary 
+#1603326141
+cdqn
+#1603326142
+gs
+#1603326146
+vim Dockerfile 
+#1603326151
+gs
+#1603326154
+vim *yml
+#1603326905
+vq
+#1603326575
+grrc readme
+#1603326583
+vqtodo 
+#1603326746
+gs
+#1603326747
+gd
+#1603326749
+cdqn
+#1603326750
+gs
+#1603326752
+gd
+#1603326768
+git add TODO.md 
+#1603326770
+grip TODO.md 
+#1603326786
+gs
+#1603326789
+gco
+#1603326848
+vim TODO.md 
+#1603326880
+vim
+#1603326951
+gs
+#1603326954
+git add TODO.md 
+#1603326956
+gdc
+#1603326959
+gco
+#1603326496
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603326496
+python manage.py runserver --insecure
+#1603326162
+j ng
+#1603326166
+cat *yml
+#1603326192
+vim *yml
+#1603326316
+vim Docker*
+#1603326381
+vim *ock*
+#1603326429
+cd ..
+#1603326442
+cd learn-nginx-on-alpine/
+#1603326445
+cat Dockerfile 
+#1603326448
+cd ..
+#1603326451
+cd *lt
+#1603326456
+vim *
+#1603326494
+rqo
+#1603326506
+vp
+#1603330075
+vq
+#1603330649
+type vq
+#1603330656
+grrc add.to.q
+#1603330665
+cdadd-to-quizme 
+#1603330665
+gs
+#1603330669
+git remote -v
+#1603330676
+ls -al
+#1603330899
+git remote add origin git@github.com:RobBednark/private-add-to-quizme.git
+#1603330901
+gpus
+#1603330927
+vq
+#1603331764
+git remote -v
+#1603331772
+ping github.com
+#1603331795
+if ping github.com; then echo yes; done
+#1603331804
+if ping github.com; then echo yes; fi
+#1603341659
+man bash
+#1603341712
+time sleep 1
+#1603341714
+man time
+#1603341724
+time -p sleep 1
+#1603341770
+history > /tmp/history
+#1603341772
+wc -l /tmp/history
+#1603342575
+(type history)
+#1603342577
+type history
+#1603341908
+history > /dev/null
+#1603341908
+(history > /dev/null)
+#1603341912
+time history > /dev/null
+#1603341912
+time (history > /dev/null)
+#1603341917
+date; history > /dev/null; date
+#1603341917
+date; (history > /dev/null); date
+#1603341921
+# each command in a pipeline is executed in a subshell (bash(1))
+#1603341921
+date; history | tail -1; date
+#1603342152
+export PS1='$ '
+#1603342154
+c
+#1603342155
+history > /dev/null
+#1603342155
+(history > /dev/null)
+#1603342160
+time history > /dev/null
+#1603342160
+time (history > /dev/null)
+#1603342165
+date; history > /dev/null; date
+#1603342165
+date; (history > /dev/null); date
+#1603342170
+# each command in a pipeline is executed in a subshell (bash(1))
+#1603342170
+date; history | tail -1; date
+#1603342197
+date; history | tail -1 > /dev/null; date
+#1603342221
+c
+#1603342241
+history > /dev/null
+#1603342242
+(history > /dev/null)
+#1603342246
+time history > /dev/null
+#1603342246
+time (history > /dev/null)
+#1603342251
+date; history > /dev/null; date
+#1603342251
+date; (history > /dev/null); date
+#1603342256
+# each command in a pipeline is executed in a subshell (bash(1))
+#1603342256
+date; history | tail -1 > /dev/null; date
+#1603342085
+bc -l
+#1603341527
+cdlearn
+#1603341529
+lshead
+#1603341531
+gs
+#1603341563
+ls 72c67723b5762f5a2b10/
+#1603341576
+vici learn-ask-stackoverflow-why-bash-history-in-subshell-is-10x-slower
+#1603344919
+bash --version
+#1603345003
+history|wc -l
+#1603344812
+cdlearn
+#1603344813
+lshead
+#1603344818
+vici learn-ask-stackoverflow-why-bash-history-in-subshell-is-10x-slower
+#1603378816
+ssh root@45.79.99.69
+#1603377213
+vq
+#1603388880
+vdiary 
+#1603389374
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603389374
+python manage.py runserver --insecure
+#1603389717
+vp
+#1603389402
+cd tmp/
+#1603389403
+lshead
+#1603389410
+vici resume-quizme 
+#1603389214
+vp
+#1603389233
+pwd
+#1603389234
+jobs
+#1603389234
+gs
+#1603389242
+type vp
+#1603389244
+cd tmp/
+#1603389244
+s
+#1603389245
+gs
+#1603389250
+git log -p paste
+#1603389272
+vresume
+#1603389330
+vdiary 
+#1603389344
+vq
+#1603389373
+rqo
+#1603390203
+python --version
+#1603390212
+python3 --version
+#1603390228
+uname -a
+#1603390285
+docker-run-alpine
+#1603390106
+vq
+#1603390733
+vp
+#1603392246
+cddockerlearn 
+#1603392247
+gs
+#1603392271
+mkdir learn-postgres
+#1603392272
+cd learn-postgres
+#1603392274
+git init .
+#1603392294
+vim docker-compose.yml
+#1603392228
+cdqn
+#1603392230
+gpus
+#1603392235
+gs
+#1603392237
+vim docker-compose.yml 
+#1603393165
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603393161
+type vdiary
+#1603393164
+cdq
+#1603393168
+cdquiz
+#1603393171
+gs
+#1603393175
+git remoe -v
+#1603393177
+git remote -v
+#1603393184
+git.rev-parse.show.toplevel.repo.dir 
+#1603393295
+git remote add origin git@github.com:RobBednark/private-quiz-db.git
+#1603393297
+gpus
+#1603393373
+vdiary 
+#1603393238
+cdquiz
+#1603393246
+lshead
+#1603393259
+ls -ltr
+#1603393315
+cdquiz
+#1603393317
+du -hs .
+#1603393321
+ls -lh
+#1603393325
+ls -lht
+#1603393329
+man ls
+#1603393349
+ls -lhS
+#1603393359
+ls -al
+#1603393363
+find . -type d
+#1603392225
+vig
+#1603392819
+vdiary 
+#1603392828
+vq
+#1603417847
+j gr
+#1603417856
+cd ..
+#1603417864
+rg postgres
+#1603417866
+rg postgres .
+#1603417869
+rg -h
+#1603417914
+grep -ri postgres .
+#1603417931
+grep -ri . .|head
+#1603417952
+cd *gres
+#1603417956
+cat docker-compose.yml 
+#1603417963
+vim docker-compose.yml 
+#1603418234
+ docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+#1603418353
+docker run -it --rm --network some-network postgres psql -h some-postgres -U postgres
+#1603418417
+docker run -it --rm postgres psql -h some-postgres -U postgres
+#1603418445
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+#1603418451
+docker ps
+#1603418472
+docker run some-postgres bash
+#1603418479
+docker exec some-postgres bash
+#1603418484
+docker exec -h
+#1603418497
+docker exec -it some-postgres bash
+#1603417833
+j gr
+#1603417968
+cd ..
+#1603417975
+ls */*yml
+#1603417986
+vim */*yml
+#1603464438
+brew help
+#1603464460
+man brew
+#1603464465
+brew list
+#1603464471
+brew list --help
+#1603464494
+brew list -l
+#1603465107
+grrc top
+#1603465112
+glances
+#1603465813
+ping google.com
+#1603465059
+htop
+#1603466894
+passwd -l /dev/stdout rbednark
+#1603466908
+passwd -l /dev/stdout
+#1603466923
+passwd
+#1603466935
+passwd -l /dev/stdout
+#1603466957
+passwd -i file -l /dev/stdout
+#1603466982
+passwd -i file -l /tmp/out
+#1603467028
+openssl passwd -1 -stdin
+#1603467113
+openssl list-cipher-algorithms
+#1603467180
+openssl passwd -des -1 -stdin
+#1603467189
+openssl passwd -des -1 root
+#1603467286
+man openssl
+#1603467300
+crypt
+#1603467305
+brew search crypt
+#1603467330
+man openssl
+#1603467395
+openssl ienc -des -1 root
+#1603467398
+openssl enc -des -1 root
+#1603467404
+openssl enc -des-cbc -1 root
+#1603467423
+openssl enc -des-cbc root
+#1603467429
+man openssl
+#1603467442
+openssl enc -des root
+#1603467488
+openssl enc -des
+#1603467534
+cat /etc/passwd
+#1603467541
+cd /etc
+#1603467548
+find . -name '*shadow*' 
+#1603467553
+find . -name '*passwd*' 
+#1603467568
+vim $(find . -name '*passwd*' )
+#1603467707
+openssl des3
+#1603467721
+openssl des3 -out /tmp/out
+#1603467729
+cat /tmp/out
+#1603467844
+openssl enc -des-ecb -nopad
+#1603467860
+openssl enc -des-ecb -nopad -K 5B5A57676A56676E | xxd -ps
+#1603467878
+openssl enc -des-ecb -nopad -K 5B5A57676A56676E 
+#1603467884
+man xxd
+#1603467925
+penssl dgst -sha1 -hmac "key"
+#1603467927
+openssl dgst -sha1 -hmac "key"
+#1603467992
+man passwd
+#1603468031
+docker-run-alpine 
+#1603468493
+pwd
+#1603468511
+hostname
+#1603468517
+docker-run-alpine 
+#1603464256
+brew search john
+#1603464311
+brew install john
+#1603464347
+brew info john
+#1603464354
+brew search john
+#1603464366
+type john
+#1603464510
+man john
+#1603464516
+john --help|less
+#1603464520
+john -h|less
+#1603464525
+john
+#1603464735
+echo foo > /tmp/john-input
+#1603464878
+john /tmp/john-input 
+#1603464967
+echo root | sha
+#1603464971
+echo root | bcrypt
+#1603464978
+man -k encrypt
+#1603464984
+md5
+#1603464989
+echo root | md5
+#1603465005
+echo root | md5 > john -
+#1603465010
+echo root | md5 | john -
+#1603465012
+echo root | md5 | john 
+#1603465019
+echo root | md5 | john  -
+#1603465028
+echo root | md5 > /tmp/john-input
+#1603465032
+john /tmp/john-input 
+#1603466777
+man md5
+#1603466810
+man sha
+#1603466839
+man passwd
+#1603467040
+man openssl
+#1603467228
+makepasswd
+#1603467236
+brew search makepasswd
+#1603468077
+cat /tmp/john-input 
+#1603463243
+vq
+#1603466743
+vp
+#1603463311
+grrc quiz
+#1603463328
+grrc vq
+#1603463341
+grrc cdq
+#1603463350
+cdqp
+#1603463350
+gs
+#1603463352
+git remote -v
+#1603463354
+gpus
+#1603463357
+c
+#1603463357
+gs
+#1603463367
+cat .gitignore 
+#1603463374
+vim ignored-LEFT-OFF 
