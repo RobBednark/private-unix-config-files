@@ -45197,3 +45197,163 @@ docker-list-all-stuff
 docker
 #1603491618
 docker --help|less
+#1603491633
+docker config ls 
+#1603491640
+docker container ls
+#1603491647
+docker node ls
+#1603491654
+docker secret ls
+#1603491658
+docker image ls
+#1603491665
+docker service ls
+#1603491258
+vrc
+#1603489980
+i=0
+#1603489980
+while [ $? == 0 ]; do     i=$((i+1));    curl https://registry.hub.docker.com/v2/repositories/library/debian/tags/?page=$i 2>/dev/null|jq '."results"[]["name"]';  done
+#1603490017
+vim /tmp/func
+#1603490111
+vq
+#1603484217
+docker run -it --rm postgres psql -h some-postgres -U postgres
+#1603484243
+docker 
+#1603484246
+echo $?
+#1603484249
+docker run -it --rm postgres psql -h some-postgres -U postgres
+#1603484842
+vim <(history)
+#1603491703
+vq
+#1603503428
+type docker-run-alpine 
+#1603503945
+history > /tmp/history
+#1603503947
+vim /tmp/history
+#1603501372
+vp
+#1603504432
+docker-run-alpine 
+#1603504832
+docker run -t -i kalilinux/kali-rolling /bin/bash
+#1603502339
+docker-run-alpine 
+#1603503927
+vq
+#1603505825
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+#1603505828
+type openssl
+#1603505832
+openssl
+#1603505843
+echo abc | openssl passwd -6 -stdin
+#1603505851
+john <(echo abc | openssl passwd -6 -stdin)
+#1603506105
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
+#1603506108
+type openssl
+#1603506120
+echo abc|openssl -6 -stdin
+#1603506125
+echo abc|openssl passwd -6 -stdin
+#1603506130
+john <(echo abc|openssl passwd -6 -stdin)
+#1603506146
+cat <(echo abc|openssl passwd -6 -stdin)
+#1603506151
+john <(echo abc|openssl passwd -6 -stdin)
+#1603506153
+john -v
+#1603506155
+john --version
+#1603506188
+john <(echo abc|openssl passwd -6 -stdin)
+#1603505539
+vp
+#1603506239
+docker-run-alpine 
+#1603506735
+vq
+#1603518016
+glances
+#1603505488
+john <(echo atap@33S.ln | openssl passwd -6)
+#1603505495
+echo atap@33S.ln | openssl passwd -6
+#1603505508
+echo atap@33S.ln | openssl passwd -stdin
+#1603505522
+man openssl
+#1603505552
+echo atap@33S.ln | openssl passwd -6 -stdin
+#1603505557
+openssl --version
+#1603505562
+openssl -v
+#1603505567
+type openssl
+#1603505576
+brew install openssl
+#1603505610
+type openssl
+#1603505614
+brew info openssl
+#1603505729
+man openssl
+#1603505739
+which openssl
+#1603505742
+whereis openssl
+#1603505751
+brew info openssl
+#1603505872
+docker-run-alpine 
+#1603549732
+type ping.monitor
+#1603549740
+cd tmp
+#1603549741
+ls -altr
+#1603549745
+cat *217
+#1603549814
+ping google.com
+#1603549711
+ping.monitor 
+#1603549885
+jobs
+#1603549887
+kill %1
+#1603549891
+type ping.monitor
+#1603549911
+echo foo | tee | read x | echo $x
+#1603550102
+vp
+#1603549782
+vdiary 
+#1603550784
+vig 
+#1603550800
+cdqn
+#1603550800
+gs
+#1603550802
+gd
+#1603550930
+vq
+#1603556580
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603556582
+gpus
+#1603556579
+cdq
