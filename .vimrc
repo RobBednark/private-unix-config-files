@@ -440,7 +440,7 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 " :call myFunc  ==> call the myFunc() function
 " :help function ==> list all built-in functions
 " :redir @a    :map     :redir END     ==> redirect output of ":map" to the @a buffer
-
+" :tabnew myfile  ==> open file in a new tab
 " ================================================================================
 " The End.
 " ================================================================================
