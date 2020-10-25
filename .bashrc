@@ -1554,12 +1554,13 @@ function vim.ls.head() { # latest / newest / recent / head
     files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
     vim $files
 }
-function vim.last.n.files() {  # latest / newest / recent / head
+function vim.last.n.files() {  # latest / newest / recent / head; e.g., vim.last.n.files foo 2  (looks for *foo*)
     echo "e.g., vim.last.n.files '*report' 10" > /dev/null
     pattern=$1
     number=$2
     # Need to quote the filenames, in case they have spaces in them, like the chat logs do.
-    vim `ls -1t $pattern | head -$number`
+    files=`ls -1t *${pattern}* | head -$number`
+    vim `ls -1t "*${pattern}*" | head -$number`
     #files=""
     #for oneFile in `ls -1t $pattern | head -$number`; do
         #files="$files \"'\"$oneFile\"'\" " 

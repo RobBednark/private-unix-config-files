@@ -45395,3 +45395,75 @@ gpus
 vq
 #1603558258
 vdiary 
+#1603568644
+j lear
+#1603568649
+cdlearn
+#1603568651
+lshead
+#1603568742
+vim.last.n.files 3
+#1603568746
+type vim.last.n.files 3
+#1603568785
+type vim.last.n.files
+#1603568874
+dotrc
+#1603568877
+type vim.last.n.files
+#1603568883
+vim.last.n.files sh 2
+#1603568912
+(set -x; vim.last.n.files sh 2)
+#1603568921
+set -x; vim.last.n.files sh 2
+#1603568966
+dotrc
+#1603568973
+vim.last.n.files sh
+#1603568978
+vim.last.n.files sh 2
+#1603568985
+set -xv
+#1603568986
+vim.last.n.files sh 2
+#1603568999
+type vim.last.n.files
+#1603569007
+type vim.last.n.files >& /tmp/out
+#1603569012
+vim /tmp/out
+#1603569022
+(type vim.last.n.files) >& /tmp/out
+#1603569048
+type vim.last.n.files
+#1603569211
+files=`ls -1t "*${pattern}*" | head -$number`
+#1603569218
+cd /tmp
+#1603569233
+pattern=htm
+#1603569236
+number=1
+#1603569239
+files=`ls -1t "*${pattern}*" | head -$number`
+#1603569244
+ls *htm*
+#1603569278
+files=`ls -1t *${pattern}* | head -$number`
+#1603569282
+echo $files
+#1603569288
+ls -ltr *htm*
+#1603569321
+dotrc
+#1603569327
+vim.last.n.files htm 1
+#1603569063
+cdlearn
+#1603569067
+ls *stack*last*
+#1603569094
+cp stackoverflow_ask_template.txt learn_stackoverflow_vim_latest_n_files.txt
+#1603569097
+vici learn_stackoverflow_vim_latest_n_files.txt
