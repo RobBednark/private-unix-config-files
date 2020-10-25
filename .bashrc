@@ -1560,7 +1560,7 @@ function vim.last.n.files() {  # latest / newest / recent / head; e.g., vim.last
     number=$2
     # Need to quote the filenames, in case they have spaces in them, like the chat logs do.
     files=`ls -1t *${pattern}* | head -$number`
-    vim `ls -1t "*${pattern}*" | head -$number`
+    vim $files
     #files=""
     #for oneFile in `ls -1t $pattern | head -$number`; do
         #files="$files \"'\"$oneFile\"'\" " 
