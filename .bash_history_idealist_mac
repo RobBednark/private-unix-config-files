@@ -45513,3 +45513,11 @@ lshead
 jobs
 #1603644820
 ps -ealf|grep vim
+#1603644079
+vq
+#1603645210
+cdlarn
+#1603645212
+cdlearn
+#1603645254
+vim
