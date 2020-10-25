@@ -45467,3 +45467,49 @@ ls *stack*last*
 cp stackoverflow_ask_template.txt learn_stackoverflow_vim_latest_n_files.txt
 #1603569097
 vici learn_stackoverflow_vim_latest_n_files.txt
+#1603568666
+grrc last
+#1603568689
+cd /tmp
+#1603568690
+ls -ltr
+#1603568701
+vrc
+#1603607439
+man jq
+#1603640611
+l
+#1603640502
+john <(echo a | openssl passwd -6)
+#1603640552
+docker-run-alpine 
+#1603607332
+vq
+#1603606994
+cdlearn
+#1603607000
+vim.last.n.files sh 2
+#1603607022
+dotrc
+#1603607024
+vim.last.n.files sh 2
+#1603607031
+type vim.last.n.files sh 2
+#1603607061
+dotrc
+#1603607063
+type vim.last.n.files sh 2
+#1603607066
+vim.last.n.files sh 2
+#1603607238
+grrc curl
+#1603644791
+jobs
+#1603644795
+set +xv
+#1603644812
+lshead
+#1603644816
+jobs
+#1603644820
+ps -ealf|grep vim
