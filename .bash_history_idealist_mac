@@ -45541,3 +45541,7 @@ ls *string*sh
 vim learn-concatenate-strings.bash
 #1603646245
 man bash
+#1603649349
+vrc
+#1603649357
+vvimrc 
