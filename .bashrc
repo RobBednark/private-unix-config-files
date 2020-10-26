@@ -731,7 +731,7 @@ alias vjobsearch2016="vici $DirQuiz/job_search_Sep_2016"
 alias vjobsearch="(cdprivate-rbednark-general; vim rob-bednark-resume.txt; vici $DirQuiz/*cover_letters* $DirQuiz/job_search_Sep_2016 $DirQuiz/portland.job.scene $DirQuiz/job.search.Aug.2015 $DirQuiz/db_resume $DirDoc/cover.letters.txt $DirDoc/job.openings.descriptions.txt $DirQuiz/job.descriptions $DirQuiz/job.references)"
 alias vjournaling="cd $DirQuiz; vici db_journaling"  # diary scratch
 alias vjs="vici $DirLearn/javascript/learn_javascript_lang_elements.js"
-alias vl4="vim.last.n.files 4"
+alias vl4="vici.last.n.files 4"
 alias vlatest-files='vim.ls.head 20'
 alias vlearn="cd $DirQuiz; vici db_learn"
 alias vm="vici $DirMoovel/moovel.txt"
@@ -1555,18 +1555,13 @@ function vim.ls.head() { # latest / newest / recent / head
     files=`find * -type f -prune | xargs \ls -1dt | head -${number}`
     vim $files
 }
-function vim.last.n.files() {  # latest / newest / recent / head; e.g., vim.last.n.files foo 2  (looks for *foo*)
-    echo "e.g., vim.last.n.files '*report' 10" > /dev/null
+function vici.last.n.files() {  # latest / newest / recent / head; e.g., vici.last.n.files 2 foo  (looks for *foo*)
+    echo "e.g., vici.last.n.files '*report' 10" > /dev/null
     number=$1
     pattern=$2
     # Need to quote the filenames, in case they have spaces in them, like the chat logs do.
     files=`ls -1t *${pattern}* | head -$number`
-    vim $files
-    #files=""
-    #for oneFile in `ls -1t $pattern | head -$number`; do
-        #files="$files \"'\"$oneFile\"'\" " 
-    #done
-    #vi -R $files
+    vici $files
 }
 function vim.files.with.pattern() {
     echo "e.g., vim.files.with.pattern 'FAILED' '*.runxml.log*' 10" > /dev/null
