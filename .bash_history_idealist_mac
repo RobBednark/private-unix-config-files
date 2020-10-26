@@ -45735,3 +45735,25 @@ rqo
 type vl4
 #1603732212
 type vici.last.n.files
+#1603732466
+cd /tmp
+#1603732469
+cd myrepo/
+#1603732470
+gs
+#1603732475
+git.commit.all.modified.and.new.for.repo.of.given.file 
+#1603732497
+basename
+#1603732504
+dirname
+#1603732534
+basename myfile .git
+#1603732540
+dirname myfile .git
+#1603732566
+cd /tmp
+#1603732566
+gs
+#1603732593
+git show
