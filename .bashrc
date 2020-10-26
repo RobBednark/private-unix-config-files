@@ -533,7 +533,6 @@ alias vim.git.untracked.new='vim $(git.ls.filenames.new.untracked)'
 function vim.git.files.changed.in.commit { 
     vim $(git.show.just.filenames.for.commit $1)
 }
-#alias git.diff.old="(git difftool  --ignore-submodules=dirty --extcmd=diff --no-prompt $*)"
 
 alias help.find.delete='echo find . -name "*.pyc" -delete'
 
@@ -863,17 +862,6 @@ function dc-rebuild-container() {
      docker-compose rm --force $container;
      docker-compose build $container;
      docker-compose up --no-start $container;
-     docker-compose start $container;
-    )
-    docker-compose logs -tf --tail=10 $container;
-}
-function dc-rebuild-container-old() {
-    container=$1
-    (set -x;
-     docker-compose stop $container;
-     docker-compose rm --force $container;
-     docker-compose build $container;
-     docker-compose create $container;
      docker-compose start $container;
     )
     docker-compose logs -tf --tail=10 $container;
@@ -1266,54 +1254,6 @@ function vici () {
 
     # cd back to the directory we were in before we started
     cd $cur_dir
-}
-function vici.old () {
-    DirBase=`dirname $1`
-    # Create the RCS dir if it doesn't exist
-    mkdir -p $DirBase/RCS
-    files="$@"
-
-    rcsdiff $files
-    echo "==================================================================="
-    # checkin all the files before editing them
-    cilm $files
-    if ! rcsdiff_files_differ $files; then
-            # Assert: the files are different, even after attempting to check them all in
-            for oneFile in $files; do
-                if [ -e $oneFile ] && rcsdiff_files_differ $oneFile; then 
-                    # ASSERT: the file exists, and it differs from the RCS version
-                    rcs.show.lock $oneFile
-                    echo "ERROR: file [$oneFile] cannot be checked-in.  Want to rcs.unlock.lock? [y/N]"
-                    read resp
-                    if [ "$resp" = "y" ]; then
-                        echo "You said yes [$resp].  Unlocking and cilm"
-                        rcs.unlock.lock $oneFile
-                        rcsdiff $oneFile
-                        cilm $oneFile
-                        rcs.show.lock $oneFile
-                        echo "Hit return to continue..."; read foo
-                    else
-                        echo "you said NO [$resp]"
-                    fi
-                elif [ ! -e $oneFile ] && [ -e RCS/$oneFile,v ]; then
-                    echo "WARNING: [$oneFile] does not exist but [RCS/$oneFile,v] does exist."
-                    echo "Hit return to continue..."; read foo
-                else
-                    # either the file is not different from the RCS version,
-                    # or else this is a new file that has not yet been created and saved.
-                    :
-                fi
-                set +xv
-            done
-    fi
-    echo "Hit return to continue..."; read x
-    # Edit the files
-    vim $files
-    # Show the diffs
-    rcsdiff $files
-    echo "==================================================================="
-    # Checkin the files again
-    cilm $files
 }
 function vabout() { 
     title aboutMe
