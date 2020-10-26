@@ -46005,3 +46005,29 @@ vim learn-mt-park-rec-center-signup-pool-login.sh
 type v
 #1603754195
 which v
+#1603754221
+cd .unix.config.files
+#1603754224
+git show
+#1603754232
+ls -latr
+#1603754236
+vi .bash_history_idealist_mac 
+#1603754279
+gd
+#1603754289
+gs
+#1603754292
+git add .
+#1603754293
+gs
+#1603754300
+git commit --amend
+#1603754306
+git show
+#1603754309
+gpus
+#1603754316
+git push -f
+#1603754205
+vrc
