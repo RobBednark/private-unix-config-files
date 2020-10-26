@@ -45839,3 +45839,109 @@ git show
 vim .gitignore 
 #1603737701
 gs
+#1603737858
+echo -e 'foo\nbar'
+#1603737867
+echo -e 'foo\nbar'|tr '\n' 'newline'
+#1603737874
+echo -e 'foo\nbar'|tr '\n' 'Z'
+#1603737890
+echo -e 'foo\nbar'|tr '\n' '\n'
+#1603737897
+echo -e 'foo\nbar'|tr '\n' '\\n'
+#1603738000
+echo -e 'foo\nbar'| sed -e 's/\n/\\n/g'
+#1603738095
+echo -e 'foo\nbar'|tr '\n' '\n'
+#1603738100
+echo -e 'foo\nbar'|tr '\n' 'newline'
+#1603738120
+echo -e 'foo\nbar'|tr '\n' 'Z'
+#1603738130
+echo -e 'foo\nbar'|tr '\n' 'newline'
+#1603738187
+echo -e 'foo\nbar'|awk 1 ORS='newline' 
+#1603738300
+echo -e 'line1\nline2'|awk 1 ORS=' NEWLINE ' 
+#1603738309
+echo -e 'line1\nline2'|awk 1 ORS=' \n ' 
+#1603738312
+echo -e 'line1\nline2'|awk 1 ORS=' \\n ' 
+#1603738318
+echo -e 'line1\nline2'|awk 1 ORS='\\n' 
+#1603738436
+echo -e 'foo\nbar'| sed -e 's/\n/\\n/g'
+#1603738444
+echo -e 'foo\nbar'| sed -e 's/\\n/\n/g'
+#1603737827
+man tr
+#1603738198
+type cdl
+#1603738201
+vrc
+#1603738227
+dotrc
+#1603738227
+cdl
+#1603738240
+ls *backsl*sh
+#1603738268
+vici learn.substitute.change.translate.newline.to.literal.backslash.n.sh
+#1603738519
+echo -e 'line1\nline2'|awk 1 ORS='\\n' 
+#1603739048
+vq
+#1603739721
+cdlearn
+#1603739733
+lshead
+#1603739738
+./learn_mt_park_rec_center_registration_signup_pool_http.sh 
+#1603739746
+./learn_mt_park_rec_center_registration_signup_pool_http.sh | ./send-swim-schedule-email.sh 
+#1603739811
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603739811
+python manage.py runserver --insecure
+#1603739810
+rqo
+#1603740660
+./learn_mt_park_rec_center_registration_signup_pool_http.sh | ./send-swim-schedule-email.sh 
+#1603740664
+cdl
+#1603740665
+./learn_mt_park_rec_center_registration_signup_pool_http.sh | ./send-swim-schedule-email.sh 
+#1603737583
+cdlearn
+#1603737584
+lshead
+#1603737654
+vici send-swim-schedule-email.sh 
+#1603738580
+c
+#1603738581
+lshe
+#1603738582
+lshead 
+#1603738583
+lsh
+#1603738584
+c
+#1603738586
+lshead
+#1603738599
+./learn_mt_park_rec_center_registration_signup_pool_http.sh 
+#1603738608
+vim ./learn_mt_park_rec_center_registration_signup_pool_http.sh 
+#1603738652
+cdlearn
+#1603738666
+git log -p learn_mt_park_rec_center_registration_signup_pool_http.sh
+#1603739379
+c
+#1603739380
+lshead
+#1603739421
+vici send-swim-schedule-email.sh 
+#1603746608
+vq
