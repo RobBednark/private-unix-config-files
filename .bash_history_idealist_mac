@@ -45801,3 +45801,41 @@ vim *multi*sh
 vim
 #1603737196
  . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603737090
+vresume
+#1603737117
+vjobsearch
+#1603737195
+cdq
+#1603737198
+cdquiz
+#1603737200
+gs
+#1603737205
+ls -ld *job*
+#1603737223
+vici job.search.2020-post-moovel
+#1603737365
+dotrc
+#1603737367
+vjobsearch20
+#1603737370
+vjobsearch2020 
+#1603737125
+vrc
+#1603735125
+vresume
+#1603735919
+vq
+#1603737663
+cdlearn
+#1603737665
+git log -p
+#1603737681
+cdlearn
+#1603737683
+git show
+#1603737691
+vim .gitignore 
+#1603737701
+gs
