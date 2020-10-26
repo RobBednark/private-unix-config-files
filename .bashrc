@@ -315,6 +315,7 @@ alias cdgit="cd $DirGit"
 alias cdisbullshit="cd $DirGitLocal/isbullshit-crawler"
 alias cdjavascript="cd $DirLearn/javascript"
 alias cdlatest='cd $(ls -dt |head -1)'
+alias cdl=cdlearn
 alias cdlearn="title learn; cd $DirLearn"
 alias cdlearngit="cd $DirLearn/git"
 alias cdnode="cd $DirLearn/node-projects"
