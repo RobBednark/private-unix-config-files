@@ -45945,3 +45945,63 @@ lshead
 vici send-swim-schedule-email.sh 
 #1603746608
 vq
+#1603747088
+type lsh
+#1603747089
+lsh
+#1603747101
+type lh
+#1603747079
+vrc
+#1603747409
+vq
+#1603747070
+cdl
+#1603747072
+lsh
+#1603747076
+lshead 
+#1603747104
+lh
+#1603747105
+c
+#1603747106
+lh
+#1603747142
+dotrc
+#1603747142
+vl2
+#1603748498
+cdl
+#1603748502
+type vl
+#1603748520
+type vl4
+#1603748525
+grrc vici.last
+#1603748528
+vl2
+#1603748779
+ps -ealf|grep vim
+#1603748802
+ps -ealf|head
+#1603748823
+kill 9153
+#1603748840
+ps -ealf|grep vim
+#1603747173
+cdl
+#1603747194
+./learn_mt_park_rec_center_registration_signup_pool_http.sh
+#1603747215
+lsh
+#1603747218
+lh
+#1603747246
+cp learn_mt_park_rec_center_registration_signup_pool_http.sh learn-mt-park-rec-center-signup-pool-login.sh
+#1603747248
+vim learn-mt-park-rec-center-signup-pool-login.sh
+#1603754192
+type v
+#1603754195
+which v
