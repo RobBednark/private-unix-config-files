@@ -45545,3 +45545,189 @@ man bash
 vrc
 #1603649357
 vvimrc 
+#1603644409
+cdlearn
+#1603644413
+git remote -v
+#1603644435
+vim learn-send-free-email-through-sendinblue.com-curl.sh
+#1603645822
+vici *mt.park*
+#1603645834
+lshead
+#1603645839
+vici *mt_park*
+#1603648913
+vrc
+#1603648922
+vvimrc
+#1603648925
+vq
+#1603649279
+vp
+#1603654097
+vq
+#1603654101
+vdiary 
+#1603654656
+vq
+#1603662129
+vp
+#1603662410
+pstree
+#1603662429
+ping google.com
+#1603662434
+ping github.com
+#1603662443
+ssh git@github.com
+#1603662471
+cd tmp/
+#1603662477
+git status --exit-code
+#1603662484
+git status --porcelein
+#1603662490
+git status --porcelain
+#1603662493
+echo $?
+#1603662495
+cd /tmp
+#1603662498
+git init myrepo
+#1603662499
+cd myrepo
+#1603662500
+gs
+#1603662503
+git status --porcelain
+#1603662507
+echo $?
+#1603662512
+touch myfile
+#1603662514
+git status --porcelain
+#1603662518
+echo $?
+#1603662581
+git add .
+#1603662586
+git status --porcelain
+#1603662588
+echo $?
+#1603662590
+gs
+#1603662596
+gco -m'foo'
+#1603662601
+git status --porcelain; echo $?
+#1603662607
+echo foo >> myfile 
+#1603662608
+gs
+#1603662610
+gd
+#1603662614
+git status --porcelain; echo $?
+#1603662642
+git status --exit-code; echo $?
+#1603662646
+git diff --exit-code; echo $?
+#1603662662
+git diff --help
+#1603662680
+git status --help
+#1603662681
+gs
+#1603662418
+cd tmp/
+#1603662419
+gs
+#1603662423
+git fetch
+#1603662141
+cd tmp/
+#1603662141
+gs
+#1603662155
+echo $?
+#1603663632
+vdiary 
+#1603663546
+vq
+#1603665635
+vdiary 
+#1603722543
+cdlearn
+#1603722555
+vl4
+#1603727221
+man curl
+#1603727469
+cdlearn
+#1603727471
+lshead
+#1603727478
+./learn-read-all-stdin.sh 
+#1603727480
+./learn-read-all-stdin.sh  foo
+#1603727489
+./learn-read-all-stdin.sh  < echo foo
+#1603727497
+echo foo| ./learn-read-all-stdin.sh 
+#1603727520
+echo -n "foo\nbar" | ./learn-read-all-stdin.sh 
+#1603727527
+echo -n "foo"
+#1603727530
+echo -n "foo\nbar"
+#1603727536
+echo -e "foo\nbar"
+#1603727545
+echo -e "foo\nbar" | ./learn-read-all-stdin.sh 
+#1603728034
+echo -e "foo\nbar" | ./learn-send-free-email-through-sendinblue.com-curl.sh 
+#1603728129
+echo -e "foo\nbar" | ./send-swim-schedule-email.sh 
+#1603725535
+cdlearn
+#1603725544
+lshead
+#1603725577
+chmod a+x learn_mt_park_rec_center_registration_signup_pool_http.sh
+#1603725583
+chmod a+x learn-send-free-email-through-sendinblue.com-curl.sh
+#1603725590
+./learn_mt_park_rec_center_registration_signup_pool_http.sh
+#1603725636
+c
+#1603725650
+./learn_mt_park_rec_center_registration_signup_pool_http.sh > /dev/null
+#1603725671
+./learn_mt_park_rec_center_registration_signup_pool_http.sh
+#1603726753
+lshead
+#1603726786
+cp learn-send-free-email-through-sendinblue.com-curl.sh send-swim-schedule-email.sh
+#1603726475
+env|less
+#1603722451
+vq
+#1603728584
+dlearn
+#1603728585
+cdlearn
+#1603728586
+lshead
+#1603728591
+gs
+#1603728610
+gca -m'swim-schedules'
+#1603728612
+gpus
+#1603728902
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603728902
+python manage.py runserver --insecure
+#1603728900
+rqo
