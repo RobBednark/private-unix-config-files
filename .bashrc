@@ -732,6 +732,7 @@ alias vjobsearch2016="vici $DirQuiz/job_search_Sep_2016"
 alias vjobsearch="(cdprivate-rbednark-general; vim rob-bednark-resume.txt; vici $DirQuiz/*cover_letters* $DirQuiz/job_search_Sep_2016 $DirQuiz/portland.job.scene $DirQuiz/job.search.Aug.2015 $DirQuiz/db_resume $DirDoc/cover.letters.txt $DirDoc/job.openings.descriptions.txt $DirQuiz/job.descriptions $DirQuiz/job.references)"
 alias vjournaling="cd $DirQuiz; vici db_journaling"  # diary scratch
 alias vjs="vici $DirLearn/javascript/learn_javascript_lang_elements.js"
+alias vl2="vici.last.n.files 2"
 alias vl4="vici.last.n.files 4"
 alias vlatest-files='vim.ls.head 20'
 alias vlearn="cd $DirQuiz; vici db_learn"
