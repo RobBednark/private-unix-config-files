@@ -726,6 +726,7 @@ alias videalist="cd $DirQuiz; vici idealist"
 alias vinterview="cd $DirQuiz; vici db_interview_questions_master_template"
 alias viphone="title viphone; cd $DirQuiz; vici *iphone*"
 alias vjavascript="cd $DirQuiz; title db_javascript; vici db_javascript"
+alias vjobsearch2020="vici $DirQuiz/job.search.2020.post.moovel"
 alias vjobsearch2016="vici $DirQuiz/job_search_Sep_2016"
 alias vjobsearch="(cdprivate-rbednark-general; vim rob-bednark-resume.txt; vici $DirQuiz/*cover_letters* $DirQuiz/job_search_Sep_2016 $DirQuiz/portland.job.scene $DirQuiz/job.search.Aug.2015 $DirQuiz/db_resume $DirDoc/cover.letters.txt $DirDoc/job.openings.descriptions.txt $DirQuiz/job.descriptions $DirQuiz/job.references)"
 alias vjournaling="cd $DirQuiz; vici db_journaling"  # diary scratch
