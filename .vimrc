@@ -439,6 +439,7 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 " #reference for grep'ing
 " ================================================================================
 " :ab  ==> list all abbreviations
+" :bro ol  (:browse old) ==> browse/view/list recently-opened buffers
 " :call myFunc  ==> call the myFunc() function
 " :help function ==> list all built-in functions
 " :redir @a    :map     :redir END     ==> redirect output of ":map" to the @a buffer
