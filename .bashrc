@@ -1766,12 +1766,12 @@ export NVM_DIR="/Users/robb/.nvm"
 # jo foo  ==> open Mac Finder
 # jco foo  => open Mac Finder to a child directory
 # Note: "j" == "autojump"
-# j -s  => show database entries and their key weights
-# j --purge  => remove non-existent paths from database
-# j --complete  => used for tab completion
-# j -a DIRECTORY =>  add path
-# j -i  => increase current directory weight
-# j -h ==> help
+# j -s  => show database entries and their key weights (autojump)
+# j --purge  => remove non-existent paths from database (autojump)
+# j --complete  => used for tab completion (autojump)
+# j -a DIRECTORY =>  add path (autojump)
+# j -i  => increase current directory weight (autojump)
+# j -h ==> help (autojump)
 [ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
 
 # cdargs allows you to set bookmarks for directories and then cd to them using
