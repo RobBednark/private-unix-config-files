@@ -46297,3 +46297,33 @@ cdl
 lh
 #1603814794
 vim get_http_mt_park_rec_center_pool_availability.py
+#1603825809
+ssh root@45.79.68.210
+#1603827006
+cd .ssh/
+#1603827006
+gs
+#1603827008
+gd
+#1603827025
+git add .
+#1603827048
+gca -m'known_hosts: add new linode servers'
+#1603827050
+vim known_hosts 
+#1603827059
+ssh root@45.79.68.210
+#1603827090
+ls -al
+#1603827097
+cat *pub
+#1603827187
+vim config 
+#1603827416
+ssh root@45.79.68.210
+#1603827689
+cat *pub
+#1603827692
+pbcopy < *pub
+#1603827695
+pbpaste

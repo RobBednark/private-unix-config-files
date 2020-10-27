@@ -1795,7 +1795,10 @@ export NVM_DIR="/Users/robb/.nvm"
 # glances - a better top -- can filter by process name (<enter> name:.*Chrome.*) (system monitoring)
 # htop - a better top (system monitoring)
 # pgcli (a better psql)
-# pgrep/pkill -fil  (-f "full" -- match against full argument lists; -i "ignore" case; -l "long" output
+# pgrep -fl  (-f "full" -- match against full argument lists;  -l "long" output) (-i "ignore" case ==> not available on stock Alpine)
+# pkill -9 -alf  (-9 ==> KILL; --a ==> show command-line too; -l ==> show command name too; -f "full" -- match against entire command line)
+# pkill KILL -f  (KILL ==> signal 9; -f "full" -- match against full argument lists)
+# pkill -l  (-l ==> list all signals)
 # ripgrep (command: rg) (a faster grep) (brew install ripgrep)
 # tidy -- an html linter/validator (tidy -error myfile.html)
 #   tidy -errors myfile.html  # only show validation errors/warnings
