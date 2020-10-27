@@ -46031,3 +46031,269 @@ gpus
 git push -f
 #1603754205
 vrc
+#1603778005
+gvimrc python
+#1603778020
+gvimrc import
+#1603754519
+grvim
+#1603754527
+grrc vim
+#1603754533
+grrc rvim
+#1603754539
+grrc 'grep.*vim'
+#1603754547
+gvimrc old
+#1603754552
+gvimrc buf
+#1603754556
+vvimrc 
+#1603754567
+vq
+#1603755155
+history > /tmp/history
+#1603755156
+vim /tmp/history
+#1603755270
+cdqp 
+#1603755274
+cd bin
+#1603755279
+grep cron *
+#1603755282
+vim new-server-install.sh 
+#1603777536
+cdlearn
+#1603777539
+ls *reques*py
+#1603777540
+vim *reques*py
+#1603754183
+v
+#1603778331
+c
+#1603778332
+v
+#1603755037
+ssh root@45.79.68.210
+#1603755048
+cdl
+#1603755050
+lsh
+#1603755052
+lh
+#1603755095
+ssh send-swim-schedule-email.sh learn_mt_park_rec_center_registration_signup_pool_http.sh root@45.79.68.210
+#1603755140
+scp ./send-swim-schedule-email.sh ./learn_mt_park_rec_center_registration_signup_pool_http.sh root@45.79.68.210
+#1603755176
+scp -p ./send-swim-schedule-email.sh ./learn_mt_park_rec_center_registration_signup_pool_http.sh root@45.79.68.210:/tmp
+#1603755350
+ssh root@45.79.68.210
+#1603777189
+ssh 45.79.68.210
+#1603777195
+ssh root@45.79.68.210
+#1603778395
+cdl
+#1603778399
+lh
+#1603778415
+git log -p learn_mt_park_rec_center_registration_signup_pool_http.sh
+#1603778622
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603778624
+v
+#1603754126
+cdl
+#1603754129
+lh
+#1603754134
+jobs
+#1603754137
+vim learn-mt-park-rec-center-signup-pool-login.sh 
+#1603754150
+lh
+#1603754161
+./learn_mt_park_rec_center_registration_signup_pool_http.sh 
+#1603754785
+c
+#1603754788
+./learn_mt_park_rec_center_registration_signup_pool_http.sh 
+#1603754793
+lh
+#1603754796
+./send-swim-schedule-email.sh 
+#1603754805
+cat ./send-swim-schedule-email.sh
+#1603754833
+./learn_mt_park_rec_center_registration_signup_pool_http.sh  | ./send-swim-schedule-email.sh 
+#1603755115
+gs
+#1603755117
+gd
+#1603755129
+gd send* learn_mt*
+#1603777434
+c
+#1603777436
+lh
+#1603777485
+cp get_http_mt_park_rec_center_pool_availability.sh
+#1603777506
+cp learn_mt_park_rec_center_registration_signup_pool_http.sh get_http_mt_park_rec_center_pool_availability.sh
+#1603777510
+mv get_http_mt_park_rec_center_pool_availability.sh get_http_mt_park_rec_center_pool_availability.sh
+#1603777515
+mv get_http_mt_park_rec_center_pool_availability.sh get_http_mt_park_rec_center_pool_availability.py
+#1603777517
+vim get_http_mt_park_rec_center_pool_availability.py
+#1603778620
+cd ~/pipenvs/requests/
+#1603778621
+psh
+#1603778112
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603778113
+cdl
+#1603778116
+lh
+#1603778121
+python3 get_http_mt_park_rec_center_pool_availability.py 
+#1603778062
+ls -ld *pipenv*
+#1603778066
+mkdir pipenvs
+#1603778068
+cd pipenvs
+#1603778072
+mkdir requests
+#1603778075
+cd requests/
+#1603778078
+pipenv install requests
+#1603778095
+cdl
+#1603778097
+lh
+#1603778103
+python3 get_http_mt_park_rec_center_pool_availability.py 
+#1603778109
+cd -
+#1603778110
+psh
+#1603778998
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603778998
+v
+#1603778816
+cdl
+#1603778817
+lh
+#1603778819
+v
+#1603778996
+cd ~/pipenvs/requests/
+#1603778996
+psh
+#1603809567
+v
+#1603810415
+cdl
+#1603810416
+lh
+#1603810438
+mkdir learn-johndlg-swim-schedule
+#1603810476
+cp learn_mt_park_rec_center_registration_signup_pool_http.sh learn-johndlg-swim-schedule/fetch.sh
+#1603810501
+cp send-swim-schedule-email.sh learn-johndlg-swim-schedule/sendmail.sh
+#1603810506
+cd learn-johndlg-swim-schedule/
+#1603810506
+c
+#1603810515
+git add .
+#1603810519
+vim *
+#1603811659
+gs
+#1603811679
+gco -m'before starting john'
+#1603811680
+gs
+#1603811688
+c
+#1603811756
+vim example-availability-curl.sh
+#1603811782
+vi run.sh
+#1603813498
+jobs
+#1603813502
+gs
+#1603813506
+gs .
+#1603813511
+git add .
+#1603813540
+gco -m'working run.sh fetch.sh'
+#1603812256
+echo hello:world
+#1603812263
+echo hello : world
+#1603812273
+: echo hello : world
+#1603812293
+man bash
+#1603812354
+vim /tmp/foo
+#1603814427
+curl 'https://www.ourclublogin.com/Account/Login?ReturnUrl=%2f'
+#1603814441
+vim $(curl --include 'https://www.ourclublogin.com/Account/Login?ReturnUrl=%2f' )
+#1603814445
+vim <(curl --include 'https://www.ourclublogin.com/Account/Login?ReturnUrl=%2f' )
+#1603814487
+curl --include 'https://www.ourclublogin.com/Account/Login?ReturnUrl=%2f' |& grep -i set.cookie
+#1603814512
+curl --include 'https://www.ourclublogin.com/Account/Login?ReturnUrl=%2f' | grep -i set.cookie
+#1603814516
+curl --include 'https://www.ourclublogin.com/Account/Login?ReturnUrl=%2f' |& grep -i set.cookie
+#1603809053
+vq
+#1603820898
+vjobsearch2020 
+#1603821315
+vq
+#1603821401
+vim
+#1603822491
+vdiary 
+#1603821535
+vresume
+#1603821023
+ssh root@45.79.68.210
+#1603821069
+45.79.68.210
+#1603821072
+ssh root@45.79.68.210
+#1603814744
+ssh root@45.79.68.210
+#1603823058
+jobs
+#1603823060
+t
+#1603820943
+vresume
+#1603823186
+type vq
+#1603823188
+v
+#1603814784
+cdl
+#1603814785
+lh
+#1603814794
+vim get_http_mt_park_rec_center_pool_availability.py
