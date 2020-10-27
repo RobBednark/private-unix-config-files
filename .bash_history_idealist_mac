@@ -46551,3 +46551,51 @@ scp -p crontab root@45.79.68.210:/root
 ssh root@45.79.68.210
 #1603842151
 vrc
+#1603842187
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603842187
+python manage.py runserver --insecure
+#1603842397
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1603842421
+cd db_dumps/
+#1603842423
+ls *46.40*
+#1603842435
+cp -p *46.40* symlink-db_dumps
+#1603842437
+cd symlink-db_dumps
+#1603842438
+lshead
+#1603842449
+ln -sf dump.quizme_production.2020.10.27_Tue_16.46.40.txt latest.dump.txt 
+#1603842451
+cd -
+#1603842453
+cd private-quiz-me-db-backups/
+#1603842469
+./update.sh '*46.40*'
+#1603842471
+gs
+#1603842472
+gd
+#1603842477
+gd *txt
+#1603842481
+gs
+#1603842488
+gd *json
+#1603842492
+gs
+#1603842499
+type gcam
+#1603842501
+gcam
+#1603842526
+dotrc
+#1603842535
+gcam 'update'
+#1603842539
+gpus
+#1603842185
+rqo
