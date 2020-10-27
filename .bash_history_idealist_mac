@@ -46393,3 +46393,159 @@ ojbs
 jobs
 #1603830304
 ls -al
+#1603831774
+ssh root@45.79.68.210
+#1603830906
+j sw
+#1603830908
+gs
+#1603830911
+gs .
+#1603830917
+j
+#1603830923
+j -l
+#1603830936
+grrc jump
+#1603830956
+man autojump
+#1603830970
+j --help
+#1603830980
+vrc
+#1603831017
+j -s
+#1603831035
+j linod
+#1603831038
+gs .
+#1603831041
+vim *
+#1603831156
+vim input
+#1603831196
+./send-swim-schedule-email.sh < input 
+#1603831221
+bash -xv ./send-swim-schedule-email.sh < input 
+#1603831252
+gs
+#1603831256
+vim send-swim-schedule-email.sh 
+#1603831267
+vim input 
+#1603831296
+./send-swim-schedule-email.sh rbednark@gmail.com 'my subject' < input 
+#1603831321
+vim input 
+#1603831328
+vim send-swim-schedule-email.sh 
+#1603831341
+./send-swim-schedule-email.sh 'rbednark@gmail.com' 'my subject' < input 
+#1603831351
+bash -xv ./send-swim-schedule-email.sh 'rbednark@gmail.com' 'my subject' < input |&less
+#1603831392
+vim send-swim-schedule-email.sh 
+#1603831406
+bash ./send-swim-schedule-email.sh 'rbednark@gmail.com' 'my subject' < input |&less
+#1603831469
+bash -xv ./send-swim-schedule-email.sh 'rbednark@gmail.com, rbednark+another@gmail.com' '2 recipients' < input |&less
+#1603831481
+bash -xv ./send-swim-schedule-email.sh 'rbednark@gmail.com,rbednark+another@gmail.com' '2 recipients' < input |&less
+#1603831552
+bash -xv ./send-swim-schedule-email.sh 'rbednark@gmail.com|rbednark+another@gmail.com' '2 recipients' < input |&less
+#1603831595
+bash -xv ./send-swim-schedule-email.sh 'rbednark@gmail.com' 'test again' < input |&less
+#1603831612
+vim crontab 
+#1603831692
+gs .
+#1603831696
+git add .
+#1603831705
+gs
+#1603831725
+gco -m'updated swim schedule to send to Sara'
+#1603831763
+scp -p *sh crontab root@45.79.68.210:/root
+#1603831901
+gs .
+#1603831903
+vim crontab 
+#1603831919
+scp -p *sh crontab root@45.79.68.210:/root
+#1603832196
+vi crontab 
+#1603832206
+vim send-swim-schedule-email.sh 
+#1603832244
+scp -p *sh crontab root@45.79.68.210:/root
+#1603832353
+pwd
+#1603832353
+jos
+#1603832358
+j lin
+#1603832361
+gs .
+#1603832365
+git add .
+#1603832376
+gc -m'swimming working'
+#1603832380
+gco -m'swimming working'
+#1603832382
+gs
+#1603832394
+vim *
+#1603832461
+bash -xv ./send-swim-schedule-email.sh 'rbednark@gmail.com' 'test again' < input |&less
+#1603832507
+cat crontab 
+#1603832539
+(./learn_mt_park_rec_center_registration_signup_pool_http.sh 2120 | ./send-swim-schedule-email.sh 'rbednark@gmail.com' "Should fail")
+#1603832562
+vim learn_mt_park_rec_center_registration_signup_pool_http.sh 
+#1603832574
+(./learn_mt_park_rec_center_registration_signup_pool_http.sh 2120 | ./send-swim-schedule-email.sh 'rbednark@gmail.com' "Should fail")
+#1603832682
+(./learn_mt_park_rec_center_registration_signup_pool_http.sh 2120 | ./send-swim-schedule-email.sh 'rbednark@gmail.com' "Should fail") >& output
+#1603832686
+vim output 
+#1603832991
+vq
+#1603833121
+j lin
+#1603833124
+gs .
+#1603833125
+gd .
+#1603833158
+vim crontab 
+#1603833188
+scp -p crontab root@45.79.68.210:/root
+#1603833204
+pwd
+#1603833204
+jobs
+#1603833657
+vim crontab 
+#1603833690
+gs
+#1603833692
+gs .
+#1603833695
+gd crontab 
+#1603833698
+gs
+#1603833707
+gd learn_mt_park_rec_center_registration_signup_pool_http.sh 
+#1603833712
+git add crontab 
+#1603833722
+gco -m'update crontab'
+#1603833724
+gs
+#1603833728
+scp -p crontab root@45.79.68.210:/root
+#1603833268
+ssh root@45.79.68.210
