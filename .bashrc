@@ -1805,6 +1805,7 @@ export NVM_DIR="/Users/robb/.nvm"
 #   tidy -indent --indent-spaces=2 myfile.html  # reformat with indentation
 #   tidy -quiet --tidy-mark no -indent --indent-spaces 2 myfile.html
 # v (like "autojump", for but vim with files, using vim filehistory; 
+#   v foo  ==> vim the most recent file containing the pattern 'foo' in the filename
 #   v -  ==> git a list of recent files edited, order newest to oldest; type the number of the file to edit 
 #   v --help
 #   "brew install v"
