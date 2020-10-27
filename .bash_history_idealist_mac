@@ -46327,3 +46327,69 @@ cat *pub
 pbcopy < *pub
 #1603827695
 pbpaste
+#1603825692
+grrc kill
+#1603825747
+vrc
+#1603825225
+vp
+#1603825285
+ssh root@45.79.68.210
+#1603825418
+vq
+#1603827900
+watch ssh root@45.79.68.210
+#1603828302
+kill 39405
+#1603828351
+watch ssh foo@45.79.68.210
+#1603828358
+ssh foo@45.79.68.210
+#1603829755
+echo 'foo"bar'|tr '"' Z
+#1603829760
+echo 'foo"bar'|tr '"' "'"
+#1603828501
+ssh root@45.79.68.210
+#1603828291
+pstree
+#1603828306
+c
+#1603828311
+sh root@45.79.68.210
+#1603828317
+ssh root@45.79.68.210
+#1603828387
+vq
+#1603830179
+cd learn
+#1603830181
+cdl
+#1603830210
+mkdir learn-swim-schedule-backup-linode
+#1603830211
+cd learn-swim-schedule-backup-linode
+#1603830237
+scp -p root@45.79.68.210:/root/'*sh' .
+#1603830247
+scp -p root@45.79.68.210:/root/'crontab' .
+#1603830250
+gs
+#1603830259
+git add .
+#1603830268
+type gcam
+#1603830282
+gca -m'add swim scripts from linode'
+#1603830299
+wd
+#1603830299
+jobs
+#1603830300
+pwd
+#1603830301
+ojbs
+#1603830302
+jobs
+#1603830304
+ls -al
