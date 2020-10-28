@@ -345,6 +345,7 @@ alias cdsync="cd $DirSync"
 alias cdtxt="cd $DirTxt"
 alias cdunixconfigfiles="cd $DirUnixConfigFiles"
 alias cdvagrant="cd ~/Desktop/vagranttest"
+alias cl=cdlearn
 
 ################################################################################
 # #Start #Docker
