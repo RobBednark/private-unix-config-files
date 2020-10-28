@@ -717,6 +717,7 @@ alias vapps="title vapps; cd $DirQuiz; vici db_apps"
 alias varchitecture="vici $DirQuiz/db_software_design_architecture"
 alias vatlatl="title vatlatl; vici $DirQuiz/db_atlatl"
 alias vcoverletters="title cover.letters; vici $DirQuiz/job_cover_letters_applications.txt"
+alias vd=vdiary
 alias vdaily="title vdaily; cd $DirQuiz; vici db_daily_review"
 alias vdiary="title vdiary; vici $FileDiary"
 alias vdjango="title vdjango; cd $DirQuiz; vici db_django"
