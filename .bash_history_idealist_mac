@@ -46723,3 +46723,83 @@ vresume
 vim
 #1603909513
 :q
+#1603909265
+vq
+#1603909569
+j post
+#1603909575
+cat README 
+#1603909576
+gs
+#1603909585
+cat docker-compose.yml 
+#1603909593
+cat README 
+#1603909609
+vim run-postgres-container.sh
+#1603909661
+./run-postgres-container.sh 
+#1603909689
+docker ps -a
+#1603909705
+cat README 
+#1603909717
+cp README run-docker-in-network.sh
+#1603909718
+vim run-docker-in-network.sh
+#1603909753
+chmod a+x ru*
+#1603909757
+./run-docker-in-network.sh 
+#1603909765
+docker network list
+#1603909780
+docker network rm some-network
+#1603909789
+docker network rm -h
+#1603909797
+pwd
+#1603909797
+jobs
+#1603909828
+./run-docker-in-network.sh 
+#1603909965
+jobs
+#1603909971
+gs
+#1603909979
+git add *sh
+#1603909981
+gs
+#1603910001
+gcam 'add shell scripts for running outside docker-compose'
+#1603910004
+gpus
+#1603910306
+jobs
+#1603910309
+gs
+#1603910070
+type vd
+#1603910075
+vrc
+#1603910095
+vd
+#1603909080
+cdqn
+#1603909081
+vig
+#1603910059
+vp
+#1603910843
+vq
+#1603910434
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1603910434
+python manage.py runserver --insecure
+#1603912250
+jobs
+#1603912266
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1603910432
+rqo
