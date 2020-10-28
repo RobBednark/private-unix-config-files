@@ -46599,3 +46599,127 @@ gcam 'update'
 gpus
 #1603842185
 rqo
+#1603842222
+vq
+#1603842503
+vrc
+#1603842883
+gvimrc python
+#1603843712
+cdl
+#1603843713
+lh
+#1603843721
+lh2
+#1603843727
+type lh
+#1603843729
+type lshead
+#1603842743
+cdl
+#1603842753
+lh
+#1603842758
+git add get_http_mt_park_rec_center_pool_availability.py
+#1603842759
+gdc
+#1603842776
+gcam 'update pool py' && gpus
+#1603842650
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603842653
+cd -
+#1603842655
+cdl
+#1603842669
+v
+#1603843693
+gcam 'update swim availability' && gpus
+#1603843704
+v
+#1603864972
+gs
+#1603864974
+gs .
+#1603864982
+lh
+#1603864993
+cd learn-swim-schedule-backup-linode/
+#1603865014
+vim send-swim-schedule-email.sh 
+#1603842092
+cdl
+#1603842094
+lh
+#1603842101
+vim get_http_mt_park_rec_center_pool_availability.py 
+#1603842113
+git add get_http_mt_park_rec_center_pool_availability.py 
+#1603842114
+gs
+#1603842124
+gco -m'add get_http_mt_park_rec_center_pool_availability.py'
+#1603842132
+v -h
+#1603842145
+v .py
+#1603842602
+type pipenv
+#1603842606
+pipenv --help|less
+#1603842631
+pipenv shell --help|less
+#1603842649
+cd ~/pipenvs/requests/ && psh
+#1603865408
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603865411
+cd -
+#1603865415
+cdl
+#1603865418
+v py
+#1603866019
+lh
+#1603866029
+gd get_http_mt_park_rec_center_pool_availability.py
+#1603866036
+git add get_http_mt_park_rec_center_pool_availability.py
+#1603866038
+gdc
+#1603866070
+gcam 'get_http_mt_park_rec_center_pool_availability.py: working with send email'
+#1603866074
+v p
+#1603864999
+cdl
+#1603865000
+lh
+#1603865005
+v av
+#1603865407
+cd ~/pipenvs/requests/ && psh && cd -
+#1603842579
+type env
+#1603843388
+cdl
+#1603843392
+type l
+#1603843407
+ls *requests*py
+#1603843411
+vim learn_requests.py
+#1603843627
+vi *json*py
+#1603900346
+vp
+#1603895799
+vq
+#1603900514
+vp
+#1603906565
+vresume
+#1603909295
+vim
+#1603909513
+:q
