@@ -46803,3 +46803,151 @@ jobs
 time (df -h .; DB_QUIZME=quizme_production make dumpdb)
 #1603910432
 rqo
+#1603920509
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603920509
+cl
+#1603920511
+lh
+#1603920514
+./get_http_mt_park_rec_center_pool_availability.py 
+#1603920948
+./get_http_mt_park_rec_center_pool_availability.py |&less
+#1603921233
+lh
+#1603921256
+scp get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1603921259
+ssh root@45.79.68.210
+#1603920500
+cl
+#1603920506
+j req
+#1603920507
+psh
+#1603918582
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603918583
+cl
+#1603918586
+v
+#1603921008
+lh
+#1603921011
+gs
+#1603921039
+gcam 'get_http_mt_park_rec_center_pool_availability.py mostly working, but second results not showing'
+#1603921042
+gs
+#1603921048
+c
+#1603921054
+v
+#1603921771
+lh
+#1603921782
+cd learn-swim-schedule-backup-linode
+#1603921786
+gs
+#1603921788
+gs .
+#1603921790
+vim crontab 
+#1603921834
+scp -p crontab root@45.79.68.210:/root
+#1603921881
+vim crontab 
+#1603921897
+scp -p crontab root@45.79.68.210:/root
+#1603918436
+j l
+#1603918442
+cdl
+#1603918443
+type cl
+#1603918445
+which cl
+#1603918449
+cl
+#1603918453
+vrc
+#1603918532
+cl
+#1603918533
+c
+#1603918537
+v py
+#1603918549
+v .py
+#1603918558
+v http
+#1603918574
+j pip
+#1603918578
+cd requests/
+#1603918581
+psh
+#1603918465
+vrc
+#1603918474
+type vrc
+#1603918479
+vim .bash
+#1603918486
+vim .bashrc 
+#1603920546
+cl
+#1603920548
+ls *pform*
+#1603920550
+vim *pform*
+#1603921462
+vq
+#1603925793
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603925794
+cl
+#1603925796
+jobs
+#1603925801
+./get_http_mt_park_rec_center_pool_availability.py 
+#1603938602
+v htt
+#1603938606
+gs
+#1603938616
+./get_http_mt_park_rec_center_pool_availability.py 
+#1603938669
+v ht
+#1603978566
+lh
+#1603978584
+gcam -'swim program still working, with new key'
+#1603978589
+gs
+#1603978590
+git show
+#1603978595
+v ht
+#1603978917
+./get_http_mt_park_rec_center_pool_availability.py 
+#1603978923
+v py
+#1603925605
+cl
+#1603925607
+lh
+#1603925613
+gs
+#1603925617
+vim get_http_mt_park_rec_center_pool_availability.py
+#1603925790
+j req
+#1603925792
+psh
+#1603925534
+ssh root@45.79.68.210
+#1603981880
+vq
+#1603982021
+vig
