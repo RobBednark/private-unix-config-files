@@ -1803,6 +1803,7 @@ export NVM_DIR="/Users/robb/.nvm"
 # pkill KILL -f  (KILL ==> signal 9; -f "full" -- match against full argument lists)
 # pkill -l  (-l ==> list all signals)
 # ripgrep (command: rg) (a faster grep) (brew install ripgrep)
+# tee ==> e.g., grep foo | tee /tmp/out   or   grep foo | tee /tmp/out | grep bar
 # tidy -- an html linter/validator (tidy -error myfile.html)
 #   tidy -errors myfile.html  # only show validation errors/warnings
 #   tidy -indent --indent-spaces=2 myfile.html  # reformat with indentation
