@@ -46951,3 +46951,309 @@ ssh root@45.79.68.210
 vq
 #1603982021
 vig
+#1603988102
+grc tee
+#1603988106
+type grc
+#1603988115
+grrc tee
+#1603988117
+vrc
+#1603988262
+jobs
+#1603988144
+man tee
+#1603999352
+vim /tmp/paste
+#1603999083
+vp
+#1603998470
+vm
+#1603998485
+vi
+#1603998491
+grrc idealist
+#1603998494
+videalist 
+#1603998437
+vq
+#1603989354
+ssh root@45.79.68.210
+#1604000582
+vp
+#1603987826
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603987826
+l
+#1603987829
+cl
+#1603987834
+type l
+#1603987836
+l
+#1603987842
+c
+#1603987845
+lh
+#1603987853
+./get_http_mt_park_rec_center_pool_availability.py 
+#1603987901
+v .
+#1603987906
+v py
+#1603989237
+gs get_http_mt_park_rec_center_pool_availability.py
+#1603989238
+gd get_http_mt_park_rec_center_pool_availability.py
+#1603989249
+v py
+#1603989289
+gd get_http_mt_park_rec_center_pool_availability.py
+#1603989302
+gcam 'swimming still working; reformatted'
+#1603989312
+pwd
+#1603989313
+jobs
+#1603989319
+v py
+#1603989345
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1603989450
+v .
+#1603989483
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1603998316
+v .
+#1603998428
+gs
+#1603987792
+cl
+#1603987800
+gd get_http_mt_park_rec_center_pool_availability.py
+#1603987813
+./get_http_mt_park_rec_center_pool_availability.py 
+#1603987818
+j q
+#1603987823
+j req
+#1603987825
+psh
+#1603987948
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1603987949
+cl
+#1603987956
+lh
+#1603987965
+./get_http_mt_park_rec_center_pool_availability.py > /tmp/out
+#1603987969
+vi /tmp/out
+#1603988274
+./get_http_mt_park_rec_center_pool_availability.py | tee /tmp/out
+#1603988498
+./get_http_mt_park_rec_center_pool_availability.py | tee /tmp/out |less
+#1603988549
+./get_http_mt_park_rec_center_pool_availability.py |& tee /tmp/out |& less
+#1603989229
+gs
+#1603987946
+j req
+#1603987947
+psh
+#1604002462
+vjobsearch2020 
+#1604002124
+vresume
+#1604004791
+docker run --help|less
+#1604004809
+vq
+#1604004828
+docker run --help|les
+#1604004830
+docker run --help|less
+#1604004266
+vig
+#1604004406
+j postg
+#1604004410
+gs
+#1604004445
+vim docker-compose.yml 
+#1604004488
+j po
+#1604004491
+gs
+#1604004509
+dc status
+#1604004517
+dc start
+#1604004524
+cat *yml
+#1604004540
+dc start
+#1604004546
+dc 
+#1604004551
+dc up
+#1604004562
+gs
+#1604004567
+git add docker-compose.yml 
+#1604004573
+gs
+#1604004595
+gcam 'add docker-compose.yml; works for just bringing up a postgres container'
+#1604004596
+c
+#1604005534
+vq
+#1604005309
+vp
+#1604005447
+type vp
+#1604005448
+cd tmp/
+#1604005450
+gs
+#1604005451
+gpus
+#1604005305
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604005305
+python manage.py runserver --insecure
+#1604005973
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604005304
+rqo
+#1604006774
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604006774
+python manage.py runserver --insecure
+#1604007414
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604009475
+ssh root@45.79.68.210
+#1604009352
+cl
+#1604009362
+gs get_http_mt_park_rec_center_pool_availability.py
+#1604009364
+gd get_http_mt_park_rec_center_pool_availability.py
+#1604009377
+gca
+#1604009387
+git show
+#1604009395
+c
+#1604009396
+gs
+#1604009400
+v swim
+#1604009405
+v
+#1604009469
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604009507
+gs
+#1604009619
+v .
+#1604009703
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604009770
+v .
+#1604009788
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604010383
+cl
+#1604010393
+ls -ltr *interp*py
+#1604010398
+ls -ltr *str*py
+#1604011072
+vim learn_requests.py 
+#1604010455
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604010456
+cl
+#1604010459
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604010815
+./get_http_mt_park_rec_center_pool_availability.py |& tee /tmp/out |& less
+#1604011134
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604011295
+c
+#1604011301
+jobs
+#1604011312
+./get_http_mt_park_rec_center_pool_availability.py |& tee /tmp/out |& less
+#1604011370
+sm .
+#1604011398
+vim /tmp/out
+#1604011442
+./get_http_mt_park_rec_center_pool_availability.py |& tee /tmp/out |& less
+#1604011493
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604011500
+jobs
+#1604011505
+./get_http_mt_park_rec_center_pool_availability.py |& tee /tmp/out |& less
+#1604010452
+j eq
+#1604010453
+psh
+#1604010171
+cl
+#1604010174
+v .
+#1604010443
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604010508
+pwd
+#1604010509
+jobs
+#1604010511
+v .
+#1604018825
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604018826
+cl
+#1604018833
+vim *click*py
+#1604018762
+cl
+#1604018764
+vim *click*py
+#1604018822
+j req
+#1604018824
+psh
+#1604018196
+cl
+#1604018200
+v htt
+#1604018402
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604018403
+cl
+#1604018409
+v click
+#1604018114
+cl
+#1604018118
+ls *opt*py
+#1604018177
+ls *click*
+#1604018184
+vim learn_click_package_commandline_option_argument_parsing.py
+#1604018387
+j req
+#1604018391
+pipenv install click
+#1604018401
+psh
+#1604018135
+vq
