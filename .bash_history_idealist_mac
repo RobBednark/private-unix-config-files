@@ -47405,3 +47405,129 @@ c
 vi README
 #1604071057
 vq
+#1604070895
+j image
+#1604070898
+c
+#1604070907
+vim run.sh
+#1604071386
+type docker-rm-everything
+#1604071452
+docker system prune --help
+#1604071499
+docker system prune
+#1604071504
+docker image
+#1604071507
+docker image list
+#1604071513
+docker system prune --all -f
+#1604071516
+docker image list
+#1604071538
+docker 
+#1604071543
+docker push --help
+#1604071633
+docker build --help
+#1604071730
+docker
+#1604071744
+docker login --help|less
+#1604071751
+docker login
+#1604072056
+docker image list
+#1604072066
+docker
+#1604072481
+docker push --help
+#1604073058
+docker tag --help|less
+#1604073210
+c
+#1604073216
+j hub
+#1604073217
+c
+#1604073232
+docker tag alpine robs-image
+#1604073241
+docker tag list
+#1604073245
+docker image list
+#1604073385
+vrc
+#1604073516
+docker-rm-all-images 
+#1604073520
+docker image list
+#1604073525
+type docker-rm-all-images 
+#1604073540
+docker rmi -h
+#1604073551
+docker rm --help
+#1604073567
+docker image 
+#1604073569
+docker image  list
+#1604073577
+docker image rm c96f8b6bc0d9
+#1604073587
+docker container list
+#1604073603
+docker container stop postgres
+#1604073639
+docker container stop learn-postgres_db_1
+#1604073643
+docker image rm c96f8b6bc0d9
+#1604073651
+docker container list
+#1604073655
+docker image list
+#1604073667
+docker image rm -f c96f8b6bc0d9
+#1604073671
+docker image list
+#1604073691
+docker pull alpine
+#1604073700
+docker image list
+#1604073703
+docker image rm alpine
+#1604073749
+docker tag alpine my-local-image
+#1604073755
+docker pull alpine
+#1604073760
+docker tag alpine my-local-image
+#1604073763
+docker image list
+#1604074056
+docker push robbednark/my-repository:my-local-image
+#1604074111
+docker push robbednark/my-repository my-local-image
+#1604074167
+docker push --help
+#1604074188
+docker push my-local-image
+#1604074203
+docker push robbednark/my-local-image
+#1604074218
+docker tag alpine robbednark/my-local-image
+#1604074220
+docker push robbednark/my-local-image
+#1604074278
+docker image list
+#1604070565
+vig
+#1604068096
+vq
+#1604076254
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604076254
+python manage.py runserver --insecure
+#1604076252
+rqo
