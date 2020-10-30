@@ -47565,3 +47565,27 @@ c
 ./learn_send_sms_text_with_twilio.py 
 #1604076991
 pshd 
+#1604077938
+gvimrc pyth
+#1604077957
+gvimrc map
+#1604077975
+vvimrc 
+#1604078041
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604078042
+cl
+#1604078046
+./learn_send_sms_text_with_twilio.py 
+#1604078040
+pshd
+#1604076765
+cl
+#1604076779
+vici learn_send_sms_text_with_twilio.py
+#1604077849
+ssh root@45.79.68.210
+#1604082100
+vresume
+#1604083267
+vp
