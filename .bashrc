@@ -361,7 +361,7 @@ alias docker-run-alpine="docker run -it --rm alpine sh"  # e.g., docker-run alpi
 alias docker-service-names='docker stats --format "{{.Name}}" --no-stream |sort '
 alias docker.stats="docker stats --no-trunc --no-stream "
 alias docker-stop-all='docker stop $(docker ps -a -q)'
-alias docker-wait-until-engine-is-up='while docker info; do sleep 1; done'
+alias docker-wait-until-engine-is-up='while ! docker info; do sleep 1; done'
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 
 ################################################################################
