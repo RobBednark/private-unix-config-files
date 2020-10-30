@@ -47531,3 +47531,37 @@ vq
 python manage.py runserver --insecure
 #1604076252
 rqo
+#1604076477
+set +x 
+#1604076487
+source .bashrc >& /tmp/out
+#1604076488
+vim /tmp/out
+#1604076497
+(set -x; source .bashrc >& /tmp/out)
+#1604076501
+vim /tmp/out
+#1604076188
+cd .unix.config.files
+#1604076189
+git show
+#1604076192
+sm .
+#1604076430
+vrc
+#1604076571
+vq
+#1604076993
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604076998
+pipenv install twilio
+#1604077204
+cl
+#1604077225
+./learn_send_sms_text_with_twilio.py 
+#1604077744
+c
+#1604077745
+./learn_send_sms_text_with_twilio.py 
+#1604076991
+pshd 
