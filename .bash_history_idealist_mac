@@ -47257,3 +47257,151 @@ pipenv install click
 psh
 #1604018135
 vq
+#1604020702
+cl
+#1604020704
+lh
+#1604020709
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604020763
+vrc
+#1604020198
+grrc partners
+#1604020202
+cd Dropbox/
+#1604020210
+open partners.numbers 
+#1604022405
+cl
+#1604022408
+ls *date*py
+#1604022420
+vim learn_simple_datetime_now.py
+#1604019428
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604019443
+cl
+#1604019446
+lh
+#1604019453
+vim learn_click_package_commandline_option_argument_parsing.py
+#1604022227
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604022334
+cd -
+#1604022343
+cl
+#1604022346
+cd *linod*
+#1604022350
+vim crontab 
+#1604022383
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604022581
+vim crontab 
+#1604022595
+scp -p crontab root@45.79.68.210:/root
+#1604022719
+jobs
+#1604022938
+vim crontab 
+#1604019425
+j req
+#1604019427
+psh
+#1604022808
+cl
+#1604022809
+lh
+#1604022814
+vim learn_simple_datetime_now.py
+#1604020677
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604020679
+cl
+#1604020683
+v .
+#1604022104
+sm .
+#1604022200
+v http
+#1604022726
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604022800
+v http
+#1604022824
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604019373
+cl
+#1604019380
+v cli
+#1604020675
+j req
+#1604020676
+psh
+#1604020756
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604020759
+cl
+#1604020779
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604021216
+./get_http_mt_park_rec_center_pool_availability.py -e rbednark@gmail.com
+#1604021222
+./get_http_mt_park_rec_center_pool_availability.py --e rbednark@gmail.com
+#1604021227
+./get_http_mt_park_rec_center_pool_availability.py --email-add rbednark@gmail.com
+#1604021294
+./get_http_mt_park_rec_center_pool_availability.py --email-addr rbednark@gmail.com
+#1604021756
+./get_http_mt_park_rec_center_pool_availability.py --email-addr rbednark@gmail.com --only-if-available |& /tmp/out |&less
+#1604021766
+./get_http_mt_park_rec_center_pool_availability.py --email-addr rbednark@gmail.com --only-if-available |& tee /tmp/out |&less
+#1604021802
+./get_http_mt_park_rec_center_pool_availability.py --email-addr rbednark@gmail.com |& tee /tmp/out |&less
+#1604021852
+gs
+#1604021864
+gcam 'swim checker now working with command-line options'
+#1604021867
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604021882
+lh
+#1604021890
+cd learn-swim-schedule-backup-linode
+#1604021892
+gs .
+#1604021895
+vim crontab 
+#1604022030
+scp -p crontab root@45.79.68.210:/root
+#1604022085
+crontab -l
+#1604022289
+./get_http_mt_park_rec_center_pool_availability.py --email-addr rbednark@gmail.com --only-if-available |& tee /tmp/out |&less
+#1604022294
+cd ..
+#1604022294
+./get_http_mt_park_rec_center_pool_availability.py --email-addr rbednark@gmail.com --only-if-available |& tee /tmp/out |&less
+#1604020716
+vrc
+#1604020755
+pshd
+#1604021873
+ssh root@45.79.68.210
+#1604029544
+vresume
+#1604070169
+vim /tmp/recur.py
+#1604070665
+cddockerlearn 
+#1604070745
+mkdir learn-docker-create-image-push-pull-docker-hub
+#1604070746
+cd learn-docker-create-image-push-pull-docker-hub
+#1604070747
+c
+#1604070751
+vi README
+#1604071057
+vq
