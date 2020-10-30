@@ -68,7 +68,7 @@ iab _sm 😀
 " \e ==> open the file in Chrome
 " \m ==> highlight the text inside the matching brace/parenthesis for 3 seconds
 " \n ==> add python nose set_trace()
-" \p ==> add python set_trace()
+" \p ==> add python import pdb; pdb.set_trace()
 " \r ==> :TabooRename  (rename the current tab)
 " \s ==> :tab split  (create a new tab)
 " \u ==> add pudb set_trace()
