@@ -47595,3 +47595,491 @@ docker -h
 docker info
 #1604084934
 echo $?
+#1604085067
+cd .unix.config.files
+#1604085074
+sm .
+#1604085090
+vim .bashrc 
+#1604085103
+dotrc
+#1604085107
+source .bashrc
+#1604085111
+docker-wait-until-engine-is-up 
+#1604085116
+type docker-wait-until-engine-is-up
+#1604085128
+while ! docker info; do sleep 1; done
+#1604085159
+vrc
+#1604085175
+type docker-wait-until-engine-is-up
+#1604085181
+docker-wait-until-engine-is-up
+#1604084383
+vrc
+#1604084363
+j gre
+#1604084378
+grrc wait
+#1604084290
+j post
+#1604084292
+gs
+#1604084293
+gd
+#1604084343
+vim gd
+#1604084346
+vim *l
+#1604085200
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604085200
+python manage.py runserver --insecure
+#1604086035
+rqo
+#1604086041
+type reqo
+#1604086057
+vp
+#1604086159
+cd tmp/
+#1604086172
+type git.commit.all.modified.and.new.for.repo.of.given.file 
+#1604086183
+git.commit.all.modified.and.new.for.repo.of.given.file .
+#1604086755
+cdqn
+#1604086758
+cd db_dumps/
+#1604086759
+lh
+#1604086762
+ls *sh
+#1604086779
+vim save-to-dropbox-and-git.sh
+#1604086047
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604086047
+python manage.py runserver --insecure
+#1604086735
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604086818
+cd db_dumps/
+#1604086819
+lh
+#1604086828
+ls *38.55*
+#1604086854
+cp -p *38.55* symlink-db_dumps
+#1604086868
+cd symlink-db_dumps
+#1604086869
+lh
+#1604087211
+ln -sf dump.quizme_production.2020.10.30_Fri_12.38.55.txt latest.dump.txt 
+#1604087217
+cd -
+#1604087220
+cd private-quiz-me-db-backups/
+#1604087237
+ls *38.55*
+#1604087240
+ls ../*38.55*
+#1604087252
+./update.sh '*38.55*'
+#1604087284
+c
+#1604087284
+gs
+#1604087291
+vim ../*sh
+#1604084256
+vig 
+#1604085198
+rqo
+#1604087298
+cdqn
+#1604087301
+cd db_dumps/private-quiz-me-db-backups/
+#1604087303
+gs
+#1604087311
+gd *txt
+#1604087313
+c
+#1604087314
+gs
+#1604087318
+gd *plain.all
+#1604087326
+c
+#1604087326
+gs
+#1604087330
+gd *json
+#1604087336
+c
+#1604087336
+gs
+#1604087345
+gcam 'update'
+#1604096699
+cl
+#1604096718
+vici learn_set_ipython_breakpoint_with_embed.py
+#1604096368
+cl
+#1604096370
+ls *ipy*
+#1604096378
+vim learn_run_ipython_script.ipy 
+#1604096781
+type ipython
+#1604096785
+ipython --version
+#1604096790
+ipython -v
+#1604096798
+ipython learn_run_ipython_script.ipy 
+#1604096803
+vim learn_run_ipython_script.ipy
+#1604096815
+ipython learn_run_ipython_script.ipy 
+#1604096819
+vim learn_run_ipython_script.ipy
+#1604096828
+ipython learn_run_ipython_script.ipy 
+#1604096243
+cd pipenvs/requests/
+#1604096246
+pipenv install ipython
+#1604097092
+cl
+#1604097097
+v emb
+#1604096940
+vq
+#1604095937
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604095939
+cl
+#1604095954
+./learn_send_sms_text_with_twilio.py 
+#1604096228
+python ./learn_send_sms_text_with_twilio.py 
+#1604096231
+python
+#1604096296
+python ./learn_send_sms_text_with_twilio.py 
+#1604097131
+lh
+#1604097139
+./learn_set_ipython_breakpoint_with_embed.py
+#1604097145
+chmod a+x ./learn_set_ipython_breakpoint_with_embed.py
+#1604097146
+./learn_set_ipython_breakpoint_with_embed.py
+#1604097150
+python3 ./learn_set_ipython_breakpoint_with_embed.py
+#1604095935
+pshd
+#1604097163
+j req
+#1604097167
+pipenv install ipdb
+#1604097246
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604097248
+cl
+#1604097250
+lh
+#1604097255
+./learn_send_sms_text_with_twilio.py 
+#1604097244
+pshd
+#1604095862
+cl
+#1604095865
+v sms
+#1604098409
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604098412
+cl
+#1604098418
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604098432
+./get_http_mt_park_rec_center_pool_availability.py --help
+#1604098445
+./get_http_mt_park_rec_center_pool_availability.py --email-addr=rbednark@gmail.com --only-if-available
+#1604098408
+pshd
+#1604098077
+cl
+#1604098079
+lh
+#1604098092
+v sms get
+#1604098097
+v get
+#1604098475
+gs
+#1604098477
+sm .
+#1604098535
+gpus
+#1604098574
+v poo
+#1604102922
+vq
+#1604102834
+cl
+#1604102839
+ls *pytz*py
+#1604102840
+vim *pytz*py
+#1604102849
+vim $(grep -l pytz *py)
+#1604101011
+cl
+#1604101013
+ls *date*py
+#1604101054
+vim learn_simple_datetime_now.py learn.date.time.py learn.simple.datetime.date.py learn.simple.show.current.date.time.asctime.py
+#1604101358
+ls *zone*py
+#1604101359
+vim *zone*py
+#1604101239
+ssh root@45.79.68.210
+#1604103469
+vp
+#1604104449
+cl
+#1604104451
+lh
+#1604104458
+j linod
+#1604104460
+gs
+#1604104462
+gs .
+#1604104464
+vim crontab 
+#1604104832
+scp -p crontab root@45.79.68.210:/root
+#1604100796
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604100796
+cl
+#1604100804
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604100812
+./get_http_mt_park_rec_center_pool_availability.py |&less
+#1604100910
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-open='+19712768789' |&less
+#1604100923
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' |&less
+#1604103123
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789'--sms-if-open='+19712768789'  |&less
+#1604103263
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789'--sms-if-open='+19712768789'  
+#1604103272
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789'  
+#1604104383
+./get_http_mt_park_rec_center_pool_availability.py --email-if-full=rbednark@gmail.com --email-if-open=rbednark@gmail.com --sms-if-full='+19712768789' --sms-if-open='+19712768789'  
+#1604104426
+lh
+#1604104843
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604104937
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+15039272404'
+#1604100794
+pshd
+#1604105261
+j node
+#1604105264
+vi crontab 
+#1604105299
+scp -p crontab root@45.79.68.210:/root
+#1604104343
+lh
+#1604104345
+cl
+#1604104346
+lh
+#1604104444
+ssh root@45.79.68.210
+#1604123016
+bc -l
+#1604122576
+j lin
+#1604122588
+gs .
+#1604122590
+gd
+#1604122592
+c
+#1604122593
+gd .
+#1604122602
+git add .
+#1604122605
+gco
+#1604122613
+vim crontab 
+#1604123315
+scp -p crontab root@45.79.68.210:/root
+#1604123320
+ssh root@45.79.68.210
+#1604149278
+cl
+#1604149284
+ls *simple*excep*py
+#1604149287
+vim *simple*excep*py
+#1604149657
+vq
+#1604149122
+cl
+#1604149127
+v poo
+#1604150390
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604150399
+j lin
+#1604150401
+gs .
+#1604150405
+scp -p crontab root@45.79.68.210:/root
+#1604149136
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604149136
+cl
+#1604149141
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604149187
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789'  
+#1604149454
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789'   |&less
+#1604149739
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789'   >& /tmp/out; vim /tmp/out
+#1604149821
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789'   |& tee /tmp/out
+#1604149842
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604149135
+pshd
+#1604167805
+vq
+#1604162693
+vq
+#1604162663
+cl
+#1604162670
+ls *time*py
+#1604162689
+vim *time*py
+#1604159895
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604159896
+cl
+#1604159909
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604159939
+vi /tmp/out
+#1604160053
+ls -ld *lin*
+#1604160054
+c
+#1604160134
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604162855
+v .
+#1604162935
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604163835
+v oo
+#1604163840
+v poo
+#1604162911
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604162911
+cl
+#1604162915
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604163925
+gd get_*
+#1604163933
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604160060
+j lin
+#1604160073
+cp /tmp/out expired-token.txt
+#1604160074
+vim expired-token.txt 
+#1604162903
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604162910
+pshd
+#1604163535
+j lin
+#1604163540
+vm expired-token.txt 
+#1604163560
+vim expired-token.txt 
+#1604163900
+which python
+#1604164088
+vim expired-token.txt 
+#1604167361
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604167361
+cl
+#1604167388
+vici learn_http_swim_pool_availability_login.py
+#1604160614
+curl 'https://www.ourclublogin.com/Scheduling/GetBookAvailability'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Accept: application/json, text/plain, */*'   -H 'If-Modified-Since: Mon, 26 Jul 1997 05:00:00 GMT'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'   -H 'Content-Type: application/json'   -H 'Origin: https://www.ourclublogin.com'   -H 'Sec-Fetch-Site: same-origin'   -H 'Sec-Fetch-Mode: cors'   -H 'Sec-Fetch-Dest: empty'   -H 'Referer: https://www.ourclublogin.com/'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: ASP.NET_SessionId=2h1ehgpmaiijt1ul0iv3mryi; CompanyId=510277; __RequestVerificationToken=KcEOvGbWEVn3fVy_HrzU6JvbdJHwnxX05CbDPEaeKgiHV9QHQ0puw_d_APZ8GF8wDpGysFpOtIVBOipDv_7nmRUzxfg1; _ga=GA1.2.1006190151.1603978617; ClubNumber=1; _gid=GA1.2.747544915.1604149495; MSSWeb=541F9D3C4250CADD80F1248205F64EA8BE2112D15D2829CE6A799A18CB8D6A2587D8DDF29376352CC8D120886B998CEE8E4B9F80834DD88BD36D16B0934F9DA9A3BC5E9953CDEE43997DE06558B99F4BF718C841B0AD99C5CA863D1FCEEB1A113CA6793D578D541B0117D047D1FCA54881950B7D'   --data-binary '{"clubId":1,"primaryCustomerId":27196,"additionalCustomerIds":[],"itemId":2088,"JsonSelectedBook":"null","startDate":"2020-11-01T07:00:00.000Z","endDate":"2020-11-30T08:00:00.000Z"}'   --compressed
+#1604162431
+curl 'https://www.ourclublogin.com/Scheduling/GetBookAvailability'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Accept: application/json, text/plain, */*'   -H 'If-Modified-Since: Mon, 26 Jul 1997 05:00:00 GMT'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'   -H 'Content-Type: application/json'   -H 'Origin: https://www.ourclublogin.com'   -H 'Sec-Fetch-Site: same-origin'   -H 'Sec-Fetch-Mode: cors'   -H 'Sec-Fetch-Dest: empty'   -H 'Referer: https://www.ourclublogin.com/'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: ASP.NET_SessionId=c0gaobbobpgpnuvatzdqdbix; CompanyId=510277; __RequestVerificationToken=n4qb9jbZHvuGMMEnjp-enG6t3uMnwIzIZMEqokCr49Og-IgrL-LnH-jEDFVRvtgpli39eInl-8Us5ozQNIYDcPe_12Y1; _ga=GA1.2.40730748.1604162356; _gid=GA1.2.1391321835.1604162356; MSSWeb=0C35B32473F7123FC1721BCB39EA5DE16D909929DA6BEB0FC2ABB8CD9D821303A6DDC01262CFE3BF6B967079C3F99E3A06E82439468494DD2D40791F07DF59DC5A5784EF2BCCA05B2C8EE701D63943C49BAB511BB0D0905FAFC2E3FBBBFBF35B9759D4955257630730F087A6911038281DF2C244; ClubNumber=1'   --data-binary '{"clubId":1,"primaryCustomerId":27196,"additionalCustomerIds":[],"itemId":2120,"JsonSelectedBook":"null","startDate":"2020-11-01T07:00:00.000Z","endDate":"2020-11-30T08:00:00.000Z"}'   --compressed
+#1604166739
+vp
+#1604167670
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs
+#1604168770
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604159857
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604159860
+grrc pshd
+#1604159868
+cl
+#1604159872
+v poo
+#1604160483
+v .
+#1604168060
+v poo
+#1604168471
+vici get_http_mt_park_rec_center_pool_availability.py
+#1604168823
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604159852
+dl
+#1604159855
+pdsh
+#1604159856
+pshd
+#1604159837
+ssh root@45.79.68.210
+#1604168698
+curl 'https://www.ourclublogin.com/Scheduling/GetBookAvailability'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Accept: application/json, text/plain, */*'   -H 'If-Modified-Since: Mon, 26 Jul 1997 05:00:00 GMT'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'   -H 'Content-Type: application/json'   -H 'Origin: https://www.ourclublogin.com'   -H 'Sec-Fetch-Site: same-origin'   -H 'Sec-Fetch-Mode: cors'   -H 'Sec-Fetch-Dest: empty'   -H 'Referer: https://www.ourclublogin.com/'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: ASP.NET_SessionId=av3iblyzcytfknphgxd3guag; CompanyId=510277; __RequestVerificationToken=9qEUN-QfEu7f9Qy9kN5K60QFzDDqyfSmXSfNVMXwEMRyTXatZ_e_nS2A-2aYCtI4diqfCqJVx_yqbFSK3qDLsradtus1; _ga=GA1.2.622764595.1604168545; _gid=GA1.2.1487073400.1604168545; MSSWeb=EBDC12A3B9E132906085CFBDE26BF31C72BD7337CDDC2C32ABE5525FB1429DB1D6D1E06A459BD5C30138A2385BEFD71904A9AC4C8C461A2E0EC700A4977070BE37A01D1BE34E71EB6EEF151653EB39AFC15CA68709B04B1079DAB7C461D11651776914AC46A3F2C20A5838639CD59AB6BFBB855E; ClubNumber=1; _gat=1'   --data-binary '{"clubId":1,"primaryCustomerId":27196,"additionalCustomerIds":[],"itemId":2088,"JsonSelectedBook":"null","startDate":"2020-10-01T07:00:00.000Z","endDate":"2020-10-31T07:00:00.000Z"}'   --compressed
+#1604168768
+pshd
+#1604168775
+cl
+#1604168786
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604172904
+vdiary 
