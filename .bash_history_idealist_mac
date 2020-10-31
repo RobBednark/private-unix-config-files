@@ -48121,3 +48121,51 @@ v poo
 j lin
 #1604174120
 vim expired-token.txt 
+#1604174259
+vrc
+#1604174491
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604174502
+pip freeze
+#1604174507
+gs .
+#1604174511
+git show
+#1604174515
+c
+#1604174519
+cat Pipfile
+#1604174490
+pshd
+#1604174558
+cl
+#1604174563
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604174537
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604174538
+cl
+#1604174551
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604174533
+psh
+#1604174536
+pshd
+#1604174257
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604174261
+cl
+#1604174268
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604174329
+v poo
+#1604174573
+sm .
+#1604174256
+pshd
+#1604175786
+vp
+#1604179999
+vresume
+#1604180332
+vig
