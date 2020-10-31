@@ -48169,3 +48169,57 @@ vp
 vresume
 #1604180332
 vig
+#1604180299
+j post
+#1604180300
+l
+#1604180303
+type l
+#1604180318
+l cat *yml
+#1604180321
+c
+#1604180327
+gs
+#1604180327
+gd
+#1604180361
+vim *yml
+#1604180474
+j post
+#1604180490
+docker-wait-until-engine-is-up && docker up
+#1604180523
+dotrc
+#1604180528
+docker-wait-until-engine-is-up && docker-compose up
+#1604180638
+dc stop
+#1604180639
+dc
+#1604180649
+dc up
+#1604180715
+j post
+#1604180718
+git log
+#1604180720
+cd ..
+#1604180721
+l
+#1604180734
+cd learn-nginx-on-alpine/
+#1604180736
+cd ..
+#1604180737
+ls *
+#1604180742
+cd learn-nginx-
+#1604180744
+cd learn-nginx-ssl/
+#1604180745
+gs
+#1604180746
+gd
+#1604180750
+vi *
