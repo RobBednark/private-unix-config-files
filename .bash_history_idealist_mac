@@ -48755,3 +48755,35 @@ gs
 gcam 'update'
 #1604347615
 gpus
+#1604347402
+vrc
+#1604347296
+vp
+#1604346820
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604346820
+python manage.py runserver --insecure
+#1604346819
+rqo
+#1604347340
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604347342
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604347375
+cd db_dumps/
+#1604347377
+ls -ltr
+#1604347382
+vim save-to-dropbox-and-git.sh 
+#1604347565
+mv save-to-dropbox-and-git.sh  private-quiz-me-db-backups/
+#1604347582
+lh
+#1604347585
+ls *02.22*
+#1604347622
+vq
+#1604347339
+cdq
+#1604348675
+vp
