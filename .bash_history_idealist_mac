@@ -48697,3 +48697,61 @@ dc logs -t my_psql &
 jobs
 #1604345988
 vq
+#1604347347
+cdqn
+#1604347349
+cd db_dumps/
+#1604347353
+cd private-quiz-me-db-backups/
+#1604347356
+vim update.sh 
+#1604347362
+vim README.md 
+#1604347366
+gs
+#1604347369
+gpus
+#1604347391
+vim update.sh 
+#1604347448
+cd ..
+#1604347449
+lh
+#1604347461
+vim *only
+#1604347483
+lh
+#1604347487
+ls *02.22*
+#1604347493
+cp -p *02.22* symlink-db_dumps
+#1604347495
+cd symlink-db_dumps
+#1604347496
+lh
+#1604347514
+ln -s dump.quizme_production.2020.11.02_Mon_12.02.22.txt latest.dump.txt 
+#1604347518
+ln -sf dump.quizme_production.2020.11.02_Mon_12.02.22.txt latest.dump.txt 
+#1604347521
+ls -l latest.dump.txt 
+#1604347549
+pwd
+#1604347570
+cd pri
+#1604347573
+cd -
+#1604347574
+cd private-quiz-me-db-backups/
+#1604347603
+./update.sh '*02.22*'
+#1604347604
+gs
+#1604347608
+gd *txt
+#1604347609
+gs
+#1604347614
+gcam 'update'
+#1604347615
+gpus
