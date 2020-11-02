@@ -86,8 +86,7 @@ map <leader>m  m[%v%:sleep 3000m<CR>`[
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>r :TabooRename 
-"map <silent> <leader>s :tab split<esc>
-map <silent> <leader>s :tab split<esc>:TabooRename<esc>
+map <silent> <leader>s :tab split<esc>
 map <silent> <leader>S :call AddSection()<esc>
 map <silent> <leader>u oimport pudb; pudb.set_trace()<esc>
 map <silent> <leader>D zfG
