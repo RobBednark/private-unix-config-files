@@ -48627,3 +48627,73 @@ dc ps
 dc down
 #1604345856
 dc up
+#1604347059
+vvimrc
+#1604345490
+j post__
+#1604345493
+gs
+#1604345494
+gs .
+#1604345495
+gd
+#1604345510
+vim *l
+#1604345516
+cd ..
+#1604345544
+cp learn-docker-compose-with-django-nginx-postgres
+#1604345547
+mkdir learn-docker-compose-with-django-nginx-postgres
+#1604345548
+cd learn-docker-compose-with-django-nginx-postgres
+#1604345560
+cp ../learn-postgres/docker-compose.yml .
+#1604345574
+git init .
+#1604345576
+gs
+#1604345578
+git add .
+#1604345645
+c
+#1604345647
+gs
+#1604345649
+vim docker-compose.yml 
+#1604345670
+dc up
+#1604346088
+jobs
+#1604346089
+gd
+#1604346134
+jobs
+#1604346138
+gs
+#1604346161
+vim *l
+#1604346186
+dc up -d
+#1604346189
+jobs
+#1604346192
+dc up --help
+#1604346208
+dc logs -t
+#1604346239
+dc restart my_psql
+#1604346243
+dc logs -t
+#1604346254
+dc logs -t my_psql
+#1604346274
+dc restart my_psql
+#1604346276
+dc logs -t my_psql
+#1604346281
+dc logs -t my_psql &
+#1604346282
+jobs
+#1604345988
+vq
