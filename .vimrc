@@ -66,6 +66,7 @@ iab _sm 😀
 " \c ==> :!python -m py_compile %
 " \d ==> (diff)  :r!git diff --cached
 " \e ==> open the file in Chrome
+" \g ==> :GitGutterDisable
 " \m ==> highlight the text inside the matching brace/parenthesis for 3 seconds
 " \n ==> add python nose set_trace()
 " \p ==> add python import pdb; pdb.set_trace()
@@ -78,6 +79,7 @@ map <silent> <leader>a :ALEFix<CR>
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>e :!open -a google\ chrome % <esc>
+map <silent> <leader>g :GitGutterDisable <esc>
 map <silent> <leader>l :!open -a sublime\ text % <esc>
 map <silent> <leader>L :call AddSeparatorLine()<esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
