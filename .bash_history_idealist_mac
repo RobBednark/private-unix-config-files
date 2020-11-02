@@ -48223,3 +48223,237 @@ gs
 gd
 #1604180750
 vi *
+#1604180499
+vrc
+#1604180855
+vig
+#1604180952
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604180952
+python manage.py runserver --insecure
+#1604180950
+rqo
+#1604181850
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604181851
+/dumpdb
+#1604181854
+jobs
+#1604181857
+/dumpdb
+#1604181868
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604181343
+vp
+#1604181849
+cdq
+#1604189131
+man psql
+#1604189233
+c
+#1604188870
+j post__
+#1604188877
+dc up
+#1604188969
+dc up --remove-orphans
+#1604189090
+dc logs
+#1604189103
+dc logs -t
+#1604189110
+dc logs -t my_psql
+#1604189118
+dc logs -ft my_psql
+#1604189236
+c
+#1604189411
+pwd
+#1604188778
+vq
+#1604189295
+vsql
+#1604189830
+vig
+#1604188504
+vq
+#1604188769
+j pos
+#1604188847
+vim *yml
+#1604189803
+gs
+#1604189804
+gd
+#1604189817
+gcam 'working with psql using docker-compose'
+#1604189556
+man psql
+#1604188890
+j post
+#1604188893
+dc status
+#1604188904
+dc ps
+#1604188914
+dc logs learn-postgres_my_psql_1
+#1604188927
+dc logs my_psql_1
+#1604188933
+dc logs my_psql
+#1604188940
+dc logs -h my_psql
+#1604188945
+dc logs -t my_psql
+#1604189001
+dc ps
+#1604189082
+dc restart
+#1604189447
+dc up
+#1604189525
+dc logs
+#1604189532
+dc logs my_psql
+#1604189537
+dc logs -tf my_psql
+#1604189579
+jobs
+#1604189585
+dc up
+#1604189927
+dc down
+#1604189938
+dc down --remove-orphans
+#1604190092
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604190092
+python manage.py runserver --insecure
+#1604190091
+rqo
+#1604189958
+cl
+#1604189962
+v poo
+#1604247769
+j push
+#1604247774
+docker push robbednark/my-image
+#1604247783
+docker push robbednark/my-image:1
+#1604247854
+docker tag my-image robbednark/my-image:1
+#1604247868
+docker image list
+#1604247903
+docker tag robbednark/my-image robbednark/my-image:1
+#1604247905
+docker image list
+#1604247936
+docker tag --help
+#1604247969
+docker tag robbednark/my-image robbednark/my-image:latest
+#1604247975
+docker tag robbednark/my-image:latest robbednark/my-image:latest
+#1604247978
+docker tag robbednark/my-image:latest robbednark/my-image:foo
+#1604247981
+docker tag list
+#1604247984
+docker image list
+#1604247992
+docker tag robbednark/my-image robbednark/my-image:2
+#1604247995
+docker image list
+#1604248034
+docker tag postgres robbednark/my-image:latest
+#1604248038
+docker image list
+#1604248271
+docker tag robbednark/my-image:1 robbednark/my-image:latest
+#1604248473
+docker tag alpine john:1
+#1604248477
+docker image list
+#1604248493
+docker tag john robbednark/john:1
+#1604248515
+docker tag john:1 robbednark/john:1
+#1604248522
+docker image list
+#1604248547
+docker push robbednark/john
+#1604248561
+docker image list:
+#1604248569
+docker push robbednark/john:latest
+#1604248591
+docker pull robbednark/john:latest
+#1604248597
+docker pull robbednark/john:1
+#1604248607
+docker pull robbednark/john
+#1604248726
+docker
+#1604249010
+c
+#1604249018
+docker-rm-everything
+#1604249023
+docker image list
+#1604249027
+type docker-rm-everything
+#1604249067
+c
+#1604249074
+docker pull alpine
+#1604249081
+docker image list
+#1604249090
+alias dil='docker image list'
+#1604249119
+docker tag alpine robbednark/test
+#1604249120
+dil
+#1604249346
+brew install docker-cloud
+#1604249478
+dil
+#1604249519
+docker push robbednark/test
+#1604249602
+docker pull robbednark/test
+#1604247163
+j tag
+#1604247168
+j -
+#1604247170
+j -l
+#1604247175
+j -s
+#1604247205
+cddockerlearn 
+#1604247213
+j -s|grep docker
+#1604247222
+j image
+#1604247241
+c
+#1604247248
+vim run.sh 
+#1604247506
+docker push --help|less
+#1604249457
+vp
+#1604244749
+vq
+#1604265428
+vresume
+#1604265547
+type vresume
+#1604263257
+vp
+#1604266196
+vresume
+#1604281871
+vp
