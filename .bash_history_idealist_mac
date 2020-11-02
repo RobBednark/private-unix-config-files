@@ -48543,3 +48543,87 @@ vvirm
 vvimrc 
 #1604343040
 vim
+#1604343056
+vvimrc 
+#1604342888
+vresume
+#1604344336
+cl
+#1604344339
+ls *pprint*py
+#1604344344
+vim *pprint*py
+#1604343927
+cl
+#1604343930
+sm .
+#1604343964
+lh
+#1604343970
+vi get_http_mt_park_rec_center_pool_availability.py
+#1604343978
+lh
+#1604343986
+ln -s get_http_mt_park_rec_center_pool_availability.py z
+#1604343987
+vim z
+#1604344179
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604344179
+cl
+#1604344185
+./z
+#1604344189
+./z -h
+#1604344207
+./z --sms-if-open=foo
+#1604344227
+./z
+#1604344175
+cl
+#1604344177
+pshd
+#1604345581
+j post
+#1604345583
+gs
+#1604345584
+gd
+#1604345586
+git checkout .
+#1604345587
+gs
+#1604345588
+c
+#1604345597
+git log -p
+#1604345601
+c
+#1604345601
+gs
+#1604345609
+git.ls-files.ignored 
+#1604345616
+git ls-files
+#1604345621
+ls conf.d/
+#1604345622
+rmdir conf.d/
+#1604345624
+c
+#1604345743
+j post
+#1604345746
+vim docker-compose.yml 
+#1604345766
+dc up
+#1604345776
+dc down
+#1604345778
+dc up
+#1604345788
+dc ps
+#1604345842
+dc down
+#1604345856
+dc up
