@@ -67,6 +67,7 @@ iab _sm 😀
 " \d ==> (diff)  :r!git diff --cached
 " \e ==> open the file in Chrome
 " \g ==> :GitGutterDisable
+" \l ==> "subLime Text": open current file in Sublime
 " \m ==> highlight the text inside the matching brace/parenthesis for 3 seconds
 " \n ==> add python nose set_trace()
 " \p ==> add python import pdb; pdb.set_trace()
@@ -74,14 +75,17 @@ iab _sm 😀
 " \s ==> :tab split  (create a new tab)
 " \u ==> add pudb set_trace()
 " \D ==> (Down) -- fold DOWN from the current cursor position to G (end of file)
-" \U ==> (Up) -- fold UP from the current cursor position to line 1 (top of file)
+" \I ==> ("lIne") add a equals line: ======================
+" \L ==> ("Line") add a dashed line: -----------------------------
+" \U ==> ("Up") -- fold UP from the current cursor position to line 1 (top of file)
 map <silent> <leader>a :ALEFix<CR>
 map <silent> <leader>c :w<esc>:!python -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>e :!open -a google\ chrome % <esc>
 map <silent> <leader>g :GitGutterDisable <esc>
+map <silent> <leader>I :call AddSeparatorLineEquals()<esc>
 map <silent> <leader>l :!open -a sublime\ text % <esc>
-map <silent> <leader>L :call AddSeparatorLine()<esc>
+map <silent> <leader>L :call AddSeparatorLineDashed()<esc>
 map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
@@ -103,10 +107,16 @@ set ofu=syntaxcomplete#Complete
 " ================================================================================
 " #Start #Functions
 " ================================================================================
-function! AddSeparatorLine()
+function! AddSeparatorLineDashed()
   " Add this lines:
   " ------------------------------
   normal! o30a-
+endfunction
+
+function! AddSeparatorLineEquals()
+  " Add this lines:
+  " ------------------------------
+  normal! o80a=
 endfunction
 
 function! AddSection()
