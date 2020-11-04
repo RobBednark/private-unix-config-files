@@ -360,7 +360,7 @@ alias docker-run="docker run -it --rm"  # e.g., docker-run alpine /bin/sh  (pull
 alias docker-run-alpine="docker run -it --rm alpine sh"  # e.g., docker-run alpine /bin/sh  (pull the "alpine" image from docker hub and run it)
 alias docker-service-names='docker stats --format "{{.Name}}" --no-stream |sort '
 alias docker.stats="docker stats --no-trunc --no-stream "
-alias docker-stop-all='docker stop $(docker ps -a -q)'
+alias docker-stop-all-containers='docker stop $(docker ps -a -q)'
 alias docker-wait-until-engine-is-up='while ! docker info >& /dev/null; do sleep 1; done'
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
 
