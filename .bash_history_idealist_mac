@@ -48787,3 +48787,309 @@ vq
 cdq
 #1604348675
 vp
+#1604354101
+cdquiz-add-to-quizme 
+#1604354103
+gs
+#1604354105
+gpus
+#1604354109
+git remote -v
+#1604354115
+ddud
+#1604353775
+cdquiz
+#1604353782
+type vq
+#1604353790
+grrc quiz
+#1604353803
+cdadd-to-quizme 
+#1604353805
+vrc
+#1604353824
+c
+#1604353825
+gs
+#1604353829
+git log -p
+#1604353974
+pwd
+#1604353974
+jobs
+#1604353982
+vmac
+#1604354018
+vim
+#1604353487
+vq
+#1604356182
+mount
+#1604356190
+cd /Volumes/KINGSTON/
+#1604356194
+du -hs *
+#1604356199
+ls -al
+#1604356271
+du -hs .
+#1604356290
+ls -alh
+#1604356297
+du -hs .*
+#1604356303
+pwd
+#1604356408
+vq
+#1604362887
+ssh root@45.79.68.210
+#1604364135
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604364138
+cl
+#1604364147
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604364441
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604364455
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604364501
+date
+#1604364134
+pshd
+#1604362908
+cl
+#1604362910
+sm .
+#1604362936
+v poo
+#1604363126
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604363187
+v .
+#1604363476
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604363603
+gs
+#1604363627
+v .
+#1604363906
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604363936
+vi .
+#1604363944
+v .
+#1604364037
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604364400
+v 
+#1604364170
+cd /tmp
+#1604364181
+ls -altr
+#1604364185
+vim -R out 
+#1604418484
+docker build --help|less
+#1604421356
+vq
+#1604421320
+history > /tmp/history
+#1604421347
+grep -i chrome /tmp/history
+#1604421350
+grep -i chrome /tmp/history|less
+#1604417666
+vq
+#1604419919
+ping.monitor 
+#1604421864
+kill %1
+#1604421865
+jobs
+#1604420368
+curl --include https://www.ourclublogin.com/Account/Login
+#1604420373
+curl --include https://www.ourclublogin.com/Account/Login|&less
+#1604420943
+vim /tmp/curl
+#1604419862
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604419862
+cl
+#1604419902
+./get_http_mt_park_rec_center_pool_availability.py 
+#1604423497
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604419860
+pshd
+#1604419639
+cl
+#1604419653
+gs get_http_mt_park_rec_center_pool_availability.py
+#1604419661
+v oo
+#1604423466
+sm .
+#1604423490
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604421479
+curl --include https://www.ourclublogin.com/Account/Login
+#1604421484
+curl --include https://www.ourclublogin.com/Account/Login|&less
+#1604422739
+cd tmp
+#1604422743
+vim curl.post.login.sh
+#1604422768
+bash curl.post.login.sh 
+#1604422777
+vim curl.post.login.sh 
+#1604422792
+bash curl.post.login.sh 
+#1604422880
+vim curl.post.login.sh 
+#1604421654
+cd /tmp
+#1604421655
+ls -altr
+#1604421659
+vim -R curl 
+#1604423564
+ssh root@45.79.68.210
+#1604424094
+vq
+#1604430604
+vresume
+#1604431517
+cdresume
+#1604431519
+ls-altr
+#1604431527
+cd
+#1604431532
+cd Dropbox/
+#1604431536
+cd rob.resume/
+#1604431552
+open Rob-Bednark-resume-20160926.docx Rob-Bednark-resume-20160926.pdf
+#1604431567
+open Rob-Bednark-resume-20160926.pdf
+#1604440962
+vdiary 
+#1604442020
+j post
+#1604442023
+gs
+#1604442024
+gd
+#1604442028
+git log
+#1604442032
+gd
+#1604442037
+git checkout .
+#1604442038
+gs
+#1604442039
+cd ..
+#1604442040
+l
+#1604442041
+lh
+#1604442045
+j django
+#1604442049
+cd -
+#1604442054
+lh
+#1604442060
+cd learn-docker-compose-with-django-nginx-postgres
+#1604442069
+vi docker-compose.yml 
+#1604442408
+gs
+#1604442419
+cd ..
+#1604442429
+cd -
+#1604442430
+s
+#1604442435
+vim docker-compose.yml 
+#1604442747
+vim run.sh
+#1604442129
+j ng
+#1604442143
+j with-dj
+#1604442145
+gd
+#1604442148
+dc up
+#1604442938
+dc ps
+#1604442174
+j django
+#1604442178
+dc ps
+#1604442187
+dc logs my_psql
+#1604442197
+dc exec -it my_psql bash
+#1604442208
+dc exec my_psql bash
+#1604442218
+dc ps
+#1604442235
+dc run -h
+#1604442252
+dc run my_psql bash
+#1604442278
+dc up -d my_psql
+#1604442285
+dc logs -t my_psql
+#1604442303
+dc logs -h -t my_psql
+#1604442315
+dc logs --tail=999 -t my_psql
+#1604442325
+gd
+#1604442334
+sm .
+#1604442366
+dc ps
+#1604442375
+dc logs --tail=999 -t my_nginx_server
+#1604442943
+docker ps
+#1604442847
+vq
+#1604440885
+vq
+#1604441995
+vig
+#1604443023
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604443023
+cl
+#1604443026
+v oo
+#1604443021
+pshd
+#1604443175
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604443179
+lh
+#1604443187
+cl
+#1604443193
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604443174
+pshd
+#1604443057
+cl
+#1604443058
+sm .
+#1604458531
+vq
