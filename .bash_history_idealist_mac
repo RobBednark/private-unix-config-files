@@ -49093,3 +49093,51 @@ cl
 sm .
 #1604458531
 vq
+#1604504130
+vrc
+#1604508031
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604508036
+cl
+#1604508277
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' 
+#1604508030
+pshd
+#1604508162
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604508165
+pydoc3
+#1604508169
+pydoc3 requests.session
+#1604508172
+pydoc3 requests.Session
+#1604508175
+pydoc3 requests
+#1604508184
+pydoc
+#1604508187
+pydoc requests
+#1604508201
+pydoc requests.Session
+#1604508157
+python3
+#1604508160
+pshd
+#1604509161
+cd tmp/
+#1604509163
+ls -altr
+#1604509168
+vi curl.post.login.sh 
+#1604508030
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604508035
+cl
+#1604508039
+v ool
+#1604509362
+./get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604508028
+pshd
+#1604505557
+vq
