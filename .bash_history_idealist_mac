@@ -49429,3 +49429,237 @@ vim *l
 python manage.py runserver --insecure
 #1604543792
 rqo
+#1604557380
+gvimrc compile
+#1604557392
+vvimrc 
+#1604557664
+v oo
+#1604557680
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604557682
+cl
+#1604557684
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604557690
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604557720
+./get_http_mt_park_rec_center_pool_availability.py --email-if-full=rbednark@gmail.com --email-if-open=rbednark@gmail.com --sms-if-full='+19712768789' --sms-if-open='+19712768789'  
+#1604557679
+pshd
+#1604556756
+ssh root@45.79.68.210
+#1604557193
+cl
+#1604557195
+v oo
+#1604557440
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604557463
+cd *lin*
+#1604557467
+j lino
+#1604557470
+gs .
+#1604557515
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs
+#1604556723
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604556777
+v ool
+#1604557127
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604557139
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604556716
+sm
+#1604556719
+cl
+#1604556721
+pshd
+#1604593313
+j lin
+#1604593322
+vim curl-login.sh 
+#1604595747
+python3
+#1604590520
+j lin
+#1604590524
+gs .
+#1604590526
+c
+#1604590552
+vim curl-initial-login-page.sh
+#1604593031
+vim curl-login.sh
+#1604593215
+vim har-login
+#1604593317
+vim curl-initial-login-page.sh 
+#1604590599
+ssh root@45.79.68.210 tail -f '~/log/py*'
+#1604594308
+python3
+#1604591060
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604591085
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604594918
+$DirLearn/get_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604590481
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604590482
+cl
+#1604590485
+gs .
+#1604590488
+c
+#1604590489
+sm .
+#1604590505
+v oo
+#1604593512
+c
+#1604593530
+reset
+#1604593541
+tty sane
+#1604593565
+cp get_http_mt_park_rec_center_pool_availability.py get_availability.py
+#1604593566
+vim get_availability.py
+#1604593577
+sm .
+#1604593605
+vim get_availability.py 
+#1604590302
+vq
+#1604590573
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs
+#1604596123
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604596130
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604596150
+cl
+#1604596152
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604596209
+v oo
+#1604596122
+pshd
+#1604596063
+cl
+#1604596065
+v ool
+#1604595911
+v ool
+#1604596024
+cl
+#1604596027
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604596032
+ssh root@45.79.68.210 tail -f '~/log/py*'
+#1604601789
+gvimrc line
+#1604602440
+v oo
+#1604601660
+vresume
+#1604602615
+cl
+#1604602616
+lh
+#1604602660
+cp stackoverflow_ask_template.txt learn_stackoverflow_ask_vim_exit_and_save_view_of_tabs.txt
+#1604602661
+vim learn_stackoverflow_ask_vim_exit_and_save_view_of_tabs.txt
+#1604602627
+cl
+#1604602628
+lh
+#1604602634
+ls -h|tail -20
+#1604602638
+ls *stackover*
+#1604602283
+ssh root@45.79.68.210
+#1604603977
+vig
+#1604604518
+j nginx
+#1604604520
+gs
+#1604604522
+gs .
+#1604604522
+gd
+#1604604531
+vim *l
+#1604604566
+vq
+#1604603942
+j djan
+#1604603946
+gs .
+#1604603947
+sm .
+#1604604009
+vim *l
+#1604604704
+mkdir nginx
+#1604604708
+vim nginx/conf.d
+#1604605007
+cat Dockerfile 
+#1604605013
+mv Dockerfile Dockerfile-django
+#1604605015
+vi *l
+#1604605031
+cp Dockerfile-django Dockerfile-nginx
+#1604605034
+gs
+#1604603956
+j dj
+#1604603964
+docker-wait-until-engine-is-up && dc up
+#1604604025
+dc up
+#1604604171
+dc up -d
+#1604604177
+dc up -h
+#1604604185
+dc logs -t
+#1604604217
+dc restart -d
+#1604604223
+dc restart
+#1604604231
+type dcl
+#1604604245
+grrc 'compose.*logs'
+#1604604251
+dclogs
+#1604604285
+dc
+#1604604296
+dc up -d
+#1604604312
+dcl
+#1604604314
+dclogs
+#1604605358
+ssh root@45.79.68.210 tail -f '~/log/py*'
+#1604605403
+ssh root@45.79.68.210
+#1604606284
+pwd
+#1604606288
+vdiary 
+#1604608835
+bc -l 
+#1604611039
+vq
