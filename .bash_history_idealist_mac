@@ -49143,3 +49143,289 @@ pshd
 vq
 #1604516404
 vim
+#1604516347
+vvimrc 
+#1604516214
+vresume
+#1604519058
+j djang
+#1604519060
+dc ps
+#1604519157
+dc logs my_django
+#1604519172
+dc run my_django bash
+#1604518038
+j djang
+#1604518041
+gs
+#1604518042
+gd
+#1604518054
+cat Dockerfile 
+#1604518134
+c
+#1604518135
+gs
+#1604518136
+gd
+#1604518139
+cat run.sh 
+#1604518164
+vim *l
+#1604518735
+j djang
+#1604518737
+gs
+#1604518741
+dc ps
+#1604518916
+docker-stop-all-containers 
+#1604518918
+dc ps
+#1604518924
+dc image
+#1604518927
+dc image ps
+#1604518930
+dc image l
+#1604518932
+dc image list
+#1604518945
+dc images list
+#1604518950
+dc images
+#1604518955
+dc up
+#1604518175
+vq
+#1604518031
+vig
+#1604519998
+VP
+#1604519999
+vp
+#1604520252
+vm
+#1604520029
+vq
+#1604520044
+cdqn
+#1604520052
+cd db_dumps/private-quiz-me-db-backups/
+#1604520057
+gs
+#1604520059
+vi save-to-dropbox-and-git.sh 
+#1604520020
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604520025
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604520117
+ls -1t *schema-only
+#1604520126
+cd db_dumps/
+#1604520128
+ls -1t *schema-only
+#1604520132
+ls -1t *schema-only|head -1
+#1604520157
+lh
+#1604520159
+ls *00.25*
+#1604520163
+cp -p *00.25* symlink-db_dumps
+#1604520165
+cd symlink-db_dumps
+#1604520168
+lh
+#1604520178
+ln -sf dump.quizme_production.2020.11.04_Wed_12.00.25.txt latest.dump.txt 
+#1604519271
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604519271
+python manage.py runserver --insecure
+#1604519270
+rqo
+#1604521108
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604521109
+ump
+#1604521114
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604520019
+cdq
+#1604521187
+cl
+#1604521190
+v poo
+#1604521377
+sm .
+#1604521471
+v oo
+#1604521529
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604521344
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604521345
+cl
+#1604521350
+cd
+#1604521361
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604521343
+pshd
+#1604521152
+ssh root@45.79.68.210
+#1604521613
+ssh root@45.79.68.210 date
+#1604521623
+ssh root@45.79.68.210 tail -f '~/log/py*'
+#1604525558
+vig
+#1604526335
+vp
+#1604537814
+j nginx
+#1604537817
+gs .
+#1604537831
+git.rev-parse.show.toplevel.repo.dir 
+#1604537837
+c
+#1604537839
+gs
+#1604537841
+gd
+#1604537856
+j djang
+#1604537858
+gs
+#1604537859
+gs .
+#1604537866
+git.rev-parse.show.toplevel.repo.dir 
+#1604537869
+gs
+#1604537894
+git add gs .
+#1604537895
+gs .
+#1604537897
+gd
+#1604537901
+git add .
+#1604537935
+gcam 'my_django not working yet; need to run startapp, etc.'
+#1604537936
+gs
+#1604537947
+j nginx
+#1604537952
+j postgres
+#1604537966
+cd -
+#1604537972
+j with-n
+#1604537980
+j with
+#1604537982
+gs .
+#1604537985
+git log
+#1604538019
+c
+#1604538020
+pwd
+#1604538029
+c
+#1604538031
+gs
+#1604538063
+cl
+#1604538064
+gs
+#1604538080
+cd dir-learn-docker/learn-docker-compose-with-django-nginx-postgres/
+#1604538081
+gs .
+#1604538085
+cd ..
+#1604538086
+gs
+#1604538089
+gs .
+#1604533476
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604534297
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604533474
+pshd
+#1604533426
+sm
+#1604533472
+v oo
+#1604538136
+j docke
+#1604538140
+gs .
+#1604538142
+vim *
+#1604538475
+j djang
+#1604538479
+dc logs my_django
+#1604538514
+dc build my_django
+#1604538568
+django-admin
+#1604538593
+dc build my_django
+#1604538971
+dc up my_django
+#1604538256
+j django
+#1604538311
+vim settings_databases.txt
+#1604538336
+pwd
+#1604538352
+c
+#1604538366
+docker-wait-until-engine-is-up 
+#1604538375
+dc up
+#1604538393
+j django
+#1604538416
+dc run my_django bash
+#1604538930
+dc run --build my_django bash
+#1604538942
+docker build my_django
+#1604539017
+gs .
+#1604539019
+gd
+#1604539021
+c
+#1604539022
+gs
+#1604539024
+git add .
+#1604539025
+gs
+#1604539031
+gcam 'got Django running'
+#1604543572
+j djang
+#1604543574
+gs
+#1604543586
+vim *l
+#1604543793
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604543793
+python manage.py runserver --insecure
+#1604543792
+rqo
