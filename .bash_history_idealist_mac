@@ -49665,3 +49665,311 @@ bc -l
 vq
 #1604608611
 vp
+#1604611266
+vrc
+#1604612829
+v oo
+#1604616765
+vp
+#1604626102
+cd tmp/
+#1604626103
+sm .
+#1604626072
+j dja
+#1604626074
+gs
+#1604626076
+gs .
+#1604626827
+gs
+#1604626828
+gd
+#1604626833
+vi *ango
+#1604626839
+vi *inx
+#1604626939
+c
+#1604626973
+vim *ml
+#1604627032
+gs
+#1604627034
+dc up
+#1604627060
+vim *yml
+#1604627084
+dc up
+#1604627118
+dc ps
+#1604627127
+dc exec my_nginx bash
+#1604627132
+dc exec my_nginx /bin/bash
+#1604627137
+dc exec my_nginx /bin/ash
+#1604627211
+dc build my_nginx
+#1604627220
+jobs
+#1604627223
+kill %1
+#1604627255
+pwd
+#1604627256
+jobs
+#1604628531
+docker build -f Dockerfile-nginx .
+#1604628540
+ls nginx/
+#1604628559
+ls nginx/conf.d 
+#1604628561
+ls -al nginx/conf.d
+#1604628563
+cat nginx/conf.d
+#1604626949
+j ngin
+#1604626951
+gs
+#1604626953
+gd
+#1604626958
+vim *ml
+#1604627403
+vdiary 
+#1604627410
+v
+#1604627415
+vq
+#1604634460
+cddocker
+#1604634463
+cddockerlearn 
+#1604634472
+cd learn-nginx-alpine-default
+#1604634478
+cat run.sh 
+#1604634489
+cat run-with-conf.sh 
+#1604634501
+ls tmp-conf 
+#1604634503
+cat tmp-conf 
+#1604634510
+cd ..
+#1604634516
+cd learn-nginx-on-alpine
+#1604634519
+cat Dockerfile 
+#1604633233
+j ngin
+#1604633237
+ls conf.d/
+#1604634434
+vim *l conf.d/default.conf 
+#1604633247
+j dj
+#1604633266
+dc run my_nginx ash
+#1604633347
+dc run --remove-orphans my_nginx ash
+#1604633351
+dc run my_nginx ash
+#1604633524
+dc ps
+#1604633542
+type docker-rm-everything
+#1604633557
+dc rm my_nginx
+#1604633565
+dc image ls
+#1604633570
+dc images
+#1604633600
+docker images ls
+#1604633603
+docker images ls -a
+#1604633610
+docker images
+#1604633634
+dc images -h
+#1604633641
+dc
+#1604633648
+docker ps -a
+#1604633653
+docker
+#1604633669
+docker image -h
+#1604633672
+docker image ls
+#1604633696
+docker rmi 5edc944b2f59 4e6382cb115c be228a32adae
+#1604633700
+docker image ls
+#1604633714
+docker rmi d6e46aa2470d 
+#1604633724
+c
+#1604633739
+dc run my_nginx ash
+#1604633801
+dc up --build my_nginx
+#1604633813
+dc up --help
+#1604633856
+dc up --remove-orphans --force-recreate --build my_nginx
+#1604633873
+dc
+#1604633937
+dc build my_nginx
+#1604633944
+vi *l
+#1604633967
+dc build my_nginx
+#1604633989
+vim *l
+#1604634008
+dc build my_nginx
+#1604634262
+dc exec my_nginx ash
+#1604634265
+dc ps
+#1604634278
+dc logs my_nginx -t
+#1604634282
+dc logs -t my_nginx
+#1604634305
+vim nginx/default.conf 
+#1604634319
+dc restart my_nginx
+#1604634331
+dc stop my_nginx
+#1604634340
+dc up --build my_nginx
+#1604634353
+vi nginx/default.conf 
+#1604634381
+dc up --build my_nginx
+#1604634408
+v con
+#1604633180
+j dj
+#1604633186
+j -s
+#1604633192
+j -h
+#1604633213
+c
+#1604633224
+s
+#1604633225
+pwd
+#1604633290
+vi *x
+#1604634100
+cd nginx/
+#1604634104
+mv conf.d default.conf
+#1604634105
+cd ..
+#1604634107
+docker build -f Dockerfile-nginx .
+#1604634226
+dc up
+#1604633485
+vp
+#1604676964
+vq
+#1604688835
+vp
+#1604690723
+vresume
+#1604692510
+j ngin
+#1604692514
+gs
+#1604692516
+gd
+#1604692538
+vim *x *e *l 
+#1604692899
+vim README.md
+#1604692648
+cat /etc/hosts
+#1604692650
+cd /etc
+#1604692651
+gs
+#1604692655
+git init .
+#1604692659
+sudo git init .
+#1604692665
+ls -ld
+#1604692674
+sudo git init .
+#1604692679
+gs
+#1604692681
+du -hs .
+#1604692690
+sudo git add .
+#1604692707
+ls ssh
+#1604692710
+gs
+#1604692737
+sudo git commit -am'initial Fri 2020-11-06'
+#1604692738
+gs
+#1604692743
+cat hosts
+#1604692756
+vim hosts
+#1604692763
+sudo vim hosts
+#1604692786
+gs
+#1604692787
+gd
+#1604692806
+sudo git commit -am'comment-out /etc/hosts entries from idealist'
+#1604692636
+j ng
+#1604692639
+gs
+#1604692642
+dc up
+#1604692822
+gs
+#1604692842
+dc up
+#1604692478
+vig
+#1604692471
+j dj
+#1604693789
+vig
+#1604693852
+type vig
+#1604693857
+cdquizme-p
+#1604693861
+cdquizme-personal 
+#1604693863
+gs
+#1604693865
+ls -l
+#1604693766
+vq
+#1604694892
+vp
+#1604693705
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604693705
+python manage.py runserver --insecure
+#1604693703
+rqo
