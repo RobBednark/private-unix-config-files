@@ -49973,3 +49973,333 @@ vp
 python manage.py runserver --insecure
 #1604693703
 rqo
+#1604695923
+vvimrc 
+#1604695572
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604695573
+dumpdb
+#1604695583
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604695646
+vp
+#1604695570
+cdq
+#1604696167
+vq
+#1604697492
+ssh root@45.79.68.210
+#1604708789
+vdiary 
+#1604707909
+vq
+#1604703836
+vdiary 
+#1604704898
+vq
+#1604705213
+vp
+#1604726283
+vq
+#1604730944
+vresume
+#1604732174
+lynx gmail.com
+#1604733850
+cl
+#1604733853
+v oo
+#1604734611
+gd oo
+#1604734613
+gd
+#1604734673
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604734522
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604734528
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604734520
+pshd
+#1604733936
+cl
+#1604733941
+vim *date*py
+#1604733789
+ssh root@45.79.68.210
+#1604764787
+ . /Users/rbednark/.virtualenvs/learn-RF2gawaO/bin/activate
+#1604764789
+jobs
+#1604764802
+lh
+#1604764805
+j headl
+#1604764830
+pipenv --python python3.8 install selenium
+#1604764907
+PIPENV_NO_INHERIT=True pipenv --python python3.8 install selenium
+#1604764948
+pydoc3 selenium
+#1604764954
+pydoc selenium
+#1604764959
+pydoc3
+#1604765117
+vim use_selenium.py 
+#1604765219
+psh
+#1604766149
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604766153
+pydoc3 selenium
+#1604766160
+pydoc selenium
+#1604766165
+pydoc3 search
+#1604766172
+python --version
+#1604766174
+which python
+#1604766180
+which pydoc3
+#1604766183
+which pydoc
+#1604766194
+python
+#1604766218
+pip freeze
+#1604766255
+j selen
+#1604765227
+ . /Users/rbednark/.virtualenvs/learn_selenium_with_headless_chrome_for_po-FLloizxt/bin/activate
+#1604765229
+pip freeze
+#1604765239
+python3 use_selenium.py 
+#1604765398
+git add .
+#1604765414
+gcam 'working with Firefox non-headless'
+#1604765417
+vim use_selenium.py 
+#1604765515
+gcam 'working with Firefox headless'
+#1604766266
+c
+#1604766274
+pydoc selenium
+#1604766285
+python
+#1604766302
+pydoc selenium
+#1604766306
+pydoc selenium.webdriver
+#1604766331
+python
+#1604766376
+pydoc selenium.webdriver
+#1604766386
+pydoc selenium.webdriver.chrome
+#1604766397
+pydoc selenium.webdriver.firefox.webdriver
+#1604764112
+cl
+#1604764131
+cdqn
+#1604764133
+vim Makefile 
+#1604764159
+cl
+#1604764179
+mkdir learn_selenium_with_headless_chrome_for_pool_login
+#1604764180
+cd learn_selenium_with_headless_chrome_for_pool_login
+#1604764181
+c
+#1604764186
+git init .
+#1604764203
+vim use_selenium.py
+#1604764433
+pip search selenium
+#1604764436
+pip3 search selenium
+#1604764449
+pip3 search selenium|less
+#1604764535
+pipenv install selenium
+#1604764648
+pipenv install --python 3.6 selenium
+#1604764660
+type python3
+#1604764672
+pipenv install --python $(type python3) selenium
+#1604764700
+python3.8 --version
+#1604764724
+pipenv install --python python3.8 selenium
+#1604764785
+psh
+#1604764913
+cl
+#1604764915
+lh
+#1604765639
+j pool
+#1604765643
+cd ..
+#1604765645
+hl
+#1604765646
+lh
+#1604765657
+ls -lt|head -20
+#1604765663
+j linod
+#1604765664
+c
+#1604765667
+vim curl*
+#1604766128
+c
+#1604766145
+j selenium
+#1604766148
+pshd
+#1604766260
+j selen
+#1604763230
+vq
+#1604771968
+j ngi
+#1604772017
+vim Makefile *yml conf.d/default.conf 
+#1604772022
+ls web*
+#1604772027
+gs
+#1604772214
+make curl
+#1604772221
+vim /etc/hosts
+#1604772253
+sudo vim /etc/hosts
+#1604772275
+curl bednark.org
+#1604772285
+jobs
+#1604771923
+j dj
+#1604771925
+gs
+#1604771930
+j ngin
+#1604771932
+gs
+#1604771934
+gd
+#1604771948
+git add README.md 
+#1604771949
+gd
+#1604771951
+gs
+#1604771957
+git add .
+#1604771959
+gs
+#1604771959
+gdc
+#1604771963
+vim README.md 
+#1604772317
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604772325
+python -u -m http.server -h
+#1604772316
+pshd
+#1604768551
+ssh root@45.79.68.210
+#1604771795
+history > /tmp/history; grep 'ssh.*tail' /tmp/history 
+#1604771806
+ssh root@45.79.68.210 tail -f '~/log/py*'
+#1604771829
+ssh root@45.79.68.210 "tail -999 -f '~/log/py*' | grep Availability"
+#1604771858
+ssh root@45.79.68.210 "bash -c 'tail -999 -f ~/log/py* | grep Availability"'
+#1604771871
+ssh root@45.79.68.210 tail -f '~/log/py*'|grep Availability
+#1604785758
+ssh root@45.79.68.210 tail -f '~/log/py*'|grep 'Availability|^2020'
+#1604785765
+ssh root@45.79.68.210 tail -999 -f '~/log/py*'|grep 'Availability|^2020'
+#1604785777
+ssh root@45.79.68.210 tail -999 -f '~/log/py*'|egrep 'Availability|^2020'
+#1604789263
+d
+#1604785945
+curl bednark.org
+#1604785952
+curl app1.bednark.org
+#1604786030
+sudo vi /etc/hosts
+#1604786048
+curl bednark.org
+#1604786051
+curl app1.bednark.org
+#1604786058
+cur localhost
+#1604786061
+curl localhost
+#1604772201
+j ng
+#1604772204
+dc up
+#1604772409
+vim *yml
+#1604785963
+c
+#1604785977
+vim *ml conf.d/default.conf D*
+#1604785510
+vp
+#1604772371
+j dj
+#1604772379
+vim *yml
+#1604785860
+j ngin
+#1604785867
+c
+#1604785900
+dc up
+#1604789282
+vdiary 
+#1604795741
+vq
+#1604806839
+pwd
+#1604806840
+jobs
+#1604806844
+c
+#1604806856
+ls .john/
+#1604806863
+c
+#1604806864
+pwd
+#1604806865
+c
+#1604806867
+pwd
+#1604806868
+jobs
+#1604806872
+vp
+#1604810622
+gvimrc map
+#1604809001
+vresume
