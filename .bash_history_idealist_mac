@@ -50663,3 +50663,101 @@ chrome-devtools-new-tabs
 dotrc
 #1604903869
 chrome-devtools-new-tabs 
+#1604903744
+vrc
+#1604903901
+v ool
+#1604903915
+c http
+#1604903905
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604903903
+pshd
+#1604903928
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1604904213
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1604904257
+cl
+#1604904259
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1604903931
+v http
+#1604904266
+sm .
+#1604904280
+cl
+#1604904281
+sm .
+#1604903732
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs
+#1604903887
+dotrc
+#1604903890
+chrome-devtools-new-tabs 
+#1604935896
+vq
+#1604936383
+cl
+#1604936391
+v http
+#1604936230
+j ng__
+#1604936233
+gs
+#1604936235
+gd
+#1604936243
+c
+#1604936244
+gs
+#1604936247
+git log
+#1604936252
+git show dd67584
+#1604936273
+cl
+#1604936278
+git log
+#1604936292
+git show 0196051
+#1604936473
+git diff get_http_mt_park_rec_center_pool_availability.py
+#1604935632
+echo -e '\n\nfoo\n'
+#1604935483
+j ng
+#1604935485
+gs
+#1604935503
+vi conf.d/default.conf 
+#1604935603
+j ng
+#1604935607
+./run.sh 
+#1604935616
+vim run.sh 
+#1604935706
+./run.sh 
+#1604941226
+jobs
+#1604941231
+vi conf.d/default.conf 
+#1604941246
+gs
+#1604941248
+gd
+#1604941259
+jobs
+#1604935548
+j ng
+#1604935551
+dc up
+#1604941345
+vq
+#1604945806
+vp
+#1604946050
+ssh root@45.79.68.210
+#1604947771
+vp
