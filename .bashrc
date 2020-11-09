@@ -404,8 +404,7 @@ if uname | grep -i linux > /dev/null; then
 elif $MacOSX; then
     alias chrome-open="open -a Google\ Chrome"
     alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
-    #alias firefox="open /Applications/"
-    :
+    alias chrome-devtools-new-tabs='"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --auto-open-devtools-for-tabs'
 else
     alias firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
 fi
