@@ -734,7 +734,7 @@ alias viphone="title viphone; cd $DirQuiz; vici *iphone*"
 alias vjavascript="cd $DirQuiz; title db_javascript; vici db_javascript"
 alias vjobsearch2020="vici $DirQuiz/job.search.2020.post.moovel"
 alias vjobsearch2016="vici $DirQuiz/job_search_Sep_2016"
-alias vjobsearch="(cdprivate-rbednark-general; vim rob-bednark-resume.txt; vici $DirQuiz/*cover_letters* $DirQuiz/job_search_Sep_2016 $DirQuiz/portland.job.scene $DirQuiz/job.search.Aug.2015 $DirQuiz/db_resume $DirDoc/cover.letters.txt $DirDoc/job.openings.descriptions.txt $DirQuiz/job.descriptions $DirQuiz/job.references)"
+alias vjobsearch="(cdprivate-rbednark-general; vici rob-bednark-resume.txt rob-bednark-resume-manager.txt rob-bednark-resume-individual-contributor-IC.txt; vici $DirQuiz/*cover_letters* $DirQuiz/job_search_Sep_2016 $DirQuiz/portland.job.scene $DirQuiz/job.search.Aug.2015 $DirQuiz/db_resume $DirDoc/cover.letters.txt $DirDoc/job.openings.descriptions.txt $DirQuiz/job.descriptions $DirQuiz/job.references)"
 alias vjournaling="cd $DirQuiz; vici db_journaling"  # diary scratch
 alias vjs="vici $DirLearn/javascript/learn_javascript_lang_elements.js"
 alias vl2="vici.last.n.files 2"
@@ -761,7 +761,7 @@ alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary"
 alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
-alias vresume="cd $DirTmp; vici *resume*; cdprivate-rbednark-general; vici *resume*"
+alias vresume="vici $DirTmp/resume-quizme"
 alias vresume-all=vjobsearch
 alias vresume.word="open -a 'Microsoft Word' $DirDropbox/Documents/Rob.Bednark.resume.docx"
 alias vselenium="vici $DirQuiz/db_selenium"
