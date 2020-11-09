@@ -50303,3 +50303,355 @@ vp
 gvimrc map
 #1604809001
 vresume
+#1604853819
+j ngin
+#1604853825
+vim conf.d/default.conf 
+#1604853914
+gs
+#1604853925
+gd
+#1604853932
+gs
+#1604853934
+git add .
+#1604853948
+gcam 'with John; I don't think this is working'
+#1604853966
+type gcam
+#1604853989
+vrc
+#1604854006
+type gcam
+#1604854008
+gcam 'with John; I don't think this is working'
+#1604854014
+gcam "with John; I don't think this is working"
+#1604854094
+c
+#1604855254
+curl https://bednark.org
+#1604855265
+curl -k https://bednark.org
+#1604809001
+vresume
+#1604852770
+j nginx
+#1604852773
+gs
+#1604852775
+c
+#1604852782
+vim conf.d/default.conf 
+#1604853748
+docker-rm-everything
+#1604853764
+c
+#1604853769
+dc up
+#1604854147
+dc ps
+#1604854169
+docker image ls
+#1604854196
+docker run learn-nginx-ssl_my_web_server_1
+#1604854203
+docker run -d learn-nginx-ssl_my_web_server_1
+#1604854224
+vim *yml
+#1604854243
+docker exec -it learn-nginx-ssl_my_web_server_1 bash
+#1604854252
+docker ps
+#1604854264
+docker exec -it bash
+#1604854279
+docker exec -it learn-nginx-ssl_my_web_server_1 bash
+#1604854292
+docker exec -it vigilant_sinoussi bash
+#1604854297
+docker exec -it vigilant_sinoussi ash
+#1604854370
+docker ps
+#1604854378
+docker image
+#1604854381
+docker image ls
+#1604854391
+docker run -d learn-nginx-ssl_my_nginx_server bash
+#1604854400
+docker run --help
+#1604854414
+docker run --name nginx -d learn-nginx-ssl_my_nginx_server bash
+#1604854425
+docker exec -it nginx bash
+#1604854445
+docker ps
+#1604854451
+docker logs
+#1604854457
+docker logs nginx
+#1604854465
+vim *yml
+#1604854543
+docker logs --help
+#1604854548
+docker logs -t nginx
+#1604854602
+docker run --name nginx -d learn-nginx-ssl_my_nginx_server ash
+#1604854623
+docker ps
+#1604854628
+docker ps -a
+#1604854642
+docker rm nginx
+#1604854646
+docker run --name nginx -d learn-nginx-ssl_my_nginx_server ash
+#1604854665
+docker ps
+#1604854687
+docker logs -t nginx
+#1604854709
+docker rm nginx && docker run -it --name nginx -d learn-nginx-ssl_my_nginx_server ash
+#1604854714
+docker logs -t nginx
+#1604854719
+docker ps
+#1604854732
+docker logs -t nginx
+#1604854748
+docker exec -it nginx ash
+#1604854825
+docker rm nginx && docker run -it --name nginx -d learn-nginx-ssl_my_nginx_server
+#1604854835
+docker stop nginx; docker rm nginx && docker run -it --name nginx -d learn-nginx-ssl_my_nginx_server
+#1604854852
+docker ps
+#1604854858
+docker logs -t nginx
+#1604854884
+docker ps
+#1604854894
+curl localhost:80
+#1604854907
+curl localhost
+#1604854918
+vim *yml *nx
+#1604855021
+curl localhost:443
+#1604855030
+curl https://localhost
+#1604855033
+curl https://localhost:443
+#1604855063
+ping bednark.org
+#1604855071
+curl https://bednark.org
+#1604855105
+jobs
+#1604855109
+docker exec -it nginx ash
+#1604855196
+vim *yml
+#1604855231
+dc up my_nginx
+#1604855235
+dc up my_nginx_server
+#1604855321
+git grep curl
+#1604849626
+vq
+#1604857970
+j dj
+#1604857973
+vim *l
+#1604859337
+curl bednark.org
+#1604859342
+curl app1.bednark.org
+#1604859346
+curl app2.bednark.org
+#1604859354
+sudo vim /etc/hosts
+#1604859366
+curl app2.bednark.org
+#1604859391
+curl app2.bednark.org/this-is-web-root-2
+#1604859397
+curl app2.bednark.org/his-is-web-root-2
+#1604859402
+j ng
+#1604859406
+vim web*/*
+#1604859443
+curl app2.bednark.org/his-is-web-root-2
+#1604859449
+curl app2.bednark.org/this-is-web-root-2
+#1604859459
+curl bednark.org/his-is-web-root-2
+#1604858536
+j 
+#1604858540
+j dj
+#1604858542
+vim *ml
+#1604862105
+vq
+#1604862120
+vdiary 
+#1604857916
+j dn
+#1604857918
+j ng
+#1604857930
+vim *yml
+#1604858161
+vim D*
+#1604858251
+ls web*
+#1604858262
+vim *yml
+#1604858500
+dc up
+#1604858513
+vim *l
+#1604858555
+dc up
+#1604862191
+jobs
+#1604870252
+vp
+#1604871867
+vresume
+#1604872809
+vp
+#1604876013
+vq
+#1604876105
+/bin/bash --version
+#1604876137
+bash --version
+#1604875680
+ls -l /bin/bash
+#1604875684
+/bin/bash --version
+#1604875691
+echo $PATH
+#1604875477
+echo foo |& grep bar
+#1604875479
+echo foo |& grep foo
+#1604875621
+vim /tmp/a.sh
+#1604875161
+j ng
+#1604875182
+vim Makefile 
+#1604876197
+open -a Chrome --help
+#1604876264
+open -a Chrome http://bednark.org
+#1604876282
+open -a Google\ Chrome --help
+#1604876293
+open -a Google\ Chrome http://bednark.org
+#1604878159
+man bash
+#1604875257
+j ng
+#1604875259
+make curl
+#1604875291
+cp Makefile run.sh
+#1604875293
+vim run.sh
+#1604875343
+chmod a+x run.sh 
+#1604875344
+./run.sh 
+#1604875376
+vim run.sh 
+#1604878777
+gs
+#1604878778
+gd
+#1604878781
+c
+#1604878781
+gs
+#1604878784
+cat run.sh 
+#1604878798
+./run.sh 
+#1604878811
+vim run.sh 
+#1604878821
+./run.sh 
+#1604878831
+vim run.sh 
+#1604878845
+./run.sh 
+#1604878864
+vim run.sh 
+#1604878886
+./run.sh 
+#1604878902
+vim run.sh 
+#1604878907
+./run.sh 
+#1604878912
+man curl
+#1604878925
+vim run.sh 
+#1604878964
+./run.sh 
+#1604878978
+vim run.sh 
+#1604878993
+./run.sh 
+#1604878430
+cl
+#1604878433
+ls *str*sh
+#1604878473
+vim learn-convert-split-string-whitespace-to-array.bash learn.bash.for.loop.through.args.list.array.iterate.split.string.bash 
+#1604878515
+ls *loop*sh
+#1604878517
+vim *loop*sh
+#1604875140
+j dj
+#1604875144
+j ng
+#1604875147
+c
+#1604875158
+dc up
+#1604879227
+./run.sh 
+#1604879058
+j ng
+#1604879059
+gs
+#1604879060
+gd
+#1604879064
+sm .
+#1604879077
+git checkout Makefile
+#1604879079
+cat Makefile 
+#1604879087
+vim Makefile 
+#1604879090
+jobs
+#1604879104
+vim *ml
+#1604879179
+./run.sh 
+#1604879194
+vim run.sh 
+#1604879212
+dc up
+#1604881768
+vp
