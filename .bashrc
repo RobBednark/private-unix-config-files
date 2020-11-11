@@ -1793,6 +1793,7 @@ export NVM_DIR="/Users/robb/.nvm"
 ################################################################################
 ### List of useful commands that don't warrant an alias (listed here for "grrc" grep-able reference)
 ################################################################################
+# apk add bash less mandoc man-pages vim   ==> alpine useful packages to add
 # atom (GUI editor)
 # exa (a better/replacement "ls")  https://the.exa.website/ 
 #   brew install eva
