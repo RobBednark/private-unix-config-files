@@ -50769,3 +50769,265 @@ gs
 dotrc
 #1604949992
 vjobsearch
+#1604949381
+vresume
+#1604950049
+cd $DirTmp/
+#1604950051
+gs
+#1604950054
+ls *resume*
+#1604949911
+vrc
+#1604950140
+vresume
+#1604949750
+vq
+#1604949805
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604949805
+python manage.py runserver --insecure
+#1604949803
+rqo
+#1604951139
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604951139
+python manage.py runserver --insecure
+#1604951813
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1604951933
+j ng
+#1604951938
+./run.sh 
+#1604951945
+vim run.sh 
+#1604951972
+c
+#1604951973
+gs
+#1604951974
+gd
+#1604951987
+sm .
+#1604952069
+vim conf.d/default.conf 
+#1604952093
+vig 
+#1604951901
+j ng
+#1604951919
+vim run.sh 
+#1604951930
+dc up
+#1604955978
+vp
+#1604957996
+vresume
+#1604958747
+vig
+#1604960752
+vm
+#1604960360
+vresume
+#1604960572
+vq
+#1604960577
+vm
+#1604960591
+vq
+#1604961076
+vdiary 
+#1604961362
+vp
+#1604961466
+vqtodo 
+#1604961349
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1604961349
+python manage.py runserver --insecure
+#1604961347
+rqo
+#1604962179
+vp
+#1605027240
+j ng
+#1605027319
+dc up my_nginx
+#1605027338
+dc up --remove-orphans my_nginx_server
+#1605027894
+docker exec -it my_nginx_server ash
+#1605027903
+dc exec -it my_nginx_server ash
+#1605027907
+dc exec my_nginx_server ash
+#1605027910
+dc ps
+#1605027922
+dc exec learn-nginx-ssl_my_nginx_server_run_824abff4afe6 ash
+#1605027936
+dc exec -h
+#1605027945
+docker ps
+#1605027963
+docker container ps
+#1605027976
+docker run learn-nginx-ssl_my_nginx_server bash
+#1605027978
+docker run learn-nginx-ssl_my_nginx_server ash
+#1605027985
+docker run -it learn-nginx-ssl_my_nginx_server ash
+#1605028494
+docker-rm-everything
+#1605027348
+n ng
+#1605027350
+j ng
+#1605027364
+docker exec -it nginx ash
+#1605027371
+docker exec -it my_nginx_server ash
+#1605027378
+docker-compose exec -it my_nginx_server ash
+#1605027388
+docker-compose exec my_nginx_server ash
+#1605027500
+ls 
+#1605027511
+vim yml
+#1605027541
+vim *yml
+#1605027571
+cat *nx
+#1605027659
+dc run my_nginx_server 'nginx -g daemon off &; sleep 999'
+#1605027694
+dc run my_nginx_server 'ash -c "nginx -g daemon off &; sleep 999"'
+#1605027704
+dc run my_nginx_server 'ash -c "nginx -g daemon off"'
+#1605027716
+dc run my_nginx_server 'nginx -g daemon off'
+#1605027731
+dc run my_nginx_server 'nginx -g daemon off;'
+#1605027736
+dc run -h
+#1605027752
+dc run my_nginx_server 'nginx' '-g daemon off;'
+#1605027764
+dc run -h
+#1605027813
+dc run my_nginx_server 'sleep 9999'
+#1605027823
+dc run my_nginx_server 'sleep' 9999
+#1605025777
+cd /tmp
+#1605025781
+git clone git@github.com:nginx/nginx.git
+#1605025801
+cd nginx/
+#1605025807
+subl .
+#1605025865
+cd src/
+#1605025868
+subl .
+#1605025344
+ps guaxww|less
+#1605022321
+vq
+#1605035322
+vig
+#1605035437
+cdprivate-rbednark-general 
+#1605035445
+cdquizme-p
+#1605035447
+cdquizme-personal 
+#1605035450
+cd bin
+#1605035461
+git remote -v
+#1605035491
+git grep bootstrap
+#1605035499
+cat bootstrap-new-server-git-clone.sh 
+#1605035682
+c
+#1605035691
+vim *
+#1605032189
+vp
+#1605032193
+vq
+#1605034079
+vresume
+#1605036791
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1605036791
+python manage.py runserver --insecure
+#1605037455
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1605036790
+rqo
+#1605039203
+vq
+#1605042529
+vp
+#1605044225
+/agent
+#1605044230
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08; ssh-add -L
+#1605044322
+vp
+#1605046445
+vdiary 
+#1605047338
+vp
+#1605047879
+vq
+#1605048360
+vresume
+#1605104779
+cl
+#1605104781
+sm .
+#1605104835
+v oo
+#1605104839
+v ool
+#1605105051
+:q
+#1605105054
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1605105065
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605104908
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs
+#1605104707
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08; ssh-add -L
+#1605104714
+ssh root@45.79.68.210
+#1605108038
+vp
+#1605107987
+v ool
+#1605108062
+/error.msg
+#1605108066
+v ool
+#1605108166
+scp -p get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1605107903
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1605107929
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605107789
+vp
+#1605107901
+pshd
+#1605108787
+cl
+#1605108788
+/scp
+#1605108797
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
