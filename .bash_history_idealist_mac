@@ -51037,3 +51037,353 @@ cddocker
 cddockerlearn 
 #1605110855
 docker-run-alpine 
+#1605111109
+vrc
+#1605108880
+vq
+#1605109072
+cl
+#1605109077
+grrc head
+#1605109104
+ls -lt|less
+#1605113618
+vig
+#1605112707
+vq
+#1605112163
+cl
+#1605112166
+sum get_http_mt_park_rec_center_pool_availability.py
+#1605112168
+lh
+#1605112198
+ln -s get_http_mt_park_rec_center_pool_availability.py z
+#1605112201
+ln -fs get_http_mt_park_rec_center_pool_availability.py z
+#1605112203
+ls -l z
+#1605112206
+sum z
+#1605112209
+sum get_http_mt_park_rec_center_pool_availability.py
+#1605112297
+v ool
+#1605112335
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1605112338
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605112372
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1605112332
+psh
+#1605112334
+pshd
+#1605108318
+ssh root@45.79.68.210
+#1605114161
+vq
+#1605120280
+vp
+#1605123410
+vq
+#1605119916
+vdiary 
+#1605121378
+vp
+#1605121400
+vresume
+#1605123761
+vp
+#1605124014
+cdqp 
+#1605124015
+gs
+#1605124017
+gpus
+#1605124024
+git remote -v
+#1605124025
+c
+#1605124028
+cd bin
+#1605124049
+vim build-django-image.sh
+#1605123579
+vig
+#1605124518
+vdiary 
+#1605129840
+vp
+#1605130034
+vq
+#1605198482
+ . /Users/rbednark/.virtualenvs/learn-docker-create-django-image-pM5ZmcmM/bin/activate
+#1605198536
+c
+#1605198577
+pip freeze
+#1605198586
+cat Dockerfile 
+#1605198644
+django-admin startproject my-app
+#1605198648
+django-admin startproject my_app
+#1605198673
+cd my_app
+#1605198787
+cd ..
+#1605198790
+vim run.sh
+#1605198949
+c
+#1605198971
+vim Dockerfile 
+#1605198986
+docker run --help|less
+#1605199088
+curl localhost:8000
+#1605199125
+docker run --help|less
+#1605199152
+curl localhost:8000
+#1605199175
+curl --include localhost:8000
+#1605199189
+telnet localhost:8000
+#1605199194
+telnet localhost 8000
+#1605199218
+psh
+#1605199222
+./manage runserver
+#1605199225
+cd my_app/
+#1605199227
+./manage.py runserver
+#1605199260
+python --help|less
+#1605199286
+./manage.py 
+#1605199290
+./manage.py  runserver
+#1605199299
+docker logs 
+#1605199302
+docker logs my_app
+#1605199311
+docker container ls
+#1605200746
+pwd
+#1605200747
+jobs
+#1605198276
+j ng
+#1605198281
+vim Dockerfile-web-server 
+#1605198379
+cd ..
+#1605198380
+lh
+#1605198383
+j create-dj
+#1605198436
+PIPENV_NO_INHERIT=True pipenv --python python3.8 install django
+#1605198480
+psh
+#1605198042
+j -s
+#1605198051
+cddockerlearn 
+#1605198067
+mkdir learn-docker-create-django-image
+#1605198068
+cd learn-docker-create-django-image
+#1605198068
+c
+#1605198229
+vim README.md
+#1605198271
+vim Dockerfile
+#1605198772
+docker run
+#1605198778
+docker build
+#1605198781
+docker build .
+#1605198817
+docker build --name my_app .
+#1605198824
+docker build --help|less
+#1605198842
+docker build --tag my_app .
+#1605198847
+docker image 
+#1605198851
+docker image ls
+#1605198869
+docker run my_app
+#1605198879
+vim Dockerfile 
+#1605198908
+docker build --tag my_app .
+#1605198921
+docker run my_app
+#1605199026
+vim Dockerfile 
+#1605199049
+docker run --export 8000:8000 my_app
+#1605199054
+docker run --expose 8000:8000 my_app
+#1605199058
+docker run --expose '8000:8000' my_app
+#1605199080
+docker run --expose 8000 my_app
+#1605199146
+docker run --publish 8000:8000 my_app
+#1605199248
+vim Dockerfile 
+#1605199279
+docker run --publish 8000:8000 my_app
+#1605199348
+docker run --help
+#1605199360
+docker run --name my_app --publish 8000:8000 my_app
+#1605200654
+l -s
+#1605200657
+j -s
+#1605200669
+j build
+#1605200672
+j create
+#1605200678
+vim run.sh 
+#1605200698
+j django
+#1605200702
+cd ..
+#1605200703
+lh
+#1605200707
+j o-im
+#1605200709
+vim run.sh 
+#1605200762
+bash -x ./run.sh 
+#1605207581
+pwd
+#1605207581
+jobs
+#1605207582
+vresume
+#1605209025
+j create
+#1605209035
+./run.sh 
+#1605209127
+cat run.sh 
+#1605209130
+gs
+#1605209136
+c
+#1605209255
+j image
+#1605209272
+j o-image
+#1605209278
+j -s
+#1605209309
+j -s|grep create
+#1605209322
+j -h
+#1605209362
+j -i 170 /Users/rbednark/Dropbox/bin/learn/dir-learn-docker/learn-docker-create-django-image
+#1605209364
+j -s
+#1605209375
+./run.sh 
+#1605209387
+vim run.sh 
+#1605209240
+ . /Users/rbednark/.virtualenvs/learn-docker-create-django-image-pM5ZmcmM/bin/activate
+#1605209250
+my_app/manage.py runserver
+#1605209107
+j create
+#1605209112
+cd ..
+#1605209115
+ls -ld */my_app
+#1605209158
+j learn-docker-cre
+#1605209168
+cd ../learn-docker-create-django-image/
+#1605209170
+c
+#1605209175
+./run.sh
+#1605209179
+chmod a+x run.sh 
+#1605209179
+gs
+#1605209181
+c
+#1605209182
+gs .
+#1605209188
+git init .
+#1605209191
+gs
+#1605209205
+git add .
+#1605209232
+gcam 'initial commit; created local django app to compare; run.sh running but not showing all manage.py output'
+#1605209233
+gs .
+#1605209234
+c
+#1605209239
+psh
+#1605209475
+j create
+#1605209479
+vi Dockerfile 
+#1605209516
+j create
+#1605209545
+docker run --name my_app_container_2 my_app_image
+#1605209554
+docker run -h|less
+#1605209559
+docker run --help|less
+#1605209576
+docker run --name my_app_container_2 my_app_image bash
+#1605209584
+docker ps
+#1605209599
+docker ps -a
+#1605209616
+docker container rm my_app_container_2
+#1605209620
+docker run --name my_app_container_2 my_app_image bash
+#1605209627
+docker run --name my_app_container_2 my_app_image /bin/bash
+#1605209633
+docker run my_app_image /bin/bash
+#1605209641
+docker run my_app_image ash
+#1605209645
+docker run -it my_app_image ash
+#1605209889
+gs
+#1605209890
+gd
+#1605209902
+gcam 'still not showing all stdout/stderr'
+#1605210018
+vp
+#1605210037
+vdiary 
+#1605214739
+vp
