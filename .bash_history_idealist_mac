@@ -51571,3 +51571,179 @@ docker ps -a
 docker ps my_app
 #1605286405
 docker run --help|less
+#1605293160
+vrc
+#1605284874
+j create
+#1605284877
+./run.sh 
+#1605284980
+docker run --publish 8000:8000 -it my_app_image ash
+#1605285181
+./run.sh 
+#1605285591
+docker run --publish 8000:8000 -it my_app_image python ./manage.py runserver
+#1605285630
+docker run --publish 8000:8000 -it my_app_image python
+#1605285637
+docker run --publish 8000:8000 my_app_image python
+#1605285643
+docker run --publish 8000:8000 my_app_image python ./manage.py runserver
+#1605285684
+docker run --publish 8000:8000 -it my_app_image python ./manage.py runserver
+#1605285715
+docker run --publish 8000:8000 my_app_image '(python ./manage.py runserver 2>&1)'
+#1605285723
+docker run --publish 8000:8000 -it my_app_image python ./manage.py runserver
+#1605285833
+./run.sh 
+#1605286265
+docker run --publish 8000:8000 -it my_app_image python ./manage.py runserver --nothreading
+#1605286276
+docker run --publish 8000:8000 my_app_image python ./manage.py runserver --nothreading
+#1605286441
+docker run --expose 8000 --publish 8000:8000 my_app_image python ./manage.py runserver --nothreading
+#1605286701
+docker run --name my_app_container --expose 8000 --publish 8000:8000 my_app_image python ./manage.py runserver --nothreading
+#1605286727
+docker container stop my_app_container; docker container rm my_app_container
+#1605286729
+docker run --name my_app_container --expose 8000 --publish 8000:8000 my_app_image python ./manage.py runserver --nothreading
+#1605286803
+docker run --name my_app_container --expose 8000 --publish 8000:8000 my_app_image python ./manage.py runserver 0.0.0.0:8000
+#1605286806
+docker container stop my_app_container; docker container rm my_app_container
+#1605286808
+docker run --name my_app_container --expose 8000 --publish 8000:8000 my_app_image python ./manage.py runserver 0.0.0.0:8000
+#1605293117
+docker-wait-until-engine-is-up && docker run --name my_app_container --expose 8000 --publish 8000:8000 my_app_image python ./manage.py runserver 0.0.0.0:8000
+#1605293143
+docker-stop-all-containers 
+#1605293305
+dotrc
+#1605293308
+docker-stop-and-rm-containers 
+#1605293315
+docker-wait-until-engine-is-up && docker run --name my_app_container --expose 8000 --publish 8000:8000 my_app_image python ./manage.py runserver 0.0.0.0:8000
+#1605293402
+docker-wait-until-engine-is-up && docker run --name my_app_container --expose 8000 --publish 8000:8000 my_app_image 
+#1605293461
+docker-rm-all-images; docker build .
+#1605293493
+docker build --tag my_app_image .
+#1605293513
+docker run --name my_app_container --expose 8000 --publish 8000:8001 my_app_image 
+#1605293521
+docker-stop-and-rm-containers 
+#1605293524
+docker run --name my_app_container --expose 8000 --publish 8000:8001 my_app_image 
+#1605293530
+docker-stop-and-rm-containers 
+#1605293533
+docker container ls
+#1605293535
+docker container ls -a
+#1605293549
+type docker-stop-and-rm-containers 
+#1605293559
+type docker-stop-all-containers 
+#1605293564
+type docker-rm-all-containers
+#1605293572
+vrc
+#1605293615
+gs
+#1605293617
+gd
+#1605284778
+j create
+#1605284789
+vim run.sh 
+#1605285392
+docker logs my_app_container
+#1605285806
+vim Dockerfile 
+#1605293330
+vim run.sh 
+#1605286078
+ . /Users/rbednark/.virtualenvs/learn-docker-create-django-image-pM5ZmcmM/bin/activate
+#1605286091
+vim run-local.sh
+#1605286125
+c
+#1605286130
+ls my_app/
+#1605286162
+chmod a+x run-local.sh 
+#1605286165
+./run-local.sh 
+#1605286170
+c
+#1605286180
+my_app/manage.py -h
+#1605286193
+my_app/manage.py runserver -h
+#1605286464
+curl localhost:8000
+#1605286470
+curl 0.0.0.0:8000
+#1605286481
+curl 127.0.0.1:8000
+#1605286502
+show.listening.ports.osx 
+#1605286547
+telnet localhost 8000
+#1605286558
+telnet localhost 8001
+#1605286576
+curl 127.0.0.1:8000
+#1605286582
+curl --include 127.0.0.1:8000
+#1605286656
+docker-compose exec my_nginx_server ash
+#1605286663
+docker-compose exec my_app_container ash
+#1605286684
+docker exec -it my_app_container ash
+#1605286821
+curl --include 127.0.0.1:8000
+#1605293408
+dotrc
+#1605293412
+docker-stop-and-rm-containers 
+#1605293424
+curl --include 127.0.0.1:8000
+#1605285029
+curl localhost:8000
+#1605285194
+j create
+#1605285211
+docker exec -it my_app_container ash
+#1605285730
+curl localhost:8000
+#1605285843
+docker exec -it my_app_container ash
+#1605286073
+c
+#1605286076
+psh
+#1605281694
+vq
+#1605293983
+vp
+#1605293833
+vresume
+#1605294818
+vdiary 
+#1605294812
+vq
+#1605295256
+vp
+#1605295270
+vdiary 
+#1605295239
+vp
+#1605295481
+vq
+#1605295656
+vresume
