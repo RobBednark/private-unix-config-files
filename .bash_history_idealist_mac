@@ -51747,3 +51747,35 @@ vp
 vq
 #1605295656
 vresume
+#1605297088
+cd .unix.config.files
+#1605297090
+sm .
+#1605297117
+type docker-rm-all-containers
+#1605297138
+dotrc
+#1605297140
+type docker-rm-all-containers
+#1605297144
+docker-rm-all-
+#1605297146
+docker-rm-all-containers 
+#1605297156
+docker-stop-and-rm-containers 
+#1605297172
+type docker-rm-all-images
+#1605297178
+docker-rm-all-images
+#1605297191
+docker image rmi -h
+#1605297201
+type docker-rm-all-images
+#1605297214
+docker images --all --quiet
+#1605297217
+docker images --all
+#1605297219
+echo $?
+#1605297083
+vrc
