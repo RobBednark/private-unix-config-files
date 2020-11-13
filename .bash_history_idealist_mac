@@ -51387,3 +51387,187 @@ vp
 vdiary 
 #1605214739
 vp
+#1605215688
+vvimrc 
+#1605215837
+cd tmp/
+#1605215839
+gpus
+#1605216435
+vmac
+#1605216447
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08; ssh-add -L
+#1605216543
+vq
+#1605217293
+curl localhost:8000
+#1605217298
+j crea__
+#1605217302
+docker ps -a
+#1605217155
+j create
+#1605217175
+docker run -it my_app_image ash
+#1605217342
+curl localhost:8000
+#1605217343
+netstat
+#1605217348
+netstat|grep 8000
+#1605217354
+netstat -lntp|grep 8000
+#1605217360
+type netstat
+#1605217379
+brew info netstat
+#1605217395
+brew search netstat
+#1605217600
+docker ps -a
+#1605217618
+show.listening.ports.osx 
+#1605217197
+j create__
+#1605217211
+docker run -it my_app_image
+#1605217257
+docker run --help|less
+#1605217268
+docker run --publish 8000 -it my_app_image
+#1605217282
+docker run --publish 8000:8000 -it my_app_image
+#1605217623
+sudo lsof -nP -iTCP:$PORT | grep LISTEN
+#1605217562
+grrc port
+#1605217567
+grrc listen
+#1605217572
+show.listening.ports.osx 
+#1605217406
+vq
+#1605223809
+vp
+#1605223949
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08; ssh-add -L
+#1605224455
+vdiary 
+#1605224613
+vq
+#1605224464
+brew search bench
+#1605224510
+brew info geekbench
+#1605224518
+brew install geekbench
+#1605224659
+open -a Geekbench
+#1605224701
+open -a Geekbench\ 5
+#1605224826
+brew search bench
+#1605225613
+brew info xbench
+#1605225621
+brew info workbench
+#1605225642
+brew install xbench
+#1605225676
+xbench
+#1605225681
+open -a Xbench
+#1605224520
+vq
+#1605225727
+vp
+#1605227277
+ . /Users/rbednark/.virtualenvs/tmp-agwWamBd/bin/activate
+#1605227377
+brew search perf
+#1605227416
+brew info gperf
+#1605227002
+npm search bench
+#1605227093
+cd /tmp
+#1605227106
+npm install benchmark
+#1605227119
+ls node_modules/benchmark/
+#1605227128
+cd node_modules/
+#1605227129
+ls -al
+#1605227133
+cd benchmark/
+#1605227133
+ls -al
+#1605227138
+vim package.json 
+#1605227162
+pip search bench
+#1605227166
+pip3 search bench
+#1605227209
+cd /tp
+#1605227213
+cd /tmp
+#1605227251
+pipenv install bench bench-it
+#1605227276
+psh
+#1605227431
+vq
+#1605238974
+vp
+#1605284898
+curl localhost:8000
+#1605284909
+j creat__
+#1605287174
+j linod
+#1605287178
+gs .
+#1605287181
+vim crontab 
+#1605287391
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh 45.79.68.210 'crontab /root/crontab'
+#1605287411
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh 45.79.68.210 'crontab /root/crontab' && ssh 45.79.68.210 'crontab -l'
+#1605287441
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1605287102
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1605287107
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605287123
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1605287129
+ssh root@45.79.68.210
+#1605287101
+pshd
+#1605286923
+cl
+#1605286925
+sm .
+#1605286941
+v ool
+#1605287520
+:q
+#1605287526
+j linode
+#1605287529
+gs .
+#1605287544
+vim curl*
+#1605287549
+git add .
+#1605287565
+gcam 'updated crontab; added curl scripts copied from browser curls'
+#1605286290
+docker ps -a
+#1605286309
+docker ps my_app
+#1605286405
+docker run --help|less
