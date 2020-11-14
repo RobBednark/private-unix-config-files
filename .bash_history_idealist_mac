@@ -52103,3 +52103,35 @@ lh
 v learn_python_disassemble_into_bytecode.py
 #1605374267
 vp
+#1605383302
+grrc AddTo
+#1605383023
+alias cddb
+#1605383025
+cddb
+#1605383069
+dotrc
+#1605383071
+cddb
+#1605383073
+gs .
+#1605383083
+gcam 'move Ishan to addtoquizme'
+#1605383094
+cdquiz-add-to-quizme 
+#1605383096
+type cdquiz-add-to-quizme
+#1605383102
+type add.to
+#1605383105
+grrc add.to
+#1605383128
+grrc add
+#1605383144
+grrc DirAdd
+#1605383218
+cdadd
+#1605383345
+cdunixconfigfiles 
+#1605383349
+sm .
