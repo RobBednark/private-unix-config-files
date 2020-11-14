@@ -51779,3 +51779,163 @@ docker images --all
 echo $?
 #1605297083
 vrc
+#1605297249
+j create__
+#1605297254
+./run.sh 
+#1605297803
+dotrc
+#1605297934
+rm -fr my_app/
+#1605297935
+vim local-run-django.sh 
+#1605297966
+gs .
+#1605297975
+git add .
+#1605297982
+gcam 'It runs!'
+#1605297988
+vim Dockerfile 
+#1605298024
+gs
+#1605298029
+gcam 'Add comment'
+#1605297285
+j create
+#1605297290
+gs
+#1605297299
+mv run-local.sh local-run-django.sh
+#1605297301
+vim run.sh 
+#1605297367
+curl --include localhost:8888
+#1605297371
+curl --include localhost:7777
+#1605297376
+:w
+#1605297378
+vim Dockerfile 
+#1605297414
+curl --include localhost:7777
+#1605297418
+curl --include localhost:8888
+#1605297423
+vim run.sh 
+#1605297445
+docker run --help|less
+#1605297491
+j create
+#1605297492
+./run.sh 
+#1605297528
+curl localhost:8888
+#1605297537
+./run.sh 
+#1605297585
+docker logs --help|less
+#1605297588
+type l
+#1605297598
+l docker logs --help
+#1605297626
+./run.sh 
+#1605297809
+dotrc
+#1605297814
+docker-rm-all-images-and-containers 
+#1605297867
+dotrc
+#1605297869
+docker-rm-all-images-and-containers 
+#1605297900
+dotrc
+#1605297902
+docker-rm-all-images-and-containers 
+#1605297918
+./run.sh 
+#1605298296
+vres
+#1605298301
+vdiary 
+#1605298678
+vresume
+#1605300079
+vp
+#1605301261
+vq
+#1605301917
+cl
+#1605301918
+sm .
+#1605302492
+j lin
+#1605302495
+gs .
+#1605302498
+gpus
+#1605302514
+vim crontab 
+#1605302660
+gd .
+#1605302662
+sm .
+#1605301936
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1605301938
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605301935
+pshd
+#1605303042
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1605307325
+vite
+#1605307328
+vd
+#1605307460
+vp
+#1605319414
+v ool
+#1605319477
+sm
+#1605319506
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1605319394
+ssh root@45.79.68.210
+#1605319366
+v cron
+#1605323538
+type vici
+#1605323555
+(echo sleeping; sleep 555 &; echo done)
+#1605323580
+type git.commit.all.modified.and.new.for.repo.of.given.file 
+#1605323598
+(echo sleeping; (sleep 555 &); echo done)
+#1605323606
+ps -ef|grep sleep
+#1605322625
+vp
+#1605323624
+ps -ef|grep sleep
+#1605324062
+vp
+#1605323659
+(echo sleeping; (sleep 555 &); echo done)
+#1605323663
+ps -ef|grep sleep
+#1605323683
+cl
+#1605323687
+ls *sign*sh
+#1605323731
+ls *trap*sh
+#1605323742
+vim learn_trap.bash 
+#1605323798
+cl
+#1605323800
+grep trap *sh
+#1605323850
+git mv learn_trap.bash learn_trap_signal.bash
