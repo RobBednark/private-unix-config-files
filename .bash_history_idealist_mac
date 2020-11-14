@@ -51939,3 +51939,167 @@ cl
 grep trap *sh
 #1605323850
 git mv learn_trap.bash learn_trap_signal.bash
+#1605330387
+vrc
+#1605330449
+cd /usr/local/postgc
+#1605330450
+c
+#1605330939
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1605330942
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1605330277
+brew info postgres
+#1605330297
+grrc postgre
+#1605330336
+grrc brew
+#1605330362
+brew services
+#1605330452
+c
+#1605330458
+brew info postgres
+#1605330471
+cd /usr/local/Cellar/postgresql/13.0/
+#1605330471
+l
+#1605330490
+ls *
+#1605330496
+cd /var/log/
+#1605330502
+ls *post*
+#1605330510
+cd /usr/local
+#1605330514
+ls etc
+#1605330528
+ls var
+#1605330530
+ls var/log
+#1605330534
+cd var/log
+#1605330535
+ls -atr
+#1605330537
+ls -ltr
+#1605330542
+less postgres.log 
+#1605330569
+psql
+#1605330575
+brew services
+#1605330580
+brew services stop postgresql
+#1605330583
+brew services
+#1605330589
+brew services stop chromedriver
+#1605330636
+ls -ltr
+#1605330640
+less postgres.log 
+#1605330682
+psql
+#1605330684
+c
+#1605330719
+brew info postgres
+#1605330769
+brew services
+#1605330775
+brew start postgresql
+#1605330780
+brew services start postgresql
+#1605330785
+brew services
+#1605330789
+ls -altr
+#1605330791
+less postgres.log 
+#1605330802
+brew postgresql-upgrade-database
+#1605330817
+cd /usr/local/var/postgres.old/
+#1605330821
+cd ..
+#1605330822
+ls -ltr
+#1605330865
+mv postgres.old postgres.old.2020-11-13-from-2020-06-02
+#1605330869
+brew postgresql-upgrade-database
+#1605330927
+brew services
+#1605330933
+psql
+#1605330938
+cdq
+#1605330228
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1605330228
+python manage.py runserver --insecure
+#1605330226
+rqo
+#1605330984
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1605330984
+python manage.py runserver --insecure
+#1605330599
+vq
+#1605330983
+rqo
+#1605336997
+man readline
+#1605336922
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1605336922
+python manage.py runserver --insecure
+#1605366327
+vdiary 
+#1605367784
+j build
+#1605367788
+j create
+#1605367794
+gs .
+#1605367796
+cd ..
+#1605367829
+git mv learn-docker-create-django-image learn-docker-build-create-push-pull-django-image
+#1605370741
+cl
+#1605370753
+vim learn_stack_trace_stack_frame.py
+#1605370790
+vim learn_call_stack_trace_stack_frame.py
+#1605368810
+python3
+#1605368792
+cl
+#1605368803
+vim learn_python_disassemble.py
+#1605373604
+mv learn_python_disassemble.py learn_python_disassemble_into_bytecode.py
+#1605367719
+vq
+#1605373615
+cl
+#1605373615
+lh
+#1605373660
+v disa
+#1605373665
+v bytecod
+#1605373668
+cl
+#1605373670
+v byte
+#1605373672
+lh
+#1605373678
+v learn_python_disassemble_into_bytecode.py
+#1605374267
+vp
