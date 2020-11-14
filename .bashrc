@@ -1798,6 +1798,7 @@ export NVM_DIR="/Users/robb/.nvm"
 ################################################################################
 # apk add bash less mandoc man-pages vim   ==> alpine useful packages to add
 # atom (GUI editor)
+# brew services ==> show brew services status (chromedriver, postgresql)
 # exa (a better/replacement "ls")  https://the.exa.website/ 
 #   brew install eva
 # fd (a better "find" replacement) (fd -h)
