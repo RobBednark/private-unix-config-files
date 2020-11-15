@@ -52175,3 +52175,121 @@ ssh root@45.79.68.210
 vdiary 
 #1605454372
 vp
+#1605455046
+j djang
+#1605455052
+gs .
+#1605455181
+vim README.md local-run-django.sh 
+#1605455510
+gd
+#1605455528
+gs
+#1605455531
+sm .
+#1605455568
+vim .gitignore
+#1605455573
+gs
+#1605455579
+vim .gitignore 
+#1605455583
+gs
+#1605455587
+vim .gitignore 
+#1605455624
+gs
+#1605455627
+git add .gitignore 
+#1605455632
+gcam 'add .gitignore'
+#1605455633
+gs
+#1605455639
+vim run.sh 
+#1605455239
+pipenv -h
+#1605455262
+j djan__
+#1605455269
+./local-run-django.sh 
+#1605455452
+jobs
+#1605455453
+c
+#1605455455
+./local-run-django.sh 
+#1605455478
+gd .
+#1605455744
+j push
+#1605455753
+./run.sh 
+#1605456043
+docker image ls
+#1605456328
+./run.sh 
+#1605456419
+type docker-rm-all-images
+#1605456463
+./run.sh 
+#1605456656
+dotrc
+#1605456667
+docker-rm-all-images
+#1605456671
+./run.sh 
+#1605456735
+docker image ls -h
+#1605456747
+./run.sh 
+#1605456769
+docker image ls -a
+#1605456789
+type docker-rm-all-images
+#1605456829
+docker pull -h
+#1605456941
+j django
+#1605456942
+gs
+#1605456946
+gd run.sh 
+#1605456949
+vim run.sh 
+#1605457048
+gs
+#1605455669
+j push
+#1605455672
+gs .
+#1605455685
+git.rev-parse.show.toplevel.repo.dir 
+#1605455704
+git init .
+#1605455709
+git add .
+#1605455713
+gcam 'initial'
+#1605455714
+gs
+#1605455717
+vim run.sh 
+#1605456862
+gs .
+#1605456866
+gd
+#1605456871
+git add .
+#1605456872
+gs
+#1605456903
+gcam 'working; however, don't understand the output from docker pull with "already exists" and with hash not matching ls'
+#1605456918
+gcam "working; however, don't understand the output from docker pull with 'already exists' and with hash not matching ls"
+#1605456920
+c
+#1605456920
+gs
+#1605456938
+vim run.sh 
