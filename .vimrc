@@ -3,7 +3,8 @@
 " ================================================================================
 set ai   " autoindent
 set cc=80 " colorcolumn -- show a column of red at character position 80
-" set cursorline  " underline the line that the cursor is on
+set cursorline  " underline (highlight) the line that the cursor is on
+set cursorcolumn  " highlight the current column that the cursor is on 
 set expandtab " expand tabs to spaces instead of tab characters
 " exrc => read from .vimrc in current directory after reading primary .vimrc
 set exrc
@@ -15,7 +16,7 @@ set incsearch " incremental search
 set modeline  " look for /* vim: */ modeline settings at the beginning of a file
 set modelines=5  " Look for /* vim: ...: */ settings in the first/last this many lines of the file; if 0, modelines is disabled
 set nows " nowrapscan - don't wrap around to beginning after search hits end-of-file
-set scrolloff=15  " when searching, keep the next match 5 lines from the bottom
+set scrolloff=5  " when searching, keep the next match 5 lines from the bottom
 " secure => disallow risky commands from local .vimrc/.exrc files  (:help secure)
 set secure
 set shell=/bin/bash   " I can't get zsh -i so use the .zshrc file and use my PATH (:!which python /usr/bin/python instead of /usr/local/bin/python), but bash does use them.
