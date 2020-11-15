@@ -52161,3 +52161,17 @@ vq
 vp
 #1605412578
 vim
+#1605412539
+vvimrc 
+#1605412618
+vq
+#1605412837
+v crontab
+#1605412944
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1605412509
+ssh root@45.79.68.210
+#1605449496
+vdiary 
+#1605454372
+vp
