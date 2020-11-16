@@ -52293,3 +52293,161 @@ c
 gs
 #1605456938
 vim run.sh 
+#1605456581
+vrc
+#1605455358
+cl
+#1605455361
+vim *bool*sh
+#1605454978
+vig
+#1605453119
+vq
+#1605459102
+docker-run-alpine 
+#1605459897
+man syscalls
+#1605459900
+man 2 syscalls
+#1605459130
+man 2 exit
+#1605460443
+vq
+#1605464068
+ps -ef|grep 787
+#1605504402
+vresume
+#1605545314
+docker --help
+#1605545991
+docker search robbednark
+#1605545617
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1605545620
+docker-cloud
+#1605545626
+docker-cloud -h
+#1605545631
+docker login
+#1605545634
+docker-cloud -h
+#1605545647
+docker search robbednark
+#1605545653
+docker login -h
+#1605545688
+docker search robbednark
+#1605545890
+docker login
+#1605545896
+docker-cloud -h
+#1605544530
+j djang
+#1605544534
+./run.sh 
+#1605544586
+curl --include localhost:8888
+#1605544744
+c
+#1605544811
+./run.sh 
+#1605544918
+brew search docker
+#1605545016
+brew install docker-cloud
+#1605545220
+pshd
+#1605545236
+cd
+#1605545240
+ls -ld *repo*
+#1605545243
+type pshd
+#1605545248
+cd ~/pipenvs/requests/
+#1605545261
+pipenv install docker-cloud
+#1605545399
+docker search robbednark
+#1605545422
+docker search --help
+#1605545613
+docker-cloud
+#1605545616
+pshd
+#1605544272
+pwd
+#1605544272
+jobs
+#1605544276
+j djang
+#1605544277
+c
+#1605544290
+vim run.sh 
+#1605546077
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1605546079
+docker-cli
+#1605546082
+docker-cloud
+#1605546087
+docker-cloud -h
+#1605545904
+vp
+#1605546039
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08; ssh-add -L
+#1605546067
+docker login
+#1605546074
+docker-cli
+#1605546076
+pshd
+#1605540594
+vq
+#1605552513
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1605552513
+python manage.py runserver --insecure
+#1605552512
+rqo
+#1605550248
+cl
+#1605550249
+sm .
+#1605550305
+v ool
+#1605550312
+v pool
+#1605550493
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1605550498
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605550520
+pipenv install beautifulsoup
+#1605550544
+pipenv install beautifulsoup4
+#1605550598
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605551146
+python3
+#1605551238
+pydoc
+#1605551240
+pydoc bs4
+#1605551330
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605550492
+pshd
+#1605550769
+cl
+#1605550773
+ls *regex*py
+#1605554097
+pydoc time
+#1605554082
+v oo
+#1605560647
+vdiary 
+#1605562535
+vresume
