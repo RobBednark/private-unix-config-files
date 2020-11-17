@@ -52451,3 +52451,85 @@ v oo
 vdiary 
 #1605562535
 vresume
+#1605564139
+man readline
+#1605564332
+grrc netstat
+#1605564338
+vimrc
+#1605564339
+vvimrc 
+#1605564342
+vrc
+#1605564001
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1605564001
+python manage.py runserver --insecure
+#1605564793
+vresume
+#1605563999
+rqo
+#1605566325
+vresume
+#1605566946
+vdiary 
+#1605594216
+cl
+#1605594217
+sm .
+#1605594222
+v ool
+#1605594458
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1605594379
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1605594383
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1605594377
+pshd
+#1605628259
+man select
+#1605628881
+man 2 sleep
+#1605628885
+man sleep
+#1605628893
+man 3 sleep
+#1605630833
+cdqp
+#1605631575
+cdqn
+#1605631576
+c
+#1605631581
+cd bin
+#1605631581
+c
+#1605631586
+cdqn
+#1605631592
+cdqp 
+#1605631593
+c
+#1605631594
+cd bin
+#1605631594
+c
+#1605631615
+git mv bootstrap-new-server-git-clone.sh bootstrap-new-server.sh
+#1605631615
+c
+#1605630885
+gs
+#1605630887
+c
+#1605630890
+cd bin
+#1605630901
+vim bootstrap-new-server-git-clone.sh 
+#1605631812
+vim bootstrap-new-server.sh 
+#1605627280
+vig
+#1605627240
+vq
