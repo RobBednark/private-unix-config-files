@@ -1568,6 +1568,7 @@ EOF
         [ -f ~/.git.prompts.zsh ] && source ~/.git.prompts.zsh
     fi
 
+# ripgrep / rg
 if hash rg 2>/dev/null; then
   # Per https://github.com/aykamko/tag, create an 'rg' alias that
   # gives results and allows you to type something like `e2` to jump to that 
