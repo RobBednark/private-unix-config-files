@@ -4,47 +4,6 @@
 ### .bashrc
 ################################################################################
 
-################################################################################
-# oh-my-zsh BEGIN
-################################################################################
-enable_oh_my_zsh=false
-
-if $enable_oh_my_zsh; then
-    # Path to your oh-my-zsh configuration.
-    ZSH=$HOME/.oh-my-zsh
-
-    # Set name of the theme to load.
-    # Look in ~/.oh-my-zsh/themes/
-    # Optionally, if you set this to "random", it'll load a random theme each
-    # time that oh-my-zsh is loaded.
-    ZSH_THEME="robbyrussell"
-
-    # Uncomment following line if you want red dots to be displayed while waiting for completion
-    COMPLETION_WAITING_DOTS="true"
-
-    # This should disable the title functionality in oh-my-zsh, but it is not
-    # working for me.
-    DISABLE_AUTO_TITLE='true'
-
-    # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-    # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-    # Example format: plugins=(rails git textmate ruby lighthouse)
-    plugins=(git)
-
-    if echo $SHELL | grep zsh > /dev/null; then
-        zsh_shell=true
-        [ -f $ZSH/oh-my-zsh.sh ] && source $ZSH/oh-my-zsh.sh
-        # Disable hostname completion.  I thought this might have been causing a lockup I see when I attempt certain filename completions, but it doesn't.
-        zstyle ':completion:*' hosts off
-        # This allows completing something in the middle of a word (see http://stackoverflow.com/questions/13341900/zsh-how-do-i-set-autocomplete-so-that-it-inserts-the-completion-when-cursor-is )
-        bindkey '^i' expand-or-complete-prefix
-    fi
-fi
-
-################################################################################
-# oh-my-zsh END
-################################################################################
-
 # ANSI escape sequences terminal colors
 ANSI_ESC_SEQ_BLUE="\[$(tput setaf 105)\]"
 ANSI_ESC_SEQ_GREEN="\[$(tput setaf 2)\]"
@@ -63,12 +22,6 @@ if uname | grep Darwin  > /dev/null; then
 else
     MacOSX=false
     alias ls="ls -aCF --color"
-fi
-
-if echo $SHELL | grep zsh > /dev/null; then
-    # zsh prompt
-    # %m - machine name; %d - current working directory; %@ - current time
-    PS1='%m:%d %@ $ '
 fi
 
 # inc_append_history ==> Save every command before it is executed (this is different from bash's history -a solution):
