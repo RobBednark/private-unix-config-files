@@ -95,19 +95,13 @@ export MANOPT=-Hlynx  # convert man page to html, and use the "lynx" browser to 
 export MANPATH="$MANPATH:/usr/man"
 export PATH="$PATH:/bin"
 export PATH="$PATH:~/bin"
-export RCSINIT=" -zLT"  # RCSINIT - options that get prepended to rcs commands.  -z is to set the time zone.  LT is for local time.
 
 if echo $OSTYPE | grep -i linux > /dev/null; then
  ## ASSERT: this is Linux
     export PATH="$PATH:/usr/bin"
     export PATH="$PATH:/sbin"
     export PATH="$PATH:/usr/sbin"
-    export PATH="$PATH:/home/sara/bin"
-else
-    :
 fi
-
-export OSU_API_KEY='be0ebeaa7260905173375e8e26611192cf1c2c61'
 
 ################################################################################
 ### Non-exports:
@@ -115,12 +109,7 @@ export OSU_API_KEY='be0ebeaa7260905173375e8e26611192cf1c2c61'
 
 ### Directories dependent on one another, or used for Dir's down below
 
-CmdDatestamp='date +%Y.%m.%d_%H.%M.%S.%a'
-if hostname | grep 'littlered-ubuntu' > /dev/null; then
-    DirSaraDocs="~/windows.sara.documents"
-else
-    DirSaraDocs="/cygdrive/c/Users/sara/Documents"
-fi
+CmdDatestamp='date +%Y.%m.%d__%H.%M.%S.%a'
 IBM=false
 DirDropbox=~/Dropbox
 
@@ -128,7 +117,6 @@ DirBin="$DirDropbox/bin"
 export PATH=$PATH:$DirDropbox/bin
 DirGit=$DirDropbox/git
 DirGitLocal="$HOME/local.git"
-DirRob="$DirSaraDocs/Rob"
 DirRbednark=~
 DirReposRob="$DirRbednark/repos.rob"
 DirTopPC="$HOME"
@@ -192,9 +180,6 @@ FileJTmp="$DirDoc/j.interim.txt"
 FileJTmpQuizCopy="$DirQuiz/j.interim.txt"
 FileLearnTodo="$DirQuiz/db_want_to_learn_find_out_get_answers_ask_google_helpouts_stackoverflow_todo.txt"
 FileMyPsychology="$DirDoc/my.psychology.txt"
-if hostname | grep 'littlered-ubuntu' > /dev/null; then
-    DirCygwin="~/windows.cygwin.home.sara"
-fi
 FilePeopleHtml="$DirBednarkCom/people.I.know.html"
 FilePeopleTxt="$DirDoc/people.I.know.txt"
 FilePhone="$DirDoc/phone.nums.txt"
@@ -241,7 +226,6 @@ alias cddockercomposelearn="cd $DirDropbox/bin/learn/dir-learn-docker-compose"
 alias cddownloads="cd ~/Downloads"
 alias cddjango="cd $DirDropbox/bin/learn/dir.learn.django.projects"
 alias cddjango-last="cd $DirDropbox/bin/learn/dir.learn.django.projects/learn_django_allauth"
-alias cddjangocode="cd /home/sara/local.dir.learn.django.projects/my.venv/lib/python2.7/site-packages/django"
 alias cddoc="cd $DirDoc"
 alias cddropbox="cd $DirDropbox"
 alias cdfam="cd $DirFamilyTree"
@@ -589,7 +573,6 @@ alias scp.nginx.logs="scp -Cpr -i $PemTixie515 ubuntu@$MachineProdWeb:/var/log/n
 alias screensaver="gnome-screensaver-command --activate"
 alias script_date="script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`"
 alias script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`'
-alias seleniumServerRun="title Selenium Server; java -jar C:/cygwin/home/sara/selenium-2.0b1/selenium-server-standalone-2.0b1.jar"
 alias sm=subl.merge
 alias ssh="ssh -A"
 alias ssh.rob-aws="ssh -i $PemRobKey ubuntu@$MachineRobAWS"
@@ -701,7 +684,6 @@ alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
 alias vresume="vici $DirTmp/resume-quizme"
 alias vresume-all=vjobsearch
 alias vresume.word="open -a 'Microsoft Word' $DirDropbox/Documents/Rob.Bednark.resume.docx"
-alias vselenium="vici $DirQuiz/db_selenium"
 alias vtalks="vici $DirQuiz/db_talks"
 alias vsql="title vsql; cd $DirQuiz; vici db_sql"
 alias vstudy="title vstudy; cd $DirQuiz; vici db_study_notes_journal_diary"
