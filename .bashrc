@@ -110,7 +110,6 @@ fi
 ### Directories dependent on one another, or used for Dir's down below
 
 CmdDatestamp='date +%Y.%m.%d__%H.%M.%S.%a'
-IBM=false
 DirDropbox=~/Dropbox
 
 DirBin="$DirDropbox/bin"
@@ -120,14 +119,12 @@ DirGitLocal="$HOME/local.git"
 DirRbednark=~
 DirReposRob="$DirRbednark/repos.rob"
 DirTopPC="$HOME"
-DirTopUnix="/home/rbednark"
 DirTxt="$DirTopPC/txt"
 DirDoc=$DirDropbox/Rob/doc
 
 DirAddToQuizme="$DirDropbox/add_to_quizme"
 DirBackup="$DirTopPC/backup"
 DirBednarkCom="$DirDropbox/Rob/bednark.com"
-DirC="/cygdrive/c"
 DirCheckin="$DirRbednark/checkin"
 DirFamilyTree="$DirDropbox/family.tree"
 DirFamilyTreeReports="$DirFamilyTree"
@@ -320,14 +317,10 @@ alias dotrc="source $FileRc"
 
 alias finddropboxconflicted='find $DirDropbox | grep conflicted'
 alias findex="ls -l | grep '^...x'"
-if uname | grep -i linux > /dev/null; then
-    true
-elif $MacOSX; then
+if $MacOSX; then
     alias chrome-open="open -a Google\ Chrome"
     alias chrome-canary="/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary"
     alias chrome-devtools-new-tabs='"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --auto-open-devtools-for-tabs'
-else
-    alias firefox="/cygdrive/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe"
 fi
 
 ################################################################################
@@ -461,13 +454,6 @@ function vim.git.files.changed.in.commit {
 
 alias help.find.delete='echo find . -name "*.pyc" -delete'
 
-if $MacOSX; then
-    alias iphone.simulator="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app/Contents/MacOS/iPhone\ Simulator"
-else
-    alias gvim="  /cygdrive/c/Program\ Files\ \(x86\)/Vim/vim72/gvim.exe"
-    alias gvimdiff="c:/WINDOWS/gvimdiff.bat"
-fi
-
 alias idle='env python3 /usr/lib/python3.2/idlelib/idle.py &'
 alias ipaddr='ipconfig getifaddr en0'
 alias ipaddr-2='ifconfig | grep inet'
@@ -510,7 +496,6 @@ alias pman='python manage.py'
 alias pok="title poughkeepsie sanfs00; telnet 9.12.20.42; ssh rbednark@9.12.20.42"
 alias psh="pipenv shell"
 alias pshd="cd ~/pipenvs/requests && pipenv shell"  # "Pipenv SHell D??
-alias pw3="ping w3.ibm.com"
 DirPyWin2="c:/Python27"
 DirPyWin3="c:/Python32"
 DirPy2="c:/Python27"
