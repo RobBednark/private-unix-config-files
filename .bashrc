@@ -4,8 +4,6 @@
 ### .bashrc
 ################################################################################
 
-# NOTE: the "watch" command will repeat/loop a command every n seconds
-
 ################################################################################
 # oh-my-zsh BEGIN
 ################################################################################
@@ -1824,6 +1822,8 @@ export NVM_DIR="/Users/robb/.nvm"
 #   v -  ==> git a list of recent files edited, order newest to oldest; type the number of the file to edit 
 #   v --help
 #   "brew install v"
+# watch <cmd> -- repeat/loop a command every n seconds
+
 ################################################################################
 ### Shells (bash vs zsh vs fish)
 ################################################################################
