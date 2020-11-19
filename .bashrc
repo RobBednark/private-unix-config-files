@@ -1535,38 +1535,13 @@ function run.commands() {
     vim -R /home/rbednark/output/out.commands.out
     set +x
 }
-function tab() {
-  # I got this script from Howard, July 2012, for doing tabs in Mac Terminal.
-  TITLE="$1"
-  if [ "$1" == "-t" ]
-  then
-      TITLE="$2"
-      shift
-      shift
-  fi
 
-  osascript 2>/dev/null <<EOF
-    tell application "System Events"
-      tell process "Terminal" to keystroke "t" using command down
-    end
-    tell application "Terminal"
-      activate
-      set frontIndex to index of the first window whose frontmost is true
-      tell window frontIndex
-        set title displays custom title of selected tab to true
-        set custom title of selected tab to "$TITLE"
-      end tell
-      do script with command "$*" in window 1
-    end tell
-EOF
-}
-
-    # my Retina Mac
-    export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-    [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
-    if echo $SHELL | grep zsh > /dev/null; then
-        [ -f ~/.git.prompts.zsh ] && source ~/.git.prompts.zsh
-    fi
+# my Retina Mac
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+[ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
+if echo $SHELL | grep zsh > /dev/null; then
+    [ -f ~/.git.prompts.zsh ] && source ~/.git.prompts.zsh
+fi
 
 # ripgrep / rg
 if hash rg 2>/dev/null; then
