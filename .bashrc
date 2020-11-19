@@ -95,13 +95,6 @@ export MANOPT=-Hlynx  # convert man page to html, and use the "lynx" browser to 
 export MANPATH="$MANPATH:/usr/man"
 export PATH="$PATH:/bin"
 export PATH="$PATH:~/bin"
-if $MacOSX; then
-    # Python3
-    # Commented-out the following 1/27/20:
-    # export PATH="$PATH:/usr/local/Cellar/python3/3.2.3/bin"
-    # export PATH="$(brew --prefix)/opt/python/libexec/bin:$PATH"
-    :
-fi
 export RCSINIT=" -zLT"  # RCSINIT - options that get prepended to rcs commands.  -z is to set the time zone.  LT is for local time.
 
 if echo $OSTYPE | grep -i linux > /dev/null; then
