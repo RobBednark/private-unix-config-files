@@ -24,20 +24,9 @@ else
     alias ls="ls -aCF --color"
 fi
 
-# inc_append_history ==> Save every command before it is executed (this is different from bash's history -a solution):
-# share_history ==> Retrieve the history file everytime history is called upon.
-# append_history ==> If this is set, zsh sessions will append their history list to the history file, rather than replace it. Thus, multiple parallel zsh sessions will all have the new entries from their  history  lists added  to  the  history  file, in the order that they exit.
-
-if type setopt > /dev/null 2>&1; then
-    # Assert: this shell supports setopt (e.g., zsh)
-    # When I start a new session, get the history of all sessions before it.  But once it's started, don't get any history from other sessions:
-    setopt append_history no_inc_append_history no_share_history
-else
-    # bash
-    # If this shell doesn't support setopt (like bash):
-    # histappend => If the histappend shell option is enabled, the lines are appended to the history file, otherwise the history file is overwritten.
-    shopt -s histappend
-fi
+# bash
+# histappend => If the histappend shell option is enabled, the lines are appended to the history file, otherwise the history file is overwritten.
+shopt -s histappend
 
 # Show all lines of history, not just the last 15 lines.
 alias hless="history|less"
@@ -63,27 +52,21 @@ export LESS="-iRX --LINE-NUMBERS --jump-target=.5" # -R ==> process color escape
                    # NOTE: -I will completely ignore case, even for uppercase searches
 export VISUAL="/usr/bin/vim"
 export SAVEHIST=80000 # max size in HISTFILE
-if echo $SHELL | grep zsh > /dev/null; then
-    # zsh
-    # Added 2/8/13.  History was not getting saved on Atlatl Mac.  Not sure how it was getting saved on my Retina.
-    alias history="history 1"  # by default, zsh history does not show entire history, so override and show all
-    export HISTFILE=~/.zsh_history
-    export HISTSIZE=32000 # max size internal history per session
-else
-    # bash
-    export HISTSIZE=99999 # max size internal history per session
-    export HISTFILESIZE=99999 # max size internal history per session
-    #  HISTIGNORE
-    #         A  colon-separated list of patterns used to decide which command lines should be saved on the history list.
-    #         Each pattern is anchored at the beginning of the line and must match the complete line (no implicit `*'  is
-    #         appended).   Each pattern is tested against the line after the checks specified by HISTCONTROL are applied.
-    #         In addition to the normal shell pattern matching characters, `&' matches the previous  history  line.   `&'
-    #         may  be escaped using a backslash; the backslash is removed before attempting a match.  The second and sub-
-    #         sequent lines of a multi-line compound command are not tested, and are added to the history  regardless  of
-    #         the value of HISTIGNORE.
-    # & -- previous history line
-    export HISTIGNORE="&:ls:[bf]g:exit:history"
-fi
+
+# bash
+export HISTSIZE=99999 # max size internal history per session
+export HISTFILESIZE=99999 # max size internal history per session
+#  HISTIGNORE
+#         A  colon-separated list of patterns used to decide which command lines should be saved on the history list.
+#         Each pattern is anchored at the beginning of the line and must match the complete line (no implicit `*'  is
+#         appended).   Each pattern is tested against the line after the checks specified by HISTCONTROL are applied.
+#         In addition to the normal shell pattern matching characters, `&' matches the previous  history  line.   `&'
+#         may  be escaped using a backslash; the backslash is removed before attempting a match.  The second and sub-
+#         sequent lines of a multi-line compound command are not tested, and are added to the history  regardless  of
+#         the value of HISTIGNORE.
+# & -- previous history line
+export HISTIGNORE="&:ls:[bf]g:exit:history"
+
 export APPEND_HISTORY=1 # Append rather than replace
 export HISTTIMEFORMAT="%m/%d/%y %a %T "
 
@@ -1139,11 +1122,6 @@ function git.commit.all.modified.and.new.for.repo.of.given.file() {
     cd $DirCurDir
 }
 function vici () { 
-    if echo $SHELL | grep zsh > /dev/null; then
-        # setopt shwordsplit causes zsh to behave like bash for splitting a string (e.g., $files)
-        setopt shwordsplit
-    fi
-
     cur_dir=$(pwd)
     files=$@
     # Would be best to get a list of the repositories for all the files, and only do one commit
@@ -1539,9 +1517,6 @@ function run.commands() {
 # my Retina Mac
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
-if echo $SHELL | grep zsh > /dev/null; then
-    [ -f ~/.git.prompts.zsh ] && source ~/.git.prompts.zsh
-fi
 
 # ripgrep / rg
 if hash rg 2>/dev/null; then
