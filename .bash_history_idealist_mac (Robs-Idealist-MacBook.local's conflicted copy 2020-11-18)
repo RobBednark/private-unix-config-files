@@ -1,0 +1,3 @@
+ls -l .vimrc
+ls .unix.config.files
+vim

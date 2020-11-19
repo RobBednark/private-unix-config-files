@@ -52533,3 +52533,161 @@ vim bootstrap-new-server.sh
 vig
 #1605627240
 vq
+#1605641808
+type grc
+#1605641936
+dotrc
+#1605641947
+grrc bednark.com
+#1605642090
+cddropbox 
+#1605642094
+git remote -v
+#1605642097
+gs
+#1605642100
+gs .
+#1605642105
+git ls-files|less
+#1605642109
+gs .
+#1605642112
+du -hs .git/
+#1605642117
+git ls-files
+#1605642132
+ls -ld *edn*
+#1605642147
+grc addresses
+#1605642150
+grrc addresses
+#1605642178
+git mv bednark\ family\ tree\ email\ addresses.xls bednark-family-tree-email-addresses.xls
+#1605642180
+gs .
+#1605642188
+cd .git/
+#1605642189
+du -hs .
+#1605642192
+git log
+#1605642197
+git ls-files
+#1605642202
+git log -p
+#1605642206
+git log --all
+#1605642212
+c
+#1605642215
+du -hs .
+#1605642223
+du -hs *
+#1605642225
+cd objects/
+#1605642228
+du -hs *
+#1605642231
+ls -ltr
+#1605642293
+ls -l *
+#1605642298
+find . -type f
+#1605642337
+find . -type f | xargs ls -1
+#1605642340
+find . -type f | xargs ls -l
+#1605642360
+ls 00
+#1605642362
+cd 00
+#1605642369
+git cat-file 3ef384a232040bf5954c0c631f7a27de1d550b
+#1605642396
+git cat-file
+#1605642399
+git cat-file --help
+#1605642418
+git cat-file 3ef384a232040bf5954c0c631f7a27de1d550b
+#1605642448
+git cat-file *
+#1605642497
+type irb
+#1605642500
+irb --help
+#1605642544
+cdgit 
+#1605642548
+cdlearngit 
+#1605642567
+ls -ltr
+#1605642575
+ls -ld *temp*
+#1605642589
+vim learn.git.rebase.conflicts.2.bash 
+#1605642602
+cp learn.git.rebase.conflicts.2.bash template.learn.git.sh
+#1605642604
+vim template.learn.git.sh
+#1605643780
+gs .
+#1605643783
+du -hs .git
+#1605643806
+git add template.learn.git.sh 
+#1605643815
+gcam 'add template.learn.git.sh'
+#1605643823
+c
+#1605643834
+cp template.learn.git.sh learn.git.internals.git.objects.sh
+#1605643836
+vim learn.git.internals.git.objects.sh
+#1605721917
+cd Dropbox/Rob/
+#1605721917
+ls
+#1605721997
+cd
+#1605721998
+ls
+#1605722001
+cd tmp-no-repo/
+#1605722001
+ls
+#1605722007
+cd private-unix-config-files/
+#1605722012
+source .bashrc
+#1605722016
+type vresume
+#1605722024
+vresume
+#1605722118
+cd
+#1605722121
+cd tmp
+#1605722126
+ls resume-quizme 
+#1605722129
+gd resume-quizme 
+#1605722131
+gs
+#1605722136
+git show
+#1605723038
+cd tmp
+#1605723039
+sm .
+#1605724221
+ssh-agent
+#1605724224
+ssh-add
+#1605724232
+ssh-add .ssh/rob-key-2020-09-08
+#1605722375
+vresume
+#1605723721
+vq
+#1605723727
+vresume
