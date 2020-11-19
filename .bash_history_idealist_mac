@@ -52691,3 +52691,43 @@ vresume
 vq
 #1605723727
 vresume
+#1605746676
+history > /tmp/history; wc -l /tmp/history
+#1605751366
+echo $PATH
+#1605746146
+ssh-agent; ssh-add .ssh/rob-key-2020-09-08
+#1605746253
+cd .unix.config.files
+#1605746254
+gs
+#1605746254
+gd
+#1605746266
+type git.commit.all.modified.and.new.for.repo.of.given.file 
+#1605746273
+git.commit.all.modified.and.new.for.repo.of.given.file .bashrc
+#1605746294
+gd
+#1605752506
+$CmdDatestamp 
+#1605752509
+echo $CmdDatestamp 
+#1605752366
+echo $PATH
+#1605751540
+echo $PATH
+#1605753247
+cd $DirGit
+#1605753253
+ls -al
+#1605753776
+v ool
+#1605753780
+j learn
+#1605753939
+j --help
+#1605754228
+echo $SHELL
+#1605754351
+setopt
