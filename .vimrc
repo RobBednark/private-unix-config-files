@@ -3,8 +3,8 @@
 " ================================================================================
 set ai   " autoindent
 set cc=80 " colorcolumn -- show a column of red at character position 80
-set cursorline  " underline (highlight) the line that the cursor is on
-set cursorcolumn  " highlight the current column that the cursor is on 
+" set cursorline  " underline (highlight) the line that the cursor is on
+" set cursorcolumn  " highlight the current column that the cursor is on 
 set expandtab " expand tabs to spaces instead of tab characters
 " exrc => read from .vimrc in current directory after reading primary .vimrc
 set exrc
