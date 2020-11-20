@@ -52731,3 +52731,449 @@ j --help
 echo $SHELL
 #1605754351
 setopt
+#1605746112
+alias
+#1605746118
+cd .unix.config.files
+#1605746119
+gs
+#1605746121
+gd
+#1605746128
+vrc
+#1605804262
+git ls-files
+#1605804269
+ls -ld .git
+#1605804276
+git log
+#1605804737
+git count-objects
+#1605804742
+git count-objects -vH
+#1605804614
+cd /tmp
+#1605804623
+find my-repo/
+#1605804625
+c
+#1605802193
+man poll
+#1605804068
+c
+#1605804073
+lh
+#1605804075
+ls -ltr
+#1605804080
+cd temp-dropbox-top-level-repo-big-1G-.git-dir/
+#1605804082
+c
+#1605804118
+du -hs .
+#1605804161
+c
+#1605804164
+ls -al
+#1605804207
+cd objects/
+#1605804209
+cd 00
+#1605804215
+ls -l
+#1605804251
+cd ../..
+#1605804254
+git ls-files
+#1605804287
+git.rev-parse.show.toplevel.repo.dir 
+#1605804339
+git branch
+#1605804385
+ls -al
+#1605804403
+mkdir my-repo
+#1605804417
+mkdir my-repo/.git
+#1605804458
+mv C* H* [cdhilor]* my-repo/.git/
+#1605804462
+cd my-repo/
+#1605804464
+git ls-files
+#1605804468
+du -hs .git
+#1605804479
+git reset --hard master
+#1605804482
+git ls-files
+#1605804486
+ls -h
+#1605804490
+ls -l
+#1605804506
+git log
+#1605804513
+c
+#1605804532
+git log
+#1605804536
+git log --all
+#1605804540
+ls -l
+#1605804554
+du -hs .git
+#1605804595
+ls -al
+#1605804653
+c
+#1605804656
+ls -al
+#1605804687
+git reflog
+#1605804693
+git reflog -a
+#1605804698
+git reflog --help
+#1605804775
+c
+#1605804779
+git count-objects
+#1605804786
+git count-objects -vH
+#1605804795
+git ls-objects
+#1605804805
+git count-objects --help|less
+#1605804816
+git reflog
+#1605804826
+git --help|less
+#1605804846
+type git
+#1605804851
+ls /usr/local/bin/*git*
+#1605804857
+git-branch
+#1605804866
+man git-branch
+#1605804926
+c
+#1605804945
+cat .git/objects/pack/*.idx|git show-index
+#1605804961
+cd .git/objects/pack/
+#1605804969
+cd ..
+#1605804977
+ls pack
+#1605804980
+cd ..
+#1605804984
+find . -name pack -ls
+#1605804990
+cd objects/
+#1605804998
+ls /??/\*
+#1605805006
+ls /??/
+#1605805020
+ls *
+#1605805035
+cd 00
+#1605805043
+less 7461eeeb9d688818260b2f6aa7e9f0180ce7de 
+#1605805047
+ls -l 7461eeeb9d688818260b2f6aa7e9f0180ce7de
+#1605805098
+git cat-file -p 7461eeeb9d688818260b2f6aa7e9f0180ce7de
+#1605805106
+git cat-file 7461eeeb9d688818260b2f6aa7e9f0180ce7de
+#1605805111
+git cat-file -p 7461eeeb9d688818260b2f6aa7e9f0180ce7de
+#1605805124
+cd ..
+#1605805128
+git cat-file -p 007461eeeb9d688818260b2f6aa7e9f0180ce7de
+#1605805136
+git cat-file -p 007461eeeb9d688818260b2f6aa7e9f0180ce7de|less
+#1605805144
+git cat-file -p 007461eeeb9d688818260b2f6aa7e9f0180ce7de|strings|less
+#1605805194
+cd ..
+#1605805204
+ls refs/
+#1605805211
+ls info
+#1605805284
+git cat-file --help
+#1605805299
+git cat-file -t 007461eeeb9d688818260b2f6aa7e9f0180ce7de
+#1605805314
+cd objects/
+#1605805322
+cd ..
+#1605805327
+find info/
+#1605805331
+ls -alR info/
+#1605805340
+cat info/exclude 
+#1605805353
+c
+#1605805366
+ls -alR pack
+#1605805374
+find . -name pack -ls
+#1605805386
+ls -alR objects/pack/
+#1605805434
+cd objects/
+#1605805434
+c
+#1605805438
+cd ..
+#1605805439
+c
+#1605805442
+ls -al
+#1605805447
+find hooks/
+#1605805454
+cd objects/00/
+#1605805464
+cd ..
+#1605805475
+git ls-objects
+#1605805484
+git show-objects
+#1605805504
+find 00
+#1605805524
+find .
+#1605805556
+find .|cut -d/ -f3
+#1605805562
+find .|cut -d/ -f1,3
+#1605805569
+find . -type f|cut -d/ -f1,3
+#1605805580
+find . -type f|cut -d/ -f2,3
+#1605805616
+find . -type f|cut -d/ -f2,3|tr -d/
+#1605805625
+find . -type f|cut -d/ -f2,3|tr -d '/'
+#1605805661
+find . -type f|cut -d/ -f2,3|tr -d '/' | xargs git cat-file -t '{};'
+#1605805682
+find . -type f|cut -d/ -f2,3|tr -d '/' | xargs git cat-file -t
+#1605805690
+find . -type f|cut -d/ -f2,3|tr -d '/' | xargs echo
+#1605805713
+for filename in $(find . -type f|cut -d/ -f2,3|tr -d '/'); do ls -l $filename; done
+#1605805744
+for filename in $(find . -type f|cut -d/ -f2,3|tr -d '/'); do git cat-file -t $filename; done
+#1605805757
+man filter
+#1605805778
+for filename in $(find . -type f|cut -d/ -f2,3|tr -d '/'); do git cat-file -t $filename; done | grep -v blob
+#1605805833
+git cat-file|less
+#1605806060
+cd /tmp
+#1605806063
+rm -fr my-repo/
+#1605806066
+git init my-repo
+#1605806068
+cd my-repo
+#1605806068
+c
+#1605806070
+find .
+#1605806089
+ls -alR
+#1605806098
+echo myfile > myfile
+#1605806104
+git add .
+#1605806107
+gs
+#1605806119
+ls -alR ./git/
+#1605806125
+ls -alR ./git
+#1605806131
+ls -alR .git
+#1605806152
+git cat-file -p 20f11a5545b04a86ca81f7a9967d5207349052d7
+#1605806172
+find .
+#1605806178
+find . -ls
+#1605806193
+find . -type f -ls
+#1605806211
+gs
+#1605806229
+echo my-contents > myfile
+#1605806231
+git add .
+#1605806231
+gs
+#1605806238
+find .git/objects/
+#1605806251
+cd ..
+#1605806255
+rm -fr my-repo/
+#1605806258
+git init my-repo
+#1605806259
+cd my-repo
+#1605806265
+echo my-contents > myfile
+#1605806275
+git add myfile 
+#1605806276
+gs
+#1605806288
+git reset --hard
+#1605806292
+gs
+#1605806308
+ls -alR .git/objects/
+#1605806327
+git cat-file -p ef8e5dacda622c5ac50ecaca740d10a7f00d48f3
+#1605806338
+git cat-file -t ef8e5dacda622c5ac50ecaca740d10a7f00d48f3
+#1605806362
+find .git
+#1605806373
+find .git   > before
+#1605806381
+gs
+#1605806418
+echo my-new-contents > myfile2
+#1605806426
+git add myfile2 
+#1605806427
+gs
+#1605806434
+find .git   > after
+#1605806438
+diff before after 
+#1605806483
+git cat-file -p 24b357be44adcb39961352740e02538f831f3823
+#1605806489
+git cat-file -t 24b357be44adcb39961352740e02538f831f3823
+#1605800628
+vq
+#1605828951
+telnet 45.79.68.210
+#1605828957
+man ssh
+#1605828971
+ssh 45.79.68.210
+#1605829009
+ssh foobar@45.79.68.210
+#1605828632
+ssh-agent; ssh-add .ssh/rob-key-2020-09-08
+#1605828671
+ssh root@45.79.68.210
+#1605829535
+cdqp
+#1605829536
+cd bin
+#1605829539
+vim settings.sh 
+#1605830412
+vim *
+#1605831221
+j docker
+#1605831229
+vim run.sh 
+#1605831278
+docker-wait-until-engine-is-up && ./run.sh |&less
+#1605831307
+vim run.sh 
+#1605831349
+docker-wait-until-engine-is-up && ./run.sh |&less
+#1605829198
+cdqn
+#1605829201
+gs
+#1605829204
+gpus
+#1605829207
+gd
+#1605829224
+pwd
+#1605829224
+c
+#1605829228
+type vig
+#1605829231
+cdqp
+#1605829233
+gs
+#1605829234
+gd .
+#1605829255
+clear
+#1605829261
+cd bin
+#1605829267
+git log .
+#1605829287
+git log -p
+#1605829297
+vi bootstrap-new-server.sh 
+#1605829560
+cl
+#1605829561
+gs .
+#1605829581
+du -hs .git
+#1605829669
+ls *this*sh
+#1605829673
+vim *this*sh
+#1605829684
+grep -i dir.this *sh
+#1605830087
+touch /tmp/myfile
+#1605830099
+cd /tmp
+#1605830101
+mkdir mydir
+#1605830102
+cd mydir
+#1605830106
+mkdir my-subdir
+#1605830111
+touch my-subdir/myfile
+#1605830146
+scp -pr /tmp/mydir root@45.79.68.210:/tmp/foo
+#1605830161
+ssh root@45.79.68.210
+#1605830346
+env|grep -i ssh
+#1605830898
+cdqp
+#1605830900
+cd bin
+#1605830919
+echo log > .gitignore
+#1605830920
+gs .
+#1605830924
+mkdir log
+#1605830961
+./bootstrap-new-server.sh >& log/bootstrap-2020-11-19__16:09 &
+#1605830964
+cat log/bootstrap-2020-11-19__16\:09 
+#1605831055
+./bootstrap-new-server.sh |& tee log/bootstrap-2020-11-19__16:10 |& less
+#1605831205
+ssh root@45.79.68.210
