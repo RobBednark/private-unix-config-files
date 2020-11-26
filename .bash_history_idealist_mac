@@ -53177,3 +53177,711 @@ cat log/bootstrap-2020-11-19__16\:09
 ./bootstrap-new-server.sh |& tee log/bootstrap-2020-11-19__16:10 |& less
 #1605831205
 ssh root@45.79.68.210
+#1605891629
+vvimrc
+#1605887267
+vq
+#1605889292
+cl
+#1605889303
+ls *.c
+#1605889309
+vim learn.pointer-to-a-pointer.c 
+#1605889329
+vim learn.pointers.c
+#1605893412
+ssh-agent; ssh-add .ssh/rob-key-2020-09-08
+#1605893420
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1605889997
+cdgit
+#1605890002
+cdlearngit 
+#1605890004
+c
+#1605890008
+ls *sub*sh
+#1605890019
+cp template.learn.git.sh learn.subproject.sh
+#1605890022
+vim learn.subproject.sh
+#1605892221
+cd /tmp
+#1605892234
+git clone ~/Dropbox/bin/learn/git/top.learn.subproject-repo
+#1605892237
+cd top.learn.subproject-repo/
+#1605892239
+git log -p
+#1605892243
+ls -al
+#1605892248
+cd subproject/
+#1605892253
+git log -p
+#1605892257
+gs
+#1605891781
+cdlearngit 
+#1605891784
+lh
+#1605891789
+cd top.learn.subproject-repo/
+#1605891791
+gs 
+#1605891801
+cd subproject/
+#1605891806
+gs .
+#1605891814
+cd ..
+#1605891814
+c
+#1605891885
+ls -al
+#1605891901
+c
+#1605891905
+git add .
+#1605892102
+git submodule add ./subproject subproject
+#1605892106
+gs
+#1605892112
+git show
+#1605892125
+git reset --hard
+#1605892127
+c
+#1605892129
+gs
+#1605892137
+git submodule add ./subproject subproject
+#1605892139
+gs
+#1605892184
+git commit -m'add submodule'
+#1605892185
+c
+#1605892189
+gs
+#1605892191
+git log
+#1605892195
+git log -p
+#1605891029
+cl
+#1605891038
+vim learn-abort-if-variable-unset.bash
+#1605891822
+cl
+#1605891847
+ls -l|grep ^d
+#1605894194
+vdiary 
+#1605896180
+cd ~sara
+#1605896184
+cd ~sarabednark/
+#1605896189
+cd Applications/
+#1605896196
+sudo su sarabednark
+#1605910477
+cl
+#1605910767
+ssh root@45.79.68.210
+#1605911130
+watch date; ssh root@45.79.68.210
+#1605911143
+watch (date; ssh root@45.79.68.210)
+#1605911162
+watch date && ssh root@45.79.68.210 
+#1605911176
+ssh root@45.79.68.210 
+#1605910423
+ssh root@45.79.68.210
+#1605910630
+cdqp
+#1605910632
+cd bin
+#1605910634
+gd .
+#1605910672
+vim bootstrap-new-server.sh 
+#1605911270
+grrc man.doc
+#1605911274
+grc man.doc
+#1605911278
+grc apk
+#1605910642
+j djan
+#1605910653
+vim run.sh 
+#1605972844
+vq
+#1605973195
+j djan
+#1605973197
+ls -ltr
+#1605973240
+docker image ps
+#1605973244
+docker image ls
+#1605973518
+docker pull robbednark/my_django_image
+#1605973544
+vim run.sh 
+#1605973759
+docker push --help
+#1605973767
+c
+#1605973770
+docker image ls
+#1605973780
+docker push robbednark/my-image
+#1605973840
+docker tag robbednark/my-image robbednark/my-image:v2
+#1605973845
+docker tag robbednark/my-image:v1 robbednark/my-image:v2
+#1605973850
+docker image ls
+#1605973856
+docker push robbednark/my-image
+#1605973903
+docker tag alpine robbednark/my-image:v3
+#1605973907
+docker push robbednark/my-image
+#1605973924
+docker image ls
+#1605973956
+docker tag my_django_image robbednark/my-image:v4
+#1605973959
+docker image ls
+#1605973972
+docker push robbednark/my-image
+#1605974054
+docker tag robbednark/my-image:v1 robbednark/new-image
+#1605974056
+docker image ls
+#1605974065
+docker push robbednark/new-image
+#1605974304
+docker tag python:alpine robbednark/my-image
+#1605974307
+docker image ls
+#1605974386
+docker tag python:alpine robbednark/new-image
+#1605974393
+docker image ls
+#1605973153
+ssh root@45.79.68.210
+#1605973401
+docker tag --help
+#1605973608
+j djan__
+#1605973610
+c
+#1605973613
+docker image ps
+#1605973616
+docker image ls
+#1605977953
+vq
+#1605991982
+vp
+#1605991137
+vp
+#1605992827
+vp
+#1605993039
+vq
+#1606060608
+python
+#1606074990
+vq
+#1606095701
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606095701
+python manage.py runserver --insecure
+#1606095699
+rqo
+#1606148683
+j lin
+#1606148697
+vim curl-bookable-item-categories.sh
+#1606146867
+cl
+#1606146868
+sm .
+#1606146876
+v ool
+#1606145870
+vq
+#1606154830
+c
+#1606154831
+gs
+#1606156883
+vq
+#1606156894
+vdiary 
+#1606158191
+vq
+#1606156868
+vp
+#1606154909
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606154912
+grrc pshd
+#1606154917
+grc pshd
+#1606154926
+pip freeze
+#1606154943
+cat Pipfile
+#1606155005
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' |& tee /tmp/out |& less
+#1606155262
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' 
+#1606156251
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --help
+#1606158361
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-full='+19712768789' --sms-if-open='+19712768789' 
+#1606158677
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com'
+#1606154908
+pshd
+#1606155080
+v avail
+#1606155086
+j lin
+#1606155089
+ls -ltr
+#1606155093
+v ooka
+#1606154854
+cl
+#1606154860
+lh
+#1606154864
+sm .
+#1606154884
+v ool
+#1606159069
+vresume
+#1606161190
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606161189
+pshd
+#1606161209
+v ool
+#1606163322
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606163329
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com'
+#1606163321
+pshd
+#1606168696
+sm .
+#1606168798
+v ool
+#1606169797
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1606169801
+j lin
+#1606169803
+gs .
+#1606169806
+vim crontab 
+#1606170024
+gd .
+#1606170029
+gs
+#1606170031
+gs .
+#1606170037
+git add crontab
+#1606170047
+type gcm
+#1606170050
+type gco
+#1606170069
+gco -m'updated crontab for is_present'
+#1606170086
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1606167868
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606167870
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com'
+#1606168522
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789'--sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com'
+#1606168646
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com'
+#1606169352
+c
+#1606169365
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' |&less
+#1606169416
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' 
+#1606169974
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py -h
+#1606175268
+j ng
+#1606175271
+gs
+#1606175275
+git log
+#1606175284
+c
+#1606175284
+gs
+#1606175288
+vim README.md 
+#1606175654
+vim run-bring-up-containers.sh 
+#1606175670
+ls -ltr
+#1606175674
+chmod a+x run-bring-up-containers.sh 
+#1606175677
+./run-bring-up-containers.sh 
+#1606175890
+c
+#1606175295
+j ngin
+#1606175302
+sm .
+#1606175425
+vim run.sh 
+#1606175477
+git log
+#1606175525
+git mv run.sh run-curl-and-chrome-urls.sh
+#1606175559
+git mv Makefile run-bring-up-containers.sh
+#1606175562
+gs
+#1606175565
+gd README.md 
+#1606175646
+gs
+#1606175700
+gs .
+#1606175720
+./run-curl-and-chrome-urls.sh 
+#1606174920
+ssh root@45.79.68.210
+#1606175103
+vig
+#1606176402
+cl
+#1606176417
+ls *perl*sh
+#1606176437
+vim learn.perl.substitute.sh 
+#1606179114
+vdiary 
+#1606176748
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606176748
+python manage.py runserver --insecure
+#1606226796
+ssh root@45.79.68.210
+#1606176153
+cdqn
+#1606176174
+cd db_dumps/
+#1606176177
+cd private-quiz-me-db-backups/
+#1606176182
+vim save-to-dropbox-and-git.sh 
+#1606176635
+head update.sh 
+#1606176696
+./update.sh "*16.02.13*"
+#1606176698
+gs
+#1606176701
+gd
+#1606176725
+gs
+#1606176736
+gcam 'update'; gpus
+#1606176747
+rqo
+#1606176126
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606176131
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1606176199
+cd db_dumps/
+#1606176206
+lh
+#1606176484
+ls *16.02.13*
+#1606176598
+cp -p *16.02.13* symlink-db_dumps
+#1606176600
+cd symlink-db_dumps
+#1606176600
+lh
+#1606176623
+ln -sf dump.quizme_production.2020.11.23_Mon_16.02.13.txt latest.dump.txt 
+#1606176624
+lh
+#1606226883
+gs
+#1606226889
+cd -
+#1606226890
+cd private-quiz-me-db-backups/
+#1606226891
+gs
+#1606226892
+gpus
+#1606175997
+j ng
+#1606176012
+vim *inx
+#1606176025
+ls conf.d/
+#1606176028
+cd conf.d/
+#1606176034
+vim default.conf 
+#1606176120
+c
+#1606176123
+cdqn
+#1606176125
+cdq
+#1606226908
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606226908
+python manage.py runserver --insecure
+#1606226906
+rqo
+#1606231613
+j dj__
+#1606231617
+vim run.sh 
+#1606231471
+j djan__
+#1606231473
+gs
+#1606231475
+gd 
+#1606231603
+./run.sh 
+#1606232046
+vq
+#1606248863
+cdp
+#1606247213
+vresume
+#1606248824
+vig
+#1606249093
+cdqp
+#1606249096
+cd bin
+#1606249097
+gs .
+#1606249100
+vim bootstrap-new-server.sh 
+#1606249141
+j djang
+#1606249143
+gs
+#1606249144
+gd
+#1606249194
+gcam 'run.sh runs as desired'
+#1606249196
+gs .
+#1606249214
+cd ..
+#1606249216
+ls -ltr
+#1606249229
+j push
+#1606249232
+gs .
+#1606249235
+vim *
+#1606249258
+cd ..
+#1606249259
+l
+#1606249260
+lh
+#1606249273
+j learn-nginx-ssl
+#1606249289
+vim run-bring-up-containers.sh 
+#1606249394
+cp run-bring-up-containers.sh build-and-push-images.sh
+#1606249395
+vim build-and-push-images.sh
+#1606249409
+dc help
+#1606249423
+j ngin
+#1606249426
+vim *yml
+#1606249442
+dc build my_nginx_server
+#1606249482
+docker tag learn-nginx-ssl_my_nginx_server:latest my-nginx-server
+#1606249515
+docker tag learn-nginx-ssl_my_nginx_server:latest robbednark/my-nginx-server:latest
+#1606249519
+docker push robbednark/my-nginx-server:latest
+#1606250783
+vdiary 
+#1606275630
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606275630
+python manage.py runserver --insecure
+#1606275628
+rqo
+#1606317298
+ssh root@45.79.68.210
+#1606321128
+docker-run-alpine 
+#1606322015
+j ng__
+#1606322024
+docker-rm-all-images
+#1606322029
+docker image ls
+#1606322040
+./build-and-push-images.sh
+#1606322057
+docker-rm-all-images
+#1606322061
+docker image ls
+#1606322079
+docker-compose build my_nginx_server
+#1606322105
+docker image ls
+#1606322228
+docker build ./Dockerfile-nginx 
+#1606322235
+docker build -f Dockerfile-nginx  .
+#1606322267
+docker image ls
+#1606322284
+docker-rm-all-images
+#1606322287
+docker image ls
+#1606322292
+docker build -f Dockerfile-nginx  .
+#1606322303
+docker image ls
+#1606322323
+docker-rm-all-images
+#1606322335
+cp Dockerfile-curl /tmp
+#1606322338
+cd /tmp
+#1606322349
+cd -
+#1606322351
+gs
+#1606322370
+cp Dockerfile-nginx 
+#1606322375
+cp Dockerfile-nginx Dockerfile
+#1606322382
+docker build  .
+#1606322395
+docker image ls
+#1606322413
+cat Dockerfile
+#1606322437
+vim Dockerfile
+#1606322463
+cat Dockerfile
+#1606322471
+docker-rm-all-images && docker image ls
+#1606322627
+docker build  .
+#1606322644
+docker image ls
+#1606322659
+cat Dockerfile
+#1606322678
+vim Dockerfile
+#1606322701
+docker build  . && docker image ls
+#1606318137
+vq
+#1606321502
+j djan
+#1606321503
+c
+#1606321529
+j ng
+#1606321532
+gs
+#1606321539
+gd
+#1606321541
+vim build-and-push-images.sh 
+#1606321661
+git add .
+#1606321670
+gcam 'add build-and-push-images.sh'
+#1606321674
+./build-and-push-images.sh 
+#1606321685
+type gcm
+#1606321688
+type gco
+#1606321940
+cat build-and-push-images.sh 
+#1606321945
+v .
+#1606324232
+vq
+#1606331249
+ssh root@45.79.68.210
+#1606334972
+vq
+#1606335225
+vresume
+#1606335979
+pwd
+#1606335980
+jobs
+#1606335988
+c
+#1606335998
+j ng
+#1606336001
+vim *yml
+#1606336751
+dc build my_nginx
+#1606336775
+docker-wait-until-engine-is-up && dc build my_nginx
+#1606336871
+vim *yml
+#1606336876
+docker-wait-until-engine-is-up && dc build my_nginx_server
+#1606336910
+vim *yml
+#1606336316
+vq
+#1606335315
+vp
+#1606335964
+vig
+#1606336952
+vresume
+#1606339861
+vq
+#1606338558
+vp
