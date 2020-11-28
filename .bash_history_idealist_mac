@@ -53885,3 +53885,415 @@ vresume
 vq
 #1606338558
 vp
+#1606363217
+vvimrc
+#1606363196
+v ool
+#1606363328
+v cron
+#1606363376
+j lin
+#1606363378
+gs .
+#1606363379
+gd 
+#1606363384
+gd .
+#1606363387
+git add .
+#1606363393
+gs
+#1606363399
+c
+#1606363400
+gs
+#1606363405
+reset
+#1606363406
+gs .
+#1606363538
+gcam 'updated crontab to send errors for -if-present'
+#1606363795
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1606363804
+ssh root@45.79.68.210
+#1606363591
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606363596
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' 
+#1606363586
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' 
+#1606363589
+pshd
+#1606362851
+j ng
+#1606362875
+dc image ls
+#1606362879
+dc images 
+#1606362930
+dc tag learn-nginx-ssl_my_nginx_server:latest my-nginx-server:latest
+#1606362937
+docker tag learn-nginx-ssl_my_nginx_server:latest my-nginx-server:latest
+#1606362942
+docker push my-nginx-server:latest
+#1606362964
+docker image ls -al
+#1606362969
+docker image ls -h
+#1606362973
+docker image ls -a
+#1606363033
+docker push my-nginx-server:latest
+#1606363045
+docker tag learn-nginx-ssl_my_nginx_server:latest robbednark/my-nginx-server:latest
+#1606363048
+dc push robbednark/my-nginx-server:latest
+#1606363054
+docker push robbednark/my-nginx-server:latest
+#1606363066
+ssh root@45.79.68.210
+#1606361295
+j djan__
+#1606361301
+gs
+#1606361314
+pwd
+#1606361379
+j ng
+#1606361381
+gs
+#1606361382
+gd
+#1606361393
+dc up
+#1606364174
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1606364763
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606364766
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' 
+#1606364759
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' 
+#1606364762
+pshd
+#1606364749
+v ool
+#1606364928
+date
+#1606373973
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606373973
+python manage.py runserver --insecure
+#1606373972
+rqo
+#1606406408
+ls /dev
+#1606406415
+cat /dev/urandom
+#1606406439
+head /dev/random
+#1606406446
+head /dev/random|strings
+#1606406454
+head /dev/random|hexdump
+#1606406468
+head /dev/random|strings
+#1606406476
+head /dev/random|hexdump
+#1606406494
+head /dev/random|head|hexdump|less
+#1606406514
+man head
+#1606406542
+head /dev/random|head|wc -l
+#1606406583
+head /dev/random|head -1|wc -l
+#1606406587
+head /dev/random|head -1|wc -b
+#1606406596
+man wc
+#1606406602
+head /dev/random|head -1|wc -c
+#1606408868
+j ng
+#1606408870
+vim *yml
+#1606409484
+j ng
+#1606409490
+ls conf.d/
+#1606409494
+vim conf.d/default.conf 
+#1606409462
+j ngi__
+#1606409470
+vim Dockerfile*x
+#1606409359
+j ng
+#1606409360
+vim *l
+#1606409383
+j djang
+#1606409386
+vim Dockerfile 
+#1606409406
+./run.sh 
+#1606408275
+j ng
+#1606408288
+ssh root@45.79.68.210
+#1606408543
+ssh root@45.79.68.210
+#1606404679
+vq
+#1606404350
+vp
+#1606421585
+vq
+#1606422051
+vqtodo 
+#1606422549
+vq
+#1606440564
+vres
+#1606440566
+vresume
+#1606460743
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606460743
+python manage.py runserver --insecure
+#1606461721
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1606460741
+rqo
+#1606487273
+vool
+#1606487275
+v ool
+#1606487241
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606487257
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' 
+#1606487456
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' --debug
+#1606487239
+pshd
+#1606487501
+cl
+#1606487504
+vim *click*py
+#1606491049
+vq
+#1606492571
+j ng
+#1606492588
+vim *l
+#1606492784
+dc build
+#1606492793
+docker-wait-until-engine-is-up && dc build
+#1606492808
+dc image ls
+#1606492813
+dc images ls
+#1606492816
+dc images
+#1606492920
+vim *l
+#1606492998
+docker tag python:alpine robbednark/my-web-server:latest
+#1606493002
+docker push robbednark/my-web-server:latest
+#1606493340
+vim *x
+#1606493475
+dc build my-nginx-server
+#1606493480
+vim *l
+#1606493495
+dc build my_nginx_server
+#1606493506
+vim Dockerfile
+#1606493543
+dc ps
+#1606493556
+dc exec -it learn-nginx-ssl_my_nginx_server_1 ash
+#1606493561
+dc build my_nginx_server
+#1606493582
+vim *x
+#1606493615
+dc build my_nginx_server
+#1606493643
+vim *x
+#1606493664
+dc build my_nginx_server
+#1606493688
+dc build -f my_nginx_server
+#1606493721
+dc build --force-rm  my_nginx_server
+#1606493762
+dc images
+#1606493775
+dc images rm my-nginx-server
+#1606493780
+dc rm my-nginx-server
+#1606493815
+vim *x
+#1606493842
+dc build  my_nginx_server
+#1606493862
+vim *x
+#1606493874
+dc build  my_nginx_server
+#1606493922
+ls conf.d/
+#1606493932
+vim *x
+#1606494014
+dc build  my_nginx_server
+#1606494025
+docker tag python:alpine robbednark/my-web-server:latest
+#1606494028
+docker push robbednark/my-web-server:latest
+#1606493019
+ssh root@45.79.68.210
+#1606497022
+v ool
+#1606497183
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1606497187
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1606497199
+ssh root@45.79.68.210
+#1606502025
+vq
+#1606498176
+v cron
+#1606498251
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1606498299
+v cron
+#1606498314
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1606499668
+v cron
+#1606499979
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@45.79.68.210:/root && ssh root@45.79.68.210 'crontab /root/crontab' && ssh root@45.79.68.210 'crontab -l'
+#1606499989
+v cr
+#1606504598
+vq
+#1606501921
+vq
+#1606497019
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606497025
+/if-p
+#1606497029
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' --debug
+#1606497144
+v cron
+#1606499995
+pwd
+#1606497018
+pshd
+#1606505272
+vim
+#1606506173
+vresume
+#1606507322
+cdqp
+#1606507326
+cd bin
+#1606507347
+vim pull-and-deploy-docker-images.sh 
+#1606507352
+chmod a+x pull-and-deploy-docker-images.sh
+#1606507382
+vim ssh-pull-and-deploy-docker-images.sh
+#1606507720
+vim docker-stop-all.sh
+#1606506677
+j jang
+#1606506680
+j ngin
+#1606506695
+dc up my_nginx_server
+#1606506707
+docker-wait-until-engine-is-up; dc up my_nginx_server
+#1606507622
+docker images
+#1606507624
+docker images -a
+#1606507778
+docker stop
+#1606507783
+docker-stop-all-containers 
+#1606507787
+type docker-stop-all-containers 
+#1606506741
+dc exec -it learn-nginx-ssl_my_nginx_server_1 ash
+#1606506745
+j ng
+#1606506746
+dc exec -it learn-nginx-ssl_my_nginx_server_1 ash
+#1606506755
+dc ps
+#1606506777
+dc exec -it learn-nginx-ssl_my_nginx_server_1 ash
+#1606506813
+dc exec learn-nginx-ssl_my_nginx_server_1 ash
+#1606506819
+dc ps
+#1606506835
+dc exec my_nginx_server ash
+#1606506870
+vim build-and-push-images.sh 
+#1606507181
+docker help
+#1606507208
+docker run --help|less
+#1606507237
+docker images ls
+#1606507240
+docker images ls -a
+#1606507405
+cdqp
+#1606507408
+cd bin
+#1606507409
+vim bootstrap-new-server.sh 
+#1606507587
+cdqp
+#1606507590
+cd bin
+#1606507591
+vim settings.sh 
+#1606506986
+j ng
+#1606506987
+dc ps
+#1606506989
+dc images
+#1606507047
+cdqp
+#1606507051
+cd bin
+#1606507062
+cat builddj
+#1606507065
+cat build-django-image.sh 
+#1606507099
+vim pull-and-deploy-docker-images.sh
+#1606508501
+vdiary 
+#1606508033
+vq
+#1606507276
+ssh root@45.79.68.210
+#1606509414
+vp
+#1606513643
+vq
