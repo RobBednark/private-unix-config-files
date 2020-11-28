@@ -54299,3 +54299,337 @@ vp
 vq
 #1606523947
 docker images -a
+#1606524605
+cl
+#1606524608
+ls *shellcheck*
+#1606524614
+vim learn-shellcheck.sh
+#1606523006
+docker-rm-all-images-and-containers 
+#1606523011
+type docker-rm-all-images-and-containers 
+#1606523655
+type docker-stop-and-rm-all-containers 
+#1606523665
+type docker-stop-all-containers
+#1606523702
+vvimrc 
+#1606523711
+vrc
+#1606524341
+cdqn
+#1606524343
+cdqp
+#1606524344
+cd bin
+#1606524351
+./ssh-pull-and-deploy-docker-images.sh |&less
+#1606524854
+./bootstrap-new-server.sh |&less
+#1606524877
+./ssh-pull-and-deploy-docker-images.sh |&less
+#1606525018
+./bootstrap-new-server.sh |&less
+#1606525032
+./ssh-pull-and-deploy-docker-images.sh |&less
+#1606525252
+(./bootstrap-new-server.sh; ./ssh-pull-and-deploy-docker-images.sh) |&less
+#1606522951
+cdqp
+#1606522953
+cd bin
+#1606522955
+ls -ltr
+#1606522965
+vim docker-stop-all.sh ssh-pull-and-deploy-docker-images.sh pull-and-deploy-docker-images.sh 
+#1606526234
+vp
+#1606525977
+j ng
+#1606525984
+dc images
+#1606525989
+docker ps -a
+#1606525991
+docker ps
+#1606526023
+docker network ls
+#1606526033
+docker network create my-nework
+#1606526038
+docker network create my-netork
+#1606526043
+docker network create my-network
+#1606526052
+docker network rm my-netork
+#1606526061
+docker network rm my-nework
+#1606526065
+docker network ls
+#1606526077
+docker ps
+#1606526095
+docker container start learn-nginx-ssl_my_web_server_1_1
+#1606526099
+docker ps
+#1606526119
+docker network attach my-network learn-nginx-ssl_my_web_server_1_1
+#1606526127
+docker network connect my-network learn-nginx-ssl_my_web_server_1_1
+#1606526132
+docker network ls 
+#1606526136
+docker network ls  --help
+#1606526145
+docker ps -a
+#1606526204
+docker inspect c1 -f "{{json .NetworkSettings.Networks }}"
+#1606526225
+docker inspect learn-nginx-ssl_my_web_server_1_1 -f "{{json .NetworkSettings.Networks }}"
+#1606525658
+(./bootstrap-new-server.sh; ./ssh-pull-and-deploy-docker-images.sh) |&less
+#1606525662
+cdqp
+#1606525663
+cd bin
+#1606525665
+(./bootstrap-new-server.sh; ./ssh-pull-and-deploy-docker-images.sh) |&less
+#1606523677
+cdqp
+#1606523678
+cd bin
+#1606523679
+vim settings.sh 
+#1606524115
+./ssh-pull-and-deploy-docker-images.sh |&less
+#1606524140
+./bootstrap-new-server.sh |&less
+#1606524199
+vim bootstrap-new-server.sh 
+#1606525437
+gs .
+#1606525448
+c
+#1606525450
+gs .
+#1606525456
+git add .
+#1606525483
+gcam 'bootstrap working; pull-and-deploy partially working'
+#1606525547
+vim pull-and-deploy-docker-images.sh 
+#1606525747
+v pu
+#1606523035
+ssh root@45.79.68.210
+#1606527470
+cdqn
+#1606527487
+(./bootstrap-new-server.sh; ./ssh-pull-and-deploy-docker-images.sh) |&less
+#1606527491
+cd bin
+#1606527492
+(./bootstrap-new-server.sh; ./ssh-pull-and-deploy-docker-images.sh) |&less
+#1606527496
+cdqp
+#1606527497
+cd bin
+#1606527499
+(./bootstrap-new-server.sh; ./ssh-pull-and-deploy-docker-images.sh) |&less
+#1606527771
+gs .
+#1606527790
+gcam 'still not working'
+#1606527622
+grrc netca
+#1606527625
+grc netcat
+#1606527629
+grc network
+#1606527635
+grc listen
+#1606527369
+docker run --help|less
+#1606527377
+cdqp
+#1606527378
+cd bin
+#1606527382
+vim pull-and-deploy-docker-images.sh 
+#1606534122
+vp
+#1606535232
+(cdqp; cd bin; ./bootstrap-new-server.sh; ./ssh-pull-and-deploy-docker-images.sh) |&less
+#1606535293
+grc nework
+#1606535295
+grc network
+#1606547215
+v ool
+#1606547911
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@45.79.68.210:/root
+#1606547966
+ssh root@45.79.68.210 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-if-error='+19712768789' --sms-if-present='+19712768789' --debug)'
+#1606547934
+v cron
+#1606547234
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606547238
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-if-error='+19712768789' --sms-if-present='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' --debug
+#1606547233
+pshd
+#1606580894
+docker-run-alpine 
+#1606580926
+type docker-run-alpine 
+#1606580942
+docker run -it --name my-hostname --rm alpine sh
+#1606580974
+docker run --help|less
+#1606580990
+docker run -it --hostname my-hostname --rm alpine sh
+#1606582275
+docker images
+#1606582703
+j ng
+#1606582709
+vim D* *yml
+#1606582792
+dc up
+#1606582336
+docker exec -it python-app-server ash
+#1606582347
+docker exec -it my-python-container ash
+#1606582166
+j ng
+#1606582188
+vim conf.d/default.conf 
+#1606582288
+docker run --name my-nginx-container --network my-network --hostname my_nginx_server nginx-image
+#1606582392
+docker run --name my-nginx-container --network my-network --hostname my_nginx_server nginx-image ash
+#1606582407
+docker container rm my-nginx-container
+#1606582409
+docker run --name my-nginx-container --network my-network --hostname my_nginx_server nginx-image ash
+#1606582414
+docker run -it --name my-nginx-container --network my-network --hostname my_nginx_server nginx-image ash
+#1606582419
+docker container rm my-nginx-container
+#1606582421
+docker run -it --name my-nginx-container --network my-network --hostname my_nginx_server nginx-image ash
+#1606580459
+j ng
+#1606580466
+docker image ls
+#1606580613
+docker network ls
+#1606580668
+vim conf.d/default.conf 
+#1606581018
+docker run --hostname my-web-server-host --network my-network
+#1606581031
+docker run --hostname my-web-server-host --network my-network robbednark/my-web-server
+#1606581040
+dc ps
+#1606581055
+docker ps
+#1606581066
+docker network ls
+#1606581078
+docker ps -a
+#1606581258
+docker run --name my-web-server --hostname my-web-server-host --network my-network robbednark/my-web-server
+#1606581359
+docker tag robbednark/my-web-server app-server
+#1606581376
+docker run --name my-app-server --hostname my-app-server-host --network my-network app-server
+#1606581388
+docker ps my-app-server
+#1606581400
+docker ps -a|grep my.app.server
+#1606581465
+docker run --name my-app-server-container --hostname my-app-server-host --network my-network app-server
+#1606581530
+docker run app-server
+#1606581540
+docker ps -a
+#1606581553
+vim *ver
+#1606581578
+docker logs
+#1606581607
+docker run --name my-app-server-container --hostname my-app-server-host --network my-network app-server
+#1606581624
+docker logs my-app-server-container
+#1606581652
+docker run --name my-app-server-container --hostname my-app-server-host --network my-network app-server ash
+#1606581662
+docker run --name my-app-server-container-2 --hostname my-app-server-host --network my-network app-server ash
+#1606581678
+docker run --help|less
+#1606581696
+docker logs my-app-server-container-2
+#1606581715
+docker run app-server ash
+#1606581729
+docker run -it app-server ash
+#1606581747
+cat Dockerfile-web-server 
+#1606581753
+docker run -it app-server ash
+#1606581791
+docker-rm-all-images-and-containers 
+#1606581855
+docker build --help|less
+#1606581923
+docker build --tag python-app-server .
+#1606581931
+docker images
+#1606581958
+docker run --name my-container python-app-server
+#1606581963
+docker ps -a
+#1606581968
+docker logs my-container
+#1606581992
+cat Dockerfile
+#1606582010
+docker-rm-all-images-and-containers 
+#1606582035
+docker build --tag python-app-server --file Dockerfile-web-server .
+#1606582057
+docker run --name my-container python-app-server
+#1606582095
+docker build --tag nginx-image --file Dockerfile-nginx .
+#1606582109
+docker-rm-all-containers 
+#1606582116
+docker images
+#1606582155
+docker run --name my-python-container --network my-network --hostname my-python-hostname python-app-server
+#1606582202
+docker-rm-all-containers 
+#1606582212
+docker run --name my-python-container --network my-network --hostname my_web_server_1 python-app-server
+#1606578737
+ls -ld *repo*
+#1606578740
+ls -l *repo*
+#1606578747
+cd /tmp
+#1606578795
+git clone git@github.com:torvalds/linux.git
+#1606578813
+git clone --help|less
+#1606578821
+git clone --depth=1 git@github.com:torvalds/linux.git
+#1606578937
+cd linux/
+#1606578942
+subl .
+#1606577446
+vq
+#1606588335
+j ng
