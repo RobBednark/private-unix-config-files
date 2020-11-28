@@ -54633,3 +54633,47 @@ subl .
 vq
 #1606588335
 j ng
+#1606588528
+docker run -it --name my-nginx-container --network my-network --hostname my_nginx_server nginx-image ash
+#1606588575
+docker run --help|less
+#1606588653
+docker run -d --name my-nginx-container --network my-network --hostname my_nginx_server nginx-image
+#1606588657
+docker logs 
+#1606588668
+docker ps -a
+#1606588684
+docker logs my-nginx-container
+#1606588699
+docker exec my-python-container ash
+#1606588703
+docker exec -it my-python-container ash
+#1606588350
+docker images
+#1606588352
+docker ps -a
+#1606588357
+docker-rm-all-containers 
+#1606588362
+docker ps -a
+#1606588370
+docker networks ls
+#1606588372
+docker network ls
+#1606588377
+grc docker.network
+#1606588403
+docker network prune
+#1606588412
+docker network ls
+#1606588484
+docker network create my-network
+#1606588503
+docker run --name my-python-container --network my-network --hostname my_web_server_1 python-app-server
+#1606588625
+docker-rm-all-containers 
+#1606588633
+docker run -d --name my-python-container --network my-network --hostname my_web_server_1 python-app-server
+#1606588638
+docker ps -a
