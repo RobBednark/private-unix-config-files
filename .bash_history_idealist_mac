@@ -54761,3 +54761,7 @@ j ping
 ./run.sh 
 #1606631692
 docker-wait-until-engine-is-up && ./run.sh 
+#1606632163
+docker-rm-all-containers 
+#1606632168
+docker-stop-and-rm-all-containers 
