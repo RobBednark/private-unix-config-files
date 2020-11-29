@@ -54677,3 +54677,87 @@ docker-rm-all-containers
 docker run -d --name my-python-container --network my-network --hostname my_web_server_1 python-app-server
 #1606588638
 docker ps -a
+#1606588439
+vrc
+#1606620963
+docker stop --help|less
+#1606620965
+type l
+#1606620973
+l docker stop --help
+#1606620981
+docker stop --help
+#1606624081
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606624081
+python manage.py runserver --insecure
+#1606619976
+j ping
+#1606619986
+chmod a+x run.sh 
+#1606619988
+./run.sh 
+#1606620004
+docker run --help|less
+#1606620029
+./run.sh 
+#1606620033
+docker logs
+#1606620044
+docker logs container_1
+#1606620046
+docker logs container_2
+#1606620091
+./run.sh 
+#1606620131
+docker 
+#1606620144
+./run.sh 
+#1606620153
+docker logs container_1
+#1606620183
+./run.sh 
+#1606620232
+docker logs -h
+#1606620273
+./run.sh 
+#1606620306
+jobs
+#1606620338
+./run.sh 
+#1606620387
+kk
+#1606620390
+./run.sh 
+#1606620824
+docker run --help|less
+#1606620853
+vim run.sh 
+#1606620889
+./run.sh 
+#1606620902
+vim run.sh 
+#1606620935
+./run.sh 
+#1606621971
+docker network
+#1606621980
+docker network rm -h
+#1606622105
+./run.sh 
+#1606623619
+docker image
+#1606623624
+docker images
+#1606624079
+rqo
+#1606631618
+ssh root@45.79.68.210
+#1606631664
+j ping
+#1606631669
+./run
+#1606631675
+./run.sh 
+#1606631692
+docker-wait-until-engine-is-up && ./run.sh 
