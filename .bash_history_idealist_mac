@@ -54765,3 +54765,801 @@ docker-wait-until-engine-is-up && ./run.sh
 docker-rm-all-containers 
 #1606632168
 docker-stop-and-rm-all-containers 
+#1606631714
+docker ps -a
+#1606631784
+docker run -d --name c1 --network my-network alpine ash -c '(set -x; sleep 3; ping -c 1 c2; sleep 9999)'
+#1606631792
+docker run -d --name c2 --network my-network alpine ash -c '(set -x; sleep 3; ping -c 1 c1; sleep 9999)'
+#1606631800
+docker logs c1
+#1606631804
+docker logs c2
+#1606631835
+docker exec -it c1 ping -c 1 c2
+#1606631845
+docker exec -it c2 ping -c 1 c1
+#1606631889
+docker logs container_2
+#1606631898
+dc ps
+#1606631901
+docker ps
+#1606632049
+docker-rm-all-containers 
+#1606632062
+docker-stop-and-rm-all-containers 
+#1606632081
+vrc
+#1606601745
+docker run --help|less
+#1606601822
+docker run -d --network my-network alpine
+#1606601850
+dc ps -a
+#1606601855
+dc ps
+#1606601857
+docker ps
+#1606601860
+docker ps -a
+#1606601887
+docker-rm-all-containers 
+#1606602004
+docker run -d --network my-network alpine 'sleep 9999'
+#1606602030
+dc ps -a
+#1606602035
+docker ps -a
+#1606602162
+docker run -d --network my-network --name myhost2 alpine 'sleep 9999'
+#1606602170
+docker ps -a
+#1606602187
+docker exec myhost2 ash
+#1606602197
+docker exec -it myhost2 ash
+#1606602201
+docker exec -h
+#1606619479
+cddockerlearn 
+#1606619501
+mkdir learn-docker-network-hosts-ping-connect
+#1606619503
+cd learn-docker-network-hosts-ping-connect
+#1606619513
+cp ../learn-nginx-ssl/docker-compose.yml .
+#1606619514
+vi docker-compose.yml 
+#1606619567
+dc up
+#1606619576
+vim docker-compose.yml 
+#1606619594
+dc up
+#1606619603
+vim docker-compose.yml 
+#1606619614
+dc up
+#1606619626
+man ping
+#1606619763
+dc ps
+#1606619777
+vim docker-compose.yml 
+#1606619792
+dc down
+#1606619793
+dc up
+#1606619804
+vim docker-compose.yml 
+#1606619813
+dc restart
+#1606619818
+dc logs
+#1606619823
+dc up
+#1606619843
+vim docker-compose.yml 
+#1606619857
+dc up
+#1606619890
+vim run.sh
+#1606632015
+./run.sh 
+#1606632073
+jobs
+#1606666116
+mounts
+#1606666117
+mount
+#1606666137
+ssh root@45.79.68.210
+#1606666154
+mount
+#1606666157
+ssh root@45.79.68.210
+#1606666346
+cd .ssh
+#1606666351
+ls -altr
+#1606666538
+ssh root@45.79.68.210
+#1606666619
+cat *pub
+#1606666634
+ls -al
+#1606666648
+cl
+#1606666654
+git push
+#1606667091
+ssh root@45.79.68.210
+#1606668160
+date
+#1606668161
+date -u
+#1606668763
+ssh 45.79.68.210
+#1606665349
+ulimit
+#1606665352
+man ulimit
+#1606665357
+ulimit -h
+#1606665362
+man ulimit
+#1606665613
+tp
+#1606665614
+top
+#1606665807
+man top
+#1606665822
+ps -p 5
+#1606665825
+top
+#1606665835
+ps -p 523 -o
+#1606665844
+ps -p 523 -O 'mem'
+#1606665854
+ps -p 523 -O '%mem'
+#1606665859
+ps -p 523 -O '%mem %RSS'
+#1606665868
+ps -p 523 -O '%mem rss'
+#1606665905
+man ps
+#1606665931
+ps -p 523 -O '%mem rss vsz'
+#1606665944
+man ps
+#1606665948
+gps
+#1606665955
+ls /usr/local/bin/*ps*
+#1606665974
+top
+#1606665979
+man top
+#1606666020
+top
+#1606666037
+free
+#1606666043
+man -k free
+#1606664316
+vq
+#1606670793
+type vq
+#1606670802
+cdquiz
+#1606670809
+cdadd 
+#1606670812
+ls -altr
+#1606670813
+gs
+#1606670814
+gpus
+#1606670823
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1606674259
+vq
+#1606674760
+vig
+#1606674790
+vresume
+#1606676250
+ls -altr .profile
+#1606676252
+cat .profile
+#1606676261
+ls -al .bashrc
+#1606679439
+ssh root@23.239.1.204
+#1606677691
+vim
+#1606678848
+ssh root@45.79.114.240
+#1606678879
+vim
+#1606679180
+ssh root@45.33.52.185
+#1606679404
+vim
+#1606676072
+pstree|less
+#1606676090
+kill -9 13483
+#1606676152
+ssh root@45.79.114.240
+#1606677331
+ssh $ telnet .bashrc
+#1606677331
+telnet 45.79.114.240
+#1606677331
+Trying 45.79.114.240...
+#1606677331
+telnet: connect to address 45.79.114.240: Connection refused
+#1606677753
+vim
+#1606676763
+history|tail
+#1606676770
+history > /tmp/history
+#1606676771
+vim /tmp/history
+#1606676898
+ssh root@45.79.114.240
+#1606676971
+ssh 45.79.114.240
+#1606677058
+telnet 45.79.114.240
+#1606680903
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606680960
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1606681026
+ssh root@45.79.68.210 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-if-error='+19712768789' --sms-if-present='+19712768789' --debug)'
+#1606681036
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-if-error='+19712768789' --sms-if-present='+19712768789' --debug)'
+#1606679527
+ssh root@45.33.52.185
+#1606679533
+ssh 23.239.1.204
+#1606679537
+ssh root@23.239.1.204
+#1606680228
+ssh rbednark@23.239.1.204
+#1606680259
+ssh root@23.239.1.204
+#1606680444
+telnet 23.239.1.204
+#1606680486
+pip3 install pipenv
+#1606680518
+pipenv install beautifulsoup4 click requests
+#1606680552
+ssh root@23.239.1.204
+#1606675975
+vq
+#1606681106
+vresume
+#1606681118
+vq
+#1606680505
+v ool
+#1606683413
+date
+#1606683414
+date -u
+#1606683368
+ssh root@23.239.1.204
+#1606683639
+pwd
+#1606683643
+vq
+#1606683365
+vq
+#1606713990
+v ool
+#1606714278
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606714336
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-always='+19712768789' --email-always="rbednark@gmail.com"--debug)'
+#1606714356
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-always='+19712768789' --email-always="rbednark@gmail.com" --debug)'
+#1606718010
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-always-looking='+19712768789' --email-always="rbednark@gmail.com" --debug)'
+#1606718187
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-always-looking='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' --debug
+#1606718216
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606714276
+pshd
+#1606746314
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606746316
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-always-looking='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' --debug
+#1606746325
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606746336
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-always-looking='+19712768789' --email-always="rbednark@gmail.com" --debug)'
+#1606746310
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-always-looking='+19712768789' --email-if-present='rbednark@gmail.com' --email-if-error='rbednark@gmail.com' --debug
+#1606746313
+pshd
+#1606745772
+v ool
+#1606745482
+vq
+#1606748841
+vdiary 
+#1606750079
+history|less
+#1606752558
+vi /tmp/linode.key
+#1606752638
+cd .ssh/
+#1606752639
+ls -altr
+#1606752664
+cl
+#1606752665
+git push
+#1606752674
+cd -
+#1606752677
+man ssh
+#1606755214
+c
+#1606755222
+ssh root@45.79.68.210
+#1606755251
+ssh -i ~/.ssh/rob-key-2020-09-08 root@45.79.68.210
+#1606755329
+ssh root@45.79.68.210
+#1606755332
+cd
+#1606755334
+ssh root@45.79.68.210
+#1606755363
+man ssh-agent
+#1606755383
+ps -ealf|grep ssh
+#1606755392
+kill 10662
+#1606755398
+ssh root@45.79.68.210
+#1606755403
+ps -ealf|grep ssh
+#1606755413
+ps -ealf|less
+#1606755666
+history > /tmp/history
+#1606755668
+vim /tmp/history
+#1606757782
+vq
+#1606751536
+ssh root@45.79.68.210
+#1606751563
+ping 45.79.68.210
+#1606752861
+ssh root@23.239.1.204
+#1606749981
+vq
+#1606760425
+ping 45.79.68.210
+#1606760432
+ssh root@45.79.68.210
+#1606762503
+cl
+#1606762674
+git mv learn_get_all_arbitrary_specified_variable_names_containing_prefix_suffix_and_values.py learn_get_all_arbitrary_specified_variable_names_containing_prefix_suffix_and_values_locals_vars_startswith.py 
+#1606760334
+v cron
+#1606759686
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606759705
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-always-looking='+19712768789'  --debug
+#1606759722
+cl
+#1606759724
+sum get_http_mt_park_rec_center_pool_availability.py
+#1606759904
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606759934
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-always-looking='+19712768789'  --debug
+#1606762359
+ls *variable*py
+#1606762365
+ls -l *variable*py
+#1606762476
+vim learn_assign_locals_all_local_variables_as_tuple_to_string_format_method.py learn_get_all_arbitrary_specified_variable_names_containing_prefix_suffix_and_values.py 
+#1606762719
+lh
+#1606762723
+v arti
+#1606762726
+v arbi
+#1606762736
+vim learn_get_all_arbitrary_specified_variable_names_containing_prefix_suffix_and_values_locals_vars_startswith.py
+#1606763198
+python3
+#1606763663
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob  --debug
+#1606767211
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-looking-always=rob --sms-looking-always=rob  --debug
+#1606767474
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-available-always=rob --sms-available-always=rob  --debug
+#1606767846
+gs .
+#1606767885
+v cron
+#1606768705
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606768713
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1606768763
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)'
+#1606768959
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606768961
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)'
+#1606759281
+python3
+#1606759344
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606759685
+pshd
+#1606757995
+cl
+#1606757998
+sum get_http_mt_park_rec_center_pool_availability.py
+#1606758002
+v ool
+#1606766661
+cl
+#1606766664
+vim *click*py
+#1606766697
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606766700
+cl
+#1606766706
+python3 learn_click_package_commandline_option_argument_parsing.py 
+#1606766723
+python3 learn_click_package_commandline_option_argument_parsing.py --my-required-string=rob
+#1606766728
+python3 learn_click_package_commandline_option_argument_parsing.py --my-required-string=rob arg1
+#1606766751
+python3 learn_click_package_commandline_option_argument_parsing.py --my-required-string=rob --my-multiple-args=sara
+#1606766766
+python3 learn_click_package_commandline_option_argument_parsing.py --my-required-string=rob --my_multiple_args=sara
+#1606766853
+python3 learn_click_package_commandline_option_argument_parsing.py --my-required-string=rob -h
+#1606766869
+python3 learn_click_package_commandline_option_argument_parsing.py --my-required-string=rob foo bar
+#1606767008
+python3 learn_click_package_commandline_option_argument_parsing.py --my-required-string=rob --color=blue foo bar
+#1606766695
+cl
+#1606766696
+pshd
+#1606770303
+v cron
+#1606770372
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1606770513
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)'
+#1606770689
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)' |&less
+#1606770737
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606770739
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)' |&less
+#1606770131
+v oo
+#1606770188
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1606770206
+ssh root@23.239.1.204
+#1606773086
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606773111
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-looking-always=rob --sms-looking=always=rob --email-available-always=rob --sms-available-always=rob  --debug
+#1606773148
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-looking-always=rob --sms-looking-always=rob --email-available-always=rob --sms-available-always=rob  --debug
+#1606773084
+pshd
+#1606770582
+v oo
+#1606772198
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606772207
+/looking
+#1606772216
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)' |&less
+#1606772974
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606772984
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)' |&less
+#1606773218
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606773223
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)' |&less
+#1606772197
+pshd
+#1606773318
+vresume
+#1606774567
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606774569
+cdquiz
+#1606774572
+git remote -v
+#1606774575
+gs
+#1606774578
+gpus
+#1606774585
+git log
+#1606774467
+vjobsearch
+#1606774561
+cdprivate-rbednark-general 
+#1606774565
+cdq
+#1606775121
+vresume
+#1606775650
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606775650
+python manage.py runserver --insecure
+#1606775649
+rqo
+#1606776304
+vq
+#1606804022
+v oo
+#1606805168
+ssh root@45.79.68.210
+#1606805184
+vq
+#1606805162
+v cron
+#1606805518
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1606804579
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606804605
+ssh root@23.239.1.204 '(set -x; cd /root;  ./get_http_mt_park_rec_center_pool_availability.py  --sms-looking-always=rob --sms-available-always=rob --email-available-always=rob --email-looking-always=rob --debug)' |&less
+#1606804577
+pshd
+#1606833021
+v cron
+#1606833077
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1606833092
+ssh root@23.239.1.204
+#1606833140
+v http
+#1606838480
+dtruss
+#1606838603
+pstree|less
+#1606835499
+v ool
+#1606839014
+ssh root@23.239.1.204
+#1606836393
+cl
+#1606836402
+ls -ltr *stackov*
+#1606836407
+ls -dltr *stackov*
+#1606836428
+cp stackoverflow_ask_template.txt learn_stackoverflow_ask_alpine_syslog_messages_logging_logrotate_size.txt
+#1606836430
+vim learn_stackoverflow_ask_alpine_syslog_messages_logging_logrotate_size.txt
+#1606836462
+cl
+#1606836464
+vim stackoverflow_ask_template.txt 
+#1606839187
+ssh root@23.239.1.204
+#1606839791
+ssh rbednark_test@23.239.1.204
+#1606839817
+cd .ssh
+#1606839819
+ls -altr
+#1606839822
+gs
+#1606839831
+gcam 'known_hosts updated'
+#1606839832
+gs
+#1606839836
+rm rob*
+#1606839844
+ssh rbednark_test@23.239.1.204
+#1606839855
+ssh root@23.239.1.204
+#1606839871
+ps -ealf|grep ssh.agent
+#1606839879
+ps -ealf|grep agent
+#1606839901
+pstree|less
+#1606839916
+ps guaxww|grep agent
+#1606839921
+ps guaxww|grep ssh.agent
+#1606839969
+grrc pgrep
+#1606839973
+grc pgrep
+#1606839982
+pgrep -fl ssh-agent
+#1606839997
+pgrep ssh-agent
+#1606840007
+pgrep agent
+#1606840010
+pgrep ssh-agent
+#1606840013
+pkill ssh-agent
+#1606840015
+pgrep ssh-agent
+#1606840106
+ssh root@23.239.1.204
+#1606840129
+ssh bednark@23.239.1.204
+#1606840138
+ssh root@23.239.1.204
+#1606840170
+ssh bednark@23.239.1.204
+#1606841170
+ifconfig|less
+#1606841285
+netstat -r
+#1606836187
+vq
+#1606842235
+v cron
+#1606849569
+v oo
+#1606850058
+curl http://google.com
+#1606850092
+curl --include http://google.com
+#1606850179
+man curl
+#1606849224
+vp
+#1606848897
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606848898
+python manage.py runserver --insecure
+#1606848896
+rqo
+#1606851922
+ping.monitor 
+#1606851990
+jobs
+#1606851992
+kill %1
+#1606848409
+vq
+#1606854136
+vp
+#1606855003
+vresume
+#1606852397
+vp
+#1606852903
+pgrep ssh-agent
+#1606852914
+/ssh-agent
+#1606852923
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1606852929
+cd .ssh
+#1606852930
+gs
+#1606852932
+git checkout .
+#1606852935
+vresume
+#1606852940
+jobs
+#1606852943
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1606852948
+ls -altr
+#1606852954
+chmod go-r rob*
+#1606852960
+vresume
+#1606852972
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1606853037
+vresume
+#1606855021
+vq
+#1606855129
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606855129
+python manage.py runserver --insecure
+#1606855122
+vig
+#1606855127
+rqo
+#1606855942
+vq
+#1606871740
+cl
+#1606871747
+ls *log*py
+#1606871754
+vim *logging*py
+#1606871713
+v cron
+#1606872304
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606872308
+v logur
+#1606871819
+cl
+#1606871831
+vim learn_loguru_logging_package.py
+#1606872303
+pshd
+#1606871969
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606871973
+pipenv install loguru
+#1606872079
+cl
+#1606872081
+lh
+#1606872088
+chmod a+x learn_loguru_logging_package.py 
+#1606872091
+./learn_loguru_logging_package.py
+#1606871967
+pshd
+#1606881380
+v cron
+#1606881765
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1606872123
+ssh bednark@23.239.1.204
+#1606872127
+pip install loguru
+#1606872138
+gpus
+#1606872145
+ssh root@23.239.1.204
+#1606872178
+v oo
+#1606872266
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606872277
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-looking-always=rob --sms-looking-always=rob --email-available-always=rob --sms-available-always=rob  --debug
+#1606872356
+pip freeze
+#1606872408
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-looking-always=rob --sms-looking-always=rob --email-available-always=rob --sms-available-always=rob  --debug
+#1606872265
+pshd
+#1606881837
+vresume
+#1606889334
+v cron
+#1606889407
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
