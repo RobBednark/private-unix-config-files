@@ -55563,3 +55563,41 @@ vresume
 v cron
 #1606889407
 scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1606922194
+v ool
+#1606922249
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606922233
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606922237
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-looking-always=rob --sms-looking-always=rob --email-available-always=rob --sms-available-always=rob  --debug
+#1606922232
+pshd
+#1606921908
+vrc
+#1606922069
+sl
+#1606923039
+vq
+#1606922877
+ssh root@23.239.1.204
+#1606921930
+type sl
+#1606921930
+sl
+#1606925073
+docker start --help|less
+#1606925081
+docker 
+#1606925096
+docker run --help|less
+#1606924847
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606924855
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-looking-always=rob --sms-looking-always=rob --email-available-always=rob --sms-available-always=rob  --debug
+#1606925724
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606924845
+pshd
+#1606924959
+v ool
