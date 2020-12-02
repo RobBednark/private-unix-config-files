@@ -42,8 +42,6 @@ fi
 # NOTE: uppercase "U", not lowercase!  :-)
 # export GIT_DIFF_OPTS=-U0  # equivalent to --unified=0
 
-# I think I only used DISPLAY years ago in an Ubuntu windows environment
-export DISPLAY=":0.0"
 export EDITOR="/usr/bin/vim"
 # less -R ==> Like  -r,  but only ANSI "color" escape sequences are output in "raw" form.  Unlike -r, the screen appearance is maintained correctly in most cases.
 # less --LINE_NUMBERS ==> enable line numbers
@@ -233,7 +231,6 @@ alias cdsurvey="cd $DirDropbox/mike.ames.survey/"
 alias cdsync="cd $DirSync"
 alias cdtxt="cd $DirTxt"
 alias cdunixconfigfiles="cd $DirUnixConfigFiles"
-alias cdvagrant="cd ~/Desktop/vagranttest"
 alias cl=cdlearn
 
 ################################################################################
@@ -468,7 +465,6 @@ fi
 
 alias pgoog="ping google.com"
 alias pman='python manage.py'
-alias pok="title poughkeepsie sanfs00; telnet 9.12.20.42; ssh rbednark@9.12.20.42"
 alias psh="pipenv shell"
 alias pshd="cd ~/pipenvs/requests && pipenv shell"  # "Pipenv SHell D??
 DirPyWin2="c:/Python27"
@@ -529,13 +525,11 @@ alias run="python manage.py runserver"
 alias runprod="DB_QUIZME=quizme_production run"
 
 
-alias scp.nginx.logs="scp -Cpr -i $PemTixie515 ubuntu@$MachineProdWeb:/var/log/nginx ."
 alias screensaver="gnome-screensaver-command --activate"
 alias script_date="script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`"
 alias script_date2='script ~rbednark/logs/typescript.`date +%Y.%m.%d.%H.%M.%S.%a`'
+alias sl='ssh root@23.239.1.204'
 alias sm=subl.merge
-alias ssh="ssh -A"
-alias ssh.rob-aws="ssh -i $PemRobKey ubuntu@$MachineRobAWS"
 # ssh-agent  ==> start the ssh-agent daemon
 # ssh-add -K ~/.ssh/my-private-key  ==> add the private key to ssh-agent, and also store the passphrase
 # ssh-add -L  ==> list the private keys currently held by ssh-agent
@@ -562,9 +556,6 @@ if $MacOSX; then
 fi
 
 alias vaddrs="title vi email addresses; vici $FileEmailAddrs"
-alias vagrant.halt='cdvagrant; vagrant status; time vagrant halt; vagrant status'
-alias vagrant.ssh='cdvagrant; vagrant status; date; time vagrant up; date; vagrant ssh'
-alias vagrant.status='cdvagrant; vagrant status'
 alias vask="cd $DirQuiz; vici db_*ask*stackoverflow"
 alias vconvert="title teamroom.how.to.convert.to.flexsan.html; cd $DirDoc; explorer.exe teamroom.how.to.convert.to.flexsan.html; vici teamroom.how.to.convert.to.flexsan.html"
 alias vebento="cdsel; vici ebento.py"
@@ -1073,9 +1064,6 @@ title.tab()    { title_set 1 $@; }  # Note that title.tab set just the tab only 
 title.window() { title_set 2 $@; }
 
 
-function titlessh {
-    ssh $Rob ~/bin/title $@
-}
 ### Note: this function must be defined after the "alias cilm", otherwise cilm is not resolved in this function.
 function rcsdiff_files_differ {
     rcsdiff $@ > /dev/null 2>&1
