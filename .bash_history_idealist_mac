@@ -55601,3 +55601,17 @@ scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.
 pshd
 #1606924959
 v ool
+#1606926045
+cl
+#1606926054
+cp get_http_mt_park_rec_center_pool_availability.py pool_refactor.py
+#1606926058
+git add pool_refactor.py
+#1606926067
+gcam 'add pool_refactor.py'
+#1606926070
+vim pool_refactor.py 
+#1606926633
+v cron
+#1606925751
+ssh root@23.239.1.204
