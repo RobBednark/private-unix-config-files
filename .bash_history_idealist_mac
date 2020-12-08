@@ -56331,3 +56331,111 @@ vim deploy.sh
 sl
 #1607441392
 vq
+#1607451528
+sl
+#1607450783
+j depl
+#1607450799
+cat run.sh
+#1607450850
+./run.sh |&less
+#1607451391
+docker run --help|less
+#1607451688
+docker kill --help
+#1607451913
+pwd
+#1607450506
+j learn
+#1607450509
+cd ..
+#1607450510
+ls -ltr
+#1607450516
+j network
+#1607450518
+ls -ltr
+#1607450520
+vim run.sh 
+#1607450532
+cd ..
+#1607450537
+ag docker.run
+#1607450541
+grrc silver
+#1607450545
+grrc grep
+#1607450547
+grc silver
+#1607450550
+grc grep
+#1607450560
+vrc
+#1607450587
+rg docker.run .
+#1607450616
+rg docker.run .|grep '-p'
+#1607450623
+rg docker.run .
+#1607450631
+rg docker.run'.*-p' .
+#1607450724
+rg '.*-p ' .
+#1607450751
+j deploy
+#1607450756
+vim deploy.sh 
+#1607451949
+sm .
+#1607453509
+vp
+#1607455542
+vresume
+#1607450751
+j deploy
+#1607450756
+vim deploy.sh 
+#1607451949
+sm .
+#1607453509
+vp
+#1607454913
+
+#1607454916
+
+#1607454924
+
+#1607454929
+
+#1607454932
+vp
+#1607453073
+vq
+#1607456318
+vresume
+#1607457491
+vdiary 
+#1607458872
+vp
+#1607464764
+cddockerlearn 
+#1607464767
+cddocker
+#1607464775
+ls -ltr
+#1607464786
+grc find
+#1607464788
+fd
+#1607464792
+fd default.conf
+#1607464839
+vim $(fd default.conf)
+#1607464881
+rg server_name
+#1607464896
+rg bednark.org
+#1607464952
+rg 
+#1607464966
+vq
