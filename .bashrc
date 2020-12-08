@@ -1567,7 +1567,7 @@ export NVM_DIR="/Users/robb/.nvm"
 # pkill -9 -alf  (-9 ==> KILL; --a ==> show command-line too; -l ==> show command name too; -f "full" -- match against entire command line)
 # pkill KILL -f  (KILL ==> signal 9; -f "full" -- match against full argument lists)
 # pkill -l  (-l ==> list all signals)
-# ripgrep (command: rg) (a faster grep) (brew install ripgrep)
+# ripgrep (command: rg) (a faster grep; like ag / silver searcher) (brew install ripgrep)
 # tee ==> e.g., grep foo | tee /tmp/out   or   grep foo | tee /tmp/out | grep bar
 # tidy -- an html linter/validator (tidy -error myfile.html)
 #   tidy -errors myfile.html  # only show validation errors/warnings
