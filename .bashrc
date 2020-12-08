@@ -1522,10 +1522,6 @@ if echo $SHELL | grep bash > /dev/null; then
     source ~/.unix.config.files/git-completion.bash
 fi
 
-# nvm = node version manager
-export NVM_DIR="/Users/robb/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
 # autojump is a faster way to navigate your filesystem. It works by maintaining a database of the directories you cd to the most from the command line.
 # Note: cd'ing to a directory adds it to the jump list.
 # Note: doing "j dir" or "jc dir" to a directory that isn't in the jump list does nothing.
