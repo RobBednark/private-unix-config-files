@@ -1549,9 +1549,9 @@ fi
 #  -bash: /usr/local/etc/bash_completion: line 187: `quote()'
 # Probably need to uninstall and reinstall bash-completion
 # per https://stackoverflow.com/questions/23363889/suppress-syntax-error-or-warning-in-bash-completion-every-time-new-terminal-is-o
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
- . $(brew --prefix)/etc/bash_completion
- fi
+# if [ -f $(brew --prefix)/etc/bash_completion ]; then
+#  . $(brew --prefix)/etc/bash_completion
+#  fi
 
 ################################################################################
 ### List of useful shell commands, syntax, ... (listed here for "grrc" grep-able reference)
