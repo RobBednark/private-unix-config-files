@@ -55615,3 +55615,719 @@ vim pool_refactor.py
 v cron
 #1606925751
 ssh root@23.239.1.204
+#1606925800
+vrc
+#1606928764
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1606928766
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-looking-always=rob --sms-looking-always=rob --email-available-always=rob --sms-available-always=rob  --debug
+#1606929553
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob--sms-available-always=rob  --debug
+#1606929566
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob --sms-available-always=rob  --debug
+#1606929592
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob  --debug
+#1606929606
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1606928763
+pshd
+#1606922135
+vq
+#1606928776
+v ool
+#1606928804
+v http
+#1606936350
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1606936350
+python manage.py runserver --insecure
+#1606936349
+rqo
+#1606934104
+vq
+#1606936342
+vp
+#1606937766
+vresume
+#1606938960
+vp
+#1606940099
+vq
+#1606940106
+vdiary 
+#1607009457
+vq
+#1607009617
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607009634
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob  --debug
+#1607009616
+pshd
+#1607009461
+v ool
+#1607012881
+sl
+#1607011442
+sl
+#1607013861
+type sl
+#1607014643
+sl
+#1607014484
+watch '(set -x; sl)'
+#1607014493
+watch ssh root@23.239.1.204
+#1607009743
+vq
+#1607019627
+cl
+#1607019727
+v refac
+#1607023032
+vresume
+#1607024438
+vp
+#1607024714
+vq
+#1607024902
+vim
+#1607024586
+vresume
+#1607025703
+vq
+#1607026741
+sl
+#1607026548
+ssh root@23.239.1.204
+#1607026556
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1607026688
+wl
+#1607026689
+sl
+#1607027213
+sl
+#1607034354
+c
+#1607034355
+cl
+#1607034357
+sl
+#1607034663
+vq
+#1607045286
+ls -ltr
+#1607045290
+ls -ld *own*
+#1607045328
+cd Downloads/
+#1607045330
+cd downloaded-images/
+#1607045332
+ls -l
+#1607045334
+sum *
+#1607045337
+sum *|sort -n
+#1607045355
+man sort
+#1607045471
+man qlmanage
+#1607041036
+vp
+#1607044916
+v ool
+#1607046702
+cl
+#1607046741
+cp pool_refactor.py get_http_mt_park_rec_center_pool_availability.py
+#1607046795
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607044926
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607044933
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob  --debug
+#1607044946
+$DirLearn/pool_refactor.py --sms-looking-always=rob  --debug
+#1607044992
+cl
+#1607045049
+lh
+#1607045064
+cp pool_refactor.py get_http_mt_park_rec_center_pool_availability.py
+#1607045139
+$DirLearn/pool_refactor.py --sms-looking-always=rob  --debug
+#1607045155
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob --sms-available-always=rob  --debug
+#1607045185
+$DirLearn/pool_refactor.py --email-looking-always=rob  --debug
+#1607045193
+$DirLearn/pool_refactor.py --email-available-always=rob  --debug
+#1607046550
+$DirLearn/pool_refactor.py --email-looking-always=rob --email-available-always=rob  --debug
+#1607046567
+$DirLearn/pool_refactor.py --email-availability-always=rob --email-availability-always=rob  --debug
+#1607046580
+$DirLearn/pool_refactor.py --email-availabile-always=rob --email-availabile-always=rob  --debug
+#1607046591
+$DirLearn/pool_refactor.py --email-available-always=rob --email-available-always=rob  --debug
+#1607044925
+pshd
+#1607041602
+vmac
+#1607041604
+vq
+#1607040979
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1607040979
+python manage.py runserver --insecure
+#1607040977
+rqo
+#1607064146
+v ool
+#1607064182
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607064086
+sl
+#1607096835
+vq
+#1607096840
+vm
+#1607095983
+vq
+#1607097723
+vq
+#1607098358
+cl
+#1607098366
+vim random_timer.html
+#1607098844
+cl
+#1607098874
+open ./random_timer.html 
+#1607106019
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1607106019
+python manage.py runserver --insecure
+#1607106018
+rqo
+#1607106928
+vq
+#1607109321
+v ool
+#1607109461
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607109478
+v ool
+#1607109666
+cl
+#1607109671
+lh
+#1607109679
+diff get_http_mt_park_rec_center_pool_availability.py pool_refactor.py 
+#1607109731
+cp pool_refactor.py get_http_mt_park_rec_center_pool_availability.py
+#1607109771
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-available-always=rob --email-available-always=rob  --debug
+#1607109836
+git rm pool_refactor.py 
+#1607109841
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607109481
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607109569
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob --sms-available-always=rob  --debug
+#1607109802
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob  --debug
+#1607109480
+pshd
+#1607109426
+sl
+#1607108279
+vresume
+#1607110181
+vq
+#1607110628
+vresume
+#1607111221
+vp
+#1607119740
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1607119740
+python manage.py runserver --insecure
+#1607119738
+rqo
+#1607140452
+vp
+#1607121805
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607121808
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob  --debug
+#1607140242
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607121734
+v ool
+#1607121804
+pshd
+#1607182266
+vq
+#1607187261
+docker exec --help|less
+#1607185838
+j nginx
+#1607185840
+ls -altr
+#1607185842
+sm .
+#1607185874
+c
+#1607185875
+ls -ltr
+#1607186094
+gs
+#1607186099
+cat Dockerfile
+#1607186105
+c
+#1607186110
+git add .
+#1607186124
+gcam 'add Dockerfile; not sure if it's used for anything'
+#1607186140
+gcam "add Dockerfile; not sure if it's used for anything"
+#1607186148
+git checkout master
+#1607186155
+git merge get-ephemeral-port-for-nginx
+#1607186158
+git log
+#1607186161
+c
+#1607186169
+vim build-and-push-images.sh 
+#1607186904
+cd ..
+#1607186908
+cd -
+#1607186918
+vim run-bring-up-containers.sh 
+#1607186930
+cd ..
+#1607186931
+lsh
+#1607186933
+ls -ltr
+#1607186943
+cd learn-docker-compose-with-django-nginx-postgres
+#1607186948
+vim run.sh 
+#1607186951
+cd ..
+#1607186952
+ls -ltr
+#1607186956
+cd learn-docker-network-hosts-ping-connect
+#1607186958
+vim run.sh 
+#1607187036
+c
+#1607187040
+cd -
+#1607187065
+j nginx
+#1607187081
+type sl
+#1607187152
+cat deploy.sh | ssh root@23.239.1.204
+#1607187180
+man ssh
+#1607187339
+cat deploy.sh | ssh -t root@23.239.1.204
+#1607187487
+ssh root@23.239.1.204 < deploy.sh 
+#1607187519
+ssh root@23.239.1.204 < <(echo hostname)
+#1607187535
+sl
+#1607187701
+ssh root@23.239.1.204 < deploy.sh 
+#1607187728
+type sl
+#1607187734
+curl 23.239.1.204
+#1607187740
+sl
+#1607186369
+docker build --help|less
+#1607186426
+c
+#1607186429
+j nginx
+#1607186467
+c
+#1607186474
+docker-rm-all-images-and-containers 
+#1607186506
+docker images 
+#1607186517
+docker build --file Dockerfile-nginx .
+#1607186527
+docker images
+#1607186565
+docker build --file Dockerfile-nginx --tag robbednark/my-nginx-server:latest .
+#1607186568
+docker images
+#1607186724
+c
+#1607186730
+./build-and-push-images.sh 
+#1607186778
+vim run*
+#1607186785
+vim *yml
+#1607186791
+c
+#1607186837
+cp build-and-push-images.sh deploy.sh
+#1607186839
+vim deploy.sh
+#1607187560
+c
+#1607187571
+cdqp
+#1607187574
+cd bin
+#1607187578
+vim bootstrap-new-server.sh 
+#1607187609
+vi bootstrap-new-server.sh 
+#1607187678
+./bootstrap-new-server.sh 2>&1 | tee log/bootstrap-2020-12-05.log
+#1607187589
+type sl
+#1607185501
+j ng
+#1607185502
+ls -altr
+#1607185510
+cd ..
+#1607185512
+ls -ltr
+#1607185521
+j push
+#1607185526
+cat run.sh 
+#1607185542
+cd ..
+#1607185543
+ls -ltr
+#1607185551
+cd learn-docker-network-hosts-ping-connect
+#1607185554
+cat run.sh 
+#1607185563
+./run.sh 
+#1607185601
+vim run.sh 
+#1607185668
+cd ..
+#1607185669
+c
+#1607185670
+ls -ltr
+#1607185680
+cd learn-docker-compose-with-django-nginx-postgres
+#1607185683
+c
+#1607185683
+ls -ltr
+#1607185692
+vim *
+#1607185779
+sm .
+#1607185864
+c
+#1607185865
+ls -ltr
+#1607195464
+vdiary 
+#1607195483
+vp
+#1607195282
+vq
+#1607195298
+vdiary 
+#1607201315
+vq
+#1607194824
+v ool
+#1607194829
+v cron
+#1607202536
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1607202339
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607202347
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py -h
+#1607202338
+pshd
+#1607207920
+v cron
+#1607207991
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1607207925
+v pool
+#1607213016
+v cron
+#1607213174
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1607219218
+vdiary 
+#1607221622
+bc -l
+#1607216016
+vresume
+#1607216981
+j create-dj
+#1607217764
+gs
+#1607217765
+gd
+#1607217775
+vim run.sh local-run-django.sh 
+#1607216952
+j learn-dock__
+#1607216955
+gs 
+#1607216956
+gd
+#1607217758
+vim README.md 
+#1607216930
+vig
+#1607220662
+vim /tmp/tmp
+#1607238173
+pwd
+#1607238178
+v ool
+#1607238449
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607238182
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607238183
+always
+#1607238189
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob  --debug
+#1607238180
+pshd
+#1607354639
+vq
+#1607355854
+cdqn
+#1607355859
+cd bin
+#1607355864
+cdqp
+#1607355865
+c
+#1607355866
+cd bin
+#1607355868
+vi bootstrap-new-server.sh 
+#1607356531
+cdqn
+#1607356533
+cdqp
+#1607356535
+cd bin
+#1607356554
+vim bootstrap-new-server.sh 
+#1607356208
+cdqp
+#1607356209
+cd bin
+#1607356217
+j ng
+#1607356218
+ls -altr
+#1607356223
+gs
+#1607356226
+vim deploy.sh 
+#1607356578
+c
+#1607356581
+vim deploy.sh 
+#1607356687
+./deploy.sh 
+#1607356879
+vim deploy.sh 
+#1607357093
+vim *nx
+#1607357099
+vim *ver
+#1607357116
+vim conf.d/default.conf 
+#1607357237
+vim deploy.sh 
+#1607357515
+vi
+#1607357630
+cd conf.d/
+#1607357643
+cd ../..
+#1607357672
+cp -pr learn-nginx-ssl learn-deploy-nginx-web-server-to-linode
+#1607357675
+cd learn-deploy-nginx-web-server-to-linode
+#1607357680
+cd conf.d/
+#1607357682
+vim default.conf 
+#1607357722
+cd ..
+#1607357730
+vim deploy.sh 
+#1607357743
+vim build-and-push-images.sh 
+#1607357751
+./build-and-push-images.sh 
+#1607357830
+./deploy.sh 
+#1607355898
+cdqp
+#1607355903
+cd bin
+#1607355991
+iptables
+#1607355994
+sl
+#1607357947
+vq
+#1607368015
+vresume
+#1607364458
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1607364458
+python manage.py runserver --insecure
+#1607364456
+rqo
+#1607369161
+vresume
+#1607370044
+vq
+#1607372638
+vresume
+#1607375783
+vp
+#1607381755
+vdiary 
+#1607382887
+j -s
+#1607382900
+cddockerlearn 
+#1607382902
+ls -ltr
+#1607382905
+j linod
+#1607382910
+j deploy
+#1607382914
+ls -ltr
+#1607382915
+date
+#1607436170
+v ool
+#1607436265
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607436185
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607436249
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob  --debug
+#1607436184
+pshd
+#1607441807
+grrc ryan
+#1607445411
+sl
+#1607445581
+j depl__
+#1607445585
+./deploy.sh 
+#1607446312
+c
+#1607446314
+vim deploy.sh 
+#1607445408
+j deploy
+#1607445560
+vim deploy.sh 
+#1607445979
+vim build-and-push-images.sh *nx
+#1607446035
+./build-and-push-images.sh 
+#1607446075
+docker images
+#1607446093
+./deploy.sh 
+#1607446424
+c
+#1607446484
+./deploy.sh  |&less
+#1607446613
+c
+#1607446637
+ssh < ./deploy.sh 2>&1 | less
+#1607446650
+(ssh < ./deploy.sh) 2>&1 | less
+#1607446683
+ssh 2>&1 | less < ./deploy.sh
+#1607446702
+ssh < ./deploy.sh
+#1607446716
+type sl
+#1607446731
+vim run.sh
+#1607446773
+chmod a+x run.sh 
+#1607446777
+./run.sh |&less
+#1607446967
+docker run --help|less
+#1607447003
+./run.sh |&less
+#1607441651
+j depl
+#1607443626
+vi deploy.sh 
+#1607441478
+j -s
+#1607441484
+j create
+#1607441486
+ls -altr
+#1607441490
+date
+#1607441502
+cddockerlearn 
+#1607441504
+ls -ltr
+#1607441507
+cd deploy
+#1607441511
+j depl
+#1607441514
+gs .
+#1607441519
+sm .
+#1607441579
+docker-wait-until-engine-is-up; ./deploy.sh 
+#1607441620
+vim deploy.sh 
+#1607443593
+./deploy.sh 
+#1607441588
+sl
+#1607441392
+vq
