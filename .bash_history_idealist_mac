@@ -56439,3 +56439,7 @@ rg bednark.org
 rg 
 #1607464966
 vq
+#1607465686
+brew install bash-completion
+#1607465776
+ sudo curl -L https://raw.githubusercontent.com/docker/compose/1.27.4/contrib/completion/bash/docker-compose -o /usr/local/etc/bash_completion.d/docker-compose

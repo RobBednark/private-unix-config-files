@@ -1540,6 +1540,19 @@ fi
 # j -h ==> help (autojump)
 [ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
 
+# Command-line completion / auto-completion for docker
+# Per https://docs.docker.com/compose/completion/
+#   brew install bash-completion
+#    sudo curl -L https://raw.githubusercontent.com/docker/compose/1.27.4/contrib/completion/bash/docker-compose -o /usr/local/etc/bash_completion.d/docker-compose
+# Not working:
+#  -bash: /usr/local/etc/bash_completion: line 187: syntax error near unexpected token `('
+#  -bash: /usr/local/etc/bash_completion: line 187: `quote()'
+# Probably need to uninstall and reinstall bash-completion
+# per https://stackoverflow.com/questions/23363889/suppress-syntax-error-or-warning-in-bash-completion-every-time-new-terminal-is-o
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+ . $(brew --prefix)/etc/bash_completion
+ fi
+
 ################################################################################
 ### List of useful shell commands, syntax, ... (listed here for "grrc" grep-able reference)
 ################################################################################
