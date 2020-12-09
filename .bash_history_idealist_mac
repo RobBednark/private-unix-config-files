@@ -56443,3 +56443,71 @@ vq
 brew install bash-completion
 #1607465776
  sudo curl -L https://raw.githubusercontent.com/docker/compose/1.27.4/contrib/completion/bash/docker-compose -o /usr/local/etc/bash_completion.d/docker-compose
+#1607466319
+vrc
+#1607465914
+source /usr/local/etc/bash_completion
+#1607465924
+c
+#1607465953
+vim /usr/local/etc/bash_completion
+#1607466065
+docker ps 
+#1607466068
+docker images
+#1607466076
+source /usr/local/etc/bash_completion
+#1607466083
+vim /usr/local/etc/bash_completion
+#1607466120
+source /usr/local/etc/bash_completion
+#1607465590
+vrc
+#1607465157
+sl
+#1607464400
+sl
+#1607464471
+j dep
+#1607464485
+./run.sh |&less
+#1607464662
+docker-wait-until-engine-is-up && ./run.sh |&less
+#1607464746
+vi
+#1607465101
+docker-wait-until-engine-is-up && ./run.sh |&less
+#1607465327
+docker-wait-until-engine-is-up && ./run-build-and-deploy.sh |&less
+#1607464387
+j depl
+#1607464389
+gs .
+#1607464393
+vim deploy.sh run.sh 
+#1607465300
+gs
+#1607465308
+git mv run.sh run-build-and-deploy.sh
+#1607489316
+vm
+#1607489690
+rg podcast
+#1607489712
+type r
+#1607489714
+rg -h
+#1607489717
+c
+#1607489720
+rg podcast
+#1607489727
+man rg
+#1607489185
+vq
+#1607488763
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1607488763
+python manage.py runserver --insecure
+#1607488762
+rqo
