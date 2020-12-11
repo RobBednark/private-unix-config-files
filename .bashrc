@@ -601,6 +601,7 @@ alias vgit="title vgit; cd $DirQuiz; vici db_git"
 alias vgratitude="cd $DirQuiz; vici gratitude"
 alias videalist="cd $DirQuiz; vici idealist"
 alias vinterview="cd $DirQuiz; vici db_interview_questions_master_template"
+alias vjo=vjobsearch2020
 alias viphone="title viphone; cd $DirQuiz; vici *iphone*"
 alias vjavascript="cd $DirQuiz; title db_javascript; vici db_javascript"
 alias vjobsearch2020="vici $DirQuiz/job.search.2020.post.moovel"
