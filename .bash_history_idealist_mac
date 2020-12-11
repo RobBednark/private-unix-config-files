@@ -56511,3 +56511,421 @@ vq
 python manage.py runserver --insecure
 #1607488762
 rqo
+#1607529623
+vq
+#1607527275
+j depl
+#1607527277
+gs .
+#1607527279
+gd .
+#1607527312
+sm .
+#1607527488
+c
+#1607527491
+cd ..
+#1607527506
+cdqp
+#1607527507
+gs
+#1607527510
+gd
+#1607529678
+vq
+#1607527246
+vq
+#1607529875
+sl
+#1607530985
+type sl
+#1607529501
+cdqp
+#1607529506
+vrc
+#1607529522
+cdqp
+#1607529546
+vrc
+#1607529566
+cdqp
+#1607529568
+c
+#1607529574
+gs .
+#1607529578
+gd .
+#1607529584
+vim bootstrap-new-server.sh 
+#1607533406
+sl
+#1607527539
+sl
+#1607533264
+vq
+#1607545965
+vjobsearch2020 
+#1607547985
+vdiary 
+#1607551445
+vp
+#1607553849
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607553864
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always=rob  --debug
+#1607553901
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-available-always=rob  --debug|&less
+#1607553962
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-available-open=rob  --debug|&less
+#1607554781
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-available-open=rob  |&less
+#1607554823
+pwd
+#1607554824
+jobs
+#1607554921
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-available-open=rob  |&less
+#1607555888
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always=rob  |&less
+#1607555984
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607556022
+cl
+#1607556025
+ls *day*py
+#1607556037
+ls *date*py
+#1607556051
+vim learn.simple.show.current.date.time.asctime.py
+#1607556056
+vim *date*py
+#1607556436
+v ool
+#1607555060
+vim
+#1607554252
+cl
+#1607554255
+ls *arg*py
+#1607554292
+vim learn.command.line.argv.py 
+#1607553548
+v cron
+#1607555035
+vq
+#1607555318
+type v
+#1607555327
+v --help
+#1607555345
+vim (type v)
+#1607555349
+vim (which v)
+#1607555353
+which v
+#1607555356
+vim $(which v)
+#1607555378
+v ool
+#1607557110
+cl
+#1607557112
+vim *click*py
+#1607556690
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607556692
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always=rob  |&less
+#1607556709
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --email-available-always=rob  |&less
+#1607557021
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always--email-available-always=rob  |&less
+#1607557027
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always --email-available-always=rob  |&less
+#1607557098
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always=rob --email-available-always=rob  |&less
+#1607557199
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607553847
+pshd
+#1607555990
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1607556689
+pshd
+#1607553491
+v ool
+#1607553511
+sl
+#1607557975
+vresume
+#1607559867
+sleep 3
+#1607559876
+sleep 99 &
+#1607559861
+watch 'ps guaxww | grep sleep'
+#1607569546
+v ool
+#1607571197
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607569417
+vq
+#1607569706
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607569714
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always=rob --email-available-always=rob  |&less
+#1607569705
+pshd
+#1607569092
+sl
+#1607609666
+v ool
+#1607609779
+/scp
+#1607609784
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607609666
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607609755
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-present-always=rob |&less
+#1607609765
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1607609664
+pshd
+#1607615920
+sl
+#1607615996
+type sl
+#1607616065
+ping 23.239.1.204
+#1607615411
+v ool
+#1607617041
+c
+#1607617041
+cl
+#1607617043
+sl
+#1607615259
+cdqp
+#1607615264
+vim bootstrap-new-server.sh 
+#1607614449
+vq
+#1607625581
+vresume
+#1607628469
+ls *sym*
+#1607628480
+vim symlink.tmp/paste-resume.txt
+#1607628494
+cd /tmp
+#1607628509
+mv paste-resume.txt tmp-rob-paste-resume-text-2020-12-10.txt
+#1607630719
+ifconfig
+#1607630724
+ifconfig eth0
+#1607630730
+ifconfig en0
+#1607630736
+ping 8.8.8.8
+#1607630758
+ifconfig en0
+#1607630793
+watch ifconfig en0
+#1607630811
+watch 'ifconfig en0; ping -n 1 8.8.8.8'
+#1607630822
+watch 'ifconfig en0; ping -c 1 8.8.8.8'
+#1607641312
+vq
+#1607630824
+route -n
+#1607630826
+man route
+#1607630835
+sl
+#1607630885
+ping google.com
+#1607630997
+sl
+#1607631015
+vq
+#1607658225
+vresume
+#1607658758
+cd tmp
+#1607658759
+git log -p
+#1607658766
+sm .
+#1607658836
+vresume
+#1607665464
+cdqp
+#1607665467
+cd ..
+#1607665467
+gs
+#1607665469
+c
+#1607665473
+cd bin
+#1607665594
+cd ..
+#1607665595
+gs
+#1607665600
+cat .gitignore 
+#1607665620
+mkdir deploy
+#1607665740
+cd deploy/
+#1607665450
+vig
+#1607665904
+vq
+#1607665487
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1607665489
+ls -altr
+#1607665745
+j nginx
+#1607665746
+ls -altr
+#1607665748
+gs
+#1607665750
+gd
+#1607665765
+sm .
+#1607665804
+ls -altr
+#1607665810
+vim D*
+#1607666260
+cp deploy.sh ~/Dropbox/git/quizme_personal_files/deploy
+#1607666281
+cp Dockerfile-nginx ~/Dropbox/git/quizme_personal_files/deploy
+#1607666283
+gd
+#1607666335
+cp conf.d/default.conf ~/Dropbox/git/quizme_personal_files/deploy
+#1607666346
+c
+#1607666350
+rqo
+#1607666423
+v cron
+#1607668447
+cdqn
+#1607668454
+cd db_dumps/
+#1607668456
+ls -ltr
+#1607668461
+ls *33.57*
+#1607668513
+cp -p *33.57* symlink-db_dumps
+#1607668522
+cd symlink-db_dumps
+#1607668524
+lh
+#1607668535
+ln -sf dump.quizme_production.2020.12.10_Thu_22.33.57.txt latest.dump.txt 
+#1607668537
+ls -l latest.dump.txt 
+#1607666402
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1607666402
+python manage.py runserver --insecure
+#1607668436
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1607665485
+cdq
+#1607666400
+rqo
+#1607668468
+cdpn
+#1607668470
+cdqn
+#1607668474
+cd db_dumps/
+#1607668476
+ls -ltr
+#1607668479
+cd private-quiz-me-db-backups/
+#1607668480
+gs
+#1607668483
+vim save-to-dropbox-and-git.sh 
+#1607668562
+./update.sh '*33.57*'
+#1607668565
+gd
+#1607668573
+gs
+#1607668578
+gcam 'update'
+#1607668582
+gpus
+#1607668550
+cdqn
+#1607668551
+cd db_dumps/
+#1607668552
+lh
+#1607668555
+ls *33.57*
+#1607702801
+python3
+#1607701484
+perl --version
+#1607701487
+type perl
+#1607701127
+bash --version
+#1607701284
+cl
+#1607701289
+ls *shell*py
+#1607701302
+vi learn_simple_envoy_run_shell_command.py 
+#1607704965
+docker copy --help|&less
+#1607704973
+docker cp --help|&less
+#1607705172
+c
+#1607704122
+j deploy
+#1607704138
+j -s
+#1607704146
+cpqp
+#1607704151
+cdpq
+#1607704152
+cdqp
+#1607704156
+cd ../deploy/
+#1607704158
+c
+#1607704373
+vim Dockerfile-nginx 
+#1607704911
+vim /tmp/tmp
+#1607705189
+c
+#1607705275
+docker pull nginx
+#1607705308
+docker pull sha256:31de7d2fd0e751685e57339d2b4a4aa175aea922e592d36a7078d72db0a45639
+#1607705317
+docker pull 31de7d2fd0e751685e57339d2b4a4aa175aea922e592d36a7078d72db0a45639
+#1607705326
+docker pull nginx:31de7d2fd0e751685e57339d2b4a4aa175aea922e592d36a7078d72db0a45639
+#1607705407
+docker pull nginx@sha256:31de7d2fd0e751685e57339d2b4a4aa175aea922e592d36a7078d72db0a45639
+#1607700784
+vq
