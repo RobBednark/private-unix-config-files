@@ -56975,3 +56975,169 @@ rqo
 vvq
 #1607724588
 vq
+#1607725995
+grc vj
+#1607726003
+type vjo
+#1607726004
+vrc
+#1607726021
+vjo
+#1607730708
+vmac
+#1607731221
+v cron
+#1607731246
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1607730434
+vq
+#1607731009
+sudo mdutil -s /mountPoint
+#1607731015
+sudo mdutil -s /
+#1607731027
+sudo mdutil --help
+#1607728373
+vdiary 
+#1607728109
+vq
+#1607728500
+vresume
+#1607731601
+vdiary 
+#1607791447
+cdargs
+#1607791457
+type ca
+#1607790669
+j -l
+#1607790671
+j -s
+#1607790713
+j --help
+#1607790729
+history|grep '^j '
+#1607790743
+cdargs 
+#1607790765
+history > /tmp/h
+#1607790771
+grep '^j ' /tmp/h
+#1607790776
+vi /tmp/h
+#1607790832
+cdqp
+#1607790835
+cd ../deploy/
+#1607790837
+ls -ltr
+#1607790840
+cat deploy.sh 
+#1607790845
+c
+#1607790970
+vim build-and-push-images.sh 
+#1607791787
+docker run --help|&less
+#1607791935
+docker run -d --name nginx nginx
+#1607791964
+docker run -d --name my_nginx --volume /tmp nginx
+#1607791991
+docker exec -it my_nginx ash
+#1607792008
+docker exec -it my_nginx /bin/ash
+#1607792012
+dc ps
+#1607792015
+docker ps
+#1607792085
+docker logs nginx
+#1607792105
+j nginx
+#1607792108
+vim *nx
+#1607792120
+jobs
+#1607792136
+docker run -d --name my_container --volume /tmp alpine
+#1607792150
+docker exec -it my_container ash
+#1607792154
+docker ps
+#1607792175
+docker run --help|&less
+#1607792207
+docker run --name my_container --volume /tmp alpine ash
+#1607792219
+docker run --volume /tmp --rm alpine ash
+#1607792234
+docker ps
+#1607792237
+docker ps -a
+#1607792248
+c
+#1607792260
+docker run --volume /tmp alpine ash
+#1607792270
+docker-run-alpine 
+#1607792274
+type docker-run-alpine 
+#1607792285
+docker run -it --volume /tmp --rm alpine ash
+#1607790949
+j deploy
+#1607790964
+cp build-and-push-images.sh ~/Dropbox/git/quizme_personal_files/deploy
+#1607791409
+cdqp
+#1607791410
+cd ../deploy/
+#1607791411
+c
+#1607791414
+vi deploy.sh 
+#1607791487
+gs
+#1607791494
+git add .
+#1607791502
+gcam 'deploy: starting point'
+#1607791503
+c
+#1607791507
+vim deploy.sh 
+#1607787200
+vq
+#1607789490
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607789516
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1607792871
+sl
+#1607789489
+pshd
+#1607789455
+v ool
+#1607789535
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607789574
+sm .
+#1607792626
+v ool
+#1607792828
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607788244
+stty
+#1607788255
+stty raw
+#1607788261
+lajsdflkj
+#1607788306
+stty cooked
+#1607788312
+man stty
+#1607788414
+env|grep -i tty
+#1607788423
+env|grep -i term
