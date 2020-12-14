@@ -57141,3 +57141,53 @@ man stty
 env|grep -i tty
 #1607788423
 env|grep -i term
+#1607797973
+vrc
+#1607797981
+cd .unix.config.files
+#1607797985
+sm .
+#1607797962
+v cron
+#1607798136
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1607798214
+vresume
+#1607800417
+vp
+#1607806061
+vjobsearch
+#1607806097
+c
+#1607806112
+vjo
+#1607806129
+vjobsearch
+#1607803876
+vq
+#1607808523
+vp
+#1607808526
+type vp
+#1607808529
+cd tm
+#1607808530
+cd tmp
+#1607808532
+sm .
+#1607808549
+vp
+#1607829173
+vdiary 
+#1607832059
+vq
+#1607883092
+wl
+#1607883094
+sl
+#1607884176
+vdiary 
+#1607895244
+vjo
+#1607896920
+vp
