@@ -1508,6 +1508,7 @@ function run.commands() {
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
 
+################################################################################
 # ripgrep / rg
 if hash rg 2>/dev/null; then
   # Per https://github.com/aykamko/tag, create an 'rg' alias that
@@ -1518,11 +1519,13 @@ if hash rg 2>/dev/null; then
   # alias rg=tag  # replace with rg for ripgrep
 fi
 
+################################################################################
 if echo $SHELL | grep bash > /dev/null; then
     # autocomplete for git for things like "git checkout my-branchname-some<tab>"
     source ~/.unix.config.files/git-completion.bash
 fi
 
+################################################################################
 # autojump is a faster way to navigate your filesystem. It works by maintaining a database of the directories you cd to the most from the command line.
 # Note: cd'ing to a directory adds it to the jump list.
 # Note: doing "j dir" or "jc dir" to a directory that isn't in the jump list does nothing.
@@ -1541,6 +1544,7 @@ fi
 # j -h ==> help (autojump)
 [ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
 
+################################################################################
 # Command-line completion / auto-completion for docker
 # Per https://docs.docker.com/compose/completion/
 #   brew install bash-completion
@@ -1553,6 +1557,22 @@ fi
 # if [ -f $(brew --prefix)/etc/bash_completion ]; then
 #  . $(brew --prefix)/etc/bash_completion
 #  fi
+
+################################################################################
+# bashpast
+# Create shortcuts/bookmarks for commands
+# https://ostechnix.com/bookmark-linux-commands-easier-repeated-invocation/
+# clone https://github.com/ivanmisic/bashpast.git
+# cd /tmp && git clone https://github.com/ivanmisic/bashpast.git && cd bashpost && make
+# e.g.,
+#   bp s <bookmark_name> - Saves the last command in history as "bookmark_name"
+#   bp e <bookmark_name> - Execute the command associated with "bookmark_name"
+#   bp d <bookmark_name> - Deletes the bookmark with the "bookmark_name"
+#   bp l                 - Lists all available bookmarks
+source ~/.local/bin/bashpast.sh
+
+################################################################################
+# cdargs 
 
 ################################################################################
 ### List of useful shell commands, syntax, ... (listed here for "grrc" grep-able reference)
