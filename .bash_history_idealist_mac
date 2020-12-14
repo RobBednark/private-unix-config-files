@@ -57191,3 +57191,65 @@ vdiary
 vjo
 #1607896920
 vp
+#1607962987
+source /usr/local/etc/bash_completion.d/cdargs-bash.sh
+#1607962992
+ca
+#1607963002
+cdqn
+#1607963005
+cdqp
+#1607963008
+cd ../deploy/
+#1607963009
+ca 
+#1607963020
+ca d
+#1607963025
+cd
+#1607963030
+cv d
+#1607963048
+ca
+#1607963049
+cd
+#1607963050
+cv
+#1607963073
+cd
+#1607963076
+cv d
+#1607963082
+cv -h
+#1607963108
+cdargs
+#1607963133
+type cv
+#1607963136
+type cdb
+#1607963140
+cdb --help
+#1607963174
+cd /tmp
+#1607963180
+cv :t:/tmp
+#1607963191
+ca 
+#1607963201
+cv tmp
+#1607963209
+cd
+#1607962898
+cdargs-bash.sh
+#1607962912
+cd .unix.config.files
+#1607962921
+git show 4e848
+#1607962924
+git show 4e84a
+#1607962930
+git show 4e84a59f
+#1607962952
+git log -p|grep cdargs
+#1607962960
+git log -p|less
