@@ -57253,3 +57253,119 @@ git show 4e84a59f
 git log -p|grep cdargs
 #1607962960
 git log -p|less
+#1607964761
+history > /tmp/h
+#1607964763
+vim /tmp/h
+#1607963554
+sl
+#1607964327
+j deploy
+#1607964332
+c
+#1607964361
+j -s
+#1607964391
+j -s |grep deploy
+#1607964405
+j /Users/rbednark/Dropbox/git/quizme_personal_files/deploy
+#1607964441
+scp -p default.conf root@23.239.1.204:/deploy
+#1607964572
+c
+#1607964572
+sl
+#1607964711
+j deploy
+#1607964714
+j -s |grep deploy
+#1607964723
+j -d 200 /Users/rbednark/Dropbox/git/quizme_personal_files/deploy
+#1607964728
+j deploy
+#1607964732
+j -s|grep deploy
+#1607964736
+c
+#1607964739
+cat deploy.sh 
+#1607964751
+vim deploy.sh 
+#1607962706
+j deploy
+#1607962712
+j -s|grep deploy
+#1607962716
+j -h
+#1607962755
+vrc
+#1607963233
+c
+#1607963237
+j -s
+#1607963242
+j -s|grep deploy
+#1607963246
+j -h
+#1607963273
+j -i 110 /Users/rbednark/Dropbox/git/quizme_personal_files/deploy
+#1607963277
+j deploy
+#1607963279
+c
+#1607963286
+cat Dockerfile-nginx 
+#1607963390
+docker run --help|less
+#1607963442
+sl
+#1607964076
+docker run -d --volume /tmp --rm alpine ash
+#1607964079
+docker ps
+#1607964086
+docker ps -a
+#1607964124
+docker logs cb1fc3d7aa0dcca81a354bce30e5aca42ee99e3344c4bb348c356ea296b9eaf1
+#1607964138
+docker run -d --volume /tmp alpine ash
+#1607964143
+docker logs e0c9bc0be016892805b257379546bf7d7d8c1861cc4808c8946a6afe9bba0ef5
+#1607964146
+docker ps -a
+#1607964187
+docker run -d --volume /tmp alpine echo foo
+#1607964193
+docker logs a06dc06fdfbf70d84d3c60f43a12da70ae3a7f47320ba322648adf1dbde1c554
+#1607964213
+docker run -d --volume /tmp alpine sleep 9999
+#1607964218
+docker logs 08fa31fc9e622298642907fa20aafc554f5d6445c35e90ace9d37f9df1ba2a82
+#1607964323
+docker run -it -v host_dir:/tmp/container_dir alpine ash
+#1607964452
+sl
+#1607960024
+vq
+#1607972553
+cd Downloads/
+#1607972554
+lh
+#1607970624
+vjo
+#1607977315
+vresume
+#1607977322
+vjo
+#1607978522
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1607978526
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1607978538
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1607978520
+pshd
+#1607978441
+v ool
+#1607979101
+vq
