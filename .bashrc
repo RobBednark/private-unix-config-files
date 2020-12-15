@@ -1575,6 +1575,7 @@ source ~/.local/bin/bashpast.sh
 # cdargs 
 # cdargs allows you to set bookmarks for directories and then cd to them using
 # the bookmark.  [suggested by John De La Garza 9.19.20]
+# cv foo ==> cd to the directory with the bookmark "foo"
 # ca foo  ==> add "foo" bookmark for the current directory
 # cdargs ==> go into menu to do operations
 #   <ENTER> select current entry
@@ -1582,6 +1583,7 @@ source ~/.local/bin/bashpast.sh
 #   e  ==> edit the list in $EDITOR
 #   q  ==> quit
 #   left/right arrow ==> navigate up/down directory
+#
 # man cdargs
 [ -f /usr/local/etc/bash_completion.d/cdargs-bash.sh ] && source /usr/local/etc/bash_completion.d/cdargs-bash.sh
 

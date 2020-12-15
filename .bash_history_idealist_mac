@@ -57489,3 +57489,49 @@ cdb
 vq
 #1607994268
 cdargs
+#1607995081
+alias
+#1607995085
+set
+#1607995087
+env
+#1607995092
+func
+#1607995057
+type cv
+#1607995073
+bash --noprofile --login
+#1607993533
+vjob
+#1607993535
+vjo
+#1607994173
+man cdargs
+#1607994677
+brew info cdargs
+#1607994888
+brew upgrade cdargs
+#1607994982
+brew info cdargs
+#1607995049
+bash --help
+#1607995055
+bash --noprofile
+#1607994659
+vq
+#1607994183
+cdargs
+#1607995172
+bp l
+#1607995176
+type bp
+#1607995180
+bp --help
+#1607995185
+bp l
+#1607995195
+echo foo
+#1607995201
+bp s f
+#1607995215
+bp e f
