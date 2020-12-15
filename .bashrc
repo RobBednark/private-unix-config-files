@@ -1577,6 +1577,11 @@ source ~/.local/bin/bashpast.sh
 # the bookmark.  [suggested by John De La Garza 9.19.20]
 # ca foo  ==> add "foo" bookmark for the current directory
 # cdargs ==> go into menu to do operations
+#   <ENTER> select current entry
+#   c  ==> add current directory
+#   e  ==> edit the list in $EDITOR
+#   q  ==> quit
+#   left/right arrow ==> navigate up/down directory
 # man cdargs
 [ -f /usr/local/etc/bash_completion.d/cdargs-bash.sh ] && source /usr/local/etc/bash_completion.d/cdargs-bash.sh
 
