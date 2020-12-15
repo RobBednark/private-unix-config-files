@@ -57375,3 +57375,115 @@ cd .unix.config.files
 git.log.grep.diffs cdargs
 #1607979958
 man cdargs
+#1607979324
+vrc
+#1607978706
+vq
+#1607979013
+brew info bashpast
+#1607979057
+cd /tmp
+#1607979063
+git clone https://github.com/ivanmisic/bashpast.git
+#1607979071
+cd bashpast/
+#1607979073
+make
+#1607979194
+c
+#1607979208
+cd /tmp/bashpast/
+#1607979210
+ls -al
+#1607979219
+cd
+#1607979229
+source .local/bin/bashpast.sh 
+#1607979249
+bc -h
+#1607979254
+type bp
+#1607979259
+bp --help
+#1607984877
+ls -ld *node*
+#1607984880
+ls -ld *npm*
+#1607984896
+cd /tmp
+#1607984901
+npm install howsmywifi
+#1607984971
+howsmywifi --loop
+#1607984976
+npm install howsmywifi
+#1607985140
+ls -latr
+#1607985156
+./node_modules/.bin/howsmywifi --help
+#1607985166
+npm install howsmywifi > install.txt
+#1607985178
+npm install howsmywifi >& install.txt
+#1607985253
+yarn add howsmywifi
+#1607985259
+vim -R install.txt 
+#1607985284
+./node_modules/.bin/howsmywifi --help
+#1607985342
+vdiary 
+#1607986117
+vq
+#1607979999
+cd /tmp
+#1607980022
+cdargs
+#1607980049
+j deploy
+#1607980185
+cdadd
+#1607980295
+eb
+#1607980297
+Eb
+#1607980394
+type cdadd
+#1607980414
+cdargs -a
+#1607980424
+cdargs -c
+#1607981173
+vjo
+#1607986636
+type ca
+#1607986639
+cd /tmp
+#1607986641
+ca
+#1607986648
+cdargs
+#1607986653
+mkdir newdir
+#1607986654
+cd newdir
+#1607986657
+ca rob
+#1607986664
+type ca
+#1607986671
+cd
+#1607986695
+cdargs
+#1607986711
+cdargs rob
+#1607986717
+type cv
+#1607986718
+cv
+#1607986722
+type cdb
+#1607986727
+cdb
+#1607986337
+vq
