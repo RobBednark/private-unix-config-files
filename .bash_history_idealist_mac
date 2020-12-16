@@ -57535,3 +57535,67 @@ echo foo
 bp s f
 #1607995215
 bp e f
+#1607994158
+vrc
+#1607994534
+cd /tmp
+#1607994536
+mkdir somewhere
+#1607994539
+cv 2
+#1607994542
+type cv
+#1607994552
+type cdb
+#1607994554
+vrc
+#1607994581
+cd
+#1607994585
+cd .unix.config.files
+#1607994586
+gs
+#1607994587
+gpus
+#1608057537
+vq
+#1608062577
+vj
+#1608062583
+vdiary 
+#1608056279
+vjo
+#1608062340
+vq
+#1608067444
+vjo
+#1608083549
+vm
+#1608089339
+vjo
+#1608140745
+vp
+#1608141806
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608141805
+cdq
+#1608141811
+cdquiz
+#1608141814
+git pus
+#1608141815
+gpus
+#1608132495
+vq
+#1608141886
+cdquiz
+#1608141888
+gpus
+#1608148293
+vres
+#1608148297
+vresume
+#1608149285
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1608149332
+vresume
