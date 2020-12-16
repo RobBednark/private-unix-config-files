@@ -57601,3 +57601,33 @@ ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
 vresume
 #1608150108
 vim
+#1608150184
+vvimrc 
+#1608147435
+vp
+#1608132474
+type vjo
+#1608132483
+type vjobsearch2020 
+#1608132636
+cd /Users/rbednark/Dropbox/bin/learn/quiz.python/db
+#1608132637
+gs
+#1608132640
+git remote -v
+#1608132643
+vjo
+#1608143931
+vq
+#1608147433
+vjo
+#1608153698
+v ool
+#1608153958
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1608153705
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1608153720
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1608153704
+pshd
