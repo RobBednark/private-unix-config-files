@@ -174,6 +174,18 @@ FileTodayNew="$DirBin/todo_db.py"
 FileToDo="$DirDoc/todo.txt"
 FileVimrc="$DirUnixConfigFiles/.vimrc"
 FileVocab="$DirBednarkCom/cpp/vocab.cpp"
+FilesDirsAllGrep=""
+FileDirsAllGrep+=" $DirAddToQuizme"
+FileDirsAllGrep+=" $DirBednarkCom"
+FileDirsAllGrep+=" $DirDoc"
+FileDirsAllGrep+=" $DirFamilyTree"
+FileDirsAllGrep+=" $DirLearn"
+FileDirsAllGrep+=" $DirMoovel"
+FileDirsAllGrep+=" $DirPublicHtml"
+FileDirsAllGrep+=" $DirQuiz"
+FileDirsAllGrep+=" $DirRepoRobBednarkGithubIO"
+FileDirsAllGrep+=" $DirResume"
+FileDirsAllGrep+=" $DirText"
 
 if $MacOSX; then
     alias open.adobe.reader='open -a "Adobe Reader"'

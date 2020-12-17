@@ -57631,3 +57631,9 @@ scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.
 $DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
 #1608153704
 pshd
+#1608162990
+cl
+#1608162992
+ls *concat*sh
+#1608162997
+vim learn-concatenate-strings.bash
