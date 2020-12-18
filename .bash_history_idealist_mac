@@ -57753,3 +57753,35 @@ pwd
 jobs
 #1608322508
 vjo
+#1608335025
+v cron
+#1608335321
+cd /tmp
+#1608335325
+mkdir myrepo
+#1608335330
+git init myrepo
+#1608335334
+cd myrepo/
+#1608335338
+echo foo > foo
+#1608335340
+cd
+#1608335344
+vim /tmp/myrepo/foo 
+#1608335371
+cd /tmp/myrepo/
+#1608335373
+gs
+#1608335376
+git add .
+#1608335379
+gca
+#1608335384
+gs
+#1608335389
+c
+#1608335390
+cd
+#1608335394
+vim /tmp/myrepo/foo 
