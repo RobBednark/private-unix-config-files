@@ -85,7 +85,8 @@ iab _wi 😉
 " \L ==> ("Line") add a dashed line: -----------------------------
 " \U ==> ("Up") -- fold UP from the current cursor position to line 1 (top of file)
 map <silent> <leader>a :ALEFix<CR>
-map <silent> <leader>c :w<esc>:!python3 -m py_compile %<esc>
+map <silent> <leader>c :!git commit -am'incremental commit'; git push<esc>
+map <silent> <leader>C :w<esc>:!python3 -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>e :!open -a google\ chrome % <esc>
 map <silent> <leader>g :GitGutterDisable <esc>
