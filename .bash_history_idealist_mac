@@ -57637,3 +57637,109 @@ cl
 ls *concat*sh
 #1608162997
 vim learn-concatenate-strings.bash
+#1608162723
+vrc
+#1608162837
+cl
+#1608162854
+ls -1 *string*sh|grep *line*
+#1608162864
+ls -1 *string*sh|grep line
+#1608162884
+vim learn-single-line-string-assignment-across-multiple-lines-for-readability.bash learn.multiline.string.sh learn.string.backslash.line.continuation.sh
+#1608163382
+man sed
+#1608162699
+cl
+#1608162706
+ls -1 *stackover*|less
+#1608162392
+cl
+#1608162404
+ls -1 *stackov*|less
+#1608156245
+cl
+#1608156250
+ls *templ*|grep vim
+#1608162454
+git mv template-stackoverflow-ask-template.txt template-learn_stackoverflow_ask_ask-template.txt
+#1608162458
+cp template-learn_stackoverflow_ask_ask-template.txt template-learn_stackoverflow_ask_ask-template.txt
+#1608162491
+cp template-learn_stackoverflow_ask_ask-template.txt learn_stackoverflow_ask_ask_vim_how_to_fold_one_single_line.txt
+#1608162517
+cp template-learn_stackoverflow_ask_ask-template.txt template-learn_stackoverflow_ask-template-.txt
+#1608162525
+git mv template-learn_stackoverflow_ask_ask-template.txt template-learn_stackoverflow_ask-template-.txt
+#1608162530
+rm template-learn_stackoverflow_ask-template-.txt
+#1608162535
+git mv template-learn_stackoverflow_ask_ask-template.txt template-learn_stackoverflow_ask-template-.txt
+#1608162537
+gs
+#1608156269
+cl
+#1608156277
+ls -l *stack*|less
+#1608155804
+vq
+#1608166655
+vdiary 
+#1608168182
+vq
+#1608178424
+vp
+#1608155705
+vjo
+#1608171619
+vq
+#1608174371
+vjo
+#1608186091
+vjo
+#1608171661
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608171661
+python manage.py runserver --insecure
+#1608171660
+rqo
+#1608217943
+vq
+#1608221209
+cd Downloads/
+#1608221211
+lh
+#1608221217
+open Resume\ Rob\ Bednark\ 2020\ Dec\ 14.pdf 
+#1608217873
+vjo
+#1608257682
+vp
+#1608309186
+j deploy
+#1608309191
+gs
+#1608309192
+gd
+#1608309239
+sm .
+#1608311088
+vp
+#1608316182
+vq
+#1608316197
+c
+#1608316200
+vq
+#1608305523
+ vq
+#1608310911
+gvimrc 
+#1608310924
+type gvimrc 
+#1608310931
+gvimrc git
+#1608310949
+vq
+#1608322618
+vp
