@@ -58129,3 +58129,99 @@ vim *psuedo*sh
 grc psuedo
 #1608342727
 vq
+#1608343318
+vvimrc 
+#1608343540
+vim
+#1608342231
+cl
+#1608342234
+git show 25464 189 ./git/logs/HEAD (Rob's Idealist MacBook's conflicted copy 2017-01-24)
+#1608342254
+git show 55f29330f7abbc5fa166b7c6fef0111d7445459d
+#1608342259
+gs
+#1608342263
+ls -ld get*
+#1608342273
+ls -ld **/*.pyc
+#1608342282
+ls -ld *.pyc
+#1608342303
+rm get_http_mt_park_rec_center_pool_availability.pyc 
+#1608342308
+ls -ld get*
+#1608342316
+vim get_availability.py 
+#1608342325
+c
+#1608342330
+gs get_http_mt_park_rec_center_pool_availability.py 
+#1608342333
+gpus
+#1608342339
+gs .
+#1608342342
+gs get_http_mt_park_rec_center_pool_availability.py 
+#1608342360
+type git.checkout.cp.files.from.other.branch 
+#1608342371
+git checkout 55f29330f7abbc5fa166b7c6fef0111d7445459d get_http_mt_park_rec_center_pool_availability.py
+#1608342378
+gs get_http_mt_park_rec_center_pool_availability.py
+#1608342381
+gd get_http_mt_park_rec_center_pool_availability.py
+#1608342383
+gs
+#1608342389
+gdc
+#1608342396
+gs
+#1608342402
+git checkout get_http_mt_park_rec_center_pool_availability.py
+#1608342404
+gs
+#1608342425
+git reset --hard get_http_mt_park_rec_center_pool_availability.py
+#1608342544
+git add learn-abort-if-variable-unset.bash learn-shellcheck.sh learn.pointers.c learn.recursive.globstar.globbing.option.star.star.bash learn.xargs.on.filenames.directorynames.with.spaces.quotes.sh learn_call_stack_trace_stack_frame.py learn_loguru_logging_package.py learn_python_disassemble_into_bytecode.py learn_selenium_with_headless_chrome_for_pool_login learn_stackoverflow_ask_* random_timer.html 
+#1608342553
+gs
+#1608342596
+c
+#1608342596
+gs
+#1608342610
+c
+#1608342649
+git show 2310430a1276c7a6269adc2d757e4a653a322979
+#1608342664
+git.checkout.cp.files.from.other.branch 
+#1608342672
+git checkout 2310430a1276c7a6269adc2d757e4a653a322979 get_http_mt_park_rec_center_pool_availability.py /tmp
+#1608342855
+git show 2310430a1276c7a6269adc2d757e4a653a322979:get_http_mt_park_rec_center_pool_availability.py
+#1608342861
+git show 2310430a1276c7a6269adc2d757e4a653a322979:get_http_mt_park_rec_center_pool_availability.py > /tmp/foo
+#1608342862
+vim /tmp/foo
+#1608343054
+git show 2310430a1276c7a6269adc2d757e4a653a322979:get_http_mt_park_rec_center_pool_availability.py > /tmp/foo
+#1608343062
+gs
+#1608343069
+vim get_http_mt_park_rec_center_pool_availability.py /tmp/foo
+#1608343255
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1608343263
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --login
+#1608343254
+pshd
+#1608343023
+git.copy.file.from.commit.ish 
+#1608343030
+git.show.copy.file.contents 
+#1608343220
+cl
+#1608343224
+vim *click*py
