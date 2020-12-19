@@ -57937,3 +57937,53 @@ shopt -u globstar
 shopt globstar
 #1608339425
 ls **/*.py
+#1608339731
+cl
+#1608339733
+cd .git
+#1608339746
+ls -1 **/*conflict*
+#1608340154
+cp -p **/*conflict* ../dropbox-conflicted-files/
+#1608340172
+ls -1 **/*conflict*
+#1608340335
+gcp --parents -p **/*conflict* ../dropbox-conflicted-files/
+#1608340396
+ls -1d **/*conflict*
+#1608340400
+ls -ld **/*conflict*
+#1608340467
+sum **/*conflict*
+#1608340477
+sum **/*conflict*|sort 
+#1608340520
+sum **/master*conflict*|sort 
+#1608340522
+c
+#1608340525
+sum **/master*conflict*|sort 
+#1608340585
+sum **/logs/**/master*conflict*|sort 
+#1608340676
+c
+#1608340687
+sum **/*conflicted*
+#1608340710
+sum **/logs/***conflicted*
+#1608340716
+sum **/logs/**/*conflicted*
+#1608340721
+sum **/logs/**/*conflicted*|sort
+#1608340736
+rm **/logs/**/*conflicted*
+#1608340744
+c
+#1608340749
+ls -ld **/*conflicted*
+#1608340812
+sum **/*conflicted*|sort
+#1608340968
+rm -f **/*conflicted*
+#1608340973
+ls -ld **/*conflic*
