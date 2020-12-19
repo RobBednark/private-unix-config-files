@@ -74,8 +74,10 @@ iab _wi 😉
 " \d ==> (diff)  :r!git diff --cached
 " \e ==> open the file in Chrome
 " \g ==> :GitGutterDisable
+" \h ==> highlight the text inside the matching brace/parenthesis for 3 seconds
 " \l ==> "subLime Text": open current file in Sublime
-" \m ==> highlight the text inside the matching brace/parenthesis for 3 seconds
+" \m ==> open Sublime Merge on the directory of the current file
+" \M ==> open Sublime Text on the current file
 " \n ==> add python nose set_trace()
 " \p ==> add python import pdb; pdb.set_trace()
 " \r ==> :TabooRename  (rename the current tab)
@@ -91,10 +93,11 @@ map <silent> <leader>C :w<esc>:!python3 -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>e :!open -a google\ chrome % <esc>
 map <silent> <leader>g :GitGutterDisable <esc>
+map <leader>h  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>l :call AddSeparatorLineEquals()<esc>
-map <silent> <leader>m :!open -a sublime\ text % <esc>
+map <silent> <leader>m :!(set -x; open -a Sublime\ Merge\ 2 $(dirname %)) <esc>
+map <silent> <leader>M :!open -a sublime\ text % <esc>
 map <silent> <leader>L :call AddSeparatorLineDashed()<esc>
-map <leader>m  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>n oimport nose; nose.tools.set_trace()<esc>
 map <silent> <leader>p oimport pdb; pdb.set_trace()<esc>
 map <silent> <leader>r :TabooRename 
@@ -464,6 +467,7 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 " :help function ==> list all built-in functions
 " :redir @a    :map     :redir END     ==> redirect output of ":map" to the @a buffer
 " :tabnew myfile  ==> open file in a new tab
+" :verbose map \m   => show mapping and where it was set (e.g., what line in .vimrc file)
 " ================================================================================
 " The End.
 " ================================================================================

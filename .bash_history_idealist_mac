@@ -57785,3 +57785,9 @@ c
 cd
 #1608335394
 vim /tmp/myrepo/foo 
+#1608336070
+vq
+#1608337124
+v cron
+#1608337905
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
