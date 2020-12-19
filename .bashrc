@@ -363,6 +363,7 @@ alias git.branch.mv.rename.remote="echo '
 alias git.branch.rm.on.remote.repo="git push origin --delete"  # add name of branch to remove
 alias git.checkout.cp.files.from.other.branch="echo 'git checkout other-branch my-file1 my-file2 my-subdir'"
 alias git.checkout.undo.modifications.to.working.file="echo 'To undo changes to a file (they will be lost): \"git checkout my-file\"'"
+alias git.copy.file.from.commit.ish="echo 'see git.show.copy.file.contents'"
 alias git.diff.csv.word.diff="git diff --word-diff --word-diff-regex=,"
 alias git.diff.exclude.a.file="echo git diff master...original . ':(exclude)package-lock.json'"
 alias git.diff.filenames.change.summary="git diff --stat"
@@ -416,6 +417,7 @@ alias git.rm.untracked.files="git clean -f"
 alias git.rm.untracked.directories="git clean -df"
 alias git.show.commit.hash.for.HEAD="git show --no-patch --format=%h"
 alias git.show.commit.hash.for.HEAD.2="git show --no-patch --format=%H; git show --no-patch --format=%h"
+alias git.show.copy.file.contents='echo "git show <commit-ish>:/path/myfile > /tmp/foo"'
 alias git.show.contents.of.file.for.commit='echo "git show  <commit>:<filename> to show the contents of <filename> for <commit>"'
 alias git.show.parent.commit="git log --pretty=%P -n 1"
 alias git.show.describe.first.tag.reachable.from.HEAD="git describe"

@@ -58121,3 +58121,9 @@ rmdir logs/
 cd ..
 #1608342205
 ls -ld **/*conflicted*
+#1608342922
+cl
+#1608342925
+vim *psuedo*sh
+#1608342930
+grc psuedo
