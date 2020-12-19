@@ -468,6 +468,7 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 " :redir @a    :map     :redir END     ==> redirect output of ":map" to the @a buffer
 " :tabnew myfile  ==> open file in a new tab
 " :verbose map \m   => show mapping and where it was set (e.g., what line in .vimrc file)
+" zD  => recursively delete all folds on the line under the cursor
 " ================================================================================
 " The End.
 " ================================================================================
