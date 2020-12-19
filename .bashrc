@@ -27,6 +27,7 @@ fi
 # bash
 # histappend => If the histappend shell option is enabled, the lines are appended to the history file, otherwise the history file is overwritten.
 shopt -s histappend
+shopt -s globstar  # enable ** to be interpreted as recursive globbing (e.g., **/*.py expands to all *.py files recursively)
 
 # Show all lines of history, not just the last 15 lines.
 alias hless="history|less"
