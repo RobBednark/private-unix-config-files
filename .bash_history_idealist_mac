@@ -58003,3 +58003,121 @@ cl
 ls *find*sh
 #1608341099
 vim *find*sh
+#1608341049
+grc
+#1608341058
+grc find
+#1608340235
+cl
+#1608340237
+cd dropbox-conflicted-files/
+#1608340242
+find .
+#1608340264
+c
+#1608340268
+ls git/
+#1608340295
+ls git
+#1608340353
+mv logs refs git
+#1608340360
+ls git
+#1608340363
+c
+#1608340365
+ls git/
+#1608340370
+ls git/logs
+#1608340372
+ls logs/
+#1608340407
+ls -ld **/*conflict*
+#1608340417
+c
+#1608340422
+ls -ld **/master
+#1608340438
+ls -ld **/master*conflict*
+#1608340464
+sum **/master*conflict*
+#1608340484
+sum **/master*conflict*|sort
+#1608340541
+c
+#1608340545
+sum **/master*conflict*|sort
+#1608340560
+ls -1
+#1608340573
+sum ma*
+#1608340575
+sum ma*|sort
+#1608340607
+ls -ld **/mas*
+#1608340640
+sum logs/refs/heads/ma*|sort
+#1608340659
+sum mast*|sort
+#1608340669
+rm -f master*
+#1608340670
+ls -l
+#1608340673
+c
+#1608340697
+sum logs/refs/heads/mas*
+#1608340700
+sum logs/refs/heads/mas*|sort
+#1608340756
+c
+#1608340765
+ls -ld **/*conflicted*
+#1608340842
+sum **/refs/heads/master*|sort 
+#1608340984
+c
+#1608340988
+ls -ld **
+#1608341015
+sum **
+#1608341019
+sum **/*
+#1608341023
+c
+#1608341030
+find . -type f -exec sum
+#1608341033
+find . -type f -exec sum ;
+#1608341036
+find . -type f -exec sum \;
+#1608341042
+find . -type f -exec sum {};
+#1608341045
+find . -type f -exec sum {}\;
+#1608341147
+find . -type f |xargs sum
+#1608341157
+find . -type f
+#1608341165
+find . -type f|xargs ls -ld
+#1608341716
+find . -type f -print0 |xargs ls -ld
+#1608341721
+find . -type f -print0 |xargs -0 ls -ld
+#1608342102
+find . -type f -print0 |xargs -0 sum
+#1608342104
+find . -type f -print0 |xargs -0 sum|sort
+#1608342159
+ls logs
+#1608342190
+mv logs/refs git/logs/
+#1608342193
+ls logs/
+#1608342195
+rmdir logs/
+#1608342198
+cd ..
+#1608342205
+ls -ld **/*conflicted*
