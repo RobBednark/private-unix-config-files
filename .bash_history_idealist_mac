@@ -57817,3 +57817,123 @@ $DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=
 scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
 #1608338088
 pshd
+#1608338060
+v http
+#1608338178
+cl
+#1608338181
+git show 55f29330f7abbc5fa166b7c6fef0111d7445459d
+#1608338196
+git.checkout.cp.files.from.other.branch 
+#1608338221
+gs
+#1608338234
+git diff get_http_mt_park_rec_center_pool_availability.py
+#1608338237
+git show get_http_mt_park_rec_center_pool_availability.py
+#1608338241
+lh
+#1608338265
+cd .git
+#1608338266
+ls -altr
+#1608338289
+find .|grep conflicted
+#1608338302
+ls -l
+#1608338308
+ls -ld *confl*
+#1608338320
+ls -ld ./*conf*
+#1608338324
+ls -ld ./*conflic*
+#1608338372
+mkdir ../dropbox-conflicted-files
+#1608338376
+ls -ld *confl*
+#1608338380
+mv *confl* ../dropbox-conflicted-files/
+#1608338385
+find .|grep conflicted
+#1608338409
+ls */*conflict*
+#1608338413
+ls -ld */*conflict*
+#1608338419
+mv */*conflict* ../dropbox-conflicted-files/
+#1608338421
+ls ../dropbox-conflicted-files/
+#1608338429
+gs
+#1608338431
+cd ..
+#1608338432
+gs
+#1608338434
+cd -
+#1608338437
+find .|grep conflicted
+#1608338569
+cd ../dropbox-conflicted-files/
+#1608338585
+mkdir git
+#1608338589
+mv ind* git
+#1608338608
+mkdir git/logs
+#1608338613
+mv HEAD* git/logs
+#1608338615
+ls git
+#1608338621
+gs
+#1608338626
+cd ..
+#1608338632
+vim .gitignore 
+#1608338640
+gs
+#1608338648
+ls *parent*sh
+#1608338658
+vim learn.cp.gcp.--parents.option.to.copy.directory.structure.as.well.bash 
+#1608338692
+cd .git
+#1608338704
+ls -ld **/*conflicted*
+#1608338712
+ls -ld **/**conflicted**
+#1608339321
+vrc
+#1608338768
+cl
+#1608338771
+ls *glob*sh
+#1608338823
+vim learn.recursive.globstar.globbing.option.star.star.bash
+#1608339432
+shopt
+#1608339439
+ls **/*.py
+#1608339445
+shopt -s globstar
+#1608339446
+ls **/*.py
+#1608339384
+cdqn
+#1608339387
+ls **.py
+#1608339395
+shopt -s globstar
+#1608339397
+ls **.py
+#1608339400
+shopt
+#1608339409
+ls **/*.py
+#1608339419
+shopt -u globstar
+#1608339422
+shopt globstar
+#1608339425
+ls **/*.py
