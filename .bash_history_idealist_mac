@@ -57989,3 +57989,17 @@ rm -f **/*conflicted*
 ls -ld **/*conflic*
 #1608339571
 vrc
+#1608341177
+cl
+#1608341180
+ls *xargs*
+#1608341181
+vim *xargs*
+#1608341246
+vim learn.xargs.on.filenames.directorynames.with.spaces.quotes.sh
+#1608341096
+cl
+#1608341098
+ls *find*sh
+#1608341099
+vim *find*sh
