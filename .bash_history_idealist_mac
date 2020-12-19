@@ -57791,3 +57791,29 @@ vq
 v cron
 #1608337905
 scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1608337165
+vvimrc 
+#1608337578
+open sublime\ merge
+#1608337585
+open -a sublime\ merge
+#1608337589
+type sm
+#1608337592
+type subl.merge
+#1608335053
+vvimrc 
+#1608335517
+ps 
+#1608335522
+ps -ealf
+#1608338090
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1608338091
+/always
+#1608338095
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1608338103
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1608338088
+pshd
