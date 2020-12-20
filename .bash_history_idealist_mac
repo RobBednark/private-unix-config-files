@@ -58523,3 +58523,102 @@ lh
 open Chase3156_Activity_20201220.CSV 
 #1608494675
 vrc
+#1608494178
+open Chase3156_Activity_20201220.CSV 
+#1608495132
+man bash
+#1608495154
+cd /tmp
+#1608495166
+vim script
+#1608495195
+bash < script 
+#1608495204
+bash <<END_COMMANDS
+echo begin
+date
+echo end
+# my comment
+echo very end
+END_COMMANDS
+
+#1608495228
+bash <<END_COMMANDS
+echo begin
+date
+echo end
+# my comment
+echo very end
+END_COMMANDS
+
+#1608495234
+bash <<END_COMMANDS
+set -x
+echo begin
+date
+echo end
+# my comment
+echo very end
+END_COMMANDS
+
+#1608495243
+bash << END_COMMANDS
+set -x
+echo begin
+date
+echo end
+# my comment
+echo very end
+END_COMMANDS
+
+#1608495631
+cl
+#1608495641
+ls *input*sh
+#1608495644
+ls *redirct*sh
+#1608495648
+ls *redirect*sh
+#1608495686
+vim learn.redirect.input.commands.from.<<.stdin.bash.for.stackoverflow.sh
+#1608495701
+vim learn.redirect.input.commands.from.lessthan.lessthan.stdin.bash.for.stackoverflow.sh
+#1608495736
+vrc
+#1608494375
+j vo
+#1608494380
+vim run.sh 
+#1608494652
+docker-rm-all-containers 
+#1608494665
+docker-stop-and-rm-all-containers 
+#1608494736
+dotrc
+#1608494739
+docker-kill-and-rm-all-containers 
+#1608494941
+cat <<EOF > /dev/null
+asdf
+EOF
+
+#1608494949
+vrc
+#1608495332
+docker-kill-and-rm-all-containers 
+#1608495905
+vq
+#1608495918
+vdiary 
+#1608497414
+j deploy__
+#1608497420
+j vol
+#1608478318
+cl
+#1608478320
+lh
+#1608478367
+cp stackoverflow_ask_template.txt learn_stackoverflow_ask_docker_volume_files_not_seen_either_direction.txt
+#1608478382
+vim learn_stackoverflow_ask_docker_volume_files_not_seen_either_direction.txt
