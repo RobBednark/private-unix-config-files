@@ -15,7 +15,8 @@ set ic   " ignorecase
 set incsearch " incremental search
 set modeline  " look for /* vim: */ modeline settings at the beginning of a file
 set modelines=5  " Look for /* vim: ...: */ settings in the first/last this many lines of the file; if 0, modelines is disabled
-set nows " nowrapscan - don't wrap around to beginning after search hits end-of-file
+set ws " nowrapscan - don't wrap around to beginning after search hits end-of-file
+" set nows " nowrapscan - don't wrap around to beginning after search hits end-of-file
 set scrolloff=5  " when searching, keep the next match 5 lines from the bottom
 " secure => disallow risky commands from local .vimrc/.exrc files  (:help secure)
 set secure
