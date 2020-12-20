@@ -58439,3 +58439,85 @@ ls -1 *stackov*|less
 j vol
 #1608484530
 vim run.sh 
+#1608490487
+bc -l
+#1608491580
+vvimrc 
+#1608492833
+cdstatements 
+#1608492844
+cd taxes/
+#1608492848
+mkdir 2020
+#1608492860
+cd ..
+#1608492868
+ls -ld *over*
+#1608492874
+cd *97
+#1608492946
+ln -s ../taxes/2020/TDA2422-TDAmeritrade-River-Coverdell-withdrawal-14239--2020-12-20.pdf 
+#1608493890
+bc -l 2276 + 1500 + 5428 + 5235
+#1608493897
+man bc
+#1608493936
+bc -l
+#1608491395
+cdstatements 
+#1608491399
+ls -ld *meri*
+#1608491407
+cd TDAmeritrade.River.Coverdell.educational.IRA.3897
+#1608491413
+open *pdf
+#1608491845
+cd ..
+#1608491851
+find .|head
+#1608491859
+find .|grep 2422
+#1608491880
+cd Statements.and.bills/taxes/2019/
+#1608491886
+open *Cover*
+#1608492755
+c
+#1608492756
+ls -l
+#1608492764
+ls -ls *Cover*
+#1608492857
+cp -p TDA2422-TDAmeritrade-River-Coverdell-withdrawal-2019\ copy.pdf ../2020/
+#1608492887
+cd ../2020/
+#1608492930
+mv TDA2422-TDAmeritrade-River-Coverdell-withdrawal-2019\ copy.pdf TDA2422-TDAmeritrade-River-Coverdell-withdrawal-14239--2020-12-20.pdf 
+#1608492955
+open TDA2422-TDAmeritrade-River-Coverdell-withdrawal-14239--2020-12-20.pdf 
+#1608493529
+vim README
+#1608490033
+type vd
+#1608490035
+vd
+#1608494108
+cdstatements 
+#1608494111
+cd taxes/2020/
+#1608494162
+cdstatements 
+#1608494204
+mv ~/Downloads/Chase3156_Activity_20201220.CSV Chase.checking/
+#1608494205
+cd Chase.checking/
+#1608494208
+lh
+#1608494228
+mv Chase3156_Activity_20201220.CSV Chase3156_Activity_20201224-20201220.csv
+#1608494159
+cd Downloads/
+#1608494165
+lh
+#1608494178
+open Chase3156_Activity_20201220.CSV 
