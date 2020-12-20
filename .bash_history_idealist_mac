@@ -58225,3 +58225,107 @@ git.show.copy.file.contents
 cl
 #1608343224
 vim *click*py
+#1608342765
+vrc
+#1608346200
+vp
+#1608394710
+j deploy
+#1608394715
+gs
+#1608394722
+vim build-and-push-images.sh 
+#1608394927
+j deploy
+#1608394943
+c
+#1608394951
+/ssh
+#1608394976
+grrc 204
+#1608394980
+grc 204
+#1608394996
+sudo vim /etc/hosts
+#1608395072
+ssh root@linode < deploy.sh |& tee /tmp/log |&less
+#1608395218
+vim /tmp/log
+#1608394758
+sl
+#1608392167
+vq
+#1608392647
+vq
+#1608398583
+vp
+#1608402363
+vdiary 
+#1608402248
+vq
+#1608406256
+j docker
+#1608406258
+cd ..
+#1608406262
+ls -ld *vol*
+#1608406270
+mkdir learn-docker-volumes-and-bind-mounts
+#1608406271
+cd learn-docker-volumes-and-bind-mounts
+#1608406285
+vim run.sh
+#1608406303
+j volume
+#1608406703
+docker stop --help
+#1608406711
+docker kill
+#1608406333
+j deplo
+#1608406336
+cat deploy.sh 
+#1608424639
+docker run --rm alpine (ls; date)
+#1608424643
+docker run --rm alpine '(ls; date)'
+#1608424659
+docker run --rm alpine ash -c 'ls; date'
+#1608424988
+    docker run         -v /host/directory:/container/directory         alpine         ls /container/directory
+#1608425002
+docker run -v /tmp:/container/directory         alpine         ls /container/directory
+#1608425450
+j deploy
+#1608425456
+j vole
+#1608425459
+j volum
+#1608425462
+vim run.sh 
+#1608426930
+docker run --help|&less
+#1608426733
+docker volume --help|&less
+#1608426744
+docker volume create --help|&less
+#1608426753
+j vol
+#1608426756
+gs .
+#1608426763
+git log
+#1608426776
+git.rev-parse.show.toplevel.repo.dir 
+#1608426782
+git init .
+#1608426786
+git add run.sh 
+#1608426791
+gcam 'initial; works'
+#1608426792
+vim run.sh 
+#1608428227
+vdiary 
+#1608436274
+vq
