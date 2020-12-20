@@ -187,6 +187,7 @@ FileDirsAllGrep+=" $DirQuiz"
 FileDirsAllGrep+=" $DirRepoRobBednarkGithubIO"
 FileDirsAllGrep+=" $DirResume"
 FileDirsAllGrep+=" $DirText"
+FileDirsAllGrep+=" $DirTmp"
 
 if $MacOSX; then
     alias open.adobe.reader='open -a "Adobe Reader"'

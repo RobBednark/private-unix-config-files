@@ -58329,3 +58329,37 @@ vim run.sh
 vdiary 
 #1608436274
 vq
+#1608436951
+rg bednark $FileDirsAllGrep 
+#1608436961
+rg bio $FileDirsAllGrep 
+#1608436968
+rg bio $FileDirsAllGrep |&less
+#1608436993
+cd tmp
+#1608436998
+rm swagger-ui.*
+#1608437061
+imgcat tumblr_nw22l60svt1r2ekhjo1_500.gif 
+#1608437091
+open tumblr_nw22l60svt1r2ekhjo1_500.gif
+#1608437102
+chrome tumblr_nw22l60svt1r2ekhjo1_500.gif
+#1608437109
+chrome-open tumblr_nw22l60svt1r2ekhjo1_500.gif 
+#1608437233
+mv tumblr_nw22l60svt1r2ekhjo1_500.gif ~/Downloads/downloaded-images/
+#1608437522
+cd ~/Downloads/downloaded-images/
+#1608437523
+lh
+#1608437525
+l
+#1608437541
+mv tumblr_nw22l60svt1r2ekhjo1_500.gif sistine-chapel.gif
+#1608437545
+pbcopy < sistine-chapel.gif 
+#1608437985
+ls -ltr
+#1608438036
+open .
