@@ -58363,3 +58363,79 @@ pbcopy < sistine-chapel.gif
 ls -ltr
 #1608438036
 open .
+#1608436894
+vrc
+#1608436004
+vq
+#1608437052
+type imgcat
+#1608434786
+vp
+#1608478476
+vq
+#1608479721
+docker run --help|&less
+#1608479730
+docker run -v --help|&less
+#1608479901
+j depl
+#1608479902
+c
+#1608479909
+vim deploy.sh 
+#1608480417
+sl
+#1608479517
+j vol
+#1608479519
+c
+#1608479529
+vim run.sh 
+#1608479950
+j deploy
+#1608479964
+date -s
+#1608479969
+date -r
+#1608479976
+ssh root@linode < deploy.sh |& tee /tmp/log |&less
+#1608480099
+c
+#1608480206
+ssh root@linode < deploy.sh |& tee /tmp/log |&less
+#1608480441
+scp -p ~/.bashrc root@linode
+#1608480488
+scp -p ~/.bashrc root@linode:/root
+#1608480697
+ssh root@linode < deploy.sh |& tee /tmp/log |&less
+#1608480721
+mkdir nginx.conf
+#1608480725
+mv default.conf nginx.conf/
+#1608480781
+cp update-nginx-conf.sh
+#1608480783
+vim update-nginx-conf.sh
+#1608480852
+mv nginx.conf nginx.d
+#1608480947
+man date
+#1608480970
+tree
+#1608480982
+ssh root@linode < deploy.sh |& tee /tmp/log |&less
+#1608481248
+git clone https://github.com/RobBednark/quiz-me.git /tmp
+#1608481253
+git clone https://github.com/RobBednark/quiz-me.git /tmp/quizme
+#1608481290
+ssh root@linode < deploy.sh |& tee /tmp/log |&less
+#1608478336
+cl
+#1608478345
+ls -1 *stackov*|less
+#1608484528
+j vol
+#1608484530
+vim run.sh 
