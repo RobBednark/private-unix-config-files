@@ -1613,6 +1613,10 @@ source ~/.local/bin/bashpast.sh
 ################################################################################
 # apk add bash less mandoc man-pages vim   ==> alpine useful packages to add
 # atom (GUI editor)
+# bash << END_COMMANDS  (useful for repeating a script, or for posting on stackoverflow)
+#  set -x
+#  echo something
+#  END_COMMANDS
 # brew services ==> show brew services status (chromedriver, postgresql)
 # cat <<END_COMMENT > /dev/null  ==> useful for multiline comment in a shell script
 # exa (a better/replacement "ls")  https://the.exa.website/ 
