@@ -176,18 +176,18 @@ FileToDo="$DirDoc/todo.txt"
 FileVimrc="$DirUnixConfigFiles/.vimrc"
 FileVocab="$DirBednarkCom/cpp/vocab.cpp"
 FilesDirsAllGrep=""
-FileDirsAllGrep+=" $DirAddToQuizme"
-FileDirsAllGrep+=" $DirBednarkCom"
-FileDirsAllGrep+=" $DirDoc"
-FileDirsAllGrep+=" $DirFamilyTree"
-FileDirsAllGrep+=" $DirLearn"
-FileDirsAllGrep+=" $DirMoovel"
-FileDirsAllGrep+=" $DirPublicHtml"
-FileDirsAllGrep+=" $DirQuiz"
-FileDirsAllGrep+=" $DirRepoRobBednarkGithubIO"
-FileDirsAllGrep+=" $DirResume"
-FileDirsAllGrep+=" $DirText"
-FileDirsAllGrep+=" $DirTmp"
+FilesDirsAllGrep+=" $DirAddToQuizme"
+FilesDirsAllGrep+=" $DirBednarkCom"
+FilesDirsAllGrep+=" $DirDoc"
+FilesDirsAllGrep+=" $DirFamilyTree"
+FilesDirsAllGrep+=" $DirLearn"
+FilesDirsAllGrep+=" $DirMoovel"
+FilesDirsAllGrep+=" $DirPublicHtml"
+FilesDirsAllGrep+=" $DirQuiz"
+FilesDirsAllGrep+=" $DirRepoRobBednarkGithubIO"
+FilesDirsAllGrep+=" $DirResume"
+FilesDirsAllGrep+=" $DirText"
+FilesDirsAllGrep+=" $DirTmp"
 
 if $MacOSX; then
     alias open.adobe.reader='open -a "Adobe Reader"'
@@ -1047,6 +1047,12 @@ function repeat() {  # repeat/run a command multiple times, e.g., repeat 5 echo 
     for _num in $(seq $_num_times); do
         $@
     done
+}
+function rg-all-files-dirs() {
+    expr="$@"
+    # NOTE: this doesn't work with single or double quotes, even if escaped
+    # e.g., rg-all-files-dirs -i '\<foo\>'
+    rg $expr $FilesDirsAllGrep
 }
 function scp.sync() {
     allFiles=""

@@ -58622,3 +58622,59 @@ lh
 cp stackoverflow_ask_template.txt learn_stackoverflow_ask_docker_volume_files_not_seen_either_direction.txt
 #1608478382
 vim learn_stackoverflow_ask_docker_volume_files_not_seen_either_direction.txt
+#1608498023
+rg-all-files-dirs -i martell
+#1608498030
+rg --help
+#1608498034
+man rg
+#1608498066
+set -x
+#1608498070
+rg-all-files-dirs -i martell
+#1608498099
+rg -i martell
+#1608498114
+rg-all-files-dirs -i martell
+#1608498241
+ls -ld work/
+#1608498266
+echo $FilesDirsAllGrep 
+#1608498245
+cd work/
+#1608498248
+ls -ld work
+#1608498253
+rmdir work
+#1608498273
+echo $FilesDirsAllGrep 
+#1608498321
+rg-all-files-dirs -i martell
+#1608498383
+rg-all-files-dirs martell
+#1608498409
+rg-all-files-dirs Martell
+#1608498415
+rg-all-files-dirs -i martell
+#1608498421
+rg-all-files-dirs -i 'martell\>'
+#1608498445
+rg-all-files-dirs -i "martell\>"
+#1608498453
+rg-all-files-dirs -i \"martell\>\"
+#1608498460
+rg-all-files-dirs -i \'martell\>\'
+#1608498544
+rg-all-files-dirs -i ''martell\>''
+#1608498552
+rg-all-files-dirs -i "'martell\>'"
+#1608498565
+rg-all-files-dirs -i "'martell\\>'"
+#1608498648
+rg-all-files-dirs -i "'martell'"
+#1608498794
+rg -i 'martell\>' $FilesDirsAllGrep 
+#1608498799
+man rg
+#1608498846
+rg -i 'martell\b' $FilesDirsAllGrep 
