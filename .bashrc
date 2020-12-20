@@ -1614,6 +1614,7 @@ source ~/.local/bin/bashpast.sh
 # apk add bash less mandoc man-pages vim   ==> alpine useful packages to add
 # atom (GUI editor)
 # brew services ==> show brew services status (chromedriver, postgresql)
+# cat <<END_COMMENT > /dev/null  ==> useful for multiline comment in a shell script
 # exa (a better/replacement "ls")  https://the.exa.website/ 
 #   brew install eva
 # fd (a better "find" replacement) (fd -h)
