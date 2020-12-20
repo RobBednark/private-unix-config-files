@@ -252,18 +252,19 @@ alias cl=cdlearn
 ################################################################################
 
 alias docker-disk-usage="docker system df"
+alias docker-kill-all-containers='(set -x; docker kill $(docker ps -a -q))'
 alias docker-rm-prune-everything="(set -x; time docker system prune --all --volumes)"
 alias docker-rm-prune-everything.2="(set -x; date; docker.rm.prune.everything; time docker-compose down -v; time ./bin/clean-docker.sh; time ./bin/reset.sh)"
 alias docker-exec="echo 'docker exec -it {container-name} bash'"
 alias docker-rm-all-containers='(set -x; docker rm $(docker ps --all --quiet); docker ps -a)'
 alias docker-rm-all-images='(set -x; docker rmi $(docker images --all --quiet) --force; docker images -a)' # remove all images
-alias docker-rm-all-images-and-containers='(set -x; docker-stop-and-rm-all-containers; docker-rm-all-images)'
+alias docker-rm-all-images-and-containers='(set -x; docker-kill-and-rm-all-containers; docker-rm-all-images)'
 alias docker-rm-all-networks='docker network prune'
 alias docker-run="docker run -it --rm"  # e.g., docker-run alpine /bin/sh  (pull the "alpine" image from docker hub and run it)
 alias docker-run-alpine="docker run -it --rm alpine sh"  # e.g., docker-run alpine /bin/sh  (pull the "alpine" image from docker hub and run it)
 alias docker-service-names='docker stats --format "{{.Name}}" --no-stream |sort '
 alias docker.stats="docker stats --no-trunc --no-stream "
-alias docker-stop-and-rm-all-containers='docker-stop-all-containers; docker-rm-all-containers'
+alias docker-kill-and-rm-all-containers='docker-kill-all-containers; docker-rm-all-containers'
 alias docker-stop-all-containers='(set -x; docker stop $(docker ps -a -q))'
 alias docker-wait-until-engine-is-up='while ! docker info >& /dev/null; do sleep 1; done'
 #alias docker.stats.names="docker stats $(docker ps | awk \'{if(NR>1) print $NF}\')"  
