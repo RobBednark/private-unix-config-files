@@ -1623,6 +1623,7 @@ source ~/.local/bin/bashpast.sh
 #  set -x
 #  echo something
 #  END_COMMANDS
+# bashpast -- bookmarks commands for easier repeated invocation
 # brew services ==> show brew services status (chromedriver, postgresql)
 # cat <<END_COMMENT > /dev/null  ==> useful for multiline comment in a shell script
 # date '+%s'  ==> seconds since the epoch
