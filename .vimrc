@@ -74,6 +74,7 @@ iab _wi 😉
 " \C ==> :!python -m py_compile %
 " \d ==> (diff)  :r!git diff --cached
 " \e ==> open the file in Chrome
+" \f ==> (f)iles -- open MRU for most-recently opened files
 " \g ==> :GitGutterDisable
 " \h ==> highlight the text inside the matching brace/parenthesis for 3 seconds
 " \l ==> "subLime Text": open current file in Sublime
@@ -93,6 +94,7 @@ map <silent> <leader>c :w<CR>:!(set -x; cd $(dirname %); git commit -am'incremen
 map <silent> <leader>C :w<esc>:!python3 -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>e :!open -a google\ chrome % <esc>
+map <silent> <leader>f :MRU<CR>
 map <silent> <leader>g :GitGutterDisable <esc>
 map <leader>h  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>l :call AddSeparatorLineEquals()<esc>
@@ -245,7 +247,6 @@ Plugin 'VundleVim/Vundle.vim'
 " ================================================================================
 " #Start Bundles
 " ================================================================================
-
 " vim-rainbow-parenthesis -- give different colors to each pair of parentheses/brackets/html-tags/...
 " https://github.com/luochen1990/rainbow
 Bundle 'luochen1990/rainbow'
@@ -406,6 +407,14 @@ Bundle 'will133/vim-dirdiff'
 
 " emoji picker / completions
 Bundle 'FuDesign2008/emoji-snippets.vim'
+
+" MRU - "Most-recently used" -- recently opened files in Vim
+" https://github.com/yegappan/mru/wiki/User-Manual
+
+Bundle 'https://github.com/yegappan/mru'
+" ================================================================================
+" #End   Bundles
+" ================================================================================
 
 " ================================================================================
 " #Start Bundle post-commands
