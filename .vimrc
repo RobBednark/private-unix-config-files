@@ -70,7 +70,7 @@ iab _wi 😉
 " create a macros for inserting traces for pdb and for nose.
 " To use, in command mode, type <backslash> followed by "b" or "n"
 " \a ==> :ALEfix  (fix javascript prettier/eslint errors using the ALE plugin)
-" \b ==> :browse old  (browse old files opened)
+" \b ==> :browse old  (browse old files opened)  (equivalent to :ol[dfiles])
 " \c ==> :w :!git commit -am'incremental commit'; git push
 " \C ==> :!python -m py_compile %
 " \d ==> (diff)  :r!git diff --cached
@@ -412,8 +412,12 @@ Bundle 'FuDesign2008/emoji-snippets.vim'
 
 " MRU - "Most-recently used" -- recently opened files in Vim
 " https://github.com/yegappan/mru/wiki/User-Manual
-
 Bundle 'https://github.com/yegappan/mru'
+
+" vim-oldfiles -- quickly go to a recently-opened file:
+"  :Oldfiles
+"  :Oldfiles /pattern/
+" Bundle 'https://github.com/gpanders/vim-oldfiles'
 " ================================================================================
 " #End   Bundles
 " ================================================================================
