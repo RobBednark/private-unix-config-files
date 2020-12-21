@@ -58704,3 +58704,19 @@ direnv
 brew info direnv
 #1608526790
 vq
+#1608567739
+sl
+#1608567747
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1608567778
+sl
+#1608567813
+vrc
+#1608567672
+cl
+#1608567676
+ls *date*sh
+#1608567679
+vim *date*sh
+#1608567861
+date +%s
