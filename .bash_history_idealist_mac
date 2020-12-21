@@ -58720,3 +58720,117 @@ ls *date*sh
 vim *date*sh
 #1608567861
 date +%s
+#1608568503
+sl
+#1608568520
+docker-run-alpine 
+#1608564543
+j dep
+#1608564545
+ls -altr
+#1608564550
+vim deploy.sh 
+#1608567469
+c
+#1608567470
+reset
+#1608567475
+c
+#1608567479
+gd
+#1608567497
+less root\@linode 
+#1608567502
+rm root\@linode 
+#1608567513
+gd
+#1608567521
+sm .
+#1608567584
+c
+#1608567590
+vim deploy.sh 
+#1608569254
+c
+#1608569268
+cp deploy.sh deploy-postgres.sh
+#1608569269
+vim deploy-postgres.sh
+#1608567598
+j depl__
+#1608567636
+man date
+#1608567886
+c
+#1608568590
+ssh root@linode < deploy.sh |& tee /tmp/log |&less
+#1608568605
+gs 
+#1608568610
+c
+#1608568612
+vim deploy.sh 
+#1608568971
+docker tag --help|&less
+#1608569067
+ls -ltr
+#1608569100
+./build-and-push-images.sh |& tee /tmp/build.log 
+#1608569186
+./build-and-push-images.sh |& tee /tmp/build-$(date +%s).log 
+#1608569551
+ssh root@linode < deploy-postgres.sh |& tee /tmp/deploy-postgres-$(date +%s).log |&less
+#1608569193
+ls -ltr /tmp
+#1608569198
+ls -ltr /tmp/.
+#1608569623
+sl
+#1608569706
+j postg
+#1608569710
+cd ..
+#1608569721
+ls -ld *postg*
+#1608569724
+cd learn-postgres/
+#1608569726
+c
+#1608569740
+vim *
+#1608568142
+vrc
+#1608568335
+c
+#1608568344
+bp l
+#1608568347
+type bp
+#1608568357
+bp l
+#1608568369
+type _bashpast_l
+#1608568406
+grep --color --color=never -P
+#1608568441
+grep --color --color=never -Po xyz /tmp/asdf
+#1608568451
+grep --color=never -Po xyz /tmp/asdf
+#1608568466
+grep --color=never -o xyz /tmp/asdf
+#1608568472
+grep --color --color=never -o xyz /tmp/asdf
+#1608568412
+man grep
+#1608568480
+type grep
+#1608573822
+vq
+#1608578711
+vjo
+#1608579010
+vp
+#1608580624
+vjo
+#1608582490
+vq
