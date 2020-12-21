@@ -1625,6 +1625,7 @@ source ~/.local/bin/bashpast.sh
 #  END_COMMANDS
 # brew services ==> show brew services status (chromedriver, postgresql)
 # cat <<END_COMMENT > /dev/null  ==> useful for multiline comment in a shell script
+# date '+%s'  ==> seconds since the epoch
 # exa (a better/replacement "ls")  https://the.exa.website/ 
 #   brew install eva
 # fd (a better "find" replacement) (fd -h)
