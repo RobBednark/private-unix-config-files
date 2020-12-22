@@ -55,6 +55,7 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " ================================================================================
 " #Start #abbreviations
 " ================================================================================
+iab _bu •
 iab _he ❤️
 iab _la 😂
 iab _la2 🤣
@@ -482,6 +483,7 @@ let g:ctrlp_follow_symlinks = 1  " 1 - follow but ignore looped internal symlink
 " :call myFunc  ==> call the myFunc() function
 " :help function ==> list all built-in functions
 " :redir @a    :map     :redir END     ==> redirect output of ":map" to the @a buffer
+" :source myfile  ==> source/execute/run a file of vim commands/settings
 " :tabnew myfile  ==> open file in a new tab
 " :verbose map \m   => show mapping and where it was set (e.g., what line in .vimrc file)
 " zD  => recursively delete all folds on the line under the cursor
