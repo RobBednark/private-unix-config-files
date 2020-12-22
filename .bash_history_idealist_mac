@@ -58860,3 +58860,29 @@ vim
 vq
 #1608593423
 vp
+#1608604217
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608604217
+python manage.py runserver --insecure
+#1608604394
+dotrc
+#1608604396
+type rqo
+#1608604398
+rqo
+#1608604407
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608604407
+python manage.py runserver --insecure 80
+#1608604418
+pwd
+#1608604425
+python manage.py runserver --insecure 80
+#1608604429
+sudo python manage.py runserver --insecure 80
+#1608604215
+rqo
+#1608604405
+dotrc
+#1608604406
+rqo
