@@ -58950,3 +58950,191 @@ rqo
 python manage.py runserver --insecure
 #1608650220
 rqo
+#1608654302
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608654302
+python manage.py runserver --insecure
+#1608654938
+cdqn
+#1608654940
+vim Makefile 
+#1608654818
+j depl
+#1608654824
+ssh root@linode < deploy-postgres.sh |& tee /tmp/deploy-postgres-$(date +%s).log |&less
+#1608655290
+cd ..
+#1608655293
+cd deploy/
+#1608655298
+mkdir db_data
+#1608655305
+cdqn
+#1608655308
+cd db_dumps/
+#1608655309
+lh
+#1608655319
+cp -p latest.dump.txt ~/Dropbox/git/quizme_personal_files/deploy/db_data/
+#1608655321
+j dep__
+#1608655322
+c
+#1608655328
+ls db_data/
+#1608655332
+ls -l db_data/
+#1608655338
+cd -
+#1608655343
+j dump
+#1608655346
+lh
+#1608655367
+cp dump.quizme_production.2020.12.10_Thu_22.33.57.custom.all ~/Dropbox/git/quizme_personal_files/deploy/db_data/
+#1608655369
+cd ~/Dropbox/git/quizme_personal_files/deploy/db_data/
+#1608655374
+rm latest.dump.txt 
+#1608655375
+c
+#1608655417
+ln -s dump.quizme_production.2020.12.10_Thu_22.33.57.custom.all quizme-dump-custom
+#1608655423
+cd ..
+#1608655432
+ls -l db_data/
+#1608655606
+docker copy --help|&less
+#1608655622
+docker cp --help|&less
+#1608655764
+cdqn
+#1608655766
+vim Makefile 
+#1608655835
+j depl__
+#1608655837
+ls -ltr
+#1608655843
+chmod a+x postgres-load-data.sh 
+#1608655863
+ssh root@linode < postgres-load-data.sh |& tee /tmp/postgres-load-$(date +%s).log |&less
+#1608655957
+hostname
+#1608655965
+cat postgres-load-data.sh 
+#1608655999
+./postgres-load-data.sh |& tee /tmp/postgres-load-$(date +%s).log |&less
+#1608656093
+pg_restore --help|&less
+#1608656142
+./postgres-load-data.sh |& tee /tmp/postgres-load-$(date +%s).log |&less
+#1608656243
+c
+#1608656247
+sm .
+#1608654501
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608654501
+python manage.py runserver --insecure 0.0.0.0:8000
+#1608654781
+j deploy
+#1608654782
+c
+#1608654788
+vim deploy-postgres.sh 
+#1608654322
+ipaddr
+#1608654344
+vrc
+#1608654404
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1608654475
+vrc
+#1608654498
+rqo
+#1608654835
+sl
+#1608651042
+vq
+#1608658737
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1608658739
+pip --version
+#1608658743
+pip3 --version
+#1608658748
+pip search connectivity
+#1608658718
+pip search connectivity
+#1608658723
+pip3 search connectivity
+#1608658735
+pshd
+#1608658755
+npm search connectivity
+#1608658792
+cd
+#1608658794
+ls -ld *npm*
+#1608658805
+mkdir npm-public-packages
+#1608658806
+cd npm-public-packages
+#1608658813
+npm search connectivity
+#1608658817
+npm install network-speed
+#1608658823
+npm install connectivity
+#1608658826
+c
+#1608658828
+npm search connectivity
+#1608658867
+npm installis-online is-reachable jsplum
+#1608658876
+npm install is-online is-reachable jsplum
+#1608658893
+npm init
+#1608658906
+npm run
+#1608658913
+ls -al node_modules/.bin
+#1608658919
+node_modules/.bin/connectivity 
+#1608658922
+node_modules/.bin/connectivity  --version
+#1608658926
+node_modules/.bin/connectivity  --help
+#1608658928
+node_modules/.bin/connectivity  -h
+#1608656884
+cd tmp
+#1608656887
+vim -R api.errors.
+#1608656890
+ls -ltr api*
+#1608656896
+vim api.e*
+#1608656911
+gs
+#1608656918
+git rm api.*
+#1608656922
+ls -l api*
+#1608656929
+git rm api*
+#1608656965
+c
+#1608656970
+ls -l 2016*
+#1608656972
+vim 2016*
+#1608656979
+git rm 20160610-API-add-org-400s.txt 
+#1608664990
+grc cover
+#1608664993
+vcoverletters 
