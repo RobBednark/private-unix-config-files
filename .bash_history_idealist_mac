@@ -58886,3 +58886,67 @@ rqo
 dotrc
 #1608604406
 rqo
+#1608604222
+grc address
+#1608604227
+grc addr
+#1608604231
+ipaddr
+#1608604372
+vrc
+#1608604958
+vq
+#1608606751
+cdstatements 
+#1608606755
+cd Chase.checking/
+#1608606757
+lh
+#1608606760
+open *csv
+#1608606996
+vq
+#1608604800
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608604800
+python manage.py runserver --insecure
+#1608604855
+./manage.py runserver --insecure
+#1608604879
+./manage.py runserver --insecure 192.168.1.2
+#1608604886
+./manage.py runserver --insecure 192.168.1.2:80
+#1608604892
+./manage.py runserver --insecure 192.168.1.2:8000
+#1608650120
+gpus
+#1608604799
+rqo
+#1608604869
+ipaddr
+#1608604901
+cdqn
+#1608604902
+vi
+#1608650241
+brew info postgres
+#1608650251
+brew
+#1608650259
+brew commands
+#1608650314
+brew services
+#1608650324
+reqo
+#1608650222
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608650222
+python manage.py runserver --insecure
+#1608650328
+rqo
+#1608650333
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608650333
+python manage.py runserver --insecure
+#1608650220
+rqo
