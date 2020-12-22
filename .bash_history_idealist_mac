@@ -59140,3 +59140,83 @@ grc cover
 vcoverletters 
 #1608664744
 vjo
+#1608665156
+vvimrc 
+#1608665250
+vq
+#1608666504
+sl
+#1608666436
+j depl
+#1608666476
+ls -al
+#1608666477
+gs
+#1608666478
+gd
+#1608666483
+ls -ltr
+#1608666486
+vim postgres-load-data.sh 
+#1608667066
+j dep
+#1608667076
+./postgres-load-data.sh |& tee /tmp/postgres-load-$(date +%s).log |&less
+#1608664655
+type ping.monitor
+#1608664659
+cd tmp
+#1608664660
+ls -ltr
+#1608664674
+grep time.DOWN ping.monitor.active 
+#1608664695
+watch -n 10 grep time.DOWN ping.monitor.active 
+#1608664724
+watch -n 10 'grep time.DOWN ping.monitor.active |tail -20'
+#1608665460
+time curl google.com
+#1608665470
+time curl -I google.com
+#1608665485
+time curl -I http://google.com
+#1608665499
+time curl -I https://google.com
+#1608665505
+time curl -I https://github.com
+#1608665523
+watch -n 20 time curl -I https://github.com
+#1608665532
+man time
+#1608665544
+ls /usr/local/bin/*time*
+#1608665550
+guptime
+#1608665559
+time --help
+#1608665563
+time -h
+#1608665578
+man time
+#1608665587
+time -p date
+#1608665593
+/wat
+#1608665600
+watch -n 20 time -p curl -I https://github.com
+#1608665618
+watch -n 20 'time -p curl -I https://github.com|tail'
+#1608667026
+curl -I https://github.com|tail
+#1608667029
+curl -I https://github.com
+#1608667035
+man curl
+#1608667051
+curl -I https://asdfadfasdf.com
+#1608667053
+echo $?
+#1608667057
+curl -I https://github.com
+#1608667059
+echo $?
