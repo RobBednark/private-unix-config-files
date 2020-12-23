@@ -59220,3 +59220,63 @@ echo $?
 curl -I https://github.com
 #1608667059
 echo $?
+#1608667597
+vrc
+#1608656537
+rg -i artist $FilesDirsAllGrep 
+#1608656593
+rg -i artist $FilesDirsAllGrep |&less
+#1608656598
+rg -i artist $FilesDirsAllGrep |less
+#1608656843
+rg -i slp $FilesDirsAllGrep |less
+#1608656852
+rg -i slp $FilesDirsAllGrep |grep -i artist
+#1608656868
+rg -i gallery $FilesDirsAllGrep |less
+#1608657011
+rg -i hawthorn $FilesDirsAllGrep |less
+#1608657032
+rg -i hawthorn $FilesDirsAllGrep 
+#1608658702
+ping.monitor 
+#1608667473
+jobs
+#1608667482
+grc pgrep
+#1608667488
+pgrep -fl mon
+#1608667491
+pgrep -fl monitor
+#1608667499
+pgrep -fl wifi
+#1608667505
+pstree -alp
+#1608667510
+type pstree
+#1608667523
+pstree |&less
+#1608667538
+man pstree
+#1608667542
+pstree --help|less
+#1608667567
+man pstree
+#1608667570
+pstree --help|less
+#1608667586
+pstree -s rbednark|&less
+#1608667664
+jobs
+#1608667688
+pgre -fl log_track
+#1608667690
+pgrep -fl log_track
+#1608667697
+pgrep -fl log_track_m
+#1608667700
+pkill -fl log_track_m
+#1608667634
+watch pstree -s rbednark
+#1608667659
+watch pstree -s log_track
