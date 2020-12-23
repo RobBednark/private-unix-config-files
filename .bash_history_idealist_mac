@@ -59280,3 +59280,65 @@ pkill -fl log_track_m
 watch pstree -s rbednark
 #1608667659
 watch pstree -s log_track
+#1608684801
+grc resume
+#1608684811
+vrc
+#1608684876
+grc resume
+#1608684888
+cd $DirResume
+#1608684890
+ls -altr
+#1608684921
+cdresume
+#1608684922
+gs
+#1608684923
+gpus
+#1608684927
+ls -ltr
+#1608684993
+cp -p ~/Downloads/Resume\ Rob\ Bednark\ 2020\ Dec\ 14.pdf .
+#1608684995
+ls -ltr
+#1608685012
+ln -s Resume\ Rob\ Bednark\ 2020\ Dec\ 14.pdf latest.resume.pdf
+#1608685417
+dotrc
+#1608685421
+resume.pdf 
+#1608684932
+cd Downloads/
+#1608684933
+lh
+#1608684936
+ls -ltr *resume*
+#1608684944
+ls -ltr *esume*
+#1608685031
+grc resume
+#1608686971
+resume.pdf 
+#1608689666
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1608689669
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1608689665
+pshd
+#1608689686
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1608689617
+v ool
+#1608678280
+vresume
+#1608678285
+vjo
+#1608656361
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608656361
+python manage.py runserver --insecure 0.0.0.0:8000
+#1608656360
+rqo
+#1608737975
+vq
