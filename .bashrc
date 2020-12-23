@@ -1622,6 +1622,7 @@ source ~/.local/bin/bashpast.sh
 ################################################################################
 # apk add bash less mandoc man-pages vim   ==> alpine useful packages to add
 # atom (GUI editor)
+# bash -u  ==> abort/exit if any variable is unset/empty
 # bash << END_COMMANDS  (useful for repeating a script, or for posting on stackoverflow)
 #  set -x
 #  echo something
