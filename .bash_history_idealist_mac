@@ -59342,3 +59342,101 @@ python manage.py runserver --insecure 0.0.0.0:8000
 rqo
 #1608737975
 vq
+#1608738105
+vrc
+#1608738156
+bash -u
+#1608738030
+cl
+#1608738035
+ls -lt|less
+#1608738041
+ls -lt *sh|less
+#1608738054
+vim less
+#1608738062
+ls -lt *sh|less
+#1608738067
+vim learn-abort-if-variable-unset.bash
+#1608740964
+sl
+#1608737154
+vq
+#1608737313
+cdqn
+#1608737317
+vim README.md 
+#1608739861
+c
+#1608739864
+ls -l
+#1608739873
+vim Pipfile*
+#1608739931
+pipenv --help
+#1608739939
+pipenv --help|&less
+#1608739954
+pipenv --help
+#1608739963
+pipenv --help|less
+#1608739973
+env|grep -i less
+#1608739979
+man less
+#1608740002
+pipenv --help|less -R
+#1608737259
+cdqn
+#1608737264
+vim Makefile 
+#1608737289
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608737292
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1608737288
+cdq
+#1608737488
+j deploy
+#1608737528
+cp deploy-postgres.sh deploy-quizme-app.sh
+#1608737529
+vi deploy-quizme-app.sh
+#1608739360
+vim build-and-push-quizme.sh 
+#1608739466
+j nginx
+#1608739472
+vim *web*
+#1608739535
+docker build --help|less
+#1608739553
+j depl__
+#1608739559
+vim build-and-push-quizme.sh 
+#1608737665
+j deploy
+#1608737906
+./build-and-push-images.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608738296
+c
+#1608738386
+vim deploy-quizme-app.sh deploy.sh 
+#1608738461
+vim *quizme*
+#1608739298
+c
+#1608739306
+vim build-and-push-quizme.sh 
+#1608739328
+./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608739338
+chmod a+x build-and-push-quizme.sh 
+#1608739340
+./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608741011
+sl
+#1608741006
+sl
+#1608745032
+vjo
