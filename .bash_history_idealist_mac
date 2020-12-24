@@ -59440,3 +59440,135 @@ sl
 sl
 #1608745032
 vjo
+#1608752259
+gvimrc yank
+#1608752262
+vvimrc 
+#1608752237
+vim
+#1608752241
+vq
+#1608752245
+vim
+#1608753482
+vq
+#1608753641
+vp
+#1608754039
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1608754044
+pipenv lock --help
+#1608754037
+pshd
+#1608750289
+vres
+#1608750292
+vresume
+#1608753060
+j depl
+#1608753061
+c
+#1608753092
+gs 
+#1608753095
+sm .
+#1608753120
+vim *sh
+#1608753191
+vim build-and-push-images.sh build-and-push-quizme.sh 
+#1608753375
+sm .
+#1608753394
+vim ../.gitignore 
+#1608753401
+git ls-files|grep log
+#1608753405
+git ls-files
+#1608753438
+vi .gitignore 
+#1608753689
+gs
+#1608753712
+vim Dockerfile-quizme 
+#1608753410
+j deploy
+#1608753414
+cd ..
+#1608753417
+git ls-files
+#1608753419
+git ls-files|less
+#1608753427
+cat .gitignore 
+#1608754205
+j deploy
+#1608754245
+./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608754342
+cd ../bin
+#1608754345
+vim bootstrap-new-server.sh 
+#1608754363
+vim build-django-image.sh new-server-install.sh 
+#1608754411
+j deploy
+#1608754414
+./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608754627
+vq
+#1608754589
+j deploy
+#1608754594
+vim *me
+#1608755613
+vp
+#1608755615
+vq
+#1608768797
+vresume
+#1608770026
+type vresume
+#1608770033
+cd tmp
+#1608770038
+sm .
+#1608770053
+vresume
+#1608770057
+jobs
+#1608770082
+pgrep -fl 85356
+#1608770087
+pstree
+#1608770095
+pgrep -fl 69747
+#1608770098
+man pgrep
+#1608770132
+jobs
+#1608770144
+pstree |less 
+#1608770161
+vresume
+#1608771630
+cdprivate-rbednark-general 
+#1608771180
+type resume.pdf 
+#1608771183
+cdprivate-rbednark-general 
+#1608771185
+ls -ltr
+#1608771199
+mv ~/Downloads/Resume\ Rob\ Bednark\ 2020\ Dec\ 23.pdf .
+#1608771218
+mv Resume\ Rob\ Bednark\ 2020\ Dec\ 23.pdf Resume-Rob-Bednark-2020-Dec-23.pdf
+#1608771232
+ln -sf Resume-Rob-Bednark-2020-Dec-23.pdf latest.resume.pdf 
+#1608771236
+resume.pdf 
+#1608771372
+vq
+#1608771381
+vjo
+#1608784712
+vp
