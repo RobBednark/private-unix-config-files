@@ -59572,3 +59572,27 @@ vq
 vjo
 #1608784712
 vp
+#1608794564
+cdqn
+#1608794235
+j depl
+#1608794237
+cd ../bin
+#1608794253
+grep pip *
+#1608794256
+vim new-server-install.sh 
+#1608794039
+j depl
+#1608794058
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608794499
+vq
+#1608793997
+j depl
+#1608793999
+gs
+#1608793999
+gd
+#1608794008
+vim *me

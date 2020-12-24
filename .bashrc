@@ -1641,6 +1641,8 @@ source ~/.local/bin/bashpast.sh
 # grip 9.27.20 "brew install grip" -- GitHub Readme Instant Preview -- Render local readme (markdown) files before sending off to GitHub.  The styles and rendering come directly from GitHub, so you'll know exactly how it will appear. Changes you make to the Readme will be instantly reflected in the browser without requiring a page refresh.  :!grip %
 # glances - a better top -- can filter by process name (<enter> name:.*Chrome.*) (system monitoring)
 # htop - a better top (system monitoring)
+# command + k  ==> clear iTerm buffer
+# shift + command + k  ==> clear iTerm scrollback buffer
 # lsof - check for open sockets and files
 # netstat -lntp  ==> listening processes / ports
 # pgcli (a better psql)
