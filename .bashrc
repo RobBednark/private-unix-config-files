@@ -1586,7 +1586,7 @@ fi
 
 ################################################################################
 # bashpast
-# Create shortcuts/bookmarks for commands
+# Create shortcuts/bookmarks for commands (like cdargs; kinda like autojump)
 # https://ostechnix.com/bookmark-linux-commands-easier-repeated-invocation/
 # clone https://github.com/ivanmisic/bashpast.git
 # cd /tmp && git clone https://github.com/ivanmisic/bashpast.git && cd bashpost && make
