@@ -59596,3 +59596,135 @@ gs
 gd
 #1608794008
 vim *me
+#1608794324
+vrc
+#1608794156
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608794159
+pip freeze
+#1608794167
+pipenv -h
+#1608794185
+pipenv graph
+#1608794135
+cdqn
+#1608794138
+vim Pipfile
+#1608794155
+cdq
+#1608794786
+j depl
+#1608794789
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608794757
+j depl__
+#1608794758
+vim *me
+#1608736472
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608736472
+python manage.py runserver --insecure 0.0.0.0:8000
+#1608826323
+echo contents > /tmp/foo
+#1608826326
+cat /tmp/FOO
+#1608826492
+diskutil info /
+#1608826496
+diskutil info /|less
+#1608827648
+cdqn
+#1608828358
+pipenv --help|&less
+#1608828373
+pipenv lock --help|&less
+#1608827422
+ . /Users/rbednark/.virtualenvs/jj-6HyX5_bd/bin/activate
+#1608827426
+python
+#1608827482
+pipenv --help|less
+#1608827490
+c
+#1608827501
+pipenv install aiohttp
+#1608827565
+vim Pipfile
+#1608827620
+cd -
+#1608827623
+cd quizme/
+#1608827624
+c
+#1608827626
+gb
+#1608827631
+git branch -a
+#1608827665
+git checkout remotes/origin/rbednark-2020-07-15-add-django-debug-toolbar
+#1608827671
+git checkout rbednark-2020-07-15-add-django-debug-toolbar
+#1608827672
+c
+#1608827673
+gs
+#1608827704
+pipenv install --dev
+#1608827967
+rg -i darwin .
+#1608827991
+vim *lock
+#1608827263
+cd /tmp
+#1608827269
+git clone https://github.com/RobBednark/quiz-me.git /tmp/quizme
+#1608827273
+cd quizme/
+#1608827286
+cd ..
+#1608827292
+mkdir jj
+#1608827293
+cd jj
+#1608827322
+c
+#1608827328
+type python
+#1608827331
+which python
+#1608827347
+pipenv install requests
+#1608827376
+cat Pipfile
+#1608827416
+c
+#1608827420
+pipenv shell
+#1608829073
+docker-run-alpine 
+#1608824272
+vq
+#1608826937
+j depl
+#1608826978
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608828197
+c
+#1608828201
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608828640
+j depl
+#1608828642
+cd ../bin
+#1608828651
+vim new-server-install.sh 
+#1608828663
+vim bootstrap-new-server.sh new-server-install.sh 
+#1608826928
+j depl__
+#1608826945
+vim *me
+#1608830877
+vq
+#1608853771
+vp
