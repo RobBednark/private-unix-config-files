@@ -1637,6 +1637,9 @@ source ~/.local/bin/bashpast.sh
 # find . -type f -exec sum '{}' ';'  ==> run/exec the "sum" command on each file found.  {} is the filename, and ';' is the command terminator
 # find . -type f | xargs sum  ==> pipe to xargs to run "sum" command on all matches
 # find . -type f -print0  | xargs -0 sum   ==> run "xargs" against every "find" result (use -print0 and -0 for null-termination, to avoid issues with filenames with quotes)
+# fzf   ==> general purpose command-line fuzzy finder  (brew install fzf); 
+#   https://github.com/junegunn/fzf
+#       
 # gcp --parents  dir1/dir2/file /tmp  (preserves directory structure, i.e., /tmp/dir1/dir2/file)
 # grip 9.27.20 "brew install grip" -- GitHub Readme Instant Preview -- Render local readme (markdown) files before sending off to GitHub.  The styles and rendering come directly from GitHub, so you'll know exactly how it will appear. Changes you make to the Readme will be instantly reflected in the browser without requiring a page refresh.  :!grip %
 # glances - a better top -- can filter by process name (<enter> name:.*Chrome.*) (system monitoring)
@@ -1645,6 +1648,12 @@ source ~/.local/bin/bashpast.sh
 # shift + command + k  ==> clear iTerm scrollback buffer
 # lsof - check for open sockets and files
 # netstat -lntp  ==> listening processes / ports
+# pet  ==> command-line snippets/shortcuts/bookmarks  
+#   pet -h  ==> help
+#   pet list ==> list the commands
+#   pet new  ==> create a new command (get prompted)
+#   pet search  ==> 
+#       control + j/k n/p  ==> up/down 
 # pgcli (a better psql)
 # pgrep -fl  (-f "full" -- match against full argument lists;  -l "long" output) (-i "ignore" case ==> not available on stock Alpine)
 # pkill -9 -alf  (-9 ==> KILL; --a ==> show command-line too; -l ==> show command name too; -f "full" -- match against entire command line)
