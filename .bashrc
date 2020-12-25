@@ -1652,7 +1652,7 @@ source ~/.local/bin/bashpast.sh
 #   pet -h  ==> help
 #   pet list ==> list the commands
 #   pet new  ==> create a new command (get prompted)
-#   pet search  ==> 
+#   pet search  ==> (go into interactive list to select command to execute)
 #       control + j/k n/p  ==> up/down 
 # pgcli (a better psql)
 # pgrep -fl  (-f "full" -- match against full argument lists;  -l "long" output) (-i "ignore" case ==> not available on stock Alpine)
