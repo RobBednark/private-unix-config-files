@@ -59728,3 +59728,83 @@ vim *me
 vq
 #1608853771
 vp
+#1608855068
+vvimrc 
+#1608855195
+vim
+#1608855555
+vq
+#1608855666
+vim
+#1608854964
+vq
+#1608856620
+cd /tmp
+#1608856621
+ls -altr
+#1608856627
+vim build-quizme-1608829105.log
+#1608856723
+j depl
+#1608856764
+ssh root@linode < deploy-quizme-app.sh |& tee /tmp/deploy-quizme-app-$(date +%s).log |&less
+#1608856807
+vim nginx.d/default.conf 
+#1608857114
+less .ssh/rob*
+#1608857019
+vq
+#1608854926
+j depl__
+#1608854932
+sl
+#1608854948
+vim *qui*
+#1608856835
+sl
+#1608857218
+vim
+#1608857847
+vp
+#1608858492
+cdqn
+#1608858494
+gs
+#1608858498
+sm .
+#1608858554
+vim Makefile 
+#1608858713
+history > /tmp/history
+#1608858718
+vim /tmp/history 
+#1608858569
+cdqn
+#1608858570
+cd db_dumps/
+#1608858579
+ls -l|less
+#1608858603
+c
+#1608858609
+cd ..
+#1608858611
+vim Makefile 
+#1608859339
+/db_name_to_dump
+#1608875528
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1608875529
+/alway
+#1608875533
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1608875580
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1608875526
+pshd
+#1608858990
+cdqn
+#1608858995
+vim Makefile 
+#1608875500
+v ool
