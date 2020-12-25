@@ -59916,3 +59916,127 @@ brew install knqyf263/pet/pet
 pet
 #1608877118
 pet search
+#1608876101
+vrc
+#1608915709
+pipenv lock --help
+#1608915719
+j dep
+#1608915731
+vim *qui*
+#1608915805
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee /tmp/build-quizme-$(date +%s).log |&less
+#1608915814
+j depl
+#1608915830
+vim *qui*
+#1608915856
+docker run --help|less
+#1608915627
+cd /tmp
+#1608915629
+ls -altr
+#1608915635
+vim build-quizme-1608829105.log
+#1608915431
+sl
+#1608834648
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608834648
+python manage.py runserver --insecure 0.0.0.0:8000
+#1608914567
+sl
+#1608834647
+rqo
+#1608920646
+nslookup google.com
+#1608920656
+nslookup 172.217.14.206
+#1608921462
+grc learn.add
+#1608921477
+grep '#' $FileQuizMe
+#1608921487
+grep 'foo' $FileQuizMe
+#1608921497
+grep $FileQuizMe foo
+#1608921511
+echo $FileQuizMeAdd 
+#1608921517
+grep foo $FileQuizMeAdd
+#1608921537
+vim /tmp/count.pl
+#1608909668
+vq
+#1608912017
+jobs
+#1608912020
+vim
+#1608912023
+vq
+#1608914526
+c
+#1608914526
+vq
+#1608921561
+cd /tmp
+#1608921565
+chmod a+x count.pl 
+#1608921567
+./count.pl 
+#1608921580
+type perl
+#1608921598
+type env
+#1608921600
+which env
+#1608921632
+tyenv perl
+#1608921634
+jjdd:w
+#1608921641
+kdd:w
+#1608921648
+./count.pl 
+#1608921654
+1Gu:w
+#1608921659
+:
+#1608921671
+lli/usr/bin/
+#1608921674
+ls /bin
+#1608921685
+lsenv perl
+#1608922012
+man grep
+#1608922128
+vq
+#1608915008
+j deploy
+#1608915009
+c
+#1608915024
+cd ../bin
+#1608915029
+grep postgres *
+#1608915040
+grep 'apk.*postgres' *
+#1608915404
+c
+#1608915406
+pwd
+#1608915407
+jobs
+#1608915410
+cdqn
+#1608915413
+vim README.md 
+#1608922185
+cl
+#1608922189
+ls *count*pl
+#1608922192
+vim *count*pl
+#1608922282
+cp /tmp/count.pl learn_count_patterns_regex.pl

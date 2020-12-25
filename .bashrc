@@ -1647,7 +1647,10 @@ source ~/.local/bin/bashpast.sh
 # command + k  ==> clear iTerm buffer
 # shift + command + k  ==> clear iTerm scrollback buffer
 # lsof - check for open sockets and files
-# netstat -lntp  ==> listening processes / ports
+# netstat -lntp  ==> listening processes / ports (similar to "nc -zv <host> <port>" and "telnet <host> <port")
+# nc -zv <host> <port>  ==> see if a port on host can be opened with a socket  (like "telnet <host> <port>") ("netcat -nltp")
+# nslookup <hostname>  => show IP address for <hostname>
+# nslookup <ip> ==> show where a host might be located based on the name
 # pet  ==> command-line snippets/shortcuts/bookmarks  
 #   pet -h  ==> help
 #   pet list ==> list the commands
@@ -1662,6 +1665,7 @@ source ~/.local/bin/bashpast.sh
 # pstree -s foo  ==> only show branches with "foo" in them
 # ripgrep (command: rg) (a faster grep; like ag / silver searcher) (brew install ripgrep)
 # tee ==> e.g., grep foo | tee /tmp/out   or   grep foo | tee /tmp/out | grep bar
+# telnet <host> <port>  ==> see if you can connect to something like an http server or db server (similar to "nc -zv <host> <port>" (netcat) (port is open) "netcat -nltp"
 # tidy -- an html linter/validator (tidy -error myfile.html)
 #   tidy -errors myfile.html  # only show validation errors/warnings
 #   tidy -indent --indent-spaces=2 myfile.html  # reformat with indentation
