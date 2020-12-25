@@ -59808,3 +59808,111 @@ cdqn
 vim Makefile 
 #1608875500
 v ool
+#1608875596
+vrc
+#1608875734
+source ~/.local/bin/bashpast.sh
+#1608875742
+bp s
+#1608875756
+echo 'I am Rob'
+#1608875767
+bp s i_am_rob
+#1608875847
+bp l
+#1608876701
+type fzf
+#1608876705
+brew info fzf
+#1608876711
+man fzf
+#1608876886
+find . -type f|fzf
+#1608876907
+cd /tmp
+#1608876910
+find . -type f|fzf
+#1608875779
+cd /var/folders/dq/
+#1608875781
+find .
+#1608875799
+cd _7yjckr10tl73t4nm6l5gk200000gn/T/
+#1608875807
+less bashpast.XXXXXX.CEsfAFnT
+#1608876171
+pet -h
+#1608876174
+pet --help
+#1608876189
+pet list
+#1608876194
+pet new -h
+#1608876225
+pet new
+#1608876241
+pet list
+#1608876247
+pet -h
+#1608876257
+pet -s
+#1608876263
+pet -h
+#1608876268
+pet list
+#1608876271
+pet my
+#1608876278
+pet echo
+#1608876289
+pet exec
+#1608876296
+pet exec --help
+#1608876345
+pet
+#1608876359
+pet new --help
+#1608876375
+pet new -t
+#1608876404
+pet list
+#1608876566
+pet search echo
+#1608876642
+pet list
+#1608876644
+cd
+#1608876649
+pet exec hello
+#1608876655
+man pet
+#1608876657
+pet --help
+#1608876690
+peco
+#1608876692
+fzf
+#1608875924
+man grep
+#1608875938
+type grep
+#1608875942
+which grep
+#1608875958
+grc grep
+#1608876004
+brew info pet
+#1608876073
+tpe pet
+#1608876075
+type pet
+#1608876076
+pet
+#1608876077
+which pet
+#1608876092
+brew install knqyf263/pet/pet
+#1608876130
+pet
+#1608877118
+pet search
