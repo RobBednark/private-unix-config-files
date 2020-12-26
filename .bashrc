@@ -513,7 +513,7 @@ alias rqr='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
     QM_SORT_BY_ANSWERED_COUNT=False \
     QM_SORT_BY_WHEN_ANSWERED=True  \
     QM_DEBUG_PRINT=False \
-    pipenv shell python manage.py runserver)'  # unanswered first, then newest scheduled ("rqr" = "run quiz, reinforce")
+    pipenv shell python manage.py runserver --insecure 0.0.0.0:8000)'  # unanswered first, then newest scheduled ("rqr" = "run quiz, reinforce")
 alias rqra='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
     QM_INCLUDE_UNANSWERED=False \
     QM_LIMIT_TO_DATE_SHOW_NEXT_BEFORE_NOW=True \
@@ -521,14 +521,14 @@ alias rqra='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
     QM_SORT_BY_WHEN_ANSWERED=True  \
     QM_DEBUG_PRINT=True \
     QM_WITH_ANSWERS_FIRST=True \
-    pipenv shell python manage.py runserver)'  # unanswered first, then newest scheduled, no questions-without-answers ("rqra" = "Run Quiz, Reinforce, only-questions-with-Answers")
+    pipenv shell python manage.py runserver --insecure 0.0.0.0:8000)'  # unanswered first, then newest scheduled, no questions-without-answers ("rqra" = "Run Quiz, Reinforce, only-questions-with-Answers")
 alias rqf='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
     QM_INCLUDE_UNANSWERED=True \
     QM_LIMIT_TO_DATE_SHOW_NEXT_BEFORE_NOW=True \
     QM_SORT_BY_ANSWERED_COUNT=True \
     QM_SORT_BY_WHEN_ANSWERED=False \
     QM_DEBUG_PRINT=True \
-    pipenv shell python manage.py runserver)'  # sort by answered count ("rqr" = "run quiz, frequency")
+    pipenv shell python manage.py runserver --insecure 0.0.0.0:8000)'  # sort by answered count ("rqr" = "run quiz, frequency")
 alias rqo='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
     QM_INCLUDE_UNANSWERED=True  \
     QM_LIMIT_TO_DATE_SHOW_NEXT_BEFORE_NOW=True \
