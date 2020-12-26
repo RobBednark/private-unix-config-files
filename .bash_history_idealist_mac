@@ -60056,3 +60056,55 @@ cdq
 vq
 #1608932944
 vq
+#1608933383
+vrc
+#1608934599
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608934599
+python manage.py runserver
+#1608932633
+rqo
+#1608934224
+rqr
+#1608934598
+(rqf)
+#1609000938
+grc count
+#1609000942
+grc awk
+#1609001073
+man perl
+#1609001110
+man perlrun
+#1609000721
+cl
+#1609000722
+lh
+#1609000727
+vim learn_count_patterns_regex.pl 
+#1609001610
+cl
+#1609001622
+vim /tmp/input
+#1609001643
+./learn_count_patterns_regex.pl /tmp/input 
+#1609001649
+vim /tmp/input
+#1609001662
+./learn_count_patterns_regex.pl /tmp/input 
+#1609002023
+k
+#1609002024
+./learn_count_patterns_regex.pl /tmp/input 
+#1609000600
+vp
+#1608996720
+vq
+#1609001504
+cl
+#1609001507
+ls *match*pl
+#1609001509
+vim *match*pl
+#1609002221
+v cou
