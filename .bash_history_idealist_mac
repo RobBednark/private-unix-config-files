@@ -60040,3 +60040,19 @@ ls *count*pl
 vim *count*pl
 #1608922282
 cp /tmp/count.pl learn_count_patterns_regex.pl
+#1608932635
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608932635
+python manage.py runserver --insecure 0.0.0.0:8000
+#1608934225
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608934225
+python manage.py runserver
+#1608932640
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1608932638
+cdq
+#1608958351
+vq
+#1608932944
+vq
