@@ -1665,6 +1665,7 @@ source ~/.local/bin/bashpast.sh
 # pkill -l  (-l ==> list all signals)
 # pstree -s foo  ==> only show branches with "foo" in them
 # ripgrep (command: rg) (a faster grep; like ag / silver searcher) (brew install ripgrep)
+# strace -p <pid>  ==> see what system calls the process is making; see what it's currently doing
 # tee ==> e.g., grep foo | tee /tmp/out   or   grep foo | tee /tmp/out | grep bar
 # telnet <host> <port>  ==> see if you can connect to something like an http server or db server (similar to "nc -zv <host> <port>" (netcat) (port is open) "netcat -nltp"
 # tidy -- an html linter/validator (tidy -error myfile.html)
