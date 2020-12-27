@@ -60118,3 +60118,77 @@ dotrc
 python manage.py runserver
 #1609011261
 (rqf)
+#1609038237
+vrc
+#1609025875
+type docker-run-alpine 
+#1609025882
+docker run -it --rm alpine sh
+#1609012539
+ipaddr
+#1609012559
+netstat -nltp
+#1609012565
+grc netstat
+#1609012599
+netstat -tunlp
+#1609012613
+netstat -l
+#1609012616
+netstat -lt
+#1609012617
+netstat -ltn
+#1609025843
+netstat -ltnp
+#1609025845
+netstat -ltn
+#1609025849
+man netstat
+#1609012576
+vq
+#1609050934
+bp
+#1609050946
+bp l
+#1609050897
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1609051175
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1609051208
+bp s always
+#1609051222
+bp l
+#1609050894
+pshd
+#1609051233
+fxf
+#1609051235
+fzf
+#1609051252
+man fzf
+#1609050864
+v ool
+#1609051296
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1609051314
+grc lsof
+#1609051325
+show.listening.ports.osx 
+#1609051414
+sudo show.listening.ports.osx 
+#1609051424
+type docker-run-alpine 
+#1609051430
+type show.listening.ports.osx 
+#1609025724
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609025724
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609025612
+vq
+#1609025619
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1609025668
+vrc
+#1609025723
+(rqf)
