@@ -467,7 +467,7 @@ alias mycmd.nosync='(set -x; ./manage.py mycmd)'
 
 alias nettop.monitor.network.traffic.bandwidth="nettop"
 alias npm.repo.open.repo.in.web.browser="npm repo"
-alias show.listening.ports.osx='lsof -Pn | grep LISTEN'
+alias show.listening.ports.osx='lsof -Pn | grep LISTEN'  # like netstat -lnt
 alias show.num.columns.in.terminal="tput cols"  # show number width
 alias show.num.rows.in.terminal="tput lines"  # show number lines height
 
@@ -1646,8 +1646,9 @@ source ~/.local/bin/bashpast.sh
 # htop - a better top (system monitoring)
 # command + k  ==> clear iTerm buffer
 # shift + command + k  ==> clear iTerm scrollback buffer
-# lsof - check for open sockets and files
-# netstat -lntp  ==> listening processes / ports (similar to "nc -zv <host> <port>" and "telnet <host> <port")
+# lsof - check for open sockets and files  (like netstat)
+# netstat -lntp  ==> listening processes / ports (similar to "nc -zv <host> <port>" and "telnet <host> <port")  (like lsof)
+# netstat -lnt  ==> MacOS listening processes / ports (MacOS doesn't have the "-p" option -- show PID/program name for sockets)  (like lsof)
 # nc -zv <host> <port>  ==> see if a port on host can be opened with a socket  (like "telnet <host> <port>") ("netcat -nltp")
 # nslookup <hostname>  => show IP address for <hostname>
 # nslookup <ip> ==> show where a host might be located based on the name
