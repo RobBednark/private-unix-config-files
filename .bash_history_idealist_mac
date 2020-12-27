@@ -60192,3 +60192,53 @@ ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
 vrc
 #1609025723
 (rqf)
+#1609088629
+grc strace
+#1609088631
+vrc
+#1609088093
+cd /tmp
+#1609088094
+ls -altr
+#1609088103
+cd
+#1609088106
+ls -ld *tmp*
+#1609088126
+c
+#1609088128
+j de
+#1609088188
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(date +%s).log |&less
+#1609088234
+cdqn
+#1609088237
+pipenv graph
+#1609088249
+pipenv graph|less
+#1609083501
+j de
+#1609083508
+gs
+#1609083511
+sm .
+#1609084374
+gs
+#1609084375
+c
+#1609084378
+gpus
+#1609084389
+ls *ui*
+#1609084397
+vim *zme*
+#1609084538
+j d
+#1609084540
+j de
+#1609084565
+ssh root@linode < deploy-quizme-app.sh |& tee /tmp/deploy-quizme-app-$(date +%s).log |&less
+#1609087365
+sl
+#1609083863
+vq
