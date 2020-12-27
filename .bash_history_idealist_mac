@@ -60108,3 +60108,13 @@ ls *match*pl
 vim *match*pl
 #1609002221
 v cou
+#1609011263
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609011263
+python manage.py runserver
+#1609025706
+dotrc
+#1609025708
+python manage.py runserver
+#1609011261
+(rqf)
