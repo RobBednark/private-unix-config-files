@@ -60252,3 +60252,35 @@ vdiary
 vp
 #1609125617
 c
+#1609125620
+j dep
+#1609125633
+pwd
+#1609125634
+jobs
+#1609125638
+gs
+#1609125639
+gd
+#1609126119
+cdqn
+#1609126128
+vim Pipfile
+#1609127632
+pwd
+#1609127633
+jobs
+#1609127688
+vi
+#1609126158
+cd tmp-no-repo/
+#1609126162
+vim -R build-quizme-1609088190.log 
+#1609126409
+j dep
+#1609126424
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(date +%s).log |&less
+#1609127526
+ssh root@linode < deploy-quizme-app.sh |& tee /tmp/deploy-quizme-app-$(date +%s).log |&less
+#1609127542
+sl
