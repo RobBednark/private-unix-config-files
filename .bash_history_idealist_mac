@@ -60242,3 +60242,13 @@ ssh root@linode < deploy-quizme-app.sh |& tee /tmp/deploy-quizme-app-$(date +%s)
 sl
 #1609083863
 vq
+#1609102643
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609102643
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609117168
+vdiary 
+#1609119738
+vp
+#1609125617
+c
