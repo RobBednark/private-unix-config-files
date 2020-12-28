@@ -60284,3 +60284,13 @@ docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo
 ssh root@linode < deploy-quizme-app.sh |& tee /tmp/deploy-quizme-app-$(date +%s).log |&less
 #1609127542
 sl
+#1609127547
+vrc
+#1609126311
+j de
+#1609126315
+vim *me*
+#1609126357
+cdqn
+#1609126360
+pipenv graph|less
