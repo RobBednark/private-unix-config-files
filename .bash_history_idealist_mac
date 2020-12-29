@@ -60406,3 +60406,181 @@ vi
 gs
 #1609204482
 gd
+#1609204426
+vrc
+#1609221485
+ . /Users/rbednark/.virtualenvs/rbednark-kAj8bQxW/bin/activate
+#1609221489
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1609221493
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1609221501
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1609221483
+psh
+#1609221487
+pshd
+#1609221102
+cl
+#1609221102
+lh
+#1609221150
+v ool
+#1609221035
+cl
+#1609221039
+v cron
+#1609221876
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1609221896
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob --email-looking-always=rob --email-available-always=rob|&less
+#1609221875
+pshd
+#1609221773
+v ool
+#1609221171
+sl
+#1609204467
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609204467
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609221830
+time (df -h .; DB_QUIZME=quizme_production make dumpdb)
+#1609204466
+(rqo)
+#1609222419
+vqtodo 
+#1609222467
+sm .
+#1609257627
+man bash
+#1609257785
+docker-run-alpine 
+#1609256764
+cdqn
+#1609256857
+cd ~/tmp-no-repo/
+#1609256873
+ls -ltr
+#1609256880
+vim build-quizme-1609126425.log
+#1609260511
+j depl
+#1609260524
+cd ../bin
+#1609260591
+vim bootstrap-new-server.sh new-server-install.sh 
+#1609256377
+cd tmp-no-repo/
+#1609256379
+ls -ltr
+#1609256402
+ls -ltr /tmp
+#1609256431
+ls -ltr /tmp/
+#1609256447
+docker images
+#1609256469
+j dep
+#1609256480
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(date +%s).log |&less
+#1609256520
+ssh root@linode < deploy-quizme-app.sh |& tee ~/tmp-no-repo/deploy-quizme-app-$(date +%s).log |&less
+#1609256576
+cdqn
+#1609256580
+vim quizme/settings.py 
+#1609256646
+j dep
+#1609256651
+ssh root@linode < deploy-quizme-app.sh |& tee ~/tmp-no-repo/deploy-quizme-app-$(date +%s).log |&less
+#1609256809
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(date +%s).log |&less
+#1609256660
+sl
+#1609256349
+cdqn
+#1609256351
+gpus
+#1609256538
+sl
+#1609256549
+j dep
+#1609256549
+c
+#1609256554
+vim deploy-quizme-app.sh 
+#1609257977
+vim nginx.d/default.conf 
+#1609258386
+vim deploy.sh 
+#1609258407
+vim deploy-nginx.sh 
+#1609258444
+ls -al /
+#1609258448
+mkdir /root
+#1609257252
+j dep
+#1609257275
+deploy-quizme-app.sh |& tee /tmp/local-deploy-quizme-app-$(date +%s).log |&less
+#1609257279
+./deploy-quizme-app.sh |& tee /tmp/local-deploy-quizme-app-$(date +%s).log |&less
+#1609257313
+docker ps
+#1609257325
+docker-rm-all-containers 
+#1609257339
+docker-stop-all-containers 
+#1609257355
+grc docker.st
+#1609257368
+docker-rm-all-containers 
+#1609257371
+docker ps -a
+#1609257377
+./deploy-quizme-app.sh |& tee /tmp/local-deploy-quizme-app-$(date +%s).log |&less
+#1609257399
+vim deploy-postgres.sh 
+#1609257439
+./deploy-postgres-app.sh |& tee ~/tmp-no-repo/local-deploy-postgres-app-$(date +%s).log |&less
+#1609257448
+./deploy-postgres.sh |& tee ~/tmp-no-repo/local-deploy-postgres-app-$(date +%s).log |&less
+#1609257463
+docker logs quizme
+#1609255877
+vq
+#1609268552
+vp
+#1609265362
+j dep
+#1609265363
+sm .
+#1609266324
+rg -i focusmate $FilesDirsAllGrep 
+#1609266342
+rg -li focusmate $FilesDirsAllGrep 
+#1609266368
+find $DirDropbox -name public_html
+#1609266401
+vq
+#1609271319
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609271319
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609271317
+(rqo)
+#1609266109
+vp
+#1609269273
+vdiary 
+#1609270292
+vp
+#1609272260
+vq
+#1609274176
+vjo
+#1609274459
+cddownloads 
+#1609274460
+lh
