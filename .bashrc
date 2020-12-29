@@ -1513,7 +1513,7 @@ function lshead() {
     #number=${1:-30}
     #ls -alt | head -$number
     where=$*
-    ls -alt $where | head -10
+    ls -alt $where | head -13
 }
 function findExecutables() {
     filesExec=`find * -prune -type f -perm +111`
