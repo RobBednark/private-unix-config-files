@@ -60346,3 +60346,29 @@ vjo
 vdiary 
 #1609195081
 vq
+#1609203924
+type tpu
+#1609203926
+tput
+#1609203931
+tput -V
+#1609203936
+which tput
+#1609203939
+type tput
+#1609203940
+echo $?
+#1609203944
+which tput
+#1609203945
+echo $?
+#1609203960
+if type tput; then echo yes; else echo no; fi
+#1609203979
+if type tput > /dev/null; then echo yes; else echo no; fi
+#1609203982
+sl
+#1609204014
+vrc
+#1609204092
+dotrc

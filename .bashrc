@@ -4,11 +4,16 @@
 ### .bashrc
 ################################################################################
 
-# ANSI escape sequences terminal colors
-ANSI_ESC_SEQ_BLUE="\[$(tput setaf 105)\]"
-ANSI_ESC_SEQ_GREEN="\[$(tput setaf 2)\]"
-ANSI_ESC_SEQ_RED="\[$(tput setaf 162)\]"
-ANSI_ESC_SEQ_RESET="\[$(tput sgr0)\]"
+if type tput >& /dev/null; then
+    # ANSI escape sequences terminal colors
+    ANSI_ESC_SEQ_BLUE="\[$(tput setaf 105)\]"
+    ANSI_ESC_SEQ_GREEN="\[$(tput setaf 2)\]"
+    ANSI_ESC_SEQ_RED="\[$(tput setaf 162)\]"
+    ANSI_ESC_SEQ_RESET="\[$(tput sgr0)\]"
+else
+    # tput is not present (e.g., Alpine Linux)
+    :
+fi
 
 if echo $SHELL | grep bash > /dev/null; then
     # Set the interactive shell prompt to [username@machinename working-directory mm/dd hh:mm:ss ]
@@ -1548,7 +1553,7 @@ fi
 ################################################################################
 if echo $SHELL | grep bash > /dev/null; then
     # autocomplete for git for things like "git checkout my-branchname-some<tab>"
-    source ~/.unix.config.files/git-completion.bash
+    [ -f ~/.unix.config.files/git-completion.bash ] && source ~/.unix.config.files/git-completion.bash
 fi
 
 ################################################################################
@@ -1595,7 +1600,8 @@ fi
 #   bp e <bookmark_name> - Execute the command associated with "bookmark_name"
 #   bp d <bookmark_name> - Deletes the bookmark with the "bookmark_name"
 #   bp l                 - Lists all available bookmarks
-source ~/.local/bin/bashpast.sh
+
+[ -f ~/.local/bin/bashpast.sh ] && source ~/.local/bin/bashpast.sh
 
 ################################################################################
 # cdargs 
