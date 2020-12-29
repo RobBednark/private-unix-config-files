@@ -60294,3 +60294,55 @@ vim *me*
 cdqn
 #1609126360
 pipenv graph|less
+#1609102389
+vqtodo 
+#1609102561
+vrc
+#1609102694
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609102694
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609102640
+(rqf)
+#1609102693
+(rqo)
+#1609172654
+type tput
+#1609172658
+man tput
+#1609172740
+cdqn
+#1609172741
+gs
+#1609172745
+sm .
+#1609172755
+vi
+#1609172643
+sl
+#1609172919
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609172919
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609172917
+rqo
+#1609169426
+q
+#1609169429
+vq
+#1609180684
+rg -i inflam $FilesDirsAllGrep 
+#1609180702
+vq
+#1609178119
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609178119
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609178117
+rqo
+#1609191184
+vjo
+#1609191687
+vdiary 
+#1609195081
+vq
