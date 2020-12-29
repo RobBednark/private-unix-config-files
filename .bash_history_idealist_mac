@@ -60372,3 +60372,29 @@ sl
 vrc
 #1609204092
 dotrc
+#1609203294
+vrc
+#1609203875
+type tput
+#1609203877
+man tput
+#1609203901
+man stty
+#1609203917
+vrc
+#1609204099
+sl
+#1609204178
+scp .bashrc root@linode
+#1609204197
+ls -altr
+#1609204200
+rm root\@linode 
+#1609204210
+ping linod
+#1609204212
+ping linode
+#1609204237
+scp .bashrc root@linode:/root
+#1609204113
+sl
