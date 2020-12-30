@@ -60584,3 +60584,423 @@ vjo
 cddownloads 
 #1609274460
 lh
+#1609278269
+vrc
+#1609278414
+cdqn
+#1609278418
+vim quizme/settings.py 
+#1609278484
+vq
+#1609277178
+j depl__
+#1609277179
+sm .
+#1609277220
+docker-wait-until-engine-is-up && docker ps -a
+#1609277256
+docker ps -a
+#1609277261
+docker start postgres
+#1609277269
+docker start quizme
+#1609277289
+docker ps
+#1609277292
+docker logs quizme
+#1609277319
+docker kill quizme
+#1609277324
+docker rm quizme
+#1609277328
+docker ps -a
+#1609277334
+vim deploy-quizme-app.sh 
+#1609277355
+vim postgres-load-data.sh 
+#1609278379
+./deploy-quizme-app.sh 
+#1609278574
+docker-wait-until-engine-is-up; ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(date +%s).log |&less
+#1609280833
+docker-wait-until-engine-is-up; time (./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(date +%s).log) |&less
+#1609280914
+gs
+#1609280921
+vim deploy-postgres.sh 
+#1609280927
+vim postgres-load-data.sh 
+#1609281322
+vim deploy-quizme-app.sh 
+#1609281359
+./deploy-quizme-app.sh 
+#1609281370
+docker ps
+#1609281379
+c
+#1609281380
+pwd
+#1609281380
+jobs
+#1609281390
+docker ps
+#1609281473
+vim deploy-nginx.sh 
+#1609281555
+gs
+#1609281556
+sm .
+#1609281775
+gs
+#1609281782
+vim *ng*
+#1609277198
+j no-r
+#1609277202
+ls -ltr
+#1609277391
+j dump
+#1609277394
+lh
+#1609277426
+docker exec -it postgres sh
+#1609278191
+docker exec --help
+#1609278205
+docker
+#1609278214
+docker volume 
+#1609278245
+pwd
+#1609278245
+jobs
+#1609278246
+lh
+#1609278259
+type lh
+#1609278261
+lshead
+#1609278291
+dotrc
+#1609278292
+lh
+#1609278305
+docker cp 
+#1609278320
+docker cp dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all postgres:/tmp
+#1609278325
+docker exec -it postgres sh
+#1609281269
+jobs
+#1609281271
+docker ps
+#1609281272
+type d
+#1609281296
+docker kill quizme; docker rm quizme
+#1609281404
+docker exec -it quizme sh
+#1609281931
+j depl
+#1609281955
+gs
+#1609282018
+vdiary 
+#1609282008
+vq
+#1609281880
+j depl
+#1609281888
+vim LEFTOFF
+#1609282932
+uname -a
+#1609283172
+vq
+#1609283184
+j depl
+#1609284247
+vp
+#1609285174
+vim
+#1609285359
+vim tmp-no-repo/iterm2-copy-performance-stats-2020-12-29.txt
+#1609284621
+j dep
+#1609284628
+cat deploy-nginx.sh 
+#1609284686
+ssh root@linode < deploy-nginx.sh |& tee ~/tmp-no-repo/linode-deploy-nginx-$(date +%s).log |&less
+#1609284746
+vim *sh
+#1609284800
+sl
+#1609284877
+j depl
+#1609284881
+vim postgres-load-data.sh 
+#1609284919
+ssh root@linode < deploy-quizme-app.sh |& tee ~/tmp-no-repo/linode-deploy-quizme-app-$(date +%s).log |&less
+#1609285613
+vq
+#1609285158
+vjo
+#1609286928
+c
+#1609287361
+vjo
+#1609287452
+c
+#1609287587
+vjo
+#1609288517
+cdprivate-rbednark-general 
+#1609288518
+gs
+#1609288529
+open .
+#1609288542
+gs
+#1609288550
+git checkout Resume-Rob-Bednark-2020-Dec-23.pdf
+#1609288551
+gs
+#1609288570
+open latest.resume.pdf 
+#1609288674
+pwd
+#1609288675
+jobs
+#1609288683
+gs
+#1609288727
+mv ~/Downloads/Resume\ Rob\ Bednark\ 2020\ Dec\ 29.pdf Resume-Rob-Bednark-2020-Dec-29.pdf
+#1609288729
+gs
+#1609288747
+git add Airship-application-Engineering-Manager-Resume-Rob-Bednark-2020-Dec-29.pdf Resume-Rob-Bednark-2020-Dec-29.pdf 
+#1609288751
+gs
+#1609288777
+gcam 'add Airship application and resume 2020-Dec-29 (Affirm)'
+#1609288779
+dpug
+#1609288780
+gpus
+#1609294048
+top
+#1609293360
+cd tmp-no-repo/
+#1609293361
+ls -ltr
+#1609293374
+vim linode-deploy-nginx-1609284686.log
+#1609293745
+j de
+#1609293780
+vim nginx.d/default.conf 
+#1609293785
+vim *ng*
+#1609293918
+./upds
+#1609293921
+ls -l *sh
+#1609293924
+chmod a+x update-nginx-conf.sh 
+#1609293960
+./update-nginx-conf.sh >& tee ~/tmp-no-repo/update-nginx-conf-$(date +%s).log |&less
+#1609293968
+ls -altr
+#1609293971
+cat tee 
+#1609293975
+rm tee 
+#1609293980
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(date +%s).log |&less
+#1609293991
+ls -ltr
+#1609294002
+vim update-nginx-conf.sh 
+#1609295038
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(date +%s).log |&less
+#1609295062
+vim update-nginx-conf.sh 
+#1609295077
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(date +%s).log |&less
+#1609295122
+cat update-nginx-conf.sh 
+#1609295127
+ssh root@linode docker ps
+#1609295135
+ssh root@linode docker exec postgres date
+#1609295140
+ssh root@linode docker exec postgres ls
+#1609295143
+ssh root@linode docker exec postgres ls -a
+#1609295168
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(date +%s).log |&less
+#1609295217
+jobs
+#1609294519
+grc pkill
+#1609294530
+vq
+#1609296460
+cddockerlearn 
+#1609296463
+ls -l
+#1609296465
+ls -ltr
+#1609296474
+cd learn-docker-compose-nginx-python-web-server
+#1609296482
+cd ..
+#1609296492
+cd learn-deploy-nginx-web-server-to-linode
+#1609296504
+vim *ng*
+#1609293377
+sl
+#1609296771
+echo $HOSTNAME
+#1609295261
+j de
+#1609295264
+vim update-nginx-conf.sh 
+#1609296388
+sl
+#1609296686
+j dep
+#1609296693
+vim nginx.d/default.conf 
+#1609342424
+docker exec -it quizme sh
+#1609342355
+docker start quizme
+#1609342368
+docker start postgres
+#1609342376
+docker start quizme
+#1609342391
+docker exec -it quizme sh
+#1609345455
+cl
+#1609345460
+ls *unset*sh
+#1609345461
+vim *unset*sh
+#1609345472
+ls *var*sh
+#1609345490
+vim learn.is.var.set.bash learn.set.var.if.not.set.sh 
+#1609342852
+top
+#1609343737
+c
+#1609343739
+docker ps
+#1609343743
+docker start nginx
+#1609343752
+docker images
+#1609345065
+j depl
+#1609345071
+vim deploy-nginx.sh 
+#1609345515
+c
+#1609345517
+reset
+#1609345753
+docker exec -it nginx sh
+#1609347530
+vim *ng*
+#1609347570
+vim build-and-push-images.sh 
+#1609347576
+vim *nx
+#1609347596
+vim build-and-push-images.sh 
+#1609347678
+gs
+#1609347685
+pwd
+#1609347685
+jobs
+#1609347718
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1609347728
+chmod a+x build-and-push-nginx.sh 
+#1609347729
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1609347752
+vim *nginx.sh
+#1609347774
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1609346350
+j ngin
+#1609346360
+vim conf.d/default.conf 
+#1609346949
+docker logs nginx
+#1609346957
+docker logs -tf nginx
+#1609347513
+vim *nx
+#1609345524
+j depl
+#1609345584
+linode_dir=. ./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609345634
+linode_dir=$PWD ./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609345684
+docker exec -it nginx sh
+#1609345713
+docker ps
+#1609345723
+curl localhost
+#1609346018
+docker exec -it quizme sh
+#1609346990
+j nginx
+#1609347006
+cd ..
+#1609347019
+cd learn-nginx-ssl
+#1609347040
+dc run
+#1609347047
+dc up
+#1609347075
+docker ps
+#1609347082
+docker stop nginx
+#1609347084
+dc up
+#1609347120
+dc up --help
+#1609347128
+dc up -d
+#1609347139
+dc ps
+#1609347149
+curl localhost
+#1609347162
+dc stop learn-nginx-ssl_my_web_server_1_1
+#1609347170
+dc ps
+#1609347187
+docker stop learn-nginx-ssl_my_web_server_1_1
+#1609347200
+dc ps
+#1609347206
+curl localhost
+#1609347218
+dc ps
+#1609347222
+docker ps
+#1609347234
+docker exec -it learn-nginx-ssl_my_nginx_server sh
+#1609347265
+docker exec -it learn-nginx-ssl_my_nginx_server_1 sh
+#1609342256
+vq
