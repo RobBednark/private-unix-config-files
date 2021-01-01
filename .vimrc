@@ -88,6 +88,7 @@ iab _wi 😉
 " \s ==> :tab split  (create a new tab)
 " \u ==> add pudb set_trace()
 " \D ==> (Down) -- fold DOWN from the current cursor position to G (end of file)
+" \F ==> (F)old -- fold everything up from the current line (#start) and down from the next #end
 " \I ==> ("lIne") add a equals line: ======================
 " \L ==> ("Line") add a dashed line: -----------------------------
 " \U ==> ("Up") -- fold UP from the current cursor position to line 1 (top of file)
@@ -98,6 +99,7 @@ map <silent> <leader>C :w<esc>:!python3 -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>e :!open -a google\ chrome % <esc>
 map <silent> <leader>f :MRU<CR>
+map <silent> <leader>F zf1G/^#end<CR>jjzfG
 map <silent> <leader>g :GitGutterDisable <esc>
 map <leader>h  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>l :call AddSeparatorLineEquals()<esc>
