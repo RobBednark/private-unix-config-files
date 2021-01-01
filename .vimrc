@@ -96,7 +96,7 @@ iab _wi 😉
 " \U ==> ("Up") -- fold UP from the current cursor position to line 1 (top of file)
 map <silent> <leader>a :ALEFix<CR>
 map <silent> <leader>b :browse old<CR>
-map <silent> <leader>c :w<CR>:!(set -x; cd $(dirname %); git commit -am'incremental commit'; git push; git status %)<CR>
+map <silent> <leader>c :w<CR>:!(set -x; cd $(dirname %); git commit -am'incremental commit'; git push; git status %) & <CR>
 map <silent> <leader>C :w<esc>:!python3 -m py_compile %<esc>
 map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>D zfG
