@@ -55,7 +55,9 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 expandtab
 " ================================================================================
 " #Start #abbreviations
 " ================================================================================
+iab _bo □
 iab _bu •
+iab _ch ✅
 iab _he ❤️
 iab _la 😂
 iab _la2 🤣
