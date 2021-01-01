@@ -61004,3 +61004,517 @@ docker exec -it learn-nginx-ssl_my_nginx_server sh
 docker exec -it learn-nginx-ssl_my_nginx_server_1 sh
 #1609342256
 vq
+#1609349191
+vrc
+#1609349059
+j depl
+#1609349062
+docker images
+#1609349072
+docker-wait-until-engine-is-up && docker images
+#1609349114
+docker-rm-prune-everything
+#1609349133
+type docker-rm-prune-everything.2 
+#1609349142
+grc docker
+#1609349178
+grc docker|grep rm
+#1609349295
+docker-rm-prune-everything
+#1609349330
+docker-rm-everything-except-images 
+#1609349368
+linode_dir=$PWD ./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609349402
+./deploy-postgres.sh |& tee ~/tmp-no-repo/local-deploy-postgres-app-$(date +%s).log |&less
+#1609349443
+vim *post*
+#1609349501
+vim deploy-postgres.sh build-and-push-images.sh 
+#1609349557
+gs
+#1609349568
+git rm build-and-push-images.sh 
+#1609349570
+c
+#1609349575
+docker ps
+#1609349595
+vim deploy-quizme-app.sh 
+#1609349636
+./deploy-quizme-app.sh |& tee ~/tmp-no-repo/mac-deploy-quizme-app-$(date +%s).log |&less
+#1609349703
+curl localhost
+#1609349721
+docker exec -it nginx sh
+#1609349760
+cd nginx.d/
+#1609349762
+gd
+#1609349774
+gd default.conf 
+#1609360584
+vq
+#1609359193
+cdstatements 
+#1609359196
+cd Discover/
+#1609359197
+ls -ltr
+#1609359229
+cddownloads 
+#1609359230
+lh
+#1609359241
+mv Discover-* ~/Dropbox/Statements.and.bills/Discover/
+#1609357550
+vq
+#1609363927
+docker-wait-until-engine-is-up && docker exec -it nginx sh
+#1609363949
+docker ps
+#1609363955
+docker start nginx
+#1609363959
+docker-wait-until-engine-is-up && docker exec -it nginx sh
+#1609363991
+docker ps
+#1609364000
+docker kill nginx; docker rm nginx
+#1609364002
+docker images
+#1609364448
+docker rmi nginx
+#1609364454
+docker images -a
+#1609364461
+j de
+#1609364463
+gs
+#1609364466
+sm .
+#1609364590
+gs
+#1609364591
+c
+#1609364597
+vim *ngin*
+#1609364833
+cl
+#1609365079
+ls *date.sh
+#1609365081
+vim *date.sh
+#1609365226
+top
+#1609362506
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609362506
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609362504
+(rqo)
+#1609366628
+j de
+#1609366717
+./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609366515
+j d
+#1609366517
+j de
+#1609366536
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1609366558
+vim deploy-nginx.sh 
+#1609367255
+vq
+#1609371913
+top
+#1609372159
+docker exec -it a232d113d168b668fdde516b3bd801a194756276dbba2c8a0d112c097be36360 /bin/sh; exit
+#1609372416
+uname 
+#1609371088
+docker images
+#1609371093
+docker-wait-until-engine-is-up && docker images
+#1609371165
+docker images -a
+#1609371252
+docker rmi nginx:latest
+#1609371259
+ls -ltr
+#1609371291
+ls -ltr ~/tmp-no-repo/
+#1609371327
+docker images
+#1609371411
+j de
+#1609371415
+vim dep*
+#1609371077
+cd tmp-no-repo/
+#1609371079
+ls -ltr
+#1609371085
+vim build-nginx-1609366537.log
+#1609371668
+docker logs nginx
+#1609371677
+docker images
+#1609372669
+j de
+#1609372697
+mv dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all quizme-dump-custom
+#1609372724
+./postgres-load-data.sh |& tee /tmp/mac-postgres-load-$(date +%s).log |&less
+#1609372753
+docker exec postgres psql --version
+#1609372775
+docker exec postgres psql --user=postgres --command "\\l"
+#1609372635
+j dum
+#1609372637
+lh
+#1609372677
+cp dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all /Users/rbednark/Dropbox/git/quizme_personal_files/deploy
+#1609371596
+uname -a
+#1609371642
+j de
+#1609371652
+./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609372040
+docker logs quizme
+#1609372046
+docker logs postgres
+#1609372071
+docker ps
+#1609372076
+docker start postgres
+#1609372081
+docker ps
+#1609372087
+docker logs postgres
+#1609372091
+docker start quizme
+#1609372096
+docker logs quizme
+#1609372291
+docker exec -t postgres uname
+#1609372295
+docker exec -t postgres 
+#1609372302
+docker exec postgres uname
+#1609372308
+docker exec --help
+#1609372318
+docker exec -it postgres sh
+#1609372337
+vim update-nginx-conf.sh 
+#1609372360
+rm -fr quiz-me/
+#1609372364
+vim postgres-load-data.sh 
+#1609372970
+pwd
+#1609372971
+jobs
+#1609372973
+vdiary 
+#1609379672
+bc -l
+#1609378979
+cdstatements 
+#1609378982
+cd Chase.checking/
+#1609378984
+ls -ltr
+#1609378988
+open Chase3156_Activity_20201224-20201220.csv 
+#1609379944
+vq
+#1609384443
+vjo
+#1609385625
+j dep
+#1609385650
+vim postgres-load-data.sh 
+#1609386836
+docker ps
+#1609386843
+docker-wait-until-engine-is-up && docker ps
+#1609386849
+docker start postgres
+#1609386892
+~ docker exec postgres "psql --user=postgres --command \"DROP DATABASE IF EXISTS $name_database\""
+#1609386910
+~ docker exec postgres "psql --user=postgres --command \"DROP DATABASE IF EXISTS my_database\""
+#1609386915
+docker exec postgres "psql --user=postgres --command \"DROP DATABASE IF EXISTS my_database\""
+#1609386926
+docker exec postgres psql --user=postgres --command "DROP DATABASE IF EXISTS my_database"
+#1609386740
+j dum
+#1609386741
+lh
+#1609386779
+ls -l ~/tmp-no-repo/
+#1609386417
+j dep
+#1609386419
+sm .
+#1609386506
+vim postgres-load-data.sh 
+#1609387266
+gs
+#1609387326
+docker exec -it nginx bash
+#1609387328
+docker exec -it nginx sh
+#1609387504
+docker logs -tf nginx
+#1609386722
+j dep
+#1609386809
+filename_dump=~/quizme-read-only-prod/db_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all ./postgres-load-data.sh |& tee ~/tmp-no-repo/mac-postgres-load-data-$(date +%s).log |&less
+#1609386820
+docker-wait-until-engine-is-up && filename_dump=~/quizme-read-only-prod/db_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all ./postgres-load-data.sh |& tee ~/tmp-no-repo/mac-postgres-load-data-$(date +%s).log |&less
+#1609387187
+c
+#1609387188
+docker-wait-until-engine-is-up && filename_dump=~/quizme-read-only-prod/db_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all ./postgres-load-data.sh |& tee ~/tmp-no-repo/mac-postgres-load-data-$(date +%s).log |&less
+#1609387208
+docker exec -it postgres bash
+#1609387234
+docker start nginx quizme
+#1609387237
+docker ps
+#1609387243
+curl localhost
+#1609387250
+cd nginx.d/
+#1609387255
+jobs
+#1609387289
+vim default.conf 
+#1609387348
+curl localhost
+#1609387367
+vim default.conf 
+#1609387475
+docker logs -t nginx
+#1609387489
+docker logs -tf nginx
+#1609395879
+v ol
+#1609396106
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1609395956
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1609395956
+lwy
+#1609396079
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always=rob --sms-looking-always=rob --email-looking-always=rob --email-available-always=rob|&less
+#1609395954
+pshd
+#1609396358
+vq
+#1609395988
+vq
+#1609430770
+type docker-run-alpine
+#1609430790
+docker run -it --rm nginx:alpine sh
+#1609429060
+j depl
+#1609429080
+top
+#1609429092
+c
+#1609429100
+docker ps
+#1609429105
+docker start postgres
+#1609429111
+docker logs postgres
+#1609429118
+docker start quizme
+#1609429123
+docker logs quizme
+#1609429131
+docker logs -t quizme
+#1609429134
+c
+#1609429137
+docker start nginx
+#1609429142
+docker logs -t nginx
+#1609429885
+docker ps
+#1609429894
+docker exec -it nginx bash
+#1609429898
+docker exec -it nginx sh
+#1609431781
+curl localhost
+#1609431891
+docker ps
+#1609431912
+docker logs nginx
+#1609431923
+j dep
+#1609431927
+vim nginx.d/default.conf 
+#1609431980
+docker logs -t nginx
+#1609432006
+vim deploy-nginx.sh 
+#1609431621
+j dep
+#1609431637
+vim build-and-push-nginx.sh deploy-nginx.sh 
+#1609431691
+c
+#1609431710
+docker ps
+#1609431733
+docker stop nginx objective_ganguly
+#1609431745
+docker kill nginx objective_ganguly
+#1609431751
+docker images
+#1609431755
+c
+#1609431765
+./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609433538
+curl -i 127.0.0.1
+#1609433544
+curl -I 127.0.0.1
+#1609433555
+man curl
+#1609433223
+docker ps
+#1609433283
+curl localhost
+#1609433286
+curl -I localhost
+#1609433293
+curl 127.0.0.1
+#1609433297
+curl -I 127.0.0.1
+#1609433341
+docker ps
+#1609433435
+curl 'http://127.0.0.1/'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'sec-ch-ua: "Google Chrome";v="87", " Not;A Brand";v="99", "Chromium";v="87"'   -H 'sec-ch-ua-mobile: ?0'   -H 'Upgrade-Insecure-Requests: 1'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36'   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'Sec-Fetch-Site: none'   -H 'Sec-Fetch-Mode: navigate'   -H 'Sec-Fetch-User: ?1'   -H 'Sec-Fetch-Dest: document'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: PGADMIN_LANGUAGE=en; PGADMIN_INT_KEY=00815097-f7a7-45ba-8dd9-df93511caf51; csrftoken=PZjs6LHAlGqyJ7fqdAbesygkcTFRx9OiQF4LdviwJvPCAEBLh4UsS2W7UnQGg7jq; sessionid=ppwhye55wiknh3bby3xjl6mv0bebt8dm; messages="[\"__messagesnotfinished__\"]:1kuioG:MG0-VNncA93r-wzNTtiy3JdELpqKBQiOrfsf2owbslk"'   --compressed
+#1609433461
+curl -I 127.0.0.1/
+#1609433471
+curl -I http://127.0.0.1/
+#1609433479
+vim /tmp/curl.sh
+#1609432658
+docker run -p 80:80 --name nginx --network my-network -d -v /Users/rbednark/Dropbox/git/quizme_personal_files/deploy/nginx.d:/etc/nginx/conf.d robbednark/my-nginx-server:latest sh
+#1609432666
+docker rm nginx
+#1609432668
+docker run -p 80:80 --name nginx --network my-network -d -v /Users/rbednark/Dropbox/git/quizme_personal_files/deploy/nginx.d:/etc/nginx/conf.d robbednark/my-nginx-server:latest sh
+#1609432676
+docker logs nginx
+#1609432681
+docker run -it -p 80:80 --name nginx --network my-network -d -v /Users/rbednark/Dropbox/git/quizme_personal_files/deploy/nginx.d:/etc/nginx/conf.d robbednark/my-nginx-server:latest sh
+#1609432685
+docker rm nginx
+#1609432687
+docker run -it -p 80:80 --name nginx --network my-network -d -v /Users/rbednark/Dropbox/git/quizme_personal_files/deploy/nginx.d:/etc/nginx/conf.d robbednark/my-nginx-server:latest sh
+#1609432696
+docker logs nginx
+#1609432716
+docker run -it -p 80:80 --name nginx --network my-network -v /Users/rbednark/Dropbox/git/quizme_personal_files/deploy/nginx.d:/etc/nginx/conf.d robbednark/my-nginx-server:latest sh
+#1609432721
+docker rm nginx
+#1609432723
+docker run -it -p 80:80 --name nginx --network my-network -v /Users/rbednark/Dropbox/git/quizme_personal_files/deploy/nginx.d:/etc/nginx/conf.d robbednark/my-nginx-server:latest sh
+#1609432731
+docker rm nginx
+#1609432735
+docker ps
+#1609432747
+docker kill nginx; docker rm nginx
+#1609432754
+docker run -it -p 80:80 --name nginx --network my-network -v /Users/rbednark/Dropbox/git/quizme_personal_files/deploy/nginx.d:/etc/nginx/conf.d robbednark/my-nginx-server:latest sh
+#1609432830
+j dep__
+#1609432833
+cd nginx.d/
+#1609432836
+rm orig.default.conf 
+#1609432840
+jobs
+#1609432844
+./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609432849
+cd ..
+#1609432850
+./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609432870
+docker logs nginx
+#1609432875
+curl localhost
+#1609432878
+curl -I localhost
+#1609432894
+docker logs nginx
+#1609432909
+vim nginx.d/default.conf 
+#1609432918
+docker ps
+#1609432926
+docker exec -it nginx sh
+#1609432364
+docker ps
+#1609432372
+j dep__
+#1609432382
+vi deploy-nginx.sh 
+#1609432422
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1609432456
+./deploy-nginx.sh |& tee ~/tmp-no-repo/mac-deploy-nginx-$(date +%s).log |&less
+#1609432507
+docker logs nginx
+#1609432518
+vim nginx.d/default.conf 
+#1609432527
+docker exec -it nginx sh
+#1609432552
+c
+#1609432616
+ls -ltr ~/tmp-no-repo/
+#1609432629
+vim ~/tmp-no-repo/mac-deploy-nginx-1609432456.log
+#1609432959
+c
+#1609432964
+docker logs -t quizme
+#1609432976
+docker logs -ft quizme
+#1609433074
+cdqn
+#1609433091
+vi
+#1609438646
+top
+#1609444380
+vq
+#1609442262
+vp
+#1609442605
+vq
+#1609469524
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609469524
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609469522
+rqo
