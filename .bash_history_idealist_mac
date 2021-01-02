@@ -61538,3 +61538,255 @@ sl
 vq
 #1609533994
 vim
+#1609534066
+vvimrc 
+#1609534984
+vq
+#1609544518
+vdiary 
+#1609544283
+cdstatements 
+#1609544293
+cd TDAmeritrade.River.Coverdell.educational.IRA.3897
+#1609544295
+ls -ltr
+#1609544301
+open TDA2422-TDAmeritrade-River-Coverdell-withdrawal-14239--2020-12-20.pdf 
+#1609553206
+vim /tmp/foo
+#1609553253
+cd /tmp
+#1609553255
+vi foo 
+#1609552899
+j dep__
+#1609552906
+cat Dockerfile-nginx 
+#1609552910
+grep Docker *
+#1609552921
+vim build-and-push-nginx.sh 
+#1609552929
+git rm Dockerfile-nginx 
+#1609552930
+c
+#1609552941
+ls db_data/
+#1609552950
+vim postgres-load-data.sh 
+#1609552972
+c
+#1609552978
+vim *
+#1609554324
+j dep
+#1609554331
+git mv nginx.d conf.d
+#1609554523
+j dep
+#1609554525
+cd ../bin
+#1609554528
+vim *
+#1609554647
+cd ../deploy/
+#1609554648
+c
+#1609554669
+vi do-everything.sh
+#1609552650
+j dep
+#1609552651
+sm .
+#1609552785
+vim scp-postgres-data.sh 
+#1609552865
+gs
+#1609552871
+git add scp-postgres-data.sh 
+#1609552885
+gcam 'add scp-postgres-data.sh'
+#1609553068
+vim settings.sh
+#1609553360
+gd
+#1609553365
+cat settings.sh 
+#1609553372
+vim *
+#1609554382
+vim $(grep -l nginx\.d *)
+#1609554410
+grep 'nginx\.d' *
+#1609554513
+c
+#1609566958
+vq
+#1609567043
+pipenv
+#1609567072
+cdqn
+#1609567074
+pipenv install
+#1609567321
+gs
+#1609567329
+git add Pip*
+#1609567331
+gs
+#1609567590
+pipenv graph
+#1609567084
+cdqn
+#1609567085
+sm .
+#1609567303
+gd
+#1609567314
+vim Pipfile.lock 
+#1609567656
+git clone --help|less
+#1609567706
+cd /tmp
+#1609567781
+git clone --depth=1 --single-branch --branch=rbednark-2020-07-15-add-django-debug-toolbar https://github.com/RobBednark/quiz-me.git /tmp/quizme
+#1609567785
+cd quizme/
+#1609567788
+git log
+#1609567791
+git log --all
+#1609566921
+cdqn
+#1609566923
+gs
+#1609566924
+gpus
+#1609566930
+vim Pipfile
+#1609567766
+j dep
+#1609567768
+vim Dockerfile-quizme 
+#1609566903
+j dep__
+#1609566907
+cd quiz-me/
+#1609566909
+gs
+#1609566911
+cd ..
+#1609566917
+rm -fr quiz-me/
+#1609567424
+ls -l
+#1609567430
+ls -l *sh
+#1609567436
+chmod a+x *sh
+#1609567438
+gs
+#1609567468
+vim Dockerfile-quizme 
+#1609566769
+j dep
+#1609566777
+cat do-everything.sh 
+#1609566782
+chmod a+x do-everything.sh 
+#1609566836
+time ./do-everything.sh |& tee ~/tmp-no-repo/do-everything-$(date +%s).log
+#1609566843
+ls -altr
+#1609566845
+vim do-everything.sh 
+#1609566876
+time ./do-everything.sh |& tee ~/tmp-no-repo/do-everything-$(date +%s).log |&less
+#1609570339
+j dep__
+#1609570342
+ls -l
+#1609570471
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1609570479
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always=rob --sms-looking-always=rob --email-looking-always=rob --email-available-always=rob|&less
+#1609570510
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1609570513
+v cron
+#1609570790
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1609570469
+pshd
+#1609568698
+docker images
+#1609570300
+jobs
+#1609570309
+v ool
+#1609570816
+cl
+#1609570817
+sm .
+#1609604669
+j dep__
+#1609604672
+vim settings.sh 
+#1609605218
+sl
+#1609604343
+j dep
+#1609604539
+sl
+#1609604656
+vim deploy-nginx.sh 
+#1609605709
+vim Dockerfile-nginx
+#1609605846
+vim build-and-push-nginx.sh 
+#1609606201
+docker images
+#1609606245
+docker ps
+#1609606266
+docker run -it robbednark/my-nginx-server:latest sh
+#1609606301
+vim ~/tmp-no-repo/linode-deploy-nginx-1609606059.log
+#1609606618
+ping linode
+#1609604568
+j dep
+#1609604575
+vim deploy-nginx.sh 
+#1609604613
+c
+#1609604645
+ssh root@linode < ./deploy-nginx.sh |& tee ~/tmp-no-repo/linode-deploy-nginx-$(date +%s).log |&less
+#1609604761
+ls -l settings.sh 
+#1609604937
+ssh root@linode ls
+#1609605145
+cat setting.sh deploy-nginx.sh | ssh root@linode |& less
+#1609605186
+grep tag.nginx settings.sh 
+#1609605205
+cat settings.sh deploy-nginx.sh | ssh root@linode |& less
+#1609605920
+c
+#1609605930
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1609606051
+cat setting.sh deploy-nginx.sh | ssh root@linode |& tee ~/tmp-no-repo/linode-deploy-nginx-$(date +%s).log |&less
+#1609606059
+cat settings.sh deploy-nginx.sh | ssh root@linode |& tee ~/tmp-no-repo/linode-deploy-nginx-$(date +%s).log |&less
+#1609606129
+vim Dockerfile-nginx 
+#1609606148
+vim build-and-push-nginx.sh 
+#1609606391
+vim deploy-nginx.sh 
+#1609606418
+cat settings.sh deploy-nginx.sh | ssh root@linode |& tee ~/tmp-no-repo/linode-deploy-nginx-$(date +%s).log |&less
+#1609601855
+vq
