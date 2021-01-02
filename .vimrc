@@ -102,7 +102,7 @@ map <silent> <leader>d :r!git diff --cached<esc>
 map <silent> <leader>D zfG
 map <silent> <leader>e :!open -a google\ chrome % <esc>
 map <silent> <leader>f :MRU<CR>
-map <silent> <leader>F zf1G/^#end<CR>jjzfG1Gjjj
+map <silent> <leader>F kkzf1G/^#end<CR>jjzfG1Gjjj
 map <silent> <leader>g :GitGutterDisable <esc>
 map <leader>h  m[%v%:sleep 3000m<CR>`[  
 map <silent> <leader>l :call AddSeparatorLineEquals()<esc>
