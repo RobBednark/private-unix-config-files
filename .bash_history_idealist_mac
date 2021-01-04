@@ -61790,3 +61790,231 @@ vim deploy-nginx.sh
 cat settings.sh deploy-nginx.sh | ssh root@linode |& tee ~/tmp-no-repo/linode-deploy-nginx-$(date +%s).log |&less
 #1609601855
 vq
+#1609617655
+vvimrc 
+#1609635427
+vresume
+#1609635414
+vjo
+#1609641067
+cdqn
+#1609641069
+vim Pipfile
+#1609632665
+vq
+#1609632675
+vdiary 
+#1609643155
+vq
+#1609654668
+cat /etc/hosts
+#1609654700
+ping bednark.org
+#1609654704
+vim /etc/hosts
+#1609654719
+sudo vim /etc/hosts
+#1609654732
+ping bednark.org
+#1609654742
+ssh bednark.org
+#1609654749
+cd .ssh
+#1609654750
+gs
+#1609654751
+gd
+#1609654770
+gcam 'new known_hosts for server "linode"'
+#1609654780
+grep -r bednark.org .
+#1609654788
+vim known_hosts 
+#1609654806
+gcam 'known_hosts: rm bednark.org'
+#1609654808
+gd
+#1609654813
+ssh bednark.org
+#1609654887
+cat /etc/hosts
+#1609654967
+nslookup bednark.org
+#1609655139
+sl
+#1609654506
+rg -i domains.google $FilesDirsAllGrep 
+#1609690677
+ping bednark.org
+#1609690688
+ssh root@bednark.org
+#1609690701
+vim .ssh/known_hosts 
+#1609690723
+ssh root@bednark.org
+#1609692635
+cd tmp-no-repo/
+#1609692637
+ls -ltr
+#1609692642
+cd ../tmp
+#1609692644
+lh
+#1609692645
+ls -ltr
+#1609692648
+vim getssl-bednark.org.1609692623.log
+#1609692695
+vim ~/.getssl/getssl.cfg ~/.getssl/bednark.org/getssl.cfg 
+#1609693748
+jobs
+#1609692007
+mkdir getssl
+#1609692007
+cd getssl
+#1609692009
+curl --silent https://raw.githubusercontent.com/srvrco/getssl/master/getssl > getssl ; chmod 700 getssl
+#1609692092
+./getssl -c bednark.org
+#1609692101
+ls -al
+#1609692112
+ls -al ../.getssl/
+#1609692133
+c
+#1609692151
+cd ../.getssl/
+#1609692153
+vim getssl.cfg 
+#1609692186
+jobs
+#1609692188
+git init .
+#1609692191
+git add .
+#1609692196
+gcam 'initial'
+#1609692285
+vim bednark.org/getssl.cfg 
+#1609692623
+(set -x; date; ~/getssl/getssl bednark.org) >& ~/tmp/getssl-bednark.org.$(date +%s).log
+#1609692626
+vim .log
+#1609692830
+jobs
+#1609692838
+(set -x; date; ~/getssl/getssl bednark.org) >& tee ~/tmp/getssl-bednark.org.$(date +%s).log
+#1609692864
+(set -x; date; ~/getssl/getssl bednark.org) |& tee ~/tmp/getssl-bednark.org.$(date +%s).log
+#1609688199
+vq
+#1609691075
+j ng
+#1609691081
+vim generate-ssl-cert.sh 
+#1609701955
+sl
+#1609704293
+curl bednark.org/foobar
+#1609698950
+sl
+#1609701890
+sl
+#1609704533
+j de
+#1609704535
+gs
+#1609704546
+ls conf.d/
+#1609704555
+mkdir nginx-conf-files
+#1609704570
+scp root@linode:/tmp/nginx.conf nginx-conf-files
+#1609704573
+ls nginx-conf-files
+#1609704576
+sm .
+#1609704644
+sl
+#1609705019
+j dep__
+#1609705023
+cd ..
+#1609705034
+c
+#1609705038
+cd deploy/
+#1609705068
+grc quiz
+#1609705273
+cd .
+#1609705101
+j dep
+#1609705103
+cd ..
+#1609705114
+vim LOG log.txt 
+#1609702061
+vq
+#1609730213
+datestamp 
+#1609730218
+type datestamp
+#1609716128
+cl
+#1609716134
+git grep -i garza
+#1609716145
+ls *read*py
+#1609728587
+ssh root@linode docker logs nginx 
+#1609728593
+ssh root@linode docker logs nginx  > /tmp/nginx.log
+#1609728696
+vim /tmp/nginx.log 
+#1609729091
+ssh root@linode docker logs nginx  > /tmp/nginx.log
+#1609729094
+vim /tmp/nginx.log
+#1609728325
+cl
+#1609728328
+ls *fileinput*py
+#1609728349
+vim learn_fileinput_stdlib_module_read_files_argv_or_stdin.py
+#1609728951
+sl
+#1609729290
+j dep
+#1609729295
+vim nginx-conf-files/nginx.conf 
+#1609730045
+vim update-nginx-conf.sh 
+#1609730260
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1609730282
+jobs
+#1609730295
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1609715931
+cl
+#1609715934
+ls *parse*py
+#1609715946
+ls *nginx*
+#1609715948
+vim *nginx*
+#1609716004
+git log parse_nginx_log.py
+#1609716025
+vim parse.nginx_log
+#1609716030
+vim parse_nginx_log.py 
+#1609716051
+cp parse_nginx_log.py new_parse_nginx_log.py
+#1609716052
+vim new_parse_nginx_log.py
+#1609730243
+j dep
+#1609730245
+vim settings.sh 
