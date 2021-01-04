@@ -62018,3 +62018,37 @@ vim new_parse_nginx_log.py
 j dep
 #1609730245
 vim settings.sh 
+#1609735294
+j dep
+#1609735299
+git grep docker.run
+#1609740688
+vim dep*
+#1609741316
+cat settings.sh run-quizme.sh | ssh root@linode |& tee ~/tmp-no-repo/linode-run-quizme-$(datestamp).log |&less
+#1609741497
+sl
+#1609741572
+vim run-quizme.sh 
+#1609741613
+cat settings.sh run-quizme.sh | ssh root@linode |& tee ~/tmp-no-repo/linode-run-quizme-$(datestamp).log |&less
+#1609734994
+j dep
+#1609735003
+vim run-quizme.sh
+#1609741391
+git grep tag_quizme
+#1609741408
+vim $(git grep -l tag_quizme)
+#1609740720
+cd tmp-no-repo/
+#1609740722
+ls -ltr
+#1609740734
+vim linode-deploy-nginx-1609606418.log
+#1609740820
+history > /tmp/history
+#1609740825
+grep deploy-nginx /tmp/history
+#1609741087
+docker run --help
