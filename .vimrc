@@ -59,6 +59,7 @@ iab _bo □
 iab _bu •
 iab _ch ✅
 iab _he ❤️
+iab _hi 🙌
 iab _la 😂
 iab _la2 🤣
 iab _sep ------------------------------
