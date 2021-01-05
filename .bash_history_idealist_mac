@@ -62052,3 +62052,315 @@ history > /tmp/history
 grep deploy-nginx /tmp/history
 #1609741087
 docker run --help
+#1609734979
+vrc
+#1609777548
+cd /tmp
+#1609777549
+ls -ltr
+#1609777553
+vim nginx.log 
+#1609778312
+j dep
+#1609778318
+vim nginx-conf-files/nginx.conf 
+#1609778778
+psql
+#1609777932
+j dep
+#1609777938
+vim nginx-conf-files/nginx.conf 
+#1609778240
+ls *nginx*
+#1609778251
+vim update-nginx-conf.sh 
+#1609778287
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1609778426
+curl bednark.org
+#1609778463
+ssh root@linode docker logs nginx 
+#1609778472
+ssh root@linode docker logs nginx  > /tmp/nginx.log
+#1609778476
+vim /tmp/nginx.log
+#1609776132
+sl
+#1609777383
+cl
+#1609777391
+lh
+#1609777420
+vim new_parse_nginx_log.py 
+#1609779946
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1609779947
+alway
+#1609779963
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-available-always=rob --sms-looking-always=rob |&less
+#1609780008
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py -h
+#1609780032
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-error |&less
+#1609780037
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-error=rob |&less
+#1609779945
+pshd
+#1609780073
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1609780076
+v cron
+#1609780197
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1609774451
+vq
+#1609779858
+v ool
+#1609780148
+date -u
+#1609780603
+vq
+#1609787421
+vdiary 
+#1609788955
+c
+#1609788962
+vjo
+#1609790912
+pwd
+#1609790913
+jobs
+#1609790919
+cdresume
+#1609790922
+ls -ltr
+#1609790923
+gs .
+#1609790924
+sm .
+#1609790936
+ls -ltr
+#1609790961
+ln -sf Resume-Rob-Bednark-2020-Dec-29.pdf latest.resume.pdf 
+#1609796910
+vq
+#1609796951
+vp
+#1609789817
+j dep
+#1609789845
+vim monitor-create-db.sql
+#1609789848
+cl
+#1609789850
+ls *sql
+#1609789858
+ls *table*
+#1609789862
+c
+#1609789866
+ls *sql*
+#1609789871
+ls *sql*|grep table
+#1609789886
+ls *table*sql
+#1609789894
+vim learn_create_table.sql
+#1609797444
+sm .
+#1609797476
+j de
+#1609797527
+sm .
+#1609791675
+vim /tmp/nginx.log 
+#1609791660
+psql
+#1609791692
+\d
+#1609791694
+psql
+#1609792985
+v log
+#1609792989
+j sql
+#1609792994
+v sql
+#1609792998
+j de
+#1609793001
+vim *sql
+#1609799006
+cdresume
+#1609799076
+mv ~/Downloads/Resume\ Rob\ Bednark\ 2021\ Jan\ 4.pdf .
+#1609799076
+gs
+#1609799118
+mv Resume\ Rob\ Bednark\ 2021\ Jan\ 4.pdf Resume-Rob-Bednark-2021-Jan-4.pdf
+#1609799121
+ln -sf Resume-Rob-Bednark-2021-Jan-4.pdf latest.resume.pdf 
+#1609799122
+ls -l
+#1609799124
+gs
+#1609799138
+git mv Resume\ Rob\ Bednark\ 2020\ Dec\ 14.pdf Resume-Rob-Bednark-2020-Dec-14.pdf
+#1609799139
+gs
+#1609799142
+cit add .
+#1609799143
+gs
+#1609799146
+git add .
+#1609799148
+gs
+#1609799158
+gcam 'add new resume 1/4/21'
+#1609798442
+vjo
+#1609800549
+xl
+#1609800550
+sl
+#1609800518
+vq
+#1609800476
+top
+#1609801162
+cdresume
+#1609801252
+top
+#1609810868
+vp
+#1609809747
+wl
+#1609809749
+sl;
+#1609809929
+j de
+#1609809936
+ls mon*
+#1609809944
+ls -l
+#1609809955
+ls *ng*
+#1609816443
+vim monitor-quizme-db.sql
+#1609816978
+vim scp-postgres-data.sh 
+#1609816986
+vim postgres-load-data.sh 
+#1609817012
+ssh root@linode docker exec postgres psql --user=postgres --command "DROP DATABASE IF EXISTS $postgres_db_name"
+#1609817042
+ssh root@linode docker exec postgres psql --user=postgres --command "\l"
+#1609817048
+ssh root@linode docker exec postgres psql --user=postgres --command "\\l"
+#1609817060
+ssh root@linode docker exec postgres psql --user=postgres --command \"\l\"
+#1609817206
+jobs
+#1609817210
+vim monitor-quizme-db.sql
+#1609825864
+psql
+#1609825871
+psql -h
+#1609825874
+psql --help
+#1609826116
+pwd
+#1609826116
+c
+#1609826122
+pwd
+#1609826123
+jobs
+#1609826130
+pwd
+#1609827282
+j dep__
+#1609827291
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1609827346
+ssh root@linode docker logs -tf nginx
+#1609826878
+vim /tmp/nginx.log 
+#1609826866
+j dep
+#1609826871
+vim nginx-conf-files/nginx.conf 
+#1609827428
+sm .
+#1609827355
+curl bednark.org
+#1609827387
+curl -il bednark.org
+#1609827391
+curl -iL bednark.org
+#1609826840
+cl
+#1609826842
+ls *sql
+#1609826843
+lh
+#1609826849
+vim learn_create_table.sql 
+#1609825739
+j dep
+#1609825740
+sm .
+#1609825757
+cat LEFTOFF 
+#1609825764
+vim .gitignore 
+#1609825840
+c
+#1609825844
+vim *sql
+#1609826147
+psql
+#1609826163
+psql --help
+#1609826178
+psql --dbname=restore_quizme_custom
+#1609826183
+psql --dbname=restore_quizme_custom monitor-quizme-db.sql 
+#1609826194
+psql --dbname=restore_quizme_custom --file=monitor-quizme-db.sql 
+#1609826203
+psql
+#1609826281
+psql --echo-all --dbname=restore_quizme_custom --file=monitor-quizme-db.sql 
+#1609826302
+psql -c '\l'
+#1609826312
+psql --echo-all --dbname=quizme_production --file=monitor-quizme-db.sql 
+#1609826331
+vim *sql
+#1609826374
+psql --echo-all --dbname=quizme_production --file=monitor-quizme-db.sql 
+#1609826553
+psql --echo-all --dbname=quizme_production --file=monitor-quizme-db.sql |&less
+#1609826815
+gs
+#1609826816
+gd
+#1609826820
+gs
+#1609826829
+gcam 'updated monitor-quizme-db.sql'
+#1609826837
+ls *sql
+#1609827455
+jobs
+#1609826441
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1609826441
+python manage.py runserver --insecure 0.0.0.0:8000
+#1609826440
+rqo
+#1609860767
+vq
