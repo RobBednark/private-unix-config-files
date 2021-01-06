@@ -62504,3 +62504,23 @@ kill %1
 vq
 #1609964163
 vim
+#1609964358
+vvimrc 
+#1609965163
+j gen
+#1609965165
+ls -ltr
+#1609965189
+mv Resume\ Rob\ Bednark\ 2021\ Jan\ 6.pdf Resume-Rob-Bednark-2021-Jan-6b.pdf
+#1609965202
+mv Resume-Rob-Bednark-2021-Jan-6.pdf Resume-Rob-Bednark-2021-Jan-6-first.pdf
+#1609965207
+ls -ltr
+#1609965217
+mv Resume-Rob-Bednark-2021-Jan-6b.pdf Resume-Rob-Bednark-2021-Jan-6.pdf
+#1609965225
+ln -sf Resume-Rob-Bednark-2021-Jan-6.pdf latest.resume.pdf 
+#1609965234
+open Resume-Rob-Bednark-2021-Jan-6.pdf
+#1609967516
+vp
