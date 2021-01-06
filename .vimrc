@@ -62,6 +62,7 @@ iab _he ❤️
 iab _hi 🙌
 iab _la 😂
 iab _la2 🤣
+iab _li ─
 iab _sep ------------------------------
 iab _sm 😀
 iab _sm2 😁
