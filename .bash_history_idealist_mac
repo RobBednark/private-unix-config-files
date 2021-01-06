@@ -62364,3 +62364,131 @@ python manage.py runserver --insecure 0.0.0.0:8000
 rqo
 #1609860767
 vq
+#1609873487
+top
+#1609874668
+q
+#1609874671
+vvimrc 
+#1609879975
+cl
+#1609879976
+lh
+#1609880006
+cp learn_create_table.sql ~/Dropbox/git/quizme_personal_files/deploy/create_nginx_log_table.sql
+#1609880819
+curl bednark.org
+#1609880836
+ssh root@linode docker logs -t nginx > /tmp/nginx.log
+#1609880838
+vim /tmp/nginx.log
+#1609881085
+/update-ng
+#1609881090
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1609881092
+j de
+#1609881094
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1609881104
+curl -iL bednark.org
+#1609881111
+ssh root@linode docker logs -t nginx > /tmp/nginx.log
+#1609881113
+vim /tmp/nginx.log
+#1609880940
+psql
+#1609880016
+j de
+#1609880023
+ls *ng*
+#1609880043
+git mv conf.d/default.conf nginx-conf-files/
+#1609880054
+vim $(grep -l default.conf *)
+#1609880155
+git grep default.conf
+#1609880165
+vim settings.sh 
+#1609880780
+c
+#1609880795
+vim nginx-conf-files/nginx.conf 
+#1609879964
+v sql
+#1609879968
+j de
+#1609879971
+ls *sql
+#1609880010
+vim *tab*
+#1609880673
+sm .
+#1609880752
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1609880764
+sm .
+#1609880791
+vim create_nginx_log_table.sql nginx-conf-files/nginx.conf 
+#1609879857
+top
+#1609879855
+vp
+#1609891873
+j de
+#1609891877
+ls -ltr
+#1609891891
+vim create_nginx_log_table.sql nginx-load-logs.sql nginx-conf-files/
+#1609891901
+vim create_nginx_log_table.sql nginx-load-logs.sql nginx-conf-files/nginx.conf 
+#1609892144
+vq
+#1609942468
+vp
+#1609950757
+vq
+#1609950010
+psql
+#1609949962
+vim /tmp/nginx.log 
+#1609949898
+j de
+#1609949925
+vim *tab*
+#1609950403
+psql --help
+#1609950421
+j dep__
+#1609950433
+psql tmp_learn < create_nginx_log_table.sql 
+#1609951022
+man psql
+#1609951436
+cl
+#1609951444
+ls *copy*sql
+#1609951447
+ls *psql*
+#1609951456
+vim learn.psql.copy.table.to.csv.file.txt 
+#1609953222
+vq
+#1609952915
+vq
+#1609962745
+j priv
+#1609962750
+j rbed
+#1609962755
+gs .
+#1609962775
+mv Resume\ Rob\ Bednark\ 2021\ Jan\ 6.pdf Resume-Rob-Bednark-2021-Jan-6.pdf
+#1609962778
+sm .
+#1609962790
+gs
+#1609962792
+ls -ltr
+#1609962801
+ln -sf Resume-Rob-Bednark-2021-Jan-6.pdf latest.resume.pdf 
