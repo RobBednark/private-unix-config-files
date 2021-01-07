@@ -62600,3 +62600,137 @@ cd tmp-no-repo/
 ls -ltr
 #1609984813
 date -u
+#1610003421
+vrc
+#1609985036
+j no-
+#1609985037
+ls -ltr
+#1609986120
+vim create_nginx_log_table.sh create_nginx_log_table.sql 
+#1609986127
+j de
+#1609986130
+vim create_nginx_log_table.sh create_nginx_log_table.sql 
+#1609985969
+psql
+#1609986160
+psql tmp_learn
+#1609984959
+j de
+#1609984987
+./postgres-load-nginx-log-data.sh /tmp/nginx-latest.log |& tee ~/tmp-no-repo/postgres-load-nginx-log-data-$(datestamp).log |&less
+#1609986481
+psql 
+#1609986560
+(set -x; psql nginx_logs < create_nginx_log_table.sql ) |& tee ~/tmp-no-repo/create_nginx_log_table-$(datestamp).log |&less
+#1609986571
+ls -ltr
+#1609986590
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1609986628
+curl bednark.org/after-nginx-conf-with-new-request-id-column
+#1609986656
+ssh root@linode docker logs nginx > /tmp/nginx.log
+#1609986721
+./postgres-load-nginx-log-data.sh /tmp/nginx-latest.log |& tee ~/tmp-no-repo/postgres-load-nginx-log-data-$(datestamp).log |&less
+#1610003308
+(set -x; psql nginx_logs < create_nginx_log_table.sql ) |& tee ~/tmp-no-repo/create_nginx_log_table-$(datestamp).log |&less
+#1610003314
+./postgres-load-nginx-log-data.sh /tmp/nginx-latest.log |& tee ~/tmp-no-repo/postgres-load-nginx-log-data-$(datestamp).log |&less
+#1609984875
+j dep
+#1609984879
+ls -ltr
+#1609984894
+vim postgres-load-nginx-log-data.sh 
+#1609984739
+ssh root@linode docker logs -t nginx > /tmp/nginx-$(datestamp).log
+#1609984743
+vim .log
+#1609984750
+ls -ltr
+#1609984756
+vim /tmp/nginx-2021.01.06.Wed.17.58.59.log 
+#1609985087
+ssh root@linode docker logs nginx > /tmp/nginx-$(datestamp).log
+#1609985095
+cd /tmp
+#1609985096
+ls -ltr
+#1609985104
+ln -sf  nginx-latest.log 
+#1609985105
+vim nginx-latest.log
+#1609985110
+ls -ltr
+#1609985135
+ln -sf  nginx-2021.01.06.Wed.18.04.47.log nginx-latest.log 
+#1609985155
+cp  nginx-2021.01.06.Wed.18.04.47.log nginx-latest.log 
+#1609985159
+ls -ltr
+#1609985163
+rm nginx-latest.log 
+#1609985165
+cp  nginx-2021.01.06.Wed.18.04.47.log nginx-latest.log 
+#1609985166
+vim nginx-latest.log
+#1609986529
+j de
+#1609986532
+ls *tab*
+#1609986537
+cat create_nginx_log_table.sh 
+#1609986665
+cd /tmp
+#1609986666
+ls -ltr
+#1609986676
+cp nginx.log nginx-latest.log 
+#1609986679
+vim nginx-latest.log
+#1609986778
+ls -ltr
+#1610003113
+ssh root@linode docker logs nginx > /tmp/nginx.log
+#1610003118
+ls -ltr
+#1610003124
+cp nginx.log nginx-latest.log 
+#1610003405
+ssh root@linode docker logs nginx > /tmp/nginx.log
+#1610003410
+cp -f nginx.log nginx-latest.log 
+#1610033227
+v ool
+#1610033800
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1610033244
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1610033728
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1610033242
+pshd
+#1610038388
+j nginx
+#1610038396
+vim conf.d/default.conf 
+#1610037483
+j dep
+#1610037510
+cat create_nginx_log_table.sh
+#1610037518
+vim create_nginx_log_table.sh
+#1610037551
+(set -x; psql nginx_logs < create_nginx_log_table.sql ) |& tee ~/tmp-no-repo/create_nginx_log_table-$(datestamp).log |&less
+#1610037568
+./postgres-load-nginx-log-data.sh /tmp/nginx-latest.log |& tee ~/tmp-no-repo/postgres-load-nginx-log-data-$(datestamp).log |&less
+#1610038316
+vim nginx-conf-files/default.conf 
+#1610037317
+psql
+#1610037175
+j dep
+#1610037185
+vim *table.sql
