@@ -62524,3 +62524,79 @@ ln -sf Resume-Rob-Bednark-2021-Jan-6.pdf latest.resume.pdf
 open Resume-Rob-Bednark-2021-Jan-6.pdf
 #1609967516
 vp
+#1609970872
+vvimrc 
+#1609976970
+j dep__
+#1609976972
+ls -ltr
+#1609976978
+chmod a+x postgres-load-*
+#1609977015
+./postgres-load-nginx-log-data.sh |& tee ~/tmp-no-repo/postgres-load-nginx-log-data-$(datestamp).log |&less
+#1609977853
+(set -x; psql tmp_learn < create_nginx_log_table.sql ) |& tee ~/tmp-no-repo/create_nginx_log_table-$(datestamp).log |&less
+#1609977865
+psql 
+#1609977890
+(set -x; psql tmp_learn < create_nginx_log_table.sql ) |& tee ~/tmp-no-repo/create_nginx_log_table-$(datestamp).log |&less
+#1609977895
+./postgres-load-nginx-log-data.sh |& tee ~/tmp-no-repo/postgres-load-nginx-log-data-$(datestamp).log |&less
+#1609977898
+psql
+#1609973953
+j dep
+#1609973955
+ls -ltr
+#1609973971
+vim postgres-load-nginx-log-data.sh
+#1609977782
+j dep
+#1609977790
+ls *sh
+#1609977792
+ls *sql
+#1609977796
+v table.sql
+#1609977286
+psql tmp_learn
+#1609977719
+j dep
+#1609977723
+vim nginx.c
+#1609977727
+v nginx.c
+#1609977338
+vim /tmp/nginx.log 
+#1609977057
+cl
+#1609977061
+ls *multi*sh
+#1609977078
+vim learn-single-line-string-assignment-across-multiple-lines-for-readability.bash
+#1609976536
+j dep
+#1609976538
+ls -ltr
+#1609971170
+psql
+#1609971110
+j dep
+#1609971111
+sm .
+#1609971160
+lh
+#1609971164
+vim create_nginx_log_table.sql 
+#1609971211
+vim create_nginx_log_table.sh create_nginx_log_table.sql 
+#1609970591
+vjo
+#1609985242
+psql tmp_learn
+#1609984803
+cd tmp-no-repo/
+#1609984805
+ls -ltr
+#1609984813
+date -u
