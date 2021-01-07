@@ -289,9 +289,9 @@ alias postgres.grep.ignore="egrep -v 'lock of type ShareLock|Connection reset by
 # General aliases
 ################################################################################
 alias ci="ci -zLT"
-alias cls="ech -ne '\033c'" 
+alias cls="echo -ne '\033c'" 
 alias co="co -zLT"
-alias cp="cp -ip "
+alias cp="cp -p "
 alias curl.headers="curl --include"
 alias curl.status.code="curl --write-out 'http_code=[%{http_code}]'"
 alias curl.status.code.2="curl --include"
