@@ -62734,3 +62734,157 @@ psql
 j dep
 #1610037185
 vim *table.sql
+#1610046419
+vvimrc 
+#1610046306
+vjo
+#1610033109
+vq
+#1610051143
+vp
+#1610059894
+grc resume
+#1610059899
+open.resume 
+#1610059922
+resume.pdf 
+#1610058203
+vjo
+#1610056879
+vp
+#1610067505
+vq
+#1610083589
+j de
+#1610083605
+sm .
+#1610083448
+cl
+#1610083451
+sl
+#1610081950
+vdiary 
+#1610083438
+c
+#1610083441
+j dep
+#1610083493
+vim monitor-var-log-messages-ssh-logins.sh
+#1610083535
+chmod a+x monitor-*
+#1610083539
+./monitor-var-log-messages-ssh-logins.sh
+#1610083571
+vim nginx-conf-files/nginx.conf 
+#1610087323
+j dep
+#1610087338
+cp update-nginx-conf.sh local-update-nginx-conf.sh
+#1610087339
+vim local-update-nginx-conf.sh
+#1610087544
+curl localhost
+#1610087174
+docker-wait-until-engine-is-up ; docker images ls -a
+#1610087232
+docker images ls -a
+#1610087238
+docker images
+#1610087258
+docker ps
+#1610087261
+docker ps -a
+#1610087270
+docker start nginx
+#1610087273
+docker ps
+#1610087277
+docker logs nginx
+#1610087284
+j dep
+#1610087289
+vim update-nginx-conf.sh 
+#1610087397
+vim settings.sh 
+#1610087487
+c
+#1610087493
+chmod a+x local-update-nginx-conf.sh 
+#1610087519
+./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610087540
+docker logs -f nginx
+#1610087695
+./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610087708
+docker logs -f nginx
+#1610087201
+j def
+#1610087204
+v def
+#1610087135
+j de
+#1610087137
+gs
+#1610087139
+v def
+#1610087192
+vim nginx-conf-files/default.conf 
+#1610122483
+vq
+#1610120898
+curl localhost
+#1610121893
+curl localhost:/asdf
+#1610121900
+curl http://localhost:/asdf
+#1610122110
+curl localhost
+#1610122122
+curl http://localhost:/asdf
+#1610122141
+curl http://localhost:/asdf/asdf/asdf/asdf
+#1610126857
+curl http://localhost:/asdf
+#1610126884
+curl -i http://localhost:/asdf
+#1610126992
+jobs
+#1610120031
+j dep
+#1610120061
+vim nginx-conf-files/default.conf 
+#1610120199
+docker ps
+#1610120205
+docker start nginx
+#1610120211
+docker exec -it nginx sh
+#1610120214
+docker ps
+#1610120218
+docker logs nginx
+#1610120227
+docker exec -it nginx sh
+#1610120294
+docker ps
+#1610120298
+docker images
+#1610120301
+docker ps -a
+#1610120309
+docker logs nginx
+#1610120318
+docker start quizme
+#1610120320
+docker ps
+#1610120328
+docker start nginx
+#1610120331
+docker ps
+#1610120335
+c
+#1610120342
+curl localhost
+#1610120855
+docker exec -it nginx sh
