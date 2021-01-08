@@ -14,6 +14,9 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[pull]
+    # When doing "git pull", don't merge or rebase.  Only fast-forward merges.
+    ff = only
 [push]
     # current - push the current branch to update a branch with the same name on the receiving end. Works in both central and non-central workflows.
     # https://git-scm.com/docs/git-config#Documentation/git-config.txt-pushdefault

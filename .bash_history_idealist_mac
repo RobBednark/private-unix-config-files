@@ -63036,3 +63036,77 @@ ls -al .unix.config.files
 cd tmp-no-repo/
 #1610129907
 ls -l
+#1610127358
+type c
+#1610127372
+j p-n
+#1610127376
+ls -ltr
+#1610127510
+vim 
+#1610127515
+vim local-update-nginx-conf-2021.01.08.Fri.09.31.41.log
+#1610127545
+vim local-update-nginx-conf-2021.01.0
+#1610127658
+lh
+#1610127667
+grc recent
+#1610127686
+grc last
+#1610127707
+type vl
+#1610127711
+vl
+#1610127719
+type vr
+#1610127720
+vr
+#1610127734
+type r
+#1610127754
+vrc
+#1610127888
+vl
+#1610127893
+ls -latr
+#1610127895
+ls -al
+#1610127896
+ls -altr
+#1610127907
+vrc
+#1610120905
+docker logs nginx
+#1610121329
+docker logs -f nginx
+#1610130232
+history > /tmp/history
+#1610130234
+vim /tmp/history
+#1610130364
+grep 01/01/21.Fri /tmp/history
+#1610130375
+grep 01/01/21.Fri /tmp/history > /tmp/history.today
+#1610130376
+vim /tmp/history.today
+#1610130394
+grep 01/08/21.Fri /tmp/history > /tmp/history.today
+#1610130395
+vim /tmp/history.today
+#1610130432
+sort /tmp/history.today > /tmp/history.today.sorted
+#1610130433
+vim /tmp/history.today.sorted
+#1610130970
+cd tmp-no-repo/
+#1610130971
+ls -ltr
+#1610130975
+cd private-unix-config-files/
+#1610130976
+gs
+#1610130981
+git log -p
+#1610131833
+sm .
