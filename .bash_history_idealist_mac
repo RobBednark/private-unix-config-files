@@ -62888,3 +62888,9 @@ c
 curl localhost
 #1610120855
 docker exec -it nginx sh
+#1610127212
+type de
+#1610127216
+vrc
+#1610127244
+de nginx sh
