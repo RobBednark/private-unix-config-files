@@ -62898,3 +62898,141 @@ de nginx sh
 type vlast
 #1610127838
 vlast
+#1610127005
+j de
+#1610127048
+sm .
+#1610127101
+./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610127133
+curl localhost
+#1610127137
+curl localhost/asdfasdf
+#1610127144
+curl localhost://asdfasdf
+#1610127150
+curl http://localhost://asdfasdf
+#1610127172
+pwd
+#1610127173
+jobs
+#1610127182
+jos
+#1610127183
+jobs
+#1610127183
+c
+#1610127204
+sum nginx-conf-files/*
+#1610127333
+ls -laR nginx.d/
+#1610127395
+grep default.conf *
+#1610127429
+man grep
+#1610127480
+c
+#1610127490
+sum nginx.d/default.conf nginx-conf-files/default.conf 
+#1610127498
+ls nginx.d/
+#1610127501
+rm -fr nginx.d/
+#1610127549
+vim local-update-nginx-conf.sh 
+#1610127582
+./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610127648
+ls -al nginx.d/
+#1610127982
+ls -dt
+#1610127994
+ls -dt .
+#1610127996
+ls -dt
+#1610127998
+ls -al
+#1610128004
+man ls
+#1610128013
+ls -p
+#1610128023
+ls -tp
+#1610128030
+ls -tp1
+#1610128035
+ls -ltp1
+#1610128041
+ls -ltp1|head
+#1610128056
+type ls
+#1610128059
+man ls
+#1610128070
+\ls -ltp1|head
+#1610128074
+\ls -l
+#1610128080
+\ls -lt1|head
+#1610128083
+\ls -lt|head
+#1610128087
+man ls
+#1610128100
+\ls -lt|head
+#1610128107
+man ls
+#1610128115
+ls -l
+#1610128118
+ls -lp
+#1610128371
+grc latest
+#1610128397
+j tmp-
+#1610129430
+lh
+#1610129467
+vici.last.n.files 1 loc
+#1610129540
+git log
+#1610129553
+git.rev-parse.show.toplevel.repo.dir 
+#1610129558
+git log -p
+#1610129569
+lh
+#1610129767
+ls -Art
+#1610129773
+ls -Art|tail -n 1
+#1610129789
+\ls -Art|tail -n 1
+#1610129819
+dotrc
+#1610129821
+lh
+#1610129823
+vl
+#1610129837
+\ls -Art|head -1
+#1610129841
+\ls -Art|tail -1
+#1610129844
+lh
+#1610129871
+cd ..
+#1610129873
+ls -ld
+#1610129876
+cd
+#1610129879
+ls -ld priv*
+#1610129893
+ls -al .unix.config.files/
+#1610129897
+ls -al .unix.config.files
+#1610129906
+cd tmp-no-repo/
+#1610129907
+ls -l
