@@ -304,6 +304,7 @@ alias dclogs1='docker-compose logs --timestamps --follow --tail=1'
 alias dclogs-no-tail='docker-compose logs --timestamps --follow'
 alias dcp="docker-compose ps"
 alias dcrg="dc-restart-tail-logs gateway-verve"
+alias de="docker exec -it"
 alias diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
 alias docker_ip_addr="docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"  # e.g., docker_ip_addy my_container
 
