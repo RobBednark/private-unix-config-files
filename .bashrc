@@ -1149,7 +1149,7 @@ function vici () {
     # Would be best to get a list of the repositories for all the files, and only do one commit
     # for each repository.  For now, just do it for each.
     for onefile in $files; do
-        git.commit.all.modified.and.new.for.repo.of.given.file "$onefile"
+        git.commit.all.modified.and.new.for.repo.of.given.file "$onefile" |& tee /tmp/git.commit.all.modified.and.new.$(datestamp).log
     done
     vim $files
     for onefile in $files; do

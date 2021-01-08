@@ -63110,3 +63110,51 @@ gs
 git log -p
 #1610131833
 sm .
+#1610133623
+vp
+#1610133662
+cd /tmp
+#1610133663
+ls -ltr
+#1610133672
+vim git.commit.all.modified.and.new.2021.01.08.Fri.11.20.
+#1610133680
+vim git.*
+#1610133602
+vici .gitconfig 
+#1610133782
+ls -altr
+#1610133786
+ls -l .gitconfig 
+#1610133789
+cd .unix.config.files
+#1610133789
+gs
+#1610133794
+sm .
+#1610133809
+cd
+#1610133812
+cd tmp-no-repo/
+#1610133814
+cd private-unix-config-files/
+#1610133815
+gs
+#1610133817
+gpul
+#1610133822
+cd ..
+#1610133827
+git branch
+#1610133830
+pwd
+#1610133840
+cd tmp-no-repo/
+#1610133843
+rm -fr private-unix-config-files/
+#1610133848
+find . -type d
+#1610133850
+ls -altr
+#1610133852
+ls -l
