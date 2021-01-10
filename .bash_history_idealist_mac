@@ -63158,3 +63158,483 @@ find . -type d
 ls -altr
 #1610133852
 ls -l
+#1610133287
+vim .gitconfig 
+#1610133426
+ls -al .gitconfig 
+#1610133433
+vici .gitconfig 
+#1610133502
+type vici
+#1610133514
+type git.commit.all.modified.and.new.for.repo.of.given.file
+#1610133546
+vrc
+#1610133213
+cd tmp-no-repo/
+#1610133214
+ls -altr
+#1610133218
+cd private-unix-config-files/
+#1610133220
+gf
+#1610133224
+gs
+#1610133232
+gpull
+#1610133241
+type gpul
+#1610133243
+gpul
+#1610133271
+git --version
+#1610133363
+gpul
+#1610133413
+git config --help
+#1610134203
+j priv
+#1610134208
+j gen
+#1610134210
+ls -ltr
+#1610134214
+gs .
+#1610134229
+ln -sdf Resume-Rob-Bednark-2021-Jan-8.pdf latest.resume.pdf 
+#1610134232
+ln -sf Resume-Rob-Bednark-2021-Jan-8.pdf latest.resume.pdf 
+#1610134234
+sm .
+#1610134461
+vp
+#1610141433
+man bash
+#1610139423
+j dep
+#1610139457
+c
+#1610139714
+docker start nginx
+#1610139716
+docker ps
+#1610139721
+docker start quizme nginx
+#1610139723
+docker ps
+#1610139791
+./local-update-nginx-conf.sh 
+#1610139852
+rm -fr nginx.d/
+#1610139855
+./local-update-nginx-conf.sh 
+#1610140709
+docker cp ./nginx-conf-files/default.conf nginx:/etc/nginx/conf.d
+#1610140730
+c
+#1610140735
+vim deploy-nginx.sh 
+#1610139330
+j dep
+#1610139332
+sm .
+#1610139382
+sum nginx*/*
+#1610139391
+ls *.d
+#1610139395
+git rm conf.d
+#1610139398
+rmdir conf.d/
+#1610139403
+ls *.d
+#1610139410
+rm -fr nginx.d/
+#1610139416
+./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610139443
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610139658
+v local
+#1610139696
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610139740
+./local-update-nginx-conf.sh 
+#1610139805
+j tmp-
+#1610139807
+ls -ltr
+#1610139810
+j depl
+#1610139814
+ls -l nginx.d
+#1610139818
+rm -fr nginx.d
+#1610139832
+watch -n 1 ls nginx.d
+#1610140667
+rm -fr ./nginx.d; watch -n 1 ls nginx.d
+#1610140678
+rm -fr ./nginx.d; watch -n 1 ls -alR nginx.d
+#1610143178
+jobs
+#1610140746
+docker run --help
+#1610140749
+docker run --help|less
+#1610141133
+j dep
+#1610141160
+./deploy-nginx.sh |& tee ~/tmp-no-repo/local-deploy-nginx-$(date +%s).log |&less
+#1610141202
+./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610141464
+vq
+#1610141311
+cl
+#1610141315
+ls *trap*sh
+#1610141345
+vim learn_trap_read_debug_to_step_through_script_one_line_at_a_time.sh
+#1610154114
+vq
+#1610174749
+cd /tmp
+#1610174750
+ls -ltr
+#1610174762
+ln -sf nginx.log nginx-latest.log 
+#1610174764
+ls -ltr
+#1610174574
+cd tmp-no-repo/
+#1610174582
+ls -ltr up*
+#1610174670
+j dep
+#1610174675
+vim update-nginx-conf.sh 
+#1610174728
+ls *load*
+#1610174767
+./postgres-load-nginx-log-data.sh /tmp/nginx-latest.log |& tee ~/tmp-no-repo/postgres-load-nginx-log-data-$(datestamp).log |&less
+#1610207697
+vim /tmp/nginx.log
+#1610209546
+psql
+#1610209412
+psql
+#1610208621
+cl
+#1610208626
+ls *pl
+#1610208631
+ls *perl*sh
+#1610208643
+vim learn.perl.ne.matching.sh
+#1610208830
+j /tmp
+#1610208833
+vi nginx-latest.log 
+#1610209137
+j dep
+#1610209139
+c
+#1610209152
+ls *log*
+#1610209164
+vim postgres-load-nginx-log-data.sh get-nginx-logs.sh 
+#1610209247
+vim postgres-load-nginx-log-data.sh 
+#1610209391
+./get-nginx-logs.sh |& tee ~/tmp-no-repo/get-nginx-logs-$(datestamp).log |&less
+#1610174394
+j de
+#1610174396
+gs .
+#1610174402
+ls *log*
+#1610174432
+vi get-nginx-logs.sh
+#1610174465
+./get-nginx-logs.sh 
+#1610174470
+./get-nginx-logs.sh  > /tmp/nginx.log
+#1610174475
+vim /tmp/nginx.log
+#1610207854
+c
+#1610207857
+cd /tmp
+#1610207859
+ls -ltr
+#1610207898
+c
+#1610208009
+cut -d '|' -c 3 nginx-latest.log |head
+#1610208015
+cut -d '|' -c3 nginx-latest.log |head
+#1610208031
+man cut
+#1610208039
+c
+#1610208043
+cut -d '\|' -c3 nginx-latest.log |head
+#1610208049
+cut -d'\|' -c3 nginx-latest.log |head
+#1610208064
+cut -d '|' nginx-latest.log |head
+#1610208076
+cut -d \| nginx-latest.log |head
+#1610208091
+cut -d z nginx-latest.log |head
+#1610208098
+cut -dz nginx-latest.log |head
+#1610208104
+man cut
+#1610208146
+c
+#1610208158
+cat nginx-latest.log | cut -dz 
+#1610208161
+cat nginx-latest.log | cut -d z 
+#1610208167
+cat nginx-latest.log | cut -f 1
+#1610208172
+c
+#1610208174
+cat nginx-latest.log | cut -f 3
+#1610208180
+c
+#1610208204
+cat nginx-latest.log | cut -d z
+#1610208212
+cat nginx-latest.log | cut -- -d z
+#1610208256
+cat nginx-latest.log | cut -f 3 -d z
+#1610208262
+cat nginx-latest.log | cut -f 3 -d '|'
+#1610208269
+cat nginx-latest.log | cut -f 3 -d '|'|sort -u
+#1610208299
+cat nginx-latest.log | cut -f 3 -d '|'| grep '^[\d]'
+#1610208309
+cat nginx-latest.log | cut -f 3 -d '|'| grep '^\d'
+#1610208313
+cat nginx-latest.log | cut -f 3 -d '|'| grep '^\d'|less
+#1610208326
+cat nginx-latest.log | cut -f 3 -d '|'| grep '^\d+$'|less
+#1610208331
+cat nginx-latest.log | cut -f 3 -d '|'| grep '^\d\+$'|less
+#1610208346
+j dep
+#1610208375
+cat nginx-latest.log | cut -f 3 -d '|'| grep -v '[a-z,A-Z]'
+#1610208380
+cd /tmp
+#1610208381
+cat nginx-latest.log | cut -f 3 -d '|'| grep -v '[a-z,A-Z]'
+#1610208385
+cat nginx-latest.log | cut -f 3 -d '|'| grep -v '[a-z,A-Z]'|less
+#1610208490
+cat nginx-latest.log | awk '/a-z/'
+#1610208514
+cat nginx-latest.log | awk '/a-z/ {print}'   | less
+#1610208549
+cat nginx-latest.log | awk '/[a-z]/ {print}'   | less
+#1610208598
+cat nginx-latest.log | perl -pi   | less
+#1610208604
+cat nginx-latest.log | perl -pie   | less
+#1610208649
+cat nginx-latest.log | perl -ne   | less
+#1610208739
+cat nginx-latest.log | awk -F: '{ if($3=="|")'     | less
+#1610208744
+cat nginx-latest.log | awk -F: '{ if($3=="|")}'     | less
+#1610208766
+cat nginx-latest.log | awk -F: '{ if($3=="|") print}'     | less
+#1610208780
+cat nginx-latest.log | awk -F: '{ if($3=="z") print}'     | less
+#1610208783
+cat nginx-latest.log | awk -F: '{ if($3=="a") print}'     | less
+#1610208791
+cat nginx-latest.log | awk -F'|' '{ if($3=="a") print}'     | less
+#1610208809
+cat nginx-latest.log | awk -F'|' '{ if($3==$3) print}'     | less
+#1610208881
+cat nginx-latest.log | awk -F'|' '{ if($3==/\d*/) print}'     | less
+#1610208892
+cat nginx-latest.log | awk -F'|' '{ if($3==/[\d]*/) print}'     | less
+#1610208897
+cat nginx-latest.log | awk -F'|' '{ if($3==/\d*/) print}'     | less
+#1610208961
+cat nginx-latest.log | awk -F'|' '{ if($3 ~ /\[0-9]/) print}'     | less
+#1610209052
+cat nginx-latest.log | awk -F'|' '$3 ~ /\[0-9]/ {print}'     | less
+#1610209070
+cat nginx-latest.log | awk -F'|' '$3 ~ /[0-9]/ {print}'     | less
+#1610209106
+cat nginx-latest.log | awk -F'|' '$3 !~ /[0-9]/ {print}'     | less
+#1610209118
+cat nginx-latest.log | awk -F'|' '$3 ~ /[0-9]/ {print}'     | less
+#1610209198
+cat nginx-latest.log | awk -F'|' '$3 !~ /[0-9]/ {print}'     | less
+#1610209201
+jobs
+#1610210870
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1610210875
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1610210882
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1610210868
+pshd
+#1610210779
+v ool
+#1610246099
+vd
+#1610247233
+cd /etc
+#1610247234
+gs
+#1610247236
+gd
+#1610247247
+git add .
+#1610247252
+sudo git add .
+#1610247259
+gs
+#1610247275
+sudo git commit -am'hosts updated'
+#1610247279
+sudo vim hosts
+#1610247496
+cl
+#1610247500
+ls *col*sql
+#1610249410
+cl
+#1610249413
+ls *echo*sql
+#1610249416
+ls *echo*sql*
+#1610249422
+ls *sql*|grep echo
+#1610251165
+type datestamp
+#1610247306
+ping robbednark.com
+#1610247309
+ping foo.robbednark.com
+#1610247312
+ping fc.robbednark.com
+#1610247319
+docker start quizme
+#1610247324
+docker start nginx
+#1610247326
+docker ps 
+#1610247330
+docket logs
+#1610247332
+docker logs
+#1610247354
+docker logs --help
+#1610247372
+curl localhost
+#1610247380
+curl robbednark.com
+#1610247385
+curl fc.robbednark.com
+#1610247391
+curl fc.robbednark.com/admin
+#1610247397
+curl -iL fc.robbednark.com/admin
+#1610247403
+docker ps
+#1610247409
+docker logs quizme
+#1610247416
+docker start postgres
+#1610247418
+docker ps
+#1610247427
+docker restart quizme
+#1610247430
+curl -iL fc.robbednark.com/admin
+#1610247434
+curl -iL fc.robbednark.com
+#1610247438
+curl -iL fc.robbednark.com/asdfdf
+#1610247445
+curl -iL aa.robbednark.com/asdfdf
+#1610247449
+curl -iL robbednark.com/asdfdf
+#1610247456
+jobs
+#1610247467
+psql nginx_logs
+#1610251041
+j de
+#1610251049
+./get-nginx-logs.sh |&less
+#1610251313
+psql nginx_logs
+#1610251695
+vim /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.20.08.05.log
+#1610246799
+vq
+#1610247209
+c
+#1610247212
+j dep
+#1610247221
+vim nginx-conf-files/default.conf 
+#1610251501
+ls *sh
+#1610251525
+vim get-nginx-logs.sh monitor-nginx-logs.sh postgres-load-nginx-log-data.sh 
+#1610251553
+git mv get-nginx-logs.sh get-and-load-nginx-logs.sh
+#1610251556
+mv get-nginx-logs.sh get-and-load-nginx-logs.sh
+#1610251578
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610251593
+vim get-and-load-nginx-logs.sh 
+#1610251633
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610251723
+jobs
+#1610251727
+sm .
+#1610247919
+cl
+#1610247963
+vim show_list_query_select_all_column_names_for_a_table.sql
+#1610249324
+j de
+#1610249338
+psql nginx_logs < monitor-nginx-logs.sql 
+#1610249653
+psql -a nginx_logs < monitor-nginx-logs.sql 
+#1610249672
+vim monitor-nginx-logs.sh
+#1610249734
+./monitor-nginx-logs.sh|&less
+#1610249764
+vim monitor-nginx-logs.s*
+#1610249804
+./monitor-nginx-logs.sh|&less
+#1610250129
+c
+#1610250131
+./monitor-nginx-logs.sh|&less
+#1610251384
+ssh root@bednark.org "docker logs nginx" |  awk -F'|' '$3 !~ /[0-9]/ {print}' | tee $log_file |& less
+#1610251435
+ssh root@bednark.org "docker logs nginx" |  awk -F'|' '$3 !~ /[0-9]/ {print}' | wc -l
+#1610251446
+ssh root@bednark.org "docker logs nginx" |  wc -l
