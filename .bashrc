@@ -439,6 +439,7 @@ alias git.stash.show.diff="git stash show -p"
 alias git.status.ignore.untracked.files="git status -uno"
 alias git.reset.hard.undo.rm.modified.and.staged.files="git reset --hard"
 alias git.vimdiff="git difftool --no-prompt --tool=vimdiff"
+alias v-="vim -"
 alias vgm=vim.git.modified
 alias vim.git.cached.staged='vim $(git diff --name-only --cached)'
 alias vim.git.conflicts='vim $(git diff --name-only --diff-filter=U)'
