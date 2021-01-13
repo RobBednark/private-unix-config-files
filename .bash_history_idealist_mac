@@ -64919,3 +64919,21 @@ vim get-and-load-nginx-logs.sh
 vq
 #1610551707
 vq
+#1610565573
+docker ps
+#1610565581
+docker start postgres quizme nginx
+#1610565583
+docker ps
+#1610565590
+j dep
+#1610565593
+sm .
+#1610565639
+cd nginx-conf-files/
+#1610565655
+docker cp nginx:/etc/nginx/conf.d/default.conf .
+#1610565678
+gs
+#1610565722
+jobs

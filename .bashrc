@@ -306,6 +306,7 @@ alias dcp="docker-compose ps"
 alias dcrg="dc-restart-tail-logs gateway-verve"
 alias de="docker exec -it"
 alias diffbednarkcom="diff -r $DirBednarkCom /tmp/bednark.com"
+alias dl="docker logs"
 alias docker_ip_addr="docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'"  # e.g., docker_ip_addy my_container
 
 alias dotrc="source $FileRc"
