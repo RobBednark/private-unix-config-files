@@ -63638,3 +63638,1284 @@ ssh root@bednark.org "docker logs nginx" |  awk -F'|' '$3 !~ /[0-9]/ {print}' | 
 ssh root@bednark.org "docker logs nginx" |  awk -F'|' '$3 !~ /[0-9]/ {print}' | wc -l
 #1610251446
 ssh root@bednark.org "docker logs nginx" |  wc -l
+#1610261706
+vrc
+#1610292582
+vq
+#1610304831
+ssh root@linode "docker logs -t nginx" |& tail -5
+#1610304922
+vqtodo 
+#1610304947
+j de
+#1610304950
+cd ..
+#1610304956
+cd deploy/
+#1610304962
+vim TODO.md
+#1610305018
+sm .
+#1610304527
+sl
+#1610305392
+vq
+#1610259834
+j dep__
+#1610259839
+vim *log*
+#1610259976
+ls -ltr
+#1610259981
+git rm nginx-load-logs.sql 
+#1610260005
+git rm -f nginx-load-logs.sql 
+#1610260007
+gs
+#1610260031
+ls -ltr
+#1610260035
+cat get-and-load-nginx-logs.sh 
+#1610260051
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610260914
+./postgres-load-nginx-log-data.sh < /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.41.26.log
+#1610260949
+cat /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.41.26.log | ./postgres-load-nginx-log-data.sh 
+#1610260959
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610261049
+vim /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log
+#1610261257
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610261275
+vim /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log
+#1610261442
+awk 'NF <= 7' /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log
+#1610261445
+awk 'NF <= 7' /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log|wc -l
+#1610261465
+awk -F '|' 'NF <= 7' /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log|wc -l
+#1610261476
+awk -F '|' 'NF <= 7' /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log|vim -
+#1610261496
+awk -F '|' 'NF > 7' /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log|vim -
+#1610261502
+jobs
+#1610261516
+alias v-="echo v"
+#1610261518
+v-
+#1610261523
+vrc
+#1610261594
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610261606
+vim less
+#1610261612
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610261668
+awk -F '|' 'NF > 7' /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log|vim -
+#1610261698
+awk -F '|' 'NF > 7' /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log|vim -R -
+#1610261730
+awk -F '|' 'NF > 7' /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.09.Sat.22.43.40.log|grep -v '^|' | vim -R -
+#1610296395
+c
+#1610296415
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610297177
+jobs
+#1610297185
+pwd
+#1610297207
+jobs
+#1610297401
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610297876
+c
+#1610297893
+awk -F '|' '{print NC}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log
+#1610297899
+awk -F '|' '{print $NC}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log
+#1610297911
+awk -F '|' '{print NC}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log
+#1610297917
+awk -F '|' '{print NF}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log
+#1610297921
+awk -F '|' '{print NF}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log|less
+#1610297943
+awk -F '|' '{print NF}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log|sort -u
+#1610297959
+man sort
+#1610297999
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610298013
+vim /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.10.Sun.08.59.59.log
+#1610298335
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610301113
+awk -F '|' '{print NF}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log|sort -u
+#1610301126
+awk -F '|' '{print NF == 18}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log|vim -R-
+#1610301136
+et/get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&less
+#1610301137
+reset
+#1610301140
+:q!
+#1610301145
+et/get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610301158
+awk -F '|' '{print NF == 18}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log|v-
+#1610301168
+awk -F '|' '{print NF == 18}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log|& v-
+#1610301177
+type v-
+#1610301180
+dotrc
+#1610301182
+type v-
+#1610301189
+awk -F '|' '{print NF = 18}' /Users/rbednark/tmp-no-repo/get-nginx-logs-all-logs-2021.01.10.Sun.08.56.52.log|& v-
+#1610260505
+j dep__
+#1610260531
+./postgres-load-nginx-log-data.sh < /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log
+#1610261634
+vim /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log
+#1610296781
+c
+#1610296783
+jobs
+#1610296815
+awk -F '|' '{print}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log
+#1610296874
+c
+#1610296883
+awk -F '|' '{print $3}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log
+#1610296886
+awk -F '|' '{print $3}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log|less
+#1610296918
+awk -F '|' '{print $3}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log|sort -u
+#1610297105
+c
+#1610297107
+awk -F '|' '{print $3}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log|sort -u
+#1610297161
+vim get-and-load-nginx-logs.sh 
+#1610297165
+jobs
+#1610297424
+vim /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.10.Sun.08.50.01.log
+#1610298518
+awk -F '|' '{print $3}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log|sort -u
+#1610298539
+vim nginx-conf-files/nginx.conf 
+#1610300564
+awk -F '|' '{print $3}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log
+#1610300577
+cat <<EOF
+a
+a
+z
+z
+a
+EOF
+
+#1610300594
+cat <<EOF
+a
+a
+z
+z
+a
+EOF
+
+#1610300594
+| sort
+#1610300608
+cat <<EOF | sort
+a
+a
+z
+z
+a
+EOF
+
+#1610300621
+cat <<EOF | sort -u
+a
+a
+z
+z
+a
+EOF
+
+#1610300672
+cat <<EOF | uniq
+a
+a
+z
+z
+a
+EOF
+
+#1610300681
+awk -F '|' '{print $3}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log
+#1610300701
+awk -F '|' '{print $NF}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log
+#1610300704
+awk -F '|' '{print NF}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log
+#1610300707
+awk -F '|' '{print NF}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log|uniq
+#1610300738
+man uniq
+#1610300745
+awk -F '|' '{print NF}' /Users/rbednark/tmp-no-repo/get-nginx-logs-2021.01.09.Sat.22.33.49.log|uniq -c
+#1610305097
+vim get-and-load-nginx-logs.sh 
+#1610305180
+ping fc.bednark.org
+#1610305183
+ping bednark.org
+#1610304562
+j de
+#1610304570
+vim nginx-conf-files/default.conf 
+#1610304587
+ls *ng*
+#1610304591
+ls *ngin*
+#1610304685
+vim update-nginx-conf.sh 
+#1610304762
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/update-nginx-conf-$(datestamp).log |&less
+#1610304783
+vim update-nginx-conf.sh 
+#1610260089
+j de
+#1610260090
+ls -altr
+#1610260095
+cat get-and-load-nginx-logs.sh 
+#1610260103
+cat postgres-load-nginx-log-data.sh 
+#1610260114
+git grep -i drop
+#1610260143
+vim postgres-load-nginx-log-data.sh 
+#1610260161
+c
+#1610260171
+ls -ltr
+#1610260177
+head -999 get-and-load-nginx-logs.sh postgres-load-nginx-log-data.sh 
+#1610260204
+cat create_nginx_log_table.sh 
+#1610260237
+vim get-and-load-nginx-logs.sh 
+#1610260278
+ls -ltr
+#1610260281
+ls -l cre*
+#1610260287
+chmod a+x create_nginx_log_table.sh 
+#1610260353
+ls -ltr
+#1610260355
+vim get-and-load-nginx-logs.sh 
+#1610142362
+vp
+#1610309062
+sudo vim /etc/hosts
+#1610309079
+type sl
+#1610310788
+vq
+#1610305796
+vq
+#1610305868
+watch ping fc.bednark.org
+#1610305873
+man watch
+#1610305892
+watch --chgexit ping fc.bednark.org
+#1610305908
+date; watch --chgexit 'date; ping fc.bednark.org'
+#1610305932
+time (date; watch --chgexit ping fc.bednark.org; date)
+#1610306010
+time (date; watch --chgexit 'date; echo end'; date)
+#1610306028
+man ping
+#1610306050
+time (date; watch --chgexit ping -c 1 fc.bednark.org; ping -c 1 fc.bednark.org; date)
+#1610306065
+man watch
+#1610306073
+time (date; watch --chgexit ping -c 1 fc.bednark.org; ping -c 1 fc.bednark.org; date)
+#1610307345
+time (date; watch --chgexit 'ping -c 1 bednark.org; ping -c 1 fc.bednark.org; ping -c 1 fc.bednark.org; date)
+#1610307382
+time (date; watch --chgexit 'ping -c 1 bednark.org; ping -c 1 fc.bednark.org'; ping -c 1 fc.bednark.org; date)
+#1610308400
+time (date; watch --chgexit 'ping -c 1 bednark.org; ping -c 1 fc.bednark.org; ping -c1 zzz.bednark.org'; ping -c 1 fc.bednark.org; date)
+#1610310817
+ping -c bednark.org fc.bednark.org zzz.bednark.org
+#1610310820
+man ping
+#1610310842
+ping -c bednark.org; ping fc.bednark.org; ping zzz.bednark.org
+#1610310850
+ping -c 1 bednark.org; ping fc.bednark.org; ping zzz.bednark.org
+#1610307266
+ping bednark.org
+#1610308878
+wl
+#1610308879
+sl
+#1610308884
+type sl
+#1610308889
+ping bednark.org
+#1610309021
+jobs
+#1610312684
+vdiary 
+#1610310295
+rg -i leaf $FilesDirsAllGrep 
+#1610310306
+rg -i leaf $FilesDirsAllGrep |less -S
+#1610309029
+j dep
+#1610309051
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610309119
+vi get-and-load-nginx-logs.sh 
+#1610309270
+%1
+#1610309276
+jobs
+#1610309279
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610309304
+jobs
+#1610309305
+%2
+#1610309324
+jobs
+#1610309328
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610309365
+jobs
+#1610309366
+c
+#1610309376
+cat monitor-nginx-logs.sh 
+#1610309390
+vim get-and-load-nginx-logs.sh 
+#1610314483
+j dep__
+#1610314489
+vim monitor-nginx-logs.sql 
+#1610314503
+pgrep 50048
+#1610314506
+pgrep -f 50048
+#1610314508
+man pgrep
+#1610314522
+pgrep -P 50048
+#1610314528
+ps guaxww|grep 50048
+#1610316170
+j dep
+#1610316172
+vim nginx-conf-files/nginx.conf 
+#1610309604
+j de
+#1610309636
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-nginx-logs-$(datestamp).log |& v-
+#1610314546
+jobs
+#1610315969
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-nginx-logs-$(datestamp).log |& v-
+#1610309774
+j dep
+#1610309777
+vim *sql
+#1610316696
+jobs
+#1610316697
+sm .
+#1610314252
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1610314252
+python manage.py runserver --insecure 0.0.0.0:8000
+#1610314539
+jobs
+#1610314250
+rqo
+#1610329172
+vq
+#1610328501
+cd tmp-no-repo/
+#1610328503
+ls -ltr
+#1610328510
+vim -R get-nginx-logs-all-logs-2021.01.10.Sun.17.26.13.log
+#1610382462
+ping bednark.org
+#1610382469
+ping -c 1 bednark.org
+#1610382479
+ping -c 1 bednark.org|grep PING
+#1610380623
+python3
+#1610380663
+python3
+#1610380858
+cl
+#1610380861
+ls *doc*py
+#1610380872
+vim *pydoc*
+#1610380963
+pydoc3 str
+#1610380984
+pydoc3 str
+#1610383016
+python3
+#1610383230
+sl
+#1610382863
+watch ping -c 1 bednark.org
+#1610382881
+ping bednark.org
+#1610382888
+watch ping -c 1 bednark.org
+#1610383985
+ping fc.bednark.org
+#1610383988
+nslookup fc.bednark.org
+#1610384161
+watch nslookup sub.bednark.org
+#1610384429
+watch nslookup foobar.bednark.org
+#1610318502
+time (date; watch --chgexit 'ping -c 1 bednark.org; ping -c 1 fc.bednark.org; ping -c1 zzz.bednark.org'; ping -c 1 fc.bednark.org; date)
+#1610318511
+man ping
+#1610318536
+time (date; watch --chgexit 'ping -q -c 1 bednark.org; ping -c 1 fc.bednark.org; ping -c1 zzz.bednark.org'; ping -c 1 fc.bednark.org; date)
+#1610318545
+ping bednark.org
+#1610318550
+ping -c 1 bednark.org
+#1610318564
+ping -c 1 bednark.org|grep -v 'round-trip'
+#1610328287
+ping -q -c 1 bednark.org|grep -v 'round-trip'
+#1610328298
+ping -q -c 1 bednark.org
+#1610328301
+echo $?
+#1610328305
+ping -q -c 1 bednark.org; echo $?
+#1610328318
+ping fc.bednark.org
+#1610328335
+j dep
+#1610328341
+ls -ltr
+#1610328344
+vim get-and-load-nginx-logs.sh 
+#1610328373
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-nginx-logs-$(datestamp).log |& v-
+#1610328424
+awk -F '|' 'NF != 18' < /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.10.Sun.17.26.13.log
+#1610328429
+awk -F '|' 'NF == 18' < /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.10.Sun.17.26.13.log
+#1610328439
+awk -F '|' 'NF == 18' < /Users/rbednark/tmp-no-repo/get-nginx-logs-filtered-logs-2021.01.10.Sun.17.26.13.log|& v-
+#1610328630
+jobs
+#1610328632
+gs .
+#1610328638
+c
+#1610328649
+vim nginx-conf-files/nginx.conf 
+#1610388650
+cat /etc/resolv.conf 
+#1610335935
+j de
+#1610335938
+./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610335354
+j dep
+#1610335363
+cat local-update-nginx-conf.sh 
+#1610335378
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610335393
+docker start postgres quizme nginx
+#1610335395
+docker ps
+#1610335399
+docker logs nginx
+#1610335403
+docker logs quizme
+#1610335407
+docker logs postgres
+#1610335416
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610335423
+curl localhost
+#1610335446
+docker logs nginx
+#1610335485
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610335530
+vim local-update-nginx-conf.sh 
+#1610335575
+docker curl localhost://foo?bar
+#1610335578
+curl localhost://foo?bar
+#1610335584
+curl localhost:/foo?bar
+#1610335591
+curl http://localhost/foo?bar
+#1610335597
+docker logs nginx
+#1610335619
+gd
+#1610335670
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610335767
+curl localhost/foo?bar
+#1610335772
+docker logs nginx
+#1610335786
+docker exec -it nginx sh
+#1610335058
+j dep
+#1610335061
+vim *tab*sql
+#1610386597
+vp
+#1610389704
+whois bednark.org
+#1610382920
+nslookup bednark.org
+#1610382952
+whois
+#1610382956
+whois bednark.org
+#1610383077
+nslookup bednark.org
+#1610383087
+man dig
+#1610383140
+dig @NS-CLOUD-C1.GOOGLEDOMAINS.COM bednark.org
+#1610383159
+dig @NS-CLOUD-C2.GOOGLEDOMAINS.COM bednark.org
+#1610383162
+dig @NS-CLOUD-C3.GOOGLEDOMAINS.COM bednark.org
+#1610383165
+dig @NS-CLOUD-C4.GOOGLEDOMAINS.COM bednark.org
+#1610383427
+vim /tmp/servers
+#1610383437
+cat /tmp/servers
+#1610383471
+dig @74.207.242.5 bednark.org
+#1610383497
+dig @74.207.241.5 bednark.org
+#1610383512
+dig @173.255.244.5 bednark.org
+#1610383520
+cat /etc/hosts
+#1610383528
+ping -v4 bednark.org
+#1610383532
+ping bednark.org
+#1610383541
+dig bednark.org
+#1610383620
+sudo killall -HUP mDNSResponder
+#1610383638
+dig bednark.org
+#1610383655
+dig @173.255.244.5 bednark.org
+#1610383679
+grep -i nameser /etc/resolv.conf 
+#1610383685
+cat /etc/resolv.conf 
+#1610383717
+ping localhost
+#1610383733
+cd /etc
+#1610383736
+cat resolv.conf 
+#1610383818
+gs
+#1610383825
+sudo vim /etc/resolv.conf 
+#1610383842
+nslookup bednark.org
+#1610384179
+dig bednark.org
+#1610384332
+-CLOUD-C1.GOOGLEDOMAINS.COM
+#1610384340
+ping example.com
+#1610389014
+dig @a.iana-servers.net example.com axfr
+#1610389122
+dig @NS-CLOUD-C1.GOOGLEDOMAINS.COM example.com axfr
+#1610389124
+dig @NS-CLOUD-C1.GOOGLEDOMAINS.COM example.com
+#1610389129
+dig @NS-CLOUD-C1.GOOGLEDOMAINS.COM bednark.org
+#1610383109
+whois bednark.org|&v-
+#1610379120
+vq
+#1610382025
+ping -c 1 bednark.org
+#1610382030
+nslookup bednark.org
+#1610382046
+man nslookup
+#1610382058
+man dig
+#1610382075
+dig bednark.org
+#1610382079
+man dig
+#1610382431
+dig bednark.org
+#1610382440
+dig bednark.org|&less
+#1610382519
+ping -c 1 bednark.org
+#1610382523
+nslookup bednark.org
+#1610382550
+man nslookup
+#1610382587
+cat /etc/hosts
+#1610382591
+grep bednark /etc/hosts
+#1610382604
+sudo vim /etc/hosts
+#1610382630
+nslookup bednark.org
+#1610382817
+watch nslookup bednark.org
+#1610383801
+watch -n 1 nslookup bednark.org
+#1610393265
+resume.pdf 
+#1610395241
+top
+#1610391502
+vjob
+#1610391504
+vjo
+#1610398006
+vp
+#1610401539
+ping foo.bednark.com
+#1610401543
+ping foo.bednark.org
+#1610401549
+ping adfasdfadsf.bednark.org
+#1610401556
+curl adsfasdf.bednark.org
+#1610401563
+ssh root@linode "docker logs -t nginx" |& tail -5
+#1610402029
+vjo
+#1610402881
+vp
+#1610405894
+vq
+#1610410125
+man psql
+#1610410760
+cd /tmp
+#1610410765
+vim tmp-read.6851 
+#1610410774
+sed -i 5d tmp-read.6851 
+#1610410783
+sed -i "5d" tmp-read.6851 
+#1610410794
+sed -i "5d" < tmp-read.6851 
+#1610410799
+man sed
+#1610410829
+sed "5d" < tmp-read.6851 
+#1610410833
+sed "1d" < tmp-read.6851 
+#1610410836
+sed "2d" < tmp-read.6851 
+#1610410869
+sed -i "5d" < tmp-read.6851 
+#1610410871
+man sed
+#1610410944
+sed -i foo "5d" < tmp-read.6851 
+#1610410951
+sed -i foo "5d" tmp-read.6851 
+#1610410952
+ls -ltr
+#1610410960
+cat tmp-read.6851foo 
+#1610410969
+sed -i foo "1d" tmp-read.6851 ; cat *foo
+#1610410973
+sed -i foo "1d" tmp-read.6851 ; head *foo
+#1610410981
+sed -i foo "1d" tmp-read.6851 ; head tmp-read*
+#1610410994
+vim foo
+#1610411017
+sed -i .modified "2d" foo; head foo*
+#1610411677
+if true; do
+#1610411679
+treu
+#1610411680
+true
+#1610411682
+echo $?
+#1610411683
+false
+#1610411685
+echo $?
+#1610411689
+if true; then echo yep; done
+#1610411695
+if true; then echo yep; fi
+#1610411699
+if false; then echo yep; fi
+#1610405820
+pwd
+#1610405820
+jobs
+#1610405824
+j de
+#1610405825
+gs
+#1610405826
+gd
+#1610405835
+sm .
+#1610406533
+gs
+#1610406534
+gd
+#1610406536
+c
+#1610406536
+gs
+#1610406551
+git.copy.file.from.commit.ish 
+#1610406557
+git.show.copy.file.contents 
+#1610406608
+git show HEAD^:deploy/create_nginx_log_table.sql
+#1610406613
+gs
+#1610406618
+git show HEAD^:deploy/create_nginx_log_table.sql > create_nginx_log_table.sql
+#1610406619
+gs
+#1610406623
+gd
+#1610406625
+gpus
+#1610406629
+gs
+#1610406633
+git show HEAD^:deploy/create_nginx_log_table.sql > create_nginx_log_table.sql
+#1610406634
+gs
+#1610406638
+git show HEAD^^:deploy/create_nginx_log_table.sql > create_nginx_log_table.sql
+#1610406639
+gs
+#1610406640
+gd
+#1610406657
+type git.checkout.undo.modifications.to.working.file 
+#1610406681
+git checkout create_nginx_log_table.sql
+#1610406682
+gs
+#1610406688
+l
+#1610406690
+gd
+#1610406701
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-nginx-logs-$(datestamp).log |& v-
+#1610401563
+ssh root@linode "docker logs -t nginx" |& tail -5
+#1610402029
+vjo
+#1610402881
+vp
+#1610407690
+j cl
+#1610407693
+ls *line*sh
+#1610407695
+cl
+#1610407696
+ls *line*sh
+#1610407709
+
+#1610407712
+
+#1610407716
+
+#1610407727
+vim learn.read.pipe.iterate.through.file.one.line.at.a.time.sh 
+#1610407869
+j de
+#1610407877
+vim get-and-load-nginx-logs.sh 
+#1610412268
+cl
+#1610412272
+ls *increm*sh
+#1610412273
+vim *increm*sh
+#1610407771
+man bash
+#1610408110
+watch cat /tmp/tmp-psql-input.7599.csv 
+#1610408117
+watch -c 1.5 cat /tmp/tmp-psql-input.7599.csv 
+#1610408121
+watch -c 1 cat /tmp/tmp-psql-input.7599.csv 
+#1610408126
+watch -n 1.5 cat /tmp/tmp-psql-input.7599.csv 
+#1610409655
+psql
+#1610409701
+j de
+#1610409704
+vim get-and-load-nginx-logs.sh 
+#1610411860
+cd /tmp
+#1610411861
+ls -lat
+#1610411863
+ls -ltr
+#1610411869
+watch cat tmp-psql-stdout-stderr-15385.csv
+#1610411876
+ls -ltr
+#1610411885
+watch cat tmp-psql-stdout-stderr-15385.csv
+#1610412379
+ls -ltr
+#1610412386
+watch cat tmp-psql-stdout-stderr-22541.csv
+#1610412407
+j tmp-
+#1610412409
+ls -ltr
+#1610412418
+tail -f get-nginx-logs-2021.01.11.Mon.16.37.22.log
+#1610412424
+ls -ltr
+#1610412432
+tail -f get-nginx-logs-2021.01.11.Mon.16.46.15.log
+#1610412974
+vq
+#1610420541
+vjo
+#1610420384
+vp
+#1610425635
+j dep
+#1610425637
+gs
+#1610425638
+sm .
+#1610425654
+c
+#1610425679
+pwd
+#1610425679
+jobs
+#1610425686
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-nginx-logs-$(datestamp).log |& v-
+#1610425760
+j dep
+#1610425761
+vim get-and-load-nginx-logs.sh 
+#1610432655
+j de
+#1610432658
+gsm .
+#1610432661
+sm .
+#1610432665
+gs
+#1610432670
+j tmp-
+#1610432672
+lh
+#1610432679
+vim monitor-nginx-queries-2021.01.11.Mon.20.28.06.log
+#1610465338
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1610465338
+w
+#1610465343
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1610465353
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1610465336
+pshd
+#1610463534
+v ool
+#1610470108
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1610470110
+reeze|less
+#1610470114
+pip freeze|less
+#1610470175
+pip freeze|grep '[A-Z]'
+#1610470107
+cdq
+#1610465364
+vq
+#1610465738
+j tmp-
+#1610465739
+lh
+#1610465820
+vim monitor-nginx-queries-2021.01.12.Tue.07.34.16.log
+#1610466880
+j de
+#1610466881
+c
+#1610466890
+ls *ng*sh
+#1610466898
+vim monitor-nginx-logs.sh 
+#1610466938
+./monitor-nginx-logs.sh |& tee ~/tmp-no-repo/monitor-nginx-logs-$(datestamp).log |& v-
+#1610466954
+alias v-
+#1610467119
+./monitor-nginx-logs.sh |& tee ~/tmp-no-repo/monitor-nginx-logs-$(datestamp).log |& v-
+#1610465651
+j de
+#1610465656
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-nginx-logs-$(datestamp).log |& v-
+#1610466447
+psql nginx_logs
+#1610466519
+j de
+#1610466528
+vim monitor-quizme-db.sql 
+#1610481484
+vq
+#1610481782
+docker start --help
+#1610481862
+docker run --help|&less
+#1610481585
+j dep
+#1610481590
+vim deploy-nginx.sh 
+#1610481451
+pgrep docker
+#1610481455
+pgrep -fl docker
+#1610481461
+kill 59007
+#1610481471
+pgrep -fl docker
+#1610481477
+kill -9 59007
+#1610481191
+docker-wait-until-engine-is-up ; docker start postgres quizme nginx; docker ps; docker logs postgres quizme nginx
+#1610481210
+docker logs postgres
+#1610481214
+docker logs quizme
+#1610481231
+docker logs nginx
+#1610481309
+docker exec -it nginx
+#1610481312
+docker exec -it nginx sh
+#1610481319
+docker ps
+#1610481322
+j de
+#1610481331
+vim nginx-conf-files/nginx.conf 
+#1610481368
+docker stop nginx; docker kill nginx; 
+#1610481371
+docker ps
+#1610481387
+docker start nginx
+#1610481391
+docker ps
+#1610481398
+docker logs nginx
+#1610481423
+docker start nginx sleep 9999
+#1610481432
+docker run nginx sleep 9999
+#1610481629
+docker run --name nginx --detach nginx
+#1610481637
+docker kill nginx
+#1610481643
+docker rm nginx
+#1610481647
+docker run --name nginx --detach nginx
+#1610482511
+vp
+#1610482365
+vq
+#1610484619
+vjo
+#1610484256
+vp
+#1610486758
+vq
+#1610490904
+docker create --help
+#1610490985
+docker images
+#1610491044
+docker create --name nginx-new robbednark/quiz-me
+#1610491047
+docker ps
+#1610491050
+docker ps -a
+#1610491063
+j dep
+#1610491097
+docker cp $PWD/nginx-conf-files/nginx.conf nginx-new:/etc/nginx/
+#1610491102
+docker cp $PWD/nginx-conf-files/nginx.conf nginx-new:/etc/nginx
+#1610491184
+docker start nginx-new
+#1610491186
+docker ps
+#1610491191
+docker log nginx-new
+#1610491194
+docker logs nginx-new
+#1610488539
+j p-
+#1610488542
+j tmp-
+#1610488544
+ls -ltr
+#1610488549
+ls -ltr *deploy*
+#1610488532
+j dep
+#1610488572
+vim deploy-nginx.sh 
+#1610491311
+vq
+#1610505593
+docker ps
+#1610505428
+cl
+#1610505431
+ls *unset*sh
+#1610505433
+vim *unset*sh
+#1610505441
+ls *set*sh
+#1610505451
+vim learn.set.var.if.not.set.sh 
+#1610506331
+j dep
+#1610506335
+vim nginx-conf-files/default.conf 
+#1610506375
+cat update-nginx-conf.sh 
+#1610506399
+update-nginx-conf.sh |& tee ~/tmp-no-repo/linode-update-nginx-conf-$(datestamp).log |&less
+#1610506405
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/linode-update-nginx-conf-$(datestamp).log |&less
+#1610506423
+vim update-nginx-conf.sh 
+#1610506454
+type sl
+#1610506460
+sl docker logs nginx
+#1610506498
+sl docker logs nginx -f
+#1610506555
+jobs
+#1610506556
+c
+#1610506110
+sl
+#1610505865
+j tmp-
+#1610505867
+lh
+#1610505873
+vim monitor-nginx-logs-2021.01.12.Tue.08.12.29.log
+#1610506570
+c
+#1610506570
+gs
+#1610506877
+num=2
+#1610506883
+(( num == 3 ))
+#1610506885
+echo $?
+#1610506894
+(( num == 2 ))
+#1610506895
+echo $?
+#1610505680
+v sql
+#1610505181
+j de
+#1610505196
+vim deploy-nginx.sh 
+#1610505523
+sm .
+#1610505573
+docker logs -f quizme
+#1610506583
+vim get-and-load-nginx-logs.sh 
+#1610506618
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/get-nginx-logs-$(datestamp).log |& v-
+#1610505352
+j dep
+#1610505370
+docker-wait-until-engine-is-up; ./deploy-nginx.sh |& tee ~/tmp-no-repo/local-deploy-nginx-$(date +%s).log |&less
+#1610505504
+docker start postgres quizme
+#1610505509
+docker start nginx
+#1610505517
+docker logs -f nginx
+#1610506622
+j tmp-__
+#1610506625
+ls -ltr
+#1610506630
+tail -f get-nginx-logs-2021.01.12.Tue.18.56.58.log
+#1610507080
+jobs
+#1610506643
+j de
+#1610506647
+vim get-and-load-nginx-logs.sh 
+#1610507083
+c
+#1610507087
+vim mon*l
+#1610519950
+j dep
+#1610519962
+vim monitor-nginx-logs.sql 
+#1610507678
+psql nginx_logs
+#1610507854
+sl
+#1610521074
+"docker logs nginx"
+#1610521106
+j dep
+#1610521138
+ssh_cmd='' ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/local-get-and-load-nginx-logs-$(datestamp).log |&less
+#1610507759
+pwd
+#1610507762
+j dep
+#1610507773
+vim update-nginx-conf.sh build-and-push-nginx.sh 
+#1610520741
+j dep
+#1610520746
+v default
+#1610507945
+j tmp
+#1610507947
+j tmp-
+#1610507949
+lh
+#1610507961
+vim get-nginx-logs-2021.01.12.Tue.18.56.58.log
+#1610520110
+docker ps
+#1610520123
+lh
+#1610520133
+ls -ltr *local*
+#1610520157
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610520164
+j dep
+#1610520165
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610520245
+date
+#1610520247
+date -u
+#1610520259
+vim local-update-nginx-conf.sh 
+#1610507592
+j dep
+#1610507601
+v monsql
+#1610507605
+vi sql
+#1610507612
+vim monitor-nginx-logs.sql
+#1610520567
+sudo vim /etc/hosts
+#1610520598
+ping test.my_mac.org
+#1610520658
+sudo vim /etc/hosts
+#1610507511
+j dep
+#1610507511
+lh
+#1610507516
+j tmp-
+#1610507517
+lh
+#1610507523
+vim monitor-nginx-queries-2021.01.12.Tue.18.56.58.log
+#1610520623
+j dep
+#1610520640
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610520792
+ls *local*
+#1610520802
+vim get-and-load-nginx-logs.sh 
+#1610559832
+vq
+#1610551707
+vq
