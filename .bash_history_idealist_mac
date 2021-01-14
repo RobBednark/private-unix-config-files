@@ -64937,3 +64937,151 @@ docker cp nginx:/etc/nginx/conf.d/default.conf .
 gs
 #1610565722
 jobs
+#1610556281
+docker logs nginx
+#1610556487
+docker logs -f nginx
+#1610565520
+docker-wait-until-engine-is-up; docker logs -t 30 -f nginx
+#1610565533
+type dl
+#1610565535
+vrc
+#1610555100
+j dep
+#1610555114
+docker exec -it nginx sh
+#1610556392
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1610556395
+./manage.py -h
+#1610556402
+./manage.py collectstatic -h
+#1610556409
+./manage.py collectstatic 
+#1610556415
+yes
+#1610556420
+./manage.py collectstatic 
+#1610556427
+cd static/
+#1610556430
+find .
+#1610556390
+cdq
+#1610554901
+j dep
+#1610554908
+cd nginx-conf-files/
+#1610554911
+vim default.conf 
+#1610555532
+docker ps
+#1610555551
+docker cp default.conf nginx:/etc/nginx/conf.d
+#1610555590
+vim default.conf 
+#1610555613
+docker cp default.conf nginx:/etc/nginx/conf.d
+#1610555947
+docker logs nginx
+#1610565479
+pwd
+#1610565495
+docker logs nginx
+#1610565737
+jobs
+#1610566599
+vq
+#1610568410
+vp
+#1610571032
+vresume
+#1610572380
+vq
+#1610566683
+vp
+#1610567901
+vjo
+#1610608303
+docker-wait-until-engine-is-up ; docker start postgres quizme nginx
+#1610608452
+curl fc.bednark.org/mypath
+#1610608462
+cat /etc/hosts
+#1610608473
+curl fc.bednark.org/mypath
+#1610608481
+curl blah.bednark.org/mypath
+#1610608565
+cat /etc/hosts
+#1610608270
+j dep
+#1610608282
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610608418
+docker cp nginx-conf-files/nginx.conf nginx:/etc/nginx
+#1610608431
+docker restart nginx
+#1610608537
+vim nginx-conf-files/default.conf 
+#1610608320
+docker logs -t -f 10 quizme
+#1610608327
+docker logs -t quizme
+#1610608331
+docker logs -ft quizme
+#1610608340
+docker logs -ft nginx
+#1610607580
+j dep
+#1610607593
+vim nginx-conf-files/nginx.conf create_nginx_log_table.sql 
+#1610637360
+j dep
+#1610637364
+vim get-and-load-nginx-logs.sh 
+#1610637212
+j dep
+#1610637270
+sm .
+#1610637308
+vim nginx-conf-files/nginx.conf create_nginx_log_table.sql 
+#1610643503
+docker logs nginx
+#1610643703
+docker logs nginx|&less
+#1610643206
+j dep
+#1610643209
+vim nginx-conf-files/nginx.conf 
+#1610642614
+cdqn
+#1610642626
+git ls-files |&less
+#1610642639
+vim quizme/wsgi.py 
+#1610643156
+j dep
+#1610643157
+c
+#1610643172
+vim get-and-load-nginx-logs.sh 
+#1610643196
+ssh_cmd='' ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/local-get-and-load-nginx-logs-$(datestamp).log |&less
+#1610643549
+ssh_cmd='' ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/local-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610642172
+ping bednark.org
+#1610642464
+curl fc.bednark.org
+#1610642472
+docker start postgres quizme nginx
+#1610642478
+curl -i fc.bednark.org
+#1610642515
+docker exec -it quizme sh
+#1610648240
+vq
+#1610638131
+vq
