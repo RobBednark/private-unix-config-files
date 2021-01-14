@@ -65085,3 +65085,57 @@ docker exec -it quizme sh
 vq
 #1610638131
 vq
+#1610648301
+vvimrc 
+#1610648127
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1610648130
+pip freeze
+#1610648137
+pipenv --help|less
+#1610648151
+pipenv check
+#1610648163
+pipenv install gunicorn
+#1610648050
+cdqn
+#1610648054
+gs
+#1610648055
+sm .
+#1610648096
+pwd
+#1610648097
+jobs
+#1610648115
+cdqn
+#1610648119
+pip freeze
+#1610648125
+cdq
+#1610648007
+j dep
+#1610648014
+vim build-and-push-quizme.sh 
+#1610652624
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1610653010
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1610653016
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1610652623
+pshd
+#1610652621
+v ool
+#1610655321
+vq
+#1610655379
+j dep
+#1610655380
+sm .
+#1610655405
+type sl
+#1610655414
+sl docker logs nginx|tail -5
+#1610655317
+vp
