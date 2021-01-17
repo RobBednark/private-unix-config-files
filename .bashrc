@@ -868,6 +868,26 @@ function git.branch.show() {
     # Just show the current branch name
     git rev-parse --abbrev-ref HEAD 2> /dev/null
 }
+function git.push.status.all.repos() {  
+    _dirs="
+           $DirAddToQuizme
+           $DirLearn
+           $DirLearn/javascript
+           $HOME
+           $DirPrivateQuizMeDbBackups
+           $DirPrivateRbednarkGeneral
+           $DirQuizMePersonal
+           $DirTmp
+           $DirUnixConfigFiles
+           "
+    (set -x;
+    for _dir in $_dirs; do
+        cd $_dir
+        git push
+        git status
+    done
+    )
+}
 function git.DANGER.rm.verve.branches() {
     (set -x; git fetch --prune)
     if git remote -v | grep rbednark-fare-catalogs >& /dev/null; then

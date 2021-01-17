@@ -65809,3 +65809,51 @@ sl
 vq
 #1610905787
 docker ps
+#1610915708
+(set -x;  echo foo; )
+#1610915721
+cl
+#1610915721
+lh
+#1610915730
+vim learn_command_across_multiple_lines_without_backslashes.sh
+#1610915888
+git.push.status.all.repos 
+#1610915941
+dotrc
+#1610915943
+git.push.status.all.repos 
+#1610915956
+type git.push.stus.all.repos
+#1610915962
+type git.push.status.all.repos
+#1610915974
+git.push.status.all.repos 
+#1610916048
+dotrc
+#1610916054
+git.push.status.all.repos 
+#1610916095
+cdqn
+#1610916097
+git remote -v
+#1610916111
+cdqp 
+#1610916113
+gs
+#1610916119
+git remote -v
+#1610916171
+cdquizme-personal 
+#1610916173
+git remote -v
+#1610916239
+cdjavascript 
+#1610916241
+git remote -v
+#1610916308
+echo $HOME
+#1610916520
+dotrc
+#1610916537
+git.push.status.all.repos |&vi -
