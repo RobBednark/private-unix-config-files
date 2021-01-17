@@ -65139,3 +65139,673 @@ type sl
 sl docker logs nginx|tail -5
 #1610655317
 vp
+#1610661148
+j jav
+#1610661150
+lh
+#1610661156
+type vl
+#1610661158
+vl
+#1610661162
+lh
+#1610661165
+ls -ltr
+#1610661173
+ls -l *arrow*
+#1610661183
+vrc
+#1610661203
+lh
+#1610661204
+vl
+#1610661209
+lh
+#1610661397
+j java
+#1610661400
+grep assert *
+#1610661402
+vim *
+#1610661414
+vim $(grep -l assert *)
+#1610661897
+man prettier
+#1610661901
+prettier --help
+#1610661904
+prettier --help|less
+#1610661339
+j jav
+#1610661344
+ls *assert*
+#1610661349
+cdnode 
+#1610661354
+ls *assert*
+#1610661358
+grep assert *
+#1610662714
+j java
+#1610662719
+ls *hoist*
+#1610662721
+ls *def*
+#1610662738
+vim learn_function_definition_required_to_be_first_no_hoisting.js
+#1610665759
+vjo
+#1610653440
+cl
+#1610653441
+ls *js
+#1610653445
+cdjavascript 
+#1610653476
+ls *func*
+#1610653504
+vi learn_assign_func_to_constant_variable.js
+#1610662981
+gs
+#1610663009
+git mv learn_assign_func_to_constant_variable.js learn_assign_anonymous_function_expression_to_variable.js
+#1610667248
+gs
+#1610661260
+cl
+#1610661264
+j va
+#1610661268
+j jav
+#1610661272
+ls *scope*
+#1610661275
+vim *scope*
+#1610661285
+vim learn_scope.js
+#1610653694
+cdjavascript 
+#1610653714
+vim learn_collage_job_application_problem.js
+#1610661597
+gs
+#1610661599
+sm .
+#1610661625
+git remove -v
+#1610661629
+git remote -v
+#1610661652
+git.remote.set.origin.different.url 
+#1610661657
+type git.remote.set.origin.different.url 
+#1610661751
+git remote set-url git@github.com:RobBednark/private-learn-javascript.git
+#1610661756
+git remote set-url --add git@github.com:RobBednark/private-learn-javascript.git
+#1610661777
+git remote set-url --add origin git@github.com:RobBednark/private-learn-javascript.git
+#1610661804
+git remote --help
+#1610661836
+git remote add origin git@github.com:RobBednark/private-learn-javascript.git
+#1610661839
+gpus
+#1610650494
+vjo
+#1610667312
+j jav
+#1610667317
+ls *sleep*
+#1610667319
+vim *sleep*
+#1610672364
+vq
+#1610677017
+man bash
+#1610676910
+docker logs nginx
+#1610676915
+docker logs nginx|v-
+#1610677368
+docker logs nginx|&v-
+#1610677483
+docker ps
+#1610677496
+docker start postgres quizme nginx
+#1610677498
+docker ps
+#1610677529
+docker logs nginx|&v-
+#1610677550
+docker -tf nginx
+#1610677553
+docker logs -tf nginx
+#1610679052
+v nginx.con
+#1610676989
+cl
+#1610676991
+ls *trap*sh
+#1610677001
+vim *trap*sh
+#1610677237
+cl
+#1610677249
+ls *set*sh|grep ignore
+#1610677252
+vim ignore
+#1610677255
+ls *set*sh|grep ignore
+#1610677262
+vim $(ls *set*sh|grep ignore)
+#1610677572
+v nginx.con
+#1610677576
+v defa
+#1610677864
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610677867
+j de
+#1610677868
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&less
+#1610678512
+v defa
+#1610678517
+v nginx.c
+#1610678971
+docker-wait-until-engine-is-up; ./local-update-nginx-conf.sh |& tee ~/tmp-no-repo/local-update-nginx-conf-$(datestamp).log |&v-
+#1610679461
+jobs
+#1610676572
+rg -i airtime $FilesDirsAllGrep 
+#1610676598
+vq
+#1610676689
+j dep
+#1610676693
+gs
+#1610676694
+sm .
+#1610676727
+ssh_cmd='' ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/local-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610676742
+docker-wait-until-engine-is-up; ssh_cmd='' ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/local-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610679341
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/linode-update-nginx-conf-$(datestamp).log |&less
+#1610679505
+./update-nginx-conf.sh |& tee ~/tmp-no-repo/linode-update-nginx-conf-$(datestamp).log |&v-
+#1610676963
+j dep
+#1610676966
+lh
+#1610676973
+v get
+#1610676979
+v get-a
+#1610678661
+v get-
+#1610678664
+lh
+#1610678670
+vim get-and-load-nginx-logs.sh 
+#1610679453
+vim update-nginx-conf.sh 
+#1610679374
+j dep
+#1610679378
+vim update-nginx-conf.sh 
+#1610679631
+sl docker logs -tf nginx
+#1610667964
+j jva
+#1610667967
+j jav
+#1610667973
+ls *arrow*
+#1610667975
+vim *arrow*
+#1610668200
+ls *time*
+#1610668202
+vim *time*
+#1610668499
+j jva
+#1610668501
+j ja
+#1610668504
+j jav
+#1610668508
+ls *forma*
+#1610668512
+j node
+#1610668515
+cdnode 
+#1610668529
+ls *forma*
+#1610668664
+ls *temp*
+#1610668674
+j jav
+#1610668676
+ls *temp*
+#1610668679
+vim *temp*
+#1610668685
+vjavascript 
+#1610668697
+vjs
+#1610684587
+v
+#1610724437
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1610724510
+DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1610724514
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1610724521
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1610724436
+pshd
+#1610724442
+v ool
+#1610725074
+v
+#1610725679
+vjavascript 
+#1610725690
+vjs
+#1610725568
+j java
+#1610725570
+lh
+#1610725575
+while true; do node ./learn_collage_job_application_problem.js ; sleep .5; done
+#1610725774
+while true; do node ./learn_collage_job_application_problem.js ;  done
+#1610725800
+num=0; while true; do node ./learn_collage_job_application_problem.js ; (( num++ )); echo $num;  done
+#1610725821
+x=1
+#1610725826
+(( x / 5 ))
+#1610725830
+x
+#1610725832
+echo $x
+#1610725836
+x=55
+#1610725843
+(( x / 5 ))
+#1610725846
+echo (( x / 5 ))
+#1610730136
+history > /tmp/history; vim /tmp/history
+#1610728398
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1610728401
+pipenv graph|&less
+#1610728567
+pipenv graph|&v-
+#1610726525
+sl
+#1610728083
+c
+#1610728119
+cdqn
+#1610728252
+vim Pipfi*
+#1610728381
+jobs
+#1610728395
+cdq
+#1610729557
+ . /Users/rbednark/.virtualenvs/learn-pip-tools-pip-compile-nQIklA3v/bin/activate
+#1610729570
+pip-compile requirements.in 
+#1610729586
+vim requirements.txt 
+#1610729628
+vim requirements.in 
+#1610729634
+pip-compile requirements.in 
+#1610729726
+vim requirements.
+#1610729740
+pip-compile requirements.in 
+#1610729797
+vim requirements.in 
+#1610729899
+pip-compile requirements.in 
+#1610730147
+history|grep keep-upd
+#1610730179
+jobs
+#1610726805
+j dep
+#1610726809
+vim build-and-push-postgres.sh 
+#1610728472
+cdqn
+#1610728475
+vim Pipfile.lock 
+#1610728637
+pipenv install --help|&v-
+#1610728749
+sm .
+#1610728848
+c
+#1610728862
+pipenv install --keep-outdate gunicorn
+#1610728868
+c
+#1610728876
+date; time pipenv install --keep-outdated gunicorn
+#1610729063
+c
+#1610729359
+cl
+#1610729369
+mkdir learn-pip-tools-pip-compile
+#1610729370
+cd learn-pip-tools-pip-compile
+#1610729370
+c
+#1610729380
+vim requirements.in
+#1610729421
+pipenv install pip-tools
+#1610729521
+PIPENV_NO_INHERIT=True pipenv install pip-tools
+#1610729549
+c
+#1610729554
+pipenv shell
+#1610729643
+j learn-
+#1610729854
+j
+#1610729857
+cl
+#1610729858
+lh
+#1610729862
+j pip-c
+#1610724607
+vp
+#1610735804
+vjo
+#1610724400
+vq
+#1610739552
+vjo
+#1610742639
+j dep
+#1610742640
+gpus
+#1610739504
+vjo
+#1610742767
+cpus
+#1610742770
+gpus
+#1610744406
+vq
+#1610744427
+cd tmp
+#1610744428
+gs
+#1610744430
+gpus
+#1610744472
+/ssh-ag
+#1610744477
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1610749537
+resume.pdf 
+#1610747103
+vjo
+#1610748285
+vp
+#1610750094
+pwd
+#1610750094
+jobs
+#1610750095
+cl
+#1610750115
+v interview
+#1610750118
+v
+#1610750126
+v applic
+#1610750068
+vim /tmp/rand.js
+#1610751574
+pipenv install --help
+#1610752087
+ssh-keygen -f -y /to/my-key
+#1610750200
+j application
+#1610750207
+cdjavascript 
+#1610750212
+lh
+#1610751514
+ls *oop*
+#1610751520
+vim learn_loop_sleep.js
+#1610752502
+lh
+#1610742784
+j dep
+#1610742789
+vim README.md
+#1610742798
+j dep
+#1610742804
+vim get-and-load-nginx-logs.sh 
+#1610772129
+cd tmp-no-repo/
+#1610772130
+lh
+#1610772136
+vim linode-get-and-load-nginx-logs-2021.01.15.Fri.13.01.48.log
+#1610772223
+j dep
+#1610772236
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/local-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610772022
+j dep
+#1610772108
+vi get-and-load-nginx-logs.sh 
+#1610772751
+sm .
+#1610772078
+x=2; y=3
+#1610772083
+if (( x==y )); then echo yes; else echo no; fi
+#1610772098
+if (( x==2 )); then echo yes; else echo no; fi
+#1610811371
+vq
+#1610743435
+j dep
+#1610743488
+docker-wait-until-engine-is-up; ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610743606
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610743688
+df -h .
+#1610743689
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610743561
+cd tmp-no-repo/
+#1610743565
+lh
+#1610743729
+ssh root@bednark.org docker logs nginx
+#1610743731
+echo $?
+#1610743737
+ssh root@bednark.org
+#1610743950
+ping bednark.org
+#1610743836
+cd .ssh/
+#1610743838
+gs
+#1610743840
+gd
+#1610743850
+vim known_hosts 
+#1610743855
+sl
+#1610743929
+gd
+#1610743936
+git grep bednark
+#1610743955
+git grep 23.239
+#1610743960
+vim known_hosts 
+#1610743974
+sl
+#1610751539
+vq
+#1610814168
+cl
+#1610814199
+vim template-learn_stackoverflow_ask-template-.txt 
+#1610812424
+sl
+#1610812788
+j dep
+#1610812790
+ls *moni*
+#1610813640
+vim /tmp/linode
+#1610845830
+j dep
+#1610845834
+vim build-and-push-quizme.sh 
+#1610857921
+cl
+#1610857923
+ls *comment*sh
+#1610857939
+vim learn.backslash.with.comments.sh learn.multi.line.comment.
+#1610857955
+vim learn.backslash.with.comments.sh learn.multi.line.comment.bash 
+#1610857609
+cl
+#1610857614
+ls *line*sh
+#1610857684
+vi learn_command_across_multiple_lines_without_backslashes.sh
+#1610857359
+j de
+#1610857362
+vim buil*
+#1610857593
+vim deploy-postgres.sh 
+#1610826466
+vq
+#1610845598
+cdqn
+#1610845599
+gs
+#1610845602
+gpus
+#1610845609
+j dep
+#1610845614
+vim build-and-push-quizme.sh 
+#1610845680
+docker-wait-until-engine-is-up; time (./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1610845711
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1610857181
+vim README.md 
+#1610857297
+sl
+#1610845729
+cdqn
+#1610845740
+vim Pipfile
+#1610845754
+j dep
+#1610845758
+vim Dockerfile-quizme 
+#1610898101
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1610898103
+/lw
+#1610898106
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1610898111
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1610898100
+pshd
+#1610898042
+v ool
+#1610898048
+v pool
+#1610898160
+j dep
+#1610898182
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1610899465
+docker ps
+#1610899469
+docker start nginx
+#1610899474
+docker ps
+#1610898721
+docker-run-alpine 
+#1610898855
+j dep
+#1610898874
+vim Dockerfile-letsencrypt-cert
+#1610899027
+docker-run-alpine 
+#1610899855
+sl
+#1610901847
+j depl__
+#1610901850
+cd ..
+#1610901851
+ls -ltr
+#1610901857
+j nginx
+#1610901866
+vim generate-ssl-cert.sh 
+#1610901875
+cd conf.d/
+#1610901879
+vim default.conf 
+#1610899485
+sl
+#1610899531
+j dep
+#1610899537
+vim Dockerfile-nginx 
+#1610899552
+type docker-run-alpine 
+#1610899564
+docker run -it --rm nginx:alpine sh
+#1610900264
+sl
+#1610902289
+vim nginx-conf-files/default.conf 
+#1610903083
+j dep
+#1610903086
+vim deploy-nginx.sh 
+#1610902486
+sl
+#1610898146
+vq
+#1610905787
+docker ps
