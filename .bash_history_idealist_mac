@@ -65857,3 +65857,85 @@ echo $HOME
 dotrc
 #1610916537
 git.push.status.all.repos |&vi -
+#1610908841
+vq
+#1610915603
+c
+#1610915622
+vrc
+#1610916633
+vp
+#1610917146
+vq
+#1610920728
+vp
+#1610950318
+j de
+#1610950319
+sm .
+#1610950733
+vq
+#1610988373
+j dep__
+#1610988393
+vim /tmp/test.sh
+#1610989005
+nc -vz bednark.org 22
+#1610989013
+nc -z bednark.org 22
+#1610989018
+echo $?
+#1610989022
+nc -z bednark.org 55
+#1610989025
+echo $?
+#1610989161
+host=173.255.220.85 ./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp)|&less
+#1610989220
+jobs
+#1610989223
+man ssh
+#1610989321
+yes
+#1610989351
+echo yes | ssh 44.44.44.44
+#1610989379
+echo yes | ssh -t 44.44.44.44
+#1610989382
+man ssh
+#1610989417
+cat ~/.ssh/known_hosts 
+#1610988093
+j dep
+#1610988095
+vim README.md 
+#1610986788
+cl
+#1610986790
+wl
+#1610986792
+sl
+#1610987666
+c
+#1610987669
+j depl
+#1610987675
+ls *server*
+#1610987677
+cd ..
+#1610987678
+cd bin
+#1610987684
+vim bootstrap-new-server.sh 
+#1610987712
+git mv bootstrap-new-server.sh ../deploy/
+#1610987714
+cd ../deploy/
+#1610987716
+vim bootstrap-new-server.sh 
+#1611005003
+vq
+#1611000657
+vp
+#1611072933
+exec ls
