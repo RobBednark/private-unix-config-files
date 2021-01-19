@@ -65939,3 +65939,115 @@ vq
 vp
 #1611072933
 exec ls
+#1611074209
+man ls
+#1611073248
+cd /tmp
+#1611073250
+ls -ltr
+#1611073260
+grep '\<success\>' example.sh 
+#1611073276
+less example.sh 
+#1611074072
+man col
+#1611074397
+man exec
+#1611074403
+man -2 exec
+#1611074408
+man 2 exec
+#1611074412
+man -k exec
+#1611074429
+man 3 exec
+#1611073026
+man bash
+#1611073029
+man exec
+#1611073044
+type exec
+#1611073046
+which exec
+#1611073049
+man bash
+#1611073067
+type man
+#1611073073
+man bash
+#1611073081
+man bash|v-
+#1611073102
+man bash
+#1611073316
+PAGER=vi man bash
+#1611073324
+kill %1
+#1611073325
+c
+#1611073347
+PAGER="vi -R -" man bash
+#1611073376
+env|grep -i man
+#1611073383
+PAGER="vi -R -" man bash
+#1611073394
+man man
+#1611073419
+man bash
+#1611073478
+man ls|vi -
+#1611073508
+env|grep MAN
+#1611073543
+MANOPT='' man ls|vi -
+#1611073569
+unset MANOPT
+#1611073572
+env|grep MAN
+#1611073576
+man ls|vi -
+#1611073726
+export MANPAGER="col -b | vim -MR - "
+#1611073729
+man ls
+#1611073751
+man col
+#1611073783
+man vim
+#1611073818
+export MANPAGER="col -b | vim - "
+#1611073822
+man ls
+#1611073835
+man who
+#1611073889
+man ls
+#1611074150
+man man
+#1611074266
+dotrc
+#1611074269
+man bash
+#1611075024
+pstree
+#1611075035
+pstree|less
+#1611075160
+cd /tp
+#1611075163
+cd /tmp
+#1611075168
+tail -f output.13677 
+#1611075171
+ls -l output.13677
+#1611075185
+less output.13677
+#1611072850
+cl
+#1611072852
+ls *redir*sh
+#1611072857
+vim learn.redirect.
+#1611076083
+df -h .

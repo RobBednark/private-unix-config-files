@@ -78,8 +78,10 @@ export HISTTIMEFORMAT="%m/%d/%y %a %T "
 ### Exports
 ################################################################################
 export PGDATABASE=template1  # postgresql database for psql, etc.; template1 is a standard system database; https://www.postgresql.org/docs/12/manage-ag-templatedbs.html
-export MANOPT=-Hlynx  # convert man page to html, and use the "lynx" browser to view it
+# export MANOPT=-Hlynx  # convert man page to html, and use the "lynx" browser to view it
 export MANPATH="$MANPATH:/usr/man"
+export MANPAGER="col -b | vim -R - "  # use vim as the pager, and use "col -b" to eliminate backspace
+
 export PATH="$PATH:/bin"
 export PATH="$PATH:~/bin"
 
