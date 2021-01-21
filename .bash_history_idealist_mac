@@ -66051,3 +66051,145 @@ ls *redir*sh
 vim learn.redirect.
 #1611076083
 df -h .
+#1611073879
+man ls
+#1611073910
+vrc
+#1611074733
+cl
+#1611074736
+vim *trap*sh
+#1611074974
+cd /tmp
+#1611074980
+cat script2.sh 
+#1611074985
+bash script2.sh 
+#1611075354
+ls -ltr
+#1611075359
+ls -lh out*
+#1611075369
+rm -f out*
+#1611075382
+jobs
+#1611075384
+ls -ltr
+#1611075386
+jobs
+#1611075390
+ls -lh out*
+#1611075394
+jobs
+#1611075401
+ls -ltr
+#1611075418
+chmod a+x script2.sh 
+#1611075427
+./script2.sh 
+#1611075495
+fasle
+#1611075497
+false
+#1611075498
+echo $?
+#1611075517
+c
+#1611075519
+./script2.sh 
+#1611075889
+false
+#1611075902
+./script2.sh 
+#1611072118
+vq
+#1611088141
+vjo
+#1611070427
+vq
+#1611091795
+v ool
+#1611092704
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1611091794
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1611092698
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1611091792
+pshd
+#1611091724
+vjo
+#1611072582
+vi /tmp/example.sh
+#1611074661
+cd /tmp
+#1611074662
+c
+#1611074672
+ls -ltr
+#1611074684
+mv ~/script1 script1.sh
+#1611074687
+ls -ltr
+#1611074690
+mv example.sh script2.sh
+#1611074700
+vim scr*
+#1611100107
+vp
+#1611160206
+ping 192.53.124.69
+#1611159709
+j dep__
+#1611159711
+sm .
+#1611159899
+c
+#1611160256
+vim bootstrap-new-server.sh 
+#1611160711
+host=192.53.124.69 ./bootstrap-new-server.sh >& ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611160731
+ssh root@192.53.124.69
+#1611160736
+host=192.53.124.69 ./bootstrap-new-server.sh >& ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611160752
+host=192.53.124.69 ./bootstrap-new-server.sh 
+#1611160810
+host=192.53.124.69 ./bootstrap-new-server.sh >& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611160820
+host=192.53.124.69 ./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611160940
+./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611160947
+git grep host
+#1611160981
+ssh root@
+#1611160565
+j dep
+#1611160568
+vim bootstrap-new-server.sh 
+#1611160667
+env|sort|less
+#1611156791
+vq
+#1611159954
+j dep
+#1611159959
+vim README.md 
+#1611164109
+v oot
+#1611184377
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1611180487
+vq
+#1611184372
+vp
+#1611185175
+sl
+#1611184561
+vq
+#1611186000
+vjo
+#1611188316
+vresume
