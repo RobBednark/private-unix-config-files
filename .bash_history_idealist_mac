@@ -66193,3 +66193,71 @@ vq
 vjo
 #1611188316
 vresume
+#1611190383
+du -hs anaconda/
+#1611190388
+cd anaconda/
+#1611190395
+cd ..
+#1611190397
+conda
+#1611190400
+anaconda
+#1611190404
+rm -fr anaconda/
+#1611190424
+ls -ltr anaconda/|less
+#1611190432
+sudo rm -fr anaconda/
+#1611190572
+fzf
+#1611190652
+ls -ld */*github.io*
+#1611190656
+cd repos.rob/
+#1611190659
+cd *iio
+#1611190662
+cd *o
+#1611190663
+gs
+#1611190665
+gpul
+#1611190666
+gs
+#1611190670
+git log
+#1611190708
+cp Resume-Rob-Bednark-2021-Jan-8.pdf Resume-Rob-Bednark.pdf
+#1611190710
+gs
+#1611190712
+git add .
+#1611190724
+rm Resume-Rob-Bednark
+#1611190729
+rm Resume-Rob-Bednark.pdf 
+#1611190737
+ln -s Resume-Rob-Bednark-2021-Jan-8.pdf Resume-Rob-Bednark.pdf
+#1611190738
+gs
+#1611190744
+git add .
+#1611190745
+gs
+#1611190749
+ls -l
+#1611190765
+gcam 'add Resume-Rob-Bednark.pdf symlink'
+#1611190766
+dpus
+#1611190767
+gpus
+#1611190837
+vim index.html 
+#1611190917
+gd
+#1611190930
+gcam 'index.html: add my resume'
+#1611190932
+gpus

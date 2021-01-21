@@ -1670,6 +1670,10 @@ fi
 # find . -type f -print0  | xargs -0 sum   ==> run "xargs" against every "find" result (use -print0 and -0 for null-termination, to avoid issues with filenames with quotes)
 # fzf   ==> general purpose command-line fuzzy finder  (brew install fzf); 
 #   https://github.com/junegunn/fzf
+#   How to use?
+#      When you run fzf, it will open an interactive finder; reads the list of files from stdin, and writes the selected item to stdout.  Simply type the name of the file you are looking for in the prompt. When you find it, click enter and the relative path of the file will be printed to stdout.
+#      CTRL-J/K CTRL-N/P to move up/down
+
 #       
 # gcp --parents  dir1/dir2/file /tmp  (preserves directory structure, i.e., /tmp/dir1/dir2/file)
 # grip 9.27.20 "brew install grip" -- GitHub Readme Instant Preview -- Render local readme (markdown) files before sending off to GitHub.  The styles and rendering come directly from GitHub, so you'll know exactly how it will appear. Changes you make to the Readme will be instantly reflected in the browser without requiring a page refresh.  :!grip %
