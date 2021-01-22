@@ -66327,3 +66327,127 @@ vp
 vdiary 
 #1611271905
 vq
+#1611286815
+vvimrc 
+#1611286402
+vp
+#1611287564
+vp
+#1611289307
+vdiary 
+#1611289916
+type sl
+#1611289919
+ssh root@50.116.5.148
+#1611289823
+j dep
+#1611289826
+./boo
+#1611289842
+./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611289955
+host=50.116.5.148 ./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611289712
+pwd
+#1611289713
+jobs
+#1611289714
+c
+#1611289716
+j dep
+#1611289717
+sm .
+#1611289788
+vim settings.sh 
+#1611290120
+ping bednark.org
+#1611290122
+sl
+#1611332604
+ssh root@198.74.49.205
+#1611334045
+sl
+#1611331034
+v ool
+#1611331135
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1611331139
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1611331149
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1611331158
+v crontab
+#1611331161
+cl
+#1611331168
+j pool
+#1611331133
+pshd
+#1611329637
+vq
+#1611332476
+j dep
+#1611332565
+vi bootstrap-new-server.sh 
+#1611332570
+c
+#1611332687
+host=198.74.49.205 ./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611332963
+ssh root@    vi /etc/ssh/sshd_config
+#1611332974
+ssh root@198.74.49.205
+#1611332916
+ssh foo@198.74.49.205
+#1611333710
+echo $?
+#1611333745
+ssh foo@198.74.49.205|grep Permission.denied
+#1611335251
+j dep
+#1611335257
+host=198.74.49.205 ./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611332711
+j dep
+#1611332716
+vim bootstrap-new-server.sh 
+#1611335617
+vp
+#1611335581
+vq
+#1611337016
+vjo
+#1611342174
+jobs
+#1611344361
+date -u
+#1611344184
+cl
+#1611344192
+j ool
+#1611344204
+ls -ltr
+#1611344206
+cd ..
+#1611344206
+lh
+#1611344212
+ls -ld *ool*
+#1611344219
+ls -ltr *ool*
+#1611344237
+ls -ltrd *http*
+#1611344244
+ls -ltr *sched*
+#1611344254
+cat cron
+#1611344261
+j swim
+#1611344263
+gs
+#1611344267
+vim crontab 
+#1611344885
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1611344094
+vdiary 
