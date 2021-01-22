@@ -66451,3 +66451,7 @@ vim crontab
 scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
 #1611344094
 vdiary 
+#1611349183
+vvimrc 
+#1611349762
+vp
