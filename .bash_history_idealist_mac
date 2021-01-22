@@ -66261,3 +66261,69 @@ gd
 gcam 'index.html: add my resume'
 #1611190932
 gpus
+#1611190268
+type rg
+#1611190271
+rg -h
+#1611190291
+grc find
+#1611190294
+fzf
+#1611190325
+find . -name|grep github.io
+#1611190333
+type find
+#1611190341
+find .|grep github.io
+#1611190369
+fzf github.io
+#1611190372
+fzf -h
+#1611190378
+fzf
+#1611190467
+vrc
+#1611190787
+vq
+#1611204750
+j dep
+#1611204792
+ls mon*
+#1611204801
+./monitor-var-log-messages-ssh-logins.sh 
+#1611204841
+vi bootstrap-new-server.sh 
+#1611204811
+sl
+#1611246160
+git rebase --help
+#1611246195
+env|grep PAGER
+#1611246210
+MANPAGER='' git rebase --help
+#1611246213
+MANPAGER='less' git rebase --help
+#1611244817
+v cron
+#1611244829
+tpye cron
+#1611244831
+type cron
+#1611244833
+type v
+#1611244836
+v
+#1611244844
+v cront
+#1611253930
+vjo
+#1611243197
+vq
+#1611270542
+vjo
+#1611269865
+vp
+#1611271908
+vdiary 
+#1611271905
+vq
