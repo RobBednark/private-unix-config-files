@@ -66455,3 +66455,801 @@ vdiary
 vvimrc 
 #1611349762
 vp
+#1611350224
+vvimrc 
+#1611350656
+vp
+#1611350921
+j priv
+#1611350925
+j gener
+#1611350927
+gs
+#1611350971
+cp ~/Downloads/Resume-Rob-Bednark-2021-Jan-22\ \(1\).pdf Resume-Rob-Bednark-2021-Jan-22.pdf
+#1611350977
+ln -sf Resume-Rob-Bednark-2021-Jan-22.pdf latest.resume.pdf 
+#1611350978
+ls -ltr
+#1611350981
+open latest.resume.pdf 
+#1611350988
+pwd
+#1611350989
+jobs
+#1611350992
+gs
+#1611351000
+gcam 'add 1/22/21 resume'
+#1611351003
+gpus
+#1611351016
+grrc github.io
+#1611351019
+grc github.io
+#1611351025
+cdrobbednark-github-io-website 
+#1611351029
+gpus
+#1611351039
+ls -ltr
+#1611351057
+cp ~/repos.rob/private-rbednark-general/Resume-Rob-Bednark-2021-Jan-22.pdf .
+#1611351072
+ln -sf Resume-Rob-Bednark-2021-Jan-22.pdf Resume-Rob-Bednark.pdf 
+#1611351072
+gs
+#1611351073
+gd
+#1611351076
+ls -l
+#1611351088
+gcam 'add resume 1/22/21'
+#1611351089
+gpus
+#1611351463
+vdiary 
+#1611351680
+vp
+#1611349170
+vq
+#1611362391
+ssh root@173.255.242.78
+#1611362404
+watch sshroot@173.255.242.78
+#1611362433
+ssh root@173.255.242.78
+#1611362733
+j ng
+#1611362737
+grep volume *
+#1611362742
+j dep
+#1611362745
+grep volume *
+#1611362749
+grep -v *
+#1611362754
+grep '-v' *
+#1611362758
+grep -- '-v' *
+#1611362858
+cat settings.sh deploy-nginx.sh | ssh root@<ip> |& tee ~/tmp-no-repo/deploy-nginx-$(datestamp).log |& less
+#1611362882
+vim settings.sh 
+#1611362892
+cat settings.sh deploy-nginx.sh | ssh root@<ip> |& tee ~/tmp-no-repo/deploy-nginx-$(datestamp).log |& less
+#1611362918
+cat settings.sh deploy-nginx.sh | ssh root@173.255.242.78 |& tee ~/tmp-no-repo/deploy-nginx-$(datestamp).log |& less
+#1611363031
+echo "host=173.255.242.78" | cat settings.sh deploy-nginx.sh /dev/stdin | ssh root@173.255.242.78 |& tee ~/tmp-no-repo/deploy-nginx-$(datestamp).log |& less
+#1611363047
+echo "host=173.255.242.78" | cat /dev/stdin settings.sh deploy-nginx.sh | ssh root@173.255.242.78 |& tee ~/tmp-no-repo/deploy-nginx-$(datestamp).log |& less
+#1611361765
+j dep
+#1611361769
+gs
+#1611361776
+sm .
+#1611362642
+vi deploy-postgres.sh 
+#1611361793
+j tmp-
+#1611361794
+lh
+#1611361798
+vim bootstrap-new-server-2021.01.22.Fri.09.10.34.log
+#1611362441
+host=173.255.242.78 ./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611362445
+j dep
+#1611362446
+host=173.255.242.78 ./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611362492
+vim README.md 
+#1611363699
+cdrobbednark-github-io-website 
+#1611363702
+git show
+#1611363715
+ls -l
+#1611363723
+open Resume-Rob-Bednark.pdf 
+#1611363821
+git log -p
+#1611363834
+ls -ltr
+#1611369645
+vq
+#1611374094
+vjo
+#1611420733
+cl
+#1611420736
+ls *arg*sh
+#1611420756
+vim learn-command-line-arguments-test-for-help.bash learn.xargs.on.filenames.directorynames.with.spaces.quotes.sh
+#1611420762
+c
+#1611418471
+j dep
+#1611419548
+c
+#1611419594
+HOST=... ./run.sh 
+#1611419665
+vim run.sh
+#1611420115
+c
+#1611420119
+vim *sh
+#1611420136
+grep '\$' *sh|v-
+#1611420193
+jobs
+#1611420198
+vim run.sh 
+#1611418493
+j tmp-
+#1611418495
+lh
+#1611418501
+vim deploy-nginx-2021.01.22.Fri.16.50.47.log
+#1611418787
+c
+#1611418833
+j dep
+#1611418836
+vim deploy-nginx.sh 
+#1611419259
+c
+#1611419429
+vim settings.sh 
+#1611415892
+vq
+#1611431306
+vim --version
+#1611431321
+brew info vim
+#1611431486
+brew outdated
+#1611431500
+brew upgrade vim
+#1611431629
+sudo rm -rf /usr/local/Cellar/python@3.8/3.8.6
+#1611431636
+brew upgrade vim
+#1611431653
+brew outdated
+#1611431663
+git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow
+#1611435802
+brew outdated
+#1611435814
+brew upgrade vim
+#1611436314
+vim /tmp/transcript
+#1611436627
+mv /tmp/transcript tmp/jonathan-blow-video-transcript-techniques-for-malaise-motivation-depression.txt
+#1611436629
+vim tmp/jonathan-blow-video-transcript-techniques-for-malaise-motivation-depression.txt
+#1611507082
+ls -ld *repo*
+#1611507090
+cd repos
+#1611507097
+cd flask
+#1611507131
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame docs
+#1611507149
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame README.rst 
+#1611507156
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame . README.rst 
+#1611507187
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame -h
+#1611507193
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame . README.rst 
+#1611507241
+vim README.rst 
+#1611507273
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame suggestions README.rst 
+#1611507319
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame . README.rst 
+#1611507347
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame '' README.rst 
+#1611507358
+/Users/rbednark/npm-public-packages/node_modules/.bin/git-recursive-blame -e . README.rst 
+#1611507397
+git show 9bf5c3b3a3bdc3f2f2dcca2b5747378470d0d354
+#1611501737
+j dep
+#1611501741
+vq
+#1611501743
+j de
+#1611501791
+gs
+#1611501792
+sm .
+#1611506998
+ls *npm*
+#1611507004
+ls -ld *npm*
+#1611507008
+cd npm-public-packages/
+#1611507017
+npm install recursive-blame
+#1611507051
+./node_modules/.bin/git-recursive-blame 
+#1611507109
+$(PWD)/node_modules/.bin/git-recursive-blame 
+#1611507113
+echo $(PWD)/node_modules/.bin/git-recursive-blame 
+#1611507916
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1611507977
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1611507983
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1611507913
+pshd
+#1611507911
+v ool
+#1611509789
+vq
+#1611516649
+vp
+#1611516667
+cd tmp
+#1611516668
+git show
+#1611516679
+git.show.just.filenames.for.commit 
+#1611516687
+cd Rob-obsidian-vault-1/
+#1611516690
+du -hs .
+#1611516696
+vim *md
+#1611516728
+fidn .
+#1611516729
+find .
+#1611516735
+cd .obsidian/
+#1611516738
+du -hs .
+#1611516742
+ls -laR
+#1611516744
+vim *
+#1611588204
+sl
+#1611588240
+j dep
+#1611588241
+vi README.md 
+#1611591003
+c
+#1611591008
+man rsync
+#1611589973
+ssh root@23.239.1.204
+#1611590053
+ssh root@45.56.89.92
+#1611590080
+c
+#1611590083
+du -hs .
+#1611590090
+j dep
+#1611590092
+du -hs .
+#1611590098
+cd quiz-me/
+#1611590098
+c
+#1611590107
+du -hs .
+#1611590109
+gs
+#1611590112
+cd ..
+#1611590117
+rm -fr quiz-me/
+#1611590119
+du -hs .
+#1611590130
+ls db_data/
+#1611590140
+cd db_data/
+#1611590156
+c
+#1611590166
+find .
+#1611590171
+cd ..
+#1611590173
+rm -fr db_data/
+#1611590174
+du -hs .
+#1611590178
+c
+#1611590206
+vim run.sh 
+#1611590354
+c
+#1611590453
+ssh root@45.56.89.92
+#1611591364
+host=173.255.242.78 ./bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611591450
+vim bootstrap-new-server.sh 
+#1611591785
+man ssh
+#1611591405
+type sl
+#1611591477
+cd tmp-no-repo/
+#1611591478
+ls -ltr
+#1611591483
+vim bootstrap-new-server-2021.01.25.Mon.08.16.04.log
+#1611591695
+tail bootstrap-new-server-2021.01.25.Mon.08.16.04.log
+#1611591704
+ssh root@173.255.242.78 apk update
+#1611591736
+man ssh
+#1611591742
+jobs
+#1611588525
+j dep
+#1611588562
+ssh root@45.56.89.92
+#1611588581
+./run.sh 45.56.89.92 boostrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611588585
+ls run*
+#1611589839
+git chmod a+x run.sh
+#1611589843
+chmod a+x run.sh
+#1611589845
+gs
+#1611589885
+c
+#1611589892
+./run.sh 45.56.89.92 boostrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611590233
+du -hs .
+#1611590241
+ls -l
+#1611590245
+ls -lh
+#1611590251
+ls -lhS
+#1611590263
+less quizme-dump-custom 
+#1611590265
+rm quizme-dump-custom
+#1611590268
+du -hs .
+#1611590391
+./run.sh 45.56.89.92 boostrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611590493
+./run.sh 45.56.89.92 bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-$(datestamp).log |& less
+#1611590966
+vim bootstrap-new-server.sh 
+#1611588109
+j dep
+#1611588110
+gs
+#1611588113
+less tee 
+#1611588115
+rm tee 
+#1611588117
+gs
+#1611588118
+c
+#1611588120
+vim run
+#1611588127
+vi run*
+#1611588268
+echo $PATH
+#1611588412
+j dep
+#1611594459
+man ping
+#1611594492
+ping -c 2 -t 2
+#1611594494
+man ping
+#1611594518
+type ping
+#1611594521
+ping --help
+#1611594527
+ping -c 2 google.com
+#1611594532
+ping -c 1 google.com
+#1611594549
+ping -t 1 google.com
+#1611594554
+ping -c 1 -t 1 google.com
+#1611595953
+c
+#1611595955
+j dep
+#1611595984
+./run.sh 45.56.89.92 bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-45...92-$(datestamp).log |& less
+#1611596015
+ssh 45.56.89.92
+#1611596019
+ssh root@45.56.89.92
+#1611595991
+type rsync
+#1611596027
+man ssh
+#1611596046
+echo $USEr
+#1611596049
+echo $USER
+#1611596156
+ssh root@45.56.89.92
+#1611596163
+echo $HOST
+#1611588603
+vq
+#1611596589
+cl
+#1611596592
+ls *ssh*sh
+#1611596682
+vim learn-ssh-avoid-are-you-sure-host-verification-known-hosts.sh
+#1611596486
+ssh root@45.56.89.92
+#1611597025
+ssh -o ConnectTimeout=1 root@45.56.89.92
+#1611597030
+ssh -o ConnectTimeout=0 root@45.56.89.92
+#1611597040
+cl
+#1611597043
+ls *ssh*sh
+#1611597053
+vim learn-set-ssh-connection-timeout.sh
+#1611597240
+vq
+#1611597383
+cl
+#1611597385
+ls *grep*sh
+#1611597397
+vim learn.grep.returnvalue.sh learn.grep.stderr.pipe.bash 
+#1611596118
+./run.sh 45.56.89.92 bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-45...92-$(datestamp).log |& less
+#1611596120
+j de
+#1611596122
+./run.sh 45.56.89.92 bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-45...92-$(datestamp).log |& less
+#1611596143
+vim settings.sh 
+#1611596209
+./run.sh 45.56.89.92 bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-45...92-$(datestamp).log |& less
+#1611597781
+sm .
+#1611594414
+gs
+#1611594415
+gd
+#1611594426
+vim bootstrap-new-server.sh 
+#1611596222
+sm .
+#1611596286
+vim bootstrap-new-server.sh 
+#1611597107
+cl
+#1611597107
+lh
+#1611597112
+vim learn-ssh-avoid-are-you-sure-host-verification-known-hosts.sh
+#1611597165
+ssh -o ConnectTimeout=0 root@45.56.89.92
+#1611597721
+ssh -o ConnectTimeout=0 someuser@45.56.89.92
+#1611601722
+vq
+#1611602720
+vp
+#1611607072
+resume.pdf 
+#1611604583
+vq
+#1611603208
+vdiary 
+#1611608118
+man source
+#1611608142
+man bash
+#1611608693
+pwd
+#1611608694
+jobs
+#1611608697
+vq
+#1611604583
+vq
+#1611603208
+vdiary 
+#1611607586
+j de
+#1611607994
+chmod a+x security-check.sh 
+#1611608011
+./security-check.sh 45.56.89.92
+#1611608240
+ssh someuser@45.56.89.92
+#1611608302
+ssh someuser@45.56.89.92
+#1611608306
+
+#1611608343
+ssh someuser@45.56.89.92
+#1611608348
+vim ~/.ssh/known_hosts 
+#1611608382
+ssh someuser@45.56.89.92
+#1611608392
+./security-check.sh 45.56.89.92
+#1611608459
+man ssh
+#1611608620
+./security-check.sh 45.56.89.92
+#1611608751
+ssh someuser@45.56.89.92
+#1611608755
+ssh root@45.56.89.92
+#1611608730
+sl
+#1611607437
+j dep
+#1611607441
+gs
+#1611607448
+vim run.sh bootstrap-new-server.sh 
+#1611607477
+j de
+#1611607489
+vim security-check.sh
+#1611608647
+./run.sh 45.56.89.92 bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-45...92-$(datestamp).log |& less
+#1611608964
+45.56.89.92
+#1611608972
+./security-check.sh ./security-check.sh 45.56.89.92
+#1611608981
+./security-check.sh 45.56.89.92
+#1611617845
+ssh root@45.56.89.92
+#1611617877
+cd .ssh
+#1611617878
+gs
+#1611617879
+gd
+#1611617883
+git checkout known_hosts
+#1611617965
+j de
+#1611617971
+vim deploy-postgres.sh 
+#1611618498
+c
+#1611618502
+ls *post*
+#1611618517
+vim postgres-load-data.sh 
+#1611610093
+vdiary 
+#1611617717
+j de
+#1611617719
+gs .
+#1611617721
+sm .
+#1611617774
+gs
+#1611617775
+c
+#1611617918
+./run.sh 45.56.89.92 bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-server-45...92-$(datestamp).log |& less
+#1611618177
+45.56.89.92
+#1611618181
+./security-check.sh ./security-check.sh 45.56.89.92
+#1611618183
+./security-check.sh 45.56.89.92
+#1611618247
+./run.sh 45.56.89.92 deploy-postgres.sh|& tee ~/tmp-no-repo/deploy-postgres-45...92-$(datestamp).log |& less
+#1611619316
+sm .
+#1611618810
+cl
+#1611618813
+ls *arg*sh
+#1611618846
+vim learn.bash.for.loop.through.args.list.array.iterate.split.string.bash 
+#1611618852
+c
+#1611618855
+ls *opt*sh
+#1611618886
+git mv learn.bash.builtin.getopts.bash learn_bash_builtin_getopts_process_command_line_args.bash
+#1611618888
+vim learn_bash_builtin_getopts_process_command_line_args.bash
+#1611618923
+ls *opt*sh
+#1611618958
+git mv learn.getopt.sh learn_getopt_process_command_line_args.sh
+#1611618970
+cat learn.linux.getopt.bash 
+#1611618972
+vim learn.linux.getopt.bash
+#1611618979
+c
+#1611619004
+vim learn_process_command_line_arguments_options_without_getopts.sh
+#1611619193
+mv learn_process_command_line_arguments_options_without_getopts.sh learn_process_command_line_arguments_options_without_getopts.sh
+#1611619201
+mv learn_process_command_line_arguments_options_without_getopts.sh learn_simple_process_command_line_arguments_options_without_getopts.sh
+#1611619203
+vim learn_simple_process_command_line_arguments_options_without_getopts.sh
+#1611675106
+vq
+#1611678028
+vp
+#1611689018
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1611689020
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob |&less
+#1611689024
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1611689016
+pshd
+#1611689008
+v ool
+#1611691348
+vp
+#1611693443
+vjo
+#1611693895
+resume.pdf 
+#1611695182
+vq
+#1611697889
+vjo
+#1611707522
+j dep
+#1611708010
+cd .ssh
+#1611708012
+gd
+#1611708668
+vim known_hosts 
+#1611708674
+gs
+#1611708685
+gcam 'add bednark.org to known_hosts'
+#1611707719
+sl
+#1611708467
+man ping
+#1611708496
+ping -c 1 -q bednark.org
+#1611709104
+man time
+#1611709118
+time -p echo foo
+#1611709122
+time echo foo
+#1611709060
+sl
+#1611707768
+j tmp-
+#1611707770
+lh
+#1611707776
+vim bootstrap-new-server-45...92-2021.01.25.Mon.15.38.38.log
+#1611708894
+lh
+#1611708898
+vim postgres-load-data-bednark.org-2021.01.26.Tue.16.52.23.log
+#1611707969
+cdqn
+#1611707970
+cd db_dumps/
+#1611707971
+lh
+#1611707998
+scp dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all root@bednark.org:/root/postgres_dumps
+#1611708048
+j dep
+#1611708053
+vim deploy-postgres.sh 
+#1611696315
+j dep
+#1611696317
+sm .
+#1611696322
+git show
+#1611696336
+vim postgres-load-data.sh 
+#1611707609
+sm .
+#1611707688
+git rm scp-postgres-data.sh 
+#1611707690
+gs
+#1611708030
+./postgres-load-data.sh 
+#1611708317
+./postgres-load-data.sh --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all 
+#1611708336
+./run.sh ./postgres-load-data.sh --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all 
+#1611708351
+./run.sh bednark.org ./postgres-load-data.sh --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all 
+#1611708438
+./run.sh bednark.org "./postgres-load-data.sh --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all "
+#1611708550
+./run.sh bednark.org "./postgres-load-data.sh --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1611708727
+sl
+#1611708743
+./run.sh bednark.org "./postgres-load-data.sh --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1611708848
+c
+#1611708917
+./run.sh bednark.org "./postgres-load-data.sh --db_name=test_load_data --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1611709025
+./run.sh bednark.org "./postgres-load-data.sh --db_name db_test_load_data --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1611707533
+grep postgres_dir *
+#1611707707
+ls *post*
+#1611707735
+vim bootstrap-new-server.sh 
+#1611707876
+git grep -i todo
+#1611707891
+c
+#1611707895
+vim postgres-load-data.sh 
+#1611707935
+sl
+#1611708707
+vim bootstrap-new-server.sh 
