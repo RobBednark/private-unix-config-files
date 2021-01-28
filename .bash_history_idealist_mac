@@ -67253,3 +67253,355 @@ vim postgres-load-data.sh
 sl
 #1611708707
 vim bootstrap-new-server.sh 
+#1611710628
+j dep
+#1611710701
+vrc
+#1611710730
+sudo vim /etc/hosts
+#1611710852
+j dep
+#1611710854
+vi bootstrap-new-server.sh 
+#1611711518
+j dumps
+#1611711520
+lh
+#1611711537
+: scp dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all root@new-linode:/root/postgres_dumps
+#1611711553
+ssh root@new-linode mkdir /root/postgres_dumps
+#1611711555
+: scp dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all root@new-linode:/root/postgres_dumps
+#1611711557
+scp dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all root@new-linode:/root/postgres_dumps
+#1611711918
+./run.sh new-linode "./deploy-quizme-app.sh --db_name db_test_load_data " |& tee ~/tmp-no-repo/deploy-quizme-app-new-linode-$(datestamp).log |&less
+#1611711921
+j dep
+#1611711923
+./run.sh new-linode "./deploy-quizme-app.sh --db_name db_test_load_data " |& tee ~/tmp-no-repo/deploy-quizme-app-new-linode-$(datestamp).log |&less
+#1611712072
+ssh root@new-linode
+#1611711371
+ssh root@new-linode
+#1611711980
+sl
+#1611710750
+ping linode-try
+#1611710763
+ping new-linode
+#1611710782
+ssh root@new-linode
+#1611710793
+j dep
+#1611710817
+./run.sh new-linode bootstrap-new-server.sh |& tee ~/tmp-no-repo/bootstrap-new-linode-$(datestamp).log |& less
+#1611711336
+./run.sh new-linode deploy-postgres.sh|& tee ~/tmp-no-repo/deploy-postgres-new-linode-$(datestamp).log |& less
+#1611711576
+./run.sh new-linode "./postgres-load-data.sh --db_name db_test_load_data --dump_file /root/postgres_dumps/dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1611711636
+c
+#1611711638
+sm .
+#1611711677
+vim deploy-quizme-app.sh 
+#1611712416
+vq
+#1611712270
+j tmp-
+#1611712271
+lh
+#1611712282
+vim deploy-postgres-new-linode-2021.01.26.Tue.17.35.36.log
+#1611711273
+j dep
+#1611711274
+vim README.md 
+#1611726751
+sl
+#1611726667
+j tmp-
+#1611726668
+lh
+#1611726677
+vim deploy-postgres-new-linode-2021.01.26.Tue.17.35.36.log
+#1611726989
+sl
+#1611727100
+j volum
+#1611726586
+j ngin
+#1611726594
+vim *sh
+#1611726612
+cd ..
+#1611726613
+c
+#1611726614
+ls -l
+#1611726623
+cd learn-docker-volumes-and-bind-mounts/
+#1611726625
+vim *
+#1611726633
+gs .
+#1611726636
+sm .
+#1611726699
+vim run.sh 
+#1611727173
+docker-wait-until-engine-is-up ; bash run.sh 
+#1611727230
+chmod a+x run.sh 
+#1611727231
+vim run.sh 
+#1611775252
+vp
+#1611776733
+vjo
+#1611780820
+j dep
+#1611780822
+gs
+#1611780823
+gd
+#1611780827
+c
+#1611780851
+./run.sh bednark.org deploy-postgres.sh|& tee ~/tmp-no-repo/deploy-postgres-bednark.org-$(datestamp).log |& less
+#1611781118
+./run.sh bednark.org "./postgres-load-data.sh --db_name quizme --dump_file /root/postgres_dumps/latest.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1611780686
+j dep
+#1611780696
+sl
+#1611780949
+j dumps
+#1611781064
+ssh root@bednark.org mkdir -p /root/postgres_dumps; scp latest.custom.all root@bednark.org:/root/postgres_dumps;
+#1611781026
+j dumps
+#1611781027
+lh
+#1611781047
+ln -s dump.quizme_production.2020.12.28_Mon_22.03.51.custom.all latest.custom.all
+#1611780888
+j dep
+#1611780892
+vim deploy-postgres.sh 
+#1611784233
+vq
+#1611784195
+rg -i furnace $FilesDirsAllGrep 
+#1611795475
+vq
+#1611803225
+sl
+#1611803483
+j  de
+#1611803487
+vim *load*
+#1611803250
+j dep
+#1611803255
+vim deploy-postgres.sh 
+#1611803531
+./run.sh bednark.org "./postgres-load-data.sh --db_name quizme --dump_file /root/postgres_dumps/latest.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1611803236
+sl
+#1611803322
+j de
+#1611803341
+./run.sh bednark.org deploy-postgres.sh|& tee ~/tmp-no-repo/deploy-postgres-bednark.org-$(datestamp).log |& less
+#1611803580
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-new-linode-$(datestamp).log |&less
+#1611803754
+vim build-and-push-quizme.sh 
+#1611803626
+cdqn
+#1611803627
+gs
+#1611803631
+vim Pipfile
+#1611803659
+cd tmp-no-repo/
+#1611803662
+ls -ltr *quiz*
+#1611803668
+vim build-quizme-2021.01.16.Sat.17.08.32
+#1611805822
+vq
+#1611805258
+vq
+#1611805770
+cl
+#1611805772
+lh
+#1611805785
+ls -ltr|tail
+#1611805787
+ls -ltr|tail -30
+#1611805808
+vim learn_command_across_multiple_lines_without_backslashes.sh
+#1611805843
+c
+#1611805852
+ls -ltr|tail -40Less
+#1611805858
+ls -ltr|tail -40|v-
+#1611803829
+cd /tmp
+#1611803832
+mkdir subdir
+#1611803849
+git clone --depth=1 --single-branch --branch=rbednark-2020-07-15-add-django-debug-toolbar https://github.com/RobBednark/quiz-me.git /tmp/subdir
+#1611803852
+ls subdir/
+#1611803877
+du -hs subdir/
+#1611804075
+j dep
+#1611804091
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1611805618
+vim Dockerfile-quizme 
+#1611805704
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1611806253
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1611805728
+j dep
+#1611805730
+vim Dockerfile-quizme 
+#1611847937
+j ng
+#1611847940
+cd ..
+#1611847942
+ls -ltr
+#1611848003
+vim learn-dockerfiles
+#1611848009
+mkdir learn-dockerfiles
+#1611848010
+c
+#1611848012
+cd c
+#1611848017
+cd learn-dockerfiles/
+#1611848070
+vi Dockerfile-multiple-lines-one-RUN-command
+#1611848120
+docker build -f Dockerfile-multiple-lines-one-RUN-command 
+#1611848138
+docker build --help
+#1611848269
+docker build -f Dockerfile-multiple-lines-one-RUN-command  .
+#1611848283
+vim Dockerfile-multiple-lines-one-RUN-command 
+#1611848315
+docker build -f Dockerfile-multiple-lines-one-RUN-command  .
+#1611848322
+vim Dockerfile-multiple-lines-one-RUN-command 
+#1611848339
+docker build -f Dockerfile-multiple-lines-one-RUN-command  .
+#1611852653
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1611852655
+pydoc requests
+#1611852670
+pydoc requests.request
+#1611852787
+cl
+#1611852800
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --login --sms-looking-always=rob 
+#1611852650
+pshd
+#1611849907
+cl
+#1611849908
+sm .
+#1611849953
+v ool
+#1611851802
+vim
+#1611847932
+j dep
+#1611848783
+docker images ls
+#1611848786
+docker images ls -a
+#1611848956
+docker image
+#1611848960
+docker image ls
+#1611848968
+docker images -
+#1611849318
+j tmp-
+#1611849320
+lh
+#1611849325
+vim deploy-quizme-app-bednark.org-2021.01.27.Wed.19.57.33.log
+#1611849340
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1611849343
+j dep
+#1611849344
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1611853511
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1611853702
+v ool
+#1611847921
+vq
+#1611856581
+j tmp-
+#1611856583
+lh
+#1611856588
+vim deploy-quizme-app-bednark.org-2021.01.28.Thu.09.05.11.log
+#1611858234
+j dep
+#1611858235
+sm .
+#1611858316
+vim Dockerfile-quizme 
+#1611858204
+j tmp-
+#1611858206
+lh
+#1611858210
+vim build-quizme-2021.01.28.Thu.07.55.45
+#1611858576
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1611858816
+j dep
+#1611858817
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1611861908
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1611858841
+echo `# foo`
+#1611858846
+`# foo`
+#1611858851
+`set -x; # foo`
+#1611858855
+`set -v; # foo`
+#1611858867
+`echo # foo`
+#1611858876
+echo '# foo'
+#1611858330
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1611858330
+env -h
+#1611858332
+pipenv -h
+#1611858340
+pipenv lock -h
+#1611858328
+pshd
