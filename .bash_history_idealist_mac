@@ -68667,3 +68667,9 @@ c
 cdqn
 #1612284179
 vim quizme/settings.py 
+#1612284074
+vrc
+#1612284325
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1612284325
+python manage.py runserver --insecure 0.0.0.0:8000
