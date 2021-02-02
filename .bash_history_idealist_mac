@@ -68633,3 +68633,37 @@ jobs
 c
 #1612283968
 vi run-quizme.sh 
+#1612284308
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1612284313
+rqod
+#1612284484
+vq
+#1612283826
+ps guaxww|grep 31968
+#1612283861
+pstree|less
+#1612283900
+jobs
+#1612283931
+ps -ealf|grep 31968
+#1612283939
+ps -ealf|head -1
+#1612283957
+kill 31968
+#1612283960
+ps -ealf|grep 31968
+#1612283964
+kill -9 31968
+#1612283965
+ps -ealf|grep 31968
+#1612284001
+cdqn
+#1612284004
+vim 
+#1612284051
+c
+#1612284053
+cdqn
+#1612284179
+vim quizme/settings.py 

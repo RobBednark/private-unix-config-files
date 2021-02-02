@@ -549,6 +549,18 @@ alias rqo='cdquizme-prod ; (set -x; DB_QUIZME=quizme_production \
     QM_DEBUG_PRINT=False \
     QM_DEBUG_SQL=False \
     pipenv shell python manage.py runserver --insecure 0.0.0.0:8000)'  # unanswered last, oldest-answered first; not that recently-answered questions that should be seen quickly again will have to wait until after unanswered questions  ("rqo" = "run quiz, oldest-answered first, include unanswered")
+alias rqod='cdquizme-prod ; (set -x; DB_QUIZME=restore_quizme_custom \
+    QM_INCLUDE_UNANSWERED=True  \
+    QM_LIMIT_TO_DATE_SHOW_NEXT_BEFORE_NOW=True \
+    QM_NULLS_FIRST=True \
+    QM_SORT_BY_ANSWERED_COUNT=False \
+    QM_SORT_BY_WHEN_ANSWERED_NEWEST=False \
+    QM_SORT_BY_WHEN_ANSWERED_OLDEST=True \
+    QM_DEBUG_PRINT=False \
+    QM_DEBUG_SQL=False \
+    QM_DEBUG=True \
+    QM_USE_TOOLBAR=True \
+    pipenv shell python manage.py runserver --insecure 0.0.0.0:8000)'  # unanswered last, oldest-answered first; not that recently-answered questions that should be seen quickly again will have to wait until after unanswered questions  ("rqo" = "run quiz, oldest-answered first, include unanswered")
 alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
 alias run="python manage.py runserver"
 alias runprod="DB_QUIZME=quizme_production run"
