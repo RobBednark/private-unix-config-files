@@ -560,7 +560,7 @@ alias rqod='cdquizme-prod ; (set -x; DB_QUIZME=restore_quizme_custom \
     QM_DEBUG_SQL=False \
     QM_DEBUG=True \
     QM_USE_TOOLBAR=True \
-    pipenv shell python manage.py runserver --insecure 0.0.0.0:8000)'  # unanswered last, oldest-answered first; not that recently-answered questions that should be seen quickly again will have to wait until after unanswered questions  ("rqo" = "run quiz, oldest-answered first, include unanswered")
+    pipenv shell python manage.py runserver --insecure 0.0.0.0:8000)'  # 2.2.21 run with Django Debug Toolbar; unanswered last, oldest-answered first; not that recently-answered questions that should be seen quickly again will have to wait until after unanswered questions  ("rqod" = "run quiz, oldest-answered first, include unanswered, debug (toolbar)")
 alias rsync-node-mirror="rsync -av --delete --exclude=node_modules"
 alias run="python manage.py runserver"
 alias runprod="DB_QUIZME=quizme_production run"
