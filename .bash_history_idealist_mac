@@ -67621,3 +67621,1015 @@ j tmp-
 lh
 #1611861991
 vim 
+#1611862025
+vvimrc 
+#1611862173
+vim
+#1611865404
+vq
+#1611862597
+vp
+#1611874848
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1611875377
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --login --sms-looking-always=rob 
+#1611875389
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1611875406
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1611874847
+pshd
+#1611874828
+v ool
+#1611874537
+sl
+#1611875994
+j dep
+#1611875996
+vim README.md 
+#1611875554
+j tmp-
+#1611875556
+lh
+#1611875560
+vim deploy-nginx-bednark.org-2021.01.28.Thu.14.59.12.log
+#1611875763
+j dep
+#1611875816
+vim run.sh 
+#1611875887
+sl
+#1611874512
+j dep
+#1611874688
+./run.sh deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1611874694
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1611874791
+curl bednark.org
+#1611874799
+curl foo.bednark.org
+#1611875437
+sl
+#1611875795
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1611875975
+ls nginx-conf-files/
+#1611876030
+vim run.sh 
+#1611876285
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1611877067
+vim deploy-nginx.sh 
+#1611874266
+j dep
+#1611874295
+vim deploy-quizme-app.sh deploy-postgres.sh 
+#1611874431
+vi deploy-quizme-app.sh deploy-nginx.sh 
+#1611875500
+ls *ngin*
+#1611875520
+vim Dockerfile-nginx build-and-push-nginx.sh deploy-nginx.sh update-nginx-conf.sh 
+#1611875844
+vim run.sh 
+#1611875947
+vi nginx-conf-files/*
+#1611876226
+vim settings.sh 
+#1611877079
+curl -L google.com
+#1611875694
+j dep
+#1611875699
+cd nginx-conf-files/
+#1611875701
+vim *
+#1611875724
+cd ..
+#1611875733
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1611876073
+jobs
+#1611876190
+vim settings.sh 
+#1611876212
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1611877168
+j dep
+#1611877192
+rm -rf tmp-repo-quiz-me/
+#1611877197
+vim build-and-push-quizme.sh 
+#1611877356
+vim .gitignore 
+#1611877211
+cdqn
+#1611877214
+git show
+#1611877229
+git.show.just.filenames.for.commit 
+#1611877232
+type git.show.just.filenames.for.commit 
+#1611878520
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1611878520
+corn
+#1611878524
+gunicorn
+#1611879239
+vq
+#1611878397
+sl
+#1611878261
+sl
+#1611878177
+curl fc.bednark.org
+#1611878185
+j dep__
+#1611878187
+cd nginx-conf-files/
+#1611878190
+cat default.conf 
+#1611878203
+cat /etc/hosts
+#1611878210
+cd /etc
+#1611878210
+gs
+#1611878212
+gd
+#1611878221
+sudo vim /etc/hosts
+#1611878236
+curl fc.bednark.org
+#1611878243
+ping fc.bednark.org
+#1611878249
+sl
+#1611878426
+sl
+#1611878458
+vq
+#1611879021
+docker ps -a
+#1611879035
+docker image ls
+#1611879081
+docker run --env DB_QUIZME=quizme --env QM_DB_HOST=postgres --env QM_DB_PASSWORD=mypassword --name quizme --network my-network -d robbednark/quiz-me:latest sh
+#1611879113
+docker rm quizme
+#1611879119
+docker run --env DB_QUIZME=quizme --env QM_DB_HOST=postgres --env QM_DB_PASSWORD=mypassword --name quizme --network my-network -d robbednark/quiz-me:latest sleep 9999
+#1611879125
+docker exec -it quizme sh
+#1611878544
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1611878547
+gunicorn -h
+#1611878897
+docker ps
+#1611878925
+gunicorn -h|less
+#1611879329
+docker start --help|less
+#1611879520
+j tmp-
+#1611879523
+lh
+#1611879541
+ls -ltr|tail
+#1611879543
+ls -ltr|tail -20
+#1611879559
+vim deploy-quizme-app-bednark.org-2021.01.28.Thu.09.05.11.log
+#1611879566
+ls -ltr *deploy*quizme*
+#1611879571
+vim deploy-quizme-app-bednark.org-2021.01.28.Thu.11.25.08.log
+#1611878543
+cdq
+#1611878503
+j dep
+#1611878510
+vim Dockerfile-quizme 
+#1611878518
+pshd
+#1611879180
+j dep
+#1611879184
+vim Dockerfile-quizme 
+#1611879508
+vim deploy-quizme-app.sh 
+#1611878974
+j dep
+#1611879005
+docker-wait-until-engine-is-up ; docker ps
+#1611879052
+j tmp-
+#1611879053
+lh
+#1611879064
+vi deploy-quizme-app-bednark.org-2021.01.28.Thu.11.25.08.log
+#1611879883
+docker ps
+#1611879886
+docker stop quizme
+#1611890033
+cdqn
+#1611890035
+vim README.md 
+#1611890157
+cdqn
+#1611890160
+vi
+#1611890231
+vq
+#1611890402
+cl
+#1611890406
+git grep -i password.auth
+#1611890424
+vim learn.django.connect.to.postgres.txt 
+#1611890071
+sl
+#1611899000
+j de
+#1611899006
+git grep -i pass
+#1611899021
+vim $(git grep -il pass)
+#1611899206
+git grep -i password
+#1611899223
+c
+#1611899233
+vim deploy-quizme-app.sh 
+#1611899428
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1611899758
+c
+#1611899766
+./security-check.sh 
+#1611899771
+./security-check.sh bednark.org
+#1611899781
+c
+#1611899791
+./monitor-var-log-messages-ssh-logins.sh 
+#1611899809
+vim moni*
+#1611890141
+sl
+#1611899456
+cl
+#1611899458
+j de
+#1611899466
+vim deploy-quizme-app.sh run-quizme.sh 
+#1611937901
+sl
+#1611938732
+watch sl
+#1611938736
+type sl
+#1611938758
+watch 'ssh root@23.239.1.204; sleep 5'
+#1611938766
+sl
+#1611938800
+watch ssh root@23.239.1.204
+#1611938827
+sl
+#1611938975
+watch read x
+#1611938984
+watch bash
+#1611939007
+pstree
+#1611939029
+pstree|less
+#1611939085
+kill 77118
+#1611939088
+ps -eafl|grep ssh
+#1611939100
+pstree|less
+#1611939160
+ps -ealf|less
+#1611939194
+kill 77119
+#1611939197
+ps -ealf|less
+#1611939214
+kill 77120
+#1611953872
+vq
+#1611945182
+vjo
+#1611939237
+sl
+#1611934603
+vq
+#1611954341
+vp
+#1611955841
+vq
+#1611955487
+psql --help
+#1611955511
+cdqn
+#1611955512
+vim Makefile 
+#1611936663
+j dep
+#1611936669
+vim README.md LEFTOFF TODO.md 
+#1611954320
+vim TODO.md 
+#1611954807
+sl
+#1611955393
+psql
+#1611955399
+psql --help|less
+#1611942839
+j dep
+#1611942841
+ls *nginx*
+#1611942846
+vim get-and-load-nginx-logs.sh 
+#1611942881
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1611942909
+vim get-and-load-nginx-logs.sh 
+#1611942932
+HOST=bednark.org ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1611942893
+j tmp-
+#1611942893
+lh
+#1611942901
+tail -f linode-get-and-load-nginx-logs-2021.01.29.Fri.09.54.41.log
+#1611942935
+lh
+#1611942939
+tail -f linode-get-and-load-nginx-logs-2021.01.29.Fri.09.55.32.log
+#1611939419
+cl
+#1611939425
+sm .
+#1611942800
+sl
+#1611954539
+history > /tmp/history
+#1611954548
+grep monitor.quizme /tmp/history 
+#1611954568
+j dep
+#1611954582
+git mv monitor-quizme-db.sql monitor_quizme_app_db.sql
+#1611954641
+./run.sh run_monitor_quizme.sh |& less
+#1611954646
+./run.sh bednark.org run_monitor_quizme.sh |& less
+#1611954672
+chmod a+x run_monitor_quizme.sh 
+#1611954674
+./run.sh bednark.org run_monitor_quizme.sh |& less
+#1611954709
+sl
+#1611954770
+./run.sh bednark.org run_monitor_quizme.sh |& less
+#1611954954
+sl
+#1611957084
+./run.sh bednark.org run_monitor_quizme.sh |& less
+#1611954347
+j dep
+#1611954348
+ls *mon*
+#1611954376
+vim monitor-quizme-db.sql 
+#1611954391
+ls *moni*
+#1611954491
+git grep monitor.quizme 
+#1611954502
+vim run_monitor_quizme.sh
+#1611958914
+vjo
+#1611960696
+vq
+#1611961004
+cal
+#1611957927
+vp
+#1611960095
+vq
+#1611960705
+vdiary 
+#1611975159
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1611975164
+./manage.py collectstatic -h
+#1611975183
+vim 
+#1611975222
+gs
+#1611975226
+cat .gitignore 
+#1611975233
+ls static/
+#1611975238
+git ls-files
+#1611975241
+git ls-files|less
+#1611975256
+./manage.py collectstatic
+#1611975262
+./manage.py collectstatic -h
+#1611975273
+./manage.py collectstatic --no-input
+#1611988448
+pwd
+#1611988448
+jobs
+#1611975157
+cdq
+#1611968163
+vq
+#1611974789
+j ng
+#1611974793
+cd ..
+#1611974799
+ls -ld *static*
+#1611974804
+ls -ltr *
+#1611974827
+ls -ld *ngin*
+#1611974846
+cd *ssl
+#1611974849
+git grep -i static
+#1611974862
+vim conf.d/*
+#1611974875
+c
+#1611974879
+cd ..
+#1611974910
+j dep
+#1611974916
+vim nginx-conf-files/default.conf 
+#1611974881
+vq
+#1611975298
+sl
+#1611988925
+j dep
+#1611988945
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1611988956
+cdqn
+#1611988957
+vi
+#1611989019
+gs
+#1611989052
+gd
+#1611989061
+git add quizme/settings.py 
+#1611989061
+gs
+#1611989062
+sm .
+#1611989244
+j dep
+#1611989245
+sm .
+#1611989329
+git log -p Dockerfile-quizme
+#1611989346
+gd
+#1611989350
+gd Dockerfile-quizme 
+#1611975118
+j dep
+#1611975123
+vim Dockerfile-quizme 
+#1611989410
+c
+#1611989420
+vim deploy-nginx.sh deploy-quizme-app.sh 
+#1611989430
+docker run -h
+#1611989434
+docker run --help
+#1611989266
+j tmp-
+#1611989267
+lh
+#1611989274
+ls -ltr build-q*
+#1611989279
+vim build-quizme-2021.01.28.Thu.10.33.38
+#1612023639
+docker volume --help|less
+#1612023665
+docker volume create --help|less
+#1612023809
+j vol
+#1612023813
+vim Dockerfile-1
+#1612023966
+docker build --help|less
+#1612024044
+chmod a+x run-docker-volumes.sh 
+#1612024054
+./run-docker-volumes.sh |&less
+#1612024954
+docker volume -h
+#1612024967
+./run-docker-volumes.sh |&less
+#1612025110
+ls -al
+#1612025220
+./run-docker-volumes.sh |&less
+#1612027336
+docker
+#1612027349
+docker volume
+#1612023203
+j ng
+#1612023205
+cd ..
+#1612023209
+ls -ld *vol*
+#1612023216
+cd learn-docker-volumes-and-bind-mounts/
+#1612023216
+c
+#1612023219
+vim run.sh 
+#1612023244
+cp run.sh run-docker-volumes.sh
+#1612023247
+vim run-docker-volumes.sh
+#1612025805
+j dep
+#1612025826
+vim Dockerfile-quizme 
+#1612038984
+rg -i mediation $FilesDirsAllGrep 
+#1612038992
+rg -i meditation $FilesDirsAllGrep 
+#1612038997
+rg -i meditation $FilesDirsAllGrep |grep -i variation
+#1612039006
+rg -i meditation $FilesDirsAllGrep |grep -i music
+#1612039013
+rg -i meditation $FilesDirsAllGrep |grep -i music|less
+#1612020679
+vq
+#1612052992
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612053000
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1612053024
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1612052990
+pshd
+#1612052989
+v ool
+#1612064321
+j de
+#1612064322
+vim settings.sh 
+#1612064908
+j dep
+#1612064912
+vim Dockerfile-quizme 
+#1612065421
+pstree -a
+#1612065424
+pstree|less
+#1612065083
+sl
+#1612064834
+sl
+#1612063562
+sl
+#1612064546
+docker volume rm --help
+#1612064666
+j de
+#1612064670
+rm -fr tmp-repo-quiz-me/
+#1612064803
+sl
+#1612063383
+j dep
+#1612063396
+sm .
+#1612063464
+vim .gitignore 
+#1612063487
+gd run.sh 
+#1612063522
+git diff --cached
+#1612063525
+gs
+#1612063556
+gd
+#1612063670
+grc exec
+#1612063783
+gd
+#1612063787
+vim deploy-nginx.sh 
+#1612064612
+j dep
+#1612064624
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1612064726
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612064867
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1612065485
+pstree |less
+#1612065520
+cd tmp-
+#1612065522
+cd tmp-no-repo/
+#1612065524
+lh
+#1612065532
+vim -R build-quizme-2021.01.30.Sat.19.51.03
+#1612065567
+pstree|less
+#1612070645
+j dep
+#1612070648
+vim run_monitor_quizme.sh 
+#1612070970
+HOST=bednark.org ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1612070597
+j tmp-
+#1612070599
+lh
+#1612070606
+ls -ltr *nginx*
+#1612070620
+j de
+#1612070630
+./run.sh bednark.org run_monitor_quizme.sh |& less
+#1612070842
+vim get-and-load-nginx-logs.sh monitor-nginx-logs.s
+#1612070909
+ls *mon*
+#1612070925
+vim monitor-nginx-logs.sh
+#1612070938
+ls *nginx*
+#1612070949
+vim get-and
+#1612070955
+vim get-and-load-nginx-logs.sh 
+#1612070735
+sl
+#1612071533
+j ng
+#1612071538
+cd ..
+#1612071540
+ls -ltr
+#1612071554
+cd learn-nginx-ssl/
+#1612071561
+cd ..
+#1612071578
+grep -i static */*
+#1612071592
+mkdir learn-nginx-serve-static-files
+#1612071593
+cd learn-nginx-serve-static-files
+#1612071601
+vim Dockerfile
+#1612072036
+j dep
+#1612072047
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1612072067
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612072442
+HOST=bednark.org ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1612070493
+j de
+#1612070498
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1612070575
+vim deploy-nginx.sh 
+#1612071213
+sl
+#1612071296
+j dep
+#1612071305
+vim nginx-conf-files/default.conf 
+#1612071348
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612071436
+vim nginx-conf-files/default.conf 
+#1612072223
+sl
+#1612070549
+sl
+#1612071191
+j dep
+#1612071197
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612071250
+sl
+#1612072626
+vq
+#1612107278
+vim /tmp/foo.sh
+#1612107318
+man bash
+#1612109747
+sl
+#1612110949
+sl
+#1612111216
+j dep
+#1612111219
+vim nginx-conf-files/nginx.conf 
+#1612112415
+sl
+#1612112194
+curl 'http://fc.bednark.org/'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Upgrade-Insecure-Requests: 1'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36'   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: csrftoken=Klv4QieHOktkTO0hTSY2RmbMbP5Rs2ZteYhS5Aki8XhV6GHNaJx8kbCfy5AAdXG8; sessionid=7mhly4900fjx66he8yi1ar0rz98r54be'   --compressed   --insecure
+#1612112209
+curl -I 'http://fc.bednark.org/'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Upgrade-Insecure-Requests: 1'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36'   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: csrftoken=Klv4QieHOktkTO0hTSY2RmbMbP5Rs2ZteYhS5Aki8XhV6GHNaJx8kbCfy5AAdXG8; sessionid=7mhly4900fjx66he8yi1ar0rz98r54be'   --compressed   --insecure
+#1612112215
+curl 'http://fc.bednark.org/'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Upgrade-Insecure-Requests: 1'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36'   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: csrftoken=Klv4QieHOktkTO0hTSY2RmbMbP5Rs2ZteYhS5Aki8XhV6GHNaJx8kbCfy5AAdXG8; sessionid=7mhly4900fjx66he8yi1ar0rz98r54be'   --compressed   --insecure
+#1612112237
+curl 'http://fc.bednark.org/'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Upgrade-Insecure-Requests: 1'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36'   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: csrftoken=Klv4QieHOktkTO0hTSY2RmbMbP5Rs2ZteYhS5Aki8XhV6GHNaJx8kbCfy5AAdXG8; sessionid=7mhly4900fjx66he8yi1ar0rz98r54be'   --compressed   --insecure|wc 
+#1612112268
+man curl
+#1612112310
+curl 'http://fc.bednark.org/'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Upgrade-Insecure-Requests: 1'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36'   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: csrftoken=Klv4QieHOktkTO0hTSY2RmbMbP5Rs2ZteYhS5Aki8XhV6GHNaJx8kbCfy5AAdXG8; sessionid=7mhly4900fjx66he8yi1ar0rz98r54be'     --insecure|wc 
+#1612135175
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1612121073
+v
+#1612121079
+vq
+#1612136174
+j dep
+#1612136178
+sm .
+#1612136216
+HOST=bednark.org ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1612136273
+j dep
+#1612136283
+vim monitor-nginx-logs.sql 
+#1612136232
+cd tmp-no-repo/
+#1612159187
+j dep
+#1612159188
+sm .
+#1612159247
+vim bootstrap-new-server.sh 
+#1612159359
+c
+#1612159377
+vim LEFTOFF *md
+#1612159210
+vq
+#1612159946
+j de
+#1612159951
+c
+#1612159954
+j depl
+#1612160000
+vim post*
+#1612160046
+vim TODO.md 
+#1612160107
+sl
+#1612160247
+v oot
+#1612160281
+vim Doc*
+#1612193732
+j dep
+#1612193735
+vim *md
+#1612197000
+merge
+#1612197020
+man patch
+#1612194817
+sl
+#1612194394
+sl
+#1612193941
+man curl
+#1612194102
+c
+#1612194111
+vim /tmp/req.sh
+#1612193322
+vjo
+#1612197771
+j dep
+#1612197772
+vim TODO.md 
+#1612202401
+vjo
+#1612193325
+vq
+#1612198148
+sl
+#1612198055
+sl
+#1612198216
+curl 'http://fc.bednark.org/'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Upgrade-Insecure-Requests: 1'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36'   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: csrftoken=Klv4QieHOktkTO0hTSY2RmbMbP5Rs2ZteYhS5Aki8XhV6GHNaJx8kbCfy5AAdXG8; sessionid=7mhly4900fjx66he8yi1ar0rz98r54be'     --insecure|wc 
+#1612198403
+j dep
+#1612198408
+vim deploy-quizme-app.sh 
+#1612198510
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1612198677
+curl 'http://fc.bednark.org/'   -H 'Connection: keep-alive'   -H 'Pragma: no-cache'   -H 'Cache-Control: no-cache'   -H 'Upgrade-Insecure-Requests: 1'   -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36'   -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   -H 'Accept-Language: en-US,en;q=0.9'   -H 'Cookie: csrftoken=Klv4QieHOktkTO0hTSY2RmbMbP5Rs2ZteYhS5Aki8XhV6GHNaJx8kbCfy5AAdXG8; sessionid=7mhly4900fjx66he8yi1ar0rz98r54be'     --insecure|wc 
+#1612198805
+jobs
+#1612211532
+vjo
+#1612211532
+vjo
+#1612215564
+rg -i beeson $FilesDirsAllGrep 
+#1612215574
+rg -il beeson $FilesDirsAllGrep 
+#1612215576
+rg -il beeson $FilesDirsAllGrep 
+#1612215586
+vim $(rg -il beeson $FilesDirsAllGrep )
+#1612216679
+j dep
+#1612216681
+gs
+#1612216683
+gd
+#1612216687
+vim run-quizme.sh 
+#1612216714
+sl
+#1612212505
+vdiary 
+#1612218036
+man ps
+#1612218041
+man kill
+#1612219728
+sl
+#1612220329
+sl
+#1612217848
+j dep
+#1612217851
+v
+#1612218134
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1612218174
+jobs
+#1612218177
+v run
+#1612218253
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1612218371
+v run
+#1612218434
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1612218786
+vi run
+#1612218790
+v run
+#1612218826
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1612219688
+v run
+#1612219697
+./run.sh bednark.org "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-bednark.org-$(datestamp).log |&less
+#1612220152
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612220169
+vim run.sh
+#1612220185
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612220365
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1612220433
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612221069
+v nginx.con
+#1612221132
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1612221154
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612218197
+cd tmp-
+#1612218198
+lh
+#1612218200
+cd tmp-no-repo/
+#1612218201
+lh
+#1612218206
+vim deploy-quizme-app-bednark.org-2021.02.01.Mon.14.22.14.log
+#1612219873
+v nginx.con
+#1612221402
+:q
+#1612236633
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612236690
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1612236696
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1612236631
+pshd
+#1612236629
+v ool
+#1612235214
+vjo
+#1612237965
+vq
+#1612235454
+vdiary 
+#1612246998
+cdqn
+#1612247002
+git grep -i cache
+#1612246926
+vq
+#1612246753
+sl
+#1612235414
+vq
+#1612246496
+j dep
+#1612246502
+gs
+#1612246521
+vim nginx-conf-files/default.conf 
+#1612246733
+vim update-nginx-conf.sh 
+#1612246750
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1612246774
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612247909
+jobs
+#1612247921
+v ng
+#1612282964
+sl
+#1612283670
+j dep
+#1612283678
+gd
+#1612283679
+gs
+#1612283683
+sm .
+#1612283744
+vim run-quizme.sh 
+#1612281400
+cdqn
+#1612281406
+vim TODO.md 
+#1612281235
+j dep
+#1612281241
+vim TODO.md 
+#1612279725
+vq
+#1612283911
+jobs
+#1612283775
+j dep
+#1612283778
+vi run-quizme.sh 
+#1612283905
+jobs
+#1612283905
+c
+#1612283968
+vi run-quizme.sh 
