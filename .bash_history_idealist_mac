@@ -68673,3 +68673,171 @@ vrc
  . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
 #1612284325
 python manage.py runserver --insecure 0.0.0.0:8000
+#1612284238
+psql
+#1612284306
+cdq
+#1612284323
+rqod
+#1612285304
+vrc
+#1612285445
+vq
+#1612294897
+vfamily 
+#1612295370
+vp
+#1612296379
+vjo
+#1612297977
+vdiary 
+#1612302465
+j dep
+#1612302469
+vim *sql
+#1612304857
+vdiary 
+#1612302276
+j dep
+#1612302282
+HOST=bednark.org ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1612303412
+cdqn
+#1612303414
+vim TODO.md 
+#1612301900
+j dep
+#1612301905
+sm .
+#1612301928
+docker-wait-until-engine-is-up; time (./build-and-push-nginx.sh  |& tee ~/tmp-no-repo/build-nginx-$(date +%s).log) |&less
+#1612302386
+./run.sh bednark.org deploy-nginx.sh |& tee ~/tmp-no-repo/deploy-nginx-bednark.org-$(datestamp).log |& less
+#1612303331
+sl
+#1612306066
+psql
+#1612305902
+j tmp-__
+#1612305904
+lh
+#1612305909
+vim monitor-nginx-queries-2021.02.02.Tue.13.56.57.log
+#1612306224
+j dep
+#1612306227
+HOST=bednark.org ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1612303347
+sl
+#1612306717
+cl
+#1612306734
+vim learn_tips_time_functions_lines_control_memory_cpu_profiling_timeit_cprofile_line_profiler_memory_profiler.sh
+#1612306651
+cl
+#1612306654
+ls *profile*py
+#1612306658
+ls *profile*
+#1612306665
+vim *profile*
+#1612306451
+cdqn
+#1612306452
+vim Makefile 
+#1612306535
+sl
+#1612307097
+cdqn
+#1612307098
+vim Makefile 
+#1612302479
+j dep
+#1612302484
+vim *sql
+#1612306351
+l
+#1612306353
+ls -ltr
+#1612306365
+ls *back*
+#1612306377
+c
+#1612306379
+l
+#1612306381
+ls -l
+#1612306411
+vim postgres-backup.sh
+#1612308177
+ls -ld */*django*
+#1612308189
+ls -ld *repo*
+#1612308191
+cd repos
+#1612308211
+cd /tmp
+#1612308213
+git clone git@github.com:jazzband/django-debug-toolbar.git
+#1612308217
+cd django-debug-toolbar/
+#1612308220
+git grep -i profile
+#1612308227
+gi grep -i profil
+#1612308231
+git grep -i profil
+#1612332469
+cl
+#1612332495
+learn_tips_time_functions_lines_control_memory_cpu_profiling_timeit_cprofile_line_profiler_memory_profiler.sh
+#1612332497
+./learn_tips_time_functions_lines_control_memory_cpu_profiling_timeit_cprofile_line_profiler_memory_profiler.sh
+#1612308366
+cl
+#1612308370
+lh
+#1612308376
+vim learn_tips_time_functions_lines_control_memory_cpu_profiling_timeit_cprofile_line_profiler_memory_profiler.sh
+#1612332452
+pstree
+#1612332461
+kill 59448
+#1612332980
+j dep
+#1612332982
+lh
+#1612332986
+vim postgres-backup.sh 
+#1612332988
+cdqn
+#1612332990
+vim Makefile 
+#1612332060
+cl
+#1612332065
+lh
+#1612332068
+jobs
+#1612365738
+vp
+#1612365750
+vq
+#1612368410
+df -h .
+#1612368426
+grc disk
+#1612368447
+vq
+#1612369491
+type rqo
+#1612369564
+psql 
+#1612366793
+cdqn
+#1612366805
+vim TODO.md 
+#1612367127
+j dep
+#1612367129
+vim TODO.md 
