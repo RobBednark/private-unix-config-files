@@ -1697,6 +1697,7 @@ fi
 # netstat -lntp  ==> listening processes / ports (similar to "nc -zv <host> <port>" and "telnet <host> <port")  (like lsof)
 # netstat -lnt  ==> MacOS listening processes / ports (MacOS doesn't have the "-p" option -- show PID/program name for sockets)  (like lsof)
 # nc -zv <host> <port>  ==> see if a port on host can be opened with a socket  (like "telnet <host> <port>") ("netcat -nltp")
+# ncdu ==> utility showing disk usage by directory "brew install ncdu"
 # nslookup <hostname>  => show IP address for <hostname>
 # nslookup <ip> ==> show where a host might be located based on the name
 # pet  ==> command-line snippets/shortcuts/bookmarks  
