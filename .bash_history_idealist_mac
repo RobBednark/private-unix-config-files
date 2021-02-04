@@ -68841,3 +68841,85 @@ vim TODO.md
 j dep
 #1612367129
 vim TODO.md 
+#1612370568
+vrc
+#1612369488
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1612369537
+./manage.py runserver 0.0.0.0:8000
+#1612369595
+DB_QUIZME=restore_quizme_custom ./manage.py runserver 0.0.0.0:8000
+#1612369666
+DB_QUIZME=restore_quizme_custom python3 -m cProfile -s cumulative manage.py runserver 0.0.0.0:8000
+#1612369737
+DB_QUIZME=restore_quizme_custom python3 -m cProfile -s cumulative manage.py runserver 0.0.0.0:8000 > /tmp/out
+#1612369750
+vim /tmp/out
+#1612369774
+DB_QUIZME=restore_quizme_custom python3 -m cProfile -s tottime manage.py runserver 0.0.0.0:8000 > /tmp/out
+#1612369790
+vim /tmp/out
+#1612370020
+vim questions/views.py 
+#1612370102
+DB_QUIZME=restore_quizme_custom python3 -m cProfile -s tottime manage.py runserver 0.0.0.0:8000 > /tmp/out
+#1612370117
+vim /tmp/out
+#1612370905
+df -h .
+#1612369485
+cdq
+#1612368810
+cl
+#1612368820
+vim script_to_profile.py
+#1612369838
+c
+#1612369840
+cdqn
+#1612369843
+git grep sleep
+#1612369910
+vi
+#1612371066
+q
+#1612368785
+cl
+#1612368787
+lh
+#1612368792
+vim learn_tips_time_functions_lines_control_memory_cpu_profiling_timeit_cprofile_line_profiler_memory_profiler.sh
+#1612368919
+python3 -m cProfile -s cumulative script_to_profile.py
+#1612368926
+pydoc3 cProfile
+#1612369003
+python3 -m cProfile -s cumulative script_to_profile.py
+#1612371071
+jobs
+#1612365742
+vq
+#1612371109
+df -h .
+#1612371363
+df -h .; time docker-rm-everything; df -h .
+#1612371130
+ncdu
+#1612374692
+vq
+#1612383230
+vp
+#1612381715
+vjo
+#1612397837
+vq
+#1612422235
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612422287
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1612422297
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1612422233
+pshd
+#1612422231
+v ool
