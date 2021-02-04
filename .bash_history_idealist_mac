@@ -68923,3 +68923,19 @@ scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.
 pshd
 #1612422231
 v ool
+#1612457494
+man curl
+#1612456292
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612456300
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --login --sms-looking-always=rob 
+#1612456290
+pshd
+#1612457137
+vim /tmp/curl
+#1612458144
+vq
+#1612452658
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1612452658
+python manage.py runserver --insecure 0.0.0.0:8000
