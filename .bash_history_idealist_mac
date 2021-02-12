@@ -68939,3 +68939,927 @@ vq
  . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
 #1612452658
 python manage.py runserver --insecure 0.0.0.0:8000
+#1612452641
+vrc
+#1612452677
+cl
+#1612452681
+lh
+#1612452686
+vim learn_tips_time_functions_lines_control_memory_cpu_profiling_timeit_cprofile_line_profiler_memory_profiler.sh
+#1612455703
+cl
+#1612455828
+sm .
+#1612455879
+v ool
+#1612452657
+rqod
+#1612452595
+vq
+#1612464753
+vjo
+#1612464442
+git log --help
+#1612464507
+man diff
+#1612463654
+cdadd 
+#1612463658
+gs
+#1612463659
+sm .
+#1612464132
+git log -p|vi -
+#1612464144
+c
+#1612464149
+git log -p|less
+#1612464150
+type l
+#1612470733
+vp
+#1612470542
+vjo
+#1612475997
+vq
+#1612481296
+rg -i beeson $FilesDirsAllGrep 
+#1612481417
+vjo
+#1612490366
+vdiary 
+#1612490794
+vq
+#1612490548
+sl
+#1612490718
+man pg_dump
+#1612490787
+j dep
+#1612490791
+vim build-and-push-postgres.sh 
+#1612490508
+j dep
+#1612490511
+sm .
+#1612490524
+vim TODO.md 
+#1612490447
+vq
+#1612539962
+vim /tmp/curl 
+#1612540882
+man curl
+#1612543525
+git lsffile
+#1612543861
+grep adsf asdf
+#1612542990
+vq
+#1612539391
+cl
+#1612539394
+sm .
+#1612539426
+v ool
+#1612539544
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612539550
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --login --sms-looking-always=rob 
+#1612539541
+pshd
+#1612554329
+vq
+#1612553072
+vjo
+#1612560811
+resume.pdf 
+#1612565780
+vsql
+#1612565792
+cl
+#1612565802
+git grep -i 'connection.string'
+#1612562389
+vjo
+#1612564876
+c
+#1612564879
+j dep
+#1612564880
+l
+#1612564890
+sm .
+#1612564952
+HOST=bednark.org ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1612566577
+vq
+#1612565412
+j dep
+#1612565414
+gs
+#1612565422
+vim postgres-backup.sh 
+#1612565910
+cl
+#1612565913
+lh
+#1612565918
+j dep
+#1612565923
+lh
+#1612565926
+vim postgres-backup
+#1612564962
+sl
+#1612565764
+vq
+#1612627476
+python3
+#1612626629
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612628191
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1612628496
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1612626627
+pshd
+#1612626625
+cl
+#1612626630
+v ool
+#1612629044
+type docker-run-alpine 
+#1612629866
+sl
+#1612628808
+sl
+#1612630406
+j dumps
+#1612630410
+lh
+#1612630421
+vim dump.quizme_production.2020.12.28_Mon_22.03.51.plain.schema-only
+#1612630749
+cd ..
+#1612630750
+vim Makefile 
+#1612629007
+sl
+#1612644346
+vq
+#1612653363
+d
+#1612660936
+sl
+#1612653337
+sl
+#1612653222
+j dep
+#1612653224
+sm .
+#1612653371
+vim build-and-push-postgres.sh 
+#1612661291
+docker image ls | grep 
+#1612661311
+(set -x; docker image ls | grep post || true; echo $?)
+#1612661316
+(set -x; docker image ls | grep asdf || true; echo $?)
+#1612661402
+docker ps
+#1612661426
+docker run postgres:12.5-alpine postgres --version
+#1612661452
+docker run robbednark/my-postgres --rm postgres --version
+#1612661465
+docker run --rm robbednark/my-postgres postgres --version
+#1612654007
+j tmp-
+#1612654008
+lh
+#1612654010
+ls -ltr bui*
+#1612656343
+sl
+#1612653447
+j dep
+#1612653949
+lh
+#1612653954
+ls bui*
+#1612653967
+history > /tmp/history
+#1612653974
+grep build-and-push-post /tmp/history
+#1612654023
+./build-and-push-postgres.sh |& tee ~/tmp-no-repo/build-postgres-$(datestamp)|&less
+#1612656323
+./run.sh bednark.org deploy-postgres.sh|& tee ~/tmp-no-repo/deploy-postgres-bednark.org-$(datestamp).log |& less
+#1612661845
+c
+#1612661846
+ls -ltr
+#1612661847
+ls -l
+#1612661871
+vim postgres-load-data.sh 
+#1612662050
+./run.sh bednark.org "./postgres-load-data.sh --db_name quizme --dump_file /root/postgres_dumps/latest.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1612662098
+psql --help
+#1612662127
+psql
+#1612662191
+./run.sh bednark.org "./postgres-load-data.sh --db_name quizme --dump_file /root/postgres_dumps/latest.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1612661550
+j dep
+#1612661553
+vim deploy-postgres.sh 
+#1612661570
+git grep exec
+#1612661580
+sl
+#1612662369
+j dep
+#1612662372
+vim README.md 
+#1612662473
+docker exec --help
+#1612662499
+cdqn
+#1612662502
+vim Makefile 
+#1612661873
+j dep
+#1612661876
+vim README.md 
+#1612661924
+grep 'postgres:' *
+#1612662008
+vim postgres-load-
+#1612662023
+vim README.md 
+#1612662251
+sm .
+#1612662286
+sl
+#1612678881
+vq
+#1612715198
+man bash
+#1612715220
+FOO=bar echo something
+#1612713472
+j dep
+#1612713472
+sm 
+#1612713776
+sl
+#1612713505
+sl
+#1612722092
+wl
+#1612722093
+sl
+#1612722086
+cdqn
+#1612722076
+j dep
+#1612722079
+gs
+#1612722080
+gd
+#1612722282
+man bash
+#1612731839
+vdiary 
+#1612750357
+sl
+#1612750201
+cdqn
+#1612750203
+vim Makefile 
+#1612751116
+vq
+#1612750906
+cl
+#1612750910
+ls *ake*
+#1612750936
+ls -l learn.set.variable.default.value.makefile
+#1612750938
+vim learn.set.variable.default.value.makefile
+#1612750960
+make -f learn.set.variable.default.value.makefile
+#1612750981
+var=override make -f learn.set.variable.default.value.makefile
+#1612751438
+make var=override -f learn.set.variable.default.value.makefile
+#1612751474
+vim learn_makefile_env_variable_overrides.sh
+#1612794641
+jobs
+#1612751672
+cdqn
+#1612751674
+vim Makefile 
+#1612798279
+vjo
+#1612798164
+vq
+#1612803057
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612803103
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1612803109
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1612803055
+pshd
+#1612803053
+v ool
+#1612810766
+cl
+#1612810769
+ls *ake*
+#1612810820
+git mv gmake Makefiles_gmake
+#1612810830
+git grep learn.make
+#1612810836
+cat learn.make/makefile 
+#1612810881
+git mv learn.make/makefile Makefiles_gmake/
+#1612810884
+ls -ld *ake*
+#1612810910
+git mv makefile.learn.set.date 
+#1612810917
+git mv makefile.learn.set.date Makefiles_gmake
+#1612810923
+ls -ld *ake*
+#1612810933
+rmdir learn.make
+#1612810937
+ls -ld *ake*
+#1612810964
+vim Makefile.perl.pi.one-liner.double.dollar.signs learn.sed.gmake.deps.sh  
+#1612810979
+sm .
+#1612811009
+vim Makefile.perl.pi.one-liner.double.dollar.signs learn.sed.gmake.deps.sh  
+#1612811013
+ls -ld *ake*
+#1612811024
+git mv learn.set.variable.default.value.makefile Makefiles_gmake
+#1612811027
+ls -ld *ake*
+#1612811051
+git mv learn_makefile_env_variable_overrides.sh Makefiles_gmake
+#1612811057
+mv learn_makefile_env_variable_overrides.sh Makefiles_gmake
+#1612811081
+cd Makefiles_gmake
+#1612811083
+gs 
+#1612811085
+gs .
+#1612811089
+git add learn_makefile_env_variable_overrides.sh 
+#1612811104
+gcam 'NEW learn_makefile_env_variable_overrides.sh'
+#1612811186
+c
+#1612811194
+vim learn_makefile_env_variable_overrides.sh
+#1612811922
+sm .
+#1612812025
+:w
+#1612810723
+cl
+#1612810724
+lh
+#1612810729
+v tips
+#1612810733
+lh
+#1612810736
+v mak
+#1612810716
+j dep
+#1612810717
+lh
+#1612810718
+sm .
+#1612812030
+lh
+#1612812152
+sm .
+#1612805413
+vjo
+#1612807404
+vdiary 
+#1612813223
+vq
+#1612816340
+vp
+#1612815113
+vdiary 
+#1612815845
+vjo
+#1612819840
+j ake
+#1612819850
+vim learn.set.variable.default.value.makefile
+#1612819862
+ls -ltr
+#1612819880
+cd ..
+#1612819881
+lh
+#1612819886
+vq
+#1612824111
+vjavascript 
+#1612824116
+vj
+#1612824127
+grc javasc
+#1612824135
+vjs
+#1612823949
+cdqn
+#1612823949
+gs
+#1612823951
+gd Makefile 
+#1612823953
+vim Makefile 
+#1612819450
+v ake
+#1612824401
+cdlearn
+#1612824406
+cdjavascript 
+#1612824409
+ls *promi*
+#1612824417
+vim *promise*
+#1612832289
+vq
+#1612846859
+vdiary 
+#1612884449
+vq
+#1612884684
+c
+#1612884702
+vq
+#1612887462
+vim /tmp/paste.txt
+#1612884453
+cl
+#1612884457
+v ake
+#1612893616
+sm .
+#1612893947
+vp
+#1612897838
+cl
+#1612897842
+ls *test*py
+#1612898033
+vim learn-unittest-assertItemsEqual.py learn.simple.unittest.check.for.failure.py learn_pyt* learn_unittest*
+#1612898220
+vim learn-unittest-assertItemsEqual.py learn.simple.unittest.check.for.failure.py learn_pytest* learn_unittest*
+#1612898051
+cl
+#1612898053
+ls *doctest*py
+#1612898056
+vim *doctest*py
+#1612898296
+vim *doctest*py learn_unittest.py
+#1612902968
+vp
+#1612906633
+cl
+#1612906638
+ls *stringio*py
+#1612906650
+vim learn_StringIO_csv.py
+#1612907003
+git grep assert_raises
+#1612907156
+vim *unittest*py
+#1612907521
+vim $(git grep -l assertRaise)
+#1612907532
+git grep assert_raises
+#1612907535
+git grep -l assert_raises
+#1612907539
+vim $(git grep -l assert_raises)
+#1612912209
+cl
+#1612912209
+sm .
+#1612908111
+cl
+#1612908118
+python3 gopuff_code_challenge_csv.py 
+#1612913280
+python3
+#1612908820
+cl
+#1612908822
+ls *excep*py
+#1612908848
+ls -1 *exception*py|less
+#1612908863
+vim learn_exception_capture_name_of_exception.py
+#1612906014
+cl
+#1612906025
+ls *csv*py
+#1612906027
+vim *csv*py
+#1612906309
+cl
+#1612906314
+ls -1 *csv*py|less
+#1612907274
+cl
+#1612907286
+vim gopuff_code_challenge_csv.py
+#1612904982
+cl
+#1612905062
+vq
+#1612926926
+j ake
+#1612926947
+vim learn_makefile_error_if_variable_not_set.sh
+#1612927230
+man test
+#1612927522
+v ake
+#1612928160
+cl
+#1612928164
+grep ':?' *sh
+#1612928200
+vim learn_abort_if_variable_not_set_colon_question_mark.sh
+#1612926164
+cdqn
+#1612926168
+gd Makefile 
+#1612926174
+vim Makefile 
+#1612928611
+cdqn
+#1612928613
+make dumpdb
+#1612928623
+vim Makefile 
+#1612926156
+j dep
+#1612926158
+sm .
+#1612928562
+v ake
+#1612972483
+cl
+#1612972487
+lh
+#1612972489
+vim gopuff_code_challenge_csv.py 
+#1612970893
+vq
+#1612971306
+cdqn
+#1612971331
+make dumpdb
+#1612971059
+cdqn
+#1612971061
+vim Makefile 
+#1612976755
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612976805
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1612976810
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1612976752
+pshd
+#1612976724
+v ool
+#1612987610
+cl
+#1612987612
+ls *plum*
+#1612987615
+vim *plum*
+#1612987619
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1612987626
+pipenv install plumbum
+#1612987794
+cl
+#1612987797
+vim *plumbum*
+#1612987618
+pshd
+#1612984300
+vq
+#1612999074
+vjo
+#1612999496
+cl
+#1612999557
+vim bitgo_interview_coding_challenge_graph.py
+#1612999707
+cl
+#1612999712
+ls *unitte*
+#1612999724
+vim 
+#1612999213
+cdjs
+#1612999217
+cdjavascript 
+#1612999219
+ls *test*
+#1612990951
+vjavascript 
+#1612990955
+vja
+#1612990961
+vjs
+#1612994053
+cdjavascript 
+#1612994061
+vim *promise* *async*
+#1613003507
+cl
+#1613003509
+lh
+#1612998862
+cl
+#1612998871
+vim bitgo_interview_code_challenge.js
+#1612999493
+vim bitgo_interview_code_challenge_graph.js
+#1613000390
+lh
+#1613000395
+vim bitgo_interview_coding_challenge_graph.py
+#1613003540
+cl
+#1613003541
+lh
+#1613003546
+im bitgo_interview_code_challenge_graph.js
+#1613003548
+vim bitgo_interview_code_challenge_graph.js
+#1613003613
+vjs
+#1613006993
+vq
+#1613007342
+j dump
+#1613007343
+lh
+#1613007512
+c
+#1613007514
+ls -ltr
+#1613007540
+ls *2021.02.10
+#1613007541
+ls *2021.02.10*
+#1613007548
+rm -f *2021.02.10*
+#1613007551
+ls -ltr
+#1613007578
+ls -l *Tue_19.43.33*
+#1613007581
+rm -f *Tue_19.43.33*
+#1613007582
+ls -ltr
+#1613007592
+ls -l *Tue_19.44.08*
+#1613007594
+rm -f *Tue_19.44.08*
+#1613007596
+ls -ltr
+#1613006944
+cdqn
+#1613006951
+make dumpdb
+#1613006959
+DB_PASSWORD=foo make dumpdb
+#1613006969
+DB_PASSWORD="" make dumpdb
+#1613007067
+DB_PASSWORD=password make dumpdb
+#1613007073
+DB_PASSWORD=password DB_SERVER=localhost make dumpdb
+#1613007108
+make DB_PASSWORD=password DB_SERVER=localhost dumpdb
+#1613007115
+make DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613007149
+make DB_NAME_TO_DUMP=foo DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613007223
+psql -c '\l'
+#1613007237
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613006839
+cdqn
+#1613006843
+gd Makefile 
+#1613006848
+vim Makefile 
+#1613007038
+git ls-files '*pass*'
+#1613007041
+type psql
+#1613007045
+env|sort|less
+#1613010614
+j dep
+#1613010620
+sm .
+#1613010640
+vim postgres-backup*
+#1613010652
+ls -l
+#1613010654
+c
+#1613010655
+ls -1
+#1613010673
+HOST=bednark.org ./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1613011113
+j dep
+#1613011118
+vim monitor*sql
+#1613010676
+j dep
+#1613010680
+ls -1
+#1613010836
+vi run-quizme.sh 
+#1613010856
+git grep exec
+#1613010914
+cdqn
+#1613010693
+j dep
+#1613010697
+vim postgres-b*
+#1613012048
+vjo
+#1613060439
+vim /tmp/path.py
+#1613060867
+cl
+#1613060868
+lh
+#1613060873
+vim bitgo_interview_coding_challenge_graph.py
+#1613057498
+vq
+#1613065152
+vp
+#1613064963
+vjo
+#1613088764
+vp
+#1613098616
+cd /tmp
+#1613098618
+mkdir mydir
+#1613098621
+mkdir -p mydir
+#1613098624
+ln -s symlink
+#1613098634
+ln -s mydir symlink
+#1613098635
+rm symlink
+#1613098637
+ln -s mydir symlink
+#1613098641
+mkdir -p symlink
+#1613098644
+echo $?
+#1613098646
+ls -ltr
+#1613098276
+cdqn
+#1613098279
+gd Makefile 
+#1613098354
+vim Makefile 
+#1613098564
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1613098585
+c
+#1613098587
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613098607
+ls -l db_dumps
+#1613098665
+mkdir -p db_dumps
+#1613098669
+ls -ld db_dumps
+#1613098673
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613098706
+c
+#1613098864
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613098919
+sm .
+#1613098289
+cdqn
+#1613098320
+mv db_dumps OFFICIAL.db_dumps
+#1613098328
+ln -s /tmp db_dumps
+#1613098332
+make dumpdb
+#1613098341
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613098370
+ls -ltr db_dumps
+#1613098373
+ls -ltr /tmp
+#1613098376
+ls -ltr /tmp/.
+#1613098387
+vim git.commit.all.modified.and.new.2021.02.11.Thu.12.20.02.log
+#1613098392
+vim /tmp/git.commit.all.modified.and.new.2021.02.11.Thu.12.20.02.log
+#1613098435
+ln -sf /tmp/dumps db_dumps
+#1613098439
+ls -l db_dumps
+#1613098441
+rm db_dumps
+#1613098443
+ln -sf /tmp/dumps db_dumps
+#1613098453
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613098562
+cdq
+#1613098415
+cd /tmp
+#1613098416
+ls -altr
+#1613098423
+mkdir dumps
+#1613098456
+ls -altr
+#1613098460
+cd dump
+#1613098462
+ls -ltr
+#1613098464
+cd dumps
+#1613098465
+ls -altr
+#1613098871
+c
+#1613098872
+ls -ltr
+#1613098910
+uncompress dump.restore_quizme_custom.2021.02.11_Thu_19.01.04.plain.all.Z
+#1613098760
+vq
+#1613099148
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1613099156
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=password DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613099175
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=nonsense DB_SERVER=localhost DB_USER=quizme dumpdb
+#1613099195
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=nonsense DB_SERVER=localhost DB_USER=baduser dumpdb
+#1613099202
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=nonsense DB_SERVER=localhost DB_USER=postgres dumpdb
+#1613099215
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=nonsense DB_SERVER=badserver DB_USER=postgres dumpdb
+#1613099226
+make DB_NAME_TO_DUMP=restore_quizme_custom DB_PASSWORD=badpass DB_SERVER=localhost DB_USER=postgres dumpdb
+#1613099249
+j dep
+#1613099257
+vim LEFTOFF 
+#1613099147
+cdq
