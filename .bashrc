@@ -91,6 +91,7 @@ if echo $OSTYPE | grep -i linux > /dev/null; then
     export PATH="$PATH:/sbin"
     export PATH="$PATH:/usr/sbin"
 fi
+export PATH="$PATH:."
 
 ################################################################################
 ### Non-exports:
