@@ -69863,3 +69863,25 @@ j dep
 vim LEFTOFF 
 #1613099147
 cdq
+#1613148347
+cd /tp
+#1613148349
+cd /tmp
+#1613148350
+ls -ltr
+#1613148360
+vrc
+#1613156272
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1613156326
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1613156329
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1613156270
+pshd
+#1613156230
+v ool
+#1613148338
+vjo
+#1613167097
+vq
