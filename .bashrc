@@ -1660,7 +1660,7 @@ fi
 ################################################################################
 ### List of useful shell commands, syntax, ... (listed here for "grrc" grep-able reference)
 ################################################################################
-# psuedo-file / process substitution: <( )  e.g.,  vim <(diff file1 file2)
+# psuedo/pseudo-file / process substitution: <( )  e.g.,  vim <(diff file1 file2)  (file descriptor / temp file)
 ################################################################################
 ### List of useful commands that don't warrant an alias (listed here for "grrc" grep-able reference)
 ################################################################################
