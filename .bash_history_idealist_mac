@@ -69885,3 +69885,33 @@ v ool
 vjo
 #1613167097
 vq
+#1613250518
+/
+#1613250521
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1613250554
+vrc
+#1613266385
+j dep
+#1613266387
+sm .
+#1613266434
+vim settings.sh 
+#1613266698
+j dep
+#1613266706
+git grep dir_dump_remote
+#1613266728
+git grep -i postgres.dir.host
+#1613266762
+git gep postgres_file_dump
+#1613266765
+git grep postgres_file_dump
+#1613267140
+ls -ltr
+#1613267174
+echo 'I am in typescript now.  Is this in my history?'
+#1613267137
+script
+#1613267287
+echo 'Test of my history'
