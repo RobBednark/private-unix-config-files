@@ -1714,6 +1714,9 @@ fi
 # pkill -l  (-l ==> list all signals)
 # pstree -s foo  ==> only show branches with "foo" in them
 # ripgrep (command: rg) (a faster grep; like ag / silver searcher) (brew install ripgrep)
+# rsync -av -e ssh --delete <user>@<host>:<dir_source> <user>@host:<dir_destination>  (typical rsync usage, along with deleting destination files that aren't in source) (note: need rsync installed on <host>, e.g., 'apk add rsync')
+# rsync options: -a (archive mode; same as -rlptgoD (no -H)); -v (verbose); -e ssh (tunnel through ssh connections); -z (compress); --delete
+# rsync example: rsync -av --delete ./foo bednark.org:/tmp
 # strace -p <pid>  ==> see what system calls the process is making; see what it's currently doing
 # tee ==> e.g., grep foo | tee /tmp/out   or   grep foo | tee /tmp/out | grep bar
 # telnet <host> <port>  ==> see if you can connect to something like an http server or db server (similar to "nc -zv <host> <port>" (netcat) (port is open) "netcat -nltp"

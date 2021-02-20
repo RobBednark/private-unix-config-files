@@ -70211,3 +70211,49 @@ ls *backup*
 cat postgres-backup.sh 
 #1613856708
 vim settings-prod.sh 
+#1613863121
+cl
+#1613863123
+ls *rsync*
+#1613863124
+vim *rsync*
+#1613863315
+man rsync
+#1613862886
+j dep
+#1613862889
+vim run_monitor_quizme.sh 
+#1613863565
+cd /tmp
+#1613863570
+find . -type d
+#1613863573
+mkdir mydir
+#1613863574
+cd mydir/
+#1613863577
+touch file1 file2
+#1613863582
+cd ..
+#1613863595
+rsync -av ./mydir/ bednark.org:/tmp
+#1613863690
+man scp
+#1613864307
+man rsync
+#1613864354
+rsync -e ssh -av ./mydir/ bednark.org:/tmp
+#1613864466
+rsync -e ssh -av ./mydir/ root@bednark.org:/tmp
+#1613864480
+type rsync
+#1613864537
+sl
+#1613864558
+rsync -e ssh -av ./mydir/ root@bednark.org:/tmp
+#1613864708
+man rsync
+#1613864566
+j dep
+#1613864570
+vim bootstrap-new-server.sh 
