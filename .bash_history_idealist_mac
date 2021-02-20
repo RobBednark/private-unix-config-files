@@ -69915,3 +69915,299 @@ echo 'I am in typescript now.  Is this in my history?'
 script
 #1613267287
 echo 'Test of my history'
+#1613267415
+grc pseudo
+#1613267421
+grc descr
+#1613267425
+vrc
+#1613267164
+pstree
+#1613267183
+history|tail
+#1613267198
+history > /tmp/h
+#1613267199
+tail /tmp/h
+#1613267210
+history > /tmp/h
+#1613267211
+vim /tmp/h
+#1613267245
+ls -ltr
+#1613267247
+vim typescript 
+#1613267261
+history > /tmp/h
+#1613267262
+vim /tmp/h
+#1613267345
+history|vi -
+#1613267400
+vi <($(history))
+#1613267958
+cdqn
+#1613267960
+git show
+#1613268759
+cdqn
+#1613268762
+gpus
+#1613268766
+j dep
+#1613268779
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1613267540
+pstree
+#1613267549
+pstree|less
+#1613267626
+kill -9 13130 13129
+#1613267629
+pstree|less
+#1613267659
+vim <(echo foo)
+#1613267672
+cat <(echo foo)
+#1613267683
+j dep
+#1613267693
+vim postgres-backup
+#1613267766
+ls -latr
+#1613267779
+vim postgres-backup.sh 
+#1613267851
+j dep
+#1613267853
+vim settings*
+#1613268901
+j dep
+#1613268903
+vim settings.sh 
+#1613267793
+j dep
+#1613267797
+vim README.md 
+#1613268810
+cdqn
+#1613268814
+vim Makefile 
+#1613268923
+j dep
+#1613268930
+git grep postgres.db.name
+#1613269095
+git grep run.qui
+#1613269103
+vim deploy-quizme-app.sh 
+#1613269021
+j de
+#1613269030
+vim run-quizme.sh 
+#1613268601
+sl
+#1613267870
+sl
+#1613318304
+cdjavascript 
+#1613318307
+c
+#1613318315
+vim learn_promise_with_john.js
+#1613317035
+vq
+#1613319921
+cl
+#1613319922
+lh
+#1613319928
+vim bitgo_interview_coding_challenge_graph.py
+#1613334119
+v ool
+#1613334193
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1613334123
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1613334187
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1613334121
+pshd
+#1613434445
+vp
+#1613434453
+ssh-agent; ssh-add ~/.ssh/rob-key-2020-09-08
+#1613434467
+vp
+#1613434240
+vjo
+#1613489674
+vq
+#1613491328
+vjo
+#1613511957
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1613511999
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1613512014
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1613511955
+pshd
+#1613507814
+ps guaxww|grep 46013
+#1613511876
+v ool
+#1613518252
+vjo
+#1613518267
+ps guaxww|grep 46013
+#1613518272
+vjo
+#1613530106
+cl
+#1613530107
+lh
+#1613530114
+vim bitgo_interview_coding_challenge_graph.py
+#1613527328
+vq
+#1613580225
+python --version
+#1613580228
+python3 --version
+#1613580232
+python3
+#1613578304
+cl
+#1613578307
+cdjavascript 
+#1613578309
+c
+#1613578313
+lh
+#1613578319
+vim learn_promise_with_john.js
+#1613591818
+vp
+#1613596334
+cl
+#1613596339
+ls *unittest*py
+#1613596344
+vim learn-unittest-assertItemsEqual.py
+#1613595138
+vjo
+#1613598852
+cl
+#1613598861
+vim gopuff_code_challenge.py
+#1613598981
+vjo
+#1613603253
+vq
+#1613667776
+cl
+#1613667777
+lh
+#1613667782
+vim gopuff_code_challenge.py
+#1613667785
+c
+#1613667788
+lh
+#1613667797
+im bitgo_interview_coding_challenge_graph.py
+#1613667800
+vim bitgo_interview_coding_challenge_graph.py
+#1613662176
+cl
+#1613662178
+lh
+#1613667592
+vp
+#1613674331
+vjo
+#1613674832
+vp
+#1613676103
+vjo
+#1613676519
+vp
+#1613679210
+vq
+#1613676909
+rg -i hurrell $FilesDirsAllGrep 
+#1613677021
+vtodo 
+#1613677032
+vjo
+#1613685515
+vq
+#1613689508
+vp
+#1613692439
+vdiary 
+#1613714239
+vq
+#1613714614
+vp
+#1613717395
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1613717535
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1613717569
+scp -p $DirLearn/get_http_mt_park_rec_center_pool_availability.py root@23.239.1.204:/root
+#1613717393
+pshd
+#1613717381
+v ool
+#1613748695
+vq
+#1613766046
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1613766049
+$DirLearn/get_http_mt_park_rec_center_pool_availability.py --sms-looking-always=rob 
+#1613766044
+pshd
+#1613775997
+vq
+#1613758180
+vp
+#1613782244
+vjo
+#1613783340
+vdiary 
+#1613794430
+vp
+#1613835109
+vq
+#1613836912
+cdqn
+#1613836916
+vqtodo 
+#1613839684
+cl
+#1613839689
+cdjavascript 
+#1613839695
+ls *set*
+#1613839703
+vi learn_setTimeout_sleep.js 
+#1613839735
+cdjavascript 
+#1613839760
+vim learn_promise_settimeout_sleep.js
+#1613761965
+vjo
+#1613770689
+vq
+#1613856634
+j dep
+#1613856635
+sm .
+#1613856648
+ls *backup*
+#1613856652
+cat postgres-backup.sh 
+#1613856708
+vim settings-prod.sh 
