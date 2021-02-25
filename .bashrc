@@ -161,12 +161,13 @@ FileJTmp="$DirDoc/j.interim.txt"
 FileJTmpQuizCopy="$DirQuiz/j.interim.txt"
 FileLearnTodo="$DirQuiz/db_want_to_learn_find_out_get_answers_ask_google_helpouts_stackoverflow_todo.txt"
 FileMyPsychology="$DirDoc/my.psychology.txt"
+FilePaste="$DirTmp/paste"
 FilePeopleHtml="$DirBednarkCom/people.I.know.html"
 FilePeopleTxt="$DirDoc/people.I.know.txt"
 FilePhone="$DirDoc/phone.nums.txt"
 FilePicts="$DirTxt/sent.list.txt"
-FilePingOutput=~/tmp/ping.monitor.$$
-FilePingSymlinkActive=~/tmp/ping.monitor.active
+FilePingOutput=$DirTmp/ping.monitor.$$
+FilePingSymlinkActive=$DirTmp/ping.monitor.active
 FileQuizMeAdd="$DirAddToQuizme/learn_add_to_quizme"
 FileQuizMeLatestTextDump="$DirPrivateQuizMeDbBackups/*.txt"
 FileQuotes="$DirRepoRobBednarkGithubIO/quotes.html"
@@ -660,7 +661,7 @@ alias vmac="title vmac; cd $DirQuiz; vici db_mac"
 alias vmaster.manifest="title vmaster.manifest; cd $DirQuiz; vici master.manifest.txt"
 alias vmisc="cd $DirQuiz; vici db_misc"
 alias vsens-moovel="vici $DirMoovel/moovel-sens.txt"
-alias vp="vici ~/tmp/paste"
+alias vp="vici $FilePaste"
 alias vpeople.quiz="vici $DirQuiz/db_quiz_people"
 alias vprogramming="cd $DirQuiz; vici db_programming"
 alias vpython="title vpython; cd $DirQuiz; vici db_python"
@@ -668,11 +669,14 @@ alias vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
 alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
     git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste; \
     vim $FileQuizMeAdd \
         $FileQuizMeLatestTextDump \
-        $FileDiary; \
+        $FileDiary \
+        $FilePaste; \
     git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
-    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary"
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste"
 alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
 alias vresume="vici $DirTmp/resume-quizme"
