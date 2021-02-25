@@ -70257,3 +70257,609 @@ man rsync
 j dep
 #1613864570
 vim bootstrap-new-server.sh 
+#1613863062
+grc rsync
+#1613863071
+vrc
+#1613867293
+vq
+#1613866039
+cl
+#1613866041
+ls *pipe*sh
+#1613866045
+ls -ltr *pipe*sh
+#1613866053
+vq
+#1613866156
+cl
+#1613866224
+ls *redirect*
+#1613866234
+vim learn.redirect.input.commands.from.lessthan.lessthan.stdin.bash.for.stackoverflow.sh
+#1613866249
+lh
+#1613866251
+ls -ltr
+#1613866281
+vim learn.read.pipe.iterate.through.file.one.line.at.a.time.sh
+#1613866332
+j dep
+#1613866335
+grep redirect *
+#1613866343
+grep pipe *
+#1613867184
+sm .
+#1613867446
+sl
+#1613864838
+j dep
+#1613864840
+ls *sql
+#1613864864
+vim monitor_quizme_app_db.sql 
+#1613865519
+sl
+#1613865949
+vim mon*sh
+#1613865970
+vim run*mon*
+#1613862871
+j dep
+#1613862929
+/run_monitor
+#1613862967
+./run.sh run_monitor_quizme.sh |& tee ~/tmp-no-repo/run_monitor_quizme__$datestamp.log |& less
+#1613862993
+./run.sh settings_prod.sh run_monitor_quizme.sh |& tee ~/tmp-no-repo/run_monitor_quizme__$datestamp.log |& less
+#1613867569
+vq
+#1613860759
+j dep
+#1613860761
+vim set*
+#1613865802
+ls -ltr
+#1613867844
+j dep
+#1613867846
+ls *sett*
+#1613867857
+diff settings-prod.sh settings_prod.sh 
+#1613867933
+rm -f settings-prod.sh 
+#1613867675
+j tmp-__
+#1613867676
+lh
+#1613867681
+ls *backup*
+#1613860699
+j de
+#1613860705
+lh
+#1613860711
+vim run.sh 
+#1613868214
+cdqn
+#1613868215
+sm .
+#1613867663
+j dep
+#1613867724
+./run.sh settings_prod.sh postgres-backup.sh |& tee ~/tmp-no-repo/postgres-backup__$datestamp.log |& less
+#1613868055
+vim LEFTOFF 
+#1613868116
+./run.sh settings_prod.sh postgres-backup.sh |& tee ~/tmp-no-repo/postgres-backup__$datestamp.log |& less
+#1613868311
+sl
+#1613862142
+j dep
+#1613862168
+vim postgres-backup.sh 
+#1613861992
+j dep
+#1613862020
+git mv settings-prod.sh settings_prod.sh
+#1613862407
+vim settings.sh 
+#1613867870
+j dep
+#1613867874
+vim sett*
+#1613867878
+j dep
+#1613867881
+vim sett*
+#1613868514
+j dep
+#1613868516
+gpus
+#1613869436
+cdqn
+#1613869438
+vim Makefile 
+#1613869514
+sl
+#1613869391
+cdqn
+#1613869393
+vim Makefile 
+#1613869472
+j dep
+#1613869479
+vim *me
+#1613869529
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1613870287
+vq
+#1613870527
+docker ps -a
+#1613870530
+docker images -l
+#1613870533
+docker image ls
+#1613870680
+j dep
+#1613870682
+vim Dockerfile-quizme 
+#1613870920
+cdqn
+#1613870922
+vim Makefile 
+#1613870944
+gs
+#1613870948
+git add Makefile 
+#1613870951
+vim Makefile 
+#1613870956
+sm .
+#1613870598
+sl
+#1613870784
+cd /tmp
+#1613870787
+echo foo > file1
+#1613870790
+compress file1
+#1613870794
+uncompress file1
+#1613870798
+cat file1 
+#1613870801
+gzip file1 
+#1613870803
+ls -ltr
+#1613871050
+jobs
+#1613870117
+j dep
+#1613870121
+git grep DB_USER
+#1613870258
+vim LEFTOFF 
+#1613871091
+sm .
+#1613868547
+sl
+#1613868572
+j dep
+#1613868578
+vim run.sh 
+#1613868580
+j dep
+#1613868585
+vim deploy-quizme-app.sh 
+#1613870004
+j dep
+#1613870007
+vim postgres-backup.sh 
+#1613872144
+man rsync
+#1613871749
+pstree|less
+#1613871321
+j dep
+#1613871324
+vim build-and-push-quizme.sh 
+#1613871753
+sm .
+#1613872236
+j dep
+#1613872241
+vim LEFTOFF 
+#1613872352
+docker cp
+#1613872368
+sl
+#1613872763
+j dep
+#1613872766
+vim postgres-backup.sh 
+#1613868098
+j dep
+#1613868140
+j dep__
+#1613868146
+j dep
+#1613868148
+vim LEFTOFF 
+#1613868503
+docker image ls
+#1613868531
+docker-wait-until-engine-is-up; docker image ls
+#1613868678
+./run.sh settings_prod.sh "./deploy-quizme-app.sh --db_name quizme " |& tee ~/tmp-no-repo/deploy-quizme-app-prod-bednark.org-$(datestamp).log |&less
+#1613868793
+./run.sh settings_prod.sh "./deploy-quizme-app.sh" |& tee ~/tmp-no-repo/deploy-quizme-app-prod-bednark.org-$(datestamp).log |&less
+#1613869291
+sm .
+#1613869833
+./run.sh settings_prod.sh "./deploy-quizme-app.sh" |& tee ~/tmp-no-repo/deploy-quizme-app-prod-bednark.org-$(datestamp).log |&less
+#1613869233
+sl
+#1613869356
+./run.sh settings_prod.sh postgres-backup.sh |& tee ~/tmp-no-repo/postgres-backup__$datestamp.log |& less
+#1613869358
+j dep
+#1613869359
+./run.sh settings_prod.sh postgres-backup.sh |& tee ~/tmp-no-repo/postgres-backup__$datestamp.log |& less
+#1613871239
+docker-wait-until-engine-is-up; time ./build-and-push-quizme.sh  |& tee ~/tmp-no-repo/build-quizme-$(datestamp) |&less
+#1613872225
+./run.sh settings_prod.sh postgres-backup.sh |& tee ~/tmp-no-repo/postgres-backup__$datestamp.log |& less
+#1613872264
+gs
+#1613872268
+vim postgres-backup.sh 
+#1613872704
+./run.sh settings_prod.sh postgres-backup.sh |& tee ~/tmp-no-repo/postgres-backup__$datestamp.log |& less
+#1613872811
+sm .
+#1613872840
+j tmp-__
+#1613872843
+ls -ltr
+#1613872853
+vim monitor-nginx-queries-2021.02.10.Wed.18.31.13.log
+#1613873004
+j dep
+#1613873009
+./get-and-load-nginx-logs.sh |& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1613873023
+./get-and-load-nginx-logs.sh settings_prod.sh|& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1613872860
+j dep
+#1613872885
+vim *nginx*sh
+#1613873134
+pstree|less
+#1613873176
+j tmp-
+#1613873178
+ls -ltr
+#1613873186
+less linode-get-and-load-nginx-logs-2021.02.20.Sat.18.04.33.log
+#1613873199
+tail -f linode-get-and-load-nginx-logs-2021.02.20.Sat.18.04.33.log
+#1613876965
+sl
+#1613876269
+man egrep
+#1613876296
+vim /tmp/foo
+#1613876310
+egrep -v 'one' /tmp/foo
+#1613876315
+egrep -v 'one' \ /tmp/foo
+#1613876478
+sl
+#1613878776
+jobs
+#1613876333
+cl
+#1613876336
+ls *concat*sh
+#1613876341
+vim learn-concatenate-strings.bash
+#1613878787
+j dep
+#1613878787
+lh
+#1613875805
+j dep
+#1613875852
+./run.sh settings_prod.sh monitor-var-log-messages-ssh-logins.sh |& tee ~/tmp-no-repo/bednark.org-monitor-var-log-messages__$datestamp |& less
+#1613875927
+sl
+#1613878865
+./run.sh settings_prod.sh monitor-var-log-messages-ssh-logins.sh |& tee ~/tmp-no-repo/bednark.org-monitor-var-log-messages__$datestamp |& less
+#1613875722
+j dep
+#1613875724
+sl
+#1613875726
+gs
+#1613875732
+c
+#1613875748
+vim monitor-var-log-messages-ssh-logins.sh 
+#1613875771
+j dep
+#1613875773
+vim run.sh 
+#1613887726
+j de
+#1613887757
+vim run_monitor_quizme.sh 
+#1613887668
+j de
+#1613887669
+gs
+#1613887671
+gd
+#1613887675
+sm .
+#1613887701
+c
+#1613887711
+vim LEFTOFF 
+#1613887780
+j dep
+#1613887783
+git grep sql
+#1613887899
+vim $(git grep -l sql)
+#1613887909
+vim $(git grep -l psql)
+#1613887826
+sl
+#1613888024
+man psql
+#1613889698
+c
+#1613889700
+j de
+#1613889713
+./run.sh settings_prod.sh run_monitor_quizme.sh |& tee ~/tmp-no-repo/run_monitor_quizme__$datestamp.log |& less
+#1613890054
+c
+#1613890056
+sm .
+#1613890307
+vim security-check.sh 
+#1613889775
+j dep
+#1613889777
+vim monitor_quizme_app_db.sql 
+#1613889556
+vq
+#1613925055
+j cron
+#1613925132
+cdjavascript 
+#1613925782
+vim learn_john_async_promises.js
+#1613925915
+cdjavascript 
+#1613925924
+node learn_john_async_promises.js
+#1613925933
+clear;(set -x; node learn_john_async_promises.js)
+#1613934416
+vpeople
+#1613934372
+vq
+#1613934394
+rg Justice $FilesDirsAllGrep 
+#1613934400
+rg Justice $FilesDirsAllGrep |&less
+#1613933950
+vfamily 
+#1613929998
+v cron
+#1613930004
+j ool
+#1613930008
+cd ..
+#1613930011
+ls *ool*
+#1613930018
+ls *sched*
+#1613930021
+j swim
+#1613930025
+gs .
+#1613930030
+vim crontab 
+#1613930066
+scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l'
+#1613930086
+(set -x; scp -p ~/Dropbox/bin/learn/learn-swim-schedule-backup-linode/crontab  root@23.239.1.204:/root && ssh root@23.239.1.204 'crontab /root/crontab' && ssh root@23.239.1.204 'crontab -l')
+#1613927604
+vp
+#1614012814
+node --version
+#1614007985
+vjs
+#1614008205
+j java
+#1614008208
+lh
+#1614008213
+vim learn_john_async_promises.js
+#1614007787
+vq
+#1614022729
+vjo
+#1614041095
+vp
+#1614042042
+vfam
+#1614042045
+vfamily 
+#1614041523
+vjo
+#1614047847
+j dep
+#1614047866
+ls *gun*
+#1614047871
+vim *me
+#1614047629
+j dep
+#1614047662
+./run.sh settings_prod.sh monitor_gunicorn_log.sh |& tee ~/tmp-no-repo/monitor_gunicorn_log__$datestamp.log |& less
+#1614047356
+j dep
+#1614047358
+gs
+#1614047362
+git show
+#1614047371
+cat run_monitor_quizme.sh 
+#1614047393
+./run.sh settings_prod.sh run_monitor_quizme.sh |& tee ~/tmp-no-repo/run_monitor_quizme__$datestamp.log |& less
+#1614047427
+c
+#1614047443
+cp run_monitor_quizme.sh monitor_gunicorn_log.sh
+#1614047444
+vim monitor_gunicorn_log.sh
+#1614047513
+ls -ltr *sh
+#1614047528
+vim monitor_gunicorn_log.sh run_monitor_quizme.sh monitor-var-log-messages-ssh-logins.sh 
+#1614047784
+vim LEFTOFF 
+#1614050008
+vq
+#1614106461
+vjo
+#1614109151
+cl
+#1614109153
+lh
+#1614109164
+vim gopuff_code_challenge.py
+#1614109500
+vjo
+#1614105258
+vp
+#1614115185
+vresume
+#1614115588
+vq
+#1614116384
+vjo
+#1614116811
+j dep
+#1614116820
+git grep -i gunicorn
+#1614116831
+vim run-quizme.sh TODO.md 
+#1614116864
+j dep
+#1614116878
+./run.sh settings_prod.sh monitor_gunicorn_log.sh |& tee ~/tmp-no-repo/monitor_gunicorn_log__$datestamp.log |& less
+#1614116971
+jobs
+#1614116975
+vim run.sh 
+#1614117104
+sm .
+#1614118712
+vim LEFTOFF TODO.md 
+#1614118728
+git rm LEFTOFF 
+#1614118787
+sm .
+#1614118793
+gs
+#1614118799
+cat LEFTOFF 
+#1614118800
+rm LEFTOFF 
+#1614118804
+git show TODO.md
+#1614118807
+vim TODO.md 
+#1614118882
+sm .
+#1614121415
+vp
+#1614115174
+vjo
+#1614115795
+vdiary 
+#1614123493
+vq
+#1614128555
+vjo
+#1614134404
+vp
+#1614136240
+vq
+#1614152254
+v ool
+#1614184269
+vp
+#1614180737
+vq
+#1614198868
+vp
+#1614202013
+cd tmp
+#1614202015
+du -hs .
+#1614202019
+du -hs *
+#1614202029
+less webapp*
+#1614202044
+rm -f webapp.log*
+#1614202046
+du -hs .
+#1614202049
+du -hs *
+#1614202061
+du -hs *|grep M
+#1614202067
+du -hs *
+#1614202077
+find * -type d 
+#1614202090
+find * -type d |xargs du -sh
+#1614202105
+cd tmp.email.marja.photos/
+#1614202106
+open .
+#1614202129
+cd ..
+#1614202132
+rm -fr  tmp.email.marja.photos/
+#1614202143
+du -hs *
+#1614202150
+du -hs .
+#1614202153
+du -hs .git
+#1614202163
+grc xargs
+#1614198805
+vjo
+#1614202192
+vp
+#1614202200
+cd tmp
+#1614202203
+vp
+#1614203722
+vresume
+#1614207741
+vjo
+#1614217297
+vq
