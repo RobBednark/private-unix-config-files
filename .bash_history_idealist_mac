@@ -70879,3 +70879,31 @@ rg -i first.break $FilesDirsAllGrep
 type vm
 #1614235590
 vm
+#1614235137
+cdqn
+#1614235142
+cd db_dumps 
+#1614235155
+ls -l db_dumps 
+#1614235164
+rm db_dumps 
+#1614235170
+mv OFFICIAL.db_dumps db_dumps
+#1614235183
+cd db_dumps/
+#1614235207
+type vp
+#1614235210
+vrc
+#1614236240
+vq
+#1614294727
+vp
+#1614286150
+cl
+#1614286163
+vim jellyvision_interview_code_review.js
+#1614266584
+vjo
+#1614302644
+vq
