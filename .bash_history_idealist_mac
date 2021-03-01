@@ -71143,3 +71143,13 @@ git grep -i user
 cat settings_prod.sh 
 #1614560010
 vim settings.sh 
+#1614560892
+docker system prune -h
+#1614560922
+docker network rm --prune
+#1614560928
+docker network rm 
+#1614560931
+docker network rm  --help
+#1614560935
+docker network prune
