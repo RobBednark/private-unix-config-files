@@ -70907,3 +70907,239 @@ vim jellyvision_interview_code_review.js
 vjo
 #1614302644
 vq
+#1614303701
+vvimrc 
+#1614303626
+vjo
+#1614357334
+vp
+#1614366545
+vq
+#1614363803
+vjo
+#1614376555
+vq
+#1614380305
+c
+#1614380307
+vjo
+#1614444229
+cl
+#1614444241
+vim turtle_hexagons.py
+#1614439740
+vq
+#1614443779
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1614443783
+pipenv install turtle
+#1614443800
+python --version
+#1614443818
+c
+#1614443821
+python
+#1614445035
+cl
+#1614445038
+python turtle_hexagons.py 
+#1614443776
+pshd
+#1614455890
+vq
+#1614478712
+j tmp-
+#1614478713
+du -hs .
+#1614478719
+ls -lthr
+#1614478725
+ls -lhs
+#1614478734
+ls -lh
+#1614478746
+man ls
+#1614478769
+c
+#1614478773
+ls -lhS
+#1614478776
+ls -lhSr
+#1614478794
+vim linode-get-and-load-nginx-logs-2021.02.20.Sat.18.04.33.log monitor-nginx-queries-2021.02.20.Sat.18.04.33.log 
+#1614478848
+c
+#1614478852
+lh
+#1614478862
+vim linode-get-and-load-nginx-logs-2021.02.20.Sat.18.04.33.log
+#1614478877
+j dep
+#1614478879
+j tmp-
+#1614478881
+lh
+#1614478892
+head monitor-nginx-queries-2021.02.20.Sat.18.04.33.log
+#1614478895
+vim monitor-nginx-queries-2021.02.20.Sat.18.04.33.log
+#1614478901
+lh
+#1614478645
+j de
+#1614478647
+sm .
+#1614478663
+pwd
+#1614478974
+vim get-and-load-nginx-logs.sh 
+#1614479598
+./monitor-nginx-logs.sh |&vi -
+#1614479024
+./get-and-load-nginx-logs.sh settings_prod.sh|& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1614479029
+j dep
+#1614479030
+./get-and-load-nginx-logs.sh settings_prod.sh|& tee ~/tmp-no-repo/linode-get-and-load-nginx-logs-$(datestamp).log |&v-
+#1614479039
+j tmp-
+#1614479039
+lh
+#1614479048
+tail -f linode-get-and-load-nginx-logs-2021.02.27.Sat.18.23.50.log
+#1614479067
+vim -R linode-get-and-load-nginx-logs-2021.02.27.Sat.18.23.50.log
+#1614479344
+j dep
+#1614479345
+lh
+#1614479349
+vim *sql
+#1614479890
+j dep
+#1614479891
+l
+#1614479912
+./run.sh settings_prod.sh monitor-var-log-messages-ssh-logins.sh |& tee ~/tmp-no-repo/bednark.org-monitor-var-log-messages__$datestamp |& less
+#1614480121
+c
+#1614480137
+./run.sh settings_prod.sh monitor_gunicorn_log.sh |& tee ~/tmp-no-repo/monitor_gunicorn_log__$datestamp.log |& less
+#1614480147
+c
+#1614480201
+vi monitor_quizme_app_db.sql 
+#1614480203
+c
+#1614480210
+vim monitor_quizme_app_db.sql 
+#1614480224
+git grep monitor.quizm
+#1614480230
+vim run_monitor_quizme.sh 
+#1614480264
+./run.sh settings_prod.sh run_monitor_quizme.sh |& tee ~/tmp-no-repo/run_monitor_quizme__$datestamp.log |& less
+#1614480309
+c
+#1614478676
+j dep
+#1614478677
+vim README.md 
+#1614479995
+j dep
+#1614479996
+lh
+#1614480000
+vim monitor-var-log-messages-ssh-logins.sh 
+#1614527340
+vp
+#1614559115
+git grep scp
+#1614559136
+j dep
+#1614559141
+git grep scp
+#1614559471
+j db_dump
+#1614559477
+cd private-quiz-me-db-backups/
+#1614559496
+gs
+#1614559498
+gpus
+#1614559503
+cat save-to-dropbox-and-git.sh 
+#1614559644
+gs
+#1614559647
+echo $?
+#1614559653
+vim README.md 
+#1614559656
+gs
+#1614559657
+echo $?
+#1614559661
+gd
+#1614559664
+git checkout README.md
+#1614559667
+gs
+#1614559828
+vim save-to-dropbox-and-git.sh 
+#1614559912
+gs
+#1614560095
+ls quizme_backups/
+#1614560121
+cat update.sh 
+#1614559400
+j dep
+#1614559402
+ls *scp*
+#1614559418
+scp_db_dumps.sh
+#1614559420
+vim scp_db_dumps.sh
+#1614559876
+chmod a+x scp_db_dumps.sh 
+#1614559907
+./scp_db_dumps.sh settings_prod.sh |& tee -a ~/tmp-no-repo/scp_db_dumps__$datestamp.log |& less
+#1614560073
+vim scp_db_dumps.sh 
+#1614560084
+./scp_db_dumps.sh settings_prod.sh |& tee -a ~/tmp-no-repo/scp_db_dumps__$datestamp.log |& less
+#1614560137
+j dumps
+#1614560140
+cd private-quiz-me-db-backups/
+#1614560146
+rm -fr quizme_backups/
+#1614560151
+j dep
+#1614560152
+vim README.md 
+#1614559160
+j dep
+#1614559162
+vim run.sh 
+#1614559168
+git grep rsync
+#1614559173
+pwd
+#1614559173
+jobs
+#1614559193
+vim postgres-backup.sh 
+#1614559737
+./run.sh settings_prod.sh postgres-backup.sh |& tee ~/tmp-no-repo/postgres-backup__$datestamp.log |& less
+#1614559943
+git grep ssh
+#1614559963
+git grep root
+#1614559981
+git grep -i user
+#1614559994
+cat settings_prod.sh 
+#1614560010
+vim settings.sh 
