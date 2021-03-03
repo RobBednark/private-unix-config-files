@@ -71153,3 +71153,385 @@ docker network rm
 docker network rm  --help
 #1614560935
 docker network prune
+#1614560683
+man head
+#1614560700
+head -n 0 typescript 
+#1614560704
+head -n 1 typescript 
+#1614560707
+head -n -1 typescript 
+#1614560729
+docker ps
+#1614560732
+docker image ls
+#1614560734
+docker image ls -a
+#1614560755
+docker ps -a
+#1614560767
+docker-list-all-stuff 
+#1614560798
+docker-rm-everything
+#1614560813
+docker-list-all-stuff 
+#1614560816
+docker-rm-everything
+#1614560820
+docker-list-all-stuff 
+#1614560842
+docker network
+#1614560852
+docker network ls -a
+#1614560855
+docker network ls 
+#1614560859
+docker network prune
+#1614560865
+docker network prune -f
+#1614560870
+vrc
+#1614560236
+j dep
+#1614560240
+ls *ever*
+#1614560242
+vim do-everything.sh 
+#1614560265
+j dep
+#1614561463
+vim build-and-push-*
+#1614559092
+j dep
+#1614559095
+gs 
+#1614559101
+vim README.md TODO.md 
+#1614560662
+j dep
+#1614560674
+vim build-and-push-nginx.sh 
+#1614560991
+gs
+#1614560993
+sm .
+#1614561076
+./do-everything.sh |& tee ~/tmp-no-repo/do-everything__$datestamp.log |& less
+#1614561515
+vim Dockerfile-*
+#1614561530
+./do-everything.sh |& tee ~/tmp-no-repo/do-everything__$datestamp.log |& less
+#1614569495
+vim bootstrap-new-server.sh 
+#1614571651
+j dep
+#1614571656
+grep settings *
+#1614571663
+vim postgres-backup.sh 
+#1614582622
+cl
+#1614582625
+v hex
+#1614582846
+vim turtle_hexagons_from_stackoverflow.py
+#1614615094
+cd /tmp/
+#1614615099
+c
+#1614615102
+cd interview_code_review_9682/
+#1614615130
+vim *spec*
+#1614613030
+cd /tmp
+#1614613032
+git clone git@github.com:Invoca/interview_code_review_9682.git
+#1614613038
+cd interview_code_review_9682/
+#1614613038
+c
+#1614613042
+vim README.md 
+#1614613055
+git branch
+#1614613062
+git branch -a
+#1614613072
+gco add_phone_number_class
+#1614613081
+git checkout git@github.com:Invoca/interview_code_review_9682.git
+#1614613085
+c
+#1614613089
+git branch -a
+#1614613096
+git checkout add_phone_number_class
+#1614613099
+git log
+#1614613245
+git remote add origin git@github.com:RobBednark/private-invoca-code-review.git
+#1614613281
+git remote -h
+#1614613300
+git remote remove origin
+#1614613303
+git remote add origin git@github.com:RobBednark/private-invoca-code-review.git
+#1614613321
+git push
+#1614613380
+git log
+#1614613495
+git branch -a
+#1614613502
+git checkout main
+#1614613503
+git log
+#1614613505
+git push
+#1614613875
+c
+#1614613880
+git branch -a
+#1614613883
+gch-
+#1614613889
+ruby --version
+#1614613899
+ruby phone_number_spec.rb 
+#1614614052
+vim Gemfile
+#1614614058
+type bundle
+#1614614069
+brew info bundle
+#1614614098
+type gem
+#1614614108
+gem install bundler
+#1614614158
+ruby --version
+#1614614207
+brew info ruby
+#1614614291
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+#1614614299
+ruby --version
+#1614614308
+type bundler
+#1614614330
+type bundle
+#1614614336
+bundle install --path .bundle
+#1614614367
+ruby phone_number_spec.rb 
+#1614614405
+bundle exec rspec
+#1614614420
+bundle exec rspec phone_number_spec.rb 
+#1614615075
+vim phone_number_spec.rb 
+#1614615116
+bundle exec rspec phone_number_spec.rb 
+#1614612748
+vq
+#1614624943
+vp
+#1614624026
+vjo
+#1614625511
+vp
+#1614625400
+vq
+#1614626320
+vp
+#1614626199
+vp
+#1614633570
+vq
+#1614636115
+ruby
+#1614636127
+ruby --help
+#1614636164
+type irb
+#1614636166
+irb --help
+#1614636176
+irb
+#1614636938
+cd /tmp/interview_code_review_9682/
+#1614636941
+git grep to_i
+#1614638901
+cat README.md 
+#1614638914
+vim ph*
+#1614639493
+cd /tmp/interview_code_review_9682/
+#1614639503
+history|grep spec
+#1614639514
+history > /tmp/history
+#1614639516
+grep spec /tmp/history
+#1614639567
+grep bundle /tmp/history
+#1614639596
+bundle install --help
+#1614639614
+type bundle
+#1614639624
+grep PATH /tmp/history 
+#1614639767
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+#1614639771
+gs
+#1614639778
+ls .bundle
+#1614639783
+bundle exec rspec phone_number_spec.rb 
+#1614639977
+gem which json
+#1614639981
+gem which rspec
+#1614639986
+gem which Rspec
+#1614640001
+bundle exec gem which rspec
+#1614640007
+bundle exec gem which json
+#1614640051
+bundle exec gem list json
+#1614640066
+cat Gemfile
+#1614640069
+cat Gemfile.lock 
+#1614640579
+vim Gemfile
+#1614640658
+bundle install --path .bundle
+#1614640976
+bundle exec rspec
+#1614640984
+bundle exec rspec phone_number_spec.rb 
+#1614641015
+gd
+#1614641144
+git checkout phone_number_spec.rb
+#1614641176
+bundle exec rspec phone_number_spec.rb 
+#1614641269
+mkdir spec
+#1614641274
+mv phone_number_spec.rb spec
+#1614641279
+bundle exec rspec 
+#1614641299
+ls spec
+#1614641312
+bundle exec rspec
+#1614641330
+vim spec/phone_number_spec.rb 
+#1614641342
+bundle exec rspec
+#1614641383
+ls spec
+#1614641452
+vim spec/phone_number_spec.rb 
+#1614641467
+bundle exec rspec
+#1614641514
+mkdir lib
+#1614641523
+ls spec
+#1614641529
+ls pho*
+#1614641538
+mv pho* lib
+#1614641542
+bundle exec rspec
+#1614641779
+ls lib
+#1614639345
+cd /tmp/interview_code_review_9682/
+#1614639348
+vim Gemfile
+#1614639362
+vim questions
+#1614634976
+cd /tmp/interview_code_review_9682/
+#1614634977
+gs
+#1614634981
+git remote -v
+#1614634985
+vim *rb
+#1614642005
+vim lib/* spec/phone_number_spec.rb 
+#1614639935
+gem which json
+#1614640223
+cd /tmp/interview_code_review_9682/
+#1614640227
+bundle exec rspec phone_number_spec.rb 
+#1614640230
+bundle exec phone_number_spec.rb 
+#1614640238
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+#1614640240
+bundle exec phone_number_spec.rb 
+#1614640251
+bundle exec ruby rob.rb 
+#1614640438
+vim rob.rb 
+#1614640494
+bundle exec ruby rob.rb 
+#1614640520
+gem which json
+#1614640524
+gem which rest-client
+#1614640527
+gem which rest_client
+#1614640694
+gem which rest-client
+#1614640700
+bundle exec gem which rest-client
+#1614640706
+bundle exec ruby rob.rb 
+#1614640711
+vim rob.rb 
+#1614640808
+bundle exec ruby rob.rb 
+#1614644491
+c
+#1614644498
+vim spec/phone_number_spec.rb 
+#1614646056
+j inter
+#1614646064
+irb
+#1614637610
+vq
+#1614699821
+cl
+#1614699828
+lh
+#1614699835
+vim turtle_hexagons_from_stackoverflow.py
+#1614703099
+cl
+#1614703103
+ls *dir*py
+#1614714299
+cl
+#1614714303
+ls *unittest*py
+#1614714317
+cp learn_unittest.py template_with_unittest.py
+#1614714318
+vim template_with_unittest.py
+#1614714270
+vjo
+#1614726126
+vp
