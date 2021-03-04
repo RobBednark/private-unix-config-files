@@ -661,22 +661,34 @@ alias vmac="title vmac; cd $DirQuiz; vici db_mac"
 alias vmaster.manifest="title vmaster.manifest; cd $DirQuiz; vici master.manifest.txt"
 alias vmisc="cd $DirQuiz; vici db_misc"
 alias vsens-moovel="vici $DirMoovel/moovel-sens.txt"
-alias vp="vici $FilePaste"
+alias vp="\
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
+    vim \
+        $FilePaste \
+        $FileQuizMeAdd \
+        $FileDiary \
+        $FileQuizMeLatestTextDump \
+        ;
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste;
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary" \
 alias vpeople.quiz="vici $DirQuiz/db_quiz_people"
 alias vprogramming="cd $DirQuiz; vici db_programming"
 alias vpython="title vpython; cd $DirQuiz; vici db_python"
 alias vquiz="cd $DirQuiz; vici *xie *nix *apps *thon *ogy"
 alias vq="\
     git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
-    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
     git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
     vim $FileQuizMeAdd \
         $FileQuizMeLatestTextDump \
         $FileDiary \
         $FilePaste; \
     git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
-    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
-    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste"
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste;
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary" \
 alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
 alias vresume="vici $DirTmp/resume-quizme"
