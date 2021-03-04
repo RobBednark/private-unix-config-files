@@ -71535,3 +71535,105 @@ vim template_with_unittest.py
 vjo
 #1614726126
 vp
+#1614738729
+vq
+#1614738837
+vq
+#1614738528
+j dep
+#1614738562
+./run.sh bednark.org "./postgres-load-data.sh --db_name quizme --dump_file /root/postgres_dumps/latest.custom.all " |& tee ~/tmp-no-repo/postgres-load-data-bednark.org-$(datestamp).log |&less
+#1614740379
+vq
+#1614739076
+ . /Users/rbednark/.virtualenvs/quizme-read-only-prod-7Es8yr1p/bin/activate
+#1614739076
+python manage.py runserver --insecure 0.0.0.0:8000
+#1614738967
+vq
+#1614738983
+grc quizme
+#1614738992
+vrc
+#1614739031
+grc quizme
+#1614739074
+rqr
+#1614740824
+vp
+#1614741266
+vq
+#1614737886
+j dep
+#1614737892
+git grep settings.sh
+#1614737910
+grc git.grep
+#1614737920
+vim.git.grep settings.sh
+#1614738458
+k
+#1614738459
+vim.git.grep settings.sh
+#1614737928
+j dep
+#1614737933
+git grep file.sett
+#1614737942
+vim deploy-quizme-app.sh 
+#1614738472
+vim.git.grep postgres.load.data.sh
+#1614788749
+cl
+#1614788757
+ls *func*py|grep var
+#1614788767
+vim learn.static.func.variable.py
+#1614788060
+cl
+#1614788069
+lh
+#1614788083
+vim turtle_hexagons.py
+#1614790202
+type v
+#1614790186
+cl
+#1614790187
+lh
+#1614790192
+vim turtle_hexagons.py 
+#1614786636
+vp
+#1614802686
+cl
+#1614802697
+lh
+#1614802711
+cp template_with_unittest.py rainfall.py
+#1614802712
+vim rainfall.py
+#1614802964
+python
+#1614796805
+vq
+#1614800903
+vjo
+#1614808061
+vq
+#1614819918
+vp
+#1614838982
+cl
+#1614838984
+lh
+#1614838988
+vim turtle_hexagons_from_stackoverflow.py
+#1614838731
+cl
+#1614838731
+lh
+#1614838737
+vim turtle_hexagons.py 
+#1614879778
+vp
