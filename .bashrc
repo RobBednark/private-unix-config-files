@@ -670,10 +670,11 @@ alias vp="\
         $FileQuizMeAdd \
         $FileDiary \
         $FileQuizMeLatestTextDump \
-        ;
+        ; \
     git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
-    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste;
-    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary" \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
+    " 
 alias vpeople.quiz="vici $DirQuiz/db_quiz_people"
 alias vprogramming="cd $DirQuiz; vici db_programming"
 alias vpython="title vpython; cd $DirQuiz; vici db_python"
@@ -685,10 +686,12 @@ alias vq="\
     vim $FileQuizMeAdd \
         $FileQuizMeLatestTextDump \
         $FileDiary \
-        $FilePaste; \
+        $FilePaste \
+        ; \
     git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
-    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste;
-    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary" \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
+    "
 alias vqtodo='cdquizme-prod; vim TODO.md'
 alias vquizmedb-second-file="vim  $DirQuizMeProd/db_dumps/latest.dump.txt"
 alias vresume="vici $DirTmp/resume-quizme"
