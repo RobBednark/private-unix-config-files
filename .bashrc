@@ -636,7 +636,20 @@ alias vatlatl="title vatlatl; vici $DirQuiz/db_atlatl"
 alias vcoverletters="title cover.letters; vici $DirQuiz/job_cover_letters_applications.txt"
 alias vd=vdiary
 alias vdaily="title vdaily; cd $DirQuiz; vici db_daily_review"
-alias vdiary="title vdiary; vici $FileDiary"
+alias vdiary="\
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
+    vim \
+        $FilePaste \
+        $FileQuizMeAdd \
+        $FileDiary \
+        $FileQuizMeLatestTextDump \
+        ; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileQuizMeAdd; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FilePaste; \
+    git.commit.all.modified.and.new.for.repo.of.given.file $FileDiary; \
+    " 
 alias vdjango="title vdjango; cd $DirQuiz; vici db_django"
 alias vfamily="cdfam; vim -R docs.July.1.Fri/r*txt gedcoms-from-ancestry.com/*.ged"
 alias vfun="cd $DirQuiz; vici db_fun"
