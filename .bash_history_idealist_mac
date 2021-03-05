@@ -71665,3 +71665,89 @@ cdstatements
 mkdir invoca
 #1614887948
 vjo
+#1614899814
+vvimrc 
+#1614902716
+vres
+#1614902720
+resume.pdf 
+#1614904483
+vp
+#1614904936
+vq
+#1614907368
+vp
+#1614909333
+vq
+#1614909576
+vq
+#1614926027
+cl
+#1614926029
+sm .
+#1614926052
+lh
+#1614926111
+mv rainfall.py invoca_code_challenge_rainfall.py
+#1614926156
+cl
+#1614926157
+lh
+#1614926162
+vim turtle_hexagons_from_stackoverflow.py
+#1614926614
+vq
+#1614960947
+cl
+#1614960953
+python3 turtle_hexagons.py 
+#1614960969
+python3 turtle_hexagons_from_stackoverflow.py 
+#1614960372
+cl
+#1614960374
+lh
+#1614960395
+vim turtle_hexagons_from_stackoverflow.py
+#1614958512
+vjo
+#1614959438
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1614959445
+pipenv -h
+#1614959778
+cl
+#1614959779
+lh
+#1614959788
+vim turtle_hexagons.py
+#1614959342
+cdqn
+#1614959345
+vim Pipfile
+#1614959431
+c
+#1614959434
+pshd
+#1614958183
+ . /Users/rbednark/.virtualenvs/requests-fAue8chj/bin/activate
+#1614958186
+pip freeze
+#1614958199
+pip install jupyter
+#1614959403
+pipenv -h
+#1614959420
+pipenv install jupyterlab
+#1614959652
+jupyter lab
+#1614958181
+pshd
+#1614963701
+history > /tmp/h
+#1614963704
+vim /tmp/h
+#1614962998
+vq
+#1614977921
+vp
