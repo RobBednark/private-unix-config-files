@@ -249,6 +249,7 @@ alias cdquizme-prod="cd $DirQuizMeProd"
 alias cdreact="cd $DirLearn/learn-react/create-react-app"
 alias cdresume=cdprivate-rbednark-general
 alias cdresume-prev="cd $DirResumePrev"
+alias cdroam="cd $DirReposRob/private-rbednark-roam-research-notes"
 alias cdrobbednark-github-io-website="cd $DirRepoRobBednarkGithubIO"
 alias cdscrapy="cd $DirLearn/scrapy"
 alias cdstatements="cd $DirDropbox/Statements.and.bills"
