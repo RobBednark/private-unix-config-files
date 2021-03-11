@@ -71751,3 +71751,233 @@ vim /tmp/h
 vq
 #1614977921
 vp
+#1614978769
+vq
+#1614978707
+vrc
+#1614978758
+vd
+#1614978695
+vdiary 
+#1614979708
+vq
+#1614983828
+vjo
+#1615012184
+rg -i kade $FilesDirsAllGrep 
+#1615012201
+rg -i '\<kade\>' $FilesDirsAllGrep 
+#1615012213
+man rg
+#1615012244
+rg -i '\bkade\b' $FilesDirsAllGrep 
+#1615012270
+rg -i '\bkade' $FilesDirsAllGrep 
+#1614987179
+vq
+#1615087677
+vp
+#1615133691
+cl
+#1615133710
+mv ~/Downloads/diagrams.js redblobgames_hexagons_diagrams.js
+#1615133721
+mv ~/Downloads/index.js redblobgames_index.js
+#1615133723
+vi redb*
+#1615159347
+vq
+#1615159248
+vq
+#1615173298
+vp
+#1615217103
+cd /tmp
+#1615217104
+ls -altr
+#1615217141
+cddo
+#1615217144
+cddownloads 
+#1615217145
+lh
+#1615217149
+cd Roam-Export-1615217121878
+#1615217150
+c
+#1615217152
+vim *
+#1615216161
+vdiary 
+#1615222303
+cd /tmp
+#1615222304
+ls -altr
+#1615222307
+cd tmp
+#1615222309
+cd
+#1615222310
+cd tmp
+#1615222311
+ls -altr
+#1615222324
+vi backup-rob_graph_1_2021-03-05-2021-03-08-0*
+#1615222335
+ls -ltrh
+#1615223096
+vq
+#1615245953
+ls -ld *repo*
+#1615245956
+cd repos.rob/
+#1615245970
+mkdir private-rbednark-roam-research-notes
+#1615246028
+rmdir private-rbednark-roam-research-notes
+#1615246031
+git clone git@github.com:RobBednark/private-rbednark-roam-research-notes.git
+#1615246034
+cd private-rbednark-
+#1615250497
+ls -ltr
+#1615250499
+cd *s
+#1615250503
+git add .
+#1615250511
+gco
+#1615250521
+gpus
+#1615250537
+ls -ltr
+#1615250614
+c
+#1615250617
+ls -ltr
+#1615250623
+cd *27
+#1615250626
+cd ..
+#1615250626
+c
+#1615250653
+ln -s *27 markdown
+#1615250661
+ls -l
+#1615250664
+cd *79
+#1615250666
+cd ..
+#1615250668
+ls *27
+#1615250669
+c
+#1615250676
+diff -r *79 *27
+#1615250687
+ls *wn
+#1615250689
+ls -ld *wn
+#1615250728
+vim *json
+#1615250743
+rm rob_graph_1_2021-03-05\ 2.json 
+#1615250762
+ls -ltr
+#1615250767
+git add rob_graph_1_2021-03-05.json 
+#1615250780
+gcom 'add json backup rob_graph_1_2021-03-05.json'
+#1615250787
+gcam 'add json backup rob_graph_1_2021-03-05.json'
+#1615250788
+gs
+#1615250793
+gd
+#1615250795
+git log
+#1615250799
+git show
+#1615250814
+git.log.filenames.only 
+#1615250824
+git.log.filenames.changed
+#1615250829
+gs
+#1615250830
+gpus
+#1615250833
+ls -altr
+#1615250834
+gs
+#1615250839
+rm *zip
+#1615250844
+gs
+#1615250846
+ls -l
+#1615250855
+rm markdown
+#1615250863
+gs
+#1615250886
+rm -fr Roam-Export-1615249969979/
+#1615250888
+gs
+#1615250898
+mv Roam-Export-1615250491027 markdown
+#1615250900
+gs
+#1615250903
+dir add markdown/
+#1615250906
+git add markdown/
+#1615250917
+gcm 'add initial markdown'
+#1615250923
+gcam 'add initial markdown'
+#1615250925
+gs
+#1615250927
+gpus
+#1615250945
+mkdir edn
+#1615250951
+git mv backup-rob_graph_1_2021-03-05-2021-03-08-16-41-24.edn edn
+#1615250953
+gs
+#1615250965
+gcam 'moved edn backup to edn directory'
+#1615250966
+gs
+#1615250967
+gpus
+#1615308656
+cl
+#1615308665
+ls -ld *html*
+#1615308669
+mkdir vue.js
+#1615308670
+cd vue.js
+#1615308672
+c
+#1615308696
+vim hello_world.html
+#1615311867
+vq
+#1615311397
+vdiary 
+#1615314138
+cd /tmp
+#1615314151
+pbpaste > image_from_clipboard.jpg
+#1615314154
+open image_from_clipboard.jpg
+#1615314160
+ls -altr
+#1615314830
+vq
+#1615335648
+vp
